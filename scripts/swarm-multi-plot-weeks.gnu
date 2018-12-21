@@ -55,8 +55,8 @@ set rmargin 15
 set tmargin 20
 set bmargin 20
 
-FILES = system("find . -type f -name '*.csv' ")
-TITLES = system("find . -type f -name '*.csv' | sed -e 's/-weeks.csv//' -e 's|^\./||' ")
+FILES = system("find . -type f -name '*.csv' | sort")
+TITLES = system("find . -type f -name '*.csv' | sort | sed -e 's/-weeks.csv//' -e 's|^\./||' ")
 
 
 set xtics 1 rotate by 90 right
