@@ -1,0 +1,67 @@
+{
+    "data-version": "20190929"
+
+    "duration": "2019-07-19-to-2019-09-26",
+
+    "collection-name": "Queer Eye 2019",
+    "collection-id": "4",
+    "collection-btiha-size": 91,
+    "collection-tag-genre": "reality, queer",
+    "collection-tag-production": "atl",
+    "collection-tag-distribution": "netflix",
+
+    "summary-type": "cumulative",
+    "summary-index": 0,
+    "upeers-total": 2798123,
+    "useeds-total": 85246,
+    "anomaly": 8,
+
+    by_torrent  :
+    {
+	// top 10 btiha elements (torrents)
+	// [ rank, tid, percentage of total unique peers, name ]
+    }
+
+    by_geo  :
+    {
+	// top 100 countries
+	// [ rank, % of total unique peers, country code, name ]
+
+	// top 100 country-region-cities
+	// [ rank, % of total unique peers, swarm size, geo code, name ]
+
+	// top 100 dense cities
+	// [ rank, % of total unique peers, swarm size, geo code, name ]
+
+	"anomaly_ratio": 8,
+	"dense_sparse_ratio": 8,
+    }
+
+    by_geo_slice_longitude_regions  :
+    {
+	// for each of [ americas, afroeurasia, pacificas ]
+	// [ rank, % of total unique peers, swarm size, slice name ]
+    }
+
+    by_tor_nodes  :
+    {
+	"node_used": 8,
+	"node_used_ratio": 8,  // above over total size of exit nodes
+	// ??? nodes with most btiha hits
+    }
+
+    by_media_characteristic  :
+    {
+	// for each of characteristics
+	//   [ hd-4k, hd-1080p, hd-720p, sd-264, sd-xvid, sd-other ]
+	// [ rank, % of total unique peers, swarm size, characteristic name ]
+    }
+
+    by_distributed_bytes  :
+    {
+	"total_units": [gb, tb, pb]
+	"total_size": 8,
+	"total_cost": 8,
+    }
+
+}
