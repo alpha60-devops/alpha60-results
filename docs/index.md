@@ -1,7 +1,6 @@
-![alpha60](https://raw.githubusercontent.com/bdekoz/alpha60-results/master/docs/image/identity/a60-logo-outline.svg)
 
+The alpha60 data interchange documentation. The project exports two
+types of data:
 
-The alpha60 data docs
-
-*<a href="data-csv.html">csv</a>
-*<a href="data-json.html">json</a>
+* <a href="data-csv.html">csv</a> files, which contain details of per-duration (day, week hour) swarm phenomena
+* <a href="data-json.html">json</a> files, which contain details of cumulative swarm phenomena
