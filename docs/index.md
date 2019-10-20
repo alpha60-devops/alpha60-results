@@ -1,4 +1,6 @@
-//<img src="image/identity/a60-logo-outline.svg?sanitize=true" height="256" width="256">
+<!--
+<img src="image/identity/a60-logo-outline.svg?sanitize=true" height="256" width="256">
+-->
 
 The alpha60 data interchange documentation. The project exports two
 types of data:
