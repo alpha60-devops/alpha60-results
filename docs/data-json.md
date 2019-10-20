@@ -1,7 +1,7 @@
 
-#Documentaiton for the alpha60 JSON files
+#Documentation for the alpha60 JSON files
 
-```js
+```
 {
 // Version number for data migration and feature checks
     "data-version": "20191004",

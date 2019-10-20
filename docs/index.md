@@ -1,3 +1,4 @@
+<img src="image/identity/a60-logo-outline.svg?sanitize=true" height="512" width="512">
 
 The alpha60 data interchange documentation. The project exports two
 types of data:

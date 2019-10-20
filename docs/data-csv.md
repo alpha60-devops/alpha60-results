@@ -1,7 +1,7 @@
 
-#Documentaiton for the alpha60 CSV files
+#Documentation for the alpha60 CSV files
 
-```js
+```
 // index, unique peers, unique seeds, new peers, new seeds, duration
 0,0,0,0,0,XXXX-XX-XX-to-XXXX-XX-XX
 
