@@ -1,5 +1,5 @@
 {
-    "data-version": "20191004",
+    "data-version": "20191009",
     "duration": "2018-07-27-to-2018-09-14",
     "collection-name": "Orange Is The New Black",
     "collection-id": "6",
@@ -22,7 +22,9 @@
     },
     "transfer-units": "terabyte",
     "transfer-size": 25772.123895417233,
-    "transfer-cost": "",
+    "transfer-price-1-name": "CloudFront-1-year",
+    "transfer-price-1-per-gigabyte-cost": 0.005,
+    "transfer-price-1-USD": 296860.6194770862,
     "resolution-partitions": [
         {
             "number": 1,
@@ -70,18 +72,23 @@
     "geo-slices-3-longitude-regions": [
         {
             "number": 1,
-            "name": "AfroEurAsia",
-            "total-percentage-upeers": "41.46"
+            "name": "Afro Eur Asia",
+            "total-percentage-upeers": "41.60"
         },
         {
             "number": 2,
             "name": "Americas",
-            "total-percentage-upeers": "36.93"
+            "total-percentage-upeers": "30.73"
         },
         {
             "number": 3,
-            "name": "AsiaPacifica",
-            "total-percentage-upeers": "21.61"
+            "name": "Asia Pacifica",
+            "total-percentage-upeers": "21.00"
+        },
+        {
+            "number": 4,
+            "name": "Pacifica Americas",
+            "total-percentage-upeers": "6.25"
         }
     ],
     "geo-country-top-10": [
