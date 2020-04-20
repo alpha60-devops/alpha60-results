@@ -1,5 +1,19 @@
 2020-04-19  Benjamin De Kosnik  <bkoz@gnu.org>
 
+	Update to current results. Add datestamp to generated plots.
+	* csv/day-ubtiha/altered-carbon-02-days.csv
+	* csv/week-ubtiha/altered-carbon-02-weeks.csv
+	* json/cumulative/altered-carbon-02-cumulative-summary.json
+
+	* scripts/sort-slices-by-country-duration.sh: New.
+	* scripts/sort-slices-by-resolutions-duration.sh: Fix up as per above.
+	* scripts/swarm-multi-plot-days-plus.gnu: New.
+	* scripts/swarm-multi-plot-weeks-plus.gnu: Match as above.
+
+	* scripts/swarm-multi-plot-days.gnu: Delete unused.
+
+2020-04-19  Benjamin De Kosnik  <bkoz@gnu.org>
+
 	* scripts/sort-slices-by-resolutions-duration.sh: Slice like so.
 	* scripts/swarm-multi-plot-weeks-plus.gnu: Add in dates.
 

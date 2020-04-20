@@ -8,6 +8,12 @@ IDIR=$1
 # week, day
 DURATION=$2
 
+if [ ! -n "$IDIR" ] || [ ! -n "$DURATION" ]; then
+    echo "Directory or Duration argument not supplied, exiting";
+    exit 1;
+fi
+
+
 cd $IDIR
 
 mkdir slice;
@@ -35,4 +41,5 @@ mv $draw r720-${DURATION}s.csv;
 $src/alpha60/scripts/convert-swarm-json-5-to-csv.sh ./slice.sd ${DURATION};
 mv $draw rsd-${DURATION}s.csv;
 
-gnuplot $src/alpha60-results/scripts/swarm-multi-plot-${DURATION}s.gnu
+gplotsrc="${src}/alpha60-results/scripts/swarm-multi-plot-${DURATION}s-plus.gnu"
+gnuplot $gplotsrc

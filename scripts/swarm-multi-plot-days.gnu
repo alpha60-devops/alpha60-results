@@ -63,19 +63,7 @@ set xtics 1 rotate by 90 right
 set xlabel "DAYS" font "Apercu,24" offset 0,-1
 set output 'multi-day.svg'
 
-#set xlabel "WEEKS" font "Apercu,24" offset 0,-1
-#set output 'multi-week.svg'
-
-#plot for [data in FILES] data u 1:2
-#plot for [data in FILES] data u 1:2 w p pt 1 lt rgb 'black' notitle
-
-#plot for [i=1:words(FILES)] word(FILES,i) u 1:2 w p pt 1 title word(TITLES,i)
-
 # pointsize 0.5, 0.75, 1
 plot for [i=1:words(FILES)] word(FILES,i) u 1:2 with linespoints pointsize 0.75 title word(TITLES,i)
 
-#plot for [i=1:words(FILES)] word(FILES,i) using 1:2 with linespoints ls 9 title word(TITLES,i)
 
-
-
-#plot 'multi-days.csv' using 1:2 with linespoints ls 1

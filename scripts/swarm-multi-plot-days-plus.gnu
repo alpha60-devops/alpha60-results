@@ -56,13 +56,13 @@ set tmargin 20
 set bmargin 20
 
 FILES = system("find . -type f -name '*.csv' | sort")
-TITLES = system("find . -type f -name '*.csv' | sort | sed -e 's/-weeks.csv//' -e 's|^\./||' ")
+TITLES = system("find . -type f -name '*.csv' | sort | sed -e 's/-days.csv//' -e 's|^\./||' ")
 
 
 set xtics 1 rotate by 90 right nomirror font "SourceCodePro-Light,9"
 
-set xlabel "WEEKS" font "Apercu,24" offset 0,-12
-set output 'multi-week.svg'
+set xlabel "DAYS" font "Apercu,24" offset 0,-12
+set output 'multi-day.svg'
 
 set multiplot
 
@@ -86,7 +86,7 @@ FILET = system("find . -type f -name '*.csv' | sort | head -1")
 print "using file for dates: "
 print FILET
 
-#plot 'r4k-weeks.csv' using 1:2:xticlabels(6)
+#plot 'r4k-days.csv' using 1:2:xticlabels(6)
 
 plot FILET using 1:2:xticlabels(sprintf('%s  %5u', stringcolumn(6), column(1))) notitle
 
