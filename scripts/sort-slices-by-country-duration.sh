@@ -21,6 +21,10 @@ mkdir logs;
 mv *.log ./logs;
 mv *.json ./slice;
 
+DURDIR=slice.${DURATION}
+mkdir $DURDIR;
+echo "making directory: $DURDIR"
+
 csvfile=${DURATION}s.csv
 countries=( bra can chn fra ita kor rus usa )
 for i in "${countries[@]}"
@@ -29,8 +33,9 @@ do
     mkdir slice.$i;
     mv slice/*-slice-${i}-*-${DURATION}-*.json ./slice.${i};
     $src/alpha60/scripts/convert-swarm-json-5-to-csv.sh ./slice.$i ${DURATION};
-    mv $csvfile slice-$i-${DURATION}s.csv;
+    mv $csvfile ${DURDIR}/slice-$i-${DURATION}s.csv;
 done
 
+cd $DURDIR;
 gplotsrc="${src}/alpha60-results/scripts/swarm-multi-plot-${DURATION}s-plus.gnu"
 gnuplot $gplotsrc
