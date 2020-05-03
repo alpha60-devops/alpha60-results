@@ -50,20 +50,23 @@ set format y "%'g"
 set format y "%'.0f"
 #set border 3
 
-set lmargin 25
-set rmargin 15
+set lmargin 20
+set rmargin 20
 set tmargin 20
 set bmargin 20
 
 FILES = system("find . -type f -name '*.csv' | sort")
 TITLES = system("find . -type f -name '*.csv' | sort | sed -e 's/-days.csv//' -e 's|^\./||' ")
 
-
-set xtics 1 rotate by 90 right nomirror font "SourceCodePro-Light,9"
-
-set xlabel "DAYS" font "Apercu,24" offset 0,-12
 set output 'multi-day.svg'
 
+set xtics 1 rotate by 90 right nomirror font "SourceCodePro-Light,9"
+set xlabel "DAYS" font "Apercu,24" offset 0,-12
+# Scale x range auto (*) or to a fixed number of days (below as 126)
+set xrange [0:*]
+#set xrange [0:126]
+
+# Start Plotting...
 set multiplot
 
 plot for [i=1:words(FILES)] word(FILES,i) u 1:2 with linespoints pointsize 0.75 title word(TITLES,i)
@@ -77,8 +80,7 @@ unset ytics
 unset y2tics
 unset x2tics
 
-set xtics 1 rotate by 90 right nomirror font "SourceCodePro-Light,9"
-set xrange [0:*]
+set xtics 1 rotate by 90 right nomirror font "SourceCodePro-Light,9" offset 0,0
 
 # Get dates from one of the *.csv files above (field 6) for label text
 # aka use the first one from word(FILES,0)
