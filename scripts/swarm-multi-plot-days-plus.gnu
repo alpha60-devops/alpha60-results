@@ -58,6 +58,7 @@ set bmargin 20
 FILES = system("find . -type f -name '*.csv' | sort")
 TITLES = system("find . -type f -name '*.csv' | sort | sed -e 's/-days.csv//' -e 's|^\./||' ")
 
+#set key off
 set output 'multi-day.svg'
 
 set xtics 1 rotate by 90 right nomirror font "SourceCodePro-Light,9"
