@@ -1,0 +1,833 @@
+{
+    "data-version": "20200510",
+    "duration": "2020-07-03-to-2020-08-20",
+    "collection-name": "Hamilton",
+    "collection-id": "",
+    "collection-imdb-id": "",
+    "collection-tag-genre": "",
+    "collection-tag-plot": "",
+    "collection-tag-plot-geo": "",
+    "collection-tag-plot-date": "",
+    "collection-tag-production": "",
+    "collection-tag-production-geo": "",
+    "collection-tag-distribution": "",
+    "collection-all-btiha": {
+        "btiha-size": 75,
+        "upeers-total": 3492153,
+        "useeds-total": 1583302,
+        "anomaly-total": 122282,
+        "anomaly-percentage": "3.50"
+    },
+    "collection-unique-btiha": {
+        "btiha-size": 47,
+        "upeers-total": 2084798,
+        "useeds-total": 1008807,
+        "anomaly-total": 9472,
+        "anomaly-percentage": "0.45"
+    },
+    "transfer-units": "terabyte",
+    "transfer-size": 9559.404736634033,
+    "transfer-price-1-name": "CloudFront-1-year",
+    "transfer-price-1-per-gigabyte-cost": 0.005,
+    "transfer-price-1-USD": 215797.02368317019,
+    "resolution-partitions": [
+        {
+            "number": 1,
+            "name": "1080-all",
+            "total-percentage-upeers": "59.77",
+            "total-percentage-bytes": "63.01",
+            "upeers-total": 1246170
+        },
+        {
+            "number": 2,
+            "name": "720-all",
+            "total-percentage-upeers": "19.96",
+            "total-percentage-bytes": "8.59",
+            "upeers-total": 416120
+        },
+        {
+            "number": 3,
+            "name": "sd-xvid",
+            "total-percentage-upeers": "11.01",
+            "total-percentage-bytes": "4.55",
+            "upeers-total": 229636
+        },
+        {
+            "number": 4,
+            "name": "2160-all",
+            "total-percentage-upeers": "5.44",
+            "total-percentage-bytes": "21.49",
+            "upeers-total": 113473
+        },
+        {
+            "number": 5,
+            "name": "sd-264",
+            "total-percentage-upeers": "3.33",
+            "total-percentage-bytes": "1.19",
+            "upeers-total": 69347
+        },
+        {
+            "number": 6,
+            "name": "sd-none",
+            "total-percentage-upeers": "0.48",
+            "total-percentage-bytes": "1.17",
+            "upeers-total": 10052
+        }
+    ],
+    "geo-country-top-10": [
+        {
+            "number": 1,
+            "country-code": "USA",
+            "country-name": "United States of America",
+            "total-percentage-upeers": "15.10",
+            "upeers-total": 314808
+        },
+        {
+            "number": 2,
+            "country-code": "IND",
+            "country-name": "India",
+            "total-percentage-upeers": "6.13",
+            "upeers-total": 127855
+        },
+        {
+            "number": 3,
+            "country-code": "CHN",
+            "country-name": "China",
+            "total-percentage-upeers": "4.96",
+            "upeers-total": 103302
+        },
+        {
+            "number": 4,
+            "country-code": "BRA",
+            "country-name": "Brazil",
+            "total-percentage-upeers": "4.76",
+            "upeers-total": 99203
+        },
+        {
+            "number": 5,
+            "country-code": "PHL",
+            "country-name": "Philippines",
+            "total-percentage-upeers": "4.58",
+            "upeers-total": 95486
+        },
+        {
+            "number": 6,
+            "country-code": "GBR",
+            "country-name": "United Kingdom of Great Britain and Northern Ireland",
+            "total-percentage-upeers": "2.82",
+            "upeers-total": 58867
+        },
+        {
+            "number": 7,
+            "country-code": "CAN",
+            "country-name": "Canada",
+            "total-percentage-upeers": "2.65",
+            "upeers-total": 55312
+        },
+        {
+            "number": 8,
+            "country-code": "ZAF",
+            "country-name": "South Africa",
+            "total-percentage-upeers": "1.96",
+            "upeers-total": 40861
+        },
+        {
+            "number": 9,
+            "country-code": "RUS",
+            "country-name": "Russian Federation",
+            "total-percentage-upeers": "1.91",
+            "upeers-total": 39842
+        },
+        {
+            "number": 10,
+            "country-code": "AUS",
+            "country-name": "Australia",
+            "total-percentage-upeers": "1.75",
+            "upeers-total": 36447
+        }
+    ],
+    "geo-country-region-city-top-30": [
+        {
+            "number": 1,
+            "country-code": "USA",
+            "country-name": "United States of America",
+            "total-percentage-upeers": "1.81",
+            "upeers-total": 37838
+        },
+        {
+            "number": 2,
+            "country-code": "IND",
+            "country-name": "India",
+            "total-percentage-upeers": "1.23",
+            "upeers-total": 25651
+        },
+        {
+            "number": 3,
+            "country-code": "PHL",
+            "country-name": "Philippines",
+            "total-percentage-upeers": "1.18",
+            "upeers-total": 24632
+        },
+        {
+            "number": 4,
+            "country-code": "USA",
+            "country-name": "United States of America, Ashburn, VA",
+            "total-percentage-upeers": "0.86",
+            "upeers-total": 18007
+        },
+        {
+            "number": 5,
+            "country-code": "NLD",
+            "country-name": "Netherlands",
+            "total-percentage-upeers": "0.78",
+            "upeers-total": 16304
+        },
+        {
+            "number": 6,
+            "country-code": "BRA",
+            "country-name": "Brazil, Sao Paulo, 27",
+            "total-percentage-upeers": "0.62",
+            "upeers-total": 12970
+        },
+        {
+            "number": 7,
+            "country-code": "GBR",
+            "country-name": "United Kingdom of Great Britain and Northern Ireland",
+            "total-percentage-upeers": "0.62",
+            "upeers-total": 12872
+        },
+        {
+            "number": 8,
+            "country-code": "CHN",
+            "country-name": "China, Beijing, 22",
+            "total-percentage-upeers": "0.61",
+            "upeers-total": 12764
+        },
+        {
+            "number": 9,
+            "country-code": "CHN",
+            "country-name": "China, Shanghai, 23",
+            "total-percentage-upeers": "0.56",
+            "upeers-total": 11604
+        },
+        {
+            "number": 10,
+            "country-code": "IND",
+            "country-name": "India, Mumbai, 16",
+            "total-percentage-upeers": "0.50",
+            "upeers-total": 10440
+        },
+        {
+            "number": 11,
+            "country-code": "ISR",
+            "country-name": "Israel",
+            "total-percentage-upeers": "0.50",
+            "upeers-total": 10343
+        },
+        {
+            "number": 12,
+            "country-code": "USA",
+            "country-name": "United States of America, Atlanta, GA",
+            "total-percentage-upeers": "0.49",
+            "upeers-total": 10317
+        },
+        {
+            "number": 13,
+            "country-code": "CAN",
+            "country-name": "Canada, Toronto, ON",
+            "total-percentage-upeers": "0.46",
+            "upeers-total": 9638
+        },
+        {
+            "number": 14,
+            "country-code": "PHL",
+            "country-name": "Philippines, Quezon City, F2",
+            "total-percentage-upeers": "0.46",
+            "upeers-total": 9516
+        },
+        {
+            "number": 15,
+            "country-code": "BRA",
+            "country-name": "Brazil",
+            "total-percentage-upeers": "0.41",
+            "upeers-total": 8629
+        },
+        {
+            "number": 16,
+            "country-code": "ROU",
+            "country-name": "Romania",
+            "total-percentage-upeers": "0.41",
+            "upeers-total": 8529
+        },
+        {
+            "number": 17,
+            "country-code": "ZAF",
+            "country-name": "South Africa, Johannesburg, 06",
+            "total-percentage-upeers": "0.41",
+            "upeers-total": 8524
+        },
+        {
+            "number": 18,
+            "country-code": "KEN",
+            "country-name": "Kenya",
+            "total-percentage-upeers": "0.41",
+            "upeers-total": 8462
+        },
+        {
+            "number": 19,
+            "country-code": "IND",
+            "country-name": "India, Bangalore, 19",
+            "total-percentage-upeers": "0.39",
+            "upeers-total": 8216
+        },
+        {
+            "number": 20,
+            "country-code": "RUS",
+            "country-name": "Russian Federation, Moscow, 48",
+            "total-percentage-upeers": "0.39",
+            "upeers-total": 8189
+        },
+        {
+            "number": 21,
+            "country-code": "CHN",
+            "country-name": "China, Guangzhou, 30",
+            "total-percentage-upeers": "0.37",
+            "upeers-total": 7815
+        },
+        {
+            "number": 22,
+            "country-code": "CHN",
+            "country-name": "China",
+            "total-percentage-upeers": "0.37",
+            "upeers-total": 7756
+        },
+        {
+            "number": 23,
+            "country-code": "BRA",
+            "country-name": "Brazil, Rio De Janeiro, 21",
+            "total-percentage-upeers": "0.37",
+            "upeers-total": 7681
+        },
+        {
+            "number": 24,
+            "country-code": "IND",
+            "country-name": "India, Delhi, 07",
+            "total-percentage-upeers": "0.36",
+            "upeers-total": 7537
+        },
+        {
+            "number": 25,
+            "country-code": "USA",
+            "country-name": "United States of America, Lewes, DE",
+            "total-percentage-upeers": "0.36",
+            "upeers-total": 7524
+        },
+        {
+            "number": 26,
+            "country-code": "ITA",
+            "country-name": "Italy",
+            "total-percentage-upeers": "0.35",
+            "upeers-total": 7287
+        },
+        {
+            "number": 27,
+            "country-code": "SGP",
+            "country-name": "Singapore, Singapore, 00",
+            "total-percentage-upeers": "0.31",
+            "upeers-total": 6503
+        },
+        {
+            "number": 28,
+            "country-code": "IND",
+            "country-name": "India, Kolkata, 28",
+            "total-percentage-upeers": "0.31",
+            "upeers-total": 6465
+        },
+        {
+            "number": 29,
+            "country-code": "USA",
+            "country-name": "United States of America, New York, NY",
+            "total-percentage-upeers": "0.30",
+            "upeers-total": 6224
+        },
+        {
+            "number": 30,
+            "country-code": "USA",
+            "country-name": "United States of America, Los Angeles, CA",
+            "total-percentage-upeers": "0.29",
+            "upeers-total": 5985
+        }
+    ],
+    "collection-unique-btiha-detail": [
+        {
+            "id": 1140,
+            "name": "multi-btih-0-2x-Hamilton (2020) [1080p] [WEBRip] [5.1] [YTS.MX]",
+            "btih": "c0374d3c5c40e8fbba43eb6da676a301a9e83e80",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 469401,
+            "seed": 203762
+        },
+        {
+            "id": 1141,
+            "name": "multi-btih-1-2x-Hamilton (2020) [720p] [WEBRip] [YTS.MX]",
+            "btih": "9e9d20b28290de8c56309e850b5bd2f3309c6c06",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 261225,
+            "seed": 134402
+        },
+        {
+            "id": 1146,
+            "name": "multi-btih-6-3x-Hamilton.2020.1080p.WEBRip.x265-RARBG-[rarbg.to]",
+            "btih": "65176f5255f06c45a531a46ec1c6de9fe95e5448",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 199527,
+            "seed": 117623
+        },
+        {
+            "id": 1151,
+            "name": "multi-btih-11-2x-Hamilton.2020.HDRip.XviD.AC3-EVO[TGx]",
+            "btih": "c7059826b29adac1c79f907db3230179fa15b2c4",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": false,
+            "peer": 157945,
+            "seed": 86457
+        },
+        {
+            "id": 1144,
+            "name": "multi-btih-4-2x-Hamilton.2020.1080p.WEB.h264-WATCHER-[rarbg.to]",
+            "btih": "0d4484b1dac79fd5c23c361a989aa618a44b3aaa",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 114602,
+            "seed": 57965
+        },
+        {
+            "id": 1145,
+            "name": "multi-btih-5-3x-Hamilton.2020.1080p.WEBRip.x264-RARBG-[rarbg.to](1)",
+            "btih": "f879cecbfe762cadcd3a6a10620a705d28c22c3b",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 102433,
+            "seed": 48066
+        },
+        {
+            "id": 1142,
+            "name": "multi-btih-2-2x-Hamilton.2020.1080p.DSNP.WEB-DL.DD+5.1.x264-Telly",
+            "btih": "6a945502bef41ac5fbc1af83abd090e5c13d0c8d",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 84327,
+            "seed": 45468
+        },
+        {
+            "id": 1156,
+            "name": "multi-btih-16-2x-Hamilton.2020.WEBRip.x264-ION10-[rarbg.to]",
+            "btih": "d04270a56028024a8a01d83a6ecd9caca72d5a25",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 69347,
+            "seed": 28272
+        },
+        {
+            "id": 1148,
+            "name": "multi-btih-8-2x-Hamilton.2020.720p.WEBRip.900MB.x264-GalaxyRG[TGx]",
+            "btih": "50efe1018d0e7f1ce5ca9febb41113287e867e4d",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 61216,
+            "seed": 35640
+        },
+        {
+            "id": 1155,
+            "name": "multi-btih-15-2x-Hamilton.2020.WEBRip.XviD.MP3-XVID-[rarbg.to]",
+            "btih": "b34fc3742c3c847717251a7f5c2b1c1d141fb25a",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": false,
+            "peer": 59907,
+            "seed": 30999
+        },
+        {
+            "id": 42,
+            "name": "[limetorrents.info]Hamilton.2020.1080p.WEB-DL.H264.DDP5.1-EVO[TGx]",
+            "btih": "063240a9786229c5c59f819d643f4dd4f02c9bbd",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 52519,
+            "seed": 29816
+        },
+        {
+            "id": 1153,
+            "name": "multi-btih-13-5x-Hamilton.2020.REPACK.1080p.WEB.h264-WATCHER-[rarbg.to](1)",
+            "btih": "5d9bcbd65f5bde9c42713e4659326a5fdfcac52d",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 48360,
+            "seed": 24355
+        },
+        {
+            "id": 1152,
+            "name": "multi-btih-12-3x-Hamilton.2020.PROPER.HDR.2160p.WEB.H265-PETRiFiED-[rarbg.to](1)",
+            "btih": "a6fbe780dfe113112e92a45a319a5d940a1efeac",
+            "resolution": "2160",
+            "encoding": "265",
+            "private": false,
+            "peer": 42439,
+            "seed": 23866
+        },
+        {
+            "id": 67,
+            "name": "[limetorrents.info]汉密尔顿.Hamilton.2020.1080p.WEBRip.中英双语.弯弯字幕组",
+            "btih": "b4263935317ad1103550783132b57456cc3a854b",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 33021,
+            "seed": 15002
+        },
+        {
+            "id": 1149,
+            "name": "multi-btih-9-2x-Hamilton.2020.HDR.2160p.WEB.h265-WATCHER-[rarbg.to]",
+            "btih": "54549331f8875942422fb285bdc3102520b7f4e9",
+            "resolution": "2160",
+            "encoding": "265",
+            "private": false,
+            "peer": 31685,
+            "seed": 16825
+        },
+        {
+            "id": 1154,
+            "name": "multi-btih-14-5x-Hamilton.2020.REPACK.720p.WEB.h264-WATCHER-[rarbg.to](1)",
+            "btih": "6061fbf5c3e7ceb826fbc81f44bc3105500640dc",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 30440,
+            "seed": 13102
+        },
+        {
+            "id": 45,
+            "name": "[limetorrents.info]Hamilton.2020.1080p.WEBRip.1600MB.DD5.1.x264-GalaxyRG",
+            "btih": "0115e1e8e0757cb3f1379e5f7b9975e7c85b85d1",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 29624,
+            "seed": 12998
+        },
+        {
+            "id": 1143,
+            "name": "multi-btih-3-2x-Hamilton.2020.1080p.WEB-DL.H264.DDP5.1-EVO [IPT](1)",
+            "btih": "2e61540a855e4bf2a00e10298fb84901f298f401",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 27083,
+            "seed": 15299
+        },
+        {
+            "id": 1147,
+            "name": "multi-btih-7-2x-Hamilton.2020.720p.WEB.h264-WATCHER-[rarbg.to]",
+            "btih": "27c2fc5ea85090a86196893d89dfb22f47c0b059",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 17385,
+            "seed": 8923
+        },
+        {
+            "id": 36,
+            "name": "[limetorrents.info]Hamilton..2020...[2160p.x265.10bit.S93.Joy][UTR]",
+            "btih": "fdfad9f789db638a3f63fbb0309b1de23f97e38c",
+            "resolution": "2160",
+            "encoding": "265",
+            "private": false,
+            "peer": 13183,
+            "seed": 2556
+        },
+        {
+            "id": 34,
+            "name": "[limetorrents.info]Hamilton..2020...4K.UHD.10bit.HDR..7.1.AAC.2160p.HEVC.[SexySadist]",
+            "btih": "8988a3caf4af8551ec018dc88a5eb0ead79288e5",
+            "resolution": "2160",
+            "encoding": "none",
+            "private": false,
+            "peer": 11340,
+            "seed": 3112
+        },
+        {
+            "id": 35,
+            "name": "[limetorrents.info]Hamilton..2020...[1080p.x265.q22.S92.Joy]",
+            "btih": "0b9deb4f325dbd5d2d8b2797cca0f6f78d992ecb",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 11092,
+            "seed": 2493
+        },
+        {
+            "id": 66,
+            "name": "[limetorrents.info]Hamilton.汉密尔顿.2020.中英字幕.WEBrip.720P-人人影视",
+            "btih": "a7db598d285f665f135419a1e61672d84e05dc06",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 10382,
+            "seed": 4827
+        },
+        {
+            "id": 73,
+            "name": "Гамильтон Hamilton An American Musical [2020, Musical, WEBRip + RUS Sub + ENG Sub] [rutracker-5915943]",
+            "btih": "3fec5a5b8829e3b420d5974cf1445ea7bac2141a",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 10052,
+            "seed": 2854
+        },
+        {
+            "id": 50,
+            "name": "[limetorrents.info]Hamilton.2020.720p.DSNP.WEB-DL.AAC.x264-TeaM.MovCr",
+            "btih": "266c9d6bbab6174b684141415305688b03cc301e",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 9859,
+            "seed": 3924
+        },
+        {
+            "id": 1157,
+            "name": "multi-btih-17-2x-[limetorrents.info]Hamilton.2020.x264.WEB-DL.1080p.-MediaBit",
+            "btih": "d51e70bf1db1b7439c08d53bb4481c463c4177d4",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 9649,
+            "seed": 3770
+        },
+        {
+            "id": 49,
+            "name": "[limetorrents.info]Hamilton.2020.720p.10bit.WEBRip.2CH.x265.HEVC",
+            "btih": "bff9c7056d58824af9793adc41944b6f5b6a2b80",
+            "resolution": "720",
+            "encoding": "265",
+            "private": false,
+            "peer": 9371,
+            "seed": 1753
+        },
+        {
+            "id": 1158,
+            "name": "multi-btih-18-2x-[limetorrents.info]魅力社989pa.com-汉密尔顿.Hamilton.2020.1080p.WEB-DL.X264.AAC.英语中字",
+            "btih": "ebbee696a3ddefe2cde45a87d24b0a1104bb9dfe",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 8279,
+            "seed": 1684
+        },
+        {
+            "id": 7,
+            "name": "Hamilton.2020.1080p.WEBRip.X264.DD.5.1-EVO [IPT]",
+            "btih": "d3bb05cfe90c0776cdd1272ff46023e0e2b38631",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 8089,
+            "seed": 4351
+        },
+        {
+            "id": 39,
+            "name": "[limetorrents.info]Hamilton.2020.1080p.10bit.WEBRip.2CH.x265.HEVC",
+            "btih": "799c47c35bcc9b2690284e6a1475375b43c88c89",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 7881,
+            "seed": 2484
+        },
+        {
+            "id": 33,
+            "name": "[limetorrents.info]Hamilton..2020...1080p.WebRip.x265.10bit.EAC3.5.1.-.ArcX.[TAoE]",
+            "btih": "28b249fc07571d8850020968982a257a020f3c55",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 7315,
+            "seed": 1994
+        },
+        {
+            "id": 64,
+            "name": "[limetorrents.info]Hamilton.S01.SweSub.1080p.x264-Justiso",
+            "btih": "d3f3cf4e7802c08ca7b7e6e485ed8b820671ec7d",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 7047,
+            "seed": 2782
+        },
+        {
+            "id": 69,
+            "name": "[limetorrents.info]汉密尔顿.中英双字幕..Hamilton.2020.WEB-1080p.X264.AAC.CHS.ENG-UUMp4",
+            "btih": "2dbe8455a18f269f0e97d09572ddb6143baf150f",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 6448,
+            "seed": 1675
+        },
+        {
+            "id": 65,
+            "name": "[limetorrents.info]Hamilton.S01E02.720p.ColdFilm",
+            "btih": "9d8e84e2ae4660bb6aeb1435b9df310abb38d108",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 6396,
+            "seed": 129
+        },
+        {
+            "id": 16,
+            "name": "Hamilton.2020.HDR.2160p.WEB.h265-WATCHER(1) [IPT]",
+            "btih": "ccc0c2cb2d02b9ba8c37bccb252542f78c6aa144",
+            "resolution": "2160",
+            "encoding": "265",
+            "private": true,
+            "peer": 6386,
+            "seed": 3117
+        },
+        {
+            "id": 1150,
+            "name": "multi-btih-10-2x-Hamilton.2020.HDRip.XviD.AC3-EVO [IPT](1)",
+            "btih": "9e2b97dc8f1c1403f709ba3cce2a558985f913b1",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 6314,
+            "seed": 3843
+        },
+        {
+            "id": 41,
+            "name": "[limetorrents.info]Hamilton.2020.1080p.WEB-DL.H264.DDP5.1-EVO[EtHD]",
+            "btih": "c906d2315d3adc9192fc052010e241256ff41a87",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 6058,
+            "seed": 1526
+        },
+        {
+            "id": 56,
+            "name": "[limetorrents.info]Hamilton.2020.HDRip.XviD.AC3-EVO[EtMovies]",
+            "btih": "ad3454750646d08bf1d9001064119d5e70959e22",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": false,
+            "peer": 5470,
+            "seed": 1932
+        },
+        {
+            "id": 46,
+            "name": "[limetorrents.info]Hamilton.2020.1080p.WEBRip.X264.DD.5.1-EVO[EtHD]",
+            "btih": "fd96d206d481c57301b36078859b36744172dfbb",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 5171,
+            "seed": 1863
+        },
+        {
+            "id": 68,
+            "name": "[limetorrents.info]汉密尔顿.Hamilton.2020.BD1080P.x264.AAC.中英双字幕.ENG&CHS.taobaobt",
+            "btih": "54cc0a61a4a90d67d148b8f1047cc81ecedd5ae6",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 5071,
+            "seed": 1399
+        },
+        {
+            "id": 14,
+            "name": "Hamilton.2020.720p.WEBRip.X264.AAC.2.0-EVO [IPT]",
+            "btih": "79e659e9ae7ce8a7ee1bfb0ab19d77c6f693dc23",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 4954,
+            "seed": 2183
+        },
+        {
+            "id": 55,
+            "name": "[limetorrents.info]Hamilton.2020.HDR.2160p.WEBRip.DDP.5.1.HEVC-DDR",
+            "btih": "611c3c0cb729256c8346d5f81753ef6c549d401d",
+            "resolution": "2160",
+            "encoding": "none",
+            "private": false,
+            "peer": 4343,
+            "seed": 853
+        },
+        {
+            "id": 72,
+            "name": "Гамильтон Hamilton An American Musical [2020, Musical, WEB-DL 2160p HDR + RUS Sub + ENG Sub] [rutracker-5918751]",
+            "btih": "cc2d2c7cdec6edbb9d8b42e572e6898f6c2cc7d6",
+            "resolution": "2160",
+            "encoding": "none",
+            "private": false,
+            "peer": 4097,
+            "seed": 1115
+        },
+        {
+            "id": 51,
+            "name": "[limetorrents.info]Hamilton.2020.720p.WEB-DL.x264.ESubs.-",
+            "btih": "dd4216ae98b5eb7474be3849d262b49289bbc5bb",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 3976,
+            "seed": 607
+        },
+        {
+            "id": 43,
+            "name": "[limetorrents.info]Hamilton.2020.1080p.WEB-DL.x264.6CH.ESubs",
+            "btih": "f35d29b6614cf48db6da191beefb9ca3c17c901c",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 2440,
+            "seed": 619
+        },
+        {
+            "id": 15,
+            "name": "Hamilton.2020.720p.WEBRip.X264.DDP5.1.Atmos-EVO [IPT]",
+            "btih": "0f015acbe529ece1a235356638d4921e14469fb9",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 916,
+            "seed": 493
+        },
+        {
+            "id": 74,
+            "name": "汉密尔顿.hamilton.2020.1080p.web.h264.无水印中英双字.7meiju.mp4",
+            "btih": "5634895d295ad25c692ca03c12850c7cf3df902b",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 733,
+            "seed": 29
+        }
+    ]
+}
