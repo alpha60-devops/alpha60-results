@@ -1,69 +1,88 @@
 {
-    "data-version": "20200829",
-    "duration": "2020-12-18-to-2020-12-24",
+    "data-version": "20201228",
     "collection-name": "The Mandalorian",
     "collection-id": "208",
-    "collection-all-btiha": {
-        "btiha-size": 215,
-        "upeers-total": 4586155,
-        "useeds-total": 1486348,
-        "anomaly-total": 234179,
-        "anomaly-percentage": "5.11"
+    "sample-duration": "2020-12-18-to-2020-12-31",
+    "sample-days": 14,
+    "sample-year-start": 2020,
+    "sample-year-end": 2020,
+    "sample-day-year-start": 353,
+    "sample-day-year-end": 366,
+    "collection-all-btiha-total": {
+        "btiha-size": 218,
+        "upeers-total": 7656110,
+        "useeds-total": 2329433,
+        "anomaly-total": 498775,
+        "anomaly-percentage": "6.51"
     },
-    "collection-unique-btiha": {
-        "btiha-size": 163,
-        "upeers-total": 3252888,
-        "useeds-total": 1188460,
+    "collection-unique-btiha-total": {
+        "btiha-size": 166,
+        "upeers-total": 5589826,
+        "useeds-total": 1819385,
+        "anomaly-total": 171522,
+        "anomaly-percentage": "3.07"
+    },
+    "collection-unique-btiha-week-00001": {
+        "btiha-size": 162,
+        "upeers-total": 3252898,
+        "useeds-total": 1188498,
         "anomaly-total": 60375,
         "anomaly-percentage": "1.86"
     },
+    "collection-unique-btiha-week-00002": {
+        "btiha-size": 166,
+        "upeers-total": 5589826,
+        "useeds-total": 1819385,
+        "anomaly-total": 171522,
+        "anomaly-percentage": "3.07"
+    },
     "transfer-units": "terabyte",
-    "transfer-size": 20149.081456798584,
+    "transfer-size": 40135.52125107554,
     "transfer-price-1-name": "CloudFront-1-year",
     "transfer-price-1-per-gigabyte-cost": 0.005,
-    "transfer-price-1-USD": 268745.4072839929,
+    "transfer-price-1-USD": 368677.6062553777,
     "resolution-partitions": [
         {
             "number": 1,
             "name": "1080-all",
-            "total-percentage-upeers": "44.07",
-            "total-percentage-bytes": "49.97",
-            "upeers-total": 1433425
+            "total-percentage-upeers": "43.20",
+            "total-percentage-bytes": "42.80",
+            "upeers-total": 2414602
         },
         {
             "number": 2,
             "name": "720-all",
-            "total-percentage-upeers": "23.78",
-            "total-percentage-bytes": "11.24",
-            "upeers-total": 773680
+            "total-percentage-upeers": "22.90",
+            "total-percentage-bytes": "13.10",
+            "upeers-total": 1280020
         },
         {
             "number": 3,
             "name": "2160-all",
-            "total-percentage-upeers": "11.82",
-            "total-percentage-bytes": "31.33",
-            "upeers-total": 384479
+            "total-percentage-upeers": "12.67",
+            "total-percentage-bytes": "36.03",
+            "upeers-total": 708199
         },
         {
             "number": 4,
             "name": "sd-264",
-            "total-percentage-upeers": "11.36",
-            "total-percentage-bytes": "1.27",
-            "upeers-total": 369646
+            "total-percentage-upeers": "10.43",
+            "total-percentage-bytes": "1.20",
+            "upeers-total": 582798
         },
         {
             "number": 5,
             "name": "sd-none",
-            "total-percentage-upeers": "7.86",
-            "total-percentage-bytes": "6.11",
-            "upeers-total": 255561
+            "total-percentage-upeers": "9.53",
+            "total-percentage-bytes": "6.69",
+            "upeers-total": 532989
         },
         {
             "number": 6,
             "name": "sd-xvid",
-            "total-percentage-upeers": "1.07",
-            "total-percentage-bytes": "0.08",
-            "upeers-total": 34925
+            "total-percentage-upeers": "1.22",
+            "total-percentage-bytes": "0.18",
+            "upeers-total": 68182
         }
     ],
     "geo-country-top-10": [
@@ -71,71 +90,71 @@
             "number": 1,
             "country-code": "USA",
             "country-name": "United States of America",
-            "total-percentage-upeers": "14.63",
-            "upeers-total": 475841
+            "total-percentage-upeers": "18.96",
+            "upeers-total": 1059742
         },
         {
             "number": 2,
             "country-code": "RUS",
             "country-name": "Russian Federation",
-            "total-percentage-upeers": "7.44",
-            "upeers-total": 242142
+            "total-percentage-upeers": "6.94",
+            "upeers-total": 388084
         },
         {
             "number": 3,
             "country-code": "BRA",
             "country-name": "Brazil",
-            "total-percentage-upeers": "5.06",
-            "upeers-total": 164612
+            "total-percentage-upeers": "4.77",
+            "upeers-total": 266469
         },
         {
             "number": 4,
-            "country-code": "GBR",
-            "country-name": "United Kingdom of Great Britain and Northern Ireland",
-            "total-percentage-upeers": "4.33",
-            "upeers-total": 140910
+            "country-code": "CHN",
+            "country-name": "China",
+            "total-percentage-upeers": "4.06",
+            "upeers-total": 227056
         },
         {
             "number": 5,
-            "country-code": "CAN",
-            "country-name": "Canada",
-            "total-percentage-upeers": "3.12",
-            "upeers-total": 101539
+            "country-code": "GBR",
+            "country-name": "United Kingdom of Great Britain and Northern Ireland",
+            "total-percentage-upeers": "3.88",
+            "upeers-total": 217136
         },
         {
             "number": 6,
-            "country-code": "CHN",
-            "country-name": "China",
-            "total-percentage-upeers": "3.05",
-            "upeers-total": 99272
+            "country-code": "CAN",
+            "country-name": "Canada",
+            "total-percentage-upeers": "2.78",
+            "upeers-total": 155191
         },
         {
             "number": 7,
             "country-code": "IND",
             "country-name": "India",
-            "total-percentage-upeers": "2.64",
-            "upeers-total": 85808
+            "total-percentage-upeers": "2.33",
+            "upeers-total": 130036
         },
         {
             "number": 8,
-            "country-code": "AUS",
-            "country-name": "Australia",
-            "total-percentage-upeers": "2.56",
-            "upeers-total": 83120
+            "country-code": "FRA",
+            "country-name": "France",
+            "total-percentage-upeers": "2.26",
+            "upeers-total": 126299
         },
         {
             "number": 9,
-            "country-code": "FRA",
-            "country-name": "France",
-            "total-percentage-upeers": "2.28",
-            "upeers-total": 74063
+            "country-code": "AUS",
+            "country-name": "Australia",
+            "total-percentage-upeers": "2.17",
+            "upeers-total": 121524
         },
         {
             "number": 10,
-            "country-code": "NLD",
-            "country-name": "Netherlands",
-            "total-percentage-upeers": "1.92",
-            "upeers-total": 62611
+            "country-code": "ITA",
+            "country-name": "Italy",
+            "total-percentage-upeers": "1.79",
+            "upeers-total": 99976
         }
     ],
     "geo-country-region-city-top-30": [
@@ -143,373 +162,353 @@
             "number": 1,
             "country-code": "USA",
             "country-name": "United States of America",
-            "total-percentage-upeers": "3.21",
-            "upeers-total": 104509
+            "total-percentage-upeers": "5.13",
+            "upeers-total": 286699
         },
         {
             "number": 2,
             "country-code": "RUS",
             "country-name": "Russian Federation, Moscow, 48",
-            "total-percentage-upeers": "1.21",
-            "upeers-total": 39324
+            "total-percentage-upeers": "1.11",
+            "upeers-total": 61814
         },
         {
             "number": 3,
             "country-code": "GBR",
             "country-name": "United Kingdom of Great Britain and Northern Ireland",
-            "total-percentage-upeers": "0.99",
-            "upeers-total": 32194
+            "total-percentage-upeers": "1.02",
+            "upeers-total": 56911
         },
         {
             "number": 4,
             "country-code": "ITA",
             "country-name": "Italy",
-            "total-percentage-upeers": "0.84",
-            "upeers-total": 27346
+            "total-percentage-upeers": "0.80",
+            "upeers-total": 44725
         },
         {
             "number": 5,
             "country-code": "RUS",
             "country-name": "Russian Federation",
-            "total-percentage-upeers": "0.71",
-            "upeers-total": 23039
+            "total-percentage-upeers": "0.68",
+            "upeers-total": 37883
         },
         {
             "number": 6,
-            "country-code": "USA",
-            "country-name": "United States of America, Atlanta, GA",
-            "total-percentage-upeers": "0.71",
-            "upeers-total": 22956
+            "country-code": "FRA",
+            "country-name": "France",
+            "total-percentage-upeers": "0.66",
+            "upeers-total": 36778
         },
         {
             "number": 7,
-            "country-code": "ROU",
-            "country-name": "Romania",
-            "total-percentage-upeers": "0.70",
-            "upeers-total": 22614
+            "country-code": "CHN",
+            "country-name": "China, Beijing, 22",
+            "total-percentage-upeers": "0.62",
+            "upeers-total": 34700
         },
         {
             "number": 8,
             "country-code": "NLD",
             "country-name": "Netherlands",
-            "total-percentage-upeers": "0.67",
-            "upeers-total": 21742
+            "total-percentage-upeers": "0.58",
+            "upeers-total": 32260
         },
         {
             "number": 9,
-            "country-code": "FRA",
-            "country-name": "France",
-            "total-percentage-upeers": "0.62",
-            "upeers-total": 20301
+            "country-code": "JPN",
+            "country-name": "Japan",
+            "total-percentage-upeers": "0.57",
+            "upeers-total": 31768
         },
         {
             "number": 10,
-            "country-code": "IND",
-            "country-name": "India",
-            "total-percentage-upeers": "0.59",
-            "upeers-total": 19189
+            "country-code": "USA",
+            "country-name": "United States of America, Atlanta, GA",
+            "total-percentage-upeers": "0.56",
+            "upeers-total": 31570
         },
         {
             "number": 11,
-            "country-code": "GRC",
-            "country-name": "Greece, Athens, 35",
-            "total-percentage-upeers": "0.54",
-            "upeers-total": 17536
+            "country-code": "DEU",
+            "country-name": "Germany",
+            "total-percentage-upeers": "0.56",
+            "upeers-total": 31327
         },
         {
             "number": 12,
-            "country-code": "RUS",
-            "country-name": "Russian Federation, Saint Petersburg, 66",
-            "total-percentage-upeers": "0.54",
-            "upeers-total": 17412
+            "country-code": "BRA",
+            "country-name": "Brazil",
+            "total-percentage-upeers": "0.56",
+            "upeers-total": 31271
         },
         {
             "number": 13,
-            "country-code": "BRA",
-            "country-name": "Brazil, Sao Paulo, 27",
-            "total-percentage-upeers": "0.52",
-            "upeers-total": 16984
+            "country-code": "ROU",
+            "country-name": "Romania",
+            "total-percentage-upeers": "0.56",
+            "upeers-total": 31197
         },
         {
             "number": 14,
-            "country-code": "BRA",
-            "country-name": "Brazil",
-            "total-percentage-upeers": "0.51",
-            "upeers-total": 16434
+            "country-code": "KOR",
+            "country-name": "Korea, Republic of",
+            "total-percentage-upeers": "0.56",
+            "upeers-total": 31054
         },
         {
             "number": 15,
-            "country-code": "AUS",
-            "country-name": "Australia",
-            "total-percentage-upeers": "0.48",
-            "upeers-total": 15774
+            "country-code": "IND",
+            "country-name": "India",
+            "total-percentage-upeers": "0.54",
+            "upeers-total": 30168
         },
         {
             "number": 16,
-            "country-code": "POL",
-            "country-name": "Poland",
-            "total-percentage-upeers": "0.46",
-            "upeers-total": 15092
+            "country-code": "RUS",
+            "country-name": "Russian Federation, Saint Petersburg, 66",
+            "total-percentage-upeers": "0.50",
+            "upeers-total": 27689
         },
         {
             "number": 17,
-            "country-code": "KOR",
-            "country-name": "Korea, Republic of, Seoul, 11",
-            "total-percentage-upeers": "0.44",
-            "upeers-total": 14217
+            "country-code": "BRA",
+            "country-name": "Brazil, Sao Paulo, 27",
+            "total-percentage-upeers": "0.49",
+            "upeers-total": 27159
         },
         {
             "number": 18,
-            "country-code": "SGP",
-            "country-name": "Singapore, Singapore, 00",
-            "total-percentage-upeers": "0.40",
-            "upeers-total": 12929
+            "country-code": "JPN",
+            "country-name": "Japan, Tokyo, 40",
+            "total-percentage-upeers": "0.46",
+            "upeers-total": 25623
         },
         {
             "number": 19,
-            "country-code": "CHN",
-            "country-name": "China, Beijing, 22",
-            "total-percentage-upeers": "0.40",
-            "upeers-total": 12878
+            "country-code": "GRC",
+            "country-name": "Greece, Athens, 35",
+            "total-percentage-upeers": "0.45",
+            "upeers-total": 24881
         },
         {
             "number": 20,
-            "country-code": "HRV",
-            "country-name": "Croatia, Zagreb, 21",
-            "total-percentage-upeers": "0.37",
-            "upeers-total": 12032
+            "country-code": "AUS",
+            "country-name": "Australia",
+            "total-percentage-upeers": "0.44",
+            "upeers-total": 24597
         },
         {
             "number": 21,
-            "country-code": "DEU",
-            "country-name": "Germany",
-            "total-percentage-upeers": "0.37",
-            "upeers-total": 11889
+            "country-code": "KOR",
+            "country-name": "Korea, Republic of, Seoul, 11",
+            "total-percentage-upeers": "0.43",
+            "upeers-total": 24085
         },
         {
             "number": 22,
-            "country-code": "USA",
-            "country-name": "United States of America, Lewes, DE",
-            "total-percentage-upeers": "0.36",
-            "upeers-total": 11552
+            "country-code": "POL",
+            "country-name": "Poland",
+            "total-percentage-upeers": "0.42",
+            "upeers-total": 23384
         },
         {
             "number": 23,
-            "country-code": "ISR",
-            "country-name": "Israel",
-            "total-percentage-upeers": "0.35",
-            "upeers-total": 11521
+            "country-code": "CHN",
+            "country-name": "China, Guangzhou, 30",
+            "total-percentage-upeers": "0.39",
+            "upeers-total": 22045
         },
         {
             "number": 24,
             "country-code": "USA",
-            "country-name": "United States of America, Leawood, KS",
-            "total-percentage-upeers": "0.35",
-            "upeers-total": 11308
+            "country-name": "United States of America, Fort Huachuca, AZ",
+            "total-percentage-upeers": "0.38",
+            "upeers-total": 21376
         },
         {
             "number": 25,
-            "country-code": "KOR",
-            "country-name": "Korea, Republic of",
-            "total-percentage-upeers": "0.34",
-            "upeers-total": 11060
+            "country-code": "SGP",
+            "country-name": "Singapore, Singapore, 00",
+            "total-percentage-upeers": "0.33",
+            "upeers-total": 18518
         },
         {
             "number": 26,
-            "country-code": "CAN",
-            "country-name": "Canada, Toronto, ON",
-            "total-percentage-upeers": "0.33",
-            "upeers-total": 10771
+            "country-code": "CHN",
+            "country-name": "China, Shanghai, 23",
+            "total-percentage-upeers": "0.32",
+            "upeers-total": 17750
         },
         {
             "number": 27,
-            "country-code": "SWE",
-            "country-name": "Sweden",
-            "total-percentage-upeers": "0.33",
-            "upeers-total": 10646
+            "country-code": "HRV",
+            "country-name": "Croatia, Zagreb, 21",
+            "total-percentage-upeers": "0.31",
+            "upeers-total": 17411
         },
         {
             "number": 28,
-            "country-code": "CAN",
-            "country-name": "Canada, ON",
-            "total-percentage-upeers": "0.32",
-            "upeers-total": 10400
+            "country-code": "ISR",
+            "country-name": "Israel",
+            "total-percentage-upeers": "0.30",
+            "upeers-total": 17037
         },
         {
             "number": 29,
-            "country-code": "PHL",
-            "country-name": "Philippines",
-            "total-percentage-upeers": "0.31",
-            "upeers-total": 10175
+            "country-code": "SWE",
+            "country-name": "Sweden",
+            "total-percentage-upeers": "0.30",
+            "upeers-total": 16868
         },
         {
             "number": 30,
-            "country-code": "NLD",
-            "country-name": "Netherlands, Amsterdam, 07",
-            "total-percentage-upeers": "0.31",
-            "upeers-total": 9962
+            "country-code": "CAN",
+            "country-name": "Canada",
+            "total-percentage-upeers": "0.30",
+            "upeers-total": 16780
         }
     ],
     "collection-unique-btiha-detail": [
         {
-            "id": 611,
+            "id": 1006,
             "name": "multi-btih-27-2x-The-Mandalorian-S02E08-Chapter-16-The-Rescue-1080p-WEB-DL-X264-A",
             "btih": "1f7e6e3daa24ae96e280d66961747e15b67d3221",
             "resolution": "1080",
             "encoding": "264",
             "private": false,
-            "peer": 301183,
-            "seed": 64217
+            "peer": 407999,
+            "seed": 101210
         },
         {
-            "id": 612,
+            "id": 1007,
             "name": "multi-btih-28-3x-The-Mandalorian-S02E08-Chapter-16-The-Rescue-1080p-WEBRip-DDP5-1-Atmos-x264",
             "btih": "918370207a4f352ac5a336524de64367c2a8c3cf",
             "resolution": "1080",
             "encoding": "264",
             "private": false,
-            "peer": 159284,
-            "seed": 49853
+            "peer": 218914,
+            "seed": 67381
         },
         {
-            "id": 620,
-            "name": "multi-btih-36-2x-The-Mandalorian-S02E08-WEBRip-x264",
-            "btih": "07102d2607d42f4aa8ee2cc3188a0e24916ca993",
-            "resolution": "sd",
-            "encoding": "264",
-            "private": false,
-            "peer": 139437,
-            "seed": 39922
-        },
-        {
-            "id": 624,
-            "name": "multi-btih-40-2x-The.Mandalorian.S02E08.720p.WEB.H264-GLHF[rarbg]",
-            "btih": "b0c0e54e7b4327444590c782d0a6fcbfaa5f948d",
-            "resolution": "720",
-            "encoding": "264",
-            "private": false,
-            "peer": 128766,
-            "seed": 30404
-        },
-        {
-            "id": 609,
-            "name": "multi-btih-25-2x-The-Mandalorian-S02E08-720p-WEB-x265",
-            "btih": "377b7bbf58554bb7a1f79514989e3f7a657b4170",
-            "resolution": "720",
-            "encoding": "265",
-            "private": false,
-            "peer": 127361,
-            "seed": 43441
-        },
-        {
-            "id": 594,
+            "id": 989,
             "name": "multi-btih-10-2x-The Mandalorian Season 2 Mp4 1080p",
             "btih": "a1d53f1f4b76af71f41145a193267ce89fe96275",
             "resolution": "1080",
             "encoding": "none",
             "private": false,
-            "peer": 96421,
-            "seed": 46263
+            "peer": 205606,
+            "seed": 103786
         },
         {
-            "id": 605,
+            "id": 1004,
+            "name": "multi-btih-25-2x-The-Mandalorian-S02E08-720p-WEB-x265",
+            "btih": "377b7bbf58554bb7a1f79514989e3f7a657b4170",
+            "resolution": "720",
+            "encoding": "265",
+            "private": false,
+            "peer": 179692,
+            "seed": 59165
+        },
+        {
+            "id": 1015,
+            "name": "multi-btih-36-2x-The-Mandalorian-S02E08-WEBRip-x264",
+            "btih": "07102d2607d42f4aa8ee2cc3188a0e24916ca993",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 174937,
+            "seed": 53150
+        },
+        {
+            "id": 1019,
+            "name": "multi-btih-40-2x-The.Mandalorian.S02E08.720p.WEB.H264-GLHF[rarbg]",
+            "btih": "b0c0e54e7b4327444590c782d0a6fcbfaa5f948d",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 156328,
+            "seed": 39743
+        },
+        {
+            "id": 1000,
             "name": "multi-btih-21-2x-The-Mandalorian-S02E08-1080p-WEB-H264-DRYB[rarbg]",
             "btih": "0f57761454b47ee53e263da475d4b4cba5d549a6",
             "resolution": "1080",
             "encoding": "264",
             "private": false,
-            "peer": 88734,
-            "seed": 30060
+            "peer": 133983,
+            "seed": 42507
         },
         {
-            "id": 587,
-            "name": "multi-btih-3-3x-The Mandalorian (S02E08) (2160p)",
-            "btih": "3aaf8c245863d8cfc27fcf4f80f9dafb4d9f4b3e",
-            "resolution": "2160",
-            "encoding": "none",
-            "private": false,
-            "peer": 87235,
-            "seed": 27295
-        },
-        {
-            "id": 616,
-            "name": "multi-btih-32-2x-The-Mandalorian-S02E08-Chapter-16-The-Rescue-720p-DSNP-WEBRip-DDP5-1-Atmos-H264-alt-1",
-            "btih": "1c6c03516bd9d49eeedca01d3a10daf774c1605c",
-            "resolution": "720",
+            "id": 120,
+            "name": "The.Mandalorian.S02E07.Chapter.15.The.Believer.1080p.WEB-DL.X264.Atmos-EVO",
+            "btih": "a8b01f827739ddb81608d59beea59a921a7f509e",
+            "resolution": "1080",
             "encoding": "264",
             "private": false,
-            "peer": 83775,
-            "seed": 35811
+            "peer": 122267,
+            "seed": 43023
         },
         {
-            "id": 627,
-            "name": "multi-btih-43-2x-[rutor.is]The Mandalorian_(s02)_AF",
-            "btih": "84c605578bbd07a4965795ed7be7212190eb51b3",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 77986,
-            "seed": 28607
-        },
-        {
-            "id": 586,
-            "name": "multi-btih-2-2x-The Mandalorian (S02E08) (1080p)",
-            "btih": "5f014d94547a6b37800ac99c0fecfbe597c261b9",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 76488,
-            "seed": 23975
-        },
-        {
-            "id": 619,
+            "id": 1014,
             "name": "multi-btih-35-2x-The-Mandalorian-S02E08-WEB-x264",
             "btih": "ff6cc76f1c04eeff6a6db1f2ecaaf47dc6a45dbc",
             "resolution": "sd",
             "encoding": "264",
             "private": false,
-            "peer": 74220,
-            "seed": 32952
+            "peer": 115601,
+            "seed": 47256
         },
         {
-            "id": 607,
+            "id": 982,
+            "name": "multi-btih-3-3x-The Mandalorian (S02E08) (2160p)",
+            "btih": "3aaf8c245863d8cfc27fcf4f80f9dafb4d9f4b3e",
+            "resolution": "2160",
+            "encoding": "none",
+            "private": false,
+            "peer": 115478,
+            "seed": 40563
+        },
+        {
+            "id": 1011,
+            "name": "multi-btih-32-2x-The-Mandalorian-S02E08-Chapter-16-The-Rescue-720p-DSNP-WEBRip-DDP5-1-Atmos-H264-alt-1",
+            "btih": "1c6c03516bd9d49eeedca01d3a10daf774c1605c",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 112382,
+            "seed": 51594
+        },
+        {
+            "id": 981,
+            "name": "multi-btih-2-2x-The Mandalorian (S02E08) (1080p)",
+            "btih": "5f014d94547a6b37800ac99c0fecfbe597c261b9",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 108131,
+            "seed": 36456
+        },
+        {
+            "id": 1023,
+            "name": "multi-btih-44-2x-[rutor.is]The Mandalorian_(s02)_AF",
+            "btih": "84c605578bbd07a4965795ed7be7212190eb51b3",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 106370,
+            "seed": 41528
+        },
+        {
+            "id": 1002,
             "name": "multi-btih-23-3x-The-Mandalorian-S02E08-2160p-WEB-DL-x265-10bit-HDR-DDP5-1-Atmos",
             "btih": "be2d2f4e1726753892fb92082c4ada5b350a966a",
             "resolution": "2160",
             "encoding": "265",
             "private": false,
-            "peer": 69824,
-            "seed": 30334
-        },
-        {
-            "id": 610,
-            "name": "multi-btih-26-2x-The-Mandalorian-S02E08-Chapter-16-The-Rescue-1080p-10bit-WEBRip-6CH-x265-HEVC-PSA",
-            "btih": "771b2c80e28299d55d447fc32d75244259f46fb9",
-            "resolution": "1080",
-            "encoding": "265",
-            "private": false,
-            "peer": 66699,
-            "seed": 31065
-        },
-        {
-            "id": 615,
-            "name": "multi-btih-31-3x-The-Mandalorian-S02E08-Chapter-16-The-Rescue-720p-DSNP-WEBRip-DDP5-1-Atmos-H264",
-            "btih": "9154066dbe95d20946101fcb6aa1602050e46f10",
-            "resolution": "720",
-            "encoding": "264",
-            "private": false,
-            "peer": 63560,
-            "seed": 27273
-        },
-        {
-            "id": 151,
-            "name": "The.Mandalorian.S02E08.WEBRip.x264-ION10",
-            "btih": "32a175c37e646fa22d9c7666f5114543d36c33e7",
-            "resolution": "sd",
-            "encoding": "264",
-            "private": false,
-            "peer": 51041,
-            "seed": 21274
+            "peer": 98909,
+            "seed": 37811
         },
         {
             "id": 3,
@@ -518,318 +517,198 @@
             "resolution": "1080",
             "encoding": "none",
             "private": false,
-            "peer": 50679,
-            "seed": 19884
+            "peer": 90203,
+            "seed": 37964
         },
         {
-            "id": 114,
-            "name": "The.Mandalorian.S02E07.Chapter.15.The.Believer.1080p.WEB-DL.X264.Atmos-EVO",
-            "btih": "a8b01f827739ddb81608d59beea59a921a7f509e",
-            "resolution": "1080",
+            "id": 1010,
+            "name": "multi-btih-31-3x-The-Mandalorian-S02E08-Chapter-16-The-Rescue-720p-DSNP-WEBRip-DDP5-1-Atmos-H264",
+            "btih": "9154066dbe95d20946101fcb6aa1602050e46f10",
+            "resolution": "720",
             "encoding": "264",
             "private": false,
-            "peer": 48214,
-            "seed": 15671
+            "peer": 88527,
+            "seed": 35909
         },
         {
-            "id": 31,
+            "id": 1005,
+            "name": "multi-btih-26-2x-The-Mandalorian-S02E08-Chapter-16-The-Rescue-1080p-10bit-WEBRip-6CH-x265-HEVC-PSA",
+            "btih": "771b2c80e28299d55d447fc32d75244259f46fb9",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 88259,
+            "seed": 41618
+        },
+        {
+            "id": 32,
             "name": "The-Mandalorian-S02-COMPLETE-720p-DSNP-WEBRip-x264",
             "btih": "2730520b627b9411ede4932590a4c9bae8a39ad3",
             "resolution": "720",
             "encoding": "264",
             "private": false,
-            "peer": 46173,
-            "seed": 20109
+            "peer": 82523,
+            "seed": 36673
         },
         {
-            "id": 595,
-            "name": "multi-btih-11-2x-The-Mandalorian-S02-1080p-WEBRip-DDP5-1-Atmos-x264",
-            "btih": "cb1de2bdf61cc8cc0f9011dcccc27324231bd30e",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 45853,
-            "seed": 24424
-        },
-        {
-            "id": 614,
-            "name": "multi-btih-30-2x-The-Mandalorian-S02E08-Chapter-16-The-Rescue-720p-10bit-WEBRip-2CH-x265-HEVC-PSA",
-            "btih": "1a28be52df9eb9575488640386fd7aeff88a8bfe",
-            "resolution": "720",
-            "encoding": "265",
-            "private": false,
-            "peer": 41963,
-            "seed": 28508
-        },
-        {
-            "id": 629,
-            "name": "multi-btih-45-2x-[rutor.is]The_Mandalorian_s02_AlexFilm_1080p",
-            "btih": "0f488e9307020ab22381e3e960cf6822cf15326d",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 41719,
-            "seed": 18518
-        },
-        {
-            "id": 618,
+            "id": 1013,
             "name": "multi-btih-34-2x-The-Mandalorian-S02E08-FiNAL-FRENCH-WEBRip-x264-FRATERNiTY",
             "btih": "8339c8f52f65209aa1d8882fbce94a60b6dd5112",
             "resolution": "sd",
             "encoding": "264",
             "private": false,
-            "peer": 41617,
-            "seed": 16095
+            "peer": 76291,
+            "seed": 30022
         },
         {
-            "id": 589,
-            "name": "multi-btih-5-2x-The Mandalorian (S02E08) (720p)",
-            "btih": "aa4055a8683530bdac41a39aae98a3bd675049d0",
-            "resolution": "720",
-            "encoding": "none",
-            "private": false,
-            "peer": 39090,
-            "seed": 17850
-        },
-        {
-            "id": 116,
-            "name": "The.Mandalorian.S02E08.1080p.HEVC.x265-MeGusta[eztv.re].mkv",
-            "btih": "6827044a3df0a856e74e093d3ab5edf40a5ffffe",
+            "id": 990,
+            "name": "multi-btih-11-2x-The-Mandalorian-S02-1080p-WEBRip-DDP5-1-Atmos-x264",
+            "btih": "cb1de2bdf61cc8cc0f9011dcccc27324231bd30e",
             "resolution": "1080",
-            "encoding": "265",
+            "encoding": "264",
             "private": false,
-            "peer": 38748,
-            "seed": 18074
+            "peer": 74084,
+            "seed": 38336
         },
         {
-            "id": 603,
+            "id": 998,
             "name": "multi-btih-19-2x-The-Mandalorian-S02-WEBRip-x264",
             "btih": "ce941f9a0a76e76a3ba557011712f4389cb00cb3",
             "resolution": "sd",
             "encoding": "264",
             "private": false,
-            "peer": 36406,
-            "seed": 14557
+            "peer": 71372,
+            "seed": 19213
         },
         {
-            "id": 129,
-            "name": "The.Mandalorian.S02E08.720p.HEVC.x265-MeGusta[eztv.re].mkv",
-            "btih": "2b6eea58d0cefb34c700bec5081ea1d16af2bcb3",
-            "resolution": "720",
-            "encoding": "265",
+            "id": 157,
+            "name": "The.Mandalorian.S02E08.WEBRip.x264-ION10",
+            "btih": "32a175c37e646fa22d9c7666f5114543d36c33e7",
+            "resolution": "sd",
+            "encoding": "264",
             "private": false,
-            "peer": 36282,
-            "seed": 14612
+            "peer": 71094,
+            "seed": 31765
         },
         {
-            "id": 622,
+            "id": 1017,
             "name": "multi-btih-38-2x-The-Mandalorian-S02E08-iNTERNAL-HDR-2160p-WEB-h265",
             "btih": "84900346ebc2291a0bdbded7a6e355da4e73719e",
             "resolution": "2160",
             "encoding": "265",
             "private": false,
-            "peer": 35045,
-            "seed": 3669
+            "peer": 69626,
+            "seed": 5696
         },
         {
-            "id": 172,
-            "name": "[rutor.is]The Mandalorian_(s02)_LF_1080p",
-            "btih": "dc5b56b37dd95dffbdfdd8055a1aa8b089bb9406",
+            "id": 122,
+            "name": "The.Mandalorian.S02E08.1080p.HEVC.x265-MeGusta[eztv.re].mkv",
+            "btih": "6827044a3df0a856e74e093d3ab5edf40a5ffffe",
             "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 32548,
-            "seed": 11378
-        },
-        {
-            "id": 170,
-            "name": "[rutor.is]The Mandalorian_(s02)_AF_720p",
-            "btih": "69c3682e49d93ce952c37c5613f7d9d9d7595e6c",
-            "resolution": "720",
-            "encoding": "none",
-            "private": false,
-            "peer": 30550,
-            "seed": 14727
-        },
-        {
-            "id": 597,
-            "name": "multi-btih-13-3x-The-Mandalorian-S02-2160p-WEB-DL-x265-10bit-HDR-DDP5-1-Atmos",
-            "btih": "c02c08b14cf1b2096e51a51168e26cef0e53a714",
-            "resolution": "2160",
             "encoding": "265",
             "private": false,
-            "peer": 30367,
-            "seed": 19020
+            "peer": 67585,
+            "seed": 31941
         },
         {
-            "id": 617,
-            "name": "multi-btih-33-2x-The-Mandalorian-S02E08-DV-2160p-DSNP-WEB-DL-DDP5-1-Atmos-x265",
-            "btih": "ff5c81cc344dabf66e8bbdab6613075f75d11761",
-            "resolution": "2160",
-            "encoding": "265",
-            "private": false,
-            "peer": 29628,
-            "seed": 11086
-        },
-        {
-            "id": 606,
+            "id": 1001,
             "name": "multi-btih-22-2x-The-Mandalorian-S02E08-1080p-WEBRip-x264-[ExYuSubs]",
             "btih": "0eead48d322d380f3695f5ab726efe386caddf3c",
             "resolution": "1080",
             "encoding": "264",
             "private": false,
-            "peer": 29314,
-            "seed": 1118
+            "peer": 65314,
+            "seed": 1592
         },
         {
-            "id": 87,
+            "id": 1024,
+            "name": "multi-btih-45-2x-[rutor.is]The.Mandalorian.S02.720p.WEB-DL.LostFilm",
+            "btih": "5e73ed154ee82fcf5015e801e36171c06987b5e2",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 62948,
+            "seed": 8093
+        },
+        {
+            "id": 1009,
+            "name": "multi-btih-30-2x-The-Mandalorian-S02E08-Chapter-16-The-Rescue-720p-10bit-WEBRip-2CH-x265-HEVC-PSA",
+            "btih": "1a28be52df9eb9575488640386fd7aeff88a8bfe",
+            "resolution": "720",
+            "encoding": "265",
+            "private": false,
+            "peer": 61570,
+            "seed": 37372
+        },
+        {
+            "id": 181,
+            "name": "[rutor.is]The Mandalorian_(s02)_LF_1080p",
+            "btih": "dc5b56b37dd95dffbdfdd8055a1aa8b089bb9406",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 59828,
+            "seed": 23687
+        },
+        {
+            "id": 179,
+            "name": "[rutor.is]The Mandalorian_(s02)_AF_720p",
+            "btih": "69c3682e49d93ce952c37c5613f7d9d9d7595e6c",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 58907,
+            "seed": 29280
+        },
+        {
+            "id": 992,
+            "name": "multi-btih-13-3x-The-Mandalorian-S02-2160p-WEB-DL-x265-10bit-HDR-DDP5-1-Atmos",
+            "btih": "c02c08b14cf1b2096e51a51168e26cef0e53a714",
+            "resolution": "2160",
+            "encoding": "265",
+            "private": false,
+            "peer": 55136,
+            "seed": 31873
+        },
+        {
+            "id": 88,
             "name": "The-Mandalorian-Season-2-S02-2020-1080p-DSNP-Rip-AAC5-1-x264-R",
             "btih": "d9abe0c488066d9c777ac71ab28e149a8001d925",
             "resolution": "1080",
             "encoding": "264",
             "private": false,
-            "peer": 29065,
-            "seed": 16226
+            "peer": 53585,
+            "seed": 31273
         },
         {
-            "id": 175,
-            "name": "[rutor.is]The.Mandalorian.S02.1080p.Kerob",
-            "btih": "f4275d3c9e431aa1ca09e541d1653f6c59894d5c",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 27653,
-            "seed": 13073
-        },
-        {
-            "id": 63,
-            "name": "The-Mandalorian-S02E08-Chapter-16-The-Rescue-1080p-WEB-DL-X264-A-alt",
-            "btih": "6a5f77d1b5637f8b0c5e7466569cd564e58f6f9d",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 24551,
-            "seed": 9911
-        },
-        {
-            "id": 153,
-            "name": "The.Mandalorian.S02E08.XviD-AFG[eztv.re].avi",
-            "btih": "77b0515ff7fe1a22da0b6eb1e0aef7e22fbdcf92",
-            "resolution": "sd",
-            "encoding": "xvid",
-            "private": false,
-            "peer": 24393,
-            "seed": 11187
-        },
-        {
-            "id": 215,
-            "name": "曼达洛人.The.Mandalorian.S02E08.END.中英字幕.WEBrip.720P-人人影视.V2.mp4",
-            "btih": "98ecfe855022d0c1f0e9ea729ae12fbbee95e1b6",
+            "id": 135,
+            "name": "The.Mandalorian.S02E08.720p.HEVC.x265-MeGusta[eztv.re].mkv",
+            "btih": "2b6eea58d0cefb34c700bec5081ea1d16af2bcb3",
             "resolution": "720",
-            "encoding": "none",
-            "private": false,
-            "peer": 21113,
-            "seed": 8681
-        },
-        {
-            "id": 588,
-            "name": "multi-btih-4-2x-The Mandalorian (S02E08) (480p)",
-            "btih": "25d2df86f7cc8b2d54da5d6a5fd15adf37a50b02",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 21040,
-            "seed": 9922
-        },
-        {
-            "id": 136,
-            "name": "The.Mandalorian.S02E08.Chapter.16.The.Rescue.1080p.WEB-DL.X264.Atmos-EVO [IPT]",
-            "btih": "c315cd4600fce3c9f5d5038364cef08fdba11468",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": true,
-            "peer": 19167,
-            "seed": 11830
-        },
-        {
-            "id": 599,
-            "name": "multi-btih-15-2x-The-Mandalorian-S02-720p-DSNP-WEBRip-DDP5-1-Atmos-x264",
-            "btih": "5773cb7e76f1860fd2c343e285b0439481a442a5",
-            "resolution": "720",
-            "encoding": "264",
-            "private": false,
-            "peer": 17717,
-            "seed": 8559
-        },
-        {
-            "id": 206,
-            "name": "Мандалорец The Mandalorian Сезон 2 Серии 1-8 из 8 (Дебора Чоу) [2020, США, фантастика, боевик, приключения, WEB-DL 1080p] [rutracker-5961957]",
-            "btih": "7b81319447c883c8c6ea00f6b6d1432e5cbfc4f5",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 17182,
-            "seed": 6145
-        },
-        {
-            "id": 608,
-            "name": "multi-btih-24-2x-The-Mandalorian-S02E08-2160p-WEB-DL-x265-8bit-SDR-DDP5-1-Atmos",
-            "btih": "96383b6ae81ccf9f47ba65e20d14b2e535d7a99a",
-            "resolution": "2160",
             "encoding": "265",
             "private": false,
-            "peer": 16747,
-            "seed": 8395
+            "peer": 52857,
+            "seed": 19166
         },
         {
-            "id": 22,
-            "name": "The-Mandalorian-S02-1080p-WEBRip-HEVC-10Bit",
-            "btih": "fef08a642529c156b4e806ebdc385e85debdaa78",
+            "id": 1025,
+            "name": "multi-btih-46-2x-[rutor.is]The_Mandalorian_s02_AlexFilm_1080p",
+            "btih": "0f488e9307020ab22381e3e960cf6822cf15326d",
             "resolution": "1080",
             "encoding": "none",
             "private": false,
-            "peer": 16373,
-            "seed": 9054
+            "peer": 51866,
+            "seed": 23786
         },
         {
-            "id": 628,
-            "name": "multi-btih-44-2x-[rutor.is]The.Mandalorian.S02.720p.WEB-DL.LostFilm",
-            "btih": "5e73ed154ee82fcf5015e801e36171c06987b5e2",
+            "id": 984,
+            "name": "multi-btih-5-2x-The Mandalorian (S02E08) (720p)",
+            "btih": "aa4055a8683530bdac41a39aae98a3bd675049d0",
             "resolution": "720",
             "encoding": "none",
             "private": false,
-            "peer": 16236,
-            "seed": 5172
-        },
-        {
-            "id": 33,
-            "name": "The-Mandalorian-S02-COMPLETE-WEB-DL-1080p-H264-AAC-ztorrenter",
-            "btih": "f39bbc18c5325488634fe101e973a51a14c6b557",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 16169,
-            "seed": 9370
-        },
-        {
-            "id": 188,
-            "name": "[rutor.is]The_Mandalorian.2020.WEB-DLRip.Files-x",
-            "btih": "e681d26c27c74d3ef05e08f05610a75e7ae67cd5",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 16040,
-            "seed": 1159
-        },
-        {
-            "id": 600,
-            "name": "multi-btih-16-2x-The-Mandalorian-S02-720p-WEBRip-DDP5-1-Atmos-x264",
-            "btih": "d0d9d93ba7d46eadea8a412903e297753275f0eb",
-            "resolution": "720",
-            "encoding": "264",
-            "private": false,
-            "peer": 15743,
-            "seed": 7976
+            "peer": 49568,
+            "seed": 23291
         },
         {
             "id": 15,
@@ -838,628 +717,648 @@
             "resolution": "1080",
             "encoding": "265",
             "private": false,
-            "peer": 15673,
-            "seed": 1839
+            "peer": 49085,
+            "seed": 5484
         },
         {
-            "id": 45,
-            "name": "The-Mandalorian-S02E08-1080p-WEB-H264-DRYB[TGx]",
-            "btih": "7782c4d30122b499faf7ebdde845289ecf490a84",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 15525,
-            "seed": 5580
-        },
-        {
-            "id": 623,
-            "name": "multi-btih-39-2x-The.Mandalorian.S02E08.2160p.WEB.H265-GLHF[rartv]-[rarbg.to]",
-            "btih": "bdc31a5d257d9a9e13bc3a9ef6fe4faf70efe798",
-            "resolution": "2160",
-            "encoding": "265",
-            "private": false,
-            "peer": 15394,
-            "seed": 4572
-        },
-        {
-            "id": 197,
-            "name": "[rutor.is]The_Mandalorian_Season_02_LostFilm",
-            "btih": "5b586fe71ce0b2aa132c90570e2bf26b42e6a58b",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 15296,
-            "seed": 7652
-        },
-        {
-            "id": 27,
+            "id": 28,
             "name": "The-Mandalorian-S02-480p-x264",
             "btih": "e1b63554630b597e05794a86e6cf81c3440a05d7",
             "resolution": "sd",
             "encoding": "264",
             "private": false,
-            "peer": 15273,
-            "seed": 411
+            "peer": 44108,
+            "seed": 886
         },
         {
-            "id": 49,
-            "name": "The-Mandalorian-S02E08-1080p-x265",
-            "btih": "70c03be1ba8fdbd060c0f42752b214bb81d44d26",
-            "resolution": "1080",
-            "encoding": "265",
-            "private": false,
-            "peer": 14301,
-            "seed": 6008
-        },
-        {
-            "id": 19,
-            "name": "The-Mandalorian--S02",
-            "btih": "31883488e40c08360e3268d3ce6afe2826dc9451",
+            "id": 207,
+            "name": "[rutor.is]The_Mandalorian_Season_02_LostFilm",
+            "btih": "5b586fe71ce0b2aa132c90570e2bf26b42e6a58b",
             "resolution": "sd",
             "encoding": "none",
             "private": false,
-            "peer": 14249,
-            "seed": 467
+            "peer": 40441,
+            "seed": 17835
         },
         {
-            "id": 200,
-            "name": "the.mandalorian.s02e08.1080p.web.h264-dryb[eztv.re].mkv",
-            "btih": "2aa28077cba65ee33ba2b5802e2d85eef7be8217",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 13838,
-            "seed": 7868
-        },
-        {
-            "id": 53,
-            "name": "The-Mandalorian-S02E08-720p-WEB-H264-GLHF",
-            "btih": "cbd23878c2e7735418cfdfca1b5fa5497e5ef832",
-            "resolution": "720",
-            "encoding": "264",
-            "private": false,
-            "peer": 13123,
-            "seed": 6223
-        },
-        {
-            "id": 59,
-            "name": "The-Mandalorian-S02E08-Capitolo-16-Il-salvataggio-ITA-ENG-1080p-WEB-DL-x264-MeM",
-            "btih": "10d60cee79d3589a2babbb2bea2f9497e010b4b1",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 11991,
-            "seed": 7731
-        },
-        {
-            "id": 625,
-            "name": "multi-btih-41-2x-[ OxTorrent.cc ] The Mandalorian S02E08 FINAL VOSTFR HDTV",
-            "btih": "62d1f07133f2f32e05d0514d074af207d5a0b62b",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 11889,
-            "seed": 6138
-        },
-        {
-            "id": 598,
-            "name": "multi-btih-14-2x-The-Mandalorian-S02-2160p-WEB-DL-x265-8bit-SDR-DDP5-1-Atmos",
-            "btih": "e75459e86a04ccaef43da18be5330610ec058cbb",
-            "resolution": "2160",
-            "encoding": "265",
-            "private": false,
-            "peer": 11334,
-            "seed": 4804
-        },
-        {
-            "id": 167,
-            "name": "[rutor.is]Mandalorec_The_Mandalorian_Sezon_2_Serii_1-8_iz",
-            "btih": "35b9b6a2739b95090195b7d04fef3e491fa4e931",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 11225,
-            "seed": 4589
-        },
-        {
-            "id": 54,
-            "name": "The-Mandalorian-S02E08-720p-WEB-H264-GLHF[TGx]",
-            "btih": "7ab21f9e554f399d253312109ef19d86fc767085",
-            "resolution": "720",
-            "encoding": "264",
-            "private": false,
-            "peer": 10816,
-            "seed": 5302
-        },
-        {
-            "id": 596,
-            "name": "multi-btih-12-2x-The-Mandalorian-S02-2160p-DSNP-WEB-DL-DDP5-1-Atmos-DV-x265",
-            "btih": "10bc48a79ebfa3ea682e6cb2cac03d36e390c7b8",
-            "resolution": "2160",
-            "encoding": "265",
-            "private": false,
-            "peer": 10791,
-            "seed": 6689
-        },
-        {
-            "id": 173,
-            "name": "[rutor.is]The Mandalorian_(s02)_LF_720p",
-            "btih": "e0f549b9b1f17f2f62899ba88e4edb9772e4846e",
-            "resolution": "720",
-            "encoding": "none",
-            "private": false,
-            "peer": 10728,
-            "seed": 4810
-        },
-        {
-            "id": 602,
-            "name": "multi-btih-18-3x-The-Mandalorian-S02-NewStudio",
-            "btih": "2ce7068530e4a7cfad97a5664e6fb75c10f1ba06",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 10519,
-            "seed": 1001
-        },
-        {
-            "id": 198,
-            "name": "[rutor.is]The_Mandalorian_Series",
-            "btih": "cc03f4ee6518e16617e9d429ea7fa0a875d9b201",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 10444,
-            "seed": 3297
-        },
-        {
-            "id": 70,
-            "name": "The-Mandalorian-S02E08-Chapter-16-The-Rescue-2160p-WEB-DL-DDP5-1-Atmos-HDR-x265-MZABI",
-            "btih": "09f15033dfa0da726180c6255d8391ab265a9311",
-            "resolution": "2160",
-            "encoding": "265",
-            "private": false,
-            "peer": 9805,
-            "seed": 4552
-        },
-        {
-            "id": 58,
-            "name": "The-Mandalorian-S02E08-Capitolo-16-Il-Salvataggio-ITA-ENG-1080p-EAC3-H265-BlackEgg",
-            "btih": "570455be631ce5403f693e6181272e8025e3844f",
-            "resolution": "1080",
-            "encoding": "265",
-            "private": false,
-            "peer": 9625,
-            "seed": 3428
-        },
-        {
-            "id": 179,
-            "name": "[rutor.is]The.Mandalorian.S02.720p.Kerob",
-            "btih": "71d22246aaf0cfa7021c8592d3e0ce735e1ff402",
-            "resolution": "720",
-            "encoding": "none",
-            "private": false,
-            "peer": 9567,
-            "seed": 3375
-        },
-        {
-            "id": 43,
-            "name": "The-Mandalorian-S02E08-1080p-DSNP-WEBRip-AAC5-1-x264-Rapta",
-            "btih": "c89c614b9218505a358a7355604d5c31235467c0",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 9372,
-            "seed": 3904
-        },
-        {
-            "id": 591,
-            "name": "multi-btih-7-2x-The Mandalorian S02E08 1080p DSNP  WEBrip x265 DDP5 1 Atmos D0ct0rLew[SEV]",
-            "btih": "12d331a22bf844d4fcf22c2cba56455550b6b31c",
-            "resolution": "1080",
-            "encoding": "265",
-            "private": false,
-            "peer": 9333,
-            "seed": 1644
-        },
-        {
-            "id": 178,
-            "name": "[rutor.is]The.Mandalorian.S02.400p.TVShows",
-            "btih": "c83b07e1e2b9fea141b58fdb73371af199d17afd",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 9238,
-            "seed": 1479
-        },
-        {
-            "id": 65,
-            "name": "The-Mandalorian-S02E08-Chapter-16-The-Rescue-1080p-WEBRip-DDP5-1-Atmos-x264-alt-1",
-            "btih": "e83118f6261fce577dc49a252f281cbd251cebf7",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 9061,
-            "seed": 5075
-        },
-        {
-            "id": 177,
-            "name": "[rutor.is]The.Mandalorian.S02.400p.Kerob",
-            "btih": "e1e68a36205ee8f8a227298d4edd8610a1914127",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 8774,
-            "seed": 4536
-        },
-        {
-            "id": 592,
-            "name": "multi-btih-8-2x-The Mandalorian S02E08 Chapter 16 The Rescue  [1080p x265 10bit FS100 Joy].mkv",
-            "btih": "cceb2421e42ad7117e5a1a845aa29e37968a8df9",
-            "resolution": "1080",
-            "encoding": "265",
-            "private": false,
-            "peer": 8444,
-            "seed": 3957
-        },
-        {
-            "id": 182,
-            "name": "[rutor.is]The.Mandalorian.S02.WEB-DLRip.1080p.IdeaFilm",
-            "btih": "6f09c232e261dcd64af2748a3ab9846d044192b9",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 8363,
-            "seed": 3074
-        },
-        {
-            "id": 60,
-            "name": "The-Mandalorian-S02E08-Capitolo-16-Il-salvataggio-ITA-ENG-2160p-WEB-DL-DDP5-1-HDR-x265-MeM",
-            "btih": "d7748dd275ac772fa797656ff13a7f73ad2299f6",
-            "resolution": "2160",
-            "encoding": "265",
-            "private": false,
-            "peer": 8201,
-            "seed": 2499
-        },
-        {
-            "id": 52,
-            "name": "The-Mandalorian-S02E08-480p-x264",
-            "btih": "ec5fd2f41b778984204317d6d656590dd2e55fdd",
-            "resolution": "sd",
-            "encoding": "264",
-            "private": false,
-            "peer": 8163,
-            "seed": 1437
-        },
-        {
-            "id": 190,
-            "name": "[rutor.is]The_Mandalorian._Season_2_WEB-DLRip_l_400p_l_Ja",
-            "btih": "9dc850a7eba1115f71b1ae39a69159e7a6e91f81",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 8085,
-            "seed": 1592
-        },
-        {
-            "id": 613,
-            "name": "multi-btih-29-2x-The-Mandalorian-S02E08-Chapter-16-The-Rescue-1080p-WEBRip-DDP5-1-Atmos-x264-alt-2",
-            "btih": "404e7d28362e302bb1c4e9a6589f71e243a9097c",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 8019,
-            "seed": 3451
-        },
-        {
-            "id": 38,
+            "id": 39,
             "name": "The-Mandalorian-S02-SweSub-EngSub-1080p-x264-Justiso",
             "btih": "0a2543496f68baa6b2d207d3882817b48fc24548",
             "resolution": "1080",
             "encoding": "264",
             "private": false,
-            "peer": 7633,
-            "seed": 908
+            "peer": 38854,
+            "seed": 1342
         },
         {
-            "id": 80,
-            "name": "The-Mandalorian-S02E08-The-Rescue-[MULTI][WEB-Rip][1080p][H265-10b][HE-AAC-5-1]-K-LITY",
-            "btih": "f86af1ef864111536889be13aea2d671b0249008",
-            "resolution": "1080",
-            "encoding": "265",
-            "private": false,
-            "peer": 7394,
-            "seed": 777
-        },
-        {
-            "id": 604,
-            "name": "multi-btih-20-2x-The-Mandalorian-S02E05-2160p-DSNP-WEB-DL-DDP5-1-Atmos-DV-x265",
-            "btih": "a74e0b91453ba79991907b6d7489f8b6850fd04b",
-            "resolution": "2160",
-            "encoding": "265",
-            "private": false,
-            "peer": 7359,
-            "seed": 4090
-        },
-        {
-            "id": 209,
-            "name": "Мандалорец The Mandalorian Сезон 2 Серии 1-8 из 8 (Дебора Чоу, Рик Фамуйива, Дэйв Филони, Брайс Даллас Ховард, Тайка Вайти [rutracker-5981905]",
-            "btih": "dbf210f6b5380d096b2238c5f7f7d3e0d70fb66b",
+            "id": 198,
+            "name": "[rutor.is]The_Mandalorian.2020.WEB-DLRip.Files-x",
+            "btih": "e681d26c27c74d3ef05e08f05610a75e7ae67cd5",
             "resolution": "sd",
             "encoding": "none",
             "private": false,
-            "peer": 7079,
-            "seed": 1428
+            "peer": 37064,
+            "seed": 1678
         },
         {
-            "id": 57,
-            "name": "The-Mandalorian-S02E08-720p-x265",
-            "btih": "a497e765be40de32eff67483c7bc56c0b50bab15",
-            "resolution": "720",
-            "encoding": "265",
-            "private": false,
-            "peer": 7001,
-            "seed": 2722
-        },
-        {
-            "id": 184,
-            "name": "[rutor.is]The.Mandalorian.S02.WEB-DLRip.IdeaFilm",
-            "btih": "b0c80aba77baf396860823563530024c8b455be9",
+            "id": 188,
+            "name": "[rutor.is]The.Mandalorian.S02.400p.TVShows",
+            "btih": "c83b07e1e2b9fea141b58fdb73371af199d17afd",
             "resolution": "sd",
             "encoding": "none",
             "private": false,
-            "peer": 6299,
-            "seed": 2392
+            "peer": 37018,
+            "seed": 1961
         },
         {
-            "id": 593,
-            "name": "multi-btih-9-2x-The Mandalorian S02E08 Chapter 16 The Rescue  [2160p x265 10bit FS97 Joy].mkv",
-            "btih": "d9b936771629cce0889ce015f666d606e5649efb",
-            "resolution": "2160",
-            "encoding": "265",
-            "private": false,
-            "peer": 6128,
-            "seed": 3035
-        },
-        {
-            "id": 176,
-            "name": "[rutor.is]The.Mandalorian.S02.2160p.Kerob",
-            "btih": "a14c8ef54c5185cbd2dd1a5770585f4a32f71ddc",
-            "resolution": "2160",
-            "encoding": "none",
-            "private": false,
-            "peer": 5998,
-            "seed": 3185
-        },
-        {
-            "id": 92,
-            "name": "The.Mandalorian.S01E07.iNTERNAL.720p.WEB.H264-GHOSTS[TGx]",
-            "btih": "b8bc06779ff79a36ca14e1de946a5e0949926c9e",
+            "id": 995,
+            "name": "multi-btih-16-2x-The-Mandalorian-S02-720p-WEBRip-DDP5-1-Atmos-x264",
+            "btih": "d0d9d93ba7d46eadea8a412903e297753275f0eb",
             "resolution": "720",
             "encoding": "264",
             "private": false,
-            "peer": 5716,
-            "seed": 2480
+            "peer": 36921,
+            "seed": 11704
         },
         {
-            "id": 128,
-            "name": "The.Mandalorian.S02E08.720p.HEVC.x265-MeGusta [IPT]",
-            "btih": "cebb58ec2f42cc188d3bfaefc550634aeaee4629",
-            "resolution": "720",
-            "encoding": "265",
-            "private": true,
-            "peer": 5621,
-            "seed": 2850
-        },
-        {
-            "id": 201,
-            "name": "the.mandalorian.s02e08.720p.web.h264-ggwp.chs.eng.mp4",
-            "btih": "15720896be94f7e9a8f4db21367ba182d89f54d3",
-            "resolution": "720",
-            "encoding": "264",
-            "private": false,
-            "peer": 5537,
-            "seed": 2014
-        },
-        {
-            "id": 189,
-            "name": "[rutor.is]The_Mandalorian.WEB-DLRip-AVC_wolf1245__MediaBi",
-            "btih": "77b834ce233286ca53c7e6a8bcdd756616bdbcbd",
+            "id": 997,
+            "name": "multi-btih-18-3x-The-Mandalorian-S02-NewStudio",
+            "btih": "2ce7068530e4a7cfad97a5664e6fb75c10f1ba06",
             "resolution": "sd",
             "encoding": "none",
             "private": false,
-            "peer": 5353,
-            "seed": 2749
+            "peer": 36643,
+            "seed": 2180
         },
         {
-            "id": 626,
-            "name": "multi-btih-42-2x-[rutor.is]The Mandalorian_(s02)_2160p",
-            "btih": "47048e398e666ed99a2f1d02198246e78b1c6c3f",
+            "id": 226,
+            "name": "曼达洛人.The.Mandalorian.S02E08.END.中英字幕.WEBrip.720P-人人影视.V2.mp4",
+            "btih": "98ecfe855022d0c1f0e9ea729ae12fbbee95e1b6",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 36495,
+            "seed": 13325
+        },
+        {
+            "id": 23,
+            "name": "The-Mandalorian-S02-1080p-WEBRip-HEVC-10Bit",
+            "btih": "fef08a642529c156b4e806ebdc385e85debdaa78",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 36491,
+            "seed": 14366
+        },
+        {
+            "id": 216,
+            "name": "Мандалорец The Mandalorian Сезон 2 Серии 1-8 из 8 (Дебора Чоу) [2020, США, фантастика, боевик, приключения, WEB-DL 1080p] [rutracker-5961957]",
+            "btih": "7b81319447c883c8c6ea00f6b6d1432e5cbfc4f5",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 36142,
+            "seed": 7308
+        },
+        {
+            "id": 1012,
+            "name": "multi-btih-33-2x-The-Mandalorian-S02E08-DV-2160p-DSNP-WEB-DL-DDP5-1-Atmos-x265",
+            "btih": "ff5c81cc344dabf66e8bbdab6613075f75d11761",
             "resolution": "2160",
-            "encoding": "none",
-            "private": false,
-            "peer": 5341,
-            "seed": 2342
-        },
-        {
-            "id": 585,
-            "name": "multi-btih-1-2x-The Mandalorian (2019) S02E08 (1080p DSNP WEB-DL x265 HEVC 10bit DDP 5.1 Vyndros)",
-            "btih": "6e90888a9af907aadbae58f686785bcef8ea6692",
-            "resolution": "1080",
             "encoding": "265",
             "private": false,
-            "peer": 5332,
-            "seed": 2528
+            "peer": 34441,
+            "seed": 12220
         },
         {
-            "id": 156,
-            "name": "The.Mandalorian.SEZON 2",
-            "btih": "0fefe8d41e8b8e483808d656ba398a81a141cd78",
+            "id": 185,
+            "name": "[rutor.is]The.Mandalorian.S02.1080p.Kerob",
+            "btih": "f4275d3c9e431aa1ca09e541d1653f6c59894d5c",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 33147,
+            "seed": 15149
+        },
+        {
+            "id": 983,
+            "name": "multi-btih-4-2x-The Mandalorian (S02E08) (480p)",
+            "btih": "25d2df86f7cc8b2d54da5d6a5fd15adf37a50b02",
             "resolution": "sd",
             "encoding": "none",
             "private": false,
-            "peer": 5265,
-            "seed": 50
+            "peer": 32390,
+            "seed": 12962
         },
         {
-            "id": 171,
-            "name": "[rutor.is]The Mandalorian_(s02)_LF",
-            "btih": "6611ce51042c3e6dc26e06628c43355d150acca0",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 5242,
-            "seed": 2803
-        },
-        {
-            "id": 93,
-            "name": "The.Mandalorian.S01E08.iNTERNAL.720p.WEB.H264-GHOSTS[eztv].mkv",
-            "btih": "d23fba299a70f19d8452ec6ed3541be7bb2ee1b0",
-            "resolution": "720",
+            "id": 64,
+            "name": "The-Mandalorian-S02E08-Chapter-16-The-Rescue-1080p-WEB-DL-X264-A-alt",
+            "btih": "6a5f77d1b5637f8b0c5e7466569cd564e58f6f9d",
+            "resolution": "1080",
             "encoding": "264",
             "private": false,
-            "peer": 5240,
-            "seed": 1812
+            "peer": 31760,
+            "seed": 12410
         },
         {
-            "id": 584,
-            "name": "multi-btih-0-2x----The-Mandalorian-S02E08-1080p-HEVC-x265",
-            "btih": "30107ec7bf761bcd18db0262bc174b0e36a92b5c",
-            "resolution": "1080",
-            "encoding": "265",
+            "id": 173,
+            "name": "[rutor.is]Mandalorec_The_Mandalorian_Sezon_2_Serii_1-8_iz",
+            "btih": "35b9b6a2739b95090195b7d04fef3e491fa4e931",
+            "resolution": "sd",
+            "encoding": "none",
             "private": false,
-            "peer": 5116,
-            "seed": 1330
+            "peer": 31401,
+            "seed": 12509
         },
         {
-            "id": 78,
-            "name": "The-Mandalorian-S02E08-The-Rescue-WEB-DL-XviD-B4ND1T69",
-            "btih": "bb28481971b66ba5e0b0817cde4f7958a66dba43",
+            "id": 159,
+            "name": "The.Mandalorian.S02E08.XviD-AFG[eztv.re].avi",
+            "btih": "77b0515ff7fe1a22da0b6eb1e0aef7e22fbdcf92",
             "resolution": "sd",
             "encoding": "xvid",
             "private": false,
-            "peer": 4879,
-            "seed": 1268
+            "peer": 31341,
+            "seed": 14511
         },
         {
-            "id": 91,
-            "name": "The.Mandalorian.S01E06.2019.1080p.WEBRip.X264.AC3-EVO[TGx]",
-            "btih": "b04517c9c4941eac73da24e109b985c85bd9e440",
+            "id": 200,
+            "name": "[rutor.is]The_Mandalorian._Season_2_WEB-DLRip_l_400p_l_Ja",
+            "btih": "9dc850a7eba1115f71b1ae39a69159e7a6e91f81",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 29805,
+            "seed": 2289
+        },
+        {
+            "id": 46,
+            "name": "The-Mandalorian-S02E08-1080p-WEB-H264-DRYB[TGx]",
+            "btih": "7782c4d30122b499faf7ebdde845289ecf490a84",
             "resolution": "1080",
             "encoding": "264",
             "private": false,
-            "peer": 4667,
-            "seed": 2315
+            "peer": 29668,
+            "seed": 6136
         },
         {
-            "id": 62,
-            "name": "The-Mandalorian-S02E08-Chapter-16-The-Rescue-1080p-WEB-DL-DDP5-1-Atmos-HDR-x265-JAM",
-            "btih": "729f4892d80070eb7aff9a3c99b1564926d606d3",
+            "id": 34,
+            "name": "The-Mandalorian-S02-COMPLETE-WEB-DL-1080p-H264-AAC-ztorrenter",
+            "btih": "f39bbc18c5325488634fe101e973a51a14c6b557",
             "resolution": "1080",
-            "encoding": "265",
+            "encoding": "264",
             "private": false,
-            "peer": 4631,
-            "seed": 1381
+            "peer": 28751,
+            "seed": 14273
         },
         {
-            "id": 68,
+            "id": 994,
+            "name": "multi-btih-15-2x-The-Mandalorian-S02-720p-DSNP-WEBRip-DDP5-1-Atmos-x264",
+            "btih": "5773cb7e76f1860fd2c343e285b0439481a442a5",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 28583,
+            "seed": 11975
+        },
+        {
+            "id": 69,
             "name": "The-Mandalorian-S02E08-Chapter-16-The-Rescue-2160p-10bit-HDR-WEBRip-6CH-x265-HEVC-PSA",
             "btih": "b81531606bb0e4a7fe9f57eb64759e97051014eb",
             "resolution": "2160",
             "encoding": "265",
             "private": false,
-            "peer": 4606,
-            "seed": 1606
+            "peer": 27360,
+            "seed": 2508
         },
         {
-            "id": 183,
-            "name": "[rutor.is]The.Mandalorian.S02.WEB-DLRip.720p.IdeaFilm",
-            "btih": "e2af99b5abab94385bce22a545757e22d46d93ec",
+            "id": 20,
+            "name": "The-Mandalorian--S02",
+            "btih": "31883488e40c08360e3268d3ce6afe2826dc9451",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 27024,
+            "seed": 607
+        },
+        {
+            "id": 98,
+            "name": "The.Mandalorian.S01E08.iNTERNAL.720p.WEB.H264-GHOSTS[eztv].mkv",
+            "btih": "d23fba299a70f19d8452ec6ed3541be7bb2ee1b0",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 26486,
+            "seed": 6056
+        },
+        {
+            "id": 50,
+            "name": "The-Mandalorian-S02E08-1080p-x265",
+            "btih": "70c03be1ba8fdbd060c0f42752b214bb81d44d26",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 26074,
+            "seed": 6648
+        },
+        {
+            "id": 142,
+            "name": "The.Mandalorian.S02E08.Chapter.16.The.Rescue.1080p.WEB-DL.X264.Atmos-EVO [IPT]",
+            "btih": "c315cd4600fce3c9f5d5038364cef08fdba11468",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 24627,
+            "seed": 14977
+        },
+        {
+            "id": 987,
+            "name": "multi-btih-8-2x-The Mandalorian S02E08 Chapter 16 The Rescue  [1080p x265 10bit FS100 Joy].mkv",
+            "btih": "cceb2421e42ad7117e5a1a845aa29e37968a8df9",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 23927,
+            "seed": 4809
+        },
+        {
+            "id": 208,
+            "name": "[rutor.is]The_Mandalorian_Series",
+            "btih": "cc03f4ee6518e16617e9d429ea7fa0a875d9b201",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 23303,
+            "seed": 4232
+        },
+        {
+            "id": 59,
+            "name": "The-Mandalorian-S02E08-Capitolo-16-Il-Salvataggio-ITA-ENG-1080p-EAC3-H265-BlackEgg",
+            "btih": "570455be631ce5403f693e6181272e8025e3844f",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 21101,
+            "seed": 4302
+        },
+        {
+            "id": 991,
+            "name": "multi-btih-12-2x-The-Mandalorian-S02-2160p-DSNP-WEB-DL-DDP5-1-Atmos-DV-x265",
+            "btih": "10bc48a79ebfa3ea682e6cb2cac03d36e390c7b8",
+            "resolution": "2160",
+            "encoding": "265",
+            "private": false,
+            "peer": 21092,
+            "seed": 9240
+        },
+        {
+            "id": 58,
+            "name": "The-Mandalorian-S02E08-720p-x265",
+            "btih": "a497e765be40de32eff67483c7bc56c0b50bab15",
+            "resolution": "720",
+            "encoding": "265",
+            "private": false,
+            "peer": 20976,
+            "seed": 3141
+        },
+        {
+            "id": 1021,
+            "name": "multi-btih-42-2x-[rutor.is]The Mandalorian_(s02)_2160p",
+            "btih": "47048e398e666ed99a2f1d02198246e78b1c6c3f",
+            "resolution": "2160",
+            "encoding": "none",
+            "private": false,
+            "peer": 20951,
+            "seed": 9362
+        },
+        {
+            "id": 999,
+            "name": "multi-btih-20-2x-The-Mandalorian-S02E05-2160p-DSNP-WEB-DL-DDP5-1-Atmos-DV-x265",
+            "btih": "a74e0b91453ba79991907b6d7489f8b6850fd04b",
+            "resolution": "2160",
+            "encoding": "265",
+            "private": false,
+            "peer": 20722,
+            "seed": 4862
+        },
+        {
+            "id": 167,
+            "name": "[FileTracker.pl] The Mandalorian 2019- [S01-S02] [HDR.2160p.DSNP.WEB-DL.DD5.1.H265-Ralf][MULTi][Alusia]",
+            "btih": "6cb4f5480cdb25bb73b64c3021cbf5c81963304f",
+            "resolution": "2160",
+            "encoding": "265",
+            "private": false,
+            "peer": 20462,
+            "seed": 856
+        },
+        {
+            "id": 71,
+            "name": "The-Mandalorian-S02E08-Chapter-16-The-Rescue-2160p-WEB-DL-DDP5-1-Atmos-HDR-x265-MZABI",
+            "btih": "09f15033dfa0da726180c6255d8391ab265a9311",
+            "resolution": "2160",
+            "encoding": "265",
+            "private": false,
+            "peer": 20431,
+            "seed": 5258
+        },
+        {
+            "id": 1020,
+            "name": "multi-btih-41-2x-[ OxTorrent.cc ] The Mandalorian S02E08 FINAL VOSTFR HDTV",
+            "btih": "62d1f07133f2f32e05d0514d074af207d5a0b62b",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 20229,
+            "seed": 9675
+        },
+        {
+            "id": 42,
+            "name": "The-Mandalorian-S02-XviD",
+            "btih": "d579d4364caa33de55d01d788db3df038672f152",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": false,
+            "peer": 20112,
+            "seed": 1034
+        },
+        {
+            "id": 1018,
+            "name": "multi-btih-39-2x-The.Mandalorian.S02E08.2160p.WEB.H265-GLHF[rartv]-[rarbg.to]",
+            "btih": "bdc31a5d257d9a9e13bc3a9ef6fe4faf70efe798",
+            "resolution": "2160",
+            "encoding": "265",
+            "private": false,
+            "peer": 20080,
+            "seed": 5075
+        },
+        {
+            "id": 54,
+            "name": "The-Mandalorian-S02E08-720p-WEB-H264-GLHF",
+            "btih": "cbd23878c2e7735418cfdfca1b5fa5497e5ef832",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 19225,
+            "seed": 7576
+        },
+        {
+            "id": 1003,
+            "name": "multi-btih-24-2x-The-Mandalorian-S02E08-2160p-WEB-DL-x265-8bit-SDR-DDP5-1-Atmos",
+            "btih": "96383b6ae81ccf9f47ba65e20d14b2e535d7a99a",
+            "resolution": "2160",
+            "encoding": "265",
+            "private": false,
+            "peer": 18936,
+            "seed": 9149
+        },
+        {
+            "id": 182,
+            "name": "[rutor.is]The Mandalorian_(s02)_LF_720p",
+            "btih": "e0f549b9b1f17f2f62899ba88e4edb9772e4846e",
             "resolution": "720",
             "encoding": "none",
             "private": false,
-            "peer": 4429,
-            "seed": 1076
+            "peer": 18799,
+            "seed": 7315
         },
         {
-            "id": 601,
+            "id": 996,
             "name": "multi-btih-17-2x-The-Mandalorian-S02-DV-2160p-DSNP-WEB-DL-DDP5-1",
             "btih": "d4f3cd64bb178ad5adcd53b792f007ee8b02958b",
             "resolution": "2160",
             "encoding": "none",
             "private": false,
-            "peer": 4297,
-            "seed": 1696
+            "peer": 18195,
+            "seed": 2229
         },
         {
-            "id": 130,
-            "name": "The.Mandalorian.S02E08.720p.WEB.H264-GLHF [IPT]",
-            "btih": "1bbf2810ab1c9d0cdc844557790fc4f434a52242",
-            "resolution": "720",
-            "encoding": "264",
-            "private": true,
-            "peer": 4258,
-            "seed": 2496
-        },
-        {
-            "id": 192,
-            "name": "[rutor.is]The_Mandalorian._Season_2_WEB-DL_l_720p_l_Jaski",
-            "btih": "61b8398ec61143d13bcc7aa63fa50349391ed9ea",
-            "resolution": "720",
-            "encoding": "none",
-            "private": false,
-            "peer": 4159,
-            "seed": 1499
-        },
-        {
-            "id": 590,
-            "name": "multi-btih-6-2x-The Mandalorian 2x08-720p.h264.ita.eng.Ac3 5.1.sub.ita.eng-MIRCrew",
-            "btih": "8d19b9f437d681b8825624168cd7116bb770c4af",
-            "resolution": "720",
-            "encoding": "264",
-            "private": false,
-            "peer": 4150,
-            "seed": 919
-        },
-        {
-            "id": 191,
-            "name": "[rutor.is]The_Mandalorian._Season_2_WEB-DL_l_1080p_l_Jask",
-            "btih": "b6faf0013db02f963fee5150d165e117ba422452",
+            "id": 979,
+            "name": "multi-btih-0-2x----The-Mandalorian-S02E08-1080p-HEVC-x265",
+            "btih": "30107ec7bf761bcd18db0262bc174b0e36a92b5c",
             "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 18144,
+            "seed": 2078
+        },
+        {
+            "id": 210,
+            "name": "the.mandalorian.s02e08.1080p.web.h264-dryb[eztv.re].mkv",
+            "btih": "2aa28077cba65ee33ba2b5802e2d85eef7be8217",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 17837,
+            "seed": 9342
+        },
+        {
+            "id": 1022,
+            "name": "multi-btih-43-2x-[rutor.is]The Mandalorian_(s02)_720p",
+            "btih": "ecbd3c5231e6510136ad0ecf119772908fab2e13",
+            "resolution": "720",
             "encoding": "none",
             "private": false,
-            "peer": 3902,
-            "seed": 1833
+            "peer": 17775,
+            "seed": 2613
+        },
+        {
+            "id": 1008,
+            "name": "multi-btih-29-2x-The-Mandalorian-S02E08-Chapter-16-The-Rescue-1080p-WEBRip-DDP5-1-Atmos-x264-alt-2",
+            "btih": "404e7d28362e302bb1c4e9a6589f71e243a9097c",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 17757,
+            "seed": 3954
+        },
+        {
+            "id": 219,
+            "name": "Мандалорец The Mandalorian Сезон 2 Серии 1-8 из 8 (Дебора Чоу, Рик Фамуйива, Дэйв Филони, Брайс Даллас Ховард, Тайка Вайти [rutracker-5981905]",
+            "btih": "dbf210f6b5380d096b2238c5f7f7d3e0d70fb66b",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 17633,
+            "seed": 3009
         },
         {
             "id": 90,
-            "name": "The.Mandalorian.S01E03.1080p.WEB.H264-PETRiFiED[TGx]",
-            "btih": "5b6f9931aa240d4b7e33d59305baa65ffcc78903",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 3889,
-            "seed": 2410
-        },
-        {
-            "id": 89,
             "name": "The-Mandalorian-Seasons-1-and-2-[2160p-4K-NVEnc-H265][AAC-6Ch]",
             "btih": "3168fc3f08f34f1339dacb0664e88b5ff59d2ec6",
             "resolution": "2160",
             "encoding": "265",
             "private": false,
-            "peer": 3816,
-            "seed": 2087
+            "peer": 17331,
+            "seed": 6150
         },
         {
-            "id": 187,
-            "name": "[rutor.is]The.Mandalorian_Season_02_HamsterStudio_720",
-            "btih": "0d18b89d423d3e58647113406ebd05b39da8661d",
+            "id": 986,
+            "name": "multi-btih-7-2x-The Mandalorian S02E08 1080p DSNP  WEBrip x265 DDP5 1 Atmos D0ct0rLew[SEV]",
+            "btih": "12d331a22bf844d4fcf22c2cba56455550b6b31c",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 17254,
+            "seed": 2206
+        },
+        {
+            "id": 1016,
+            "name": "multi-btih-37-2x-The-Mandalorian-S02E08-iNTERNAL-2160p-WEB-h265",
+            "btih": "509310e78a52777c3fcff9264b25706f800848aa",
+            "resolution": "2160",
+            "encoding": "265",
+            "private": false,
+            "peer": 17250,
+            "seed": 2016
+        },
+        {
+            "id": 993,
+            "name": "multi-btih-14-2x-The-Mandalorian-S02-2160p-WEB-DL-x265-8bit-SDR-DDP5-1-Atmos",
+            "btih": "e75459e86a04ccaef43da18be5330610ec058cbb",
+            "resolution": "2160",
+            "encoding": "265",
+            "private": false,
+            "peer": 16806,
+            "seed": 6577
+        },
+        {
+            "id": 61,
+            "name": "The-Mandalorian-S02E08-Capitolo-16-Il-salvataggio-ITA-ENG-2160p-WEB-DL-DDP5-1-HDR-x265-MeM",
+            "btih": "d7748dd275ac772fa797656ff13a7f73ad2299f6",
+            "resolution": "2160",
+            "encoding": "265",
+            "private": false,
+            "peer": 16756,
+            "seed": 3095
+        },
+        {
+            "id": 60,
+            "name": "The-Mandalorian-S02E08-Capitolo-16-Il-salvataggio-ITA-ENG-1080p-WEB-DL-x264-MeM",
+            "btih": "10d60cee79d3589a2babbb2bea2f9497e010b4b1",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 16717,
+            "seed": 10197
+        },
+        {
+            "id": 189,
+            "name": "[rutor.is]The.Mandalorian.S02.720p.Kerob",
+            "btih": "71d22246aaf0cfa7021c8592d3e0ce735e1ff402",
             "resolution": "720",
             "encoding": "none",
             "private": false,
-            "peer": 3588,
-            "seed": 492
+            "peer": 16211,
+            "seed": 3891
+        },
+        {
+            "id": 55,
+            "name": "The-Mandalorian-S02E08-720p-WEB-H264-GLHF[TGx]",
+            "btih": "7ab21f9e554f399d253312109ef19d86fc767085",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 15714,
+            "seed": 6016
+        },
+        {
+            "id": 53,
+            "name": "The-Mandalorian-S02E08-480p-x264",
+            "btih": "ec5fd2f41b778984204317d6d656590dd2e55fdd",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 15511,
+            "seed": 1938
+        },
+        {
+            "id": 92,
+            "name": "The.Mandalorian.S01E03.1080p.WEB.H264-PETRiFiED[TGx]",
+            "btih": "5b6f9931aa240d4b7e33d59305baa65ffcc78903",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 15140,
+            "seed": 7671
+        },
+        {
+            "id": 186,
+            "name": "[rutor.is]The.Mandalorian.S02.2160p.Kerob",
+            "btih": "a14c8ef54c5185cbd2dd1a5770585f4a32f71ddc",
+            "resolution": "2160",
+            "encoding": "none",
+            "private": false,
+            "peer": 14953,
+            "seed": 3530
+        },
+        {
+            "id": 211,
+            "name": "the.mandalorian.s02e08.720p.web.h264-ggwp.chs.eng.mp4",
+            "btih": "15720896be94f7e9a8f4db21367ba182d89f54d3",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 14937,
+            "seed": 4057
+        },
+        {
+            "id": 94,
+            "name": "The.Mandalorian.S01E07.iNTERNAL.720p.WEB.H264-GHOSTS[TGx]",
+            "btih": "b8bc06779ff79a36ca14e1de946a5e0949926c9e",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 14911,
+            "seed": 6912
+        },
+        {
+            "id": 192,
+            "name": "[rutor.is]The.Mandalorian.S02.WEB-DLRip.1080p.IdeaFilm",
+            "btih": "6f09c232e261dcd64af2748a3ab9846d044192b9",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 14782,
+            "seed": 3525
+        },
+        {
+            "id": 221,
+            "name": "Мандалорец The Mandalorian Сезон 2 Серии 1-8 из 8 (Дэйв Филони, Дебора Чоу, Рик Фамуйива) [2020, США, фантастика, боевик, [rutracker-5961898]",
+            "btih": "729662d54d9f5dfee4f6afcc04555db00465b663",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 14753,
+            "seed": 1694
+        },
+        {
+            "id": 81,
+            "name": "The-Mandalorian-S02E08-The-Rescue-[MULTI][WEB-Rip][1080p][H265-10b][HE-AAC-5-1]-K-LITY",
+            "btih": "f86af1ef864111536889be13aea2d671b0249008",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 13996,
+            "seed": 1005
+        },
+        {
+            "id": 988,
+            "name": "multi-btih-9-2x-The Mandalorian S02E08 Chapter 16 The Rescue  [2160p x265 10bit FS97 Joy].mkv",
+            "btih": "d9b936771629cce0889ce015f666d606e5649efb",
+            "resolution": "2160",
+            "encoding": "265",
+            "private": false,
+            "peer": 13788,
+            "seed": 4345
+        },
+        {
+            "id": 93,
+            "name": "The.Mandalorian.S01E06.2019.1080p.WEBRip.X264.AC3-EVO[TGx]",
+            "btih": "b04517c9c4941eac73da24e109b985c85bd9e440",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 13330,
+            "seed": 6842
         },
         {
             "id": 16,
@@ -1468,398 +1367,218 @@
             "resolution": "2160",
             "encoding": "265",
             "private": false,
-            "peer": 3522,
-            "seed": 1617
+            "peer": 13066,
+            "seed": 5146
         },
         {
-            "id": 32,
-            "name": "The-Mandalorian-S02-COMPLETE-SPANiSH-1080p-DSNP-WEB-DL-x264-dem3nt3",
-            "btih": "57e0dff217330c5c301f51156556f938405fe917",
+            "id": 96,
+            "name": "The.Mandalorian.S01E08.1080p.WEBRiP.x264-PETRiFiED[rarbg]",
+            "btih": "2a38ed59862c414407b7e8101c4cbfe85d66921b",
             "resolution": "1080",
             "encoding": "264",
             "private": false,
-            "peer": 3321,
-            "seed": 761
-        },
-        {
-            "id": 115,
-            "name": "The.Mandalorian.S02E08.1080p.HEVC.x265-MeGusta [IPT]",
-            "btih": "93f8b63e0780b4ab1090110d8756a0f252b86f60",
-            "resolution": "1080",
-            "encoding": "265",
-            "private": true,
-            "peer": 3320,
-            "seed": 1777
+            "peer": 12725,
+            "seed": 3286
         },
         {
             "id": 162,
-            "name": "[HR]-Star-Wars--The-Mandalorian-S02E08-[Disney -4K-to-1080p-HEVC-E-OPUS-5-1] HR-DR",
-            "btih": "3f744e999469c48ff797d5641117a33bf2226169",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 3302,
-            "seed": 672
-        },
-        {
-            "id": 23,
-            "name": "The-Mandalorian-S02-1080p-x265",
-            "btih": "1148d121220a1bae8b1d7b9934396e3daf507962",
-            "resolution": "1080",
-            "encoding": "265",
-            "private": false,
-            "peer": 3235,
-            "seed": 988
-        },
-        {
-            "id": 47,
-            "name": "The-Mandalorian-S02E08-1080p-WEB-x264-Worldmkv",
-            "btih": "490f49d95ad0db6d0bae68cac4f4a2acb540843c",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 3234,
-            "seed": 995
-        },
-        {
-            "id": 142,
-            "name": "The.Mandalorian.S02E08.Chapter.16.The.Rescue.2160p.WEB-DL.DDP5.1.Atmos.HDR.x265-MZABI.mkv [IPT]",
-            "btih": "d3ce69af67a73ab767a73246e08677a23c34ffeb",
-            "resolution": "2160",
-            "encoding": "265",
-            "private": true,
-            "peer": 3072,
-            "seed": 1691
-        },
-        {
-            "id": 152,
-            "name": "The.Mandalorian.S02E08.XviD-AFG [IPT]",
-            "btih": "b5ed274fe6b6dae32b755266abd6c14256c1a149",
-            "resolution": "sd",
-            "encoding": "xvid",
-            "private": true,
-            "peer": 3055,
-            "seed": 1660
-        },
-        {
-            "id": 94,
-            "name": "The.Mandalorian.S02.1080p.WEBRip.DDP5.1.Atmos.x264-MZABI [IPT]",
-            "btih": "68608ef48e0a31d052b0f43465c209bf1a0c1c20",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": true,
-            "peer": 3030,
-            "seed": 1494
-        },
-        {
-            "id": 621,
-            "name": "multi-btih-37-2x-The-Mandalorian-S02E08-iNTERNAL-2160p-WEB-h265",
-            "btih": "509310e78a52777c3fcff9264b25706f800848aa",
-            "resolution": "2160",
-            "encoding": "265",
-            "private": false,
-            "peer": 2844,
-            "seed": 1171
-        },
-        {
-            "id": 55,
-            "name": "The-Mandalorian-S02E08-720p-WEB-x264-Worldmkv",
-            "btih": "0221471c39bcf3758134f54fcf4236b5f5252537",
-            "resolution": "720",
-            "encoding": "264",
-            "private": false,
-            "peer": 2831,
-            "seed": 1022
-        },
-        {
-            "id": 79,
-            "name": "The-Mandalorian-S02E08-The-Rescue-[MULTI][WEB-Rip][1080p][H265-10b][HE-AAC-5-1]-K-LITY-alt",
-            "btih": "ae10f44a73c7f55b23cc7a037b97f65aa8800870",
-            "resolution": "1080",
-            "encoding": "265",
-            "private": false,
-            "peer": 2701,
-            "seed": 760
-        },
-        {
-            "id": 214,
-            "name": "曼达洛人.The.Mandalorian.S02E08.2160p.DSNP.WEB-DL.4K无水印中英双字.7meiju.mp4",
-            "btih": "b6b4d28e76e65c4b23fbbb2b98e2cc1b926b33fa",
-            "resolution": "2160",
-            "encoding": "none",
-            "private": false,
-            "peer": 2697,
-            "seed": 246
-        },
-        {
-            "id": 69,
-            "name": "The-Mandalorian-S02E08-Chapter-16-The-Rescue-2160p-HDR-WEB-Atmos-5-1-HEVC-DDR",
-            "btih": "9972397386dc556229dced18957cc6598e6c1ad3",
-            "resolution": "2160",
-            "encoding": "none",
-            "private": false,
-            "peer": 2581,
-            "seed": 570
-        },
-        {
-            "id": 30,
-            "name": "The-Mandalorian-S02-720p-x265",
-            "btih": "3b480dd3e57f207c28b225be330629abdfa5b0bb",
-            "resolution": "720",
-            "encoding": "265",
-            "private": false,
-            "peer": 2503,
-            "seed": 788
-        },
-        {
-            "id": 100,
-            "name": "The.Mandalorian.S02.2160p.WEB-DL.DDP5.1.HDR.x265-MZABI.DUAL-RK",
-            "btih": "ba76c50dbdc2ba7d610b0775e73f8cadf6e062ba",
-            "resolution": "2160",
-            "encoding": "265",
-            "private": false,
-            "peer": 2486,
-            "seed": 79
-        },
-        {
-            "id": 166,
-            "name": "[rutor.is]Mandalorec_2_sezon_AF_scarabey.org",
-            "btih": "04e0adfbbc05300d6e512213d261e22e773ae808",
+            "name": "The.Mandalorian.SEZON 2",
+            "btih": "0fefe8d41e8b8e483808d656ba398a81a141cd78",
             "resolution": "sd",
             "encoding": "none",
             "private": false,
-            "peer": 2469,
-            "seed": 1427
+            "peer": 12355,
+            "seed": 224
         },
         {
-            "id": 39,
+            "id": 40,
             "name": "The-Mandalorian-S02-WEBRip-x264-alt",
             "btih": "bd3e67146c1e309c41c005a15e3057924ce1bb75",
             "resolution": "sd",
             "encoding": "264",
             "private": false,
-            "peer": 2431,
-            "seed": 541
+            "peer": 12297,
+            "seed": 750
         },
         {
-            "id": 213,
-            "name": "曼达洛人.The.Mandalorian.S02E08.1080p.DSNP.WEB-DL.高码无水印中英双字.7meiju.mp4",
-            "btih": "bdb74650ef968fff2cc44a7c844778d4dc47fbd7",
+            "id": 44,
+            "name": "The-Mandalorian-S02E08-1080p-DSNP-WEBRip-AAC5-1-x264-Rapta",
+            "btih": "c89c614b9218505a358a7355604d5c31235467c0",
             "resolution": "1080",
-            "encoding": "none",
+            "encoding": "264",
             "private": false,
-            "peer": 2193,
-            "seed": 377
+            "peer": 12231,
+            "seed": 4555
         },
         {
-            "id": 193,
-            "name": "[rutor.is]The_Mandalorian",
-            "btih": "24e8147c0b60e013e10205b6749d71c42335ff5f",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 2104,
-            "seed": 992
-        },
-        {
-            "id": 186,
-            "name": "[rutor.is]The.Mandalorian_Season_02_HamsterStudio_1080",
-            "btih": "a37cdc6a66f33f9ec884b2cac59cb6b06676259c",
+            "id": 66,
+            "name": "The-Mandalorian-S02E08-Chapter-16-The-Rescue-1080p-WEBRip-DDP5-1-Atmos-x264-alt-1",
+            "btih": "e83118f6261fce577dc49a252f281cbd251cebf7",
             "resolution": "1080",
-            "encoding": "none",
+            "encoding": "264",
             "private": false,
-            "peer": 2050,
-            "seed": 800
+            "peer": 12088,
+            "seed": 5655
         },
         {
-            "id": 185,
-            "name": "[rutor.is]The.Mandalorian_Season_02_HamsterStudio",
-            "btih": "d46eb8514f356383d2322f7d3d9736e50e20522d",
-            "resolution": "sd",
-            "encoding": "none",
+            "id": 980,
+            "name": "multi-btih-1-2x-The Mandalorian (2019) S02E08 (1080p DSNP WEB-DL x265 HEVC 10bit DDP 5.1 Vyndros)",
+            "btih": "6e90888a9af907aadbae58f686785bcef8ea6692",
+            "resolution": "1080",
+            "encoding": "265",
             "private": false,
-            "peer": 2016,
-            "seed": 742
+            "peer": 11782,
+            "seed": 3086
         },
         {
-            "id": 85,
-            "name": "The-Mandalorian-S02e01-08-(720p-Ita-Eng-Fra)-byMe7alh",
-            "btih": "ef7f64ae8752ccf11a5b370c25e23e999c298e83",
-            "resolution": "720",
-            "encoding": "none",
-            "private": false,
-            "peer": 2007,
-            "seed": 970
-        },
-        {
-            "id": 211,
-            "name": "Мандалорец The Mandalorian Сезон 2 Серии 1-8 из 8 (Дэйв Филони, Дебора Чоу, Рик Фамуйива) [2020, США, фантастика, боевик, [rutracker-5961898]",
-            "btih": "729662d54d9f5dfee4f6afcc04555db00465b663",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 1975,
-            "seed": 514
-        },
-        {
-            "id": 97,
-            "name": "The.Mandalorian.S02.2020.WEBRip.2160p.HDR.[Ukr.Eng]",
-            "btih": "72b8c5d67cb77d9edfddb8ad38f1deac54ba1bc9",
+            "id": 225,
+            "name": "曼达洛人.The.Mandalorian.S02E08.2160p.DSNP.WEB-DL.4K无水印中英双字.7meiju.mp4",
+            "btih": "b6b4d28e76e65c4b23fbbb2b98e2cc1b926b33fa",
             "resolution": "2160",
             "encoding": "none",
             "private": false,
-            "peer": 1948,
-            "seed": 107
+            "peer": 10929,
+            "seed": 379
         },
         {
-            "id": 35,
-            "name": "The-Mandalorian-S02-GERMAN-DL-720P-WEB-H264-WAYNE-alt",
-            "btih": "95562e9ea67a8e507075122baed9d30bbce007d7",
+            "id": 180,
+            "name": "[rutor.is]The Mandalorian_(s02)_LF",
+            "btih": "6611ce51042c3e6dc26e06628c43355d150acca0",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 10835,
+            "seed": 4580
+        },
+        {
+            "id": 985,
+            "name": "multi-btih-6-2x-The Mandalorian 2x08-720p.h264.ita.eng.Ac3 5.1.sub.ita.eng-MIRCrew",
+            "btih": "8d19b9f437d681b8825624168cd7116bb770c4af",
             "resolution": "720",
             "encoding": "264",
             "private": false,
-            "peer": 1874,
-            "seed": 119
+            "peer": 10662,
+            "seed": 1573
         },
         {
-            "id": 194,
-            "name": "[rutor.is]The_Mandalorian_S02_2020_1080p_WEBRip_Gears_Med",
-            "btih": "31ac342a0e774922ecf32958f8628ec95dc4ee6d",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 1842,
-            "seed": 585
-        },
-        {
-            "id": 101,
-            "name": "The.Mandalorian.S02.2160p.WEB-DL.x265.10bit.HDR.DDP5.1.Atmos-MZABI [IPT]",
-            "btih": "2c061cffc4b5950b3d870c9b5f2fa49f6ce916ea",
-            "resolution": "2160",
-            "encoding": "265",
-            "private": true,
-            "peer": 1779,
-            "seed": 915
-        },
-        {
-            "id": 195,
-            "name": "[rutor.is]The_Mandalorian_S02_2020_720p_WEBRip_Gears_Medi",
-            "btih": "a13baaeb3dc399ae2f921d6680ba69e19a007b46",
-            "resolution": "720",
-            "encoding": "none",
-            "private": false,
-            "peer": 1496,
-            "seed": 407
-        },
-        {
-            "id": 41,
-            "name": "The-Mandalorian-S02-XviD",
-            "btih": "d579d4364caa33de55d01d788db3df038672f152",
-            "resolution": "sd",
-            "encoding": "xvid",
-            "private": false,
-            "peer": 1444,
-            "seed": 389
-        },
-        {
-            "id": 117,
-            "name": "The.Mandalorian.S02E08.1080p.WEB.H264-DRYB [IPT]",
-            "btih": "666d0d4a515cbd08ba1c1c08e563aa56f7df5ff4",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": true,
-            "peer": 1378,
-            "seed": 767
-        },
-        {
-            "id": 11,
-            "name": "The Mandalorian S02 web 10bit ddp hevc-d3g [IPT]",
-            "btih": "92a24975d92f52f23668d30cf5b84b5671334690",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": true,
-            "peer": 1270,
-            "seed": 724
-        },
-        {
-            "id": 88,
-            "name": "The-Mandalorian-Season-S02-x265-405p-we",
-            "btih": "f04ec00c69d0adb3f6e5d1913f1dd4f29caad477",
-            "resolution": "sd",
-            "encoding": "265",
-            "private": false,
-            "peer": 1172,
-            "seed": 174
-        },
-        {
-            "id": 126,
-            "name": "The.Mandalorian.S02E08.480p.x264-mSD [IPT]",
-            "btih": "28e6c2ba2d3ba945f470a33a3727a1a08e98d925",
-            "resolution": "sd",
-            "encoding": "264",
-            "private": true,
-            "peer": 975,
-            "seed": 568
-        },
-        {
-            "id": 109,
-            "name": "The.Mandalorian.S02.ITA.ENG.DSNP.WEB.XviD-Pir8",
-            "btih": "7148bc86a9d45f004336088916bfb230793f8ee2",
-            "resolution": "sd",
-            "encoding": "xvid",
-            "private": false,
-            "peer": 967,
-            "seed": 65
-        },
-        {
-            "id": 161,
-            "name": "[FileTracker.pl] The Mandalorian 2019- [S01-S02] [HDR.2160p.DSNP.WEB-DL.DD5.1.H265-Ralf][MULTi][Alusia]",
-            "btih": "6cb4f5480cdb25bb73b64c3021cbf5c81963304f",
-            "resolution": "2160",
-            "encoding": "265",
-            "private": false,
-            "peer": 885,
-            "seed": 257
-        },
-        {
-            "id": 196,
-            "name": "[rutor.is]The_Mandalorian_S02_2020_WEBRip_Gears_Media_ID1",
-            "btih": "64a199276ad85249cca92e025278b4bbdc5fc525",
+            "id": 187,
+            "name": "[rutor.is]The.Mandalorian.S02.400p.Kerob",
+            "btih": "e1e68a36205ee8f8a227298d4edd8610a1914127",
             "resolution": "sd",
             "encoding": "none",
             "private": false,
-            "peer": 869,
-            "seed": 397
+            "peer": 10504,
+            "seed": 5243
         },
         {
-            "id": 96,
-            "name": "The.Mandalorian.S02.1080p.x265-MeGusta [IPT]",
-            "btih": "7f86242fa1c5c938e910265d38b567d93a606ff6",
-            "resolution": "1080",
-            "encoding": "265",
-            "private": true,
-            "peer": 835,
-            "seed": 440
-        },
-        {
-            "id": 134,
-            "name": "The.Mandalorian.S02E08.AAC.MP4-Mobile [IPT]",
-            "btih": "77b5ab4689edc913ffab8d38ce78dc3f7faee696",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": true,
-            "peer": 658,
-            "seed": 365
-        },
-        {
-            "id": 204,
+            "id": 214,
             "name": "Мандалорец The Mandalorian Сезон 2 Серии 1-8 из 8 (Дебора Чоу) [2020, США, Фантастика, боевик, приключения, WEBRip 1080p] [rutracker-5962670]",
             "btih": "b4e2c5eaa93f9a31998139c2fda16b99e5f6916e",
             "resolution": "1080",
             "encoding": "none",
             "private": false,
-            "peer": 483,
-            "seed": 118
+            "peer": 10470,
+            "seed": 3719
+        },
+        {
+            "id": 106,
+            "name": "The.Mandalorian.S02.2160p.WEB-DL.DDP5.1.HDR.x265-MZABI.DUAL-RK",
+            "btih": "ba76c50dbdc2ba7d610b0775e73f8cadf6e062ba",
+            "resolution": "2160",
+            "encoding": "265",
+            "private": false,
+            "peer": 10264,
+            "seed": 255
+        },
+        {
+            "id": 36,
+            "name": "The-Mandalorian-S02-GERMAN-DL-720P-WEB-H264-WAYNE-alt",
+            "btih": "95562e9ea67a8e507075122baed9d30bbce007d7",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 10106,
+            "seed": 210
+        },
+        {
+            "id": 199,
+            "name": "[rutor.is]The_Mandalorian.WEB-DLRip-AVC_wolf1245__MediaBi",
+            "btih": "77b834ce233286ca53c7e6a8bcdd756616bdbcbd",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 10034,
+            "seed": 4352
+        },
+        {
+            "id": 205,
+            "name": "[rutor.is]The_Mandalorian_S02_2020_720p_WEBRip_Gears_Medi",
+            "btih": "a13baaeb3dc399ae2f921d6680ba69e19a007b46",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 9722,
+            "seed": 554
+        },
+        {
+            "id": 79,
+            "name": "The-Mandalorian-S02E08-The-Rescue-WEB-DL-XviD-B4ND1T69",
+            "btih": "bb28481971b66ba5e0b0817cde4f7958a66dba43",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": false,
+            "peer": 9577,
+            "seed": 1613
+        },
+        {
+            "id": 194,
+            "name": "[rutor.is]The.Mandalorian.S02.WEB-DLRip.IdeaFilm",
+            "btih": "b0c80aba77baf396860823563530024c8b455be9",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 9541,
+            "seed": 2886
+        },
+        {
+            "id": 204,
+            "name": "[rutor.is]The_Mandalorian_S02_2020_1080p_WEBRip_Gears_Med",
+            "btih": "31ac342a0e774922ecf32958f8628ec95dc4ee6d",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 9455,
+            "seed": 784
+        },
+        {
+            "id": 33,
+            "name": "The-Mandalorian-S02-COMPLETE-SPANiSH-1080p-DSNP-WEB-DL-x264-dem3nt3",
+            "btih": "57e0dff217330c5c301f51156556f938405fe917",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 9110,
+            "seed": 1286
+        },
+        {
+            "id": 197,
+            "name": "[rutor.is]The.Mandalorian_Season_02_HamsterStudio_720",
+            "btih": "0d18b89d423d3e58647113406ebd05b39da8661d",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 8750,
+            "seed": 685
+        },
+        {
+            "id": 202,
+            "name": "[rutor.is]The_Mandalorian._Season_2_WEB-DL_l_720p_l_Jaski",
+            "btih": "61b8398ec61143d13bcc7aa63fa50349391ed9ea",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 8673,
+            "seed": 2012
         },
         {
             "id": 9,
@@ -1868,11 +1587,401 @@
             "resolution": "1080",
             "encoding": "none",
             "private": false,
-            "peer": 348,
-            "seed": 59
+            "peer": 7998,
+            "seed": 132
         },
         {
-            "id": 163,
+            "id": 134,
+            "name": "The.Mandalorian.S02E08.720p.HEVC.x265-MeGusta [IPT]",
+            "btih": "cebb58ec2f42cc188d3bfaefc550634aeaee4629",
+            "resolution": "720",
+            "encoding": "265",
+            "private": true,
+            "peer": 7780,
+            "seed": 3761
+        },
+        {
+            "id": 31,
+            "name": "The-Mandalorian-S02-720p-x265",
+            "btih": "3b480dd3e57f207c28b225be330629abdfa5b0bb",
+            "resolution": "720",
+            "encoding": "265",
+            "private": false,
+            "peer": 7713,
+            "seed": 1719
+        },
+        {
+            "id": 193,
+            "name": "[rutor.is]The.Mandalorian.S02.WEB-DLRip.720p.IdeaFilm",
+            "btih": "e2af99b5abab94385bce22a545757e22d46d93ec",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 7657,
+            "seed": 1372
+        },
+        {
+            "id": 201,
+            "name": "[rutor.is]The_Mandalorian._Season_2_WEB-DL_l_1080p_l_Jask",
+            "btih": "b6faf0013db02f963fee5150d165e117ba422452",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 7466,
+            "seed": 2420
+        },
+        {
+            "id": 97,
+            "name": "The.Mandalorian.S01E08.iNTERNAL.720p.WEB.H264-GHOSTS.chs.eng.mp4",
+            "btih": "a72869a8f0857cc2db5fd6df5adba6eea436bc3b",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 7030,
+            "seed": 346
+        },
+        {
+            "id": 168,
+            "name": "[HR]-Star-Wars--The-Mandalorian-S02E08-[Disney -4K-to-1080p-HEVC-E-OPUS-5-1] HR-DR",
+            "btih": "3f744e999469c48ff797d5641117a33bf2226169",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 6925,
+            "seed": 841
+        },
+        {
+            "id": 99,
+            "name": "The.Mandalorian.S01E08.iNTERNAL.720p.WEB.H265-GHOSTS[rarbg]",
+            "btih": "bccb86454c6901f955cfed3692c68c8a0d9c1b12",
+            "resolution": "720",
+            "encoding": "265",
+            "private": false,
+            "peer": 6829,
+            "seed": 526
+        },
+        {
+            "id": 24,
+            "name": "The-Mandalorian-S02-1080p-x265",
+            "btih": "1148d121220a1bae8b1d7b9934396e3daf507962",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 6684,
+            "seed": 2050
+        },
+        {
+            "id": 63,
+            "name": "The-Mandalorian-S02E08-Chapter-16-The-Rescue-1080p-WEB-DL-DDP5-1-Atmos-HDR-x265-JAM",
+            "btih": "729f4892d80070eb7aff9a3c99b1564926d606d3",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 6586,
+            "seed": 1616
+        },
+        {
+            "id": 136,
+            "name": "The.Mandalorian.S02E08.720p.WEB.H264-GLHF [IPT]",
+            "btih": "1bbf2810ab1c9d0cdc844557790fc4f434a52242",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 5813,
+            "seed": 3138
+        },
+        {
+            "id": 172,
+            "name": "[rutor.is]Mandalorec_2_sezon_AF_scarabey.org",
+            "btih": "04e0adfbbc05300d6e512213d261e22e773ae808",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 5677,
+            "seed": 1950
+        },
+        {
+            "id": 37,
+            "name": "The-Mandalorian-S02-GERMAN-DL-720P-WEB-H264-WAYNE",
+            "btih": "fec8b16b50f075fef1f5a2c202de1e98e88d3f26",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 5293,
+            "seed": 137
+        },
+        {
+            "id": 195,
+            "name": "[rutor.is]The.Mandalorian_Season_02_HamsterStudio",
+            "btih": "d46eb8514f356383d2322f7d3d9736e50e20522d",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 5259,
+            "seed": 1056
+        },
+        {
+            "id": 70,
+            "name": "The-Mandalorian-S02E08-Chapter-16-The-Rescue-2160p-HDR-WEB-Atmos-5-1-HEVC-DDR",
+            "btih": "9972397386dc556229dced18957cc6598e6c1ad3",
+            "resolution": "2160",
+            "encoding": "none",
+            "private": false,
+            "peer": 5204,
+            "seed": 739
+        },
+        {
+            "id": 224,
+            "name": "曼达洛人.The.Mandalorian.S02E08.1080p.DSNP.WEB-DL.高码无水印中英双字.7meiju.mp4",
+            "btih": "bdb74650ef968fff2cc44a7c844778d4dc47fbd7",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 4851,
+            "seed": 508
+        },
+        {
+            "id": 48,
+            "name": "The-Mandalorian-S02E08-1080p-WEB-x264-Worldmkv",
+            "btih": "490f49d95ad0db6d0bae68cac4f4a2acb540843c",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 4846,
+            "seed": 1440
+        },
+        {
+            "id": 121,
+            "name": "The.Mandalorian.S02E08.1080p.HEVC.x265-MeGusta [IPT]",
+            "btih": "93f8b63e0780b4ab1090110d8756a0f252b86f60",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": true,
+            "peer": 4764,
+            "seed": 2471
+        },
+        {
+            "id": 56,
+            "name": "The-Mandalorian-S02E08-720p-WEB-x264-Worldmkv",
+            "btih": "0221471c39bcf3758134f54fcf4236b5f5252537",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 4553,
+            "seed": 1507
+        },
+        {
+            "id": 100,
+            "name": "The.Mandalorian.S02.1080p.WEBRip.DDP5.1.Atmos.x264-MZABI [IPT]",
+            "btih": "68608ef48e0a31d052b0f43465c209bf1a0c1c20",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 4539,
+            "seed": 2219
+        },
+        {
+            "id": 203,
+            "name": "[rutor.is]The_Mandalorian",
+            "btih": "24e8147c0b60e013e10205b6749d71c42335ff5f",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 4182,
+            "seed": 1654
+        },
+        {
+            "id": 158,
+            "name": "The.Mandalorian.S02E08.XviD-AFG [IPT]",
+            "btih": "b5ed274fe6b6dae32b755266abd6c14256c1a149",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 4156,
+            "seed": 2123
+        },
+        {
+            "id": 148,
+            "name": "The.Mandalorian.S02E08.Chapter.16.The.Rescue.2160p.WEB-DL.DDP5.1.Atmos.HDR.x265-MZABI.mkv [IPT]",
+            "btih": "d3ce69af67a73ab767a73246e08677a23c34ffeb",
+            "resolution": "2160",
+            "encoding": "265",
+            "private": true,
+            "peer": 4030,
+            "seed": 2170
+        },
+        {
+            "id": 1,
+            "name": "(Score) Мандалорец Сезоны 1-2 The Mandalorian Seasons 1-2 (by Ludwig Göransson Ludwig Goransson) - 2019-2020, MP3 (tracks), [rutracker-5813298]",
+            "btih": "4d4e83569489c960934a66a0e2d89e60f366a167",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 3874,
+            "seed": 462
+        },
+        {
+            "id": 80,
+            "name": "The-Mandalorian-S02E08-The-Rescue-[MULTI][WEB-Rip][1080p][H265-10b][HE-AAC-5-1]-K-LITY-alt",
+            "btih": "ae10f44a73c7f55b23cc7a037b97f65aa8800870",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 3806,
+            "seed": 933
+        },
+        {
+            "id": 86,
+            "name": "The-Mandalorian-S02e01-08-(720p-Ita-Eng-Fra)-byMe7alh",
+            "btih": "ef7f64ae8752ccf11a5b370c25e23e999c298e83",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 3800,
+            "seed": 1728
+        },
+        {
+            "id": 206,
+            "name": "[rutor.is]The_Mandalorian_S02_2020_WEBRip_Gears_Media_ID1",
+            "btih": "64a199276ad85249cca92e025278b4bbdc5fc525",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 3111,
+            "seed": 556
+        },
+        {
+            "id": 89,
+            "name": "The-Mandalorian-Season-S02-x265-405p-we",
+            "btih": "f04ec00c69d0adb3f6e5d1913f1dd4f29caad477",
+            "resolution": "sd",
+            "encoding": "265",
+            "private": false,
+            "peer": 3036,
+            "seed": 331
+        },
+        {
+            "id": 107,
+            "name": "The.Mandalorian.S02.2160p.WEB-DL.x265.10bit.HDR.DDP5.1.Atmos-MZABI [IPT]",
+            "btih": "2c061cffc4b5950b3d870c9b5f2fa49f6ce916ea",
+            "resolution": "2160",
+            "encoding": "265",
+            "private": true,
+            "peer": 2844,
+            "seed": 1394
+        },
+        {
+            "id": 11,
+            "name": "The Mandalorian S02 web 10bit ddp hevc-d3g [IPT]",
+            "btih": "92a24975d92f52f23668d30cf5b84b5671334690",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 2687,
+            "seed": 1437
+        },
+        {
+            "id": 223,
+            "name": "曼达洛人.The.Mandalorian.S01E08.END.中英字幕.WEBrip.720P-人人影视.mp4",
+            "btih": "f6719e1440f8f5c37e72bd92bb24466645faac59",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 2622,
+            "seed": 243
+        },
+        {
+            "id": 115,
+            "name": "The.Mandalorian.S02.ITA.ENG.DSNP.WEB.XviD-Pir8",
+            "btih": "7148bc86a9d45f004336088916bfb230793f8ee2",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": false,
+            "peer": 2498,
+            "seed": 129
+        },
+        {
+            "id": 196,
+            "name": "[rutor.is]The.Mandalorian_Season_02_HamsterStudio_1080",
+            "btih": "a37cdc6a66f33f9ec884b2cac59cb6b06676259c",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 2478,
+            "seed": 998
+        },
+        {
+            "id": 103,
+            "name": "The.Mandalorian.S02.2020.WEBRip.2160p.HDR.[Ukr.Eng]",
+            "btih": "72b8c5d67cb77d9edfddb8ad38f1deac54ba1bc9",
+            "resolution": "2160",
+            "encoding": "none",
+            "private": false,
+            "peer": 2410,
+            "seed": 216
+        },
+        {
+            "id": 102,
+            "name": "The.Mandalorian.S02.1080p.x265-MeGusta [IPT]",
+            "btih": "7f86242fa1c5c938e910265d38b567d93a606ff6",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": true,
+            "peer": 1795,
+            "seed": 963
+        },
+        {
+            "id": 123,
+            "name": "The.Mandalorian.S02E08.1080p.WEB.H264-DRYB [IPT]",
+            "btih": "666d0d4a515cbd08ba1c1c08e563aa56f7df5ff4",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 1795,
+            "seed": 986
+        },
+        {
+            "id": 132,
+            "name": "The.Mandalorian.S02E08.480p.x264-mSD [IPT]",
+            "btih": "28e6c2ba2d3ba945f470a33a3727a1a08e98d925",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 1386,
+            "seed": 747
+        },
+        {
+            "id": 140,
+            "name": "The.Mandalorian.S02E08.AAC.MP4-Mobile [IPT]",
+            "btih": "77b5ab4689edc913ffab8d38ce78dc3f7faee696",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 856,
+            "seed": 484
+        },
+        {
+            "id": 118,
+            "name": "The.Mandalorian.S02.XviD-AFG [IPT]",
+            "btih": "a326c0ac5370bc02d6dac989cbf0535ea4b7f9c7",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 498,
+            "seed": 284
+        },
+        {
+            "id": 114,
+            "name": "The.Mandalorian.S02.720p.x265-MeGusta [IPT]",
+            "btih": "3f4a43d38e009d5a470fe7f0c860ca9d3c08a6a9",
+            "resolution": "720",
+            "encoding": "265",
+            "private": true,
+            "peer": 487,
+            "seed": 274
+        },
+        {
+            "id": 169,
             "name": "[ShareUniversity]The.Mandalorian.S02.NORDiC.2160p.WEB-DL.H.265.DD+Atmos5.1-TWASERiES",
             "btih": "da513b8073fa20c637718ac0d9b4db06391634b3",
             "resolution": "2160",
@@ -1882,7 +1991,7 @@
             "seed": 137
         },
         {
-            "id": 164,
+            "id": 170,
             "name": "[ShareUniversity]The.Mandalorian.S02E08.Chapter.16.The.Rescue.2160p.WEB-DL.DDP5.1.Atmos.HDR.x265-MZABI",
             "btih": "8dda20465280d2737cb520fa5e3292e343d00e06",
             "resolution": "2160",
@@ -1892,27 +2001,17 @@
             "seed": 130
         },
         {
-            "id": 36,
-            "name": "The-Mandalorian-S02-GERMAN-DL-720P-WEB-H264-WAYNE",
-            "btih": "fec8b16b50f075fef1f5a2c202de1e98e88d3f26",
-            "resolution": "720",
+            "id": 111,
+            "name": "The.Mandalorian.S02.480p.x264-mSD [IPT]",
+            "btih": "159e7128788385fc950ccf81b8178476837e90ab",
+            "resolution": "sd",
             "encoding": "264",
-            "private": false,
-            "peer": 240,
-            "seed": 58
-        },
-        {
-            "id": 108,
-            "name": "The.Mandalorian.S02.720p.x265-MeGusta [IPT]",
-            "btih": "3f4a43d38e009d5a470fe7f0c860ca9d3c08a6a9",
-            "resolution": "720",
-            "encoding": "265",
             "private": true,
-            "peer": 209,
-            "seed": 148
+            "peer": 201,
+            "seed": 156
         },
         {
-            "id": 165,
+            "id": 171,
             "name": "[ShareUniversity]The.Mandalorian.S02E08.NORDiC.720p.WEBRip.x264-CREW",
             "btih": "93b12a87c661867ad221ab1ba65e64c21c2425e3",
             "resolution": "720",
@@ -1922,7 +2021,7 @@
             "seed": 143
         },
         {
-            "id": 99,
+            "id": 105,
             "name": "The.Mandalorian.S02.2160p.WEB-DL.DDP5.1.Atmos.HDR.x265-MZABI [IPT]",
             "btih": "ee0058e77e8e3d78565ed3c46bc8f33f47b144ac",
             "resolution": "2160",
@@ -1932,52 +2031,72 @@
             "seed": 126
         },
         {
-            "id": 112,
-            "name": "The.Mandalorian.S02.XviD-AFG [IPT]",
-            "btih": "a326c0ac5370bc02d6dac989cbf0535ea4b7f9c7",
-            "resolution": "sd",
-            "encoding": "xvid",
-            "private": true,
-            "peer": 187,
-            "seed": 152
-        },
-        {
-            "id": 1,
-            "name": "(Score) Мандалорец Сезоны 1-2 The Mandalorian Seasons 1-2 (by Ludwig Göransson Ludwig Goransson) - 2019-2020, MP3 (tracks), [rutracker-5813298]",
-            "btih": "4d4e83569489c960934a66a0e2d89e60f366a167",
-            "resolution": "sd",
+            "id": 18,
+            "name": "The Mandalorian temporada 2 completa [4K UHDrip][2160p][HDR][EAC3 5.1 Castellano-EAC3 5.1-Ingles+Subs][ES-EN]",
+            "btih": "3b0154860e776aee5df34e0384bd67e9ad66aaab",
+            "resolution": "2160",
             "encoding": "none",
             "private": false,
-            "peer": 177,
-            "seed": 86
+            "peer": 0,
+            "seed": 0
         },
         {
-            "id": 105,
-            "name": "The.Mandalorian.S02.480p.x264-mSD [IPT]",
-            "btih": "159e7128788385fc950ccf81b8178476837e90ab",
-            "resolution": "sd",
-            "encoding": "264",
-            "private": true,
-            "peer": 83,
-            "seed": 74
-        },
-        {
-            "id": 207,
-            "name": "Мандалорец The Mandalorian Сезон 2 Серии 1-8 из 8 (Дебора Чоу) [2020, США, фантастика, боевик, приключения, WEB-DL 720p] 7 [rutracker-5961980]",
-            "btih": "ecbd3c5231e6510136ad0ecf119772908fab2e13",
-            "resolution": "720",
+            "id": 184,
+            "name": "[rutor.is]The.Mandalorian.S02.1080p.D.Flarrow.Films",
+            "btih": "6ee0366d3590491b411b48de02b194dcc4f4b7f5",
+            "resolution": "1080",
             "encoding": "none",
             "private": false,
-            "peer": 63,
-            "seed": 33
+            "peer": 0,
+            "seed": 0
         },
         {
-            "id": 110,
+            "id": 116,
             "name": "The.Mandalorian.S02.MULTi.2160p.WEB-DL.DDP5.1.Atmos.HDR.HEVC.PACK-PSiG",
             "btih": "50878aa2de0866d594876d6f100c5252d15968c5",
             "resolution": "2160",
             "encoding": "none",
             "private": true,
+            "peer": 0,
+            "seed": 0
+        },
+        {
+            "id": 95,
+            "name": "The.Mandalorian.S01E08.1080p.WEBRiP.x264-PETRiFiED[TGx]",
+            "btih": "f4cc993b67c9995b9f5b0cbbaff5d9fcf04a2e6b",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 0,
+            "seed": 0
+        },
+        {
+            "id": 91,
+            "name": "The-Mandalorian-Temporada-2x08-HDTV-720p.vbs",
+            "btih": "3279be6cac4ae89868825713249d4653e5da1c4e",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 0,
+            "seed": 0
+        },
+        {
+            "id": 174,
+            "name": "[rutor.is]Mandalorets_-_sezon_2_-_VHSnik",
+            "btih": "23cbff561aae5f5f9e723811b3c41aa6f0bfe2d8",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 0,
+            "seed": 0
+        },
+        {
+            "id": 175,
+            "name": "[rutor.is]The Mandalorian_(s02)_1080p",
+            "btih": "e757d049541da7b1239ee81dd12ffb3eae05e6d6",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
             "peer": 0,
             "seed": 0
         }
