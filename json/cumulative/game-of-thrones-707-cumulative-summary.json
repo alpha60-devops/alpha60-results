@@ -1,20 +1,120 @@
 {
-    "data-version": "20191004",
-    "duration": "2017-08-28-to-2017-11-30",
+    "data-version": "20201228",
     "collection-name": "Game of Thrones",
     "collection-id": "707",
-    "collection-tag-genre": "",
-    "collection-tag-production": "",
-    "collection-tag-distribution": "",
-    "collection-all-btiha": {
-        "btiha-size": 149,
+    "sample-duration": "2017-08-28-to-2017-11-30",
+    "sample-days": 95,
+    "sample-year-start": 2017,
+    "sample-year-end": 2017,
+    "sample-day-year-start": 240,
+    "sample-day-year-end": 334,
+    "collection-all-btiha-total": {
+        "btiha-size": 148,
         "upeers-total": 33824621,
         "useeds-total": 9440677,
         "anomaly-total": 97516,
         "anomaly-percentage": "0.29"
     },
-    "collection-unique-btiha": {
-        "btiha-size": 115,
+    "collection-unique-btiha-total": {
+        "btiha-size": 114,
+        "upeers-total": 17789021,
+        "useeds-total": 6320841,
+        "anomaly-total": 45629,
+        "anomaly-percentage": "0.26"
+    },
+    "collection-unique-btiha-week-0001": {
+        "btiha-size": 114,
+        "upeers-total": 8252872,
+        "useeds-total": 1779363,
+        "anomaly-total": 2954,
+        "anomaly-percentage": "0.04"
+    },
+    "collection-unique-btiha-week-0002": {
+        "btiha-size": 114,
+        "upeers-total": 10117219,
+        "useeds-total": 2503929,
+        "anomaly-total": 4095,
+        "anomaly-percentage": "0.04"
+    },
+    "collection-unique-btiha-week-0003": {
+        "btiha-size": 114,
+        "upeers-total": 11348778,
+        "useeds-total": 3051662,
+        "anomaly-total": 4932,
+        "anomaly-percentage": "0.04"
+    },
+    "collection-unique-btiha-week-0004": {
+        "btiha-size": 114,
+        "upeers-total": 12306857,
+        "useeds-total": 3507535,
+        "anomaly-total": 5836,
+        "anomaly-percentage": "0.05"
+    },
+    "collection-unique-btiha-week-0005": {
+        "btiha-size": 114,
+        "upeers-total": 13127373,
+        "useeds-total": 3916190,
+        "anomaly-total": 6663,
+        "anomaly-percentage": "0.05"
+    },
+    "collection-unique-btiha-week-0006": {
+        "btiha-size": 114,
+        "upeers-total": 13837057,
+        "useeds-total": 4287480,
+        "anomaly-total": 7266,
+        "anomaly-percentage": "0.05"
+    },
+    "collection-unique-btiha-week-0007": {
+        "btiha-size": 114,
+        "upeers-total": 14463104,
+        "useeds-total": 4620419,
+        "anomaly-total": 8022,
+        "anomaly-percentage": "0.06"
+    },
+    "collection-unique-btiha-week-0008": {
+        "btiha-size": 114,
+        "upeers-total": 15010964,
+        "useeds-total": 4921257,
+        "anomaly-total": 8628,
+        "anomaly-percentage": "0.06"
+    },
+    "collection-unique-btiha-week-0009": {
+        "btiha-size": 114,
+        "upeers-total": 15538646,
+        "useeds-total": 5208876,
+        "anomaly-total": 10268,
+        "anomaly-percentage": "0.07"
+    },
+    "collection-unique-btiha-week-0010": {
+        "btiha-size": 114,
+        "upeers-total": 16039416,
+        "useeds-total": 5481038,
+        "anomaly-total": 13236,
+        "anomaly-percentage": "0.08"
+    },
+    "collection-unique-btiha-week-0011": {
+        "btiha-size": 114,
+        "upeers-total": 16498915,
+        "useeds-total": 5732120,
+        "anomaly-total": 16639,
+        "anomaly-percentage": "0.10"
+    },
+    "collection-unique-btiha-week-0012": {
+        "btiha-size": 114,
+        "upeers-total": 16924172,
+        "useeds-total": 5972296,
+        "anomaly-total": 19493,
+        "anomaly-percentage": "0.12"
+    },
+    "collection-unique-btiha-week-0013": {
+        "btiha-size": 114,
+        "upeers-total": 17399126,
+        "useeds-total": 6194775,
+        "anomaly-total": 28835,
+        "anomaly-percentage": "0.17"
+    },
+    "collection-unique-btiha-week-0014": {
+        "btiha-size": 114,
         "upeers-total": 17789021,
         "useeds-total": 6320841,
         "anomaly-total": 45629,
@@ -22,7 +122,9 @@
     },
     "transfer-units": "terabyte",
     "transfer-size": 58444.38895007068,
-    "transfer-cost": "",
+    "transfer-price-1-name": "CloudFront-1-year",
+    "transfer-price-1-per-gigabyte-cost": 0.005,
+    "transfer-price-1-USD": 460221.9447503534,
     "resolution-partitions": [
         {
             "number": 1,
@@ -33,21 +135,21 @@
         },
         {
             "number": 2,
-            "name": "720",
+            "name": "720-all",
             "total-percentage-upeers": "32.05",
             "total-percentage-bytes": "27.16",
             "upeers-total": 5700807
         },
         {
             "number": 3,
-            "name": "1080",
+            "name": "1080-all",
             "total-percentage-upeers": "20.77",
             "total-percentage-bytes": "52.33",
             "upeers-total": 3694317
         },
         {
             "number": 4,
-            "name": "sd-other",
+            "name": "sd-none",
             "total-percentage-upeers": "9.43",
             "total-percentage-bytes": "12.77",
             "upeers-total": 1678252
@@ -61,27 +163,10 @@
         },
         {
             "number": 6,
-            "name": "2160",
+            "name": "2160-all",
             "total-percentage-upeers": "0.00",
             "total-percentage-bytes": "0.00",
             "upeers-total": 0
-        }
-    ],
-    "geo-slices-3-longitude-regions": [
-        {
-            "number": 1,
-            "name": "AfroEurAsia",
-            "total-percentage-upeers": "48.40"
-        },
-        {
-            "number": 2,
-            "name": "AsiaPacifica",
-            "total-percentage-upeers": "30.58"
-        },
-        {
-            "number": 3,
-            "name": "Americas",
-            "total-percentage-upeers": "21.01"
         }
     ],
     "geo-country-top-10": [
@@ -216,7 +301,7 @@
         {
             "number": 9,
             "country-code": "KOR",
-            "country-name": "Korea (Republic of), Seoul, 11",
+            "country-name": "Korea, Republic of, Seoul, 11",
             "total-percentage-upeers": "0.68",
             "upeers-total": 120885
         },
@@ -321,7 +406,7 @@
         {
             "number": 24,
             "country-code": "KOR",
-            "country-name": "Korea (Republic of)",
+            "country-name": "Korea, Republic of",
             "total-percentage-upeers": "0.41",
             "upeers-total": 72234
         },
@@ -366,6 +451,1158 @@
             "country-name": "Egypt, Cairo, 11",
             "total-percentage-upeers": "0.33",
             "upeers-total": 58744
+        }
+    ],
+    "collection-unique-btiha-detail": [
+        {
+            "id": 549,
+            "name": "multi-btih-21-4x-Game.of.Thrones.S07E07.The.Dragon.and.the.Wolf.AMZN.WEBRip.DDP2.0.x264-GoT[rarbg]",
+            "btih": "0f91530e856c475d9298e77a89a118f9bfffbd13",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 2493751,
+            "seed": 768460
+        },
+        {
+            "id": 546,
+            "name": "multi-btih-18-4x-Game.of.Thrones.S07E07.The.Dragon.and.the.Wolf.720p.AMZN.WEBRip.DDP5.1.x264-GoT[rarbg].ttmeiju",
+            "btih": "6cad390325134fb877675f287b606a31a8a91869",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 1685135,
+            "seed": 559406
+        },
+        {
+            "id": 540,
+            "name": "multi-btih-12-4x-Game.of.Thrones.S07E07.The.Dragon.and.the.Wolf.1080p.AMZN.WEBRip.DDP5.1.x264-GoT[rarbg].ttmeiju",
+            "btih": "9c7251f8a225eeeeeac80a9822c2d8b70cbd5394",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 1259702,
+            "seed": 411686
+        },
+        {
+            "id": 551,
+            "name": "multi-btih-23-3x-Game.of.Thrones.S07E07.WEB.H264-STRiFE[rarbg].133tx",
+            "btih": "fdea63e072c49eae1dcf0944c278907f047dede0",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 982793,
+            "seed": 354649
+        },
+        {
+            "id": 528,
+            "name": "multi-btih-0-2x-GOT-(Season-07)-DUB-rutracker.org",
+            "btih": "fd291596437be5bb516e347d1e712e86a7f7439a",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 976478,
+            "seed": 381882
+        },
+        {
+            "id": 533,
+            "name": "multi-btih-5-2x-Game.of.Thrones.S07E07.720p.WEB.H264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "094fd987147cc4fb1b2b5d3828d2e9a0067b921c",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 878631,
+            "seed": 289287
+        },
+        {
+            "id": 137,
+            "name": "[rutor.is]GOT_Season_07_DUB_720",
+            "btih": "7af8960d782404e123565967d4ff5dcd21986e91",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 674618,
+            "seed": 207030
+        },
+        {
+            "id": 136,
+            "name": "[rutor.is]GOT_Season_07_DUB_1080",
+            "btih": "021f1c69b718ed9e12e34f2815649584c0eb21bc",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 644474,
+            "seed": 197102
+        },
+        {
+            "id": 29,
+            "name": "Game.of.Thrones.S07E07.HDTV.x264-UAV[eztv].mkv",
+            "btih": "8670c2de1bc5ff38d70dc8215ed4e24a63a4fee8",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 618739,
+            "seed": 218892
+        },
+        {
+            "id": 16,
+            "name": "Game.of.Thrones.S07E07.720p.HDTV.X264-UAV[eztv].mkv",
+            "btih": "ac8bac7857f1f99cc4dafeb0f4cdebc455ae42bb",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 545408,
+            "seed": 195541
+        },
+        {
+            "id": 534,
+            "name": "multi-btih-6-2x-Game.of.Thrones.S07E07.FiNAL.FRENCH.HDTV.XviD-ZT.avi.T9",
+            "btih": "5576b680bccc56ee5e3e937fbe5016f52f081931",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": false,
+            "peer": 476942,
+            "seed": 197816
+        },
+        {
+            "id": 552,
+            "name": "multi-btih-24-2x-Game.of.Thrones.S07E07.WEBRip.x264-RARBG-[rarbg.to]",
+            "btih": "0966c798e0cc3b9ab78c1ecac8a6085e143f8449",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 458143,
+            "seed": 182447
+        },
+        {
+            "id": 550,
+            "name": "multi-btih-22-2x-Game.of.Thrones.S07E07.WEB.H264-STRiFE[ettv]",
+            "btih": "e32207f648eef832a276506f08dc88cbcacfbf6c",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 456565,
+            "seed": 136713
+        },
+        {
+            "id": 3,
+            "name": "Game of Thrones 2017 – S07E07 [WEB-DL] WWW.BLUDV.COM",
+            "btih": "ba1c8f43c28ce96fe39a42c9db17314e158d8b8c",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 408797,
+            "seed": 150087
+        },
+        {
+            "id": 17,
+            "name": "Game.of.Thrones.S07E07.720p.HDTV.X264-UAV[rartv]-[rarbg.to]",
+            "btih": "d2b900442cd3ee7cb5fc93e9ac3ecd8a241c47eb",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 259585,
+            "seed": 87225
+        },
+        {
+            "id": 532,
+            "name": "multi-btih-4-2x-Game.of.Thrones.S07E07.1080p.[TorrentCounter.cc].mkv",
+            "btih": "23cf1c590aafcdf1ef4758be5c6e84fd67669ca3",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 257387,
+            "seed": 119947
+        },
+        {
+            "id": 537,
+            "name": "multi-btih-9-2x-Game.of.Thrones.S07E07.REPACK.1080p.WEB.H264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "060afc9881724a564103bc31da19f7e9b22afe29",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 229107,
+            "seed": 88918
+        },
+        {
+            "id": 30,
+            "name": "Game.of.Thrones.S07E07.HDTV.x264-UAV[rartv]-[rarbg.to]",
+            "btih": "8c73ad6581475964ecab6f9cc277eee1aa2a9e2a",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 225948,
+            "seed": 70207
+        },
+        {
+            "id": 2,
+            "name": "Game of Thrones 2017 – S07E07 [1080p] [WEB-DL] WWW.BLUDV.COM",
+            "btih": "a945ac60bb876e7d70cb6e00a7335194c9d7908e",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 209039,
+            "seed": 93354
+        },
+        {
+            "id": 26,
+            "name": "Game.of.Thrones.S07E07.FiNAL.VOSTFR.HDTV.XviD-ZT.avi.T9",
+            "btih": "b8d9415d46d3c7c3a59d903d6f95d63a5ed11062",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": false,
+            "peer": 182009,
+            "seed": 85275
+        },
+        {
+            "id": 553,
+            "name": "multi-btih-25-2x-Game.of.Thrones.S07E07.WEBRip.x264.torrentcounter.cc",
+            "btih": "aa8ff8b7f5d9f567e12abf760a035a747ef7cd27",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 178533,
+            "seed": 55299
+        },
+        {
+            "id": 545,
+            "name": "multi-btih-17-2x-Game.of.Thrones.S07E07.The.Dragon.and.the.Wolf.720p.AMZN.WEB-DL.DDP5.1.H.264-GoT[ettv]",
+            "btih": "47aa83fa2730d5a557cfcdc2981c0fef3ef73eb1",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 175167,
+            "seed": 75269
+        },
+        {
+            "id": 548,
+            "name": "multi-btih-20-2x-Game.of.Thrones.S07E07.The.Dragon.and.the.Wolf.AMZN.WEB-DL.DDP2.0.H.264-GoT[ettv]",
+            "btih": "c02012134b76a000b9e6aabbd5622298c7d95bcf",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 166345,
+            "seed": 45576
+        },
+        {
+            "id": 23,
+            "name": "Game.of.Thrones.S07E07.FiNAL.FRENCH.720p.HDTV.x264-SH0W.mkv.T9",
+            "btih": "79440c09793994d7565c4ab799c986024d5efe2b",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 162920,
+            "seed": 77072
+        },
+        {
+            "id": 25,
+            "name": "Game.of.Thrones.S07E07.FiNAL.VOSTFR.720p.AMZN.WEB-DL.DDP5.1.H264-ARK01.mkv.T9",
+            "btih": "7bd7c0739a9c76dafaec05a9b42de88d27bdce49",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 150464,
+            "seed": 77020
+        },
+        {
+            "id": 538,
+            "name": "multi-btih-10-2x-Game.of.Thrones.S07E07.The.Dragon.and.the.Wolf.1080p.AMZN.WEB-DL.6CH.MkvCage.mkv",
+            "btih": "c5c47e6909f0e354386aff81d22fda6c3f2d629e",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 137816,
+            "seed": 43075
+        },
+        {
+            "id": 147,
+            "name": "权力的游戏.Game.of.Thrones.S07E07.720p-天天美剧字幕组.mp4",
+            "btih": "47ae361a16ff0ba311e272ca925aeb4004751d6c",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 119584,
+            "seed": 26842
+        },
+        {
+            "id": 98,
+            "name": "[limetorrents.cc]Game.of.Thrones.S07E07.HDTV.x264-KILLERS",
+            "btih": "40d6d090864bc80f690faacdde7461836e6c087f",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 111353,
+            "seed": 24063
+        },
+        {
+            "id": 547,
+            "name": "multi-btih-19-2x-Game.of.Thrones.S07E07.The.Dragon.and.the.Wolf.720p.torrentcounter.cc",
+            "btih": "5c5e0d777b0abfadc9c1c10ccf6a2ab0b2f42abf",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 107192,
+            "seed": 57080
+        },
+        {
+            "id": 544,
+            "name": "multi-btih-16-2x-Game.of.Thrones.S07E07.The.Dragon.and.the.Wolf.720p.AMZN.WEB-DL.650MB.MkvCage.mkv",
+            "btih": "9f7af7846cb072d1cefd704233d104efa47375ed",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 98701,
+            "seed": 28545
+        },
+        {
+            "id": 140,
+            "name": "[rutor.is]Game_of_Thrones_____Season_07_ColdFIlm",
+            "btih": "5987a3e19c3afd90ff6a07b84dcab5f4ac92c9ca",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 98185,
+            "seed": 66885
+        },
+        {
+            "id": 58,
+            "name": "Game.of.Thrones.S07E07.WEB-DL.x264-RARBG-[rarbg.to]",
+            "btih": "96f30bc3dda923ec7beaaea2766349aa9308f322",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 90824,
+            "seed": 41599
+        },
+        {
+            "id": 38,
+            "name": "Game.of.Thrones.S07E07.The.Dragon.and.the.Wolf.1080p.AMZN.WEB-DL.DDP5.1.H.264-GoT.mkv [IPT]",
+            "btih": "437c9e392227310e109a10dc60583a5c534e4209",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 87185,
+            "seed": 46707
+        },
+        {
+            "id": 134,
+            "name": "[rutor.is]GOT.S07.2017.WEBDLRip.AVC.ExKinoRay",
+            "btih": "8d7b29d858b2e2cf0b2cb550e0b258860ef13e4e",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 86962,
+            "seed": 48822
+        },
+        {
+            "id": 539,
+            "name": "multi-btih-11-2x-Game.of.Thrones.S07E07.The.Dragon.and.the.Wolf.1080p.AMZN.WEB-DL.DDP5.1.H.264-GoT[ettv]",
+            "btih": "5af1f50891b3ab1f65e6003905f3e3cd1ce727f5",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 79086,
+            "seed": 26737
+        },
+        {
+            "id": 543,
+            "name": "multi-btih-15-2x-Game.of.Thrones.S07E07.The.Dragon.and.the.Wolf.720p.10bit.WEBRip.6CH.x265.HEVC-PSA.mkv",
+            "btih": "a15a834c908f1221e7d93ddb51b463f4f48a344c",
+            "resolution": "720",
+            "encoding": "265",
+            "private": false,
+            "peer": 75681,
+            "seed": 19342
+        },
+        {
+            "id": 541,
+            "name": "multi-btih-13-2x-Game.of.Thrones.S07E07.The.Dragon.and.the.Wolf.1080p.WEB-DL.DD5.1.H264-BTN[rartv]-[rarbg.to]",
+            "btih": "bd96c548e0bbd6054ee3e330fda05bb8cb3d5c83",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 74973,
+            "seed": 43188
+        },
+        {
+            "id": 146,
+            "name": "权力的游戏.Game.of.Thrones.S07E07.1080p精校版-天天美剧字幕组.mp4.378d8cbaa47a5094",
+            "btih": "378d8cbaa47a509474745f11bb414d3882058abb",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 74219,
+            "seed": 17967
+        },
+        {
+            "id": 542,
+            "name": "multi-btih-14-2x-Game.of.Thrones.S07E07.The.Dragon.and.the.Wolf.1080p.WEBRip.6CH.x265.HEVC-PSA.mkv",
+            "btih": "e502b4bc48ee5c1e139ba93c7a1dbf1c57bce7a8",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 72717,
+            "seed": 32361
+        },
+        {
+            "id": 47,
+            "name": "Game.of.Thrones.S07E07.The.Dragon.and.the.Wolf.720p.AMZN.WEB-DL.DDP5.1.H.264-GoT [IPT]",
+            "btih": "80fc9285ed8e365e05b981500c4bc8f5f67e9a1b",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 67286,
+            "seed": 28727
+        },
+        {
+            "id": 74,
+            "name": "[limetorrents.cc]Game.Of.Thrones.S07E07.WEBRip.x264.330MB",
+            "btih": "66435e7b97e315af027efcb346018964a7e6a1ba",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 64455,
+            "seed": 16345
+        },
+        {
+            "id": 83,
+            "name": "[limetorrents.cc]Game.of.Thrones.S07E07.1080p.WEBRip.xPau.se",
+            "btih": "989dac2a386e582e8f3e9cf99bbdbfcb3a507e5f",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 58612,
+            "seed": 20265
+        },
+        {
+            "id": 554,
+            "name": "multi-btih-26-2x-Game.of.Thrones.S07E07.XviD-AFG",
+            "btih": "7b2a6a797a4920403d4ffc47bb56d227ee91bb37",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": false,
+            "peer": 57876,
+            "seed": 24253
+        },
+        {
+            "id": 117,
+            "name": "[limetorrents.cc]Game.of.Thrones.S07E07.The.Dragon.and.the.Wolf.720p.AMZN.WEB-DL.D",
+            "btih": "198be22bf8d9895f397727f7accd00dfaceb6ab7",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 56146,
+            "seed": 30599
+        },
+        {
+            "id": 149,
+            "name": "权力的游戏.Game.of.Thrones.S07E07.中英字幕.WEBrip.720P.mp4",
+            "btih": "f4acc2579527b2c4392a1857821237005ec75b8e",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 52328,
+            "seed": 12263
+        },
+        {
+            "id": 529,
+            "name": "multi-btih-1-2x-Game of Thrones S07E07 (1080p) AMZN-WEBRip x264 [1.5GB] - [ECLiPSE]",
+            "btih": "4a8350b47bb33f4855cbb4f0ab0728511a417a3a",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 50683,
+            "seed": 23378
+        },
+        {
+            "id": 138,
+            "name": "[rutor.is]Game.of.Thrones.S07.720p.SunshineStudio",
+            "btih": "6369d5f1ccfaca97e453a67f9fb6d8a121d24a5f",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 49397,
+            "seed": 26311
+        },
+        {
+            "id": 84,
+            "name": "[limetorrents.cc]Game.of.Thrones.S07E07.1080p.Web-DL.x265-KRAVE",
+            "btih": "570bb67f3f7d5b5ddf0341da5c447ba9972adb88",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 49159,
+            "seed": 18083
+        },
+        {
+            "id": 530,
+            "name": "multi-btih-2-2x-Game.of.Thrones.S07E07.1080p.HEVC.x265-MeGusta",
+            "btih": "736af5e6667ff0bdadaa22c4a7e2aaa20e120293",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 48211,
+            "seed": 15981
+        },
+        {
+            "id": 65,
+            "name": "Game.of.Thrones.S07E07.XviD-AFG [IPT]",
+            "btih": "2d2ac004d640f687041434b6503e36b411df84d2",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 46729,
+            "seed": 21677
+        },
+        {
+            "id": 8,
+            "name": "Game.of.Thrones.S07E07 HDTV 720p Sub Ita x265-NAHOM",
+            "btih": "d8e6e84afad903ae95dfeba5221ecd2fcd8abed8",
+            "resolution": "720",
+            "encoding": "265",
+            "private": false,
+            "peer": 43973,
+            "seed": 17572
+        },
+        {
+            "id": 535,
+            "name": "multi-btih-7-2x-Game.of.Thrones.S07E07.HDTV.720.Subtitulado.Esp.SC.avi",
+            "btih": "c9a37b7a54c473baca5825ad94c21da594784693",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 43347,
+            "seed": 17666
+        },
+        {
+            "id": 19,
+            "name": "Game.of.Thrones.S07E07.720p.HEVC.x265-MeGusta.torrenting.com",
+            "btih": "4f159f09188bdba621b9f34d0b1dde4c63430fb0",
+            "resolution": "720",
+            "encoding": "265",
+            "private": false,
+            "peer": 38928,
+            "seed": 10075
+        },
+        {
+            "id": 108,
+            "name": "[limetorrents.cc]Game.of.Thrones.S07E07.The.Dragon.and.the.Wolf.1080p.AMZN.WEB-DL",
+            "btih": "2e20c3085ffb433fb1b0b1eb9c1a6b4644f4e9f5",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 37228,
+            "seed": 16077
+        },
+        {
+            "id": 141,
+            "name": "[rutor.is]Game_of_Thrones_____Season_07_ColdFIlm_1080",
+            "btih": "7033ccf6a487ed58034629680bf12ae2ad0fb961",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 33806,
+            "seed": 16517
+        },
+        {
+            "id": 95,
+            "name": "[limetorrents.cc]Game.of.Thrones.S07E07.FiNAL.MULTi.1080p.AMZN.WEB.DL.DD5.1.H264.ARK01",
+            "btih": "1a1c75363890a279b22130ae708e05702fc8f94b",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 33136,
+            "seed": 18047
+        },
+        {
+            "id": 124,
+            "name": "[limetorrents.cc]Game.of.Thrones.S07E07.The.Dragon.and.the.Wolf.AMZN.WEB-DL.DDP2.0",
+            "btih": "2f1283a19de789f07b5de0908819c2335b723d5b",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 31539,
+            "seed": 10883
+        },
+        {
+            "id": 67,
+            "name": "Game.of.Thrones.s07e07.720p.HDTV.x264 (mkvtv.net).mkv",
+            "btih": "11cc033ce2340172c1bfc2f3bead05f2a5c06f3c",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 31380,
+            "seed": 14952
+        },
+        {
+            "id": 536,
+            "name": "multi-btih-8-2x-Game.of.Thrones.S07E07.REPACK.1080p.HEVC.x265-MeGusta.torrenting.com",
+            "btih": "0d95bbb9f75bad034a99bd90734351bb52ac2e96",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 30846,
+            "seed": 9406
+        },
+        {
+            "id": 114,
+            "name": "[limetorrents.cc]Game.of.Thrones.S07E07.The.Dragon.and.the.Wolf.720p.10bit.AMZN.WEB-DL.x265.HEVC-MZABI",
+            "btih": "31b85dd95c3f0af645e7b80a28fdb62b9ef47367",
+            "resolution": "720",
+            "encoding": "265",
+            "private": false,
+            "peer": 30507,
+            "seed": 12563
+        },
+        {
+            "id": 531,
+            "name": "multi-btih-3-2x-Game.of.Thrones.S07E07.1080p.WEBRip.x264.ENG.SoftSub.ITA-corey",
+            "btih": "98c6e547ff35437e9a3e83931bd26826d920b2bc",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 29807,
+            "seed": 12055
+        },
+        {
+            "id": 94,
+            "name": "[limetorrents.cc]Game.of.Thrones.S07E07.720p.WEBRip.2CH.x265.HEVC-PSA",
+            "btih": "08319f32afc75c9d9ac2400128d6230339a76560",
+            "resolution": "720",
+            "encoding": "265",
+            "private": false,
+            "peer": 26857,
+            "seed": 8402
+        },
+        {
+            "id": 90,
+            "name": "[limetorrents.cc]Game.of.Thrones.S07E07.720p.HEVC.x265-MeGusta",
+            "btih": "ecbbd5805902e42b38e68355bc205fb44fa3743f",
+            "resolution": "720",
+            "encoding": "265",
+            "private": false,
+            "peer": 26583,
+            "seed": 6813
+        },
+        {
+            "id": 118,
+            "name": "[limetorrents.cc]Game.of.Thrones.S07E07.The.Dragon.and.the.Wolf.720p.AMZN.WEB-DL",
+            "btih": "da23d110c70002a88c61da1c7feac644c41acda8",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 26517,
+            "seed": 10642
+        },
+        {
+            "id": 148,
+            "name": "权力的游戏.Game.of.Thrones.S07E07.720p精校版-天天美剧字幕组.mp4.8a90ef5b32b9ece7",
+            "btih": "8a90ef5b32b9ece7edf3ba133eba29cd61a5de87",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 25503,
+            "seed": 5964
+        },
+        {
+            "id": 87,
+            "name": "[limetorrents.cc]Game.of.Thrones.S07E07.480p.x264-mSD",
+            "btih": "74da26f05c84f55c581b73767ffb2afba18ab115",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 25261,
+            "seed": 7012
+        },
+        {
+            "id": 125,
+            "name": "[limetorrents.cc]Game.of.Thrones.S07E07.The.Dragon.and.the.Wolf.AMZN.WEB-DL.DDP2",
+            "btih": "1c458cc7689bb369c68460dce8384d50c2841517",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 24941,
+            "seed": 9220
+        },
+        {
+            "id": 142,
+            "name": "[rutor.is]Game_of_Thrones_____Season_07_ColdFIlm_720",
+            "btih": "6ddb39ae5c4eac93c53b83de91e2dd48c530726d",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 23316,
+            "seed": 12778
+        },
+        {
+            "id": 75,
+            "name": "[limetorrents.cc]Game.Of.Thrones.S07E07.X264.AAC-OkFreeMovies",
+            "btih": "f6629ef990082d193c519c762fb8bc09fca0ec97",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 23289,
+            "seed": 9730
+        },
+        {
+            "id": 103,
+            "name": "[limetorrents.cc]Game.of.Thrones.S07E07.The.Dragon.and.the.Wolf.1080p.10bit.AMZN.WEB-DL.5.1.x265.HEVC-MZABI",
+            "btih": "ee3ffd8537f90fc9e3be5705a91b8467d11e1c88",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 22071,
+            "seed": 9235
+        },
+        {
+            "id": 20,
+            "name": "Game.of.Thrones.S07E07.720p.WEB.H264-STRiFE [IPT]",
+            "btih": "f199a6537f14d4571970eb45398a56d1b0ee3467",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 20590,
+            "seed": 10130
+        },
+        {
+            "id": 101,
+            "name": "[limetorrents.cc]Game.of.Thrones.S07E07.REPACK.1080p.WEB.H264-STRiFE-133tx",
+            "btih": "85499819cd47d850090528e3e5a084d505e9ccdb",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 20543,
+            "seed": 7721
+        },
+        {
+            "id": 105,
+            "name": "[limetorrents.cc]Game.of.Thrones.S07E07.The.Dragon.and.the.Wolf.1080p.10bit.AMZN.WEBRip",
+            "btih": "4639129ad282425499186f260e2d07f7491ea137",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 20375,
+            "seed": 9814
+        },
+        {
+            "id": 15,
+            "name": "Game.of.Thrones.S07E07.720p.HDTV.X264-UAV [IPT]",
+            "btih": "0050547a12a2d77a98f490064659aab0cb6d1cbd",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 20007,
+            "seed": 9223
+        },
+        {
+            "id": 139,
+            "name": "[rutor.is]Game_of_Thrones_S07_WEBRip_KinoGolos_720p",
+            "btih": "530ae68a3087ae39b31a231d5f663ba22e354f0d",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 19325,
+            "seed": 8135
+        },
+        {
+            "id": 104,
+            "name": "[limetorrents.cc]Game.of.Thrones.S07E07.The.Dragon.and.the.Wolf.1080p.10bit.AMZN.WEB.DL",
+            "btih": "dd37cdf8d7b155afdb7e55372a78870ec163ae52",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 18968,
+            "seed": 9629
+        },
+        {
+            "id": 96,
+            "name": "[limetorrents.cc]Game.of.Thrones.S07E07.FiNAL.SUBFRENCH.720p.HDTV.x264.AMB3R",
+            "btih": "c676d4059beeca680f458c53d8f43c7bec57ec33",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 18873,
+            "seed": 4893
+        },
+        {
+            "id": 112,
+            "name": "[limetorrents.cc]Game.of.Thrones.S07E07.The.Dragon.and.the.Wolf.1080p.x264.Phun.Psyz",
+            "btih": "529cdcbe7c5097945ee9cff6027bfc0998393604",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 18474,
+            "seed": 6856
+        },
+        {
+            "id": 70,
+            "name": "[limetorrents.cc]Game.Of.Thrones.S07E07.1080p.6CH.WEBRip.x265.HEVC.580MB",
+            "btih": "7e0d040f9438a138d4c52b1f14b3e359a0ecbd05",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 18460,
+            "seed": 6385
+        },
+        {
+            "id": 7,
+            "name": "Game of Thrones s07e07 720p AMZN WEB-DL x265 HEVC 10bit PoOlLa.mkv",
+            "btih": "ab1f538738a08a548570958fec4aff23d0e6bab6",
+            "resolution": "720",
+            "encoding": "265",
+            "private": false,
+            "peer": 17793,
+            "seed": 6170
+        },
+        {
+            "id": 86,
+            "name": "[limetorrents.cc]Game.of.Thrones.S07E07.480p.303mb.1h21m.HDwebrip.x264-Dragon.mp4",
+            "btih": "d7af5c146829f7714888a8cfa368916815180a2b",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 16981,
+            "seed": 5579
+        },
+        {
+            "id": 89,
+            "name": "[limetorrents.cc]Game.of.Thrones.S07E07.720p.AMZN.WEBRip.x265.HETeam",
+            "btih": "53181e17ec0f7333921cc780a0cb4612592193f4",
+            "resolution": "720",
+            "encoding": "265",
+            "private": false,
+            "peer": 16750,
+            "seed": 4476
+        },
+        {
+            "id": 18,
+            "name": "Game.of.Thrones.S07E07.720p.HEVC.x265-MeGusta [IPT]",
+            "btih": "650b5459ddcb19b41fef1eaf1bec6430244efbea",
+            "resolution": "720",
+            "encoding": "265",
+            "private": true,
+            "peer": 16576,
+            "seed": 5879
+        },
+        {
+            "id": 132,
+            "name": "[limetorrents.cc]冰与火之歌.权力的游戏.Game.of.Thrones.S07E07.HD1080P.X264.AC3",
+            "btih": "4ee7ef3f482a85c46426c24114a777eae858182e",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 15754,
+            "seed": 4637
+        },
+        {
+            "id": 113,
+            "name": "[limetorrents.cc]Game.of.Thrones.S07E07.The.Dragon.and.the.Wolf.540p.With.English.Subtitle",
+            "btih": "cae311d1426008eff1bd791e3a1eea33b3e61041",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 15479,
+            "seed": 5511
+        },
+        {
+            "id": 133,
+            "name": "[limetorrents.cc]冰与火之歌.权力的游戏.Game.of.Thrones.S07E07.HD720P.X264.AC3",
+            "btih": "7a4b8f2b7e010ff12c0ee961becbfa960ba6a666",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 15078,
+            "seed": 4729
+        },
+        {
+            "id": 91,
+            "name": "[limetorrents.cc]Game.of.Thrones.S07E07.720p.WEB.H264-STRiFE-133tx",
+            "btih": "110069503011c6474a1ffa8ee8cfdbd0aaa25ed5",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 14887,
+            "seed": 6096
+        },
+        {
+            "id": 31,
+            "name": "Game.of.Thrones.S07E07.REPACK.1080p.HEVC.x265-MeGusta [IPT]",
+            "btih": "18d01fbb01197b744e069b544557e9773f7e5c4f",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": true,
+            "peer": 13692,
+            "seed": 5505
+        },
+        {
+            "id": 5,
+            "name": "Game of Thrones S07E07 720p x264 [StB]",
+            "btih": "a0e5cce91e4165fe344357f735fa73ea5b4e2187",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 13459,
+            "seed": 4714
+        },
+        {
+            "id": 9,
+            "name": "Game.of.Thrones.S07E07.1080p.HEVC.x265-MeGusta [IPT]",
+            "btih": "05c4306a24380eb3c7467f54b316634717ba7d7b",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": true,
+            "peer": 13390,
+            "seed": 5475
+        },
+        {
+            "id": 121,
+            "name": "[limetorrents.cc]Game.of.Thrones.S07E07.The.Dragon.and.the.Wolf.720p.HEVC.x265.422mb",
+            "btih": "5c0ebffa62bd54a762337d02b939a82172457f9e",
+            "resolution": "720",
+            "encoding": "265",
+            "private": false,
+            "peer": 13311,
+            "seed": 2500
+        },
+        {
+            "id": 68,
+            "name": "[limetorrents.cc]Cpasbien.ag.Game.of.Thrones.S07E07.FiNAL.FRENCH.HDTV",
+            "btih": "ab5078166cb7fea0c35c434db0d89fe03c2d241e",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 12658,
+            "seed": 4455
+        },
+        {
+            "id": 14,
+            "name": "Game.of.Thrones.S07E07.480p.x264-mSD [IPT]",
+            "btih": "fa3dec58ee01e627c60bcf9b0e0d5816c32e15fc",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 11707,
+            "seed": 3994
+        },
+        {
+            "id": 33,
+            "name": "Game.of.Thrones.S07E07.REPACK.1080p.WEB.H264-STRiFE [IPT]",
+            "btih": "5715bbdc4bc3fd7f4a8e4a112f483f2b3a8e1a53",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 11649,
+            "seed": 6514
+        },
+        {
+            "id": 93,
+            "name": "[limetorrents.cc]Game.of.Thrones.S07E07.720p.WEB.H264",
+            "btih": "d4f390bcf3b75d23e5e4be77b4f6b5fcf39a461a",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 10948,
+            "seed": 5556
+        },
+        {
+            "id": 28,
+            "name": "Game.of.Thrones.S07E07.HDTV.XviD-iFT [IPT]",
+            "btih": "10dd1d70464a6fc433264ecc07dbd943b4a3791c",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 10144,
+            "seed": 4829
+        },
+        {
+            "id": 71,
+            "name": "[limetorrents.cc]Game.Of.Thrones.S07E07.The.Dragon.And.The.Wolf.720p.AMZN.WEB-DL.D",
+            "btih": "0c30bd9fe15c2c116ec6dcae480288e814c1a349",
+            "resolution": "720",
+            "encoding": "none",
+            "private": true,
+            "peer": 9569,
+            "seed": 5427
+        },
+        {
+            "id": 69,
+            "name": "[limetorrents.cc]Cpasbien.ag.Game.of.Thrones.S07E07.FiNAL.VOSTFR.HDTV",
+            "btih": "a597ff3697a1e5f99171d4cf7bbb98c9198a6d89",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 9066,
+            "seed": 2167
+        },
+        {
+            "id": 76,
+            "name": "[limetorrents.cc]Game.of.Thrones.-.S07E07.[CENSORED].-.720p",
+            "btih": "5a83147300ef732d22e588bc796d8e0818416f85",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 8983,
+            "seed": 2526
+        },
+        {
+            "id": 106,
+            "name": "[limetorrents.cc]Game.of.Thrones.S07E07.The.Dragon.and.the.Wolf.1080p.AMZN.WEB-DL-133tx",
+            "btih": "7cc3cb790cc23a68e746094e296a1d483d8e7cdc",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": true,
+            "peer": 8543,
+            "seed": 4402
+        },
+        {
+            "id": 22,
+            "name": "Game.of.Thrones.S07E07.AAC.MP4-Mobile [IPT]",
+            "btih": "82864f9cd1799188a50eae3c8c7b9f3a346cb0eb",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 7513,
+            "seed": 2526
+        },
+        {
+            "id": 120,
+            "name": "[limetorrents.cc]Game.of.Thrones.S07E07.The.Dragon.and.the.Wolf.720p.AMZN.WEBRip.x265.HEVC",
+            "btih": "28b73cda016bfd007e692e894854e233495e7b03",
+            "resolution": "720",
+            "encoding": "265",
+            "private": false,
+            "peer": 6955,
+            "seed": 2377
+        },
+        {
+            "id": 80,
+            "name": "[limetorrents.cc]Game.of.Thrones.S07E07.1080p.WEB.H264-STRiFE",
+            "btih": "8624b4ea46d4a831c58c28d5a8373ce1326648bd",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 6902,
+            "seed": 3800
+        },
+        {
+            "id": 72,
+            "name": "[limetorrents.cc]Game.Of.Thrones.S07E07.The.Dragon.And.The.Wolf.AMZN.WEB-DL.DDP2.0",
+            "btih": "a9996643209cbecc94d050c2db6eaa040ce14ca4",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 6634,
+            "seed": 3651
+        },
+        {
+            "id": 78,
+            "name": "[limetorrents.cc]Game.of.Thrones.S07E07..2017..HDTV.x264.ASAP",
+            "btih": "3604bf58f0e86460834e0af69125b6348b6773b5",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 6540,
+            "seed": 706
+        },
+        {
+            "id": 53,
+            "name": "Game.of.Thrones.S07E07.The.Dragon.and.the.Wolf.AMZN.WEB-DL.DDP2.0.H.264-GoT [IPT]",
+            "btih": "e13e8e9f362e999e927cf7da40f7909c13bcfebd",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 6104,
+            "seed": 2733
+        },
+        {
+            "id": 59,
+            "name": "Game.of.Thrones.S07E07.WEB.H264-STRiFE [IPT]",
+            "btih": "1db0c476d95a41b7d866221dd6a955476999f328",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 4614,
+            "seed": 2249
+        },
+        {
+            "id": 57,
+            "name": "Game.of.Thrones.S07E07.The.Dragon.and.the.Wolf.WebRip.1080p.10bit.5.1.x265.HEVC-Qman [IPT]",
+            "btih": "793870d8f530046a7dc0002d10c97497a39bf1f3",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": true,
+            "peer": 2590,
+            "seed": 1416
+        },
+        {
+            "id": 36,
+            "name": "Game.of.Thrones.S07E07.The.Dragon.and.the.Wolf.1080p.10bit.AMZN.WEB-DL.DD+5.1.x265.HEVC-MZABI [IPT]",
+            "btih": "8f0688215000d11f378d2b580a14ec21f32cbd57",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": true,
+            "peer": 2079,
+            "seed": 1003
+        },
+        {
+            "id": 49,
+            "name": "Game.of.Thrones.S07E07.The.Dragon.and.the.Wolf.720p.AMZN.WEB-DL.x265.HEVC-MZABI [IPT]",
+            "btih": "3ce3f37d38cd26c50bc0666da1cab62b74bc17ab",
+            "resolution": "720",
+            "encoding": "265",
+            "private": true,
+            "peer": 1861,
+            "seed": 1031
+        },
+        {
+            "id": 35,
+            "name": "Game.of.Thrones.S07E07.The.Dragon.and.the.Wolf.1080p.10bit.AMZN.WEB-DL.5.1.x265.HEVC-MZABI [IPT]",
+            "btih": "30a30acea3ba92b56e5309b157f2b9160cb577b8",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": true,
+            "peer": 1602,
+            "seed": 1010
+        },
+        {
+            "id": 11,
+            "name": "Game.of.Thrones.S07E07.1080p.WEB.H264-STRiFE [IPT]",
+            "btih": "29deb2d01bed02efd500fd16abb896dff828084f",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 1151,
+            "seed": 800
+        },
+        {
+            "id": 6,
+            "name": "Game of Thrones S07E07 The Dragon and the Wolf (1080p x265 10bit S92 Joy) [IPT]",
+            "btih": "c28da4122f228afd52d44733c75f86e31a0f0a4b",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": true,
+            "peer": 881,
+            "seed": 406
+        },
+        {
+            "id": 44,
+            "name": "Game.of.Thrones.S07E07.The.Dragon.and.the.Wolf.720p.10bit.AMZN.WEB-DL.x265.HEVC-MZABI [IPT]",
+            "btih": "f2cbd3aaf1d1663fa2b59dbdbe7cc067f5e976a3",
+            "resolution": "720",
+            "encoding": "265",
+            "private": true,
+            "peer": 688,
+            "seed": 342
+        },
+        {
+            "id": 73,
+            "name": "[limetorrents.cc]Game.Of.Thrones.S07E07.WEB.H264-STRiFE",
+            "btih": "af0f5d0f62a7efe2b9cbb4e1c0651af00d8fbfbf",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 0,
+            "seed": 0
         }
     ]
 }

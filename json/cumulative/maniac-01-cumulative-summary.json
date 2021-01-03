@@ -1,19 +1,133 @@
 {
-    "data-version": "20191004",
-    "duration": "2018-09-21-to-2019-01-10",
+    "data-version": "20201228",
     "collection-name": "Maniac",
     "collection-id": "1",
-    "collection-tag-genre": "",
-    "collection-tag-production": "",
-    "collection-tag-distribution": "",
-    "collection-all-btiha": {
+    "sample-duration": "2018-09-21-to-2019-01-10",
+    "sample-days": 112,
+    "sample-year-start": 2018,
+    "sample-year-end": 2019,
+    "sample-day-year-start": 264,
+    "sample-day-year-end": 10,
+    "collection-all-btiha-total": {
         "btiha-size": 329,
         "upeers-total": 14616922,
         "useeds-total": 1729568,
         "anomaly-total": 1737145,
         "anomaly-percentage": "11.88"
     },
-    "collection-unique-btiha": {
+    "collection-unique-btiha-total": {
+        "btiha-size": 319,
+        "upeers-total": 13410587,
+        "useeds-total": 1479048,
+        "anomaly-total": 1489646,
+        "anomaly-percentage": "11.11"
+    },
+    "collection-unique-btiha-week-0001": {
+        "btiha-size": 299,
+        "upeers-total": 1215074,
+        "useeds-total": 320267,
+        "anomaly-total": 78513,
+        "anomaly-percentage": "6.46"
+    },
+    "collection-unique-btiha-week-0002": {
+        "btiha-size": 315,
+        "upeers-total": 1756190,
+        "useeds-total": 406089,
+        "anomaly-total": 127333,
+        "anomaly-percentage": "7.25"
+    },
+    "collection-unique-btiha-week-0003": {
+        "btiha-size": 319,
+        "upeers-total": 2704439,
+        "useeds-total": 529656,
+        "anomaly-total": 215806,
+        "anomaly-percentage": "7.98"
+    },
+    "collection-unique-btiha-week-0004": {
+        "btiha-size": 319,
+        "upeers-total": 5752980,
+        "useeds-total": 661628,
+        "anomaly-total": 589495,
+        "anomaly-percentage": "10.25"
+    },
+    "collection-unique-btiha-week-0005": {
+        "btiha-size": 319,
+        "upeers-total": 7207183,
+        "useeds-total": 763754,
+        "anomaly-total": 767217,
+        "anomaly-percentage": "10.65"
+    },
+    "collection-unique-btiha-week-0006": {
+        "btiha-size": 319,
+        "upeers-total": 8431959,
+        "useeds-total": 852837,
+        "anomaly-total": 917465,
+        "anomaly-percentage": "10.88"
+    },
+    "collection-unique-btiha-week-0007": {
+        "btiha-size": 319,
+        "upeers-total": 9588309,
+        "useeds-total": 936980,
+        "anomaly-total": 1060042,
+        "anomaly-percentage": "11.06"
+    },
+    "collection-unique-btiha-week-0008": {
+        "btiha-size": 319,
+        "upeers-total": 10426350,
+        "useeds-total": 1012825,
+        "anomaly-total": 1163374,
+        "anomaly-percentage": "11.16"
+    },
+    "collection-unique-btiha-week-0009": {
+        "btiha-size": 319,
+        "upeers-total": 11053928,
+        "useeds-total": 1082931,
+        "anomaly-total": 1236548,
+        "anomaly-percentage": "11.19"
+    },
+    "collection-unique-btiha-week-0010": {
+        "btiha-size": 319,
+        "upeers-total": 11554314,
+        "useeds-total": 1147971,
+        "anomaly-total": 1295015,
+        "anomaly-percentage": "11.21"
+    },
+    "collection-unique-btiha-week-0011": {
+        "btiha-size": 319,
+        "upeers-total": 12000893,
+        "useeds-total": 1208567,
+        "anomaly-total": 1346546,
+        "anomaly-percentage": "11.22"
+    },
+    "collection-unique-btiha-week-0012": {
+        "btiha-size": 319,
+        "upeers-total": 12365835,
+        "useeds-total": 1268381,
+        "anomaly-total": 1386518,
+        "anomaly-percentage": "11.21"
+    },
+    "collection-unique-btiha-week-0013": {
+        "btiha-size": 319,
+        "upeers-total": 12770169,
+        "useeds-total": 1326841,
+        "anomaly-total": 1434406,
+        "anomaly-percentage": "11.23"
+    },
+    "collection-unique-btiha-week-0014": {
+        "btiha-size": 319,
+        "upeers-total": 13105413,
+        "useeds-total": 1385641,
+        "anomaly-total": 1471435,
+        "anomaly-percentage": "11.23"
+    },
+    "collection-unique-btiha-week-0015": {
+        "btiha-size": 319,
+        "upeers-total": 13313380,
+        "useeds-total": 1436314,
+        "anomaly-total": 1489127,
+        "anomaly-percentage": "11.19"
+    },
+    "collection-unique-btiha-week-0016": {
         "btiha-size": 319,
         "upeers-total": 13410587,
         "useeds-total": 1479048,
@@ -22,18 +136,20 @@
     },
     "transfer-units": "terabyte",
     "transfer-size": 50666.38739927335,
-    "transfer-cost": "",
+    "transfer-price-1-name": "CloudFront-1-year",
+    "transfer-price-1-per-gigabyte-cost": 0.005,
+    "transfer-price-1-USD": 421331.93699636679,
     "resolution-partitions": [
         {
             "number": 1,
-            "name": "720",
+            "name": "720-all",
             "total-percentage-upeers": "40.79",
             "total-percentage-bytes": "27.53",
             "upeers-total": 5470368
         },
         {
             "number": 2,
-            "name": "1080",
+            "name": "1080-all",
             "total-percentage-upeers": "32.12",
             "total-percentage-bytes": "48.06",
             "upeers-total": 4308013
@@ -47,7 +163,7 @@
         },
         {
             "number": 4,
-            "name": "sd-other",
+            "name": "sd-none",
             "total-percentage-upeers": "9.94",
             "total-percentage-bytes": "15.86",
             "upeers-total": 1332442
@@ -61,27 +177,10 @@
         },
         {
             "number": 6,
-            "name": "2160",
+            "name": "2160-all",
             "total-percentage-upeers": "2.76",
             "total-percentage-bytes": "2.49",
             "upeers-total": 369899
-        }
-    ],
-    "geo-slices-3-longitude-regions": [
-        {
-            "number": 1,
-            "name": "AfroEurAsia",
-            "total-percentage-upeers": "39.39"
-        },
-        {
-            "number": 2,
-            "name": "Americas",
-            "total-percentage-upeers": "39.29"
-        },
-        {
-            "number": 3,
-            "name": "AsiaPacifica",
-            "total-percentage-upeers": "21.32"
         }
     ],
     "geo-country-top-10": [
@@ -130,7 +229,7 @@
         {
             "number": 7,
             "country-code": "KOR",
-            "country-name": "Korea (Republic of)",
+            "country-name": "Korea, Republic of",
             "total-percentage-upeers": "2.41",
             "upeers-total": 323841
         },
@@ -181,7 +280,7 @@
         {
             "number": 4,
             "country-code": "KOR",
-            "country-name": "Korea (Republic of)",
+            "country-name": "Korea, Republic of",
             "total-percentage-upeers": "1.24",
             "upeers-total": 166850
         },
@@ -293,7 +392,7 @@
         {
             "number": 20,
             "country-code": "KOR",
-            "country-name": "Korea (Republic of), Seoul, 11",
+            "country-name": "Korea, Republic of, Seoul, 11",
             "total-percentage-upeers": "0.55",
             "upeers-total": 73329
         },
@@ -366,6 +465,3198 @@
             "country-name": "China, Shanghai, 23",
             "total-percentage-upeers": "0.36",
             "upeers-total": 47866
+        }
+    ],
+    "collection-unique-btiha-detail": [
+        {
+            "id": 492,
+            "name": "multi-btih-2-2x-Maniac 2018 Season 1 Complete 720p WEB-DL x264 [i_c].261330813df53b90",
+            "btih": "261330813df53b909d3b4357af5eb2902bb4b8b6",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 406593,
+            "seed": 251636
+        },
+        {
+            "id": 496,
+            "name": "multi-btih-6-2x-[rutor.is]Maniac.S01.720p.NF",
+            "btih": "0763e98ccd067701d9877739ebdb3bf9e5bb5331",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 195240,
+            "seed": 79627
+        },
+        {
+            "id": 291,
+            "name": "[rutor.is]Maniac.S01.1080p.NF",
+            "btih": "2ab639f0679c96a299dd34765a389d26cd0d3117",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 154121,
+            "seed": 57733
+        },
+        {
+            "id": 491,
+            "name": "multi-btih-1-2x-8056-Maniac.2018.S01.NF.WEB-DL.DDP2.0.x264-NTG[ettv]",
+            "btih": "00c5e37bdfd187aa600aab3fc6c2c2e7d72a51c2",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 149036,
+            "seed": 28421
+        },
+        {
+            "id": 260,
+            "name": "[limetorrents.info]Maniac.2018.S01.FRENCH.WEB-DL.XviD-ZT",
+            "btih": "45488b202093d52653a8f8eb48d14f43cc28d54c",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": false,
+            "peer": 145910,
+            "seed": 40494
+        },
+        {
+            "id": 317,
+            "name": "Маньяк Maniac Сезон 1 Серии 1-10 из 10 (Кэри Фукунага) [2018, США, фантастика, драма, комедия, WEB-DLRip] MVO (BTI Studios [rutracker-5616885]",
+            "btih": "7b2479c515745624e8e28dec3e8c285d20a6fb66",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 139198,
+            "seed": 25066
+        },
+        {
+            "id": 9,
+            "name": "Maniac.2018.S01.1080p.NF.WEBRip.DDP5.1.x264-NTG[rartv]-[rarbg.to]",
+            "btih": "c01e47461977394ef5b31946915b2d23b4b23646",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 135509,
+            "seed": 32319
+        },
+        {
+            "id": 19,
+            "name": "Maniac.2018.S01.COMPLETE.PROPER.XviD-AFG[TGx].5a7b46c8fdb3e1d3",
+            "btih": "5a7b46c8fdb3e1d3647790f10e9743a937839d1c",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": false,
+            "peer": 132723,
+            "seed": 27761
+        },
+        {
+            "id": 494,
+            "name": "multi-btih-4-2x-Maniac.2018.S01.ITA.ENG.1080p.NF.WEBMux.DDP5.1.x264-Morpheus.666ed3dc5561e617",
+            "btih": "666ed3dc5561e617804c024982b1737e2b42420d",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 132382,
+            "seed": 23934
+        },
+        {
+            "id": 311,
+            "name": "Маньяк Maniac Сезон 1 Серии 1-10 из 10 (Кэри Фукунага) [2018, США, Фантастика, драма, комедия, WEB-DL 1080p] MVO (BTi Stud [rutracker-5617045]",
+            "btih": "51220362093a10cab8357c0636f5906aad8923af",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 130352,
+            "seed": 20056
+        },
+        {
+            "id": 262,
+            "name": "[limetorrents.info]Maniac.2018.S01.MULTi.720p.NF.WEB-DL.DD5.1.x264-ARK01",
+            "btih": "8c2cef4eb90e9d0ed6fd85098083388cc9841b97",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 126163,
+            "seed": 19466
+        },
+        {
+            "id": 490,
+            "name": "multi-btih-0-2x-7d88-Maniac.2018.S01.720p.NF.WEB-DL.DDP5.1.x264-NTG[ettv]",
+            "btih": "05bdc5b547de1b5c673bae4fe27ab259408b00a0",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 125440,
+            "seed": 17551
+        },
+        {
+            "id": 493,
+            "name": "multi-btih-3-2x-Maniac.2018.S01.COMPLETE.PROPER.480p.x264-mSD[TGx].f247a36479ee783c",
+            "btih": "f247a36479ee783c49c4082a78897395358a95a2",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 119856,
+            "seed": 12219
+        },
+        {
+            "id": 6,
+            "name": "Maniac Season 1 Mp4 1080p.3e115cb9b274617c",
+            "btih": "3e115cb9b274617c9b021f26fdc7ea9cc7637715",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 119025,
+            "seed": 19388
+        },
+        {
+            "id": 38,
+            "name": "Maniac.2018.S01E01.PROPER.720p.WEBRip.X264-METCON[rartv]-[rarbg.to]",
+            "btih": "b233bc477706c9233fdedc5d0ba3bc9def651a7a",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 117864,
+            "seed": 16962
+        },
+        {
+            "id": 16,
+            "name": "Maniac.2018.S01.720p.NF.WEBRip.DDP5.1.x264-NTG[rartv]-[rarbg.to]",
+            "btih": "f68053fe0e2108edc51f94473c3df07bb534d6fd",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 116182,
+            "seed": 22069
+        },
+        {
+            "id": 22,
+            "name": "Maniac.2018.S01.WEBRip.x264-ION10-[rarbg.to]",
+            "btih": "76c3459edfcbd93566750535aa97c0ce51f37723",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 115518,
+            "seed": 18522
+        },
+        {
+            "id": 15,
+            "name": "Maniac.2018.S01.720p.NF.WEB-DL.x264.MkvCage.ws.3211d3a59622273b",
+            "btih": "3211d3a59622273b45c98736e0386690a3d2a865",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 114452,
+            "seed": 16365
+        },
+        {
+            "id": 497,
+            "name": "multi-btih-7-2x-[rutor.is]Maniac._Season_1_WEB-DL_l_1080p_l_JASKiER",
+            "btih": "650d10a6861dad958591c8780ba6118d76609264",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 114178,
+            "seed": 8030
+        },
+        {
+            "id": 46,
+            "name": "Maniac.2018.S01E01.WEB.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "2646ccc19f358bb04a40da0da20902fc11957857",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 109926,
+            "seed": 16045
+        },
+        {
+            "id": 56,
+            "name": "Maniac.2018.S01E02.720p.WEB.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "00c46e4daee47b5b7a60a4e2652518a4ae99a744",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 108344,
+            "seed": 12585
+        },
+        {
+            "id": 97,
+            "name": "Maniac.2018.S01E03.WEB.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "8d6d5bb9de24fd364bc2ed9ce29752e5063ef662",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 106262,
+            "seed": 13511
+        },
+        {
+            "id": 495,
+            "name": "multi-btih-5-2x-[rutor.is]Maniac",
+            "btih": "85daa88ea89c730a5642a63ef523eb19484db1a3",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 106160,
+            "seed": 3964
+        },
+        {
+            "id": 244,
+            "name": "Maniac.2018.S01E10.PROPER.720p.WEBRip.X264-METCON[rartv]-[rarbg.to]",
+            "btih": "7585a9b2a16bac928503a1ee8a29cc8a7e5d0b65",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 102599,
+            "seed": 9095
+        },
+        {
+            "id": 34,
+            "name": "Maniac.2018.S01E01.PROPER.1080p.WEBRip.X264-METCON[rartv]-[rarbg.to]",
+            "btih": "8c0ef1a6a47e8d05f95f13f064e5dbbcd91d9db9",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 101992,
+            "seed": 7724
+        },
+        {
+            "id": 306,
+            "name": "[rutor.is]Maniac_S01_400p_ColdFilm_torrent",
+            "btih": "236d1861683b79f97008f6047f3255c175fbab5e",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 101901,
+            "seed": 8765
+        },
+        {
+            "id": 499,
+            "name": "multi-btih-9-2x-[rutor.is]Maniac._Season_1_WEB-DL_l_720p_l_JASKiER",
+            "btih": "50de785b214adbbce9ba56bce563f7756c08b871",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 101691,
+            "seed": 7305
+        },
+        {
+            "id": 70,
+            "name": "Maniac.2018.S01E02.WEB.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "13808ddd02b474a7cfdbe33992c5ac25d5456eba",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 101248,
+            "seed": 14045
+        },
+        {
+            "id": 265,
+            "name": "[limetorrents.info]Maniac.2018.S01E01.PROPER.720p.WEBRip.X264-METCON",
+            "btih": "923bd037e346379166fd4f1c594166b11869b8d3",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 100587,
+            "seed": 9158
+        },
+        {
+            "id": 498,
+            "name": "multi-btih-8-2x-[rutor.is]Maniac._Season_1_WEB-DL_l_400p_l_JASKiER",
+            "btih": "f48cef5a68bb8413e9c1e80e53174548d112763f",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 99352,
+            "seed": 7333
+        },
+        {
+            "id": 263,
+            "name": "[limetorrents.info]Maniac.2018.S01.VOSTFR.WEB-DL.XviD-ZT",
+            "btih": "6d12e9bb4ab5a21c5ae87bd9b07f423bd9dad455",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": false,
+            "peer": 99151,
+            "seed": 12406
+        },
+        {
+            "id": 248,
+            "name": "Maniac.2018.S01E10.WEB.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "dbe0a73d37008d810c6b9047edc1834e06fcd075",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 98502,
+            "seed": 9369
+        },
+        {
+            "id": 141,
+            "name": "Maniac.2018.S01E05.WEB.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "1149b9ced6f2a60b39c39d265a37dad7bb6cb25d",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 98248,
+            "seed": 10545
+        },
+        {
+            "id": 240,
+            "name": "Maniac.2018.S01E10.PROPER.1080p.WEBRip.X264-DEFLATE[rartv]-[rarbg.to]",
+            "btih": "e30b3e0b205f3f45fcedda51aa06ea2052bbe060",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 98044,
+            "seed": 7716
+        },
+        {
+            "id": 269,
+            "name": "[limetorrents.info]Maniac.2018.S01E02.PROPER.1080p.WEBRip.X264-METCON",
+            "btih": "38416548b04306ba87c74ec662e156f7543d83fe",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 97910,
+            "seed": 7132
+        },
+        {
+            "id": 18,
+            "name": "Maniac.2018.S01.COMPLETE.PROPER.720p.WEBRip.X264-METCON[TGx].4db75c7de07aca21",
+            "btih": "4db75c7de07aca2181efdf9c4d7598fe4b4c4749",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 97771,
+            "seed": 12463
+        },
+        {
+            "id": 299,
+            "name": "[rutor.is]Maniac.S01.WEB-DLRip.720p.IdeaFilm",
+            "btih": "4f249f34576c52775fb37ffac695836f2f6cd87c",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 97502,
+            "seed": 5560
+        },
+        {
+            "id": 137,
+            "name": "Maniac.2018.S01E05.PROPER.720p.WEBRip.X264-METCON[rartv]-[rarbg.to]",
+            "btih": "772aeb83d90e71195ac39e0269478b05abc6f929",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 97416,
+            "seed": 9055
+        },
+        {
+            "id": 31,
+            "name": "Maniac.2018.S01E01.720p.WEB.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "70c6e88c41bc533f3c6add719d656ea1ae7d2a89",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 97158,
+            "seed": 5481
+        },
+        {
+            "id": 325,
+            "name": "狂想.Maniac.S01E06.720p-官方中字.mp4.7e8ed51c7ead6247",
+            "btih": "7e8ed51c7ead6247d4be90db74ab24880b1cbeb7",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 96841,
+            "seed": 3063
+        },
+        {
+            "id": 180,
+            "name": "Maniac.2018.S01E07.WEB.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "391e8b094e597a9930086be760d3f0ecb797b4ae",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 96654,
+            "seed": 10760
+        },
+        {
+            "id": 280,
+            "name": "[limetorrents.info]Maniac.2018.S01E10.PROPER.720p.WEBRip.X264-METCON",
+            "btih": "c3140726e11b862b302d462ceba3a89d05ffbcce",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 96423,
+            "seed": 7749
+        },
+        {
+            "id": 268,
+            "name": "[limetorrents.info]Maniac.2018.S01E02.INTERNAL.1080p.HEVC.x265-MeGusta",
+            "btih": "2f4bc747201891f604a9466c71fa037035c5383e",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 95683,
+            "seed": 7067
+        },
+        {
+            "id": 267,
+            "name": "[limetorrents.info]Maniac.2018.S01E02.2160p.XviD-AFG",
+            "btih": "aa108490e5bd0fb96b95a6e93288312bf5cc6e1f",
+            "resolution": "2160",
+            "encoding": "xvid",
+            "private": false,
+            "peer": 95593,
+            "seed": 7245
+        },
+        {
+            "id": 308,
+            "name": "[rutor.is]Manjak_2018",
+            "btih": "3d9f15f1ab83eaf044c45f8230cd048a36d6909f",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 95423,
+            "seed": 4340
+        },
+        {
+            "id": 162,
+            "name": "Maniac.2018.S01E06.WEB.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "3d69ff91421bd60fb3115c96a359e5ba8f2eded8",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 95386,
+            "seed": 10199
+        },
+        {
+            "id": 120,
+            "name": "Maniac.2018.S01E04.WEB.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "93a81fdcaaa813e3ec1aa46786364cda288eb425",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 94039,
+            "seed": 11520
+        },
+        {
+            "id": 272,
+            "name": "[limetorrents.info]Maniac.2018.S01E05.PROPER.720p.WEBRip.X264-METCON",
+            "btih": "9581e514747ed5ee64c23eca8239778ae5ec6467",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 93856,
+            "seed": 5972
+        },
+        {
+            "id": 305,
+            "name": "[rutor.is]Maniac_LF",
+            "btih": "bbed4e45ccdad940057b3303f15b6c1680d25bc0",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 93548,
+            "seed": 3951
+        },
+        {
+            "id": 307,
+            "name": "[rutor.is]Maniac_S01_720p_ColdFilm_torrent",
+            "btih": "ee93355a2d7d07204d0a35dbc778c59c5a27f1ad",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 93462,
+            "seed": 6184
+        },
+        {
+            "id": 257,
+            "name": "Maniac.S01E01.The.Chosen.One.720p.NF.WEBRip.DDP5.1.x264-NTG[rartv]-[rarbg.to]",
+            "btih": "489e7382c103c03857d67faa937bd581f13dbd77",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 93181,
+            "seed": 4415
+        },
+        {
+            "id": 204,
+            "name": "Maniac.2018.S01E08.WEB.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "ac521b81163d7fe2a1d3c5b70a9fb2653c121e4a",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 92963,
+            "seed": 10047
+        },
+        {
+            "id": 123,
+            "name": "Maniac.2018.S01E05.1080p.WEB.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "a84ed5520aafb2a7475f1fe082f04695e462f278",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 92938,
+            "seed": 6508
+        },
+        {
+            "id": 227,
+            "name": "Maniac.2018.S01E10.1080p.WEB.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "b373a2f3925b4d054351fae847e84cb39d949718",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 92927,
+            "seed": 5656
+        },
+        {
+            "id": 62,
+            "name": "Maniac.2018.S01E02.PROPER.1080p.WEBRip.X264-METCON[rartv]-[rarbg.to]",
+            "btih": "8dbdcb013863da0c1c2c98e72e869936a665cbb3",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 92704,
+            "seed": 8433
+        },
+        {
+            "id": 322,
+            "name": "狂想.Maniac.S01E03.720p-官方中字.mp4.67a502c76569cb40",
+            "btih": "67a502c76569cb40a564a00dccf66efda4811319",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 92550,
+            "seed": 3285
+        },
+        {
+            "id": 90,
+            "name": "Maniac.2018.S01E03.PROPER.720p.WEBRip.X264-METCON[rartv]-[rarbg.to]",
+            "btih": "ad1ad55141ef6accac3a319a3c67cb66c25d4324",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 92404,
+            "seed": 6240
+        },
+        {
+            "id": 86,
+            "name": "Maniac.2018.S01E03.PROPER.1080p.WEBRip.X264-METCON[rartv]-[rarbg.to]",
+            "btih": "e1a7bb151c00f26b3eff653c3c50ce5740c0833f",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 92173,
+            "seed": 9106
+        },
+        {
+            "id": 277,
+            "name": "[limetorrents.info]Maniac.2018.S01E09.PROPER.720p.WEBRip.X264-METCON",
+            "btih": "f16cad1c6ac9cf72c33e79308b77987844ae8936",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 92077,
+            "seed": 5519
+        },
+        {
+            "id": 43,
+            "name": "Maniac.2018.S01E01.REAL.PROPER.1080p.WEBRip.X264-DEFLATE[rartv]-[rarbg.to]",
+            "btih": "e3bbccf0ed2515c7159ea99620eb52be9261dc8a",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 91864,
+            "seed": 7798
+        },
+        {
+            "id": 276,
+            "name": "[limetorrents.info]Maniac.2018.S01E08.PROPER.720p.WEBRip.X264-METCON",
+            "btih": "7a858d3bb50d36ce496143453e3070f29e1bfaf4",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 91686,
+            "seed": 8600
+        },
+        {
+            "id": 293,
+            "name": "[rutor.is]Maniac.S01.400p.GostFilm",
+            "btih": "a5e893e45646cb4e0ef51760b3402ca288ccbec8",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 91254,
+            "seed": 2808
+        },
+        {
+            "id": 324,
+            "name": "狂想.Maniac.S01E05.720p-官方中字.mp4.3480f9aa3d89a1de",
+            "btih": "3480f9aa3d89a1de68f61b07865536f5b4117197",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 90959,
+            "seed": 3919
+        },
+        {
+            "id": 274,
+            "name": "[limetorrents.info]Maniac.2018.S01E07.PROPER.720p.WEBRip.X264-METCON",
+            "btih": "21a36e9abd6113e90fb1aa1e06b8c242f7bac63f",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 90840,
+            "seed": 5370
+        },
+        {
+            "id": 24,
+            "name": "Maniac.2018.S01E01.1080p.WEB.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "404c4c20e7562d0615ada6766a402d083c54f31f",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 90781,
+            "seed": 4902
+        },
+        {
+            "id": 328,
+            "name": "狂想.Maniac.S01E09.720p-官方中字.mp4.ee77018bffcce648",
+            "btih": "ee77018bffcce648ec5b39d837327cd7b42e0e7d",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 90722,
+            "seed": 3332
+        },
+        {
+            "id": 108,
+            "name": "Maniac.2018.S01E04.720p.WEB.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "91245d97c35eb9f0db9734fcc6caa349258f58b4",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 90688,
+            "seed": 5080
+        },
+        {
+            "id": 296,
+            "name": "[rutor.is]Maniac.S01.720p.SunshineStudio",
+            "btih": "11ea34edd21e65941990e9824907e6a773048e1f",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 90675,
+            "seed": 5130
+        },
+        {
+            "id": 298,
+            "name": "[rutor.is]Maniac.S01.WEB-DLRip.1080p.IdeaFilm",
+            "btih": "21574aed4bfa1c034b4549f8a0e9c4c04bc773bc",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 90351,
+            "seed": 5250
+        },
+        {
+            "id": 176,
+            "name": "Maniac.2018.S01E07.PROPER.720p.WEBRip.X264-METCON[rartv]-[rarbg.to]",
+            "btih": "ed5feee5b5373525d32c1999eacd07a8e111e662",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 90194,
+            "seed": 8475
+        },
+        {
+            "id": 279,
+            "name": "[limetorrents.info]Maniac.2018.S01E10.2160p.480p.x264-mSD",
+            "btih": "97bd81b888d77306c6e3637869179c7939a1f745",
+            "resolution": "2160",
+            "encoding": "264",
+            "private": false,
+            "peer": 90119,
+            "seed": 5294
+        },
+        {
+            "id": 285,
+            "name": "[rutor.is]Maniac.2018.S01.720p.WEBRip.Profix.Media",
+            "btih": "7ab17e1063dfbb324fa596a1c5c6a6f6348be1b3",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 89981,
+            "seed": 3783
+        },
+        {
+            "id": 101,
+            "name": "Maniac.2018.S01E04.1080p.WEB.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "1fad1a7b600e5af1c8d17776db04c60389d40c20",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 89828,
+            "seed": 5617
+        },
+        {
+            "id": 321,
+            "name": "狂想.Maniac.S01E02.720p-官方中字.mp4.4558a3ecc8f083e8",
+            "btih": "4558a3ecc8f083e876304ae8d8e293a0ab82d6f6",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 89746,
+            "seed": 3740
+        },
+        {
+            "id": 258,
+            "name": "[limetorrents.info]Maniac.2018.S01.COMPLETE.NF.WEB-DL.DDP2.0.x264-NTG[TGx]",
+            "btih": "00de7733de079a27320b4e4830f602e891e76352",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 89627,
+            "seed": 6307
+        },
+        {
+            "id": 266,
+            "name": "[limetorrents.info]Maniac.2018.S01E02.2160p.480p.x264-mSD",
+            "btih": "5d26654644f0519a61fec79fcc0a6c130ee8f6c6",
+            "resolution": "2160",
+            "encoding": "264",
+            "private": false,
+            "peer": 89473,
+            "seed": 5411
+        },
+        {
+            "id": 327,
+            "name": "狂想.Maniac.S01E08.720p-官方中字.mp4.623d854ae69d4a59",
+            "btih": "623d854ae69d4a59d71c3024c1a595cf92e930f8",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 89315,
+            "seed": 3676
+        },
+        {
+            "id": 300,
+            "name": "[rutor.is]Maniac.S01.WEB-DLRip.IdeaFilm",
+            "btih": "d3d50dd03cfece1b63940e1bff759fea4b66af03",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 88868,
+            "seed": 9622
+        },
+        {
+            "id": 264,
+            "name": "[limetorrents.info]Maniac.2018.S01E01.2160p.1080p.HEVC.x265-MeGusta",
+            "btih": "b33d59a68cb4c9a7bd9c496d5f9246f204cfc781",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 88840,
+            "seed": 4167
+        },
+        {
+            "id": 314,
+            "name": "Маньяк Maniac Сезон 1 Серии 1-10 из 10 (Кэри Фукунага) [2018, США, Фантастика, драма, комедия, WEBRip] DVO (Gears Media) + [rutracker-5618540]",
+            "btih": "16e02810f0f4357f5df1489466a59f8c38d8aa04",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 88704,
+            "seed": 3927
+        },
+        {
+            "id": 273,
+            "name": "[limetorrents.info]Maniac.2018.S01E06.PROPER.720p.WEBRip.X264-METCON",
+            "btih": "c8ff0dd2bb2061000831e85e5d6d7e9b14d8c228",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 88579,
+            "seed": 5377
+        },
+        {
+            "id": 7,
+            "name": "Maniac Маньяк Сезон 1 Серии 1-10 из 10 (Кэри Фукунага) [2018, США, фантастика, драма, комедия, WEBRip-AVC] Original + Mult [rutracker-5617036]",
+            "btih": "f3227dd5ba67317badfc8fb2d37a9cdd71c1d963",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 88442,
+            "seed": 3425
+        },
+        {
+            "id": 207,
+            "name": "Maniac.2018.S01E09.1080p.WEB.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "e59e6ba528f070584c513e6087abf3bf4c35ca05",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 88142,
+            "seed": 5521
+        },
+        {
+            "id": 50,
+            "name": "Maniac.2018.S01E02.1080p.WEB.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "21f27f306c8015a6cc67e799092a6bee07ee0f6f",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 88062,
+            "seed": 4897
+        },
+        {
+            "id": 292,
+            "name": "[rutor.is]Maniac.S01.1080p",
+            "btih": "620c0b09796330d2c647f63f5ba8bf1bba68282b",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 88033,
+            "seed": 5744
+        },
+        {
+            "id": 329,
+            "name": "狂想.Maniac.S01E10.720p-官方中字.mp4.ec354b1e772f080b",
+            "btih": "ec354b1e772f080b3e5878d382c265082f13d6bb",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 87899,
+            "seed": 3308
+        },
+        {
+            "id": 222,
+            "name": "Maniac.2018.S01E09.REPACK.PROPER.1080p.WEBRip.X264-DEFLATE[rartv]-[rarbg.to]",
+            "btih": "720c22444a989d8ef68194a3f5de34468d020a97",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 87764,
+            "seed": 7348
+        },
+        {
+            "id": 84,
+            "name": "Maniac.2018.S01E03.INTERNAL.1080p.WEBRip.X264-DEFLATE[rartv]-[rarbg.to]",
+            "btih": "08c0157e6df2233d817d626bf381695ba3af6cc1",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 87615,
+            "seed": 3816
+        },
+        {
+            "id": 217,
+            "name": "Maniac.2018.S01E09.PROPER.720p.WEBRip.X264-METCON[rartv]-[rarbg.to]",
+            "btih": "f443026df789098a1bbb7f26ab030f5e65ea6fad",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 87500,
+            "seed": 8701
+        },
+        {
+            "id": 223,
+            "name": "Maniac.2018.S01E09.WEB.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "76e3b1440bbb897b0583630d4c4d2516a9f7b730",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 87400,
+            "seed": 10913
+        },
+        {
+            "id": 66,
+            "name": "Maniac.2018.S01E02.PROPER.720p.WEBRip.X264-METCON[rartv]-[rarbg.to]",
+            "btih": "7ca12600bb019d0f002877538d66502d886b284c",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 87385,
+            "seed": 6711
+        },
+        {
+            "id": 192,
+            "name": "Maniac.2018.S01E08.720p.WEB.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "187a6804b7f59ffec2d5f0394c75fb032f11a1b0",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 87237,
+            "seed": 4498
+        },
+        {
+            "id": 287,
+            "name": "[rutor.is]Maniac.2018.S01.WEBRip.Profix.Media",
+            "btih": "bae970696b014e9642f5ca894e1e570653a6c255",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 87121,
+            "seed": 1496
+        },
+        {
+            "id": 286,
+            "name": "[rutor.is]Maniac.2018.S01.720p.WEBRip.Profix.Media_",
+            "btih": "22a450457c06f5348dd8889260b7f61b87193f70",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 87075,
+            "seed": 1459
+        },
+        {
+            "id": 289,
+            "name": "[rutor.is]Maniac.2018.WEBRip.2160p.S01.MediaClub",
+            "btih": "401072217540c5ae3e6958e042eb30314f89b8e0",
+            "resolution": "2160",
+            "encoding": "none",
+            "private": false,
+            "peer": 87011,
+            "seed": 1480
+        },
+        {
+            "id": 271,
+            "name": "[limetorrents.info]Maniac.2018.S01E04.1080p.WEB.x264-STRiFE",
+            "btih": "1b00202d5c66ed07fdade7c3f3206b6c935033a4",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 86914,
+            "seed": 3084
+        },
+        {
+            "id": 184,
+            "name": "Maniac.2018.S01E08.1080p.WEB.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "c3ec038eb01c48ec8638f6957e263f0a68e703e3",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 86517,
+            "seed": 5541
+        },
+        {
+            "id": 172,
+            "name": "Maniac.2018.S01E07.PROPER.1080p.WEBRip.X264-DEFLATE[rartv]-[rarbg.to]",
+            "btih": "c51e023874df5f826d38a174dbb2b2274a569d33",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 86256,
+            "seed": 7706
+        },
+        {
+            "id": 323,
+            "name": "狂想.Maniac.S01E04.720p-官方中字.mp4.5cfbdd1d8f55ec62",
+            "btih": "5cfbdd1d8f55ec62900c9350333b533b27ea1710",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 86217,
+            "seed": 3205
+        },
+        {
+            "id": 235,
+            "name": "Maniac.2018.S01E10.720p.WEB.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "e4e478769dc561e3baf2c7c8477006a92265055a",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 86182,
+            "seed": 3660
+        },
+        {
+            "id": 74,
+            "name": "Maniac.2018.S01E03.1080p.WEB.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "706b948dc85ce377ae5784ce52a3d6d5e8111ea2",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 86156,
+            "seed": 4718
+        },
+        {
+            "id": 159,
+            "name": "Maniac.2018.S01E06.PROPER.720p.WEBRip.X264-METCON[rartv]-[rarbg.to]",
+            "btih": "37bacee3358d101cd2aa0d43499d53e3ba8df1f9",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 86078,
+            "seed": 9414
+        },
+        {
+            "id": 3,
+            "name": "Maniac (1963) [BluRay] [1080p] [YTS.AM].1886011f039ac178",
+            "btih": "1886011f039ac178d37717ad5c86b8f6b2646d12",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 86068,
+            "seed": 4815
+        },
+        {
+            "id": 270,
+            "name": "[limetorrents.info]Maniac.2018.S01E03.INTERNAL.1080p.HEVC.x265-MeGusta",
+            "btih": "c85b4895678cc455339cc3bb394500d72623d53b",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 85964,
+            "seed": 4670
+        },
+        {
+            "id": 290,
+            "name": "[rutor.is]Maniac.S01.1080p.GostFilm",
+            "btih": "02804fd5b23570bf8fd70534c64a8c7bf163859a",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 85869,
+            "seed": 2765
+        },
+        {
+            "id": 310,
+            "name": "Маньяк Maniac Сезон 1 Серии 1-10 из 10 (Кэри Фукунага Cary Joji Fukunaga) [2018, США, фантастика, драма, комедия, WEBRip [rutracker-5619141]",
+            "btih": "4b412e027a2068f6f3d8d6b02fe61f1eaefde59e",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 85858,
+            "seed": 3568
+        },
+        {
+            "id": 112,
+            "name": "Maniac.2018.S01E04.PROPER.1080p.WEBRip.X264-DEFLATE[rartv]-[rarbg.to]",
+            "btih": "3e3522325447c7201042ea45c51219513701ae8f",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 85832,
+            "seed": 8171
+        },
+        {
+            "id": 313,
+            "name": "Маньяк Maniac Сезон 1 Серии 1-10 из 10 (Кэри Фукунага) [2018, США, Фантастика, драма, комедия, WEBRip 720p] DVO (Gears Med [rutracker-5618506]",
+            "btih": "46360e38f33047f684d03b0079a85800d3e65e59",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 85703,
+            "seed": 2716
+        },
+        {
+            "id": 294,
+            "name": "[rutor.is]Maniac.S01.720p.GostFilm",
+            "btih": "bcd535af41900d6d94c2c70359d4fdf92452f79f",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 85669,
+            "seed": 2529
+        },
+        {
+            "id": 129,
+            "name": "Maniac.2018.S01E05.720p.WEB.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "85b6c82cb7c5093b600c6328b1b5201ac83d277d",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 85349,
+            "seed": 4915
+        },
+        {
+            "id": 60,
+            "name": "Maniac.2018.S01E02.INTERNAL.1080p.WEBRip.X264-DEFLATE[rartv]-[rarbg.to]",
+            "btih": "74a6af1e8e97a4444882f484f26cedf8f2208d62",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 85344,
+            "seed": 5307
+        },
+        {
+            "id": 253,
+            "name": "Maniac.S01E01.1080p.WEB.X264-AMRAP[rartv]-[rarbg.to]",
+            "btih": "78048243f076172f9678ab59fe11d32f2e5b591b",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 85286,
+            "seed": 1187
+        },
+        {
+            "id": 80,
+            "name": "Maniac.2018.S01E03.720p.WEB.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "85b3b0acf9538441d5b2fdd3e2c37a0036303b37",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 84919,
+            "seed": 5040
+        },
+        {
+            "id": 326,
+            "name": "狂想.Maniac.S01E07.720p-官方中字.mp4.5509e04b280ba8ea",
+            "btih": "5509e04b280ba8eab327d027ba63c91595164f03",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 84738,
+            "seed": 2576
+        },
+        {
+            "id": 133,
+            "name": "Maniac.2018.S01E05.PROPER.1080p.WEBRip.X264-DEFLATE[rartv]-[rarbg.to]",
+            "btih": "6ea169fe6404b90d50b2943846df471d2b460ec3",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 84378,
+            "seed": 7193
+        },
+        {
+            "id": 168,
+            "name": "Maniac.2018.S01E07.720p.WEB.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "9ced7bc20e56ae0cf2f4b29b9ad4809eb4d8fc78",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 84313,
+            "seed": 2970
+        },
+        {
+            "id": 155,
+            "name": "Maniac.2018.S01E06.PROPER.1080p.WEBRip.X264-DEFLATE[rartv]-[rarbg.to]",
+            "btih": "f71eaf01a2bf2fa32653db60c8a1af6081fb129b",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 84098,
+            "seed": 6896
+        },
+        {
+            "id": 282,
+            "name": "[limetorrents.info]Maniac.2018.Season.S01.x265.360p-we",
+            "btih": "440f71af8143cfb2bd4d2a79841185aea5a6b340",
+            "resolution": "sd",
+            "encoding": "265",
+            "private": false,
+            "peer": 84021,
+            "seed": 5313
+        },
+        {
+            "id": 283,
+            "name": "[rutor.is]Maniac.2018.S01.1080p.WEBRip.Profix.Media",
+            "btih": "d1084386c4a73a24407f132f911bb9b4bdcc71a4",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 84005,
+            "seed": 2088
+        },
+        {
+            "id": 151,
+            "name": "Maniac.2018.S01E06.720p.WEB.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "98a7bec8f6665a296343547eb4f66f02a68b5ab3",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 83262,
+            "seed": 4816
+        },
+        {
+            "id": 278,
+            "name": "[limetorrents.info]Maniac.2018.S01E10.2160p.1080p.HEVC.x265-MeGusta",
+            "btih": "ba7b223ccf1dcde3e7136c1f0d8ef3ef2ea67a7a",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 83171,
+            "seed": 3723
+        },
+        {
+            "id": 213,
+            "name": "Maniac.2018.S01E09.PROPER.1080p.WEBRip.X264-DEFLATE[rartv]-[rarbg.to]",
+            "btih": "4ba7df3019bf7380272348a7de575551603ba12d",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 82773,
+            "seed": 5273
+        },
+        {
+            "id": 200,
+            "name": "Maniac.2018.S01E08.PROPER.720p.WEBRip.X264-METCON[rartv]-[rarbg.to]",
+            "btih": "08a3d1ee1d76e590ce095d4e744945f33dc52253",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 82525,
+            "seed": 8358
+        },
+        {
+            "id": 275,
+            "name": "[limetorrents.info]Maniac.2018.S01E08.2160p.1080p.HEVC.x265-MeGusta",
+            "btih": "3127d754ad8d6b93ddb54ceb3af72e177a679e97",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 82264,
+            "seed": 3797
+        },
+        {
+            "id": 297,
+            "name": "[rutor.is]Maniac.S01.720p.WEB-DLRip.JimmyJ",
+            "btih": "f5b819b32ded538385ffa1b0423a6e45fcba9a84",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 82184,
+            "seed": 550
+        },
+        {
+            "id": 145,
+            "name": "Maniac.2018.S01E06.1080p.WEB.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "68bd60f5589fcd1046ca7346b9f5eeac73550891",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 81910,
+            "seed": 6202
+        },
+        {
+            "id": 116,
+            "name": "Maniac.2018.S01E04.PROPER.720p.WEBRip.X264-METCON[rartv]-[rarbg.to]",
+            "btih": "6bc20e51aaaf1ff3b2176250773f7ba8eaebee8e",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 81894,
+            "seed": 8965
+        },
+        {
+            "id": 95,
+            "name": "Maniac.2018.S01E03.REAL.PROPER.1080p.WEBRip.X264-DEFLATE[rartv]-[rarbg.to]",
+            "btih": "10043f67599b3b92f67f446e3ea6a7b2e340e384",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 81272,
+            "seed": 5773
+        },
+        {
+            "id": 309,
+            "name": "Маньяк Maniac Сезон 1 Серии 1 из 10 (Кэри Фукунага Cary Joji Fukunaga) [2018, США, Фантастика, драма, комедия, WEBRip] M [rutracker-5619006]",
+            "btih": "596ec64945709c5780c77f083a342f793e3914a3",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 80725,
+            "seed": 3417
+        },
+        {
+            "id": 284,
+            "name": "[rutor.is]Maniac.2018.S01.1080p.WEBRip.Profix.Media_",
+            "btih": "167ae83dd4291d0269caf9d425eb9b3a3588f888",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 80662,
+            "seed": 618
+        },
+        {
+            "id": 196,
+            "name": "Maniac.2018.S01E08.PROPER.1080p.WEBRip.X264-DEFLATE[rartv]-[rarbg.to]",
+            "btih": "c6eeeb8823c1886bc561878b752ba522736e645d",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 80519,
+            "seed": 7212
+        },
+        {
+            "id": 256,
+            "name": "Maniac.S01E01.The.Chosen.One.1080p.NF.WEBRip.DDP5.1.x264-NTG[rartv]-[rarbg.to]",
+            "btih": "4605f125e1088ed5ec30008a03b61e2aebb0c2e4",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 80397,
+            "seed": 2049
+        },
+        {
+            "id": 320,
+            "name": "狂想.Maniac.S01E01.720p-官方中字.mp4.3b3b71681a344bc3",
+            "btih": "3b3b71681a344bc3c95ef348aed9ebe9f822d952",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 80032,
+            "seed": 4152
+        },
+        {
+            "id": 209,
+            "name": "Maniac.2018.S01E09.720p.WEB.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "9ad16f3170050dedd1fd52ab6e8bb4917aeb1a28",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 78883,
+            "seed": 4114
+        },
+        {
+            "id": 288,
+            "name": "[rutor.is]Maniac.2018.S01.WEBRip.Profix.Media_",
+            "btih": "61888726a282f3b664bf0f0e28bc9b1374f7bedd",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 78698,
+            "seed": 1313
+        },
+        {
+            "id": 166,
+            "name": "Maniac.2018.S01E07.1080p.WEB.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "2d981dff8d012f7400ac0c7980b5fb6a2bf7a016",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 78695,
+            "seed": 5363
+        },
+        {
+            "id": 5,
+            "name": "Maniac S01 web hevc-d3g [IPT]",
+            "btih": "94716bd6dd208ab2dc1bdb667fb3e067623834b9",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 6310,
+            "seed": 2686
+        },
+        {
+            "id": 8,
+            "name": "Maniac.2018.S01.1080p.NF.WEB-DL.DDP5.1.x264-NTG [IPT]",
+            "btih": "5247f8078c2c353847fa8b0ee1b8e39fd5759936",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 3669,
+            "seed": 1636
+        },
+        {
+            "id": 13,
+            "name": "Maniac.2018.S01.720p.NF.WEB-DL.DDP5.1.x264-NTG [IPT]",
+            "btih": "0feef6f87c88fe640ad10aacbda81e097c57bfae",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 2491,
+            "seed": 1015
+        },
+        {
+            "id": 250,
+            "name": "Maniac.S01.1080p.NetflixRip.WebDL-CallMeBrado [IPT]",
+            "btih": "a403eae14ed258a4d1b500cddebe004c67f75e66",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": true,
+            "peer": 2215,
+            "seed": 1145
+        },
+        {
+            "id": 12,
+            "name": "Maniac.2018.S01.480p.WEBRip.nSD.x264-NhaNc3 [IPT]",
+            "btih": "f660b891d0053446b85782026631bf2a624669bd",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 1435,
+            "seed": 998
+        },
+        {
+            "id": 36,
+            "name": "Maniac.2018.S01E01.PROPER.720p.HEVC.x265-MeGusta [IPT]",
+            "btih": "9b4a2e78a8eb7ed5591c289043e3c8c44ad95a50",
+            "resolution": "720",
+            "encoding": "265",
+            "private": true,
+            "peer": 1260,
+            "seed": 673
+        },
+        {
+            "id": 10,
+            "name": "Maniac.2018.S01.2160p.WEBRip.X264-DEFLATE [NO RAR] [IPT]",
+            "btih": "3133b9ec13337efd2b7320cfaf73caddd445f6f3",
+            "resolution": "2160",
+            "encoding": "264",
+            "private": true,
+            "peer": 1194,
+            "seed": 285
+        },
+        {
+            "id": 64,
+            "name": "Maniac.2018.S01E02.PROPER.720p.HEVC.x265-MeGusta [IPT]",
+            "btih": "a043d172bd27090df3e7bee7b4705b6c6061664f",
+            "resolution": "720",
+            "encoding": "265",
+            "private": true,
+            "peer": 1131,
+            "seed": 613
+        },
+        {
+            "id": 30,
+            "name": "Maniac.2018.S01E01.720p.WEB.x264-STRiFE [IPT]",
+            "btih": "36e6cbafae31958612f6988174b482b114fc5560",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 1106,
+            "seed": 547
+        },
+        {
+            "id": 88,
+            "name": "Maniac.2018.S01E03.PROPER.720p.HEVC.x265-MeGusta [IPT]",
+            "btih": "18b9cb5933a6bbf3beec20539f30cba69ebd36e0",
+            "resolution": "720",
+            "encoding": "265",
+            "private": true,
+            "peer": 1093,
+            "seed": 557
+        },
+        {
+            "id": 174,
+            "name": "Maniac.2018.S01E07.PROPER.720p.HEVC.x265-MeGusta [IPT]",
+            "btih": "039a2b189892f3a736fad8e815100ff9e7ee988c",
+            "resolution": "720",
+            "encoding": "265",
+            "private": true,
+            "peer": 1077,
+            "seed": 545
+        },
+        {
+            "id": 135,
+            "name": "Maniac.2018.S01E05.PROPER.720p.HEVC.x265-MeGusta [IPT]",
+            "btih": "fd5018f0783f78ababc6c153d02dddc30d29cd1e",
+            "resolution": "720",
+            "encoding": "265",
+            "private": true,
+            "peer": 1073,
+            "seed": 557
+        },
+        {
+            "id": 157,
+            "name": "Maniac.2018.S01E06.PROPER.720p.HEVC.x265-MeGusta [IPT]",
+            "btih": "0ca5cd82310677489cd643500c1697e57bd35a1b",
+            "resolution": "720",
+            "encoding": "265",
+            "private": true,
+            "peer": 999,
+            "seed": 536
+        },
+        {
+            "id": 114,
+            "name": "Maniac.2018.S01E04.PROPER.720p.HEVC.x265-MeGusta [IPT]",
+            "btih": "62172ae74e019858669e08839cae9194d75187e9",
+            "resolution": "720",
+            "encoding": "265",
+            "private": true,
+            "peer": 990,
+            "seed": 524
+        },
+        {
+            "id": 198,
+            "name": "Maniac.2018.S01E08.PROPER.720p.HEVC.x265-MeGusta [IPT]",
+            "btih": "777b2d0c139dd3c66529ac4bd73f04fbf45a8f78",
+            "resolution": "720",
+            "encoding": "265",
+            "private": true,
+            "peer": 897,
+            "seed": 423
+        },
+        {
+            "id": 208,
+            "name": "Maniac.2018.S01E09.720p.WEB.x264-STRiFE [IPT]",
+            "btih": "984bfc0f1990b57a16e01cd145b33be9f5bce237",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 852,
+            "seed": 395
+        },
+        {
+            "id": 107,
+            "name": "Maniac.2018.S01E04.720p.WEB.x264-STRiFE [IPT]",
+            "btih": "7b51f479bdacfc79183277b097e8b09b7ef8f648",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 835,
+            "seed": 431
+        },
+        {
+            "id": 55,
+            "name": "Maniac.2018.S01E02.720p.WEB.x264-STRiFE [IPT]",
+            "btih": "250c9748f6dded03ca482a3fd45c359b2be0956a",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 828,
+            "seed": 377
+        },
+        {
+            "id": 79,
+            "name": "Maniac.2018.S01E03.720p.WEB.x264-STRiFE [IPT]",
+            "btih": "74d4be4ac9621fad88407305f080d94e32626a94",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 824,
+            "seed": 389
+        },
+        {
+            "id": 167,
+            "name": "Maniac.2018.S01E07.720p.WEB.x264-STRiFE [IPT]",
+            "btih": "067f53f6b69fcb69da2654558eada5d98922579b",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 821,
+            "seed": 405
+        },
+        {
+            "id": 150,
+            "name": "Maniac.2018.S01E06.720p.WEB.x264-STRiFE [IPT]",
+            "btih": "aa3321b66f2b224461b9e4a0200f986b8a47db05",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 808,
+            "seed": 406
+        },
+        {
+            "id": 128,
+            "name": "Maniac.2018.S01E05.720p.WEB.x264-STRiFE [IPT]",
+            "btih": "925eb346febceae9f9b676ba876840f4be86889a",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 803,
+            "seed": 383
+        },
+        {
+            "id": 215,
+            "name": "Maniac.2018.S01E09.PROPER.720p.HEVC.x265-MeGusta [IPT]",
+            "btih": "a1cc3a9f62bc617342da70bc2ccc7099d04fd720",
+            "resolution": "720",
+            "encoding": "265",
+            "private": true,
+            "peer": 787,
+            "seed": 399
+        },
+        {
+            "id": 242,
+            "name": "Maniac.2018.S01E10.PROPER.720p.HEVC.x265-MeGusta [IPT]",
+            "btih": "df63c0cd4781faeece0652e5e0ab25add7203989",
+            "resolution": "720",
+            "encoding": "265",
+            "private": true,
+            "peer": 773,
+            "seed": 398
+        },
+        {
+            "id": 136,
+            "name": "Maniac.2018.S01E05.PROPER.720p.WEBRip.X264-METCON [IPT]",
+            "btih": "8709b20a5f4a4ef3618eadc1212b82a8c6cb042a",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 677,
+            "seed": 308
+        },
+        {
+            "id": 234,
+            "name": "Maniac.2018.S01E10.720p.WEB.x264-STRiFE [IPT]",
+            "btih": "674e33659964e7c5a467fc1dc0ef739c43fa185d",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 673,
+            "seed": 371
+        },
+        {
+            "id": 216,
+            "name": "Maniac.2018.S01E09.PROPER.720p.WEBRip.X264-METCON [IPT]",
+            "btih": "4c858520dd42f4d227764d84d470800b5f8fec1c",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 666,
+            "seed": 270
+        },
+        {
+            "id": 239,
+            "name": "Maniac.2018.S01E10.PROPER.1080p.WEBRip.X264-DEFLATE [IPT]",
+            "btih": "24a79d59da4501115545d1d8131033bd3ce2496a",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 665,
+            "seed": 300
+        },
+        {
+            "id": 29,
+            "name": "Maniac.2018.S01E01.2160p.XviD-AFG [IPT]",
+            "btih": "f9f48b4fecc434f7beaacf08fcf5dd0c6a6c6464",
+            "resolution": "2160",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 645,
+            "seed": 375
+        },
+        {
+            "id": 252,
+            "name": "Maniac.S01E01.1080p.WEB.X264-AMRAP [IPT]",
+            "btih": "7a07bea90a37501e76818fb2dff361a2b39851d4",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 634,
+            "seed": 373
+        },
+        {
+            "id": 40,
+            "name": "Maniac.2018.S01E01.PROPER.XviD-AFG [IPT]",
+            "btih": "2a140b3206b25be67cf382ee1686bd9fd1360f9b",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 576,
+            "seed": 386
+        },
+        {
+            "id": 195,
+            "name": "Maniac.2018.S01E08.PROPER.1080p.WEBRip.X264-DEFLATE [IPT]",
+            "btih": "9efc15f76900858d0029ec0e71d426b3deb59883",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 571,
+            "seed": 271
+        },
+        {
+            "id": 33,
+            "name": "Maniac.2018.S01E01.PROPER.1080p.WEBRip.X264-METCON [IPT]",
+            "btih": "25f34472ff45e1a0d33ebf2d4da48a893701fbaf",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 559,
+            "seed": 295
+        },
+        {
+            "id": 191,
+            "name": "Maniac.2018.S01E08.720p.WEB.x264-STRiFE [IPT]",
+            "btih": "a9363b500a0043296275c28937745fce860beb36",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 558,
+            "seed": 325
+        },
+        {
+            "id": 115,
+            "name": "Maniac.2018.S01E04.PROPER.720p.WEBRip.X264-METCON [IPT]",
+            "btih": "bc26869929cdf82b7697f2c8129fb1c3718931da",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 555,
+            "seed": 226
+        },
+        {
+            "id": 37,
+            "name": "Maniac.2018.S01E01.PROPER.720p.WEBRip.X264-METCON [IPT]",
+            "btih": "632d998731ba41bc26fa9aa9d3c6ce6d2370e49e",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 543,
+            "seed": 242
+        },
+        {
+            "id": 68,
+            "name": "Maniac.2018.S01E02.PROPER.XviD-AFG [IPT]",
+            "btih": "5cdd73e91d004f424048c8d3775ed531a9877301",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 530,
+            "seed": 364
+        },
+        {
+            "id": 243,
+            "name": "Maniac.2018.S01E10.PROPER.720p.WEBRip.X264-METCON [IPT]",
+            "btih": "53b6df0488b3c56a5aebbd7dc26b392d5b548d13",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 524,
+            "seed": 197
+        },
+        {
+            "id": 35,
+            "name": "Maniac.2018.S01E01.PROPER.480p.x264-mSD [IPT]",
+            "btih": "55cc83df4bca356eb3150ade0d641d074b16b70b",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 509,
+            "seed": 316
+        },
+        {
+            "id": 178,
+            "name": "Maniac.2018.S01E07.PROPER.XviD-AFG [IPT]",
+            "btih": "24a64355421ad79bc9f08fef5cdec41ad9f178fa",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 502,
+            "seed": 303
+        },
+        {
+            "id": 89,
+            "name": "Maniac.2018.S01E03.PROPER.720p.WEBRip.X264-METCON [IPT]",
+            "btih": "41933cbc76127364ce73b7a1c2784fc0cc2b91f2",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 501,
+            "seed": 205
+        },
+        {
+            "id": 78,
+            "name": "Maniac.2018.S01E03.2160p.XviD-AFG [IPT]",
+            "btih": "d3f30be66c09b69a0bea768d67ab035fb3aa2a75",
+            "resolution": "2160",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 501,
+            "seed": 312
+        },
+        {
+            "id": 49,
+            "name": "Maniac.2018.S01E02.1080p.WEB.x264-STRiFE [IPT]",
+            "btih": "9f428d5c9161edbb0b56bf99785456826aa2998e",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 499,
+            "seed": 311
+        },
+        {
+            "id": 65,
+            "name": "Maniac.2018.S01E02.PROPER.720p.WEBRip.X264-METCON [IPT]",
+            "btih": "ed214e7b673665cac7f3d1cb5518aa4a0eb90663",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 498,
+            "seed": 209
+        },
+        {
+            "id": 199,
+            "name": "Maniac.2018.S01E08.PROPER.720p.WEBRip.X264-METCON [IPT]",
+            "btih": "b076de764e526a00b02752212c11eaa96b4620d6",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 496,
+            "seed": 191
+        },
+        {
+            "id": 73,
+            "name": "Maniac.2018.S01E03.1080p.WEB.x264-STRiFE [IPT]",
+            "btih": "4db928f52a38998ce0a2c975646ee9784654512f",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 495,
+            "seed": 327
+        },
+        {
+            "id": 113,
+            "name": "Maniac.2018.S01E04.PROPER.480p.x264-mSD [IPT]",
+            "btih": "656404ed833af4e548f94a0e91702047fe2b0076",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 493,
+            "seed": 300
+        },
+        {
+            "id": 254,
+            "name": "Maniac.S01E01.Episode.1.1080p.NF.WEB-DL.DDP5.1.x264-NTG [IPT]",
+            "btih": "74d0fd95e937a2095894b2cd703d99a75c2138cc",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 493,
+            "seed": 291
+        },
+        {
+            "id": 143,
+            "name": "Maniac.2018.S01E05.iNTERNAL.MULTi.1080p.WEB.x264-CARAPiLS [IPT]",
+            "btih": "eada5f500a7b815bac5b54a8ed694bb168983820",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 491,
+            "seed": 293
+        },
+        {
+            "id": 158,
+            "name": "Maniac.2018.S01E06.PROPER.720p.WEBRip.X264-METCON [IPT]",
+            "btih": "f4ee218b789302ef1ebed194045f7395f8bb023e",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 483,
+            "seed": 205
+        },
+        {
+            "id": 100,
+            "name": "Maniac.2018.S01E04.1080p.WEB.x264-STRiFE [IPT]",
+            "btih": "5d95d9657ce3bc5f16c5b8cc79cd3aef2d6fa93a",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 481,
+            "seed": 284
+        },
+        {
+            "id": 251,
+            "name": "Maniac.S01E01.1080p.HEVC.x265-MeGusta [IPT]",
+            "btih": "fe896cd2f11b9013da1a7ab4f91528e76c84f879",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": true,
+            "peer": 481,
+            "seed": 328
+        },
+        {
+            "id": 183,
+            "name": "Maniac.2018.S01E08.1080p.WEB.x264-STRiFE [IPT]",
+            "btih": "5d0eb7d162516d934f88cb0db91ca2934fd702e5",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 480,
+            "seed": 293
+        },
+        {
+            "id": 11,
+            "name": "Maniac.2018.S01.2160p.WEBRip.X265-DEFLATE [NO RAR] [IPT]",
+            "btih": "f038fd0655427547d5b4bd057c7eb39243d1d1d2",
+            "resolution": "2160",
+            "encoding": "265",
+            "private": true,
+            "peer": 474,
+            "seed": 243
+        },
+        {
+            "id": 87,
+            "name": "Maniac.2018.S01E03.PROPER.480p.x264-mSD [IPT]",
+            "btih": "14c50376e0fef3fb672efc6c1a917ee1d9e602fc",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 455,
+            "seed": 294
+        },
+        {
+            "id": 48,
+            "name": "Maniac.2018.S01E01.iNTERNAL.MULTi.1080p.WEB.x264-CARAPiLS [IPT]",
+            "btih": "3a1438fcd505d1499dd1c1934ed094f1c14cc527",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 454,
+            "seed": 188
+        },
+        {
+            "id": 175,
+            "name": "Maniac.2018.S01E07.PROPER.720p.WEBRip.X264-METCON [IPT]",
+            "btih": "00eb8fc863151c405090852a5349db25b7222502",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 449,
+            "seed": 182
+        },
+        {
+            "id": 47,
+            "name": "Maniac.2018.S01E01.XviD-AFG [IPT]",
+            "btih": "5aa081df7b3534096d74ecb5d55b5ccea898e6c6",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 442,
+            "seed": 300
+        },
+        {
+            "id": 132,
+            "name": "Maniac.2018.S01E05.PROPER.1080p.WEBRip.X264-DEFLATE [IPT]",
+            "btih": "ca2aa61d1235b3048220f29b3425e672a238ed34",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 426,
+            "seed": 276
+        },
+        {
+            "id": 61,
+            "name": "Maniac.2018.S01E02.PROPER.1080p.WEBRip.X264-METCON [IPT]",
+            "btih": "525db3bb313df39a583153c0ff901a737eb7b61c",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 422,
+            "seed": 295
+        },
+        {
+            "id": 54,
+            "name": "Maniac.2018.S01E02.2160p.XviD-AFG [IPT]",
+            "btih": "89715d4c81754723b654062641d4e3d382c5992f",
+            "resolution": "2160",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 415,
+            "seed": 221
+        },
+        {
+            "id": 134,
+            "name": "Maniac.2018.S01E05.PROPER.480p.x264-mSD [IPT]",
+            "btih": "7fd2f0106b34c35275e5d495248de4d2feb3a058",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 413,
+            "seed": 274
+        },
+        {
+            "id": 214,
+            "name": "Maniac.2018.S01E09.PROPER.480p.x264-mSD [IPT]",
+            "btih": "af0dc0edb9b08c70320faefff3d6a791800c85e4",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 411,
+            "seed": 224
+        },
+        {
+            "id": 111,
+            "name": "Maniac.2018.S01E04.PROPER.1080p.WEBRip.X264-DEFLATE [IPT]",
+            "btih": "750b40b480998c3aa15ea2c2b4ebd8bfd2a797f5",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 406,
+            "seed": 280
+        },
+        {
+            "id": 42,
+            "name": "Maniac.2018.S01E01.REAL.PROPER.1080p.WEBRip.X264-DEFLATE [IPT]",
+            "btih": "b834a6b463e1eb48c343972549ca801882e789cd",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 400,
+            "seed": 267
+        },
+        {
+            "id": 165,
+            "name": "Maniac.2018.S01E07.1080p.WEB.x264-STRiFE [IPT]",
+            "btih": "0c48367299ee9c3a3441017342d52c1bf3747c12",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 400,
+            "seed": 233
+        },
+        {
+            "id": 85,
+            "name": "Maniac.2018.S01E03.PROPER.1080p.WEBRip.X264-METCON [IPT]",
+            "btih": "7e5266ad8aace7334ee79a3ea1b66433b1fff6db",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 386,
+            "seed": 253
+        },
+        {
+            "id": 92,
+            "name": "Maniac.2018.S01E03.PROPER.XviD-AFG [IPT]",
+            "btih": "ec375baa47c91821587d08078100a1ee0d992fa3",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 384,
+            "seed": 209
+        },
+        {
+            "id": 41,
+            "name": "Maniac.2018.S01E01.REAL.PROPER.1080p.HEVC.x265-MeGusta [IPT]",
+            "btih": "1306a3e2f8fb5959a1b417c04704043ed41451e7",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": true,
+            "peer": 383,
+            "seed": 217
+        },
+        {
+            "id": 51,
+            "name": "Maniac.2018.S01E02.2160p.480p.x264-mSD [IPT]",
+            "btih": "fdfaa63eaf10ff17f6d3b6014f921f13c52e5dcd",
+            "resolution": "2160",
+            "encoding": "264",
+            "private": true,
+            "peer": 378,
+            "seed": 286
+        },
+        {
+            "id": 173,
+            "name": "Maniac.2018.S01E07.PROPER.480p.x264-mSD [IPT]",
+            "btih": "1eeaf7d1f1c93f3b3297f85de57d7e46f4737443",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 378,
+            "seed": 188
+        },
+        {
+            "id": 219,
+            "name": "Maniac.2018.S01E09.PROPER.XviD-AFG [IPT]",
+            "btih": "b4531a3c8e5daba55d8c305ad227cc362b3b40ea",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 375,
+            "seed": 227
+        },
+        {
+            "id": 212,
+            "name": "Maniac.2018.S01E09.PROPER.1080p.WEBRip.X264-DEFLATE [IPT]",
+            "btih": "0f0ed154a59905dea10ee25832fa6a69b7f29508",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 362,
+            "seed": 200
+        },
+        {
+            "id": 171,
+            "name": "Maniac.2018.S01E07.PROPER.1080p.WEBRip.X264-DEFLATE [IPT]",
+            "btih": "39d4d080c1b7a301ae9aa5789651e6916d475a84",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 361,
+            "seed": 259
+        },
+        {
+            "id": 118,
+            "name": "Maniac.2018.S01E04.PROPER.XviD-AFG [IPT]",
+            "btih": "51c06b29b129926609c3c8690bf89cac2deb7272",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 360,
+            "seed": 200
+        },
+        {
+            "id": 170,
+            "name": "Maniac.2018.S01E07.PROPER.1080p.HEVC.x265-MeGusta [IPT]",
+            "btih": "6471d4b872d89ef6ec33e1e828b7cc0e2ac052cd",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": true,
+            "peer": 355,
+            "seed": 214
+        },
+        {
+            "id": 238,
+            "name": "Maniac.2018.S01E10.PROPER.1080p.HEVC.x265-MeGusta [IPT]",
+            "btih": "3fbc5954e6cdc1c07e028ac79495a3d48d03ccc6",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": true,
+            "peer": 351,
+            "seed": 230
+        },
+        {
+            "id": 202,
+            "name": "Maniac.2018.S01E08.PROPER.XviD-AFG [IPT]",
+            "btih": "98e18be703337157d25594c7ee999204b25df373",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 349,
+            "seed": 226
+        },
+        {
+            "id": 241,
+            "name": "Maniac.2018.S01E10.PROPER.480p.x264-mSD [IPT]",
+            "btih": "db71f2c05e2e9a8a80acfb0770fbc6c08c370d0b",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 346,
+            "seed": 184
+        },
+        {
+            "id": 246,
+            "name": "Maniac.2018.S01E10.PROPER.XviD-AFG [IPT]",
+            "btih": "6c9fdd79dd31a2ad9759669320d0b7e88787a7f2",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 345,
+            "seed": 216
+        },
+        {
+            "id": 131,
+            "name": "Maniac.2018.S01E05.PROPER.1080p.HEVC.x265-MeGusta [IPT]",
+            "btih": "e02a8b34698c2d078e994f24579c99421ce9c3f6",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": true,
+            "peer": 342,
+            "seed": 223
+        },
+        {
+            "id": 58,
+            "name": "Maniac.2018.S01E02.INTERNAL.1080p.HEVC.x265-MeGusta [IPT]",
+            "btih": "c34c203e71ca349a4ed05cf01048f2c495c9797d",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": true,
+            "peer": 337,
+            "seed": 167
+        },
+        {
+            "id": 127,
+            "name": "Maniac.2018.S01E05.2160p.XviD-AFG [IPT]",
+            "btih": "a77797ea3beaffd33a2bb769cd6e0558797bc943",
+            "resolution": "2160",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 336,
+            "seed": 220
+        },
+        {
+            "id": 144,
+            "name": "Maniac.2018.S01E06.1080p.WEB.x264-STRiFE [IPT]",
+            "btih": "c057eb6cffac0c8f10043b5895dc689e05ba1c79",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 334,
+            "seed": 233
+        },
+        {
+            "id": 194,
+            "name": "Maniac.2018.S01E08.PROPER.1080p.HEVC.x265-MeGusta [IPT]",
+            "btih": "a118443dfb1df483ffbd172fad2dd234d5363465",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": true,
+            "peer": 328,
+            "seed": 214
+        },
+        {
+            "id": 154,
+            "name": "Maniac.2018.S01E06.PROPER.1080p.WEBRip.X264-DEFLATE [IPT]",
+            "btih": "a41fa0be8f3258e4576aeed64de50a349b218f56",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 327,
+            "seed": 238
+        },
+        {
+            "id": 106,
+            "name": "Maniac.2018.S01E04.2160p.XviD-AFG [IPT]",
+            "btih": "c4b4ca7df98baaf336c50cdb31e2c77905b1223e",
+            "resolution": "2160",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 326,
+            "seed": 217
+        },
+        {
+            "id": 139,
+            "name": "Maniac.2018.S01E05.PROPER.XviD-AFG [IPT]",
+            "btih": "cc841608a8b41a0b2d24ec02916240362bb53459",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 323,
+            "seed": 177
+        },
+        {
+            "id": 189,
+            "name": "Maniac.2018.S01E08.2160p.XviD-AFG [IPT]",
+            "btih": "1fee9c14a0f56b7483e6ab711f327749659a7618",
+            "resolution": "2160",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 323,
+            "seed": 216
+        },
+        {
+            "id": 149,
+            "name": "Maniac.2018.S01E06.2160p.XviD-AFG [IPT]",
+            "btih": "36e163420b385bad3d7d74c33898cea70b4b2726",
+            "resolution": "2160",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 321,
+            "seed": 225
+        },
+        {
+            "id": 161,
+            "name": "Maniac.2018.S01E06.PROPER.XviD-AFG [IPT]",
+            "btih": "5a200df3e3377e95b4553bb9521e4ce7f7c2cbb6",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 318,
+            "seed": 195
+        },
+        {
+            "id": 206,
+            "name": "Maniac.2018.S01E09.1080p.WEB.x264-STRiFE [IPT]",
+            "btih": "db51c526484fc81dd5f00160b922bd67a621320f",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 315,
+            "seed": 224
+        },
+        {
+            "id": 226,
+            "name": "Maniac.2018.S01E10.1080p.WEB.x264-STRiFE [IPT]",
+            "btih": "65ee6bd2bc9e75c061b14dc8ea503b6618050758",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 312,
+            "seed": 224
+        },
+        {
+            "id": 63,
+            "name": "Maniac.2018.S01E02.PROPER.480p.x264-mSD [IPT]",
+            "btih": "f6287d6246bacb6eb2d6c7ceded0c1f6ea7f7986",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 303,
+            "seed": 194
+        },
+        {
+            "id": 23,
+            "name": "Maniac.2018.S01E01.1080p.WEB.x264-STRiFE [IPT]",
+            "btih": "21601b391b4dd34eb1990857698c668b841dda7d",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 302,
+            "seed": 174
+        },
+        {
+            "id": 71,
+            "name": "Maniac.2018.S01E02.XviD-AFG [IPT]",
+            "btih": "286c5143a27a2453b175970b5297d034b5e3e938",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 302,
+            "seed": 215
+        },
+        {
+            "id": 153,
+            "name": "Maniac.2018.S01E06.PROPER.1080p.HEVC.x265-MeGusta [IPT]",
+            "btih": "4946c41e5a164f62ccb963b0f025d7e8f8bdb0cd",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": true,
+            "peer": 300,
+            "seed": 175
+        },
+        {
+            "id": 197,
+            "name": "Maniac.2018.S01E08.PROPER.480p.x264-mSD [IPT]",
+            "btih": "3692d9decd2d2cec1d6474ad6eda371af9f04ae1",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 298,
+            "seed": 170
+        },
+        {
+            "id": 110,
+            "name": "Maniac.2018.S01E04.PROPER.1080p.HEVC.x265-MeGusta [IPT]",
+            "btih": "1b4f7e56d01ee05a8c32e7cf337c6e08c277b8fd",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": true,
+            "peer": 292,
+            "seed": 187
+        },
+        {
+            "id": 255,
+            "name": "Maniac.S01E01.Episode.1.NF.WEB-DL.DDP2.0.x264-NTG [IPT]",
+            "btih": "74945bd5eb256b0a8986c1e4549ae97a902b58e2",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 269,
+            "seed": 226
+        },
+        {
+            "id": 77,
+            "name": "Maniac.2018.S01E03.2160p.WEBRip.X264-DEFLATE [IPT]",
+            "btih": "9734d5a6121213ea9dd6dbbacd640af6f6778e07",
+            "resolution": "2160",
+            "encoding": "264",
+            "private": true,
+            "peer": 262,
+            "seed": 133
+        },
+        {
+            "id": 105,
+            "name": "Maniac.2018.S01E04.2160p.WEBRip.X264-DEFLATE [IPT]",
+            "btih": "4041e49aa779f41c53d6f34d6a7b1be18745b8ac",
+            "resolution": "2160",
+            "encoding": "264",
+            "private": true,
+            "peer": 261,
+            "seed": 132
+        },
+        {
+            "id": 156,
+            "name": "Maniac.2018.S01E06.PROPER.480p.x264-mSD [IPT]",
+            "btih": "0fa82794b143cff26ceb6202fa30cc3314294c49",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 261,
+            "seed": 167
+        },
+        {
+            "id": 98,
+            "name": "Maniac.2018.S01E03.XviD-AFG [IPT]",
+            "btih": "dee91234e6facd48a4649708062dc469e7ebebb8",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 256,
+            "seed": 178
+        },
+        {
+            "id": 121,
+            "name": "Maniac.2018.S01E04.XviD-AFG [IPT]",
+            "btih": "d08a1d76b71df33788a74577ab27752016624a35",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 254,
+            "seed": 173
+        },
+        {
+            "id": 164,
+            "name": "Maniac.2018.S01E06.iNTERNAL.MULTi.1080p.WEB.x264-CARAPiLS [IPT]",
+            "btih": "7eb3e43b5db296f846254a45dc52df52bd894b78",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 253,
+            "seed": 161
+        },
+        {
+            "id": 26,
+            "name": "Maniac.2018.S01E01.2160p.480p.x264-mSD [IPT]",
+            "btih": "da6438c39f9bdd3ba535e2c5d77c5724cfb19bec",
+            "resolution": "2160",
+            "encoding": "264",
+            "private": true,
+            "peer": 251,
+            "seed": 182
+        },
+        {
+            "id": 181,
+            "name": "Maniac.2018.S01E07.XviD-AFG [IPT]",
+            "btih": "3660740d57923083a0adc809cf40ef203432f4ec",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 242,
+            "seed": 174
+        },
+        {
+            "id": 163,
+            "name": "Maniac.2018.S01E06.XviD-AFG [IPT]",
+            "btih": "47f79491a943983525f1e86e59ab6e8c55285489",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 235,
+            "seed": 158
+        },
+        {
+            "id": 94,
+            "name": "Maniac.2018.S01E03.REAL.PROPER.1080p.WEBRip.X264-DEFLATE [IPT]",
+            "btih": "de80803afbbe95fc6d8010e82422cb76378095f0",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 230,
+            "seed": 179
+        },
+        {
+            "id": 45,
+            "name": "Maniac.2018.S01E01.WEB.x264-STRiFE [IPT]",
+            "btih": "fdcfad3ce30ad04ac4c8034b1375048c92de43d0",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 227,
+            "seed": 170
+        },
+        {
+            "id": 142,
+            "name": "Maniac.2018.S01E05.XviD-AFG [IPT]",
+            "btih": "b2d43b3bc58697f2708a373ff0f8c97f4c02b76b",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 220,
+            "seed": 158
+        },
+        {
+            "id": 221,
+            "name": "Maniac.2018.S01E09.REPACK.PROPER.1080p.WEBRip.X264-DEFLATE [IPT]",
+            "btih": "f9072aaeb56b168a1994c43101ae6fe0d5c222be",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 218,
+            "seed": 169
+        },
+        {
+            "id": 224,
+            "name": "Maniac.2018.S01E09.XviD-AFG [IPT]",
+            "btih": "a2be49d98fb9eb4628a30d97c2be6fb6e2b0faab",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 218,
+            "seed": 140
+        },
+        {
+            "id": 59,
+            "name": "Maniac.2018.S01E02.INTERNAL.1080p.WEBRip.X264-DEFLATE [IPT]",
+            "btih": "4d0e7cd78401d0283019d2b46e5b2f500a76db74",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 216,
+            "seed": 162
+        },
+        {
+            "id": 75,
+            "name": "Maniac.2018.S01E03.2160p.480p.x264-mSD [IPT]",
+            "btih": "e9a85d33ce216f9ef0b2a567ab7ce99ef061e166",
+            "resolution": "2160",
+            "encoding": "264",
+            "private": true,
+            "peer": 205,
+            "seed": 142
+        },
+        {
+            "id": 220,
+            "name": "Maniac.2018.S01E09.REPACK.PROPER.1080p.HEVC.x265-MeGusta [IPT]",
+            "btih": "790791c89cc18c5d1b70788db5765fc64565a6cd",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": true,
+            "peer": 203,
+            "seed": 150
+        },
+        {
+            "id": 182,
+            "name": "Maniac.2018.S01E07.iNTERNAL.MULTi.1080p.WEB.x264-CARAPiLS [IPT]",
+            "btih": "e0a95d88127abdd3f4df76b63a5a8cd2a2ed5c12",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 199,
+            "seed": 144
+        },
+        {
+            "id": 211,
+            "name": "Maniac.2018.S01E09.PROPER.1080p.HEVC.x265-MeGusta [IPT]",
+            "btih": "9de27e2c1023f10662586394a6ebcf815e67e1bd",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": true,
+            "peer": 199,
+            "seed": 150
+        },
+        {
+            "id": 126,
+            "name": "Maniac.2018.S01E05.2160p.WEBRip.X264-DEFLATE [IPT]",
+            "btih": "e4cd9b3403d7454e88ce2194a31eb345dac00b53",
+            "resolution": "2160",
+            "encoding": "264",
+            "private": true,
+            "peer": 193,
+            "seed": 69
+        },
+        {
+            "id": 93,
+            "name": "Maniac.2018.S01E03.REAL.PROPER.1080p.HEVC.x265-MeGusta [IPT]",
+            "btih": "fd5018256a62eec95d572236361e363b02eddb7d",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": true,
+            "peer": 187,
+            "seed": 80
+        },
+        {
+            "id": 188,
+            "name": "Maniac.2018.S01E08.2160p.WEBRip.X264-DEFLATE [IPT]",
+            "btih": "c49155ad996c12c2c655a97ffd4265175f8942da",
+            "resolution": "2160",
+            "encoding": "264",
+            "private": true,
+            "peer": 185,
+            "seed": 66
+        },
+        {
+            "id": 249,
+            "name": "Maniac.2018.S01E10.XviD-AFG [IPT]",
+            "btih": "60fce998bd68bcd902fb1051b8b90fa47b85c77e",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 183,
+            "seed": 128
+        },
+        {
+            "id": 231,
+            "name": "Maniac.2018.S01E10.2160p.WEBRip.X264-DEFLATE [IPT]",
+            "btih": "4226875167a3dd284ec533718741389e86f27020",
+            "resolution": "2160",
+            "encoding": "264",
+            "private": true,
+            "peer": 182,
+            "seed": 63
+        },
+        {
+            "id": 205,
+            "name": "Maniac.2018.S01E08.XviD-AFG [IPT]",
+            "btih": "2f3dc9990a1dde2d8c0cdf689d9f8179c6c127d4",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 175,
+            "seed": 113
+        },
+        {
+            "id": 203,
+            "name": "Maniac.2018.S01E08.WEB.x264-STRiFE [IPT]",
+            "btih": "69c15cc99800d34fd114a9153bb09b9d49b0178b",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 175,
+            "seed": 153
+        },
+        {
+            "id": 83,
+            "name": "Maniac.2018.S01E03.INTERNAL.1080p.WEBRip.X264-DEFLATE [IPT]",
+            "btih": "d261a911c7101ae0a815531ff55b60f4c22159c6",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 165,
+            "seed": 116
+        },
+        {
+            "id": 103,
+            "name": "Maniac.2018.S01E04.2160p.480p.x264-mSD [IPT]",
+            "btih": "5a339fc4f3b4fd47ee5e1fc7de1f3d00685ced8b",
+            "resolution": "2160",
+            "encoding": "264",
+            "private": true,
+            "peer": 156,
+            "seed": 127
+        },
+        {
+            "id": 140,
+            "name": "Maniac.2018.S01E05.WEB.x264-STRiFE [IPT]",
+            "btih": "08d107f5de46f04cd85b8ef0c4adc22d8b4059a5",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 153,
+            "seed": 130
+        },
+        {
+            "id": 28,
+            "name": "Maniac.2018.S01E01.2160p.WEBRip.X264-DEFLATE [IPT]",
+            "btih": "670ae15cde72fd520f4a75a7381a12d52093b150",
+            "resolution": "2160",
+            "encoding": "264",
+            "private": true,
+            "peer": 146,
+            "seed": 128
+        },
+        {
+            "id": 96,
+            "name": "Maniac.2018.S01E03.WEB.x264-STRiFE [IPT]",
+            "btih": "806cfb2b2f116a4c897d798e77979b6987ac5393",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 144,
+            "seed": 122
+        },
+        {
+            "id": 225,
+            "name": "Maniac.2018.S01E09.iNTERNAL.MULTi.1080p.WEB.x264-CARAPiLS [IPT]",
+            "btih": "adb6731bd2ecaa6c9dc439687f1e56990f876362",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 142,
+            "seed": 98
+        },
+        {
+            "id": 69,
+            "name": "Maniac.2018.S01E02.WEB.x264-STRiFE [IPT]",
+            "btih": "857c8e223daf4822a7019aa87d097dc07414ffd6",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 138,
+            "seed": 112
+        },
+        {
+            "id": 122,
+            "name": "Maniac.2018.S01E04.iNTERNAL.MULTi.1080p.WEB.x264-CARAPiLS [IPT]",
+            "btih": "cb58041f0f5e6cbd7845cc242230da4e722af5c9",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 118,
+            "seed": 77
+        },
+        {
+            "id": 124,
+            "name": "Maniac.2018.S01E05.2160p.480p.x264-mSD [IPT]",
+            "btih": "e35dfecc0ca192bdd124aeea4f93ee8d51f8da98",
+            "resolution": "2160",
+            "encoding": "264",
+            "private": true,
+            "peer": 118,
+            "seed": 96
+        },
+        {
+            "id": 146,
+            "name": "Maniac.2018.S01E06.2160p.480p.x264-mSD [IPT]",
+            "btih": "68d29753a312e094202360a5d27d8aa1da004cf2",
+            "resolution": "2160",
+            "encoding": "264",
+            "private": true,
+            "peer": 118,
+            "seed": 99
+        },
+        {
+            "id": 53,
+            "name": "Maniac.2018.S01E02.2160p.WEBRip.X264-DEFLATE [IPT]",
+            "btih": "97aa48cbb894d3812a70fa63d84cc845ab6a0a46",
+            "resolution": "2160",
+            "encoding": "264",
+            "private": true,
+            "peer": 115,
+            "seed": 100
+        },
+        {
+            "id": 99,
+            "name": "Maniac.2018.S01E03.iNTERNAL.MULTi.1080p.WEB.x264-CARAPiLS [IPT]",
+            "btih": "8d1fe638968df479a3c4b166fbab3e45b75d9353",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 114,
+            "seed": 86
+        },
+        {
+            "id": 232,
+            "name": "Maniac.2018.S01E10.2160p.XviD-AFG [IPT]",
+            "btih": "70e0b4b516c2cb303c86cd0475c76438fcb12304",
+            "resolution": "2160",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 113,
+            "seed": 64
+        },
+        {
+            "id": 179,
+            "name": "Maniac.2018.S01E07.WEB.x264-STRiFE [IPT]",
+            "btih": "5188ec74f16beb2b9c6f34b2bc9b92d85020c8b7",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 113,
+            "seed": 103
+        },
+        {
+            "id": 247,
+            "name": "Maniac.2018.S01E10.WEB.x264-STRiFE [IPT]",
+            "btih": "e5613f7372d21b9e9ac0d321e232ed5c4c981ac6",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 111,
+            "seed": 100
+        },
+        {
+            "id": 119,
+            "name": "Maniac.2018.S01E04.WEB.x264-STRiFE [IPT]",
+            "btih": "9728408a90bf1908a54c9d5a8be136c7db809ae3",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 110,
+            "seed": 98
+        },
+        {
+            "id": 82,
+            "name": "Maniac.2018.S01E03.INTERNAL.1080p.HEVC.x265-MeGusta [IPT]",
+            "btih": "d25aa97380ea36638a99dc9a4a15e39ca9fe9a5f",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": true,
+            "peer": 108,
+            "seed": 80
+        },
+        {
+            "id": 229,
+            "name": "Maniac.2018.S01E10.2160p.480p.x264-mSD [IPT]",
+            "btih": "933dcb0f644648389acdec04ba31c5eee84b34dd",
+            "resolution": "2160",
+            "encoding": "264",
+            "private": true,
+            "peer": 107,
+            "seed": 80
+        },
+        {
+            "id": 72,
+            "name": "Maniac.2018.S01E02.iNTERNAL.MULTi.1080p.WEB.x264-CARAPiLS [IPT]",
+            "btih": "32f4fe10130084385f20328ed2bb67309c374be8",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 105,
+            "seed": 77
+        },
+        {
+            "id": 27,
+            "name": "Maniac.2018.S01E01.2160p.AAC.MP4-Mobile [IPT]",
+            "btih": "2b2e5e2cd282e133d281cd58b074d5781c5c9b4b",
+            "resolution": "2160",
+            "encoding": "none",
+            "private": true,
+            "peer": 105,
+            "seed": 95
+        },
+        {
+            "id": 237,
+            "name": "Maniac.2018.S01E10.FiNAL.iNTERNAL.MULTi.1080p.WEB.x264-CARAPiLS [IPT]",
+            "btih": "d37b36b9126ca21e762d0754b2705201c4cbd5a4",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 103,
+            "seed": 75
+        },
+        {
+            "id": 160,
+            "name": "Maniac.2018.S01E06.PROPER.AAC.MP4-Mobile [IPT]",
+            "btih": "f7f324298326b7466fedc8a1febad70e89881c73",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 98,
+            "seed": 84
+        },
+        {
+            "id": 67,
+            "name": "Maniac.2018.S01E02.PROPER.AAC.MP4-Mobile [IPT]",
+            "btih": "2f34d55eaa97ac7e7b027c4990a7efd2e56b783c",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 87,
+            "seed": 51
+        },
+        {
+            "id": 228,
+            "name": "Maniac.2018.S01E10.2160p.1080p.HEVC.x265-MeGusta [IPT]",
+            "btih": "65cfc077aa642b973b3873a40f6206611f35ecb1",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": true,
+            "peer": 80,
+            "seed": 64
+        },
+        {
+            "id": 186,
+            "name": "Maniac.2018.S01E08.2160p.480p.x264-mSD [IPT]",
+            "btih": "69ae65b29584f1d38bbae36022a8f7cd47b11d5f",
+            "resolution": "2160",
+            "encoding": "264",
+            "private": true,
+            "peer": 78,
+            "seed": 57
+        },
+        {
+            "id": 25,
+            "name": "Maniac.2018.S01E01.2160p.1080p.HEVC.x265-MeGusta [IPT]",
+            "btih": "4a29477c77b830f42b486466228f589e6fe901f7",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": true,
+            "peer": 73,
+            "seed": 61
+        },
+        {
+            "id": 32,
+            "name": "Maniac.2018.S01E01.AAC.MP4-Mobile [IPT]",
+            "btih": "bd4495fbc2c18f7f99e3f606a229880cbff08d3a",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 73,
+            "seed": 61
+        },
+        {
+            "id": 44,
+            "name": "Maniac.2018.S01E01.The.Chosen.One.720p.NF.WEB-DL.DDP5.1.x264-NTG [IPT]",
+            "btih": "aa1c0b3916f9f6f01c0c87edf82af88089cfed64",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 72,
+            "seed": 40
+        },
+        {
+            "id": 148,
+            "name": "Maniac.2018.S01E06.2160p.WEBRip.X264-DEFLATE [IPT]",
+            "btih": "78d01385d99f03aa3ef63e88c078436d4a05ce0c",
+            "resolution": "2160",
+            "encoding": "264",
+            "private": true,
+            "peer": 64,
+            "seed": 41
+        },
+        {
+            "id": 185,
+            "name": "Maniac.2018.S01E08.2160p.1080p.HEVC.x265-MeGusta [IPT]",
+            "btih": "d2ca79d042183948fce02d7e03052f6a7bc8aea0",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": true,
+            "peer": 60,
+            "seed": 52
+        },
+        {
+            "id": 169,
+            "name": "Maniac.2018.S01E07.AAC.MP4-Mobile [IPT]",
+            "btih": "bf5d0423be769e1a279e31922de5226c5f941913",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 57,
+            "seed": 45
+        },
+        {
+            "id": 109,
+            "name": "Maniac.2018.S01E04.AAC.MP4-Mobile [IPT]",
+            "btih": "2cd80200d5b37070eac9d1fbcd8d612d1b41c48a",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 50,
+            "seed": 40
+        },
+        {
+            "id": 233,
+            "name": "Maniac.2018.S01E10.480p.x264-mSD [IPT]",
+            "btih": "aa24496591364eba38a30d6ca49be49219abe455",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 49,
+            "seed": 40
+        },
+        {
+            "id": 201,
+            "name": "Maniac.2018.S01E08.PROPER.AAC.MP4-Mobile [IPT]",
+            "btih": "c9bac96ad7198435b9ad18679943cd1993067b3e",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 49,
+            "seed": 45
+        },
+        {
+            "id": 218,
+            "name": "Maniac.2018.S01E09.PROPER.AAC.MP4-Mobile [IPT]",
+            "btih": "29a0ba738cf95598cc0f7b6a0246010bb56ff8ca",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 47,
+            "seed": 43
+        },
+        {
+            "id": 177,
+            "name": "Maniac.2018.S01E07.PROPER.AAC.MP4-Mobile [IPT]",
+            "btih": "78cd6acbbf288bd690e553eb4e192e3283895baf",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 46,
+            "seed": 41
+        },
+        {
+            "id": 210,
+            "name": "Maniac.2018.S01E09.AAC.MP4-Mobile [IPT]",
+            "btih": "cb5f62b7b65f0b85bfba5e26be4a279c6147e5cd",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 45,
+            "seed": 36
+        },
+        {
+            "id": 102,
+            "name": "Maniac.2018.S01E04.2160p.1080p.HEVC.x265-MeGusta [IPT]",
+            "btih": "c09fa071bb52a8a3b428a35b72a76c6ddb04d4ed",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": true,
+            "peer": 44,
+            "seed": 30
+        },
+        {
+            "id": 57,
+            "name": "Maniac.2018.S01E02.AAC.MP4-Mobile [IPT]",
+            "btih": "b93e94ff20eb84a4d0d6c11f318828dce41078e7",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 40,
+            "seed": 33
+        },
+        {
+            "id": 39,
+            "name": "Maniac.2018.S01E01.PROPER.AAC.MP4-Mobile [IPT]",
+            "btih": "93812aa0c893017a7d61185dc86611e55b062f13",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 39,
+            "seed": 32
+        },
+        {
+            "id": 245,
+            "name": "Maniac.2018.S01E10.PROPER.AAC.MP4-Mobile [IPT]",
+            "btih": "0ea3ee9650efafb6b0255d8b95222f008947620a",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 39,
+            "seed": 36
+        },
+        {
+            "id": 104,
+            "name": "Maniac.2018.S01E04.2160p.AAC.MP4-Mobile [IPT]",
+            "btih": "3eb53e5f75bc8d0a601d052af851efbcc09d6358",
+            "resolution": "2160",
+            "encoding": "none",
+            "private": true,
+            "peer": 38,
+            "seed": 29
+        },
+        {
+            "id": 91,
+            "name": "Maniac.2018.S01E03.PROPER.AAC.MP4-Mobile [IPT]",
+            "btih": "dccd289dc261069e6c10d9354cba93a9c18effce",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 36,
+            "seed": 30
+        },
+        {
+            "id": 81,
+            "name": "Maniac.2018.S01E03.AAC.MP4-Mobile [IPT]",
+            "btih": "8e7f2ca8424e90eb13ce0d9a81ccb05deb9b6648",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 33,
+            "seed": 26
+        },
+        {
+            "id": 138,
+            "name": "Maniac.2018.S01E05.PROPER.AAC.MP4-Mobile [IPT]",
+            "btih": "f3f4cf22e286bbacd797d834e33da56afcfaeb28",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 33,
+            "seed": 29
+        },
+        {
+            "id": 117,
+            "name": "Maniac.2018.S01E04.PROPER.AAC.MP4-Mobile [IPT]",
+            "btih": "5a44d5c09128e047aa099ba8d2e4e92b7635b5be",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 32,
+            "seed": 26
+        },
+        {
+            "id": 130,
+            "name": "Maniac.2018.S01E05.AAC.MP4-Mobile [IPT]",
+            "btih": "759a68c9169975e8073d000915f612ce65458b89",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 28,
+            "seed": 25
+        },
+        {
+            "id": 52,
+            "name": "Maniac.2018.S01E02.2160p.AAC.MP4-Mobile [IPT]",
+            "btih": "ec59b11f63046d77285b35680c7939c941d345f9",
+            "resolution": "2160",
+            "encoding": "none",
+            "private": true,
+            "peer": 23,
+            "seed": 18
+        },
+        {
+            "id": 193,
+            "name": "Maniac.2018.S01E08.AAC.MP4-Mobile [IPT]",
+            "btih": "9e846689bcb562032ec98db1db71ac44b254d31f",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 17,
+            "seed": 13
+        },
+        {
+            "id": 236,
+            "name": "Maniac.2018.S01E10.AAC.MP4-Mobile [IPT]",
+            "btih": "5c88db9a759524e926ea467ec38543ebca7dc17e",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 16,
+            "seed": 12
+        },
+        {
+            "id": 190,
+            "name": "Maniac.2018.S01E08.480p.x264-mSD [IPT]",
+            "btih": "7675e7e8011fe09579f17fda85a90630cfd0aac8",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 15,
+            "seed": 11
+        },
+        {
+            "id": 125,
+            "name": "Maniac.2018.S01E05.2160p.AAC.MP4-Mobile [IPT]",
+            "btih": "8e8f5f644881c054d1875771e2b28fcd2ccb05dc",
+            "resolution": "2160",
+            "encoding": "none",
+            "private": true,
+            "peer": 15,
+            "seed": 12
+        },
+        {
+            "id": 76,
+            "name": "Maniac.2018.S01E03.2160p.AAC.MP4-Mobile [IPT]",
+            "btih": "b9dd908fa8d5b4b945f3847fde7b0ee43c163b02",
+            "resolution": "2160",
+            "encoding": "none",
+            "private": true,
+            "peer": 15,
+            "seed": 12
+        },
+        {
+            "id": 152,
+            "name": "Maniac.2018.S01E06.AAC.MP4-Mobile [IPT]",
+            "btih": "6304c08c5350c72a4ee24552e262cc1625fe02e5",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 15,
+            "seed": 12
+        },
+        {
+            "id": 147,
+            "name": "Maniac.2018.S01E06.2160p.AAC.MP4-Mobile [IPT]",
+            "btih": "b3db174dc900e9d1e0b2bec1063c3cde5bfbdbf5",
+            "resolution": "2160",
+            "encoding": "none",
+            "private": true,
+            "peer": 14,
+            "seed": 11
+        },
+        {
+            "id": 187,
+            "name": "Maniac.2018.S01E08.2160p.AAC.MP4-Mobile [IPT]",
+            "btih": "9d4fca765d2d9bfdfd48f85012a0030723345529",
+            "resolution": "2160",
+            "encoding": "none",
+            "private": true,
+            "peer": 14,
+            "seed": 11
+        },
+        {
+            "id": 230,
+            "name": "Maniac.2018.S01E10.2160p.AAC.MP4-Mobile [IPT]",
+            "btih": "a8d68d6dff09d8cab8887897f8542cde849f01a5",
+            "resolution": "2160",
+            "encoding": "none",
+            "private": true,
+            "peer": 12,
+            "seed": 9
         }
     ]
 }

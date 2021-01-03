@@ -1,39 +1,127 @@
 {
-    "data-version": "20191004",
-    "duration": "2019-04-24-to-2019-07-16",
+    "data-version": "20201228",
     "collection-name": "Cobra Kai",
     "collection-id": "2",
-    "collection-tag-genre": "",
-    "collection-tag-production": "",
-    "collection-tag-distribution": "",
-    "collection-all-btiha": {
+    "sample-duration": "2019-04-24-to-2019-07-16",
+    "sample-days": 84,
+    "sample-year-start": 2019,
+    "sample-year-end": 2019,
+    "sample-day-year-start": 114,
+    "sample-day-year-end": 197,
+    "collection-all-btiha-total": {
         "btiha-size": 152,
         "upeers-total": 7252183,
         "useeds-total": 937225,
         "anomaly-total": 837283,
         "anomaly-percentage": "11.55"
     },
-    "collection-unique-btiha": {
+    "collection-unique-btiha-total": {
         "btiha-size": 138,
         "upeers-total": 6075360,
         "useeds-total": 856893,
         "anomaly-total": 502624,
         "anomaly-percentage": "8.27"
     },
+    "collection-unique-btiha-week-0001": {
+        "btiha-size": 133,
+        "upeers-total": 1773492,
+        "useeds-total": 237397,
+        "anomaly-total": 128193,
+        "anomaly-percentage": "7.23"
+    },
+    "collection-unique-btiha-week-0002": {
+        "btiha-size": 138,
+        "upeers-total": 3267242,
+        "useeds-total": 394203,
+        "anomaly-total": 268684,
+        "anomaly-percentage": "8.22"
+    },
+    "collection-unique-btiha-week-0003": {
+        "btiha-size": 138,
+        "upeers-total": 4085036,
+        "useeds-total": 487818,
+        "anomaly-total": 345798,
+        "anomaly-percentage": "8.46"
+    },
+    "collection-unique-btiha-week-0004": {
+        "btiha-size": 138,
+        "upeers-total": 4574798,
+        "useeds-total": 555925,
+        "anomaly-total": 389938,
+        "anomaly-percentage": "8.52"
+    },
+    "collection-unique-btiha-week-0005": {
+        "btiha-size": 138,
+        "upeers-total": 4964016,
+        "useeds-total": 608430,
+        "anomaly-total": 427686,
+        "anomaly-percentage": "8.62"
+    },
+    "collection-unique-btiha-week-0006": {
+        "btiha-size": 138,
+        "upeers-total": 5179662,
+        "useeds-total": 653134,
+        "anomaly-total": 444526,
+        "anomaly-percentage": "8.58"
+    },
+    "collection-unique-btiha-week-0007": {
+        "btiha-size": 138,
+        "upeers-total": 5275178,
+        "useeds-total": 690881,
+        "anomaly-total": 445498,
+        "anomaly-percentage": "8.45"
+    },
+    "collection-unique-btiha-week-0008": {
+        "btiha-size": 138,
+        "upeers-total": 5374369,
+        "useeds-total": 722645,
+        "anomaly-total": 446364,
+        "anomaly-percentage": "8.31"
+    },
+    "collection-unique-btiha-week-0009": {
+        "btiha-size": 138,
+        "upeers-total": 5462388,
+        "useeds-total": 753787,
+        "anomaly-total": 447117,
+        "anomaly-percentage": "8.19"
+    },
+    "collection-unique-btiha-week-0010": {
+        "btiha-size": 138,
+        "upeers-total": 5665021,
+        "useeds-total": 786793,
+        "anomaly-total": 463783,
+        "anomaly-percentage": "8.19"
+    },
+    "collection-unique-btiha-week-0011": {
+        "btiha-size": 138,
+        "upeers-total": 5896783,
+        "useeds-total": 823346,
+        "anomaly-total": 486590,
+        "anomaly-percentage": "8.25"
+    },
+    "collection-unique-btiha-week-0012": {
+        "btiha-size": 138,
+        "upeers-total": 6073742,
+        "useeds-total": 856834,
+        "anomaly-total": 502624,
+        "anomaly-percentage": "8.28"
+    },
     "transfer-units": "terabyte",
     "transfer-size": 20097.824768759678,
-    "transfer-cost": "",
+    "transfer-price-1-name": "CloudFront-1-year",
+    "transfer-price-1-per-gigabyte-cost": 0.005,
+    "transfer-price-1-USD": 268489.1238437984,
     "resolution-partitions": [
         {
             "number": 1,
-            "name": "720",
+            "name": "720-all",
             "total-percentage-upeers": "36.93",
             "total-percentage-bytes": "25.15",
             "upeers-total": 2243711
         },
         {
             "number": 2,
-            "name": "1080",
+            "name": "1080-all",
             "total-percentage-upeers": "29.94",
             "total-percentage-bytes": "40.37",
             "upeers-total": 1819212
@@ -47,14 +135,14 @@
         },
         {
             "number": 4,
-            "name": "sd-other",
+            "name": "sd-none",
             "total-percentage-upeers": "7.83",
             "total-percentage-bytes": "5.91",
             "upeers-total": 475799
         },
         {
             "number": 5,
-            "name": "2160",
+            "name": "2160-all",
             "total-percentage-upeers": "3.29",
             "total-percentage-bytes": "22.84",
             "upeers-total": 199936
@@ -65,23 +153,6 @@
             "total-percentage-upeers": "0.34",
             "total-percentage-bytes": "0.03",
             "upeers-total": 20380
-        }
-    ],
-    "geo-slices-3-longitude-regions": [
-        {
-            "number": 1,
-            "name": "Americas",
-            "total-percentage-upeers": "41.55"
-        },
-        {
-            "number": 2,
-            "name": "AfroEurAsia",
-            "total-percentage-upeers": "36.53"
-        },
-        {
-            "number": 3,
-            "name": "AsiaPacifica",
-            "total-percentage-upeers": "21.91"
         }
     ],
     "geo-country-top-10": [
@@ -123,7 +194,7 @@
         {
             "number": 6,
             "country-code": "KOR",
-            "country-name": "Korea (Republic of)",
+            "country-name": "Korea, Republic of",
             "total-percentage-upeers": "2.39",
             "upeers-total": 145047
         },
@@ -181,7 +252,7 @@
         {
             "number": 4,
             "country-code": "KOR",
-            "country-name": "Korea (Republic of)",
+            "country-name": "Korea, Republic of",
             "total-percentage-upeers": "1.16",
             "upeers-total": 70243
         },
@@ -251,7 +322,7 @@
         {
             "number": 14,
             "country-code": "KOR",
-            "country-name": "Korea (Republic of), Seoul, 11",
+            "country-name": "Korea, Republic of, Seoul, 11",
             "total-percentage-upeers": "0.59",
             "upeers-total": 35743
         },
@@ -342,7 +413,7 @@
         {
             "number": 27,
             "country-code": "AUS",
-            "country-name": "Australia, 05",
+            "country-name": "Australia",
             "total-percentage-upeers": "0.37",
             "upeers-total": 22322
         },
@@ -366,6 +437,1388 @@
             "country-name": "United States of America, Raleigh, NC",
             "total-percentage-upeers": "0.34",
             "upeers-total": 20551
+        }
+    ],
+    "collection-unique-btiha-detail": [
+        {
+            "id": 7,
+            "name": "Cobra-Kai-S02-COMPLETE-720p-RED-WEBRip-x264-GalaxyTV[TGx]",
+            "btih": "e3e1aaa6716eacb7aa1cf7fe9e95f84955b24604",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 359756,
+            "seed": 171606
+        },
+        {
+            "id": 325,
+            "name": "multi-btih-4-2x-Cobra-Kai-S02-WEBRip-x264-ION10",
+            "btih": "273fba367d2b0c1207a97c08e04204e19a15ff86",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 222955,
+            "seed": 101509
+        },
+        {
+            "id": 322,
+            "name": "multi-btih-1-2x-Cobra-Kai-S02-720p-RED-WEBRip-AAC5-1-VP9-AJP69[rartv]",
+            "btih": "d98d5318b84ad10953a9cbfe0baa789cc7c4c458",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 195076,
+            "seed": 76709
+        },
+        {
+            "id": 20,
+            "name": "Cobra.Kai.S02.1080p.RED.WEBRip.AAC5.1.VP9-AJP69[rartv]-[rarbg.to]",
+            "btih": "988712236822b3b536addc238530920b97fd9994",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 190936,
+            "seed": 75693
+        },
+        {
+            "id": 5,
+            "name": "Cobra-Kai-S02-720p-WEBRip-x264-PBS[ettv]",
+            "btih": "ddde03651779bea527693a7e149d415e4a6c6121",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 175416,
+            "seed": 73042
+        },
+        {
+            "id": 6,
+            "name": "Cobra-Kai-S02-COMPLETE-1080p-RED-WEBRip-AAC5-1-VP9-AJP69[TGx]",
+            "btih": "2ebfbb3ef568c08bce83cb5496f79c8112ac0512",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 175219,
+            "seed": 81536
+        },
+        {
+            "id": 327,
+            "name": "multi-btih-6-2x-Cobra-Kai-S02E03-720p-WEBRip-x264-iNSPiRiT[rarbg]",
+            "btih": "9fa37e448c1b7c1feab6761b53b746fc782dc0b6",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 109829,
+            "seed": 3032
+        },
+        {
+            "id": 332,
+            "name": "multi-btih-11-2x-Cobra-Kai-S02E10-WEBRip-x264-iNSPiRiT[rarbg]",
+            "btih": "c36b9c4018c3b946d5db70fea314fc8923c0743a",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 109784,
+            "seed": 4062
+        },
+        {
+            "id": 321,
+            "name": "multi-btih-0-2x-Cobra-Kai-S02-1080p-WEBRip-x264-iNSPiRiT[rartv]",
+            "btih": "368fda27cbf8f3b8858a7528e53d226f00eccf52",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 107830,
+            "seed": 6557
+        },
+        {
+            "id": 328,
+            "name": "multi-btih-7-2x-Cobra-Kai-S02E04-WEBRip-x264-iNSPiRiT[rarbg]",
+            "btih": "c03acaf52b97af0f6727b32e7bf7de0641ec0f6f",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 105511,
+            "seed": 4108
+        },
+        {
+            "id": 329,
+            "name": "multi-btih-8-2x-Cobra-Kai-S02E08-720p-WEBRip-x264-iNSPiRiT[rarbg]",
+            "btih": "1e949cc435d1adefd147acc7c3f21686eea23897",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 105422,
+            "seed": 2781
+        },
+        {
+            "id": 8,
+            "name": "Cobra-Kai-S02-COMPLETE-WEB-x264-PHOENiX[TGx]",
+            "btih": "84e6cfe38a24f10b2c679136e606e9d9a8ec696e",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 103957,
+            "seed": 9085
+        },
+        {
+            "id": 331,
+            "name": "multi-btih-10-2x-Cobra-Kai-S02E09-WEBRip-x264-iNSPiRiT[rarbg]",
+            "btih": "b5c6f83a5773562ae897fed7ae98134fbc290b3b",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 102965,
+            "seed": 3461
+        },
+        {
+            "id": 334,
+            "name": "multi-btih-13-2x-Кобра Кай Cobra Kai Сезон 2 Серии 1 из 10 (Джон Харвитц, Хейден Шлоссберг, Дженнифер Челотта) [2019, США, Боевик, драма, к [rutracker-572397",
+            "btih": "cb2d9e45b097c82f5ed0e69f1405aa85d2fd9dab",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 102295,
+            "seed": 799
+        },
+        {
+            "id": 323,
+            "name": "multi-btih-2-2x-Cobra-Kai-S02-WEBRip",
+            "btih": "e5b27cae04d3da0932b83f1d4ba60ab63ac8a49a",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 100980,
+            "seed": 8108
+        },
+        {
+            "id": 324,
+            "name": "multi-btih-3-2x-Cobra-Kai-S02-WEBRip-1080p",
+            "btih": "8ec96d0062090233cc9b47764fb3737a93378609",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 100498,
+            "seed": 5867
+        },
+        {
+            "id": 326,
+            "name": "multi-btih-5-2x-Cobra-Kai-S02E01-WEBRip-x264-iNSPiRiT[rarbg]",
+            "btih": "b9f442f6a7b6688f22d09ef1dfad50d8495c74dc",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 99144,
+            "seed": 3505
+        },
+        {
+            "id": 330,
+            "name": "multi-btih-9-2x-Cobra-Kai-S02E08-WEBRip-x264-iNSPiRiT[rarbg]",
+            "btih": "5d46ab3c317796be9a531821f51e62b73cd20aac",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 98396,
+            "seed": 3750
+        },
+        {
+            "id": 25,
+            "name": "Cobra.Kai.S02.720p.RED.WEBRip.AAC5.1.x264-iNSPiRiT[rartv]-[rarbg.to]",
+            "btih": "1269248f084a52948b834884e0d9e467ad709eeb",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 98221,
+            "seed": 9457
+        },
+        {
+            "id": 333,
+            "name": "multi-btih-12-2x-[rutor.is]Cobra_Kai",
+            "btih": "45c8beb5e3230d6e99981e60ac7ff67ae9987f6b",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 98183,
+            "seed": 1632
+        },
+        {
+            "id": 79,
+            "name": "Cobra.Kai.S02E05.720p.WEBRip.x264-iNSPiRiT[rartv]-[rarbg.to]",
+            "btih": "1d97ddf49fb305ef577b7ad36b8b89e742c0d6b5",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 97716,
+            "seed": 2878
+        },
+        {
+            "id": 22,
+            "name": "Cobra.Kai.S02.2160p.RED.WEBRip.AAC5.1.VP9-AJP69[rartv]-[rarbg.to]",
+            "btih": "642ee1094c4e07a320e817dabe4bca602ab71b27",
+            "resolution": "2160",
+            "encoding": "none",
+            "private": false,
+            "peer": 96174,
+            "seed": 6698
+        },
+        {
+            "id": 34,
+            "name": "Cobra.Kai.S02E01.720p.WEBRip.x264-iNSPiRiT[rartv]-[rarbg.to]",
+            "btih": "8981565c28a2a7f0cf9e3ea11d550d88723f6192",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 93075,
+            "seed": 4356
+        },
+        {
+            "id": 51,
+            "name": "Cobra.Kai.S02E03.1080p.WEBRip.x264-iNSPiRiT[rartv]-[rarbg.to]",
+            "btih": "560ca57ccdcfaa6b4210e5eb95be3a050be9f301",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 91785,
+            "seed": 2747
+        },
+        {
+            "id": 40,
+            "name": "Cobra.Kai.S02E02.1080p.WEBRip.x264-iNSPiRiT[rartv]-[rarbg.to]",
+            "btih": "c24a643f7b71a23a5bc8b977c47639ff20b2ff45",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 91394,
+            "seed": 4202
+        },
+        {
+            "id": 104,
+            "name": "Cobra.Kai.S02E07.WEBRip.x264-iNSPiRiT[rartv]-[rarbg.to]",
+            "btih": "96a3baa7441b00f2a771d382ddc48e75be6cf54a",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 91321,
+            "seed": 4105
+        },
+        {
+            "id": 74,
+            "name": "Cobra.Kai.S02E05.1080p.WEBRip.x264-iNSPiRiT[rartv]-[rarbg.to]",
+            "btih": "459e4c73842395f90d751666e3d92b12a06bb228",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 91207,
+            "seed": 3967
+        },
+        {
+            "id": 148,
+            "name": "Кобра Кай Cobra Kai Сезон 2 Серии 1-2 из 10 (Джон Харвитц) [2019, США, боевик, драма, комедия, WEB-DL 1080p] MVO (AlexFilm) [rutracker-5723953]",
+            "btih": "0d1b59aec32882580c5a2ad64d6dde9ad8fe26dd",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 91161,
+            "seed": 1141
+        },
+        {
+            "id": 59,
+            "name": "Cobra.Kai.S02E03.WEBRip.x264-iNSPiRiT[rartv]-[rarbg.to]",
+            "btih": "eb316b29b2fde84f8b877e1f009c6fc9a48cc14a",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 90908,
+            "seed": 4332
+        },
+        {
+            "id": 82,
+            "name": "Cobra.Kai.S02E05.WEBRip.x264-iNSPiRiT[rartv]-[rarbg.to]",
+            "btih": "f4caf125ed0c2bc61695dfa13044a2b937b7906b",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 90210,
+            "seed": 5186
+        },
+        {
+            "id": 2,
+            "name": "Cobra-Kai-S02-(2018)-1080p-RED-Webrip-x265-AAC-5-1--Goki-[SEV]",
+            "btih": "f50e4b1439e538545d77609a8bfe4b897e94864e",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 89327,
+            "seed": 4526
+        },
+        {
+            "id": 12,
+            "name": "Cobra-Kai-S02E01-Mercy-Part-II”-720p",
+            "btih": "2ad028449139eb04b40c2779447b2aab0a75988b",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 89018,
+            "seed": 7969
+        },
+        {
+            "id": 150,
+            "name": "Кобра Кай Cobra Kai Сезон 2 Серии 1-4 из 10 (Джон Харвитц) [2019, США, боевик, драма, комедия, WEB-DL 1080p] MVO (AlexFilm) [rutracker-5723953]",
+            "btih": "760aed8975010ce5138da0dc283e4ba5317533fb",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 88782,
+            "seed": 752
+        },
+        {
+            "id": 118,
+            "name": "Cobra.Kai.S02E09.1080p.WEBRip.x264-iNSPiRiT[rartv]-[rarbg.to]",
+            "btih": "3f155d7c0d90de70686bb9585bd3d214828a3774",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 88481,
+            "seed": 3295
+        },
+        {
+            "id": 90,
+            "name": "Cobra.Kai.S02E06.720p.WEBRip.x264-iNSPiRiT[rartv]-[rarbg.to]",
+            "btih": "9c500ffbce3efec904506a9bd48f551186325cff",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 88344,
+            "seed": 3785
+        },
+        {
+            "id": 45,
+            "name": "Cobra.Kai.S02E02.720p.WEBRip.x264-iNSPiRiT[rartv]-[rarbg.to]",
+            "btih": "9199b1af3094d366ba17f34874aacb212d81c374",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 87283,
+            "seed": 3562
+        },
+        {
+            "id": 96,
+            "name": "Cobra.Kai.S02E07.1080p.WEBRip.x264-iNSPiRiT[rartv]-[rarbg.to]",
+            "btih": "77b5d973bc5b62b1eb46013ff1cc06d177d763cb",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 87061,
+            "seed": 4178
+        },
+        {
+            "id": 107,
+            "name": "Cobra.Kai.S02E08.1080p.WEBRip.x264-iNSPiRiT[rartv]-[rarbg.to]",
+            "btih": "1a0f632983f42f97c7e1ae2781915ba9a1c39485",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 86742,
+            "seed": 2683
+        },
+        {
+            "id": 134,
+            "name": "Cobra.Kai.S02E10.720p.WEBRip.x264-iNSPiRiT[rartv]-[rarbg.to]",
+            "btih": "04a3c71ed178e6758e3c0a387f8f58ee90e181c1",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 86478,
+            "seed": 2146
+        },
+        {
+            "id": 29,
+            "name": "Cobra.Kai.S02E01.1080p.WEBRip.x264-iNSPiRiT[rartv]-[rarbg.to]",
+            "btih": "04a142cd75bd8cfe46fe05520d6a5322ac6550e4",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 86449,
+            "seed": 3626
+        },
+        {
+            "id": 67,
+            "name": "Cobra.Kai.S02E04.720p.WEBRip.x264-iNSPiRiT[rartv]-[rarbg.to]",
+            "btih": "27ca257e83f037ff04e20532352253d2d8406b20",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 86167,
+            "seed": 2899
+        },
+        {
+            "id": 101,
+            "name": "Cobra.Kai.S02E07.720p.WEBRip.x264-iNSPiRiT[rartv]-[rarbg.to]",
+            "btih": "42202c52344963a0b44768b5239bc547b5307974",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 86116,
+            "seed": 4133
+        },
+        {
+            "id": 93,
+            "name": "Cobra.Kai.S02E06.WEBRip.x264-iNSPiRiT[rartv]-[rarbg.to]",
+            "btih": "26c2dee0e8eedc095c0e85207a034456b26d3da9",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 86024,
+            "seed": 4318
+        },
+        {
+            "id": 145,
+            "name": "Кобра Кай Cobra Kai Сезон 2 Серии 1-1 (10) (Джон Харвитц) [2019, США, боевик, драма, комедия, семейный, WEB-DL 720p] MVO (Al [rutracker-5723786]",
+            "btih": "e1065f0374e2b0cadb3a274ed147aeac58a5f65e",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 85846,
+            "seed": 656
+        },
+        {
+            "id": 48,
+            "name": "Cobra.Kai.S02E02.WEBRip.x264-iNSPiRiT[rartv]-[rarbg.to]",
+            "btih": "644a7c7b8c95e435ae8f0b9cb965e8bef391fe43",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 85717,
+            "seed": 4524
+        },
+        {
+            "id": 23,
+            "name": "Cobra.Kai.S02.2160p.RED.WEBRip.AAC5.1.x264-iNSPiRiT[rartv]-[rarbg.to]",
+            "btih": "e3c89bb896eb74277db585b6f03f18cd3dca1cf5",
+            "resolution": "2160",
+            "encoding": "264",
+            "private": false,
+            "peer": 85702,
+            "seed": 3827
+        },
+        {
+            "id": 129,
+            "name": "Cobra.Kai.S02E10.1080p.WEBRip.x264-iNSPiRiT[rartv]-[rarbg.to]",
+            "btih": "e26648ecfe51960e7cdc04fecf5b567d24a6ee47",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 85504,
+            "seed": 2921
+        },
+        {
+            "id": 149,
+            "name": "Кобра Кай Cobra Kai Сезон 2 Серии 1-4 (10) (Джон Харвитц) [2019, США, боевик, драма, комедия, семейный, WEB-DL 720p] MVO (Al [rutracker-5723786]",
+            "btih": "ec0e8564b7e2b4cbc546dcacf106756f28d41acf",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 85001,
+            "seed": 776
+        },
+        {
+            "id": 1,
+            "name": "(Score) Кобра Кай Сезон 1,2 Cobra Kai Season 1,2 (by Zach Robinson, Leo Birenberg) - 2018,2019, MP3 (tracks), 320 kbps [rutracker-5724017]",
+            "btih": "7bcfcc55a14f9f5657e0cea4c61ed40bcbe46af0",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 84975,
+            "seed": 909
+        },
+        {
+            "id": 140,
+            "name": "[rutor.is]Cobra.Kai.S02.WEBRip.720p",
+            "btih": "5b1f3b364b07b77be3448201b8f61ee0d5d20b7d",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 83198,
+            "seed": 4837
+        },
+        {
+            "id": 85,
+            "name": "Cobra.Kai.S02E06.1080p.WEBRip.x264-iNSPiRiT[rartv]-[rarbg.to]",
+            "btih": "b3e57059cd6cd1469edb9fb0fb9161c15e23d4c3",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 83027,
+            "seed": 2274
+        },
+        {
+            "id": 151,
+            "name": "Кобра Кай Cobra Kai Сезон 2 Серии 1-4 из 10 (Джон Харвитц, Хейден Шлоссберг, Дженнифер Челотта) [2019, США, Боевик, драма, [rutracker-5723970]",
+            "btih": "a457afbc9f432c35112691e436445de1a07229b4",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 82932,
+            "seed": 629
+        },
+        {
+            "id": 62,
+            "name": "Cobra.Kai.S02E04.1080p.WEBRip.x264-iNSPiRiT[rartv]-[rarbg.to]",
+            "btih": "63b05394855b440b99fc6cff5f3b97cdcde8d9c6",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 81818,
+            "seed": 2697
+        },
+        {
+            "id": 123,
+            "name": "Cobra.Kai.S02E09.720p.WEBRip.x264-iNSPiRiT[rartv]-[rarbg.to]",
+            "btih": "56153676848a35ee4069ddcd5ad6f3795a7ca638",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 80270,
+            "seed": 2133
+        },
+        {
+            "id": 147,
+            "name": "Кобра Кай Cobra Kai Сезон 2 Серии 1-2 (10) (Джон Харвитц) [2019, США, боевик, драма, комедия, семейный, WEB-DL 720p] MVO (Al [rutracker-5723786]",
+            "btih": "c8e5522704252b9cb7daecd274ff8d70073b4838",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 79872,
+            "seed": 596
+        },
+        {
+            "id": 146,
+            "name": "Кобра Кай Cobra Kai Сезон 2 Серии 1-1 из 10 (Джон Харвитц) [2019, США, боевик, драма, комедия, WEB-DL 1080p] MVO (AlexFilm) [rutracker-5723953]",
+            "btih": "107ddb93eddca306bd30aac9af8b291853b08a10",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 78109,
+            "seed": 423
+        },
+        {
+            "id": 65,
+            "name": "Cobra.Kai.S02E04.720p.HEVC.x265-MeGusta [IPT]",
+            "btih": "2f2e72be6fb638654eb8147d6a941d6fb725de0d",
+            "resolution": "720",
+            "encoding": "265",
+            "private": true,
+            "peer": 5197,
+            "seed": 2621
+        },
+        {
+            "id": 54,
+            "name": "Cobra.Kai.S02E03.720p.HEVC.x265-MeGusta [IPT]",
+            "btih": "8047c21e51fa36080fc8eccd67e028cbcf0976d9",
+            "resolution": "720",
+            "encoding": "265",
+            "private": true,
+            "peer": 5193,
+            "seed": 2665
+        },
+        {
+            "id": 43,
+            "name": "Cobra.Kai.S02E02.720p.HEVC.x265-MeGusta [IPT]",
+            "btih": "520a9ba67239a161f773c8d935f04936a2273733",
+            "resolution": "720",
+            "encoding": "265",
+            "private": true,
+            "peer": 5164,
+            "seed": 2651
+        },
+        {
+            "id": 110,
+            "name": "Cobra.Kai.S02E08.720p.HEVC.x265-MeGusta [IPT]",
+            "btih": "5ea5a7b311c62094250fd5ba37d54981ca4d9ea8",
+            "resolution": "720",
+            "encoding": "265",
+            "private": true,
+            "peer": 5106,
+            "seed": 2549
+        },
+        {
+            "id": 88,
+            "name": "Cobra.Kai.S02E06.720p.HEVC.x265-MeGusta [IPT]",
+            "btih": "514922b7af2398be18cd487442f6c6ddb6379c89",
+            "resolution": "720",
+            "encoding": "265",
+            "private": true,
+            "peer": 5071,
+            "seed": 2565
+        },
+        {
+            "id": 99,
+            "name": "Cobra.Kai.S02E07.720p.HEVC.x265-MeGusta [IPT]",
+            "btih": "8c6a337ce2801f7717aa3c8ed4d0b052b40ac1d7",
+            "resolution": "720",
+            "encoding": "265",
+            "private": true,
+            "peer": 5057,
+            "seed": 2577
+        },
+        {
+            "id": 121,
+            "name": "Cobra.Kai.S02E09.720p.HEVC.x265-MeGusta [IPT]",
+            "btih": "8b25bb3634a7ebe21253971ee7af1dd221be22d2",
+            "resolution": "720",
+            "encoding": "265",
+            "private": true,
+            "peer": 4977,
+            "seed": 2508
+        },
+        {
+            "id": 132,
+            "name": "Cobra.Kai.S02E10.720p.HEVC.x265-MeGusta [IPT]",
+            "btih": "bb0bc7d9cd2c2be7dd8bb5f19d2d69b9b1c526bb",
+            "resolution": "720",
+            "encoding": "265",
+            "private": true,
+            "peer": 4973,
+            "seed": 2553
+        },
+        {
+            "id": 77,
+            "name": "Cobra.Kai.S02E05.720p.HEVC.x265-MeGusta [IPT]",
+            "btih": "e22f759465c77e93d6657431ced923d1fcc23bd8",
+            "resolution": "720",
+            "encoding": "265",
+            "private": true,
+            "peer": 4757,
+            "seed": 2347
+        },
+        {
+            "id": 32,
+            "name": "Cobra.Kai.S02E01.720p.HEVC.x265-MeGusta [IPT]",
+            "btih": "e64d08380042a3ec20d156766e5f48347de17db4",
+            "resolution": "720",
+            "encoding": "265",
+            "private": true,
+            "peer": 3623,
+            "seed": 1848
+        },
+        {
+            "id": 44,
+            "name": "Cobra.Kai.S02E02.720p.WEBRip.x264-iNSPiRiT [IPT]",
+            "btih": "0295c352a9c0700b8f68ae53fe9651f1e9529b69",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 2332,
+            "seed": 1221
+        },
+        {
+            "id": 39,
+            "name": "Cobra.Kai.S02E02.1080p.WEBRip.x264-iNSPiRiT [IPT]",
+            "btih": "ec5a5fc64a8c102bf71a15b9d0c1da95d7040a77",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 2328,
+            "seed": 1365
+        },
+        {
+            "id": 89,
+            "name": "Cobra.Kai.S02E06.720p.WEBRip.x264-iNSPiRiT [IPT]",
+            "btih": "5a17d794a2d7c51a46ae00ef18a53cf65c1d4205",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 2290,
+            "seed": 1297
+        },
+        {
+            "id": 111,
+            "name": "Cobra.Kai.S02E08.720p.WEBRip.x264-iNSPiRiT [IPT]",
+            "btih": "55f3fe09b8cf6af016ee4c51d70e258d662df4f9",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 2282,
+            "seed": 1283
+        },
+        {
+            "id": 33,
+            "name": "Cobra.Kai.S02E01.720p.WEBRip.x264-iNSPiRiT [IPT]",
+            "btih": "6baba97268eb6b6760a2c7ff0ae86f9aceff7a29",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 2280,
+            "seed": 1233
+        },
+        {
+            "id": 78,
+            "name": "Cobra.Kai.S02E05.720p.WEBRip.x264-iNSPiRiT [IPT]",
+            "btih": "98536b9a9747d98dbfd59381c11877db96c61a12",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 2268,
+            "seed": 1298
+        },
+        {
+            "id": 66,
+            "name": "Cobra.Kai.S02E04.720p.WEBRip.x264-iNSPiRiT [IPT]",
+            "btih": "21194686b1110bb200bb7ad3557c5a9b53d9371b",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 2253,
+            "seed": 1192
+        },
+        {
+            "id": 100,
+            "name": "Cobra.Kai.S02E07.720p.WEBRip.x264-iNSPiRiT [IPT]",
+            "btih": "22a68f9cd9ee8173b4372bba05b7b9d8474ce9d4",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 2232,
+            "seed": 1278
+        },
+        {
+            "id": 122,
+            "name": "Cobra.Kai.S02E09.720p.WEBRip.x264-iNSPiRiT [IPT]",
+            "btih": "947e03b757a6468d7fb849e269ef6da20a0078a1",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 2210,
+            "seed": 1273
+        },
+        {
+            "id": 49,
+            "name": "Cobra.Kai.S02E02.XviD-AFG [IPT]",
+            "btih": "cb39e903c6524baca317bbdfc4de186f972a865b",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 2197,
+            "seed": 1380
+        },
+        {
+            "id": 55,
+            "name": "Cobra.Kai.S02E03.720p.WEBRip.x264-iNSPiRiT [IPT]",
+            "btih": "6ec7b85174c83330044188dccc3f699e95f4e65a",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 2190,
+            "seed": 1213
+        },
+        {
+            "id": 117,
+            "name": "Cobra.Kai.S02E09.1080p.WEBRip.x264-iNSPiRiT [IPT]",
+            "btih": "d17e9d5391e87ab4bc12710f946e1c6a29456939",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 2183,
+            "seed": 1175
+        },
+        {
+            "id": 128,
+            "name": "Cobra.Kai.S02E10.1080p.WEBRip.x264-iNSPiRiT [IPT]",
+            "btih": "d3c7084ac30f0f0e189ba424b985576f82c01741",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 2175,
+            "seed": 1131
+        },
+        {
+            "id": 50,
+            "name": "Cobra.Kai.S02E03.1080p.WEBRip.x264-iNSPiRiT [IPT]",
+            "btih": "53932e6a1cf6a80f7627b8d9a9810603746b17d1",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 2171,
+            "seed": 1234
+        },
+        {
+            "id": 61,
+            "name": "Cobra.Kai.S02E04.1080p.WEBRip.x264-iNSPiRiT [IPT]",
+            "btih": "ef7be5ab9a7459f52baaf9b96745e33f691dd430",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 2161,
+            "seed": 1243
+        },
+        {
+            "id": 133,
+            "name": "Cobra.Kai.S02E10.720p.WEBRip.x264-iNSPiRiT [IPT]",
+            "btih": "6449d74437a50c5a58df74ab207b3fd32d3c75f8",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 2152,
+            "seed": 1255
+        },
+        {
+            "id": 95,
+            "name": "Cobra.Kai.S02E07.1080p.WEBRip.x264-iNSPiRiT [IPT]",
+            "btih": "bb6149cde477607e96ef9dea266d96d893aa5b8a",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 2149,
+            "seed": 1144
+        },
+        {
+            "id": 28,
+            "name": "Cobra.Kai.S02E01.1080p.WEBRip.x264-iNSPiRiT [IPT]",
+            "btih": "7f2fcf24f70a54d59395a2b1be40554454a2358d",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 2100,
+            "seed": 1244
+        },
+        {
+            "id": 84,
+            "name": "Cobra.Kai.S02E06.1080p.WEBRip.x264-iNSPiRiT [IPT]",
+            "btih": "375aeb1ab5692b4e555e94fc9019dbc2ea02a10d",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 2091,
+            "seed": 1145
+        },
+        {
+            "id": 138,
+            "name": "Cobra.Kai.S02E10.XviD-AFG [IPT]",
+            "btih": "779352820f3841682e724761f4fe06e66f41fa56",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 2079,
+            "seed": 1283
+        },
+        {
+            "id": 106,
+            "name": "Cobra.Kai.S02E08.1080p.WEBRip.x264-iNSPiRiT [IPT]",
+            "btih": "dcb7ef220ba77fa1e8d4beaae8ba1c23ee79ffbc",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 2070,
+            "seed": 1147
+        },
+        {
+            "id": 71,
+            "name": "Cobra.Kai.S02E04.XviD-AFG [IPT]",
+            "btih": "ef4497750adb5ad767118f6460e2c2058d7d04ab",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 2067,
+            "seed": 1324
+        },
+        {
+            "id": 60,
+            "name": "Cobra.Kai.S02E03.XviD-AFG [IPT]",
+            "btih": "5f8415a08d30adbcb7ca09367aa4c050a26e2d71",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 2061,
+            "seed": 1297
+        },
+        {
+            "id": 73,
+            "name": "Cobra.Kai.S02E05.1080p.WEBRip.x264-iNSPiRiT [IPT]",
+            "btih": "b2ca9cef887b311dd97f411d3aee513e92857e74",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 2050,
+            "seed": 1117
+        },
+        {
+            "id": 105,
+            "name": "Cobra.Kai.S02E07.XviD-AFG [IPT]",
+            "btih": "2f8202f2a5d2b0ee52272a8cc65df30b1b08969f",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 2025,
+            "seed": 1276
+        },
+        {
+            "id": 116,
+            "name": "Cobra.Kai.S02E08.XviD-AFG [IPT]",
+            "btih": "182516d1f8bbd0c2d0596180b02c7e4008aeccd5",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 2023,
+            "seed": 1278
+        },
+        {
+            "id": 94,
+            "name": "Cobra.Kai.S02E06.XviD-AFG [IPT]",
+            "btih": "fd398d8d769d0a070c7d7b8ce723d358d5a18ee6",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 2013,
+            "seed": 1285
+        },
+        {
+            "id": 83,
+            "name": "Cobra.Kai.S02E05.XviD-AFG [IPT]",
+            "btih": "e4cac194529abdc379cf97a167bf6e58ee5ae528",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 2007,
+            "seed": 1296
+        },
+        {
+            "id": 127,
+            "name": "Cobra.Kai.S02E09.XviD-AFG [IPT]",
+            "btih": "7da8520eef6cda95fdad7cdc75354bbbda9008a1",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 1996,
+            "seed": 1267
+        },
+        {
+            "id": 41,
+            "name": "Cobra.Kai.S02E02.2160p.WEBRip.x264-iNSPiRiT [IPT]",
+            "btih": "7ada5bc61502e70e616f472024f2d86a8e58bf8a",
+            "resolution": "2160",
+            "encoding": "264",
+            "private": true,
+            "peer": 1921,
+            "seed": 1155
+        },
+        {
+            "id": 42,
+            "name": "Cobra.Kai.S02E02.480p.x264-mSD [IPT]",
+            "btih": "90fc7653c02aac9261b8279e23ff9e84fac1f408",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 1916,
+            "seed": 1401
+        },
+        {
+            "id": 38,
+            "name": "Cobra.Kai.S02E01.XviD-AFG [IPT]",
+            "btih": "715645c795947a037702f0eb94a49ea8c17ddf91",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 1912,
+            "seed": 1162
+        },
+        {
+            "id": 52,
+            "name": "Cobra.Kai.S02E03.2160p.WEBRip.x264-iNSPiRiT [IPT]",
+            "btih": "2816dffee6e4e8243e35726a8934bfb0a6205d5b",
+            "resolution": "2160",
+            "encoding": "264",
+            "private": true,
+            "peer": 1881,
+            "seed": 1128
+        },
+        {
+            "id": 63,
+            "name": "Cobra.Kai.S02E04.2160p.WEBRip.x264-iNSPiRiT [IPT]",
+            "btih": "fd963457c683ca2d84b29154c12415c6acbd8eff",
+            "resolution": "2160",
+            "encoding": "264",
+            "private": true,
+            "peer": 1837,
+            "seed": 1098
+        },
+        {
+            "id": 108,
+            "name": "Cobra.Kai.S02E08.2160p.WEBRip.x264-iNSPiRiT [IPT]",
+            "btih": "9edaee8e1854b7aeb076112a2d9244ba0602dedd",
+            "resolution": "2160",
+            "encoding": "264",
+            "private": true,
+            "peer": 1836,
+            "seed": 1057
+        },
+        {
+            "id": 97,
+            "name": "Cobra.Kai.S02E07.2160p.WEBRip.x264-iNSPiRiT [IPT]",
+            "btih": "e5d49342fdb166a7f023bffb0f5ee85ea061c1e6",
+            "resolution": "2160",
+            "encoding": "264",
+            "private": true,
+            "peer": 1808,
+            "seed": 1080
+        },
+        {
+            "id": 119,
+            "name": "Cobra.Kai.S02E09.2160p.WEBRip.x264-iNSPiRiT [IPT]",
+            "btih": "b2eb92878fb8a5281c09848210db47fcfced7937",
+            "resolution": "2160",
+            "encoding": "264",
+            "private": true,
+            "peer": 1801,
+            "seed": 1039
+        },
+        {
+            "id": 53,
+            "name": "Cobra.Kai.S02E03.480p.x264-mSD [IPT]",
+            "btih": "d96ed8bf609ceacc50dc7bca94e69c7ffb34f2c7",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 1798,
+            "seed": 1273
+        },
+        {
+            "id": 75,
+            "name": "Cobra.Kai.S02E05.2160p.WEBRip.x264-iNSPiRiT [IPT]",
+            "btih": "098ec9e97ef50a1a6643e63078de77792bd30b88",
+            "resolution": "2160",
+            "encoding": "264",
+            "private": true,
+            "peer": 1787,
+            "seed": 1081
+        },
+        {
+            "id": 64,
+            "name": "Cobra.Kai.S02E04.480p.x264-mSD [IPT]",
+            "btih": "6627682b9af759edc4bb8219eb8692b5aa5d85fe",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 1772,
+            "seed": 1278
+        },
+        {
+            "id": 86,
+            "name": "Cobra.Kai.S02E06.2160p.WEBRip.x264-iNSPiRiT [IPT]",
+            "btih": "889e612f953141c175c795f4d69502c35e4e0df5",
+            "resolution": "2160",
+            "encoding": "264",
+            "private": true,
+            "peer": 1770,
+            "seed": 1071
+        },
+        {
+            "id": 130,
+            "name": "Cobra.Kai.S02E10.2160p.WEBRip.x264-iNSPiRiT [IPT]",
+            "btih": "5a3814be5567f2820faeeb632331a7393d73750f",
+            "resolution": "2160",
+            "encoding": "264",
+            "private": true,
+            "peer": 1763,
+            "seed": 1036
+        },
+        {
+            "id": 76,
+            "name": "Cobra.Kai.S02E05.480p.x264-mSD [IPT]",
+            "btih": "bce70e974910e9b36841d69a1b9d4d6a995c93e3",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 1730,
+            "seed": 1234
+        },
+        {
+            "id": 98,
+            "name": "Cobra.Kai.S02E07.480p.x264-mSD [IPT]",
+            "btih": "e9530f9d7ec8e0686c87c253ea273d733ecd1662",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 1727,
+            "seed": 1215
+        },
+        {
+            "id": 31,
+            "name": "Cobra.Kai.S02E01.480p.x264-mSD [IPT]",
+            "btih": "78bc6c740faebaa24ae0f1539a056fb5a827dc38",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 1695,
+            "seed": 1277
+        },
+        {
+            "id": 120,
+            "name": "Cobra.Kai.S02E09.480p.x264-mSD [IPT]",
+            "btih": "f2559e0799a87e70da87d8bfd09b744f76d5d696",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 1689,
+            "seed": 1188
+        },
+        {
+            "id": 87,
+            "name": "Cobra.Kai.S02E06.480p.x264-mSD [IPT]",
+            "btih": "2333e9b1b68d24784c7b792496655cd421995c38",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 1675,
+            "seed": 1176
+        },
+        {
+            "id": 30,
+            "name": "Cobra.Kai.S02E01.2160p.WEBRip.x264-iNSPiRiT [IPT]",
+            "btih": "a5f2a47b307ebea060fc9f5d925cdd567ab808c3",
+            "resolution": "2160",
+            "encoding": "264",
+            "private": true,
+            "peer": 1656,
+            "seed": 981
+        },
+        {
+            "id": 131,
+            "name": "Cobra.Kai.S02E10.480p.x264-mSD [IPT]",
+            "btih": "2c08be2b4000e77acbaa10e2a8d3d0f80f1c2825",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 1648,
+            "seed": 1225
+        },
+        {
+            "id": 109,
+            "name": "Cobra.Kai.S02E08.480p.x264-mSD [IPT]",
+            "btih": "761818f89e515d4ca0d5ba36568a0643fb07c0a4",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 1581,
+            "seed": 1178
+        },
+        {
+            "id": 27,
+            "name": "Cobra.Kai.S02E01.1080p.HEVC.x265-MeGusta [IPT]",
+            "btih": "62138e0acb3d300f43f5123d673c8e70e497b5a9",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": true,
+            "peer": 1480,
+            "seed": 850
+        },
+        {
+            "id": 69,
+            "name": "Cobra.Kai.S02E04.WEBRip.x264-iNSPiRiT [IPT]",
+            "btih": "ff1ec2eb57360f0156e46b0ef58fe67ee8e98e18",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 1302,
+            "seed": 670
+        },
+        {
+            "id": 58,
+            "name": "Cobra.Kai.S02E03.WEBRip.x264-iNSPiRiT [IPT]",
+            "btih": "b58dadae1ec35aa92e181789101fce67fed2b5d7",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 1290,
+            "seed": 691
+        },
+        {
+            "id": 136,
+            "name": "Cobra.Kai.S02E10.WEBRip.x264-iNSPiRiT [IPT]",
+            "btih": "5c60878051c3bf9491ad9326e85deb4da0464491",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 1258,
+            "seed": 732
+        },
+        {
+            "id": 92,
+            "name": "Cobra.Kai.S02E06.WEBRip.x264-iNSPiRiT [IPT]",
+            "btih": "c9c3298602592249fd7ad70c852b782f73d8bde9",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 1249,
+            "seed": 714
+        },
+        {
+            "id": 47,
+            "name": "Cobra.Kai.S02E02.WEBRip.x264-iNSPiRiT [IPT]",
+            "btih": "67ea9a96ed0aa20aa2b95ebc845e504317e07921",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 1245,
+            "seed": 659
+        },
+        {
+            "id": 125,
+            "name": "Cobra.Kai.S02E09.WEBRip.x264-iNSPiRiT [IPT]",
+            "btih": "b5521b338dd3c18be04bd208b2754e5f8cef6c2d",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 1245,
+            "seed": 715
+        },
+        {
+            "id": 114,
+            "name": "Cobra.Kai.S02E08.WEBRip.x264-iNSPiRiT [IPT]",
+            "btih": "4f1b0eaed6311b4e48b4bf0d5cc7b7b23d2e4b2c",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 1234,
+            "seed": 706
+        },
+        {
+            "id": 81,
+            "name": "Cobra.Kai.S02E05.WEBRip.x264-iNSPiRiT [IPT]",
+            "btih": "4319a75b654481702a503d62f66fe5a1d15ac396",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 1190,
+            "seed": 671
+        },
+        {
+            "id": 103,
+            "name": "Cobra.Kai.S02E07.WEBRip.x264-iNSPiRiT [IPT]",
+            "btih": "217e338df0cc91530066d05a9793b22351b979c3",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 1179,
+            "seed": 658
+        },
+        {
+            "id": 36,
+            "name": "Cobra.Kai.S02E01.WEBRip.x264-iNSPiRiT [IPT]",
+            "btih": "ac676d3a3329fd44480115a9e71483ab716c656c",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 1007,
+            "seed": 598
+        },
+        {
+            "id": 72,
+            "name": "Cobra.Kai.S02E05.1080p.HEVC.x265-MeGusta [IPT]",
+            "btih": "d8ff83bd96daf026ffe9895f409fea0bfb8e27fa",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": true,
+            "peer": 924,
+            "seed": 603
+        },
+        {
+            "id": 35,
+            "name": "Cobra.Kai.S02E01.AAC.MP4-Mobile [IPT]",
+            "btih": "dce111247ae53bc77d7ebfa2c692c06db8ab6cd1",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 733,
+            "seed": 274
+        },
+        {
+            "id": 46,
+            "name": "Cobra.Kai.S02E02.AAC.MP4-Mobile [IPT]",
+            "btih": "cbc72e1c04303e4c696ee19de856d8e63d9ebb05",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 695,
+            "seed": 244
+        },
+        {
+            "id": 57,
+            "name": "Cobra.Kai.S02E03.AAC.MP4-Mobile [IPT]",
+            "btih": "fe9e8f4529a9e8bf5dfd805cb2382046d2cfbbc1",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 669,
+            "seed": 238
+        },
+        {
+            "id": 135,
+            "name": "Cobra.Kai.S02E10.AAC.MP4-Mobile [IPT]",
+            "btih": "80b8db37793a414c234cbdd0a58531ca0cdc9794",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 649,
+            "seed": 214
+        },
+        {
+            "id": 68,
+            "name": "Cobra.Kai.S02E04.AAC.MP4-Mobile [IPT]",
+            "btih": "5116ead8070a80de2246d8f8f9a3fd6830add721",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 633,
+            "seed": 231
+        },
+        {
+            "id": 80,
+            "name": "Cobra.Kai.S02E05.AAC.MP4-Mobile [IPT]",
+            "btih": "f1f768d768a214d1845ecba63a782e43ff1124bb",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 620,
+            "seed": 207
+        },
+        {
+            "id": 124,
+            "name": "Cobra.Kai.S02E09.AAC.MP4-Mobile [IPT]",
+            "btih": "d6a24454634576feeb4be5e32beef4bf5e9decaa",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 614,
+            "seed": 212
+        },
+        {
+            "id": 113,
+            "name": "Cobra.Kai.S02E08.AAC.MP4-Mobile [IPT]",
+            "btih": "31201c0f68ae2cd11fbd578af3add3f6d925d929",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 612,
+            "seed": 218
+        },
+        {
+            "id": 91,
+            "name": "Cobra.Kai.S02E06.AAC.MP4-Mobile [IPT]",
+            "btih": "ef126421adfcc2922e7c9d880ae9c1afa083a7a2",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 605,
+            "seed": 201
+        },
+        {
+            "id": 102,
+            "name": "Cobra.Kai.S02E07.AAC.MP4-Mobile [IPT]",
+            "btih": "50730e512df6e7cef426e9ee601ee06c98cfbeb0",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 604,
+            "seed": 211
         }
     ]
 }

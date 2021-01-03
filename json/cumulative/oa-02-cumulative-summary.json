@@ -1,19 +1,84 @@
 {
-    "data-version": "20191009",
-    "duration": "2019-03-22-to-2019-05-19",
+    "data-version": "20201228",
     "collection-name": "The OA",
     "collection-id": "2",
-    "collection-tag-genre": "",
-    "collection-tag-production": "",
-    "collection-tag-distribution": "",
-    "collection-all-btiha": {
+    "sample-duration": "2019-03-22-to-2019-05-19",
+    "sample-days": 59,
+    "sample-year-start": 2019,
+    "sample-year-end": 2019,
+    "sample-day-year-start": 81,
+    "sample-day-year-end": 139,
+    "collection-all-btiha-total": {
         "btiha-size": 277,
         "upeers-total": 9967701,
         "useeds-total": 783839,
         "anomaly-total": 1218037,
         "anomaly-percentage": "12.22"
     },
-    "collection-unique-btiha": {
+    "collection-unique-btiha-total": {
+        "btiha-size": 226,
+        "upeers-total": 8205521,
+        "useeds-total": 604591,
+        "anomaly-total": 565664,
+        "anomaly-percentage": "6.89"
+    },
+    "collection-unique-btiha-week-0001": {
+        "btiha-size": 211,
+        "upeers-total": 1393410,
+        "useeds-total": 186831,
+        "anomaly-total": 68029,
+        "anomaly-percentage": "4.88"
+    },
+    "collection-unique-btiha-week-0002": {
+        "btiha-size": 218,
+        "upeers-total": 2778456,
+        "useeds-total": 274526,
+        "anomaly-total": 166453,
+        "anomaly-percentage": "5.99"
+    },
+    "collection-unique-btiha-week-0003": {
+        "btiha-size": 220,
+        "upeers-total": 4039547,
+        "useeds-total": 341856,
+        "anomaly-total": 255089,
+        "anomaly-percentage": "6.31"
+    },
+    "collection-unique-btiha-week-0004": {
+        "btiha-size": 226,
+        "upeers-total": 5085268,
+        "useeds-total": 402407,
+        "anomaly-total": 336406,
+        "anomaly-percentage": "6.62"
+    },
+    "collection-unique-btiha-week-0005": {
+        "btiha-size": 226,
+        "upeers-total": 5942400,
+        "useeds-total": 457145,
+        "anomaly-total": 396771,
+        "anomaly-percentage": "6.68"
+    },
+    "collection-unique-btiha-week-0006": {
+        "btiha-size": 226,
+        "upeers-total": 6663523,
+        "useeds-total": 503382,
+        "anomaly-total": 452690,
+        "anomaly-percentage": "6.79"
+    },
+    "collection-unique-btiha-week-0007": {
+        "btiha-size": 226,
+        "upeers-total": 7383337,
+        "useeds-total": 547108,
+        "anomaly-total": 505395,
+        "anomaly-percentage": "6.85"
+    },
+    "collection-unique-btiha-week-0008": {
+        "btiha-size": 226,
+        "upeers-total": 7972818,
+        "useeds-total": 587550,
+        "anomaly-total": 548352,
+        "anomaly-percentage": "6.88"
+    },
+    "collection-unique-btiha-week-0009": {
         "btiha-size": 226,
         "upeers-total": 8205521,
         "useeds-total": 604591,
@@ -28,14 +93,14 @@
     "resolution-partitions": [
         {
             "number": 1,
-            "name": "720",
+            "name": "720-all",
             "total-percentage-upeers": "44.83",
             "total-percentage-bytes": "30.86",
             "upeers-total": 3678897
         },
         {
             "number": 2,
-            "name": "1080",
+            "name": "1080-all",
             "total-percentage-upeers": "31.62",
             "total-percentage-bytes": "36.38",
             "upeers-total": 2594618
@@ -49,7 +114,7 @@
         },
         {
             "number": 4,
-            "name": "sd-other",
+            "name": "sd-none",
             "total-percentage-upeers": "6.56",
             "total-percentage-bytes": "7.45",
             "upeers-total": 538098
@@ -63,27 +128,10 @@
         },
         {
             "number": 6,
-            "name": "2160",
+            "name": "2160-all",
             "total-percentage-upeers": "0.96",
             "total-percentage-bytes": "20.24",
             "upeers-total": 79108
-        }
-    ],
-    "geo-slices-3-longitude-regions": [
-        {
-            "number": 1,
-            "name": "Americas",
-            "total-percentage-upeers": "40.79"
-        },
-        {
-            "number": 2,
-            "name": "AfroEurAsia",
-            "total-percentage-upeers": "38.09"
-        },
-        {
-            "number": 3,
-            "name": "AsiaPacifica",
-            "total-percentage-upeers": "21.11"
         }
     ],
     "geo-country-top-10": [
@@ -125,7 +173,7 @@
         {
             "number": 6,
             "country-code": "KOR",
-            "country-name": "Korea (Republic of)",
+            "country-name": "Korea, Republic of",
             "total-percentage-upeers": "2.57",
             "upeers-total": 210566
         },
@@ -183,7 +231,7 @@
         {
             "number": 4,
             "country-code": "KOR",
-            "country-name": "Korea (Republic of)",
+            "country-name": "Korea, Republic of",
             "total-percentage-upeers": "1.32",
             "upeers-total": 107942
         },
@@ -274,7 +322,7 @@
         {
             "number": 17,
             "country-code": "KOR",
-            "country-name": "Korea (Republic of), Seoul, 11",
+            "country-name": "Korea, Republic of, Seoul, 11",
             "total-percentage-upeers": "0.59",
             "upeers-total": 48215
         },
@@ -368,6 +416,2268 @@
             "country-name": "China, Nanjing, 04",
             "total-percentage-upeers": "0.36",
             "upeers-total": 29395
+        }
+    ],
+    "collection-unique-btiha-detail": [
+        {
+            "id": 14,
+            "name": "The-OA-S02-COMPLETE-XviD-AFG[TGx]",
+            "btih": "8a1f27120e059f806eb94720a94ceaad86a94f39",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": false,
+            "peer": 115583,
+            "seed": 37390
+        },
+        {
+            "id": 748,
+            "name": "multi-btih-11-2x-The-OA-S02E02-PROPER-480p-x264-mSD[eztv]",
+            "btih": "77209d76c6048d9df3cbc74361ef88a084be5cb9",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 105225,
+            "seed": 8150
+        },
+        {
+            "id": 752,
+            "name": "multi-btih-15-2x-The-OA-S02E03-480p-x264-mSD",
+            "btih": "3d8bbd737f0244fd167d58565d5b6f94b0e08f79",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 97713,
+            "seed": 10995
+        },
+        {
+            "id": 783,
+            "name": "multi-btih-46-2x-the-oa-s02e06-720p-web-x264-strife[eztv]",
+            "btih": "77c2beaa79d9eeecd8407e2b6d780946bad83d52",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 94842,
+            "seed": 9524
+        },
+        {
+            "id": 92,
+            "name": "The.OA.S02.WEBRip.x264-ION10-[rarbg.to]",
+            "btih": "328b0db42a7b9a63c2fa6a7b8499af2a9855eca2",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 94783,
+            "seed": 13252
+        },
+        {
+            "id": 739,
+            "name": "multi-btih-2-2x-The-OA-S02-HDR-1080p-WEB-H265-AMRAP[rartv]",
+            "btih": "1d12521f8c3f68fc7ae8180bfee4fffcaea9fe82",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 93075,
+            "seed": 5657
+        },
+        {
+            "id": 769,
+            "name": "multi-btih-32-2x-The-OA-S02E07-720p-WEB-x264-STRiFE",
+            "btih": "3d2a3843bfd954a36c14f5874398e550cc0b3339",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 92452,
+            "seed": 11194
+        },
+        {
+            "id": 760,
+            "name": "multi-btih-23-2x-The-OA-S02E05-480p-x264-mSD",
+            "btih": "7c267c161e1e9f1e58a8bd0feaa9ef957146192d",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 92012,
+            "seed": 10181
+        },
+        {
+            "id": 766,
+            "name": "multi-btih-29-2x-The-OA-S02E06-480p-x264-mSD[eztv]",
+            "btih": "bd92b0ab101df8d7cb532904b3fac346db74dfbe",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 91791,
+            "seed": 10453
+        },
+        {
+            "id": 743,
+            "name": "multi-btih-6-2x-The-OA-S02E01-REPACK-480p-x264-mSD",
+            "btih": "5244cd39fe3c689bd0b6b535050a007be0e3bbd5",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 91182,
+            "seed": 9432
+        },
+        {
+            "id": 755,
+            "name": "multi-btih-18-2x-The-OA-S02E04-480p-x264-mSD[eztv]",
+            "btih": "ede86ae0af6739b9aefdada30498d1cad01f6418",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 90784,
+            "seed": 11226
+        },
+        {
+            "id": 741,
+            "name": "multi-btih-4-2x-The-OA-S02E01-720p-WEB-x264-STRiFE",
+            "btih": "14228ff65d2a18de3d425f78e0683bba3438a238",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 89479,
+            "seed": 14874
+        },
+        {
+            "id": 227,
+            "name": "[TorrentCouch-net]-The-OA-S02-COMPLETE-720p-WEBRip-x264-[4GB]-[MP4]-[Season-2]",
+            "btih": "a2f951010873360a4209bfb2636c9896254a2a6a",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 88441,
+            "seed": 6700
+        },
+        {
+            "id": 740,
+            "name": "multi-btih-3-2x-The-OA-S02E01-480p-x264-mSD[eztv]",
+            "btih": "c97e70c5a1e257f460f5f1027573cb1b1c1547d0",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 86142,
+            "seed": 7737
+        },
+        {
+            "id": 761,
+            "name": "multi-btih-24-2x-The-OA-S02E05-720p-WEBRip-X264-AMCON[eztv]",
+            "btih": "5635028e9bfc6e7d5f0704a8071f7e4948770887",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 83827,
+            "seed": 10117
+        },
+        {
+            "id": 762,
+            "name": "multi-btih-25-2x-The-OA-S02E05-720p-WEBRip-X264-AMCON[rarbg]",
+            "btih": "9d44113f238b3ad270b310a46ac574ec3c7b4fa1",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 83694,
+            "seed": 4210
+        },
+        {
+            "id": 784,
+            "name": "multi-btih-47-2x-先见之明-The-OA-Season-S02E01-720p-官方中字-mp4",
+            "btih": "4a38228d2c29504ac7eb55fd510cd9cb797d8ab9",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 83664,
+            "seed": 2768
+        },
+        {
+            "id": 103,
+            "name": "The.OA.S02E01.REPACK.720p.WEBRip.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "d6647917eb2dfc9bf67c9de9b25b0624e7b54bc7",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 83053,
+            "seed": 4028
+        },
+        {
+            "id": 767,
+            "name": "multi-btih-30-2x-The-OA-S02E06-iNTERNAL-HDR-1080p-WEB-H265-AMRAP[rarbg]",
+            "btih": "2b1f138f683f4b27c13705bac7ddb12c1f0d6b88",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 81285,
+            "seed": 1399
+        },
+        {
+            "id": 62,
+            "name": "The-OA-S02E05-iNTERNAL-1080p-WEB-x264-STRiFE[rarbg]",
+            "btih": "60f83e8fd37267768f573b8193b54e5e1d998eaa",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 81060,
+            "seed": 2525
+        },
+        {
+            "id": 782,
+            "name": "multi-btih-45-2x-the-oa-s02e04-720p-web-x264-strife[eztv]",
+            "btih": "2c6c59b3ba72f0f1ed516bbc4800c98b13c573f0",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 79415,
+            "seed": 9638
+        },
+        {
+            "id": 226,
+            "name": "[FileTracker-pl]The-OA-S02[wilu75]",
+            "btih": "5a0d23ee5067e14969a4b5899cdce35e3ace2647",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 79289,
+            "seed": 2237
+        },
+        {
+            "id": 18,
+            "name": "The-OA-S02-MULTI-2160p-HDR-NF-WEBRip-DDP-5-1-x265-GASMASK[rartv]",
+            "btih": "e5330a18fe6342b5a2c395d09624fe7cd6c8c240",
+            "resolution": "2160",
+            "encoding": "265",
+            "private": false,
+            "peer": 79108,
+            "seed": 3428
+        },
+        {
+            "id": 765,
+            "name": "multi-btih-28-2x-The-OA-S02E06-1080p-WEB-x264-STRiFE[rarbg]",
+            "btih": "a8f85eeb5ed531065d85d8411eeb774d290191f7",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 78762,
+            "seed": 3356
+        },
+        {
+            "id": 749,
+            "name": "multi-btih-12-2x-The-OA-S02E02-PROPER-720p-WEBRip-x264-STRiFE[rarbg]",
+            "btih": "b74091a3ed17baec1c8d37df56f7290b73cc4223",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 78649,
+            "seed": 4339
+        },
+        {
+            "id": 206,
+            "name": "The.OA.S02E07.iNTERNAL.1080p.WEB.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "3a2178e967b4c80f03bdc113f28ab98f22f1383a",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 78050,
+            "seed": 1983
+        },
+        {
+            "id": 776,
+            "name": "multi-btih-39-2x-The-OA-S02E08-720p-WEBRip-X264-AMCON[eztv]",
+            "btih": "111307e5e7ca1388940444349ec6a09a49db9b3d",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 76916,
+            "seed": 9257
+        },
+        {
+            "id": 275,
+            "name": "先见之明.The.OA.Season.S02E06.720p-官方中字.mp4.c3efb5878aa0a5dc",
+            "btih": "c3efb5878aa0a5dcce12e4307e0ce603d10804a2",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 75586,
+            "seed": 2015
+        },
+        {
+            "id": 753,
+            "name": "multi-btih-16-2x-The-OA-S02E03-720p-WEB-x264-STRiFE[rarbg]",
+            "btih": "ac3446c2912953303113bed9b24631377f8a4fff",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 74522,
+            "seed": 4777
+        },
+        {
+            "id": 774,
+            "name": "multi-btih-37-2x-The-OA-S02E07-iNTERNAL-HDR-1080p-WEB-H265-AMRAP[rarbg]",
+            "btih": "6673cead760411ca30c363e96d3175e3adec9ec9",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 74487,
+            "seed": 1396
+        },
+        {
+            "id": 256,
+            "name": "ОА The OA Сезон 2 Серии 1-8 из 8 (Зал Батманглидж) [2019, США, Драма, детектив, мистика, WEBRip] DVO (Gears Media) + Origi [rutracker-5710641]",
+            "btih": "02753bdb99b59cc28517875735aaae32f5785db8",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 74479,
+            "seed": 2921
+        },
+        {
+            "id": 759,
+            "name": "multi-btih-22-2x-The-OA-S02E04-iNTERNAL-HDR-1080p-WEB-H265-AMRAP[rarbg]",
+            "btih": "de0ab9a9ea27202c0624a8cc99c5b27ea1172321",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 74242,
+            "seed": 1396
+        },
+        {
+            "id": 779,
+            "name": "multi-btih-42-2x-The-OA-S02E08-iNTERNAL-1080p-WEB-x264-STRiFE[rarbg]",
+            "btih": "1e4d992c8f66e1710deea885f8cff7c08b484db6",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 74141,
+            "seed": 3544
+        },
+        {
+            "id": 756,
+            "name": "multi-btih-19-2x-The-OA-S02E04-720p-WEB-x264-STRiFE[rarbg]",
+            "btih": "bbcf0b9b88bd20f53cc27a42c9d24d49fbc41e7b",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 73872,
+            "seed": 3366
+        },
+        {
+            "id": 17,
+            "name": "The-OA-S02-ITA-ENG-1080p-WEBMux-DD5-1-x264-Morpheus",
+            "btih": "8c4a7f1e1feb47b52da9c60bac79483b7f5d3f74",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 73429,
+            "seed": 7452
+        },
+        {
+            "id": 780,
+            "name": "multi-btih-43-2x-The-OA-S02E08-iNTERNAL-HDR-1080p-WEB-H265-AMRAP[rarbg]",
+            "btih": "480ef9e26723478d4e4ba655088f656521dfbd9d",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 73423,
+            "seed": 1862
+        },
+        {
+            "id": 737,
+            "name": "multi-btih-0-2x-The-OA-S02-1080p-WEB-X264-AMRAP[rartv]",
+            "btih": "35ee8823fa51a0b641ed2da9e8493b12f4e7651e",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 73351,
+            "seed": 12454
+        },
+        {
+            "id": 258,
+            "name": "ОА-(сезон-2)-The-OA-(2019)-WEBRip--LostFilm",
+            "btih": "cab8d33c7c50994a4044555dc993b379d39715f8",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 73223,
+            "seed": 1146
+        },
+        {
+            "id": 738,
+            "name": "multi-btih-1-2x-The-OA-S02-720p-NF-WEBRip-DDP5-1-x264-MIXED",
+            "btih": "ed805a0b32fec2118ebaf15c1ae32c6e3a9b9e5c",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 73125,
+            "seed": 12765
+        },
+        {
+            "id": 773,
+            "name": "multi-btih-36-2x-The-OA-S02E07-iNTERNAL-1080p-WEB-X264-AMRAP[rarbg]",
+            "btih": "2a4bc98196c7dcb2b564c1808931d54bbbc5888e",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 72750,
+            "seed": 2028
+        },
+        {
+            "id": 772,
+            "name": "multi-btih-35-2x-The-OA-S02E07-REPACK-720p-WEBRip-x264-STRiFE[rarbg]",
+            "btih": "58502cc2959541dad116bab73f74acbf294faab9",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 72285,
+            "seed": 3973
+        },
+        {
+            "id": 228,
+            "name": "[WWW-BLUDV-TV]-The-OA--2ª-Temporad-Completa-(720p)-Acesse-o-ORIGINAL-WWW-BLUDV-TV",
+            "btih": "66f254f7636eabd946c0731d91dc7c80ed68a0c6",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 72218,
+            "seed": 5887
+        },
+        {
+            "id": 781,
+            "name": "multi-btih-44-2x-the-oa-s02e03-720p-web-x264-strife[eztv]",
+            "btih": "a89bbfcd535646ec89915cbb2d7c159fb245c4f2",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 72137,
+            "seed": 9629
+        },
+        {
+            "id": 276,
+            "name": "先见之明.The.OA.Season.S02E07.720p-官方中字.mp4.65ce52f1286fee40",
+            "btih": "65ce52f1286fee40a2ca91fa5f16654a065e22c2",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 71493,
+            "seed": 1957
+        },
+        {
+            "id": 11,
+            "name": "The-OA-S02-COMPLETE-1080p-WEB-X264-AMRAP[TGx]",
+            "btih": "839de93c7fbdb29f129b45aceb1fd8688f1f2572",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 71458,
+            "seed": 8555
+        },
+        {
+            "id": 272,
+            "name": "先见之明.The.OA.Season.S02E03.720p-官方中字.mp4.6137b8a46039bf1e",
+            "btih": "6137b8a46039bf1ef39515c895a91077d518d778",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 71078,
+            "seed": 1917
+        },
+        {
+            "id": 15,
+            "name": "The-OA-S02-FRENCH-WEBRip-XviD-EXTREME",
+            "btih": "ea9eabea9395463cd5f4290dd653542fa5da630c",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": false,
+            "peer": 70795,
+            "seed": 25887
+        },
+        {
+            "id": 768,
+            "name": "multi-btih-31-2x-The-OA-S02E07-480p-x264-mSD[eztv]",
+            "btih": "f705a3d64ed099bbaa854178a8a0f4e7d83fd026",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 70786,
+            "seed": 6996
+        },
+        {
+            "id": 13,
+            "name": "The-OA-S02-COMPLETE-720p-WEB-x264-MIXED[TGx]",
+            "btih": "5bf180ea2aec38540108af118b2e7659b6ead6d2",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 70552,
+            "seed": 6417
+        },
+        {
+            "id": 787,
+            "name": "multi-btih-50-2x-先见之明-The-OA-Season-S02E05-720p-官方中字-mp4",
+            "btih": "84188b17a0795b177139f5c6b9eef8f314cedd46",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 69058,
+            "seed": 2256
+        },
+        {
+            "id": 22,
+            "name": "The-OA-S02-WEBRip-x264-ION10",
+            "btih": "710a20be8c2189a76eff71d6f77c79379fb0cbaa",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 68745,
+            "seed": 2891
+        },
+        {
+            "id": 764,
+            "name": "multi-btih-27-2x-The-OA-S02E05-iNTERNAL-HDR-1080p-WEB-H265-AMRAP[rarbg]",
+            "btih": "588c80de453f68664de49a61418c4aced5885c6c",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 68660,
+            "seed": 1615
+        },
+        {
+            "id": 9,
+            "name": "The-OA-S02-720p-NF-WEB-DL-x264-MkvCage-ws",
+            "btih": "c1073629596eab57318b630fa8af0625a588fde8",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 68621,
+            "seed": 3018
+        },
+        {
+            "id": 26,
+            "name": "The-OA-S02E01-Angel-of-Death-1080p-10bit-WEBRip-6CH-x265-HEVC-PSA-mkv",
+            "btih": "8a53d9125d95681f060aa12c30f88eedb0a0f9d2",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 68539,
+            "seed": 3834
+        },
+        {
+            "id": 751,
+            "name": "multi-btih-14-2x-The-OA-S02E03-1080p-WEB-x264-STRiFE[rarbg]",
+            "btih": "740ecfdff88e3ca689914231fa70416a01f2ca14",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 68478,
+            "seed": 3058
+        },
+        {
+            "id": 64,
+            "name": "The-OA-S02E06-1080p-WEB-x264-STRiFE",
+            "btih": "e499a21456428490ccbd9a3695a95a547526be32",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 67924,
+            "seed": 1889
+        },
+        {
+            "id": 771,
+            "name": "multi-btih-34-2x-The-OA-S02E07-REPACK-480p-x264-mSD[eztv]",
+            "btih": "38a297a967fd32587efb329658572700dd2e4497",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 67426,
+            "seed": 7062
+        },
+        {
+            "id": 67,
+            "name": "The-OA-S02E06-Mirror-Mirror-1080p-10bit-WEBRip-6CH-x265-HEVC-PSA-mkv",
+            "btih": "cc5314b4fe907d8c7381d528a5637185281f3429",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 65816,
+            "seed": 3770
+        },
+        {
+            "id": 7,
+            "name": "The-OA-S02-720p-ColdFilm",
+            "btih": "21cb86b7e30ff119b89fecf911815e9ddb6a00cf",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 65663,
+            "seed": 1550
+        },
+        {
+            "id": 224,
+            "name": "[ACESSE-COMANDOTORRENTS-COM]-The-OA-2ª-Temporada-Completa-2019-[720p]-[WEB-DL]-[DUAL]",
+            "btih": "9ef879f24d3c1e55784817282870f95a5bd95501",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 65643,
+            "seed": 4854
+        },
+        {
+            "id": 744,
+            "name": "multi-btih-7-2x-The-OA-S02E01-iNTERNAL-HDR-1080p-WEB-H265-AMRAP[rarbg]",
+            "btih": "454d84c47cd43b4eae1cb671c72938d56198baa7",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 65145,
+            "seed": 1747
+        },
+        {
+            "id": 38,
+            "name": "The-OA-S02E02-Treasure-Island-720p-10bit-WEBRip-2CH-x265-HEVC-PSA-mkv",
+            "btih": "b74d229d359acaebd91abc42dda1727916e6324c",
+            "resolution": "720",
+            "encoding": "265",
+            "private": false,
+            "peer": 65053,
+            "seed": 1035
+        },
+        {
+            "id": 785,
+            "name": "multi-btih-48-2x-先见之明-The-OA-Season-S02E02-720p-官方中字-mp4",
+            "btih": "69faacc14396d6b438017e8b2099ccbeb1fde837",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 64371,
+            "seed": 2267
+        },
+        {
+            "id": 2,
+            "name": "The-OA--Temporada-2-[HDTV-720p][Cap-201]",
+            "btih": "8b8dd7d26e5967b43c0241550f0e5c1d3046dc15",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 64197,
+            "seed": 3520
+        },
+        {
+            "id": 231,
+            "name": "[rutor.is]The.OA.S02.WEB-DLRip.1080p.IdeaFilm",
+            "btih": "59521a3a3500089fd7f125fed940f1e788605016",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 63645,
+            "seed": 1620
+        },
+        {
+            "id": 757,
+            "name": "multi-btih-20-2x-The-OA-S02E04-REPACK-720p-WEBRip-x264-STRiFE[rarbg]",
+            "btih": "e555f9f00368b74ef9309ab176e218ee61884eb4",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 63237,
+            "seed": 4148
+        },
+        {
+            "id": 750,
+            "name": "multi-btih-13-2x-The-OA-S02E02-iNTERNAL-HDR-1080p-WEB-H265-AMRAP[rarbg]",
+            "btih": "b9ffb1da1ad7a5f51bcf0966d51c304a252437dd",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 63233,
+            "seed": 1408
+        },
+        {
+            "id": 742,
+            "name": "multi-btih-5-2x-The-OA-S02E01-720p-WEB-x264-STRiFE[rarbg]",
+            "btih": "79d0083602dbf08182c0f2772d5db3e7ad9a6af1",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 62573,
+            "seed": 4047
+        },
+        {
+            "id": 746,
+            "name": "multi-btih-9-2x-The-OA-S02E02-720p-WEB-X264-AMCON[eztv]",
+            "btih": "25e96e7f71042427bd1065bc1dd90d1df542dc71",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 61780,
+            "seed": 10231
+        },
+        {
+            "id": 763,
+            "name": "multi-btih-26-2x-The-OA-S02E05-iNTERNAL-1080p-WEB-X264-AMRAP[rarbg]",
+            "btih": "63067e991aac4a1ee72ff6d4f6c2e37ce8df1786",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 61488,
+            "seed": 1225
+        },
+        {
+            "id": 775,
+            "name": "multi-btih-38-2x-The-OA-S02E08-480p-x264-mSD[eztv]",
+            "btih": "33d59036495106890c3d39eef22408bd4a9b4445",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 60856,
+            "seed": 9131
+        },
+        {
+            "id": 234,
+            "name": "[rutor.is]The_OA_S02_2019_720p_WEBRip_Gears_Media",
+            "btih": "679a34bc89a10b39078c52368ff52e83a47777c8",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 59808,
+            "seed": 1149
+        },
+        {
+            "id": 770,
+            "name": "multi-btih-33-2x-The-OA-S02E07-720p-WEB-x264-STRiFE[rarbg]",
+            "btih": "1bdc73dba9b325883aed51d250dd2df77c0485a7",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 58597,
+            "seed": 3315
+        },
+        {
+            "id": 51,
+            "name": "The-OA-S02E04-REPACK-720p-WEBRip-x264-STRiFE",
+            "btih": "759aca2774a3fb4ef682ef4966f53211ab0aac84",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 58413,
+            "seed": 1197
+        },
+        {
+            "id": 88,
+            "name": "The-Oa-S02E06-[IA]-mkv",
+            "btih": "0798bcc4e3b663a50a7512dad5b35bcbea91cc5b",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 58102,
+            "seed": 947
+        },
+        {
+            "id": 27,
+            "name": "The-OA-S02E01-Angel-of-Death-720p-10bit-WEBRip-2CH-x265-HEVC-PSA-mkv",
+            "btih": "a12de91e1fcb2c94f0784180300bdc4643dff204",
+            "resolution": "720",
+            "encoding": "265",
+            "private": false,
+            "peer": 57810,
+            "seed": 2350
+        },
+        {
+            "id": 257,
+            "name": "ОА The OA Сезон 2 Серии 1-8 из 8 (Зал Батманглидж) [2019, США, фантастика, фэнтези, драма, детектив, WEBRip 720p] DVO (Bai [rutracker-5711604]",
+            "btih": "781be0799e5f2d8b5ce4b2ad8dc8c097d0d8a9ce",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 55061,
+            "seed": 5019
+        },
+        {
+            "id": 5,
+            "name": "The-OA-S02-400p-ColdFilm",
+            "btih": "ad91f789e0ce61aa44c3d49170e6a2b492f5e0dd",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 54692,
+            "seed": 1352
+        },
+        {
+            "id": 745,
+            "name": "multi-btih-8-2x-The-OA-S02E02-480p-x264-mSD[eztv]",
+            "btih": "8033022934982f9ae83f98ad60e6db0f2e2ba0b8",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 54347,
+            "seed": 8156
+        },
+        {
+            "id": 6,
+            "name": "The-OA-S02-400p-KosharaSerials",
+            "btih": "b051cc41fb025aab3ff132c160210e82e3619863",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 54200,
+            "seed": 3195
+        },
+        {
+            "id": 37,
+            "name": "The-OA-S02E02-Treasure-Island-1080p-10bit-WEBRip-6CH-x265-HEVC-PSA-mkv",
+            "btih": "583a01f4c03b6754facc40185841d4d870b5e6b5",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 53115,
+            "seed": 2934
+        },
+        {
+            "id": 59,
+            "name": "The-OA-S02E05-The-Medium-and-the-Engineer-1080p-10bit-WEBRip-6CH-x265-HEVC-PSA-mkv",
+            "btih": "99e5d35ff5cab49d8f36b2685446c67d5847eb2e",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 52983,
+            "seed": 3845
+        },
+        {
+            "id": 76,
+            "name": "The-OA-S02E07-iNTERNAL-1080p-WEB-X264-AMRAP",
+            "btih": "c4a07961a0d2505219e32b5bad8000dfe94083a0",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 52570,
+            "seed": 1161
+        },
+        {
+            "id": 21,
+            "name": "The-OA-S02-Season-02-Complete-720p-WEB-DL-x264-XpoZ",
+            "btih": "5be526618d50c39455292291bdf18d754b5032fe",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 52479,
+            "seed": 13599
+        },
+        {
+            "id": 250,
+            "name": "www-Torrenting-org--The-OA-S02E05-720p-WEBRip-X264-AMCON",
+            "btih": "d1c7a840d7d4df00fd0035a8dabacf33521ae29b",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 52392,
+            "seed": 2134
+        },
+        {
+            "id": 29,
+            "name": "The-OA-S02E01-iNTERNAL-1080p-WEB-X264-AMRAP[rarbg]",
+            "btih": "cf7355726ded98704703cfc360eec6d621f625e2",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 52175,
+            "seed": 2100
+        },
+        {
+            "id": 247,
+            "name": "www-Torrenting-org--The-OA-S02E03-iNTERNAL-1080p-WEB-X264-AMRAP",
+            "btih": "a2b6d5f4bed07a67272b974040ba50cb73c7c299",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 51476,
+            "seed": 849
+        },
+        {
+            "id": 246,
+            "name": "www-Torrenting-org--The-OA-S02E03-720p-WEB-x264-STRiFE",
+            "btih": "57f8d5e2f2b65876269c442f966579ff741457f0",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 51096,
+            "seed": 3528
+        },
+        {
+            "id": 39,
+            "name": "The-OA-S02E02-iNTERNAL-1080p-WEB-X264-AMRAP[rarbg]",
+            "btih": "ea27939dc16df624caf0725bacdbc1f5fe24a285",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 50125,
+            "seed": 1894
+        },
+        {
+            "id": 747,
+            "name": "multi-btih-10-2x-The-OA-S02E02-720p-WEB-X264-AMCON[rarbg]",
+            "btih": "6f802a9527c0f5612c79be4a595474376de25496",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 49165,
+            "seed": 3626
+        },
+        {
+            "id": 84,
+            "name": "The-OA-S02E08-Overview-720p-10bit-WEBRip-2CH-x265-HEVC-PSA-mkv",
+            "btih": "da8910ff3537e59e0304af506a9f4d740fc5e9eb",
+            "resolution": "720",
+            "encoding": "265",
+            "private": false,
+            "peer": 48635,
+            "seed": 1022
+        },
+        {
+            "id": 48,
+            "name": "The-OA-S02E04-1080p-10bit-WEBRip-6CH-x265-HEVC-PSA",
+            "btih": "39c18b75752ad3130e0fd40bf9adbc82dd8cfaa5",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 48491,
+            "seed": 3670
+        },
+        {
+            "id": 83,
+            "name": "The-OA-S02E08-Overview-1080p-10bit-WEBRip-6CH-x265-HEVC-PSA-mkv",
+            "btih": "6c3c8d3dc2ec0f9eb3cfbe088e843964c8e2d7ee",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 47978,
+            "seed": 3750
+        },
+        {
+            "id": 758,
+            "name": "multi-btih-21-2x-The-OA-S02E04-iNTERNAL-1080p-WEB-X264-AMRAP[rarbg]",
+            "btih": "0e46ac23dca436eb0c73ac3bfb0da6905bdb12bb",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 47898,
+            "seed": 3040
+        },
+        {
+            "id": 267,
+            "name": "先见之明.The OA.S02E03.720p.HDTV.x264.双语字幕精校版-深影字幕组.mp4.a23647586ee2cab0",
+            "btih": "a23647586ee2cab054f265002ec8efe878311141",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 47726,
+            "seed": 439
+        },
+        {
+            "id": 53,
+            "name": "The-OA-S02E04-SYZYGY-720p-10bit-WEBRip-2CH-x265-HEVC-PSA-mkv",
+            "btih": "4d864d73bec484e1711a7203e28b6b84b92d7735",
+            "resolution": "720",
+            "encoding": "265",
+            "private": false,
+            "peer": 47603,
+            "seed": 1140
+        },
+        {
+            "id": 265,
+            "name": "先见之明.The OA.S02E01.720p.HDTV.x264.双语字幕精校版-深影字幕组.mp4.1dc427091e1d40d9",
+            "btih": "1dc427091e1d40d9ab64c122be4eceb06e294d8e",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 47385,
+            "seed": 244
+        },
+        {
+            "id": 245,
+            "name": "www-Torrenting-org--The-OA-S02E02-PROPER-720p-WEBRip-x264-STRiFE",
+            "btih": "07bbd0a9227a772d5c5ad61d05d4578f7b802a35",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 47034,
+            "seed": 4037
+        },
+        {
+            "id": 20,
+            "name": "The-OA-S02-NF-VOSTFR-WEB-DL-XviD-EXTREME",
+            "btih": "5403a8feb838fb9ffc05cdc703b99a23f66d5397",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": false,
+            "peer": 46737,
+            "seed": 5440
+        },
+        {
+            "id": 754,
+            "name": "multi-btih-17-2x-The-OA-S02E03-iNTERNAL-HDR-1080p-WEB-H265-AMRAP[rarbg]",
+            "btih": "4311954ac9fc8ef0535d2984df604ef663b4f7ea",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 46193,
+            "seed": 1547
+        },
+        {
+            "id": 19,
+            "name": "The-OA-S02-MULTi-1080p-NF-WEB-DL-DD5-1-x264-ARK01",
+            "btih": "40bb8be2f218c0f99a4f05f9cb985c1833dd6e7c",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 45178,
+            "seed": 4036
+        },
+        {
+            "id": 777,
+            "name": "multi-btih-40-2x-The-OA-S02E08-720p-WEBRip-X264-AMCON[rarbg]",
+            "btih": "d6508738b6f21e3e3471db70477b7962eadfcce9",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 44247,
+            "seed": 3843
+        },
+        {
+            "id": 260,
+            "name": "先见之明-The-OA-S02E03-中英字幕-HDTVrip-720P-人人影视-mp4",
+            "btih": "0a6b6639826e54a6176cb2032e8c273410866996",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 42700,
+            "seed": 1303
+        },
+        {
+            "id": 181,
+            "name": "The.OA.S02E06.720p.WEB.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "53ff2c75c1dbc1a30f46b2cb9671417dbb1b7149",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 42366,
+            "seed": 4124
+        },
+        {
+            "id": 778,
+            "name": "multi-btih-41-2x-The-OA-S02E08-iNTERNAL-1080p-WEB-X264-AMRAP[rarbg]",
+            "btih": "e3fc45ca0b8eed79bde939908000185ab73b89dd",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 42045,
+            "seed": 1213
+        },
+        {
+            "id": 73,
+            "name": "The-OA-S02E07-Nina-Azarova-1080p-10bit-WEBRip-6CH-x265-HEVC-PSA-mkv",
+            "btih": "2e9c139bd30dc53f6d45860629db31d134503504",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 41713,
+            "seed": 3136
+        },
+        {
+            "id": 235,
+            "name": "[rutor.is]The_OA_S02_2019_WEBRip_Gears_Media",
+            "btih": "338e7e42b7381decde2c50764ee77207430adacf",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 40677,
+            "seed": 2129
+        },
+        {
+            "id": 230,
+            "name": "[rutor.is]The.OA.S02.1080p.WEB.x264.Rus.Eng.BaibaKo.tv.Clear",
+            "btih": "3420426ee388a0b2d7a37488e7576e5b3600d5af",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 40612,
+            "seed": 1328
+        },
+        {
+            "id": 68,
+            "name": "The-OA-S02E06-Mirror-Mirror-720p-10bit-WEBRip-2CH-x265-HEVC-PSA-mkv",
+            "btih": "53a9213bad0c113e8c1d7c905d81784e5f2a1938",
+            "resolution": "720",
+            "encoding": "265",
+            "private": false,
+            "peer": 40424,
+            "seed": 1079
+        },
+        {
+            "id": 786,
+            "name": "multi-btih-49-2x-先见之明-The-OA-Season-S02E04-720p-官方中字-mp4",
+            "btih": "975229931517edc366cc18e3ba4f9a3ee5a3434a",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 40399,
+            "seed": 2142
+        },
+        {
+            "id": 277,
+            "name": "先见之明.The.OA.Season.S02E08.720p-官方中字.mp4.5d1f135b5f76067e",
+            "btih": "5d1f135b5f76067edb1c134ad7c9aab222d15a72",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 40277,
+            "seed": 1877
+        },
+        {
+            "id": 61,
+            "name": "The-OA-S02E05-iNTERNAL-1080p-WEB-x264-STRiFE",
+            "btih": "254724d8181f038cb3004beab0833f61ce72767b",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 39662,
+            "seed": 741
+        },
+        {
+            "id": 248,
+            "name": "www-Torrenting-org--The-OA-S02E04-iNTERNAL-1080p-WEB-X264-AMRAP",
+            "btih": "759d9d1099de5c79ed121268a666af3133280f30",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 39574,
+            "seed": 621
+        },
+        {
+            "id": 249,
+            "name": "www-Torrenting-org--The-OA-S02E04-iNTERNAL-MULTi-1080p-WEB-x264-CARAPiLS",
+            "btih": "6db48a120d48d086fa855edd4257b93f3f24674f",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 39551,
+            "seed": 691
+        },
+        {
+            "id": 187,
+            "name": "The.OA.S02E06.iNTERNAL.1080p.WEB.X264-AMRAP[rartv]-[rarbg.to]",
+            "btih": "be965803f90c44ad009c35d37c347f45e2acd88d",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 36669,
+            "seed": 1128
+        },
+        {
+            "id": 45,
+            "name": "The-OA-S02E03-Magic-Mirror-720p-10bit-WEBRip-2CH-x265-HEVC-PSA",
+            "btih": "528a7d0df9776a6a97020759ff90b1876f704b5c",
+            "resolution": "720",
+            "encoding": "265",
+            "private": false,
+            "peer": 36575,
+            "seed": 1127
+        },
+        {
+            "id": 259,
+            "name": "先见之明-The-OA-S02E01-中英字幕-HDTVrip-720P-人人影视-mp4",
+            "btih": "25426b6b526ac5d61baddbd8f99f584153e2a82a",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 36515,
+            "seed": 1246
+        },
+        {
+            "id": 12,
+            "name": "The-OA-S02-COMPLETE-720p-WEB-x264-GalaxyTV[TGx]",
+            "btih": "87e4600a7c8a81f151bc6b06284c518aac077191",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 35474,
+            "seed": 6254
+        },
+        {
+            "id": 233,
+            "name": "[rutor.is]The.OA.S02.WEB-DLRip.IdeaFilm",
+            "btih": "df95e72377f7a7b506c8a8a6010a7aea53016136",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 35167,
+            "seed": 1957
+        },
+        {
+            "id": 34,
+            "name": "The-OA-S02E02-HDTV-SubtituladoEsp-SC-mp4",
+            "btih": "2d4f3733eb5c01fa8ea2ef516e240118ea85cd10",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 34501,
+            "seed": 1004
+        },
+        {
+            "id": 46,
+            "name": "The-OA-S02E03-iNTERNAL-1080p-WEB-X264-AMRAP[rarbg]",
+            "btih": "24b0648c9f405e178db4339ec4d664f00ca37a10",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 34375,
+            "seed": 969
+        },
+        {
+            "id": 229,
+            "name": "[rutor.is]The.OA.S02.1080p.WEB.X264.Rus.Eng.BaibaKo.tv.Cl",
+            "btih": "ac3085ca25383b39c237d812d820618cfc048c3e",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 33959,
+            "seed": 1751
+        },
+        {
+            "id": 253,
+            "name": "ОА The OA Сезон 2 Серии 1-6 из 8 (Зал Батманглидж) [2019, США, Драма, детектив, мистика, WEBRip 720p] DVO (Gears Media) + [rutracker-5710304]",
+            "btih": "433c926cd3cc7da9844527feccf7de3649e831ea",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 33453,
+            "seed": 1557
+        },
+        {
+            "id": 79,
+            "name": "The-OA-S02E07-iNTERNAL-MULTi-1080p-WEB-x264-CARAPiLS",
+            "btih": "5a81221ac498ca45c63513fb4d66acd6c434f3ab",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 32289,
+            "seed": 350
+        },
+        {
+            "id": 44,
+            "name": "The-OA-S02E03-Magic-Mirror-1080p-10bit-WEBRip-6CH-x265-HEVC-PSA-mkv",
+            "btih": "ada2b9ea2dc5966af5beb2adcc851504da4c1ba0",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 31750,
+            "seed": 3246
+        },
+        {
+            "id": 8,
+            "name": "The-OA-S02-720p-KosharaSerials",
+            "btih": "1c9cc59c1e016807344fc6f95d2fbfb0ae4a1737",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 31354,
+            "seed": 1457
+        },
+        {
+            "id": 254,
+            "name": "ОА The OA Сезон 2 Серии 1-6 из 8 (Зал Батманглидж) [2019, США, Драма, детектив, мистика, WEBRip] DVO (Gears Media) + Origi [rutracker-5710641]",
+            "btih": "58bde2062eb35d9c17295d489232ac7fe88aa000",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 30249,
+            "seed": 1334
+        },
+        {
+            "id": 251,
+            "name": "www-Torrenting-org--The-OA-S02E06-iNTERNAL-1080p-WEB-X264-AMRAP",
+            "btih": "de4ecb75ced22096690707ee5fdc1ba743c81934",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 29235,
+            "seed": 605
+        },
+        {
+            "id": 252,
+            "name": "www-Torrenting-org--The-OA-S02E07-720p-WEB-x264-STRiFE",
+            "btih": "23903b4377f227ae2311776e3dec385c2daf3139",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 26665,
+            "seed": 3194
+        },
+        {
+            "id": 269,
+            "name": "先见之明.The OA.S02E05.720p.HDTV.x264.双语字幕精校版-深影字幕组.mp4.1fd62affb341d06e",
+            "btih": "1fd62affb341d06ef9c61e9f4884a683d6caf70f",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 26599,
+            "seed": 406
+        },
+        {
+            "id": 225,
+            "name": "[AgusiQ-TorrentS-pl]-The-OA-S02-PL-720p-KiT-[AgusiQ]",
+            "btih": "2535f6c1629a8813484b5c8bf638e468372f230f",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 26104,
+            "seed": 1422
+        },
+        {
+            "id": 232,
+            "name": "[rutor.is]The.OA.S02.WEB-DLRip.720p.IdeaFilm",
+            "btih": "a9938fa1aecfc668fabaff97180f2b9f9a6a0cf4",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 25162,
+            "seed": 2042
+        },
+        {
+            "id": 266,
+            "name": "先见之明.The OA.S02E02.720p.HDTV.x264.双语字幕精校版-深影字幕组.mp4.e7267aeae97926ab",
+            "btih": "e7267aeae97926ab87282e1f62b1281af9371154",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 20491,
+            "seed": 202
+        },
+        {
+            "id": 3,
+            "name": "The-OA-S02-(2019)-720p-WEBRip-[Gears-Media]",
+            "btih": "a084ab91c515989818332c376e597c5fdd8c53eb",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 20323,
+            "seed": 1537
+        },
+        {
+            "id": 244,
+            "name": "www-Torrenting-org--The-OA-S02E01-720p-WEB-x264-STRiFE",
+            "btih": "27034e17ef3c447243fa7db679aa0ad84b141b55",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 19899,
+            "seed": 2842
+        },
+        {
+            "id": 255,
+            "name": "ОА The OA Сезон 2 Серии 1-8 из 8 (Зал Батманглидж) [2019, США, Драма, детектив, мистика, WEBRip 720p] DVO (Gears Media) + [rutracker-5710304]",
+            "btih": "d5d38c6dc7fae8d02b027c05efa5e077bccc05b5",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 18494,
+            "seed": 2292
+        },
+        {
+            "id": 268,
+            "name": "先见之明.The OA.S02E04.720p.HDTV.x264.双语字幕精校版-深影字幕组.mp4.b1fa0271af0f5f55",
+            "btih": "b1fa0271af0f5f559f3cf1022099f14826c87948",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 14755,
+            "seed": 305
+        },
+        {
+            "id": 1,
+            "name": "The OA S01-02 web hevc-d3g [IPT]",
+            "btih": "3490bbed51814fbcba0eabd7a7503078f2f65c37",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 2753,
+            "seed": 1433
+        },
+        {
+            "id": 146,
+            "name": "The.OA.S02E04.720p.WEB.x264-STRiFE [IPT]",
+            "btih": "97e18e5c8086601645960cf18cd76a7c55c2ca83",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 833,
+            "seed": 476
+        },
+        {
+            "id": 113,
+            "name": "The.OA.S02E02.720p.WEB.X264-AMCON [IPT]",
+            "btih": "328f7ec6b8478c71a857b1b757ddf72aafe43ed5",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 802,
+            "seed": 453
+        },
+        {
+            "id": 96,
+            "name": "The.OA.S02E01.720p.WEB.x264-STRiFE [IPT]",
+            "btih": "87bb299aae434e3205659a9bd1191923ba3d3ccf",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 773,
+            "seed": 423
+        },
+        {
+            "id": 192,
+            "name": "The.OA.S02E07.720p.WEB.x264-STRiFE [IPT]",
+            "btih": "662e465e33ef86a1020ebbb39790db1a25293962",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 758,
+            "seed": 416
+        },
+        {
+            "id": 221,
+            "name": "The.OA.S02E08.iNTERNAL.1080p.WEB.x264-STRiFE [IPT]",
+            "btih": "b070838af3bf50e75b44a678513ac764205dd3b5",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 739,
+            "seed": 413
+        },
+        {
+            "id": 130,
+            "name": "The.OA.S02E03.1080p.WEB.x264-STRiFE [IPT]",
+            "btih": "c7f9cbae2f1b4a10ed8daf2088459afc841982e6",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 733,
+            "seed": 386
+        },
+        {
+            "id": 105,
+            "name": "The.OA.S02E01.XviD-AFG [IPT]",
+            "btih": "cdf69476ec43529fda1ef9cf27d051b04dbe5bf9",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 708,
+            "seed": 373
+        },
+        {
+            "id": 163,
+            "name": "The.OA.S02E05.720p.WEBRip.X264-AMCON [IPT]",
+            "btih": "3e6192f6ec37ff728f7a370f0f8e2e8968e6c73c",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 656,
+            "seed": 410
+        },
+        {
+            "id": 139,
+            "name": "The.OA.S02E03.XviD-AFG [IPT]",
+            "btih": "13c92a9bd5e349ce1024f5de35721c62ab101ff2",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 656,
+            "seed": 315
+        },
+        {
+            "id": 175,
+            "name": "The.OA.S02E06.1080p.WEB.x264-STRiFE [IPT]",
+            "btih": "c1a327f54ba3606c1f097eb2d25627b8e4070556",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 652,
+            "seed": 333
+        },
+        {
+            "id": 154,
+            "name": "The.OA.S02E04.XviD-AFG [IPT]",
+            "btih": "b8722b823422b9db9aef4f161e6d9e828d2fe431",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 634,
+            "seed": 302
+        },
+        {
+            "id": 132,
+            "name": "The.OA.S02E03.480p.x264-mSD [IPT]",
+            "btih": "aa7b6b2048da4b2677f1e81affa56a92ba087592",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 628,
+            "seed": 289
+        },
+        {
+            "id": 102,
+            "name": "The.OA.S02E01.REPACK.720p.WEBRip.x264-STRiFE [IPT]",
+            "btih": "f600b74d74611c73ea47514257266383cdf0af6e",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 619,
+            "seed": 420
+        },
+        {
+            "id": 171,
+            "name": "The.OA.S02E05.iNTERNAL.1080p.WEB.x264-STRiFE [IPT]",
+            "btih": "e4dabc7b60c1f01e1c21ce557ff2eb4adc3e34be",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 619,
+            "seed": 320
+        },
+        {
+            "id": 107,
+            "name": "The.OA.S02E01.iNTERNAL.1080p.WEB.X264-AMRAP [IPT]",
+            "btih": "f16377338330418d9845488623284174f13a3927",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 607,
+            "seed": 322
+        },
+        {
+            "id": 135,
+            "name": "The.OA.S02E03.720p.WEB.x264-STRiFE [IPT]",
+            "btih": "bffce6b08a6e5612385c730e17297cb77890101d",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 596,
+            "seed": 423
+        },
+        {
+            "id": 126,
+            "name": "The.OA.S02E02.iNTERNAL.1080p.WEB.X264-AMRAP [IPT]",
+            "btih": "1f0e8fdc51c9fabd5629239e1e4731013eaae92c",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 589,
+            "seed": 302
+        },
+        {
+            "id": 120,
+            "name": "The.OA.S02E02.PROPER.720p.WEBRip.x264-STRiFE [IPT]",
+            "btih": "c6dd562675a8ed1298c829ca3e20b0f6013328fa",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 586,
+            "seed": 400
+        },
+        {
+            "id": 167,
+            "name": "The.OA.S02E05.XviD-AFG [IPT]",
+            "btih": "93a8417ffeed3bbac197a666c1b92114b4325686",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 585,
+            "seed": 256
+        },
+        {
+            "id": 180,
+            "name": "The.OA.S02E06.720p.WEB.x264-STRiFE [IPT]",
+            "btih": "c4038eaa93b35379674da374c4d18af9f26e2303",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 585,
+            "seed": 409
+        },
+        {
+            "id": 184,
+            "name": "The.OA.S02E06.XviD-AFG [IPT]",
+            "btih": "52b2628809ab8a14b8df14acbceb5f0b7162ff36",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 577,
+            "seed": 252
+        },
+        {
+            "id": 217,
+            "name": "The.OA.S02E08.XviD-AFG [IPT]",
+            "btih": "f8e46c294505d636901116aa0f2a4c156fb8c7e6",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 571,
+            "seed": 250
+        },
+        {
+            "id": 134,
+            "name": "The.OA.S02E03.720p.HEVC.x265-MeGusta [IPT]",
+            "btih": "09bd65fb0a736a7cd54dc4aa8d348fd06eb5eb67",
+            "resolution": "720",
+            "encoding": "265",
+            "private": true,
+            "peer": 561,
+            "seed": 232
+        },
+        {
+            "id": 201,
+            "name": "The.OA.S02E07.XviD-AFG [IPT]",
+            "btih": "d876a83bd64671546013ef705a0fbd20c519eda0",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 560,
+            "seed": 230
+        },
+        {
+            "id": 106,
+            "name": "The.OA.S02E01.iNTERNAL.1080p.HEVC.x265-MeGusta [IPT]",
+            "btih": "53a466ec1fa43bdbae14182ccc07d93cfba0943a",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": true,
+            "peer": 528,
+            "seed": 297
+        },
+        {
+            "id": 218,
+            "name": "The.OA.S02E08.iNTERNAL.1080p.HEVC.x265-MeGusta [IPT]",
+            "btih": "fb265490f6cb886c4e3cbb38b40c5ff93908bc30",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": true,
+            "peer": 526,
+            "seed": 286
+        },
+        {
+            "id": 156,
+            "name": "The.OA.S02E04.iNTERNAL.1080p.WEB.X264-AMRAP [IPT]",
+            "btih": "ff77ca1849a8b0f8877c99468457bdf708ea5341",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 520,
+            "seed": 261
+        },
+        {
+            "id": 205,
+            "name": "The.OA.S02E07.iNTERNAL.1080p.WEB.x264-STRiFE [IPT]",
+            "btih": "e62c03a8146fa262fcca893b54c63e471919b4c2",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 519,
+            "seed": 253
+        },
+        {
+            "id": 151,
+            "name": "The.OA.S02E04.REPACK.720p.WEBRip.x264-STRiFE [IPT]",
+            "btih": "ed483f4d709745d7f6ce5deef9da2c696c4225c9",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 518,
+            "seed": 374
+        },
+        {
+            "id": 212,
+            "name": "The.OA.S02E08.720p.WEBRip.X264-AMCON [IPT]",
+            "btih": "6eaae4890eedf75c29566d020e072cd619a0f81b",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 518,
+            "seed": 327
+        },
+        {
+            "id": 160,
+            "name": "The.OA.S02E05.480p.x264-mSD [IPT]",
+            "btih": "4934f31ca39f4ef4689f81e8510bc6bf6e42604f",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 517,
+            "seed": 243
+        },
+        {
+            "id": 177,
+            "name": "The.OA.S02E06.480p.x264-mSD [IPT]",
+            "btih": "baba56991b59ce87e6cf27e948dfba87f7f1d6bd",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 511,
+            "seed": 226
+        },
+        {
+            "id": 179,
+            "name": "The.OA.S02E06.720p.HEVC.x265-MeGusta [IPT]",
+            "btih": "223d8869cab03257da561a92118495b1269640cf",
+            "resolution": "720",
+            "encoding": "265",
+            "private": true,
+            "peer": 506,
+            "seed": 316
+        },
+        {
+            "id": 125,
+            "name": "The.OA.S02E02.iNTERNAL.1080p.HEVC.x265-MeGusta [IPT]",
+            "btih": "b74ecf79ac8b7ed67bd05af8c279d60813bc07c0",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": true,
+            "peer": 503,
+            "seed": 272
+        },
+        {
+            "id": 168,
+            "name": "The.OA.S02E05.iNTERNAL.1080p.HEVC.x265-MeGusta [IPT]",
+            "btih": "c84d37826b06a889bb77e7c21bf6e513983c2fb7",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": true,
+            "peer": 502,
+            "seed": 289
+        },
+        {
+            "id": 197,
+            "name": "The.OA.S02E07.REPACK.720p.HEVC.x265-MeGusta [IPT]",
+            "btih": "4282b1fdd27f68a38c6cc888e4b39ac16a114051",
+            "resolution": "720",
+            "encoding": "265",
+            "private": true,
+            "peer": 488,
+            "seed": 278
+        },
+        {
+            "id": 209,
+            "name": "The.OA.S02E08.480p.x264-mSD [IPT]",
+            "btih": "3d4e4e67730be0128b5b5f4cbafc1b4f4f4cfb2e",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 486,
+            "seed": 204
+        },
+        {
+            "id": 202,
+            "name": "The.OA.S02E07.iNTERNAL.1080p.HEVC.x265-MeGusta [IPT]",
+            "btih": "00f80ea2cab00a89f7e8f86d3dce16b8e10d02ca",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": true,
+            "peer": 485,
+            "seed": 247
+        },
+        {
+            "id": 155,
+            "name": "The.OA.S02E04.iNTERNAL.1080p.HEVC.x265-MeGusta [IPT]",
+            "btih": "fae9898d46fc25333c4b57e9c590d45fa7e417f4",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": true,
+            "peer": 484,
+            "seed": 271
+        },
+        {
+            "id": 198,
+            "name": "The.OA.S02E07.REPACK.720p.WEBRip.x264-STRiFE [IPT]",
+            "btih": "113a90c144c84f3e2d3fd678c2edd88d6801467c",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 481,
+            "seed": 339
+        },
+        {
+            "id": 119,
+            "name": "The.OA.S02E02.PROPER.720p.HEVC.x265-MeGusta [IPT]",
+            "btih": "921532bf1564798733d2a91f7c01a2f9de928be4",
+            "resolution": "720",
+            "encoding": "265",
+            "private": true,
+            "peer": 463,
+            "seed": 180
+        },
+        {
+            "id": 101,
+            "name": "The.OA.S02E01.REPACK.720p.HEVC.x265-MeGusta [IPT]",
+            "btih": "96dbb2e2ad5ce8e08fb1f6e99fcbdaf7985898e7",
+            "resolution": "720",
+            "encoding": "265",
+            "private": true,
+            "peer": 426,
+            "seed": 139
+        },
+        {
+            "id": 195,
+            "name": "The.OA.S02E07.REPACK.480p.x264-mSD [IPT]",
+            "btih": "e16adba18d2eee2ccf1d15b666e46a3caf87a6b6",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 420,
+            "seed": 197
+        },
+        {
+            "id": 150,
+            "name": "The.OA.S02E04.REPACK.720p.HEVC.x265-MeGusta [IPT]",
+            "btih": "7c12ccb2b793919363c93245dbb3cb9e1555511d",
+            "resolution": "720",
+            "encoding": "265",
+            "private": true,
+            "peer": 416,
+            "seed": 151
+        },
+        {
+            "id": 99,
+            "name": "The.OA.S02E01.REPACK.480p.x264-mSD [IPT]",
+            "btih": "0b90bb4d5566a634f69ee8d73f25e1d48784741a",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 415,
+            "seed": 201
+        },
+        {
+            "id": 117,
+            "name": "The.OA.S02E02.PROPER.480p.x264-mSD [IPT]",
+            "btih": "0c04347f910c2b4f5db07eda269bec6f10c7c80b",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 413,
+            "seed": 218
+        },
+        {
+            "id": 149,
+            "name": "The.OA.S02E04.REPACK.480p.x264-mSD [IPT]",
+            "btih": "9fa92d514c4166a95c66aa94dc2a5059513cdb30",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 395,
+            "seed": 175
+        },
+        {
+            "id": 185,
+            "name": "The.OA.S02E06.iNTERNAL.1080p.HEVC.x265-MeGusta [IPT]",
+            "btih": "a9d51deca0a0f952194ac00235c184a985dcaa75",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": true,
+            "peer": 390,
+            "seed": 203
+        },
+        {
+            "id": 162,
+            "name": "The.OA.S02E05.720p.HEVC.x265-MeGusta [IPT]",
+            "btih": "e15fd681b19432fb5e7cc1fdc89706be44cfb9b7",
+            "resolution": "720",
+            "encoding": "265",
+            "private": true,
+            "peer": 375,
+            "seed": 232
+        },
+        {
+            "id": 110,
+            "name": "The.OA.S02E02.480p.x264-mSD [IPT]",
+            "btih": "5d542970a22cbdcf8feb6df8dea9f6ea835b3d20",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 358,
+            "seed": 181
+        },
+        {
+            "id": 123,
+            "name": "The.OA.S02E02.PROPER.XviD-AFG [IPT]",
+            "btih": "0a33840492e842a9deccbbe4019fb90728b375d3",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 356,
+            "seed": 152
+        },
+        {
+            "id": 124,
+            "name": "The.OA.S02E02.XviD-AFG [IPT]",
+            "btih": "e42d736beda7953fdb8de4e145e840186b56f791",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 339,
+            "seed": 214
+        },
+        {
+            "id": 211,
+            "name": "The.OA.S02E08.720p.HEVC.x265-MeGusta [IPT]",
+            "btih": "aba64b846031e40e6231c1b8abface72a17fbb73",
+            "resolution": "720",
+            "encoding": "265",
+            "private": true,
+            "peer": 337,
+            "seed": 211
+        },
+        {
+            "id": 173,
+            "name": "The.OA.S02E05.iNTERNAL.MULTi.1080p.WEB.x264-CARAPiLS [IPT]",
+            "btih": "4444149991b0eece9a476e853ec5cdd321e07d53",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 334,
+            "seed": 216
+        },
+        {
+            "id": 216,
+            "name": "The.OA.S02E08.FiNAL.iNTERNAL.MULTi.1080p.WEB.x264-CARAPiLS [IPT]",
+            "btih": "97551dbe65b9f37f44d49f923945d63550b3dc3d",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 321,
+            "seed": 212
+        },
+        {
+            "id": 138,
+            "name": "The.OA.S02E03.MULTi.1080p.WEB.x264-CARAPiLS [IPT]",
+            "btih": "9ec62435cb56f0678c6e58d00d0de65107c80e92",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 306,
+            "seed": 185
+        },
+        {
+            "id": 208,
+            "name": "The.OA.S02E07.iNTERNAL.MULTi.1080p.WEB.x264-CARAPiLS [IPT]",
+            "btih": "71f4d6e78a62caf354c53eea5a9f150c8fa2b0b9",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 298,
+            "seed": 199
+        },
+        {
+            "id": 183,
+            "name": "The.OA.S02E06.MULTi.1080p.WEB.x264-CARAPiLS [IPT]",
+            "btih": "f6ed427bdcc0b0fb89aaeba8ee57f066a17ebf74",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 289,
+            "seed": 186
+        },
+        {
+            "id": 140,
+            "name": "The.OA.S02E03.iNTERNAL.1080p.HEVC.x265-MeGusta [IPT]",
+            "btih": "ee10b942fee52526b94ab8211373d7f6283e649f",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": true,
+            "peer": 288,
+            "seed": 202
+        },
+        {
+            "id": 129,
+            "name": "The.OA.S02E03.1080p.HEVC.x265-MeGusta [IPT]",
+            "btih": "5251b4ff7b7881782df52726aafe24fe7d3c1cdd",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": true,
+            "peer": 280,
+            "seed": 206
+        },
+        {
+            "id": 159,
+            "name": "The.OA.S02E04.iNTERNAL.MULTi.1080p.WEB.x264-CARAPiLS [IPT]",
+            "btih": "887c4ea67a54ecc1ff336401c6335edf94da0f57",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 271,
+            "seed": 178
+        },
+        {
+            "id": 93,
+            "name": "The.OA.S02E01.480p.x264-mSD [IPT]",
+            "btih": "76e2f6d9d85610715a8be5af75053e0383b189c6",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 264,
+            "seed": 118
+        },
+        {
+            "id": 143,
+            "name": "The.OA.S02E04.480p.x264-mSD [IPT]",
+            "btih": "5bbdfa0b7554bb75dd7b214ebac004ebc47c30c3",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 261,
+            "seed": 118
+        },
+        {
+            "id": 141,
+            "name": "The.OA.S02E03.iNTERNAL.1080p.WEB.X264-AMRAP [IPT]",
+            "btih": "07b73760c834af10276ea492ab36ef6886f6ec20",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 254,
+            "seed": 153
+        },
+        {
+            "id": 189,
+            "name": "The.OA.S02E07.480p.x264-mSD [IPT]",
+            "btih": "b4695be30077143d5a2d8c4e07cfdcd8f9ddc107",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 239,
+            "seed": 122
+        },
+        {
+            "id": 109,
+            "name": "The.OA.S02E01.iNTERNAL.MULTi.1080p.WEB.x264-CARAPiLS [IPT]",
+            "btih": "02a332598f7d4d6091392300e7be0d8da668acc3",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 239,
+            "seed": 160
+        },
+        {
+            "id": 128,
+            "name": "The.OA.S02E02.iNTERNAL.MULTi.1080p.WEB.x264-CARAPiLS [IPT]",
+            "btih": "477322ae416e5ae22f1bb64862f493ffa347cd60",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 235,
+            "seed": 157
+        },
+        {
+            "id": 174,
+            "name": "The.OA.S02E06.1080p.HEVC.x265-MeGusta [IPT]",
+            "btih": "15e4e8f60acd284da8a8f53549ee4082ae3d9a91",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": true,
+            "peer": 232,
+            "seed": 158
+        },
+        {
+            "id": 186,
+            "name": "The.OA.S02E06.iNTERNAL.1080p.WEB.X264-AMRAP [IPT]",
+            "btih": "747803038a5e86092d118aecc1c8ffb5a3a313c4",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 216,
+            "seed": 150
+        },
+        {
+            "id": 169,
+            "name": "The.OA.S02E05.iNTERNAL.1080p.WEB.X264-AMRAP [IPT]",
+            "btih": "64a6026fb4730a46c288a8be9b270e78026aa2f1",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 215,
+            "seed": 103
+        },
+        {
+            "id": 219,
+            "name": "The.OA.S02E08.iNTERNAL.1080p.WEB.X264-AMRAP [IPT]",
+            "btih": "7b896a0e6176599607a37a5a165315240ebb62a1",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 210,
+            "seed": 126
+        },
+        {
+            "id": 203,
+            "name": "The.OA.S02E07.iNTERNAL.1080p.WEB.X264-AMRAP [IPT]",
+            "btih": "2129688353af8931d2e43ba03969db0d027f8d35",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 177,
+            "seed": 109
+        },
+        {
+            "id": 95,
+            "name": "The.OA.S02E01.720p.HEVC.x265-MeGusta [IPT]",
+            "btih": "b138a8588956f577d19707bc3021e81165ad4490",
+            "resolution": "720",
+            "encoding": "265",
+            "private": true,
+            "peer": 172,
+            "seed": 110
+        },
+        {
+            "id": 145,
+            "name": "The.OA.S02E04.720p.HEVC.x265-MeGusta [IPT]",
+            "btih": "5c153dc40db6c88503edc294ffab9e0bc388ae66",
+            "resolution": "720",
+            "encoding": "265",
+            "private": true,
+            "peer": 171,
+            "seed": 111
+        },
+        {
+            "id": 112,
+            "name": "The.OA.S02E02.720p.HEVC.x265-MeGusta [IPT]",
+            "btih": "dfc53aa3b6e5a157b2b4287cb0d8ccc43ff9cfce",
+            "resolution": "720",
+            "encoding": "265",
+            "private": true,
+            "peer": 164,
+            "seed": 103
+        },
+        {
+            "id": 98,
+            "name": "The.OA.S02E01.AAC.MP4-Mobile [IPT]",
+            "btih": "fc4c34d754c0e7d52ca8f627e6fe6ff524b0ce8d",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 126,
+            "seed": 107
+        },
+        {
+            "id": 191,
+            "name": "The.OA.S02E07.720p.HEVC.x265-MeGusta [IPT]",
+            "btih": "23b73c74443fe4181edee9545c3cdc8b40ccd8a9",
+            "resolution": "720",
+            "encoding": "265",
+            "private": true,
+            "peer": 117,
+            "seed": 86
+        },
+        {
+            "id": 166,
+            "name": "The.OA.S02E05.AAC.MP4-Mobile [IPT]",
+            "btih": "6aaba4bf2357a6c7916f22c6cf7156da994ba034",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 82,
+            "seed": 65
+        },
+        {
+            "id": 200,
+            "name": "The.OA.S02E07.REPACK.AAC.MP4-Mobile [IPT]",
+            "btih": "29b10e66e4df022d16b4db7c53d986f1225f871c",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 80,
+            "seed": 69
+        },
+        {
+            "id": 137,
+            "name": "The.OA.S02E03.AAC.MP4-Mobile [IPT]",
+            "btih": "b3fbd909dcdd46abd5b59199dd0cbacf34d02c5a",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 79,
+            "seed": 64
+        },
+        {
+            "id": 182,
+            "name": "The.OA.S02E06.AAC.MP4-Mobile [IPT]",
+            "btih": "45d0723761dbf355702ccef76ae7fa9873b24081",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 79,
+            "seed": 56
+        },
+        {
+            "id": 215,
+            "name": "The.OA.S02E08.AAC.MP4-Mobile [IPT]",
+            "btih": "b17b172a68c95cca745eb690920b47715adddb6a",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 64,
+            "seed": 55
+        },
+        {
+            "id": 153,
+            "name": "The.OA.S02E04.REPACK.AAC.MP4-Mobile [IPT]",
+            "btih": "b895ffdd96cc003ca8d41220b2e453a52d057519",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 54,
+            "seed": 36
+        },
+        {
+            "id": 116,
+            "name": "The.OA.S02E02.AAC.MP4-Mobile [IPT]",
+            "btih": "56e1f6e4a0b4fc9a04834ab654fc671c0e92d2a2",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 53,
+            "seed": 42
+        },
+        {
+            "id": 104,
+            "name": "The.OA.S02E01.REPACK.AAC.MP4-Mobile [IPT]",
+            "btih": "3a222d1e7eb6fa8540334c3c9276918937f017a4",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 50,
+            "seed": 40
+        },
+        {
+            "id": 148,
+            "name": "The.OA.S02E04.AAC.MP4-Mobile [IPT]",
+            "btih": "0b836fd06ecd14e330d337e6c62ea42dfa8caf16",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 42,
+            "seed": 35
+        },
+        {
+            "id": 122,
+            "name": "The.OA.S02E02.PROPER.AAC.MP4-Mobile [IPT]",
+            "btih": "cd8bb60947600b2b07e064227663ca38ea8879b1",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 35,
+            "seed": 26
+        },
+        {
+            "id": 194,
+            "name": "The.OA.S02E07.AAC.MP4-Mobile [IPT]",
+            "btih": "45e126cc0634da076683bb5e82ae2b9d697ca1c4",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 22,
+            "seed": 18
         }
     ]
 }

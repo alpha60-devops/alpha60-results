@@ -1,19 +1,91 @@
 {
-    "data-version": "20191004",
-    "duration": "2018-11-16-to-2019-01-24",
+    "data-version": "20201228",
     "collection-name": "Narcos Mexico",
     "collection-id": "1",
-    "collection-tag-genre": "",
-    "collection-tag-production": "",
-    "collection-tag-distribution": "",
-    "collection-all-btiha": {
+    "sample-duration": "2018-11-16-to-2019-01-24",
+    "sample-days": 70,
+    "sample-year-start": 2018,
+    "sample-year-end": 2019,
+    "sample-day-year-start": 320,
+    "sample-day-year-end": 24,
+    "collection-all-btiha-total": {
         "btiha-size": 320,
         "upeers-total": 14858694,
         "useeds-total": 3143433,
         "anomaly-total": 1264860,
         "anomaly-percentage": "8.51"
     },
-    "collection-unique-btiha": {
+    "collection-unique-btiha-total": {
+        "btiha-size": 298,
+        "upeers-total": 13246939,
+        "useeds-total": 2794353,
+        "anomaly-total": 966766,
+        "anomaly-percentage": "7.30"
+    },
+    "collection-unique-btiha-week-0001": {
+        "btiha-size": 265,
+        "upeers-total": 3567916,
+        "useeds-total": 780478,
+        "anomaly-total": 248514,
+        "anomaly-percentage": "6.97"
+    },
+    "collection-unique-btiha-week-0002": {
+        "btiha-size": 287,
+        "upeers-total": 5416687,
+        "useeds-total": 1220789,
+        "anomaly-total": 376715,
+        "anomaly-percentage": "6.95"
+    },
+    "collection-unique-btiha-week-0003": {
+        "btiha-size": 290,
+        "upeers-total": 6953562,
+        "useeds-total": 1575034,
+        "anomaly-total": 484931,
+        "anomaly-percentage": "6.97"
+    },
+    "collection-unique-btiha-week-0004": {
+        "btiha-size": 298,
+        "upeers-total": 8332361,
+        "useeds-total": 1856021,
+        "anomaly-total": 593251,
+        "anomaly-percentage": "7.12"
+    },
+    "collection-unique-btiha-week-0005": {
+        "btiha-size": 298,
+        "upeers-total": 9430768,
+        "useeds-total": 2079882,
+        "anomaly-total": 674292,
+        "anomaly-percentage": "7.15"
+    },
+    "collection-unique-btiha-week-0006": {
+        "btiha-size": 298,
+        "upeers-total": 10314735,
+        "useeds-total": 2263282,
+        "anomaly-total": 736658,
+        "anomaly-percentage": "7.14"
+    },
+    "collection-unique-btiha-week-0007": {
+        "btiha-size": 298,
+        "upeers-total": 10928067,
+        "useeds-total": 2382722,
+        "anomaly-total": 779922,
+        "anomaly-percentage": "7.14"
+    },
+    "collection-unique-btiha-week-0008": {
+        "btiha-size": 298,
+        "upeers-total": 11824191,
+        "useeds-total": 2538015,
+        "anomaly-total": 855073,
+        "anomaly-percentage": "7.23"
+    },
+    "collection-unique-btiha-week-0009": {
+        "btiha-size": 298,
+        "upeers-total": 12578490,
+        "useeds-total": 2670910,
+        "anomaly-total": 914415,
+        "anomaly-percentage": "7.27"
+    },
+    "collection-unique-btiha-week-0010": {
         "btiha-size": 298,
         "upeers-total": 13246939,
         "useeds-total": 2794353,
@@ -22,11 +94,13 @@
     },
     "transfer-units": "terabyte",
     "transfer-size": 78062.21453365262,
-    "transfer-cost": "",
+    "transfer-price-1-name": "CloudFront-1-year",
+    "transfer-price-1-per-gigabyte-cost": 0.005,
+    "transfer-price-1-USD": 558311.0726682631,
     "resolution-partitions": [
         {
             "number": 1,
-            "name": "720",
+            "name": "720-all",
             "total-percentage-upeers": "43.00",
             "total-percentage-bytes": "25.81",
             "upeers-total": 5696252
@@ -40,21 +114,21 @@
         },
         {
             "number": 3,
-            "name": "1080",
+            "name": "1080-all",
             "total-percentage-upeers": "17.58",
             "total-percentage-bytes": "39.91",
             "upeers-total": 2328340
         },
         {
             "number": 4,
-            "name": "sd-other",
+            "name": "sd-none",
             "total-percentage-upeers": "9.13",
             "total-percentage-bytes": "10.91",
             "upeers-total": 1209221
         },
         {
             "number": 5,
-            "name": "2160",
+            "name": "2160-all",
             "total-percentage-upeers": "4.63",
             "total-percentage-bytes": "16.68",
             "upeers-total": 613016
@@ -65,23 +139,6 @@
             "total-percentage-upeers": "3.03",
             "total-percentage-bytes": "2.08",
             "upeers-total": 401304
-        }
-    ],
-    "geo-slices-3-longitude-regions": [
-        {
-            "number": 1,
-            "name": "AfroEurAsia",
-            "total-percentage-upeers": "37.89"
-        },
-        {
-            "number": 2,
-            "name": "Americas",
-            "total-percentage-upeers": "31.79"
-        },
-        {
-            "number": 3,
-            "name": "AsiaPacifica",
-            "total-percentage-upeers": "30.32"
         }
     ],
     "geo-country-top-10": [
@@ -130,7 +187,7 @@
         {
             "number": 7,
             "country-code": "KOR",
-            "country-name": "Korea (Republic of)",
+            "country-name": "Korea, Republic of",
             "total-percentage-upeers": "1.89",
             "upeers-total": 250264
         },
@@ -188,7 +245,7 @@
         {
             "number": 5,
             "country-code": "KOR",
-            "country-name": "Korea (Republic of)",
+            "country-name": "Korea, Republic of",
             "total-percentage-upeers": "0.96",
             "upeers-total": 127251
         },
@@ -328,7 +385,7 @@
         {
             "number": 25,
             "country-code": "KOR",
-            "country-name": "Korea (Republic of), Seoul, 11",
+            "country-name": "Korea, Republic of, Seoul, 11",
             "total-percentage-upeers": "0.44",
             "upeers-total": 57861
         },
@@ -366,6 +423,2988 @@
             "country-name": "Greece, Athens, 35",
             "total-percentage-upeers": "0.36",
             "upeers-total": 48170
+        }
+    ],
+    "collection-unique-btiha-detail": [
+        {
+            "id": 541,
+            "name": "multi-btih-0-2x-2ce3-Narcos.Mexico.Season.1.S01.720p.WEBRip.x265-HETeam",
+            "btih": "563b163156c26f77ac25947864ba4bb71c043862",
+            "resolution": "720",
+            "encoding": "265",
+            "private": false,
+            "peer": 674117,
+            "seed": 274559
+        },
+        {
+            "id": 218,
+            "name": "[TorrentCouch.net].Narcos.Mexico.S01.COMPLETE.720p.WEBRip.x264.[6GB].[MP4].[Season.1].5b11c99810c8c5e5",
+            "btih": "5b11c99810c8c5e549cdb2b1e44084e78407da08",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 236663,
+            "seed": 117273
+        },
+        {
+            "id": 553,
+            "name": "multi-btih-12-2x-Narcos.Mexico.S01.WEBRip.x264-ION10-[rarbg.to]",
+            "btih": "6327c919aa3cdfe97c222882a5426ffdfaabbf64",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 205260,
+            "seed": 75498
+        },
+        {
+            "id": 260,
+            "name": "narcos.mexico.s01e01.720p.webrip.x264-strife[eztv].mkv",
+            "btih": "a688bf7b07b8cfb5d70304a79959f77cf204d668",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 195975,
+            "seed": 83712
+        },
+        {
+            "id": 551,
+            "name": "multi-btih-10-2x-Narcos.Mexico.S01.1080p.NF.WEBRip.DD5.1.x264-NG[rartv]-[rarbg.to]",
+            "btih": "5ec0c8d2700524f370b482b2ffa696cf1415693e",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 159789,
+            "seed": 52399
+        },
+        {
+            "id": 266,
+            "name": "narcos.mexico.s01e03.webrip.x264-strife[eztv].mkv",
+            "btih": "c829a852d1d6a920fbdfb20e8f845685bffc0d0f",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 155072,
+            "seed": 54318
+        },
+        {
+            "id": 264,
+            "name": "narcos.mexico.s01e02.webrip.x264-strife[eztv].mkv",
+            "btih": "f847838841c955b4bce9f19861771d57a9742f95",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 154909,
+            "seed": 72709
+        },
+        {
+            "id": 267,
+            "name": "narcos.mexico.s01e04.webrip.x264-strife[eztv].mkv",
+            "btih": "403fe6b0fcfeaedc3fe52262c8f67c4c8f1a8efd",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 146868,
+            "seed": 61476
+        },
+        {
+            "id": 268,
+            "name": "narcos.mexico.s01e05.webrip.x264-strife[eztv].mkv",
+            "btih": "5eeb6a89471ad46a025bf95fd903f0970802fd1d",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 145731,
+            "seed": 58016
+        },
+        {
+            "id": 261,
+            "name": "narcos.mexico.s01e01.webrip.x264-strife[eztv].mkv",
+            "btih": "f1644933bcc7018c22c348b5a05ce95f50e56e61",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 145380,
+            "seed": 59362
+        },
+        {
+            "id": 280,
+            "name": "narcos.mexico.s01e10.webrip.x264-strife[eztv].mkv",
+            "btih": "27ec6ed654d15bbf9d12abfff6b83b7f141de6b5",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 133625,
+            "seed": 46064
+        },
+        {
+            "id": 277,
+            "name": "narcos.mexico.s01e09.webrip.x264-strife[eztv].mkv",
+            "btih": "5eabba35aa5deb23823be71f645ecb294014ac44",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 123806,
+            "seed": 45161
+        },
+        {
+            "id": 93,
+            "name": "Narcos.Mexico.S01E03.WEBRip.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "da8afafecfc3e0e93fc7506365b883ad4694fe2f",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 122907,
+            "seed": 22560
+        },
+        {
+            "id": 269,
+            "name": "narcos.mexico.s01e06.720p.webrip.x264-strife[eztv].mkv",
+            "btih": "618dae1ebbabce777858493844942ba4bc518fd0",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 121197,
+            "seed": 35021
+        },
+        {
+            "id": 309,
+            "name": "毒枭：墨西哥.Narcos.Mexico.S01E05.720p-官方中字.mp4.da996929e23cb8bc",
+            "btih": "da996929e23cb8bc2f48c429b19208cc182d66ee",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 120095,
+            "seed": 27547
+        },
+        {
+            "id": 270,
+            "name": "narcos.mexico.s01e06.webrip.x264-strife[eztv].mkv",
+            "btih": "1f63890f97a0581854fb4eaa3215bf13ab949dcb",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 119613,
+            "seed": 41152
+        },
+        {
+            "id": 114,
+            "name": "Narcos.Mexico.S01E04.WEBRip.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "9f03e3328df2dae101a79c2ff75b4d6ca8942cd2",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 119080,
+            "seed": 21797
+        },
+        {
+            "id": 50,
+            "name": "Narcos.Mexico.S01E01.WEBRip.x264-ION10-[rarbg.to]",
+            "btih": "dca4c16c9a9b750c26c37a977747d2d8c3e7b9ed",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 118497,
+            "seed": 28237
+        },
+        {
+            "id": 272,
+            "name": "narcos.mexico.s01e07.webrip.x264-strife[eztv].mkv",
+            "btih": "947399809feb686366908547e9bf8c887ce57c35",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 117113,
+            "seed": 48824
+        },
+        {
+            "id": 274,
+            "name": "narcos.mexico.s01e08.webrip.x264-strife[eztv].mkv",
+            "btih": "124346f5bfa0d1100df194a0cb121dae1b612cb5",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 117085,
+            "seed": 48841
+        },
+        {
+            "id": 562,
+            "name": "multi-btih-21-2x-narcos.mexico.s01e10.720p.webrip.x264-strife[eztv].mkv.efce2d74fa628fd5",
+            "btih": "efce2d74fa628fd57d5ce8fdc20a16562b274fbf",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 117011,
+            "seed": 27155
+        },
+        {
+            "id": 32,
+            "name": "Narcos.Mexico.S01.720p.NF.WEBRip.DD5.1.x264-NG[rartv]-[rarbg.to]",
+            "btih": "393a811d9d3b316d4f6854699f4f4dd6ce8be3c4",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 115299,
+            "seed": 32649
+        },
+        {
+            "id": 561,
+            "name": "multi-btih-20-2x-narcos.mexico.s01e09.720p.webrip.x264-strife[eztv].mkv.40b277686edbb1a4",
+            "btih": "40b277686edbb1a44290ad81c66ce2c107d524f1",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 114293,
+            "seed": 28651
+        },
+        {
+            "id": 265,
+            "name": "narcos.mexico.s01e03.720p.webrip.x264-strife[eztv].mkv.fada3242d6fda670",
+            "btih": "fada3242d6fda670c10a31ed1719fe4dcc237745",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 113070,
+            "seed": 30754
+        },
+        {
+            "id": 301,
+            "name": "毒枭：墨西哥.Narcos.Mexico.S01E01-720p官方中字.mp4.60a7549c30bb4028",
+            "btih": "60a7549c30bb4028564a2fb1f137c8bf9076bf2c",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 112855,
+            "seed": 33122
+        },
+        {
+            "id": 130,
+            "name": "Narcos.Mexico.S01E05.WEBRip.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "4bbeef9912be7c7ab7e5ec97dbffcd62f38f545a",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 112585,
+            "seed": 21873
+        },
+        {
+            "id": 560,
+            "name": "multi-btih-19-2x-narcos-mexico-1-temporada-completa-2018-720p",
+            "btih": "374c8bd3721d181975e5cc291c8e6c80a93227aa",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 110570,
+            "seed": 20423
+        },
+        {
+            "id": 305,
+            "name": "毒枭：墨西哥.Narcos.Mexico.S01E03.720p-官方中字.mp4.8cdf7557f3015ccd",
+            "btih": "8cdf7557f3015ccd7f384c1eeac644b3f95dd327",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 109320,
+            "seed": 28196
+        },
+        {
+            "id": 555,
+            "name": "multi-btih-14-2x-Narcos.Mexico.S01E07.720p.WEBRip.x264-STRiFE[rarbg].a73ddf29fbdab178",
+            "btih": "a73ddf29fbdab1789bc636884bc3655ec0475ab5",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 108988,
+            "seed": 17376
+        },
+        {
+            "id": 542,
+            "name": "multi-btih-1-2x-4053-Narcos.Mexico.S01.NF.WEB-DL.DDP2.0.H264-NG[ettv]",
+            "btih": "5cd3778ef93b40586932c9e0395654284b96b8ba",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 108771,
+            "seed": 26990
+        },
+        {
+            "id": 549,
+            "name": "multi-btih-8-2x-Narcos.Mexico.S01.1080p.NF.WEB-DL.DD5.1.x264-NG.1ed8a86c8fec7c18",
+            "btih": "1ed8a86c8fec7c181650c5791134fb597c21e6c9",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 103946,
+            "seed": 6791
+        },
+        {
+            "id": 313,
+            "name": "毒枭：墨西哥.Narcos.Mexico.S01E07.720p-官方中字.mp4.7656846c83efd406",
+            "btih": "7656846c83efd406247bbdcb725fdd68c83e02cc",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 102107,
+            "seed": 27679
+        },
+        {
+            "id": 550,
+            "name": "multi-btih-9-2x-Narcos.Mexico.S01.1080p.NF.WEB.DDP5.1.x264-DEFLATE[rartv]-[rarbg.to]",
+            "btih": "64af675c4a8253ffea303befcf8c7e41d1b520a8",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 100618,
+            "seed": 21871
+        },
+        {
+            "id": 314,
+            "name": "毒枭：墨西哥.Narcos.Mexico.S01E08.720p-官方中字.mp4.a8cb56dee672c5c0",
+            "btih": "a8cb56dee672c5c07dfde9146eb8d7e6eef17681",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 100261,
+            "seed": 26714
+        },
+        {
+            "id": 166,
+            "name": "Narcos.Mexico.S01E07.WEBRip.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "1d06f201223b8b19dc3a17e580caeaba7a49520d",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 99027,
+            "seed": 20904
+        },
+        {
+            "id": 554,
+            "name": "multi-btih-13-2x-Narcos.Mexico.S01E04.720p.WEBRip.x264-STRiFE[eztv].mkv.3e8c76f56cdd6d62",
+            "btih": "3e8c76f56cdd6d621568390f05911c8d614ed569",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 98204,
+            "seed": 22486
+        },
+        {
+            "id": 311,
+            "name": "毒枭：墨西哥.Narcos.Mexico.S01E06.720p-官方中字.mp4.87ec21d82b94fa80",
+            "btih": "87ec21d82b94fa80675ca1e53686c3f603242775",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 98142,
+            "seed": 26837
+        },
+        {
+            "id": 7,
+            "name": "Narcos Mexico - Temporada 2 [HDTV][Cap.101_103][Castellano][www.descargas2020.com].81dfb8cce3d4f15e",
+            "btih": "81dfb8cce3d4f15eb0c88b23043567a1c8c63315",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 97122,
+            "seed": 43572
+        },
+        {
+            "id": 178,
+            "name": "Narcos.Mexico.S01E08.720p.WEBRip.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "351aa42d59437a1bc1605c96882bb049e161e1f0",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 96811,
+            "seed": 17137
+        },
+        {
+            "id": 303,
+            "name": "毒枭：墨西哥.Narcos.Mexico.S01E02.720p-官方中字.mp4.a9e233b751dc03fe",
+            "btih": "a9e233b751dc03fe72cada4603fa2050513ebe52",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 95606,
+            "seed": 28637
+        },
+        {
+            "id": 543,
+            "name": "multi-btih-2-2x-Narcos Mexico - Temporada 1 [HDTV 720p][Cap.104_106][AC3 5.1 Castellano][www.descargas2020.com].2668aa5d4aeab6eb",
+            "btih": "2668aa5d4aeab6ebeae620c51f18f3d098401aea",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 94370,
+            "seed": 28371
+        },
+        {
+            "id": 71,
+            "name": "Narcos.Mexico.S01E02.WEBRip.x264-ION10-[rarbg.to]",
+            "btih": "b3923b1762b2e0951c16783ce93250ffe1155e94",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 93452,
+            "seed": 16183
+        },
+        {
+            "id": 307,
+            "name": "毒枭：墨西哥.Narcos.Mexico.S01E04.720p-官方中字.mp4.8bac4cc5dc1f0164",
+            "btih": "8bac4cc5dc1f0164686d9a9019b13a24a29bef78",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 93436,
+            "seed": 27536
+        },
+        {
+            "id": 263,
+            "name": "narcos.mexico.s01e02.720p.webrip.x264-strife[eztv].mkv.a4e3ee039e606261",
+            "btih": "a4e3ee039e60626189cb4c902793c76916176201",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 93209,
+            "seed": 21760
+        },
+        {
+            "id": 73,
+            "name": "Narcos.Mexico.S01E02.WEBRip.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "befb41716ed47e16af6a73b61f88ae1100df2c44",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 93062,
+            "seed": 16802
+        },
+        {
+            "id": 271,
+            "name": "narcos.mexico.s01e07.720p.webrip.x264-strife[eztv].mkv",
+            "btih": "0d47edcf20306d8d1d251b46d3ee0e97119ce20a",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 93051,
+            "seed": 27270
+        },
+        {
+            "id": 6,
+            "name": "Narcos Mexico - Temporada 1 [HDTV 720p][Cap.107_110][AC3 5.1 Castellano][www.descargas2020.com].c164df95fe8a5741",
+            "btih": "c164df95fe8a574192b96b66f014329e15de87c4",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 91711,
+            "seed": 23512
+        },
+        {
+            "id": 52,
+            "name": "Narcos.Mexico.S01E01.WEBRip.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "9fc496fbdb46e18d70b76e2023a232143a0a2b11",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 89380,
+            "seed": 18475
+        },
+        {
+            "id": 145,
+            "name": "Narcos.Mexico.S01E06.720p.WEBRip.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "2e111413e1aeef13a9c1ee6266fbd3d53313238d",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 89229,
+            "seed": 17863
+        },
+        {
+            "id": 316,
+            "name": "毒枭：墨西哥.Narcos.Mexico.S01E09.720p-官方中字.mp4.44ff7defe0dbfe2b",
+            "btih": "44ff7defe0dbfe2b4ca68892e1d9df21edc81572",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 88246,
+            "seed": 24704
+        },
+        {
+            "id": 56,
+            "name": "Narcos.Mexico.S01E01.iNTERNAL.1080p.WEB.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "efa43cdc8499ec41abfc34b09f068f4153f01144",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 87419,
+            "seed": 5131
+        },
+        {
+            "id": 552,
+            "name": "multi-btih-11-2x-Narcos.Mexico.S01.2160p.NF.WEBRip.DDP5.1.x264-DEFLATE[rartv]-[rarbg.to]",
+            "btih": "4080e60a4658a0e8f410789b958acc27885e8c69",
+            "resolution": "2160",
+            "encoding": "264",
+            "private": false,
+            "peer": 87370,
+            "seed": 8612
+        },
+        {
+            "id": 273,
+            "name": "narcos.mexico.s01e08.720p.webrip.x264-strife[eztv].mkv",
+            "btih": "e178eb7081af1b01a90c7395f88802c3c0865948",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 86226,
+            "seed": 26586
+        },
+        {
+            "id": 110,
+            "name": "Narcos.Mexico.S01E04.720p.WEBRip.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "83346308c6d64cd4d8354df1fd81521ffafe71f8",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 85136,
+            "seed": 20778
+        },
+        {
+            "id": 67,
+            "name": "Narcos.Mexico.S01E02.720p.WEBRip.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "5eb76e715593ea79da49f7ff3059ad8d41250f93",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 84518,
+            "seed": 22065
+        },
+        {
+            "id": 258,
+            "name": "acf8-Narcos.Mexico.S01.WEBRip.XviD-FUM[ettv]",
+            "btih": "158ae8dca82c1975b0efa0ffc0e4429b1cfdf7ec",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": false,
+            "peer": 84403,
+            "seed": 13362
+        },
+        {
+            "id": 556,
+            "name": "multi-btih-15-2x-[FileTracker.pl]Narcos Mexico S01 720p[wilu75].6b259f11b4ecde74",
+            "btih": "6b259f11b4ecde74497aeb195a7fe3f47c3bf275",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 83248,
+            "seed": 8569
+        },
+        {
+            "id": 206,
+            "name": "Narcos.Mexico.S01E10.720p.WEBRip.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "15d6609150ffa5dd9074c6e67271de264179e52a",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 82556,
+            "seed": 16245
+        },
+        {
+            "id": 45,
+            "name": "Narcos.Mexico.S01E01.720p.WEBRip.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "e4be8205a9112810f0a91dc8f5c8b919f2516c03",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 82345,
+            "seed": 19769
+        },
+        {
+            "id": 3,
+            "name": "Narcos Mexico (720p).95441e0673653c24",
+            "btih": "95441e0673653c2498721310593fac84b11ebc8b",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 82104,
+            "seed": 14128
+        },
+        {
+            "id": 4,
+            "name": "Narcos Mexico - Season 1 (2018) [1080p].b6ded922ce4dc71d",
+            "btih": "b6ded922ce4dc71dc43562ae103823869e71028e",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 82095,
+            "seed": 9327
+        },
+        {
+            "id": 318,
+            "name": "毒枭：墨西哥.Narcos.Mexico.S01E10-720p官方中字.mp4.831d9d10931b7ba4",
+            "btih": "831d9d10931b7ba48af9a5680d066cbf842b088d",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 81915,
+            "seed": 12210
+        },
+        {
+            "id": 13,
+            "name": "Narcos-Mexico-S01-FRENCH-WEBRip-x264-AMB3R",
+            "btih": "10482b6764ef9c26e477706dbacb6d7e78c53041",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 81905,
+            "seed": 41662
+        },
+        {
+            "id": 243,
+            "name": "[rutor.is]Narcos.Mexico.S01.720p.GostFilm",
+            "btih": "913d78fcdda12b77d3a1e82782b9c45977a71061",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 81106,
+            "seed": 3952
+        },
+        {
+            "id": 36,
+            "name": "Narcos.Mexico.S01.SweSub+MultiSubs.1080p.x264-Justiso.63a56543cdfc60e1",
+            "btih": "63a56543cdfc60e1b96beb3f8391198f5c44ca1e",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 80352,
+            "seed": 7587
+        },
+        {
+            "id": 242,
+            "name": "[rutor.is]Narcos.Mexico.S01.720p.ColdFilm",
+            "btih": "cf3b513143390e17f9e66770f6bb08143f58b819",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 80129,
+            "seed": 16553
+        },
+        {
+            "id": 127,
+            "name": "Narcos.Mexico.S01E05.720p.WEBRip.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "1c512e85680f7544b73f92c6e689f28810b9284f",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 79691,
+            "seed": 18211
+        },
+        {
+            "id": 31,
+            "name": "Narcos.Mexico.S01.720p.NF.WEB-DL.x264.MkvCage.ws.2ce1f9e382c25d46",
+            "btih": "2ce1f9e382c25d46f3e94d116fc7848ecf82c29c",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 78799,
+            "seed": 16419
+        },
+        {
+            "id": 59,
+            "name": "Narcos.Mexico.S01E02.1080p.WEBRip.X264-DEFLATE[rartv]-[rarbg.to]",
+            "btih": "762ae52fe56ab1c0752f5391e8a3d12029504d18",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 78043,
+            "seed": 5716
+        },
+        {
+            "id": 181,
+            "name": "Narcos.Mexico.S01E08.WEBRip.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "43c2820a330018097b9e96b0f83381ca9564e2c0",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 77853,
+            "seed": 19444
+        },
+        {
+            "id": 251,
+            "name": "[rutor.is]Narcos_Mexico_S01_2018_WEBRip_Gears_Media",
+            "btih": "6296e17be5bbc716f9d4ae7d2a90e365a8f4cfa8",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 77425,
+            "seed": 953
+        },
+        {
+            "id": 306,
+            "name": "毒枭：墨西哥.Narcos.Mexico.S01E03.720p.WEBRip.x264.双语字幕-深影字幕组.mp4.cb82b26e138b098d",
+            "btih": "cb82b26e138b098df00bf54133b1df16d51d4c42",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 77127,
+            "seed": 1858
+        },
+        {
+            "id": 88,
+            "name": "Narcos.Mexico.S01E03.720p.WEBRip.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "9dac3492001725a0840b7d6ca5059ff640768f72",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 74841,
+            "seed": 17931
+        },
+        {
+            "id": 208,
+            "name": "Narcos.Mexico.S01E10.WEBRip.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "7c91767af5fa3d8264ed68d0f74f636a96a0d589",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 74682,
+            "seed": 20232
+        },
+        {
+            "id": 118,
+            "name": "Narcos.Mexico.S01E04.iNTERNAL.1080p.WEB.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "06e2aa925ba79f9a0a5d00eaa169c3e1b0ddf179",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 74582,
+            "seed": 6192
+        },
+        {
+            "id": 319,
+            "name": "毒枭：墨西哥.Narcos.Mexico.S01E10.720p-官方中字.mp4.d5e181467c6b11b4",
+            "btih": "d5e181467c6b11b4e6c872d6a789b784045a9297",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 74526,
+            "seed": 16159
+        },
+        {
+            "id": 34,
+            "name": "Narcos.Mexico.S01.ITA.ENG.1080p.NF.WEBMux.DD5.1.x264-Morpheus.8454dbaee6db4124",
+            "btih": "8454dbaee6db412470f7def211da97d516140ef2",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 73580,
+            "seed": 10455
+        },
+        {
+            "id": 193,
+            "name": "Narcos.Mexico.S01E09.720p.WEBRip.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "31c877d8ed71a54fa7ade5abd0c00ebe51f483db",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 73179,
+            "seed": 16144
+        },
+        {
+            "id": 547,
+            "name": "multi-btih-6-2x-Narcos-Mexico-S01E04-2160p-XviD-AFG",
+            "btih": "5ad11faf84ebaf2a2ff698564546eb91d346746c",
+            "resolution": "2160",
+            "encoding": "xvid",
+            "private": false,
+            "peer": 72397,
+            "seed": 1180
+        },
+        {
+            "id": 544,
+            "name": "multi-btih-3-2x-Narcos Mexico S01 1080p NF WEB-DL DD5.1 H264-[Torrenta2z].853714c6b92cd7df",
+            "btih": "853714c6b92cd7df2ef359595a91b3e16a1b9ad9",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 71532,
+            "seed": 3763
+        },
+        {
+            "id": 154,
+            "name": "Narcos.Mexico.S01E07.1080p.WEBRip.X264-DEFLATE[rartv]-[rarbg.to]",
+            "btih": "efab3fd45448bddca61b556a85bb0b48bb89c4ba",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 70862,
+            "seed": 5135
+        },
+        {
+            "id": 90,
+            "name": "Narcos.Mexico.S01E03.El.Padrino.SPANISH.720p.10bit.WEBRip.2CH.x265.HEVC-PSA.mkv.31da50e77a8d5174",
+            "btih": "31da50e77a8d5174f38c3b6145c295a604722de7",
+            "resolution": "720",
+            "encoding": "265",
+            "private": false,
+            "peer": 69850,
+            "seed": 1481
+        },
+        {
+            "id": 282,
+            "name": "www.torrenting.com - Narcos.Mexico.S01E07.XviD-AFG.e01782890f2591c5",
+            "btih": "e01782890f2591c53ebf4eff21450e0db8d53bba",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": false,
+            "peer": 69823,
+            "seed": 3245
+        },
+        {
+            "id": 97,
+            "name": "Narcos.Mexico.S01E03.iNTERNAL.1080p.WEB.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "aa7ac7ebbe1005a98920310492d6bf33c5527da8",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 69817,
+            "seed": 6532
+        },
+        {
+            "id": 302,
+            "name": "毒枭：墨西哥.Narcos.Mexico.S01E01.720p.WEBRip.x264.双语字幕-深影字幕组.mp4.1fc6a55c8a3ae2dd",
+            "btih": "1fc6a55c8a3ae2dd131583492055d8cf62c82d4b",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 69562,
+            "seed": 1529
+        },
+        {
+            "id": 112,
+            "name": "Narcos.Mexico.S01E04.Rafa.Rafa.Rafa.SPANISH.720p.10bit.WEBRip.2CH.x265.HEVC-PSA.mkv.616966e552acbf7d",
+            "btih": "616966e552acbf7d92a45b8cea33b5b8e0d93847",
+            "resolution": "720",
+            "encoding": "265",
+            "private": false,
+            "peer": 67885,
+            "seed": 1493
+        },
+        {
+            "id": 148,
+            "name": "Narcos.Mexico.S01E06.WEBRip.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "56f6a2b8170cafd689f31755722175e703e9e1c3",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 67512,
+            "seed": 20694
+        },
+        {
+            "id": 245,
+            "name": "[rutor.is]Narcos.Mexico.S01.WEBRip.HorizonStudio",
+            "btih": "5ace8b79534cb97668c38422576afacc29697cc7",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 66967,
+            "seed": 2047
+        },
+        {
+            "id": 545,
+            "name": "multi-btih-4-2x-Narcos-Mexico-1x01-10-WEBMux-XviD-Ita-Eng-5-1-Earine",
+            "btih": "a6c4104afbcdb2507471e8a5df8a6086fd88bbcf",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": false,
+            "peer": 65935,
+            "seed": 8290
+        },
+        {
+            "id": 169,
+            "name": "Narcos.Mexico.S01E07.iNTERNAL.1080p.WEB.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "1ff252693a06659295d30135176f6a8cfa4baff9",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 65582,
+            "seed": 6518
+        },
+        {
+            "id": 41,
+            "name": "Narcos.Mexico.S01E01.1080p.WEBRip.X264-DEFLATE[rartv]-[rarbg.to]",
+            "btih": "fe6b688bcb88e4bc5444573b04e77a43cb74a086",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 65234,
+            "seed": 7033
+        },
+        {
+            "id": 196,
+            "name": "Narcos.Mexico.S01E09.WEBRip.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "c0e92acf1cfbbee4d1b5a580a4fc921b74bdf1fc",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 65173,
+            "seed": 18914
+        },
+        {
+            "id": 548,
+            "name": "multi-btih-7-2x-Narcos-Mexico-S01E05-2160p-480p-x264-mSD",
+            "btih": "b05b30ae5a92caef6127cebd41384529b6b29af3",
+            "resolution": "2160",
+            "encoding": "264",
+            "private": false,
+            "peer": 64610,
+            "seed": 2420
+        },
+        {
+            "id": 240,
+            "name": "[rutor.is]Narcos.Mexico.S01.400p.ColdFilm",
+            "btih": "793343df9d9f602ba4f04a38e2a4a1f00f2f3588",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 60974,
+            "seed": 10754
+        },
+        {
+            "id": 229,
+            "name": "[limetorrents.info]Narcos.Mexico.S01E03.2160p.XviD-AFG",
+            "btih": "19e7d1e51d44355ec75a9311e6e4f0a9a058b3ba",
+            "resolution": "2160",
+            "encoding": "xvid",
+            "private": false,
+            "peer": 60911,
+            "seed": 3201
+        },
+        {
+            "id": 227,
+            "name": "[limetorrents.info]Narcos.Mexico.S01E03.1080p.WEB-DL.x264.-.ExYuSubs",
+            "btih": "dd1c4887aec81f960f1eb47dde64aad58ec6ce61",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 60211,
+            "seed": 3311
+        },
+        {
+            "id": 250,
+            "name": "[rutor.is]Narcos_Mexico_S01_2018_720p_WEBRip_Gears_Media",
+            "btih": "7d734888f764702bed755a4ae73799c1542597ad",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 59835,
+            "seed": 703
+        },
+        {
+            "id": 285,
+            "name": "www.torrenting.com - Narcos.Mexico.S01E10.XviD-AFG.8f874f22b0575771",
+            "btih": "8f874f22b0575771a84d05319cb1845b13950083",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": false,
+            "peer": 59168,
+            "seed": 2982
+        },
+        {
+            "id": 137,
+            "name": "Narcos.Mexico.S01E06.1080p.WEBRip.X264-DEFLATE[rartv]-[rarbg.to]",
+            "btih": "f9c6310c1247ee6904961643e4ab408f259144f0",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 58218,
+            "seed": 5299
+        },
+        {
+            "id": 77,
+            "name": "Narcos.Mexico.S01E02.iNTERNAL.1080p.WEB.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "e54681adb66d45cb7a47e1de93324eac52fa22f0",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 57293,
+            "seed": 6101
+        },
+        {
+            "id": 201,
+            "name": "Narcos.Mexico.S01E10.1080p.WEBRip.X264-DEFLATE[rartv]-[rarbg.to]",
+            "btih": "f0d65b4bf410ccdda1e6122bf359f5ec90c1200e",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 57097,
+            "seed": 5836
+        },
+        {
+            "id": 281,
+            "name": "www.torrenting.com - Narcos.Mexico.S01E06.720p.HEVC.x265-MeGusta.1525080f4e3d4464",
+            "btih": "1525080f4e3d4464d175c7290fa5ab8d288b19f6",
+            "resolution": "720",
+            "encoding": "265",
+            "private": false,
+            "peer": 56593,
+            "seed": 3124
+        },
+        {
+            "id": 246,
+            "name": "[rutor.is]Narcos.Mexico.S01",
+            "btih": "c67a621e6428d34a2378f6d9d34599f0debf5cd1",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 56206,
+            "seed": 913
+        },
+        {
+            "id": 171,
+            "name": "Narcos.Mexico.S01E08.1080p.WEBRip.X264-DEFLATE[rartv]-[rarbg.to]",
+            "btih": "9a9578ee8501c3a1c3cf472d2ae34f4e0a1eb5cc",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 55676,
+            "seed": 5313
+        },
+        {
+            "id": 238,
+            "name": "[rutor.is]Narcos.Mexico.S01.1080p.GostFilm",
+            "btih": "3e37cda02ff1c02008f9ffb9f1c370dde12f973b",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 55463,
+            "seed": 5120
+        },
+        {
+            "id": 214,
+            "name": "[ www.Torrent9.PH ] Narcos Mexico S01E01 VOSTFR WEBRip XviD-ZT.101da555a349647d",
+            "btih": "101da555a349647d5c4d619cf2bda04a6b868727",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": false,
+            "peer": 55218,
+            "seed": 11242
+        },
+        {
+            "id": 9,
+            "name": "Narcos Mexico S01 720p NF WEB-DL DD5.1 H264-[Torrenta2z].7bcf447f6acf92db",
+            "btih": "7bcf447f6acf92dbd23f4c963512606ae19dbdbb",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 54373,
+            "seed": 2814
+        },
+        {
+            "id": 559,
+            "name": "multi-btih-18-2x-[rutor.is]Narcos_Mexico",
+            "btih": "c56e7ee7a11cef6e54bfad348129c226bfdeeadf",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 53580,
+            "seed": 5337
+        },
+        {
+            "id": 224,
+            "name": "[limetorrents.info]Narcos.Mexico.S01E02.2160p.480p.x264-mSD",
+            "btih": "9e3072c36961bd199bdc26c8d877f16e868e0a25",
+            "resolution": "2160",
+            "encoding": "264",
+            "private": false,
+            "peer": 53410,
+            "seed": 5053
+        },
+        {
+            "id": 30,
+            "name": "Narcos.Mexico.S01.480p.NF.WEB-DL.AAC.264-[Torrenta2z].6a4004bf3b25edc1",
+            "btih": "6a4004bf3b25edc106fb4596ff17abc71746370c",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 53170,
+            "seed": 4110
+        },
+        {
+            "id": 119,
+            "name": "Narcos.Mexico.S01E05.1080p.WEBRip.X264-DEFLATE[rartv]-[rarbg.to]",
+            "btih": "b56e2d5ec8a00d06bba46282368f6a1ba8d770f6",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 52963,
+            "seed": 5488
+        },
+        {
+            "id": 80,
+            "name": "Narcos.Mexico.S01E03.1080p.WEBRip.X264-DEFLATE[rartv]-[rarbg.to]",
+            "btih": "b22bd2f64b62304c3e86a513fc71244fb1d0b47e",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 52881,
+            "seed": 5476
+        },
+        {
+            "id": 212,
+            "name": "Narcos.Mexico.S01E10.iNTERNAL.1080p.WEB.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "8ebdbf52930186a3f7494c8651d877ad11847657",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 52593,
+            "seed": 6509
+        },
+        {
+            "id": 226,
+            "name": "[limetorrents.info]Narcos.Mexico.S01E02.MULTi.1080p.HEVC.x265-MeGusta",
+            "btih": "3a066d22a91bd579f325418747b0379a7aad76e8",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 52150,
+            "seed": 1513
+        },
+        {
+            "id": 33,
+            "name": "Narcos.Mexico.S01.COMPLETE.XviD-AFG[TGx].d8be19ba27db9447",
+            "btih": "d8be19ba27db9447ea0bb9daaedc3fab6050ce38",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": false,
+            "peer": 52077,
+            "seed": 6690
+        },
+        {
+            "id": 217,
+            "name": "[HD-ELITE.ME]...Narcos.Mexico.S01.1080p.NF.WEB-DL.DD5.1.x264-PiA.e47855f05c395fbc",
+            "btih": "e47855f05c395fbc0145805527a8357bea3c0dcf",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 51194,
+            "seed": 1166
+        },
+        {
+            "id": 291,
+            "name": "Нарко Мексика Narcos Mexico Сезон 1 Серии 1-10 из 10 (Карло Бернард, Даг Миро) [2018, США, драма, криминал, WEBRip 720p] [rutracker-5647293]",
+            "btih": "d88ae6b0db6b0c9096fd9ade920649bade5db276",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 50994,
+            "seed": 3597
+        },
+        {
+            "id": 546,
+            "name": "multi-btih-5-2x-Narcos-Mexico-S01E04-2160p-480p-x264-mSD",
+            "btih": "6805ddc7750f6dd54a1c151375c70bbd46a95ece",
+            "resolution": "2160",
+            "encoding": "264",
+            "private": false,
+            "peer": 50957,
+            "seed": 2684
+        },
+        {
+            "id": 300,
+            "name": "Нарко Мексика Narcos Mexico Сезон 1 Серии 1-5 из 10 (Карло Бернард, Даг Миро) [2018, США, драма, криминал, WEBRip] DVO ( [rutracker-5647327]",
+            "btih": "2049399cbd2fc5724d14c2cf83738ffda854783b",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 50949,
+            "seed": 1306
+        },
+        {
+            "id": 152,
+            "name": "Narcos.Mexico.S01E06.iNTERNAL.1080p.WEB.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "b9ea74239309bf8e4d77aefc81d70605f78ec54a",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 50908,
+            "seed": 5699
+        },
+        {
+            "id": 186,
+            "name": "Narcos.Mexico.S01E09.1080p.WEBRip.X264-DEFLATE[rartv]-[rarbg.to]",
+            "btih": "f50a82f5a61f7cd85a84fea018b9b604c74a9a38",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 50304,
+            "seed": 5522
+        },
+        {
+            "id": 234,
+            "name": "[limetorrents.info]Narcos.Mexico.S01E09.2160p.WEBRip.X264-DEFLATE",
+            "btih": "372b055ef6a154035ebaeb4c54e22673f5d9eeb2",
+            "resolution": "2160",
+            "encoding": "264",
+            "private": false,
+            "peer": 49670,
+            "seed": 552
+        },
+        {
+            "id": 241,
+            "name": "[rutor.is]Narcos.Mexico.S01.400p.GostFilm",
+            "btih": "6198b44cbc16eafe178f61e00e99e94f850133b7",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 48784,
+            "seed": 3292
+        },
+        {
+            "id": 239,
+            "name": "[rutor.is]Narcos.Mexico.S01.1080p",
+            "btih": "0a1f7d11aee047b09a39d3f6ed9eb8b0ba367b03",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 48421,
+            "seed": 3353
+        },
+        {
+            "id": 49,
+            "name": "Narcos.Mexico.S01E01.WEBRip.HamsterStudio.Org.avi.c38fa06a6a0cb1f4",
+            "btih": "c38fa06a6a0cb1f40a8534e2c99cf7ad74a2d5d2",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 48148,
+            "seed": 706
+        },
+        {
+            "id": 199,
+            "name": "Narcos.Mexico.S01E09.iNTERNAL.1080p.WEB.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "a85ea08efe5045912108907fc94a5737aaa6b017",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 47661,
+            "seed": 6268
+        },
+        {
+            "id": 215,
+            "name": "[AgusiQ-TorrentS.pl] Narcos.Mexico.S01.PL.480p-H3Q [AgusiQ].426759181c04ad48",
+            "btih": "426759181c04ad48a6723b5af3a7fc1500043d1d",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 47648,
+            "seed": 3859
+        },
+        {
+            "id": 29,
+            "name": "Narcos.Mexico.S01.400p.KosharaSerials.bfd6e5a947041a10",
+            "btih": "bfd6e5a947041a10f7283ed10191744cb5db4add",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 47380,
+            "seed": 2078
+        },
+        {
+            "id": 312,
+            "name": "毒枭：墨西哥.Narcos.Mexico.S01E06.720p.WEBRip.x264.双语字幕-深影字幕组.mp4.5072b84c95aae39b",
+            "btih": "5072b84c95aae39b3f20edf460ff1786e80996f8",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 47078,
+            "seed": 2000
+        },
+        {
+            "id": 283,
+            "name": "www.torrenting.com - Narcos.Mexico.S01E08.480p.x264-mSD.602a71e59f23006d",
+            "btih": "602a71e59f23006d44c524a835a5d660ff0d5782",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 46891,
+            "seed": 3819
+        },
+        {
+            "id": 308,
+            "name": "毒枭：墨西哥.Narcos.Mexico.S01E04.720p.WEBRip.x264.双语字幕-深影字幕组.mp4.cb14e28af3612deb",
+            "btih": "cb14e28af3612deba27352b4724db562c96c5536",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 46632,
+            "seed": 909
+        },
+        {
+            "id": 18,
+            "name": "Narcos.Mexico (Season  01) HamsterStudio.84938cef37175107",
+            "btih": "84938cef37175107ec8854b132109dec94efc8e5",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 46174,
+            "seed": 702
+        },
+        {
+            "id": 557,
+            "name": "multi-btih-16-2x-[rutor.is]Narcos.Mexico.NS",
+            "btih": "c86f1563c38b9c64f6191c3843ed6418758dbeb0",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 45333,
+            "seed": 2600
+        },
+        {
+            "id": 222,
+            "name": "[limetorrents.info]Narcos.Mexico.S01E01.1080p.WEB-DL.x264.-.ExYuSubs",
+            "btih": "ff23625dde1d0e7d53c9f2552fca8cc43376c038",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 45173,
+            "seed": 3832
+        },
+        {
+            "id": 235,
+            "name": "[limetorrents.info]Narcos.Mexico.S01E10.2160p.XviD-AFG",
+            "btih": "b8970c11ab3d98edbbdd1784d6d8bd8ea6a0bca5",
+            "resolution": "2160",
+            "encoding": "xvid",
+            "private": false,
+            "peer": 45020,
+            "seed": 2815
+        },
+        {
+            "id": 249,
+            "name": "[rutor.is]Narcos_Mexico_S01_1080p_LakeFilms_torrent",
+            "btih": "f5eea5ec650b359acc156bfea3a0e7eab452f1b7",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 44873,
+            "seed": 533
+        },
+        {
+            "id": 184,
+            "name": "Narcos.Mexico.S01E08.iNTERNAL.1080p.WEB.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "f4af2a8d0d33eae1a60a96b48cc7c0e730fbee2e",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 44631,
+            "seed": 5330
+        },
+        {
+            "id": 290,
+            "name": "Нарко Мексика Narcos Mexico Сезон 1 Серии 1-10 из 10 (Андрес Байс, Амат Эскаланте, Алонсо Руис Палашиос, Джозеф Владыка) [rutracker-5653450",
+            "btih": "02621ef14e747ac6bd00195fcbf48f67e3775b69",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 44317,
+            "seed": 4390
+        },
+        {
+            "id": 100,
+            "name": "Narcos.Mexico.S01E04.1080p.WEBRip.X264-DEFLATE[rartv]-[rarbg.to]",
+            "btih": "0780b25eb88e7edccd3f48adb2f78e50a430842f",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 44316,
+            "seed": 6264
+        },
+        {
+            "id": 225,
+            "name": "[limetorrents.info]Narcos.Mexico.S01E02.2160p.XviD-AFG",
+            "btih": "cbbce8d4cbdebeaad53825cd9a6300ae9c799338",
+            "resolution": "2160",
+            "encoding": "xvid",
+            "private": false,
+            "peer": 43802,
+            "seed": 3636
+        },
+        {
+            "id": 262,
+            "name": "narcos.mexico.s01e02.720p.webrip.x264-strife.mkv.0d179bcd0eafe548",
+            "btih": "0d179bcd0eafe54895b676d124fdf21074fd6a3d",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 43663,
+            "seed": 2581
+        },
+        {
+            "id": 233,
+            "name": "[limetorrents.info]Narcos.Mexico.S01E05.2160p.XviD-AFG",
+            "btih": "568999e9ff33fa1af65d6bc85ec78a492ff20cc4",
+            "resolution": "2160",
+            "encoding": "xvid",
+            "private": false,
+            "peer": 43647,
+            "seed": 2704
+        },
+        {
+            "id": 253,
+            "name": "[rutor.is]Narcos_Mexico_S01_SD_LakeFilms",
+            "btih": "4628691b223ff6621a9fa44e52ea4344d0ba94f4",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 43435,
+            "seed": 4729
+        },
+        {
+            "id": 292,
+            "name": "Нарко Мексика Narcos Mexico Сезон 1 Серии 1-10 из 10 (Карло Бернард, Даг Миро) [2018, США, драма, криминал, WEBRip] DVO [rutracker-5647327]",
+            "btih": "3a00d291689684eaf204bb18dffb94eb8a546b3f",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 42735,
+            "seed": 5332
+        },
+        {
+            "id": 298,
+            "name": "Нарко Мексика Narcos Mexico Сезон 1 Серии 1-5 из 10 (Гильермо Наварро, Фернандо Коимбра, Андрес Байс) [2018, США, Мексик [rutracker-5655778]",
+            "btih": "81acbde5691bb71501cd24e1a97232cc49c0a41f",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 42503,
+            "seed": 451
+        },
+        {
+            "id": 284,
+            "name": "www.torrenting.com - Narcos.Mexico.S01E09.720p.HEVC.x265-MeGusta.94f250bac811d51f",
+            "btih": "94f250bac811d51f922640f21d14caff6caa1003",
+            "resolution": "720",
+            "encoding": "265",
+            "private": false,
+            "peer": 42174,
+            "seed": 4519
+        },
+        {
+            "id": 310,
+            "name": "毒枭：墨西哥.Narcos.Mexico.S01E05.720p.WEBRip.x264.双语字幕-深影字幕组.mp4.00c11f010129184f",
+            "btih": "00c11f010129184f1c001b5975a85a417ded1c86",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 39860,
+            "seed": 1702
+        },
+        {
+            "id": 256,
+            "name": "[rutor.is]Narko_4_sezon_Lost_scarabey.org",
+            "btih": "e46e8f2938d2048f2f5f93c9fe74b866a903bd83",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 39258,
+            "seed": 914
+        },
+        {
+            "id": 223,
+            "name": "[limetorrents.info]Narcos.Mexico.S01E02.1080p.WEB-DL.x264.-.ExYuSubs",
+            "btih": "ecca850855f6285dd005fa0fc5a26377957023e9",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 38949,
+            "seed": 3062
+        },
+        {
+            "id": 289,
+            "name": "Нарко Мексика Narcos Mexico Сезон 1 Серии 1-10 из 10 (Андрес Байс, Амат Эскаланте, Алонсо Руис Палашиос, Джозеф Владыка) [rutracker-5653448",
+            "btih": "ad4e213f0c43cb34e5081c03579ba014457324e7",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 38891,
+            "seed": 4128
+        },
+        {
+            "id": 294,
+            "name": "Нарко Мексика Narcos Mexico Сезон 1 Серии 1-4 из 10 (Андрес Байс, Амат Эскаланте, Алонсо Руис Палашиос) [2018, США, Драм [rutracker-5656739]",
+            "btih": "819637bf9193ac4e788c94dc42e96d9f23b7d370",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 38851,
+            "seed": 1109
+        },
+        {
+            "id": 254,
+            "name": "[rutor.is]Narcos_Mexico_S01_SD_LakeFilms_torrent",
+            "btih": "bc3baaad9b9b39a0030eb0cbe0d9ef75e0b04545",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 37735,
+            "seed": 711
+        },
+        {
+            "id": 17,
+            "name": "Narcos-Mexico-S01E08-1080p-WEB-DL-x264--ExYuSubs",
+            "btih": "09d9e459a34eabbd5006743ebdd7373bae08cf0f",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 37711,
+            "seed": 707
+        },
+        {
+            "id": 315,
+            "name": "毒枭：墨西哥.Narcos.Mexico.S01E08.720p.WEBRip.x264.双语字幕-深影字幕组.mp4.f428d1d98dc35810",
+            "btih": "f428d1d98dc358107e5c58501485fbee1ebbb806",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 37435,
+            "seed": 994
+        },
+        {
+            "id": 320,
+            "name": "毒枭：墨西哥.Narcos.Mexico.S01E10.720p.WEBRip.x264.双语字幕-深影字幕组.mp4.0809bdc33742087d",
+            "btih": "0809bdc33742087d847d2995b0ce0bde7406668c",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 37015,
+            "seed": 2605
+        },
+        {
+            "id": 134,
+            "name": "Narcos.Mexico.S01E05.iNTERNAL.1080p.WEB.x264-STRiFE[rartv]-[rarbg.to]",
+            "btih": "aa81624c8a74c35afc76c7711fafba92ad9eae13",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 36441,
+            "seed": 5954
+        },
+        {
+            "id": 228,
+            "name": "[limetorrents.info]Narcos.Mexico.S01E03.2160p.480p.x264-mSD",
+            "btih": "15140c6565e599f17c7262a09701071e7ecbd9f2",
+            "resolution": "2160",
+            "encoding": "264",
+            "private": false,
+            "peer": 35989,
+            "seed": 3152
+        },
+        {
+            "id": 317,
+            "name": "毒枭：墨西哥.Narcos.Mexico.S01E09.720p.WEBRip.x264.双语字幕-深影字幕组.mp4.3ec173b055cc27ce",
+            "btih": "3ec173b055cc27cefc3826630791e9d03a6f44d1",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 35780,
+            "seed": 1388
+        },
+        {
+            "id": 293,
+            "name": "Нарко Мексика Narcos Mexico Сезон 1 Серии 1-2 из 10 (Карло Бернард, Крис Бренкето, Даг Миро) [2018, США, драма, криминал [rutracker-5649897]",
+            "btih": "2978e9e88722e878bb57e5eff7b7ac8dddde5b3d",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 33929,
+            "seed": 3617
+        },
+        {
+            "id": 558,
+            "name": "multi-btih-17-2x-[rutor.is]NarcosMexicoNewStudio",
+            "btih": "de87e2958dce6d740379a39f673f72ea68d20487",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 33381,
+            "seed": 1942
+        },
+        {
+            "id": 257,
+            "name": "a26c-Narcos.Mexico.S01.1080p.NF.WEB-DL.DD5.1.AC3.H264-NG[ettv]",
+            "btih": "2577814902b8d140c8e65b49bdd7c2b089310780",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 32722,
+            "seed": 6945
+        },
+        {
+            "id": 255,
+            "name": "[rutor.is]NarkoMeksika",
+            "btih": "0bbf5c466e0280d198ad5a0a99f7831315e8a642",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 32689,
+            "seed": 481
+        },
+        {
+            "id": 304,
+            "name": "毒枭：墨西哥.Narcos.Mexico.S01E02.720p.WEBRip.x264.双语字幕-深影字幕组.mp4.b889568673dd0c63",
+            "btih": "b889568673dd0c634294835bb95ebfdba14a6075",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 32325,
+            "seed": 1888
+        },
+        {
+            "id": 299,
+            "name": "Нарко Мексика Narcos Mexico Сезон 1 Серии 1-5 из 10 (Карло Бернард, Даг Миро) [2018, США, драма, криминал, WEBRip 720p] [rutracker-5647293]",
+            "btih": "34a7aa549c9399697943e2151d858183dd3a0630",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 32199,
+            "seed": 1031
+        },
+        {
+            "id": 244,
+            "name": "[rutor.is]Narcos.Mexico.S01.720p.WEBRip.HorizonStudio",
+            "btih": "0fbee9a84bb885b4c61f5eb00ebbafe201ab2b20",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 27788,
+            "seed": 601
+        },
+        {
+            "id": 10,
+            "name": "Narcos Mexico S01 COMPLETE 720p WEB-DL x264 ESubs - MkvHub.Com.158b3c64d73ded30",
+            "btih": "158b3c64d73ded308e9177661ff744802eb352f9",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 27364,
+            "seed": 5396
+        },
+        {
+            "id": 295,
+            "name": "Нарко Мексика Narcos Mexico Сезон 1 Серии 1-4 из 10 (Карло Бернард, Крис Бренкето, Даг Миро) [2018, США, драма, криминал [rutracker-5649897]",
+            "btih": "32634350f4622de305d01263562d1b44798c5868",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 26522,
+            "seed": 1523
+        },
+        {
+            "id": 252,
+            "name": "[rutor.is]Narcos_Mexico_S01_720p_LakeFilms_torrent",
+            "btih": "a5e094ef2fb08e89325ed7780a3054cc740a3da5",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 20391,
+            "seed": 587
+        },
+        {
+            "id": 20,
+            "name": "Narcos.Mexico.S01.1080p.NF.WEB-DL.DD5.1.x264-NG [IPT]",
+            "btih": "baf2cceefa5b547249a3563c9e1a612186e76275",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 7672,
+            "seed": 3996
+        },
+        {
+            "id": 11,
+            "name": "Narcos Mexico S01 web fa hc hevc-d3g [IPT]",
+            "btih": "04a2bb9a0abdd28ba17b002f30786516ec5b10bb",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 5379,
+            "seed": 2495
+        },
+        {
+            "id": 53,
+            "name": "Narcos.Mexico.S01E01.XviD-AFG [IPT]",
+            "btih": "2ae662a765b4ba1dc55237e4fbb02e5b32e1990d",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 2189,
+            "seed": 1106
+        },
+        {
+            "id": 43,
+            "name": "Narcos.Mexico.S01E01.720p.HEVC.x265-MeGusta [IPT]",
+            "btih": "b7e5e2b70a4e6f0e13d49c4d5d2b75eaec39494a",
+            "resolution": "720",
+            "encoding": "265",
+            "private": true,
+            "peer": 1777,
+            "seed": 940
+        },
+        {
+            "id": 66,
+            "name": "Narcos.Mexico.S01E02.720p.WEBRip.x264-STRiFE [IPT]",
+            "btih": "7f9a6a76c9492f5dfe67d4775c0de87cefd2a4c2",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 1752,
+            "seed": 818
+        },
+        {
+            "id": 26,
+            "name": "Narcos.Mexico.S01.1080p.WEBRip.X264-DEFLATE [NO RAR] [IPT]",
+            "btih": "0994ef1736af4d17b36bfed361b93e2efd82bd77",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 1724,
+            "seed": 898
+        },
+        {
+            "id": 160,
+            "name": "Narcos.Mexico.S01E07.720p.HEVC.x265-MeGusta [IPT]",
+            "btih": "dabecf80ea2988212c6cbaecffb8cb54b46036aa",
+            "resolution": "720",
+            "encoding": "265",
+            "private": true,
+            "peer": 1710,
+            "seed": 969
+        },
+        {
+            "id": 74,
+            "name": "Narcos.Mexico.S01E02.XviD-AFG [IPT]",
+            "btih": "e5a7b7ce82b60e55a8986aa7ab936bd8909161ef",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 1707,
+            "seed": 851
+        },
+        {
+            "id": 204,
+            "name": "Narcos.Mexico.S01E10.720p.HEVC.x265-MeGusta [IPT]",
+            "btih": "7f5ac2d86c2bc42cf6c6468c3def7d32677e0b16",
+            "resolution": "720",
+            "encoding": "265",
+            "private": true,
+            "peer": 1684,
+            "seed": 956
+        },
+        {
+            "id": 191,
+            "name": "Narcos.Mexico.S01E09.720p.HEVC.x265-MeGusta [IPT]",
+            "btih": "4c4e79f1b39b331ae1a6a82b534ef170e61c147f",
+            "resolution": "720",
+            "encoding": "265",
+            "private": true,
+            "peer": 1678,
+            "seed": 906
+        },
+        {
+            "id": 65,
+            "name": "Narcos.Mexico.S01E02.720p.HEVC.x265-MeGusta [IPT]",
+            "btih": "3bfa278b26d5dd2e6fad7169b3a1194ab9af03ab",
+            "resolution": "720",
+            "encoding": "265",
+            "private": true,
+            "peer": 1557,
+            "seed": 899
+        },
+        {
+            "id": 94,
+            "name": "Narcos.Mexico.S01E03.XviD-AFG [IPT]",
+            "btih": "5288ef25fce9f2d3aed1a82370c6827455cfe076",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 1520,
+            "seed": 752
+        },
+        {
+            "id": 86,
+            "name": "Narcos.Mexico.S01E03.720p.HEVC.x265-MeGusta [IPT]",
+            "btih": "48d08faa064b330f0f915c66e882b4323f6b99ff",
+            "resolution": "720",
+            "encoding": "265",
+            "private": true,
+            "peer": 1496,
+            "seed": 881
+        },
+        {
+            "id": 176,
+            "name": "Narcos.Mexico.S01E08.720p.HEVC.x265-MeGusta [IPT]",
+            "btih": "94ba0872a4588f241d1a950bfa564bf27ad8c8e1",
+            "resolution": "720",
+            "encoding": "265",
+            "private": true,
+            "peer": 1481,
+            "seed": 872
+        },
+        {
+            "id": 44,
+            "name": "Narcos.Mexico.S01E01.720p.WEBRip.x264-STRiFE [IPT]",
+            "btih": "6d6460c7b9b15c8c1e919e1e2f4b8660a65c351c",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 1447,
+            "seed": 748
+        },
+        {
+            "id": 42,
+            "name": "Narcos.Mexico.S01E01.480p.x264-mSD [IPT]",
+            "btih": "c6ac882a026b6bdbfeda98be37804b5f2b98f440",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 1419,
+            "seed": 795
+        },
+        {
+            "id": 115,
+            "name": "Narcos.Mexico.S01E04.XviD-AFG [IPT]",
+            "btih": "845ca3f237ce0cd83f66d5c8b981f9686eebd952",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 1412,
+            "seed": 747
+        },
+        {
+            "id": 209,
+            "name": "Narcos.Mexico.S01E10.XviD-AFG [IPT]",
+            "btih": "e9a2b62fde20741f71352f6a5dd8be5d14c21bd3",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 1380,
+            "seed": 792
+        },
+        {
+            "id": 131,
+            "name": "Narcos.Mexico.S01E05.XviD-AFG [IPT]",
+            "btih": "0b860bdeb5bb5d2eebb3895c96d04a5f78c9d3d8",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 1352,
+            "seed": 740
+        },
+        {
+            "id": 106,
+            "name": "Narcos.Mexico.S01E04.720p.HEVC.x265-MeGusta [IPT]",
+            "btih": "55df4b07dd2659bb40c1b5311418290ce4b6605f",
+            "resolution": "720",
+            "encoding": "265",
+            "private": true,
+            "peer": 1309,
+            "seed": 778
+        },
+        {
+            "id": 182,
+            "name": "Narcos.Mexico.S01E08.XviD-AFG [IPT]",
+            "btih": "9046b759612e896a22875b3e8b8a7fbdeae7c8be",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 1307,
+            "seed": 709
+        },
+        {
+            "id": 125,
+            "name": "Narcos.Mexico.S01E05.720p.HEVC.x265-MeGusta [IPT]",
+            "btih": "0d411307d53ec520fe8387d52d9e81097a8d7759",
+            "resolution": "720",
+            "encoding": "265",
+            "private": true,
+            "peer": 1290,
+            "seed": 804
+        },
+        {
+            "id": 167,
+            "name": "Narcos.Mexico.S01E07.XviD-AFG [IPT]",
+            "btih": "f4a5ed367a6072b6b6b8a1df8d6fc5be9a330c4f",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 1284,
+            "seed": 725
+        },
+        {
+            "id": 197,
+            "name": "Narcos.Mexico.S01E09.XviD-AFG [IPT]",
+            "btih": "8f4c45a409c0d04ad4b0c6b449e328b15aa88e38",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 1272,
+            "seed": 702
+        },
+        {
+            "id": 143,
+            "name": "Narcos.Mexico.S01E06.720p.HEVC.x265-MeGusta [IPT]",
+            "btih": "a189c1b3839bbf4b9aecc32b66aa94ef4c413529",
+            "resolution": "720",
+            "encoding": "265",
+            "private": true,
+            "peer": 1262,
+            "seed": 767
+        },
+        {
+            "id": 149,
+            "name": "Narcos.Mexico.S01E06.XviD-AFG [IPT]",
+            "btih": "345527d476228e7a6f8c00723addbe5ffd30d0da",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 1257,
+            "seed": 699
+        },
+        {
+            "id": 192,
+            "name": "Narcos.Mexico.S01E09.720p.WEBRip.x264-STRiFE [IPT]",
+            "btih": "7c439a917d13cf0d73fe6ae54f32d61a33143529",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 1072,
+            "seed": 675
+        },
+        {
+            "id": 64,
+            "name": "Narcos.Mexico.S01E02.480p.x264-mSD [IPT]",
+            "btih": "33ee33f0a9c683642f596055a1f717903896d9b0",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 1029,
+            "seed": 557
+        },
+        {
+            "id": 107,
+            "name": "Narcos.Mexico.S01E04.720p.WEBRip.x264-STRiFE [IPT]",
+            "btih": "4c1e8e780b7105b877ecc737dbb1659252ee9e8a",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 1026,
+            "seed": 657
+        },
+        {
+            "id": 126,
+            "name": "Narcos.Mexico.S01E05.720p.WEBRip.x264-STRiFE [IPT]",
+            "btih": "1906e98774301d4dcf3eee189bb5cda7de213352",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 1001,
+            "seed": 630
+        },
+        {
+            "id": 87,
+            "name": "Narcos.Mexico.S01E03.720p.WEBRip.x264-STRiFE [IPT]",
+            "btih": "8d9e6837adf62e8b33c64b2d7ea067f0c4baf6c7",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 991,
+            "seed": 647
+        },
+        {
+            "id": 144,
+            "name": "Narcos.Mexico.S01E06.720p.WEBRip.x264-STRiFE [IPT]",
+            "btih": "5cab7f28facd9a9734b9ce9b80f1eb5b8297fd90",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 968,
+            "seed": 591
+        },
+        {
+            "id": 177,
+            "name": "Narcos.Mexico.S01E08.720p.WEBRip.x264-STRiFE [IPT]",
+            "btih": "cb85413f4d88e59e31c176a1ae5b27c557901695",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 917,
+            "seed": 606
+        },
+        {
+            "id": 161,
+            "name": "Narcos.Mexico.S01E07.720p.WEBRip.x264-STRiFE [IPT]",
+            "btih": "891727e9e891b9ecff295b4c7a31dd415951445a",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 908,
+            "seed": 603
+        },
+        {
+            "id": 205,
+            "name": "Narcos.Mexico.S01E10.720p.WEBRip.x264-STRiFE [IPT]",
+            "btih": "35e2d2a025eac6292724b5ea970bcd1760f9f4e8",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 848,
+            "seed": 551
+        },
+        {
+            "id": 105,
+            "name": "Narcos.Mexico.S01E04.480p.x264-mSD [IPT]",
+            "btih": "a40abdcb26d1bbb661adbbef972ea41b93647106",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 838,
+            "seed": 476
+        },
+        {
+            "id": 85,
+            "name": "Narcos.Mexico.S01E03.480p.x264-mSD [IPT]",
+            "btih": "3e8ea53dab14da2eb37ea06bdf8bf7017f42b81c",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 826,
+            "seed": 429
+        },
+        {
+            "id": 175,
+            "name": "Narcos.Mexico.S01E08.480p.x264-mSD [IPT]",
+            "btih": "a09567067dcd33cab1332fd7ded7f3a0da948bbe",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 824,
+            "seed": 487
+        },
+        {
+            "id": 190,
+            "name": "Narcos.Mexico.S01E09.480p.x264-mSD [IPT]",
+            "btih": "11ed1ebfce951cad6909b4da2e96ffb98aa82436",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 823,
+            "seed": 476
+        },
+        {
+            "id": 124,
+            "name": "Narcos.Mexico.S01E05.480p.x264-mSD [IPT]",
+            "btih": "9389c1d516cb8fd0b09d20e517600f7f5346bcd9",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 789,
+            "seed": 440
+        },
+        {
+            "id": 142,
+            "name": "Narcos.Mexico.S01E06.480p.x264-mSD [IPT]",
+            "btih": "31e1921fbbcd6388645bbe8bf26473ac4e83cfa5",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 767,
+            "seed": 397
+        },
+        {
+            "id": 159,
+            "name": "Narcos.Mexico.S01E07.480p.x264-mSD [IPT]",
+            "btih": "ff8f5a85bb372dd0cf26ab3f913ad7e3f03388f3",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 707,
+            "seed": 384
+        },
+        {
+            "id": 28,
+            "name": "Narcos.Mexico.S01.2160p.WEBRip.X264-DEFLATE [NO RAR] [IPT]",
+            "btih": "bfe9818cf0db30f5cc34459dc8c4140b4de60d6a",
+            "resolution": "2160",
+            "encoding": "264",
+            "private": true,
+            "peer": 689,
+            "seed": 416
+        },
+        {
+            "id": 132,
+            "name": "Narcos.Mexico.S01E05.iNTERNAL.1080p.HEVC.x265-MeGusta [IPT]",
+            "btih": "3849fa1367e52aee58f691a91104638250467c36",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": true,
+            "peer": 587,
+            "seed": 304
+        },
+        {
+            "id": 57,
+            "name": "Narcos.Mexico.S01E02.1080p.HEVC.x265-MeGusta [IPT]",
+            "btih": "aa45a75bff30b17b62c496cd50c04b1402411593",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": true,
+            "peer": 557,
+            "seed": 287
+        },
+        {
+            "id": 39,
+            "name": "Narcos.Mexico.S01E01.1080p.HEVC.x265-MeGusta [IPT]",
+            "btih": "34f05ec62941cea329f6d9dea8f0e18ae8b365ab",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": true,
+            "peer": 540,
+            "seed": 238
+        },
+        {
+            "id": 98,
+            "name": "Narcos.Mexico.S01E04.1080p.HEVC.x265-MeGusta [IPT]",
+            "btih": "ccb60d8b5af2ca03fc7832ce2b8d195412e60972",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": true,
+            "peer": 537,
+            "seed": 274
+        },
+        {
+            "id": 202,
+            "name": "Narcos.Mexico.S01E10.2160p.AAC.MP4-Mobile [IPT]",
+            "btih": "6c2ef882a6ea9a4ef430aa25f4205f7d6f0d49ef",
+            "resolution": "2160",
+            "encoding": "none",
+            "private": true,
+            "peer": 506,
+            "seed": 341
+        },
+        {
+            "id": 135,
+            "name": "Narcos.Mexico.S01E06.1080p.HEVC.x265-MeGusta [IPT]",
+            "btih": "e2d416da2db18be354f10e19ab4e1c142cf7d54b",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": true,
+            "peer": 468,
+            "seed": 200
+        },
+        {
+            "id": 46,
+            "name": "Narcos.Mexico.S01E01.AAC.MP4-Mobile [IPT]",
+            "btih": "d4e49465b2f3a33c4ac8a46c458b38df7a478198",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 467,
+            "seed": 342
+        },
+        {
+            "id": 78,
+            "name": "Narcos.Mexico.S01E03.1080p.HEVC.x265-MeGusta [IPT]",
+            "btih": "65bcc90bf6c13cc0e640c6f2cb54a8dbf54bfbef",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": true,
+            "peer": 442,
+            "seed": 193
+        },
+        {
+            "id": 89,
+            "name": "Narcos.Mexico.S01E03.AAC.MP4-Mobile [IPT]",
+            "btih": "3cf93819edaa97330233a4b87c3aaa324690d3f6",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 396,
+            "seed": 288
+        },
+        {
+            "id": 210,
+            "name": "Narcos.Mexico.S01E10.iNTERNAL.1080p.HEVC.x265-MeGusta [IPT]",
+            "btih": "8d9fb873e1dc88c8f1f2d24f428726e765474179",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": true,
+            "peer": 365,
+            "seed": 182
+        },
+        {
+            "id": 68,
+            "name": "Narcos.Mexico.S01E02.AAC.MP4-Mobile [IPT]",
+            "btih": "a077b6b32111fae3560f044513b369e97742b8ae",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 359,
+            "seed": 253
+        },
+        {
+            "id": 51,
+            "name": "Narcos.Mexico.S01E01.WEBRip.x264-STRiFE [IPT]",
+            "btih": "7a2482825a023d9f5f30743d21b46f11ca3c91b3",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 351,
+            "seed": 218
+        },
+        {
+            "id": 128,
+            "name": "Narcos.Mexico.S01E05.AAC.MP4-Mobile [IPT]",
+            "btih": "7af6720b61ad034bec733f52967ce3a5349dfe21",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 322,
+            "seed": 245
+        },
+        {
+            "id": 111,
+            "name": "Narcos.Mexico.S01E04.AAC.MP4-Mobile [IPT]",
+            "btih": "f02991cb54acba23166dacd49484150d24b93254",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 312,
+            "seed": 256
+        },
+        {
+            "id": 207,
+            "name": "Narcos.Mexico.S01E10.WEBRip.x264-STRiFE [IPT]",
+            "btih": "ba51b4a5c46dc9d77a1104b861b66bd20f9bd4ae",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 300,
+            "seed": 171
+        },
+        {
+            "id": 164,
+            "name": "Narcos.Mexico.S01E07.AAC.MP4-Mobile [IPT]",
+            "btih": "a948d845a4394bea7de374282249367206b4e1a2",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 277,
+            "seed": 188
+        },
+        {
+            "id": 146,
+            "name": "Narcos.Mexico.S01E06.AAC.MP4-Mobile [IPT]",
+            "btih": "0a44b122c841a3a1ee9d928ebbfc3f5b56890bcc",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 275,
+            "seed": 213
+        },
+        {
+            "id": 179,
+            "name": "Narcos.Mexico.S01E08.AAC.MP4-Mobile [IPT]",
+            "btih": "dc1637966683ea99f8e87228eb407dcf85fc9810",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 260,
+            "seed": 166
+        },
+        {
+            "id": 81,
+            "name": "Narcos.Mexico.S01E03.2160p.480p.x264-mSD [IPT]",
+            "btih": "428adfa1f2430f2e6db5d2334da029249466c8e1",
+            "resolution": "2160",
+            "encoding": "264",
+            "private": true,
+            "peer": 253,
+            "seed": 151
+        },
+        {
+            "id": 174,
+            "name": "Narcos.Mexico.S01E08.2160p.XviD-AFG [IPT]",
+            "btih": "35600468f1b5753a162e68ee2b0b36a492eef18a",
+            "resolution": "2160",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 253,
+            "seed": 164
+        },
+        {
+            "id": 92,
+            "name": "Narcos.Mexico.S01E03.WEBRip.x264-STRiFE [IPT]",
+            "btih": "5a5d072722723c6e0015e9be62e67f14ddbb5e87",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 250,
+            "seed": 150
+        },
+        {
+            "id": 138,
+            "name": "Narcos.Mexico.S01E06.2160p.480p.x264-mSD [IPT]",
+            "btih": "bfc3cf18c3c4336d67f9afc3a1303454d8b60900",
+            "resolution": "2160",
+            "encoding": "264",
+            "private": true,
+            "peer": 247,
+            "seed": 164
+        },
+        {
+            "id": 54,
+            "name": "Narcos.Mexico.S01E01.iNTERNAL.1080p.HEVC.x265-MeGusta [IPT]",
+            "btih": "29026c7fe79a384d27a5b0847585a8564a0a5c11",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": true,
+            "peer": 243,
+            "seed": 130
+        },
+        {
+            "id": 113,
+            "name": "Narcos.Mexico.S01E04.WEBRip.x264-STRiFE [IPT]",
+            "btih": "8f0d049270eb8820033a8c7db84141daaf54134b",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 241,
+            "seed": 142
+        },
+        {
+            "id": 185,
+            "name": "Narcos.Mexico.S01E09.1080p.WEBRip.X264-DEFLATE [IPT]",
+            "btih": "5c014aa0b3528f4d3c1e85b6bdcdac446e5c2e7f",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 239,
+            "seed": 116
+        },
+        {
+            "id": 69,
+            "name": "Narcos.Mexico.S01E02.MULTi.1080p.HEVC.x265-MeGusta [IPT]",
+            "btih": "4467d90bea333e8d3ca1cadc301efef988994d9b",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": true,
+            "peer": 239,
+            "seed": 197
+        },
+        {
+            "id": 194,
+            "name": "Narcos.Mexico.S01E09.AAC.MP4-Mobile [IPT]",
+            "btih": "ee2dafb6e0e04be391a0ba1b87402ad3bef989f6",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 238,
+            "seed": 191
+        },
+        {
+            "id": 95,
+            "name": "Narcos.Mexico.S01E03.iNTERNAL.1080p.HEVC.x265-MeGusta [IPT]",
+            "btih": "3ad8d39b2a17076806ab7d85ed62dc54c932b9a4",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": true,
+            "peer": 238,
+            "seed": 143
+        },
+        {
+            "id": 75,
+            "name": "Narcos.Mexico.S01E02.iNTERNAL.1080p.HEVC.x265-MeGusta [IPT]",
+            "btih": "c3383acf47fc4f6a87a868a4225b7f8f456a8e4b",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": true,
+            "peer": 237,
+            "seed": 131
+        },
+        {
+            "id": 129,
+            "name": "Narcos.Mexico.S01E05.WEBRip.x264-STRiFE [IPT]",
+            "btih": "dc5a0e6e08a208f1cb9582d57e9fe5409492d3ae",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 235,
+            "seed": 144
+        },
+        {
+            "id": 72,
+            "name": "Narcos.Mexico.S01E02.WEBRip.x264-STRiFE [IPT]",
+            "btih": "13c1d218d0fbb160e987fab16c009a54e6974c6a",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 232,
+            "seed": 140
+        },
+        {
+            "id": 150,
+            "name": "Narcos.Mexico.S01E06.iNTERNAL.1080p.HEVC.x265-MeGusta [IPT]",
+            "btih": "aaa66fe8f95d12715d9ddf8cd90f35e83486f85b",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": true,
+            "peer": 226,
+            "seed": 144
+        },
+        {
+            "id": 122,
+            "name": "Narcos.Mexico.S01E05.2160p.WEBRip.X264-DEFLATE [IPT]",
+            "btih": "749919f8cdd1b15625f1b9781f7b26fff855488f",
+            "resolution": "2160",
+            "encoding": "264",
+            "private": true,
+            "peer": 223,
+            "seed": 59
+        },
+        {
+            "id": 158,
+            "name": "Narcos.Mexico.S01E07.2160p.XviD-AFG [IPT]",
+            "btih": "f7aba2c4c94899d545463957ac5c7113732ff665",
+            "resolution": "2160",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 223,
+            "seed": 150
+        },
+        {
+            "id": 63,
+            "name": "Narcos.Mexico.S01E02.2160p.XviD-AFG [IPT]",
+            "btih": "abc4520940c1ece2d320e159bcbe424cabac982d",
+            "resolution": "2160",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 219,
+            "seed": 144
+        },
+        {
+            "id": 147,
+            "name": "Narcos.Mexico.S01E06.WEBRip.x264-STRiFE [IPT]",
+            "btih": "8715a328f946e31b258962498906542ede058a59",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 217,
+            "seed": 133
+        },
+        {
+            "id": 120,
+            "name": "Narcos.Mexico.S01E05.2160p.480p.x264-mSD [IPT]",
+            "btih": "f218c6ac64e0d7e3d3f33cfc95981b073ac620e7",
+            "resolution": "2160",
+            "encoding": "264",
+            "private": true,
+            "peer": 217,
+            "seed": 145
+        },
+        {
+            "id": 165,
+            "name": "Narcos.Mexico.S01E07.WEBRip.x264-STRiFE [IPT]",
+            "btih": "1c012ccdc1429b913cc4e70bf8326ac6ffefdc71",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 215,
+            "seed": 127
+        },
+        {
+            "id": 189,
+            "name": "Narcos.Mexico.S01E09.2160p.XviD-AFG [IPT]",
+            "btih": "5bfff16508cd9e5f97bf876d4fce829d54abd371",
+            "resolution": "2160",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 214,
+            "seed": 149
+        },
+        {
+            "id": 40,
+            "name": "Narcos.Mexico.S01E01.1080p.WEBRip.X264-DEFLATE [IPT]",
+            "btih": "442946715f1101eda51283085c4e9febcc37fd7b",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 211,
+            "seed": 185
+        },
+        {
+            "id": 155,
+            "name": "Narcos.Mexico.S01E07.2160p.480p.x264-mSD [IPT]",
+            "btih": "7397822c656f98a523756c8bbf9309f54de06ed0",
+            "resolution": "2160",
+            "encoding": "264",
+            "private": true,
+            "peer": 206,
+            "seed": 131
+        },
+        {
+            "id": 123,
+            "name": "Narcos.Mexico.S01E05.2160p.XviD-AFG [IPT]",
+            "btih": "ef1b880ccb5a09df8dc69c9f083e03b019c8551b",
+            "resolution": "2160",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 200,
+            "seed": 157
+        },
+        {
+            "id": 84,
+            "name": "Narcos.Mexico.S01E03.2160p.XviD-AFG [IPT]",
+            "btih": "5406881c518b6f5e5b40c69aff7857f162519fba",
+            "resolution": "2160",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 185,
+            "seed": 136
+        },
+        {
+            "id": 133,
+            "name": "Narcos.Mexico.S01E05.iNTERNAL.1080p.WEB.x264-STRiFE [IPT]",
+            "btih": "838e6bf40f7a8dcdd5b37a78706d0d734580cfc1",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 178,
+            "seed": 107
+        },
+        {
+            "id": 183,
+            "name": "Narcos.Mexico.S01E08.iNTERNAL.1080p.WEB.x264-STRiFE [IPT]",
+            "btih": "e7dbc5be3e9dfa5d3468f48eca73102ff41a96bd",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 172,
+            "seed": 83
+        },
+        {
+            "id": 180,
+            "name": "Narcos.Mexico.S01E08.WEBRip.x264-STRiFE [IPT]",
+            "btih": "824a1b4f25d13e64504dd6db8903b479c1d9eea1",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 171,
+            "seed": 105
+        },
+        {
+            "id": 104,
+            "name": "Narcos.Mexico.S01E04.2160p.XviD-AFG [IPT]",
+            "btih": "b42888a5ac604c1c58389e355b06cf5ceb527171",
+            "resolution": "2160",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 167,
+            "seed": 113
+        },
+        {
+            "id": 101,
+            "name": "Narcos.Mexico.S01E04.2160p.480p.x264-mSD [IPT]",
+            "btih": "fd1bc7f1db8dd2a1826725c2430a238fdc9c2f4d",
+            "resolution": "2160",
+            "encoding": "264",
+            "private": true,
+            "peer": 165,
+            "seed": 105
+        },
+        {
+            "id": 195,
+            "name": "Narcos.Mexico.S01E09.WEBRip.x264-STRiFE [IPT]",
+            "btih": "925771377e3e23ec635c6576484138004d754d3f",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 163,
+            "seed": 96
+        },
+        {
+            "id": 168,
+            "name": "Narcos.Mexico.S01E07.iNTERNAL.1080p.WEB.x264-STRiFE [IPT]",
+            "btih": "306ce896d220a92da4cf9b44daee234cef3ad695",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 157,
+            "seed": 91
+        },
+        {
+            "id": 116,
+            "name": "Narcos.Mexico.S01E04.iNTERNAL.1080p.HEVC.x265-MeGusta [IPT]",
+            "btih": "5aaf06d086cc6f73abb3a526a561a4024324e0d5",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": true,
+            "peer": 155,
+            "seed": 93
+        },
+        {
+            "id": 136,
+            "name": "Narcos.Mexico.S01E06.1080p.WEBRip.X264-DEFLATE [IPT]",
+            "btih": "9be5b19fc40f13a138245c7f49e5c1467a3f62ba",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 141,
+            "seed": 97
+        },
+        {
+            "id": 99,
+            "name": "Narcos.Mexico.S01E04.1080p.WEBRip.X264-DEFLATE [IPT]",
+            "btih": "1b40b2dcc53dbf2133e5c48c44d3bf897b8f26ee",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 138,
+            "seed": 100
+        },
+        {
+            "id": 96,
+            "name": "Narcos.Mexico.S01E03.iNTERNAL.1080p.WEB.x264-STRiFE [IPT]",
+            "btih": "8927281224b69b217db8c135e25a870034f10f9e",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 136,
+            "seed": 93
+        },
+        {
+            "id": 211,
+            "name": "Narcos.Mexico.S01E10.iNTERNAL.1080p.WEB.x264-STRiFE [IPT]",
+            "btih": "c565c3fd917b564e66c37fd59709cd8e2497a866",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 131,
+            "seed": 69
+        },
+        {
+            "id": 198,
+            "name": "Narcos.Mexico.S01E09.iNTERNAL.1080p.WEB.x264-STRiFE [IPT]",
+            "btih": "8211e25405d87886a9377521a10ff10cb1513dd8",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 128,
+            "seed": 68
+        },
+        {
+            "id": 187,
+            "name": "Narcos.Mexico.S01E09.2160p.AAC.MP4-Mobile [IPT]",
+            "btih": "1cfb285b945c3f7487f3cb6a826c93b4815c43b2",
+            "resolution": "2160",
+            "encoding": "none",
+            "private": true,
+            "peer": 119,
+            "seed": 98
+        },
+        {
+            "id": 151,
+            "name": "Narcos.Mexico.S01E06.iNTERNAL.1080p.WEB.x264-STRiFE [IPT]",
+            "btih": "64503c93bca4da2463983de7b27c0ae4c3f1bff5",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 118,
+            "seed": 70
+        },
+        {
+            "id": 200,
+            "name": "Narcos.Mexico.S01E10.1080p.WEBRip.X264-DEFLATE [IPT]",
+            "btih": "40800c60f3516ca9cb8b2fde70114d3a4b6c7a56",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 117,
+            "seed": 88
+        },
+        {
+            "id": 76,
+            "name": "Narcos.Mexico.S01E02.iNTERNAL.1080p.WEB.x264-STRiFE [IPT]",
+            "btih": "748e44b047794e7e4330e4627306fe6fba358b01",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 112,
+            "seed": 61
+        },
+        {
+            "id": 55,
+            "name": "Narcos.Mexico.S01E01.iNTERNAL.1080p.WEB.x264-STRiFE [IPT]",
+            "btih": "5435da62e1782deb6b85d517d44a1e52f5b77e2f",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 110,
+            "seed": 53
+        },
+        {
+            "id": 141,
+            "name": "Narcos.Mexico.S01E06.2160p.XviD-AFG [IPT]",
+            "btih": "1a252b7b261ccb1b47f7391beb5487d709e553ca",
+            "resolution": "2160",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 110,
+            "seed": 92
+        },
+        {
+            "id": 139,
+            "name": "Narcos.Mexico.S01E06.2160p.AAC.MP4-Mobile [IPT]",
+            "btih": "c1e0deb926c8ee51a5e8dc8d8491ab2b20f14397",
+            "resolution": "2160",
+            "encoding": "none",
+            "private": true,
+            "peer": 103,
+            "seed": 92
+        },
+        {
+            "id": 170,
+            "name": "Narcos.Mexico.S01E08.1080p.WEBRip.X264-DEFLATE [IPT]",
+            "btih": "c89c5549d5282e2035edabf24487d3b04c41682c",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 103,
+            "seed": 83
+        },
+        {
+            "id": 153,
+            "name": "Narcos.Mexico.S01E07.1080p.WEBRip.X264-DEFLATE [IPT]",
+            "btih": "0c22de023002fc66d7897663df38e98e90ab0cb4",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 102,
+            "seed": 79
+        },
+        {
+            "id": 172,
+            "name": "Narcos.Mexico.S01E08.2160p.AAC.MP4-Mobile [IPT]",
+            "btih": "4b4b91c194e35e7fdef9d7df79af99a68e80c873",
+            "resolution": "2160",
+            "encoding": "none",
+            "private": true,
+            "peer": 97,
+            "seed": 81
+        },
+        {
+            "id": 117,
+            "name": "Narcos.Mexico.S01E04.iNTERNAL.1080p.WEB.x264-STRiFE [IPT]",
+            "btih": "b3b1ac4417348fde4458f06ae4120a52fdd23e79",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 96,
+            "seed": 53
+        },
+        {
+            "id": 79,
+            "name": "Narcos.Mexico.S01E03.1080p.WEBRip.X264-DEFLATE [IPT]",
+            "btih": "5f57f0f5ed6b987bed1d7f9ee49d9e3dcbd4c45d",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 89,
+            "seed": 65
+        },
+        {
+            "id": 48,
+            "name": "Narcos.Mexico.S01E01.MULTi.1080p.WEBRip.x264-BRiNK [IPT]",
+            "btih": "14004ab2bd3e7a88dc90bfd5b50a39b256be7b55",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 89,
+            "seed": 72
+        },
+        {
+            "id": 58,
+            "name": "Narcos.Mexico.S01E02.1080p.WEBRip.X264-DEFLATE [IPT]",
+            "btih": "a207eb359f3d823f6efa4b00cef611f268e89070",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 86,
+            "seed": 72
+        },
+        {
+            "id": 156,
+            "name": "Narcos.Mexico.S01E07.2160p.AAC.MP4-Mobile [IPT]",
+            "btih": "441bef23c01788a432bca47b4e09382a406584d6",
+            "resolution": "2160",
+            "encoding": "none",
+            "private": true,
+            "peer": 84,
+            "seed": 76
+        },
+        {
+            "id": 60,
+            "name": "Narcos.Mexico.S01E02.2160p.480p.x264-mSD [IPT]",
+            "btih": "ef2e7688ff3c86b7a7f004b628d7bee4a1052b51",
+            "resolution": "2160",
+            "encoding": "264",
+            "private": true,
+            "peer": 83,
+            "seed": 59
+        },
+        {
+            "id": 70,
+            "name": "Narcos.Mexico.S01E02.MULTi.1080p.WEBRip.x264-BRiNK [IPT]",
+            "btih": "d2a6e62a4e9adbd3816d76a228f63c50d8275f9e",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 74,
+            "seed": 73
+        },
+        {
+            "id": 82,
+            "name": "Narcos.Mexico.S01E03.2160p.AAC.MP4-Mobile [IPT]",
+            "btih": "a93e1970064f576d8165884e4f7a2795ac7daf37",
+            "resolution": "2160",
+            "encoding": "none",
+            "private": true,
+            "peer": 72,
+            "seed": 67
+        },
+        {
+            "id": 203,
+            "name": "Narcos.Mexico.S01E10.2160p.WEBRip.X264-DEFLATE [IPT]",
+            "btih": "237c976ed589eecf7fe9207512a7405ed991fab5",
+            "resolution": "2160",
+            "encoding": "264",
+            "private": true,
+            "peer": 70,
+            "seed": 56
+        },
+        {
+            "id": 103,
+            "name": "Narcos.Mexico.S01E04.2160p.WEBRip.X264-DEFLATE [IPT]",
+            "btih": "77ab0940176712d1b1e40ebafc40ec798d803be4",
+            "resolution": "2160",
+            "encoding": "264",
+            "private": true,
+            "peer": 62,
+            "seed": 47
+        },
+        {
+            "id": 62,
+            "name": "Narcos.Mexico.S01E02.2160p.WEBRip.X264-DEFLATE [IPT]",
+            "btih": "894709e6b951d6966e4ff3e4982d92a3bdfea343",
+            "resolution": "2160",
+            "encoding": "264",
+            "private": true,
+            "peer": 61,
+            "seed": 46
+        },
+        {
+            "id": 140,
+            "name": "Narcos.Mexico.S01E06.2160p.WEBRip.X264-DEFLATE [IPT]",
+            "btih": "522a2b42dd802526c0543cd164d40f5d7be58e5a",
+            "resolution": "2160",
+            "encoding": "264",
+            "private": true,
+            "peer": 60,
+            "seed": 48
+        },
+        {
+            "id": 157,
+            "name": "Narcos.Mexico.S01E07.2160p.WEBRip.X264-DEFLATE [IPT]",
+            "btih": "02783749591d3bcc736073aff0973127feca7c6e",
+            "resolution": "2160",
+            "encoding": "264",
+            "private": true,
+            "peer": 59,
+            "seed": 48
+        },
+        {
+            "id": 83,
+            "name": "Narcos.Mexico.S01E03.2160p.WEBRip.X264-DEFLATE [IPT]",
+            "btih": "3702eeed0b6354a106f3936fd509996906fbd132",
+            "resolution": "2160",
+            "encoding": "264",
+            "private": true,
+            "peer": 56,
+            "seed": 40
+        },
+        {
+            "id": 61,
+            "name": "Narcos.Mexico.S01E02.2160p.AAC.MP4-Mobile [IPT]",
+            "btih": "975ac6c1c0866a8f3976baa2898e3fc767887476",
+            "resolution": "2160",
+            "encoding": "none",
+            "private": true,
+            "peer": 53,
+            "seed": 48
+        },
+        {
+            "id": 47,
+            "name": "Narcos.Mexico.S01E01.MULTi.1080p.HEVC.x265-MeGusta [IPT]",
+            "btih": "732eb187df94de16f651998e8ea653d243b7fa18",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": true,
+            "peer": 52,
+            "seed": 38
+        },
+        {
+            "id": 173,
+            "name": "Narcos.Mexico.S01E08.2160p.WEBRip.X264-DEFLATE [IPT]",
+            "btih": "68c50c7786c2ab396c40d09cf30c294db7bda87a",
+            "resolution": "2160",
+            "encoding": "264",
+            "private": true,
+            "peer": 49,
+            "seed": 39
+        },
+        {
+            "id": 188,
+            "name": "Narcos.Mexico.S01E09.2160p.WEBRip.X264-DEFLATE [IPT]",
+            "btih": "c72c355e5db2809b64013b30d3569f19648c6c69",
+            "resolution": "2160",
+            "encoding": "264",
+            "private": true,
+            "peer": 47,
+            "seed": 37
+        },
+        {
+            "id": 121,
+            "name": "Narcos.Mexico.S01E05.2160p.AAC.MP4-Mobile [IPT]",
+            "btih": "9bec6042bb05e1a1206304ce8bc1579e9f008d01",
+            "resolution": "2160",
+            "encoding": "none",
+            "private": true,
+            "peer": 45,
+            "seed": 43
+        },
+        {
+            "id": 102,
+            "name": "Narcos.Mexico.S01E04.2160p.AAC.MP4-Mobile [IPT]",
+            "btih": "0eff0d0e5909ec97ae7dc5260394f730bbf963a9",
+            "resolution": "2160",
+            "encoding": "none",
+            "private": true,
+            "peer": 36,
+            "seed": 34
+        },
+        {
+            "id": 91,
+            "name": "Narcos.Mexico.S01E03.MULTi.1080p.WEBRip.x264-BRiNK [IPT]",
+            "btih": "445466e457d1ba887bac233e31cfb95a61914820",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 31,
+            "seed": 29
         }
     ]
 }
