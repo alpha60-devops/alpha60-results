@@ -1,69 +1,165 @@
 {
-    "data-version": "20200829",
-    "duration": "2020-10-02-to-2020-11-26",
+    "data-version": "20201228",
     "collection-name": "vanguard",
     "collection-id": "",
-    "collection-all-btiha": {
-        "btiha-size": 59,
-        "upeers-total": 917493,
-        "useeds-total": 210793,
-        "anomaly-total": 69935,
-        "anomaly-percentage": "7.62"
+    "sample-duration": "2020-10-02-to-2020-12-31",
+    "sample-days": 91,
+    "sample-year-start": 2020,
+    "sample-year-end": 2020,
+    "sample-day-year-start": 276,
+    "sample-day-year-end": 366,
+    "collection-all-btiha-total": {
+        "btiha-size": 153,
+        "upeers-total": 3269049,
+        "useeds-total": 631744,
+        "anomaly-total": 267919,
+        "anomaly-percentage": "8.20"
     },
-    "collection-unique-btiha": {
-        "btiha-size": 52,
+    "collection-unique-btiha-total": {
+        "btiha-size": 117,
+        "upeers-total": 2981190,
+        "useeds-total": 569867,
+        "anomaly-total": 167624,
+        "anomaly-percentage": "5.62"
+    },
+    "collection-unique-btiha-week-00001": {
+        "btiha-size": 2,
+        "upeers-total": 22628,
+        "useeds-total": 5099,
+        "anomaly-total": 1423,
+        "anomaly-percentage": "6.29"
+    },
+    "collection-unique-btiha-week-00002": {
+        "btiha-size": 2,
+        "upeers-total": 37826,
+        "useeds-total": 8338,
+        "anomaly-total": 2427,
+        "anomaly-percentage": "6.42"
+    },
+    "collection-unique-btiha-week-00003": {
+        "btiha-size": 6,
+        "upeers-total": 80474,
+        "useeds-total": 12534,
+        "anomaly-total": 5105,
+        "anomaly-percentage": "6.34"
+    },
+    "collection-unique-btiha-week-00004": {
+        "btiha-size": 8,
+        "upeers-total": 133706,
+        "useeds-total": 19309,
+        "anomaly-total": 10026,
+        "anomaly-percentage": "7.50"
+    },
+    "collection-unique-btiha-week-00005": {
+        "btiha-size": 10,
+        "upeers-total": 185380,
+        "useeds-total": 25895,
+        "anomaly-total": 14600,
+        "anomaly-percentage": "7.88"
+    },
+    "collection-unique-btiha-week-00006": {
+        "btiha-size": 12,
+        "upeers-total": 274688,
+        "useeds-total": 33614,
+        "anomaly-total": 22934,
+        "anomaly-percentage": "8.35"
+    },
+    "collection-unique-btiha-week-00007": {
+        "btiha-size": 33,
+        "upeers-total": 548077,
+        "useeds-total": 113462,
+        "anomaly-total": 36447,
+        "anomaly-percentage": "6.65"
+    },
+    "collection-unique-btiha-week-00008": {
+        "btiha-size": 40,
         "upeers-total": 864103,
         "useeds-total": 197436,
-        "anomaly-total": 55664,
-        "anomaly-percentage": "6.44"
+        "anomaly-total": 49248,
+        "anomaly-percentage": "5.70"
+    },
+    "collection-unique-btiha-week-00009": {
+        "btiha-size": 53,
+        "upeers-total": 1198482,
+        "useeds-total": 284190,
+        "anomaly-total": 65843,
+        "anomaly-percentage": "5.49"
+    },
+    "collection-unique-btiha-week-00010": {
+        "btiha-size": 65,
+        "upeers-total": 1558974,
+        "useeds-total": 368701,
+        "anomaly-total": 85416,
+        "anomaly-percentage": "5.48"
+    },
+    "collection-unique-btiha-week-00011": {
+        "btiha-size": 79,
+        "upeers-total": 1997045,
+        "useeds-total": 439217,
+        "anomaly-total": 113293,
+        "anomaly-percentage": "5.67"
+    },
+    "collection-unique-btiha-week-00012": {
+        "btiha-size": 116,
+        "upeers-total": 2399640,
+        "useeds-total": 497563,
+        "anomaly-total": 135974,
+        "anomaly-percentage": "5.67"
+    },
+    "collection-unique-btiha-week-00013": {
+        "btiha-size": 117,
+        "upeers-total": 2981190,
+        "useeds-total": 569867,
+        "anomaly-total": 167624,
+        "anomaly-percentage": "5.62"
     },
     "transfer-units": "terabyte",
-    "transfer-size": 1821.627491269188,
+    "transfer-size": 7426.725117114148,
     "transfer-price-1-name": "CloudFront-1-year",
     "transfer-price-1-per-gigabyte-cost": 0.005,
-    "transfer-price-1-USD": 177108.13745634596,
+    "transfer-price-1-USD": 205133.62558557074,
     "resolution-partitions": [
         {
             "number": 1,
             "name": "720-all",
-            "total-percentage-upeers": "46.12",
-            "total-percentage-bytes": "26.72",
-            "upeers-total": 398510
+            "total-percentage-upeers": "33.15",
+            "total-percentage-bytes": "16.41",
+            "upeers-total": 988125
         },
         {
             "number": 2,
             "name": "1080-all",
-            "total-percentage-upeers": "28.48",
-            "total-percentage-bytes": "56.65",
-            "upeers-total": 246094
+            "total-percentage-upeers": "31.12",
+            "total-percentage-bytes": "55.83",
+            "upeers-total": 927721
         },
         {
             "number": 3,
             "name": "sd-none",
-            "total-percentage-upeers": "10.38",
-            "total-percentage-bytes": "7.32",
-            "upeers-total": 89713
+            "total-percentage-upeers": "19.96",
+            "total-percentage-bytes": "12.73",
+            "upeers-total": 594929
         },
         {
             "number": 4,
-            "name": "sd-264",
-            "total-percentage-upeers": "8.98",
-            "total-percentage-bytes": "3.98",
-            "upeers-total": 77584
+            "name": "sd-xvid",
+            "total-percentage-upeers": "8.45",
+            "total-percentage-bytes": "5.12",
+            "upeers-total": 251822
         },
         {
             "number": 5,
-            "name": "sd-xvid",
-            "total-percentage-upeers": "5.57",
-            "total-percentage-bytes": "3.98",
-            "upeers-total": 48149
+            "name": "sd-264",
+            "total-percentage-upeers": "4.74",
+            "total-percentage-bytes": "1.87",
+            "upeers-total": 141359
         },
         {
             "number": 6,
             "name": "2160-all",
-            "total-percentage-upeers": "0.47",
-            "total-percentage-bytes": "1.34",
-            "upeers-total": 4053
+            "total-percentage-upeers": "2.51",
+            "total-percentage-bytes": "8.00",
+            "upeers-total": 74963
         }
     ],
     "geo-country-top-10": [
@@ -71,71 +167,71 @@
             "number": 1,
             "country-code": "USA",
             "country-name": "United States of America",
-            "total-percentage-upeers": "20.03",
-            "upeers-total": 173040
+            "total-percentage-upeers": "23.07",
+            "upeers-total": 687842
         },
         {
             "number": 2,
             "country-code": "CHN",
             "country-name": "China",
-            "total-percentage-upeers": "15.46",
-            "upeers-total": 133597
+            "total-percentage-upeers": "9.10",
+            "upeers-total": 271324
         },
         {
             "number": 3,
-            "country-code": "PHL",
-            "country-name": "Philippines",
-            "total-percentage-upeers": "4.49",
-            "upeers-total": 38782
+            "country-code": "KOR",
+            "country-name": "Korea, Republic of",
+            "total-percentage-upeers": "4.96",
+            "upeers-total": 147722
         },
         {
             "number": 4,
             "country-code": "RUS",
             "country-name": "Russian Federation",
-            "total-percentage-upeers": "3.80",
-            "upeers-total": 32827
+            "total-percentage-upeers": "4.71",
+            "upeers-total": 140277
         },
         {
             "number": 5,
-            "country-code": "KOR",
-            "country-name": "Korea, Republic of",
-            "total-percentage-upeers": "3.61",
-            "upeers-total": 31179
+            "country-code": "PHL",
+            "country-name": "Philippines",
+            "total-percentage-upeers": "4.14",
+            "upeers-total": 123375
         },
         {
             "number": 6,
-            "country-code": "IND",
-            "country-name": "India",
-            "total-percentage-upeers": "2.78",
-            "upeers-total": 24044
+            "country-code": "JPN",
+            "country-name": "Japan",
+            "total-percentage-upeers": "2.72",
+            "upeers-total": 81209
         },
         {
             "number": 7,
-            "country-code": "JPN",
-            "country-name": "Japan",
-            "total-percentage-upeers": "2.34",
-            "upeers-total": 20253
+            "country-code": "IND",
+            "country-name": "India",
+            "total-percentage-upeers": "2.66",
+            "upeers-total": 79239
         },
         {
             "number": 8,
             "country-code": "GBR",
             "country-name": "United Kingdom of Great Britain and Northern Ireland",
-            "total-percentage-upeers": "2.04",
-            "upeers-total": 17650
+            "total-percentage-upeers": "2.30",
+            "upeers-total": 68698
         },
         {
             "number": 9,
-            "country-code": "CAN",
-            "country-name": "Canada",
-            "total-percentage-upeers": "1.53",
-            "upeers-total": 13234
+            "country-code": "BRA",
+            "country-name": "Brazil",
+            "total-percentage-upeers": "2.01",
+            "upeers-total": 60024
         },
         {
             "number": 10,
-            "country-code": "ZAF",
-            "country-name": "South Africa",
-            "total-percentage-upeers": "1.39",
-            "upeers-total": 12035
+            "country-code": "CAN",
+            "country-name": "Canada",
+            "total-percentage-upeers": "1.72",
+            "upeers-total": 51192
         }
     ],
     "geo-country-region-city-top-30": [
@@ -143,733 +239,1383 @@
             "number": 1,
             "country-code": "USA",
             "country-name": "United States of America",
-            "total-percentage-upeers": "5.88",
-            "upeers-total": 50838
+            "total-percentage-upeers": "6.98",
+            "upeers-total": 208074
         },
         {
             "number": 2,
-            "country-code": "CHN",
-            "country-name": "China, Guangzhou, 30",
-            "total-percentage-upeers": "1.43",
-            "upeers-total": 12359
+            "country-code": "KOR",
+            "country-name": "Korea, Republic of, Seoul, 11",
+            "total-percentage-upeers": "1.61",
+            "upeers-total": 48134
         },
         {
             "number": 3,
-            "country-code": "CHN",
-            "country-name": "China, Beijing, 22",
-            "total-percentage-upeers": "1.42",
-            "upeers-total": 12283
+            "country-code": "KOR",
+            "country-name": "Korea, Republic of",
+            "total-percentage-upeers": "1.47",
+            "upeers-total": 43882
         },
         {
             "number": 4,
-            "country-code": "CHN",
-            "country-name": "China",
-            "total-percentage-upeers": "1.38",
-            "upeers-total": 11945
+            "country-code": "PHL",
+            "country-name": "Philippines",
+            "total-percentage-upeers": "1.16",
+            "upeers-total": 34680
         },
         {
             "number": 5,
-            "country-code": "PHL",
-            "country-name": "Philippines",
-            "total-percentage-upeers": "1.23",
-            "upeers-total": 10647
+            "country-code": "CHN",
+            "country-name": "China, Beijing, 22",
+            "total-percentage-upeers": "1.10",
+            "upeers-total": 32887
         },
         {
             "number": 6,
-            "country-code": "KOR",
-            "country-name": "Korea, Republic of, Seoul, 11",
-            "total-percentage-upeers": "1.17",
-            "upeers-total": 10106
+            "country-code": "JPN",
+            "country-name": "Japan",
+            "total-percentage-upeers": "0.90",
+            "upeers-total": 26819
         },
         {
             "number": 7,
-            "country-code": "KOR",
-            "country-name": "Korea, Republic of",
-            "total-percentage-upeers": "1.11",
-            "upeers-total": 9588
+            "country-code": "CHN",
+            "country-name": "China, Guangzhou, 30",
+            "total-percentage-upeers": "0.88",
+            "upeers-total": 26294
         },
         {
             "number": 8,
-            "country-code": "CHN",
-            "country-name": "China, Nanjing, 04",
-            "total-percentage-upeers": "0.82",
-            "upeers-total": 7044
+            "country-code": "GBR",
+            "country-name": "United Kingdom of Great Britain and Northern Ireland",
+            "total-percentage-upeers": "0.80",
+            "upeers-total": 23841
         },
         {
             "number": 9,
-            "country-code": "JPN",
-            "country-name": "Japan",
-            "total-percentage-upeers": "0.76",
-            "upeers-total": 6568
+            "country-code": "DEU",
+            "country-name": "Germany",
+            "total-percentage-upeers": "0.77",
+            "upeers-total": 22967
         },
         {
             "number": 10,
             "country-code": "CHN",
-            "country-name": "China, Shanghai, 23",
+            "country-name": "China",
             "total-percentage-upeers": "0.75",
-            "upeers-total": 6448
+            "upeers-total": 22243
         },
         {
             "number": 11,
-            "country-code": "GBR",
-            "country-name": "United Kingdom of Great Britain and Northern Ireland",
-            "total-percentage-upeers": "0.70",
-            "upeers-total": 6019
+            "country-code": "JPN",
+            "country-name": "Japan, Tokyo, 40",
+            "total-percentage-upeers": "0.74",
+            "upeers-total": 22043
         },
         {
             "number": 12,
-            "country-code": "KEN",
-            "country-name": "Kenya",
-            "total-percentage-upeers": "0.69",
-            "upeers-total": 5982
+            "country-code": "RUS",
+            "country-name": "Russian Federation, Moscow, 48",
+            "total-percentage-upeers": "0.64",
+            "upeers-total": 18931
         },
         {
             "number": 13,
-            "country-code": "JPN",
-            "country-name": "Japan, Tokyo, 40",
-            "total-percentage-upeers": "0.66",
-            "upeers-total": 5667
+            "country-code": "USA",
+            "country-name": "United States of America, Fort Huachuca, AZ",
+            "total-percentage-upeers": "0.63",
+            "upeers-total": 18644
         },
         {
             "number": 14,
-            "country-code": "DEU",
-            "country-name": "Germany",
-            "total-percentage-upeers": "0.65",
-            "upeers-total": 5615
+            "country-code": "IND",
+            "country-name": "India",
+            "total-percentage-upeers": "0.57",
+            "upeers-total": 16904
         },
         {
             "number": 15,
-            "country-code": "CHN",
-            "country-name": "China, Chengdu, 32",
-            "total-percentage-upeers": "0.63",
-            "upeers-total": 5482
+            "country-code": "FRA",
+            "country-name": "France",
+            "total-percentage-upeers": "0.52",
+            "upeers-total": 15534
         },
         {
             "number": 16,
-            "country-code": "CHN",
-            "country-name": "China, Jinan, 25",
-            "total-percentage-upeers": "0.60",
-            "upeers-total": 5193
+            "country-code": "RUS",
+            "country-name": "Russian Federation",
+            "total-percentage-upeers": "0.50",
+            "upeers-total": 15001
         },
         {
             "number": 17,
-            "country-code": "IND",
-            "country-name": "India",
-            "total-percentage-upeers": "0.59",
-            "upeers-total": 5085
+            "country-code": "KEN",
+            "country-name": "Kenya",
+            "total-percentage-upeers": "0.49",
+            "upeers-total": 14724
         },
         {
             "number": 18,
-            "country-code": "USA",
-            "country-name": "United States of America, Fort Huachuca, AZ",
-            "total-percentage-upeers": "0.52",
-            "upeers-total": 4501
+            "country-code": "ITA",
+            "country-name": "Italy",
+            "total-percentage-upeers": "0.46",
+            "upeers-total": 13750
         },
         {
             "number": 19,
             "country-code": "CHN",
-            "country-name": "China, Zhengzhou, 09",
-            "total-percentage-upeers": "0.52",
-            "upeers-total": 4477
+            "country-name": "China, Nanjing, 04",
+            "total-percentage-upeers": "0.46",
+            "upeers-total": 13708
         },
         {
             "number": 20,
-            "country-code": "RUS",
-            "country-name": "Russian Federation, Moscow, 48",
-            "total-percentage-upeers": "0.51",
-            "upeers-total": 4374
+            "country-code": "TWN",
+            "country-name": "Taiwan, Province of China, Taipei, 03",
+            "total-percentage-upeers": "0.44",
+            "upeers-total": 13235
         },
         {
             "number": 21,
             "country-code": "CHN",
-            "country-name": "China, Wuhan, 12",
-            "total-percentage-upeers": "0.47",
-            "upeers-total": 4072
+            "country-name": "China, Shanghai, 23",
+            "total-percentage-upeers": "0.43",
+            "upeers-total": 12902
         },
         {
             "number": 22,
-            "country-code": "TWN",
-            "country-name": "Taiwan, Province of China, Taipei, 03",
-            "total-percentage-upeers": "0.45",
-            "upeers-total": 3924
+            "country-code": "USA",
+            "country-name": "United States of America, Palo Alto, CA",
+            "total-percentage-upeers": "0.41",
+            "upeers-total": 12101
         },
         {
             "number": 23,
-            "country-code": "FRA",
-            "country-name": "France",
-            "total-percentage-upeers": "0.45",
-            "upeers-total": 3913
+            "country-code": "BRA",
+            "country-name": "Brazil",
+            "total-percentage-upeers": "0.41",
+            "upeers-total": 12080
         },
         {
             "number": 24,
-            "country-code": "CHN",
-            "country-name": "China, Hangzhou, 02",
-            "total-percentage-upeers": "0.45",
-            "upeers-total": 3907
+            "country-code": "LKA",
+            "country-name": "Sri Lanka, Colombo, 36",
+            "total-percentage-upeers": "0.39",
+            "upeers-total": 11513
         },
         {
             "number": 25,
-            "country-code": "CHN",
-            "country-name": "China, Shenzhen, 30",
-            "total-percentage-upeers": "0.44",
-            "upeers-total": 3801
+            "country-code": "USA",
+            "country-name": "United States of America, Cambridge, MA",
+            "total-percentage-upeers": "0.38",
+            "upeers-total": 11182
         },
         {
             "number": 26,
-            "country-code": "SGP",
-            "country-name": "Singapore, Singapore, 00",
-            "total-percentage-upeers": "0.44",
-            "upeers-total": 3778
+            "country-code": "NLD",
+            "country-name": "Netherlands",
+            "total-percentage-upeers": "0.35",
+            "upeers-total": 10428
         },
         {
             "number": 27,
-            "country-code": "RUS",
-            "country-name": "Russian Federation, 42",
-            "total-percentage-upeers": "0.42",
-            "upeers-total": 3626
+            "country-code": "USA",
+            "country-name": "United States of America, New York, NY",
+            "total-percentage-upeers": "0.35",
+            "upeers-total": 10292
         },
         {
             "number": 28,
-            "country-code": "CHN",
-            "country-name": "China, Hefei, 01",
-            "total-percentage-upeers": "0.42",
-            "upeers-total": 3596
+            "country-code": "USA",
+            "country-name": "United States of America, Houston, TX",
+            "total-percentage-upeers": "0.34",
+            "upeers-total": 10244
         },
         {
             "number": 29,
-            "country-code": "ITA",
-            "country-name": "Italy",
-            "total-percentage-upeers": "0.41",
-            "upeers-total": 3533
+            "country-code": "CHN",
+            "country-name": "China, Jinan, 25",
+            "total-percentage-upeers": "0.34",
+            "upeers-total": 10192
         },
         {
             "number": 30,
-            "country-code": "CHN",
-            "country-name": "China, Shenyang, 19",
-            "total-percentage-upeers": "0.40",
-            "upeers-total": 3487
+            "country-code": "PHL",
+            "country-name": "Philippines, Quezon City, F2",
+            "total-percentage-upeers": "0.34",
+            "upeers-total": 10166
         }
     ],
     "collection-unique-btiha-detail": [
         {
-            "id": 28,
-            "name": "[limetorrents.info]Vanguard..2020..[720p].[WEBRip].[YTS.MX]",
-            "btih": "d75356296ca6d2edc0e131c5754b309fcf9783c8",
-            "resolution": "720",
-            "encoding": "none",
-            "private": false,
-            "peer": 73599,
-            "seed": 33032
-        },
-        {
-            "id": 46,
-            "name": "[limetorrents.info]Vanguard.2020.CHINESE.HDCAM.ENG.SUB.850MB.c1nem4.x264-SUNSCREEN[",
-            "btih": "87bf4ce4e4731567e5a7282b78b7f2128bd8a945",
-            "resolution": "sd",
-            "encoding": "264",
-            "private": false,
-            "peer": 60068,
-            "seed": 14088
-        },
-        {
-            "id": 41,
-            "name": "[limetorrents.info]Vanguard.2020.CHINESE.720p.HDCAM.ENG.SUB",
-            "btih": "04bf2631d1df9523d95992ce2dbc6401c150aca9",
-            "resolution": "720",
-            "encoding": "none",
-            "private": false,
-            "peer": 56072,
-            "seed": 7046
-        },
-        {
-            "id": 446,
-            "name": "multi-btih-2-2x-Vanguard.2020.CHINESE.ENSUBBED.1080p.WEBRip.AAC2.0.x264-NOGRP-[rarbg.to]",
-            "btih": "271d3dc15a4ca26ca1216e20766ced95548a0e00",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 56039,
-            "seed": 16960
-        },
-        {
-            "id": 36,
-            "name": "[limetorrents.info]Vanguard.2020.720p.HDCAM.Hindi.Dub.Dual-Audio.x264-1XBET",
-            "btih": "b2f915f78c27b1592028290f29cb506c1f1870c8",
-            "resolution": "720",
-            "encoding": "264",
-            "private": false,
-            "peer": 53685,
-            "seed": 5505
-        },
-        {
-            "id": 445,
-            "name": "multi-btih-1-2x-Vanguard.2020.720p.HDCAM.Telugu.Dub.Dual-Audio.x264-1XBET.mkv",
-            "btih": "4f66207747d19fa54fc79aeef4ec4e269cffb9ae",
-            "resolution": "720",
-            "encoding": "264",
-            "private": false,
-            "peer": 47115,
-            "seed": 861
-        },
-        {
-            "id": 25,
-            "name": "[limetorrents.info]Vanguard..2020...1080p..[WEBRip].[YTS.MX]",
-            "btih": "33669b93c5e576cb3e157ecec41bd02918984463",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 46007,
-            "seed": 21822
-        },
-        {
-            "id": 14,
-            "name": "Vanguard.2020.CHINESE[freedownloadterminal.com]",
-            "btih": "b484cfae4de9b6d6ce7ee6ec1a6a1410057c246b",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 34699,
-            "seed": 53
-        },
-        {
-            "id": 34,
-            "name": "[limetorrents.info]Vanguard.2020.720p.HDCAM.Bengali.Dub.x264-1XBET",
-            "btih": "d2d1a58d07691e7177b47a2de58a5ede54c18c04",
-            "resolution": "720",
-            "encoding": "264",
-            "private": false,
-            "peer": 31204,
-            "seed": 543
-        },
-        {
-            "id": 42,
-            "name": "[limetorrents.info]Vanguard.2020.CHINESE.720p.SUBBED.HDRip.800MB.x264-GalaxyRG",
-            "btih": "2aaef9a64399e7a23214e213324bac2799beb618",
-            "resolution": "720",
-            "encoding": "264",
-            "private": false,
-            "peer": 30941,
-            "seed": 11651
-        },
-        {
-            "id": 30,
-            "name": "[limetorrents.info]Vanguard..2020.[720p.HQ.DVDScr.-.[Telugu..Fan.Dub....Chi].-.x264.-.900MB]",
-            "btih": "bb40ac592391ca5ecff429a691cc6c71bc1e35ca",
-            "resolution": "720",
-            "encoding": "264",
-            "private": false,
-            "peer": 30445,
-            "seed": 1458
-        },
-        {
-            "id": 50,
-            "name": "[limetorrents.info]急先锋.Vanguard.2020.TC720P.X264.AAC.Cantonese.CHS",
-            "btih": "2684fbf7037b6af4b2d42815c82827bd7a50959c",
-            "resolution": "720",
-            "encoding": "264",
-            "private": false,
-            "peer": 29590,
-            "seed": 7865
-        },
-        {
-            "id": 31,
-            "name": "[limetorrents.info]Vanguard.2020.1080p.HC.HDRip.X264",
-            "btih": "d725cda0fc9d4da998138f4f4a84544ab62de4a1",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 28259,
-            "seed": 10476
-        },
-        {
-            "id": 15,
-            "name": "Vanguard.2020.D.TS.14OOMB.avi",
-            "btih": "d6b3834a31cde99898c3240d3163736283b6c2ee",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 26723,
-            "seed": 4279
-        },
-        {
-            "id": 53,
-            "name": "[limetorrents.info]急先锋[高码版].Vanguard.2020.Cantonese.HD1080P.x264.AAC.中文字幕.CHS.taobaobt",
-            "btih": "9477e7d88b79b002641d313c870415724211d2d9",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 24783,
-            "seed": 10139
-        },
-        {
-            "id": 52,
-            "name": "[limetorrents.info]急先锋[低码版].Vanguard.2020.Cantonese.HD1080P.x264.AAC.中文字幕.CHS.taobaobt",
-            "btih": "0570549aeec9a6a1e4078bbf3d956023b8eb1efa",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 24460,
-            "seed": 5317
-        },
-        {
-            "id": 449,
-            "name": "multi-btih-5-2x-[limetorrents.info]Vanguard.2020.1080p.HDTV.H264-BYRTV",
-            "btih": "376f777df3fd9170dcab21cb2a2c6020dbf27e03",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 23451,
-            "seed": 10956
-        },
-        {
-            "id": 35,
-            "name": "[limetorrents.info]Vanguard.2020.720p.HDCAM.HINDI.SUB.1XBET",
-            "btih": "8de48208529b85052afd8e4490c42e86f3e70e17",
-            "resolution": "720",
-            "encoding": "none",
-            "private": false,
-            "peer": 21401,
-            "seed": 455
-        },
-        {
-            "id": 22,
-            "name": "Vanguard.2020.HC.HDRip.XviD.AC3-EVO",
-            "btih": "45d3ec35d57ad64ff7d3e637e019462e948efd5a",
-            "resolution": "sd",
-            "encoding": "xvid",
-            "private": false,
-            "peer": 21309,
-            "seed": 7241
-        },
-        {
-            "id": 48,
-            "name": "[limetorrents.info]Vanguard.2020.Pk.TS.72Op",
-            "btih": "b0cc7780e8b46995048f975c2d93a67ebf7c6a2c",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 18003,
-            "seed": 3310
-        },
-        {
-            "id": 448,
-            "name": "multi-btih-4-2x-Vanguard.2020.CHINESE.ENSUBBED.WEBRip.x264-NOGRP-[rarbg.to]",
-            "btih": "8a3a843374cac7e454bff9d4aef40b38d6a44a7a",
-            "resolution": "sd",
-            "encoding": "264",
-            "private": false,
-            "peer": 17516,
-            "seed": 2530
-        },
-        {
-            "id": 59,
-            "name": "뱅가드 急先锋.Vanguard.2020.720p.HDRip.H264.AAC-RTM",
-            "btih": "c87d6dd700942ca137aa83a2f7d8039437972fc5",
-            "resolution": "720",
-            "encoding": "264",
-            "private": false,
-            "peer": 17345,
-            "seed": 1791
-        },
-        {
-            "id": 47,
-            "name": "[limetorrents.info]Vanguard.2020.HC.HDRip.XviD",
-            "btih": "95795dff4f7e31e025ec0617c9ebd4a1b6924965",
-            "resolution": "sd",
-            "encoding": "xvid",
-            "private": false,
-            "peer": 16914,
-            "seed": 5534
-        },
-        {
-            "id": 51,
-            "name": "[limetorrents.info]急先锋.粤语中字-成龙-杨洋]..Vanguard.2020.WEB-1080p.X264.AAC.CHS-UUMp4",
-            "btih": "5781cffefe515937491332c538857cd48cd389bc",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 16252,
-            "seed": 3951
-        },
-        {
-            "id": 7,
-            "name": "Vanguard.2020.1080p.WEB-DL.X264",
-            "btih": "d7e80c4424760bbda7915244f747d88298f5824a",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 10180,
-            "seed": 2643
-        },
-        {
-            "id": 447,
-            "name": "multi-btih-3-3x-Vanguard.2020.CHINESE.ENSUBBED.WEBRip.XviD.MP3-NOGRP-[rarbg.to]",
-            "btih": "57f6fa48ba782788e128a95f0290c3f7eba3db8c",
-            "resolution": "sd",
-            "encoding": "xvid",
-            "private": false,
-            "peer": 9027,
-            "seed": 1673
-        },
-        {
-            "id": 16,
-            "name": "Vanguard.2020.D.TS.72Op.mkv",
-            "btih": "9214cd76d082542b668d3de2608d741179430c4b",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 8428,
-            "seed": 930
-        },
-        {
-            "id": 3,
-            "name": "Vanguard [2020]1080p.BluRay.x264.[ExYuSubs]",
-            "btih": "2272ec319ed3d7f029bd6d4fc5d640da1bb0a79b",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 7874,
-            "seed": 180
-        },
-        {
-            "id": 54,
-            "name": "[limetorrents.info]追光寻影.（）急先锋.Vanguard.2020.1080p.HDTV.AAC.x264-粤语中字",
-            "btih": "1d4b6d3fcb075ba4d04c1ebc2364969fbf83013f",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 6200,
-            "seed": 1076
-        },
-        {
-            "id": 57,
-            "name": "【更多蓝光电影访问 www.BBQDDQ.com】急先锋[国语中字].Vanguard.2020.WEB-DL.2160P.H265.AAC-BYRTV",
-            "btih": "9d25017e90d5942f9c2b16bf0e017265b5f331b9",
-            "resolution": "2160",
-            "encoding": "265",
-            "private": false,
-            "peer": 4053,
-            "seed": 1639
-        },
-        {
-            "id": 39,
-            "name": "[limetorrents.info]Vanguard.2020.720p.WEBRip.Hindi.Dub.Dual-Audio.x264-1XBET",
-            "btih": "795b0a3a95f280b91f1ab878890c8e4221905398",
-            "resolution": "720",
-            "encoding": "264",
-            "private": false,
-            "peer": 2282,
-            "seed": 432
-        },
-        {
-            "id": 40,
-            "name": "[limetorrents.info]Vanguard.2020.720p.WEBRip.Telugu.Dub.Dual-Audio.x264-1XBET",
-            "btih": "f8a95e1966c02a346c35265187b80002a7b64c29",
-            "resolution": "720",
-            "encoding": "264",
-            "private": false,
-            "peer": 2102,
-            "seed": 46
-        },
-        {
-            "id": 26,
-            "name": "[limetorrents.info]Vanguard..2020..WEBRip.1080p.Ukr.Chi",
-            "btih": "ec967f6890f25068895b1e6837a00aae02765654",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 1668,
-            "seed": 315
-        },
-        {
-            "id": 444,
-            "name": "multi-btih-0-2x-Vanguard.(2020).WEBRip.Ukr.Chi.avi",
-            "btih": "e8594bd1381fc9891529a31e8026a111a9568175",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 1432,
-            "seed": 359
-        },
-        {
-            "id": 33,
-            "name": "[limetorrents.info]Vanguard.2020.720p.HC.HDRip.x264-HDETG",
-            "btih": "9ca820bc83b9958ca75976d0840c50db3481ae1a",
-            "resolution": "720",
-            "encoding": "264",
-            "private": false,
-            "peer": 1371,
-            "seed": 56
-        },
-        {
-            "id": 2,
-            "name": "Vanguard 2020 720p HC HDRip x264 ESubs - MkvHub.Com.mkv",
-            "btih": "046ff10a7569617558707208e64cc1430ab38835",
-            "resolution": "720",
-            "encoding": "264",
-            "private": false,
-            "peer": 1048,
-            "seed": 113
-        },
-        {
-            "id": 6,
-            "name": "Vanguard.2020.1080p.HC.HDRip.X264.AC3-EVO [IPT]",
-            "btih": "b0cd0cf14886f04a21eabfb01f9146e326aed12f",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": true,
-            "peer": 921,
-            "seed": 497
-        },
-        {
-            "id": 21,
-            "name": "Vanguard.2020.HC.HDRip.XviD.AC3-EVO [IPT]",
-            "btih": "a7584a29d595760b168a7942bc1c80997cab4b80",
-            "resolution": "sd",
-            "encoding": "xvid",
-            "private": true,
-            "peer": 899,
-            "seed": 504
-        },
-        {
-            "id": 29,
-            "name": "[limetorrents.info]Vanguard..2020.",
-            "btih": "ee877885845b68a0603bfb051b6af233aa32c165",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 428,
-            "seed": 55
-        },
-        {
-            "id": 38,
-            "name": "[limetorrents.info]Vanguard.2020.720p.WEBRip.Bengali.Dub.x264-1XBET",
-            "btih": "2e230fbc96a3241f40e72966dc8aafdc59db54ca",
-            "resolution": "720",
-            "encoding": "264",
-            "private": false,
-            "peer": 310,
-            "seed": 55
-        },
-        {
-            "id": 56,
-            "name": "www.Torrenting.org - Vanguard.2020.HC.HDRip.XviD.AC3-EVO",
-            "btih": "dd293b78d3682fb6ff54f601c74e46e11630c784",
-            "resolution": "sd",
-            "encoding": "xvid",
-            "private": false,
-            "peer": 0,
-            "seed": 0
-        },
-        {
-            "id": 24,
-            "name": "Vanguard.2020.WEBRip.avi",
-            "btih": "83a2c20abf72e697cc58fcab4f4ffef97318dd5b",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 0,
-            "seed": 0
-        },
-        {
-            "id": 23,
-            "name": "Vanguard.2020.WEBRip.1080p-LQ.mkv",
-            "btih": "49e85cd442a53567511ccb9cc59c397ab2e13c1c",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 0,
-            "seed": 0
-        },
-        {
-            "id": 5,
-            "name": "Vanguard.2020.(1080p) [BluRay] [YTS MX]",
-            "btih": "fcf327ce411728931f7fc74df30ea28595aa319f",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 0,
-            "seed": 0
-        },
-        {
-            "id": 58,
-            "name": "뱅가드 急先锋.Vanguard.2020.1080p.FHDRip.H264.AAC-RTM",
-            "btih": "035eea027c8d6f4e4400a4507bb2d44b32e43daf",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 0,
-            "seed": 0
-        },
-        {
-            "id": 17,
-            "name": "Vanguard.2020.D.WEB-DL.72Op.mkv",
-            "btih": "4acec8758f763c1739d5dcf19ca0f3e5512c3904",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 0,
-            "seed": 0
-        },
-        {
-            "id": 55,
-            "name": "www.TamilBlasters.ws - Vanguard (2020) [720p BDRip - [Telugu (Fan Dub) + Chi] - x264 - MP3 - 950MB].mkv",
-            "btih": "88448fb4c360b8ead16207847a02fe6c0d8e8f33",
-            "resolution": "720",
-            "encoding": "264",
-            "private": false,
-            "peer": 0,
-            "seed": 0
-        },
-        {
-            "id": 20,
-            "name": "Vanguard.2020.HC.1080p.WEB-DL.H265.AAC-OurTV",
-            "btih": "6db399e86bdb93482e266499a1694886e99fe958",
-            "resolution": "1080",
-            "encoding": "265",
-            "private": false,
-            "peer": 0,
-            "seed": 0
-        },
-        {
-            "id": 1,
-            "name": "Vanguard (2020) WEBRip 1080p [UKR_CHI] [Hurtom].mkv",
-            "btih": "af174631a53bbcf3b1425cfe85419c6fa57e0fec",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 0,
-            "seed": 0
-        },
-        {
-            "id": 19,
-            "name": "Vanguard.2020.DVDRip.mp4",
-            "btih": "a6b2073bb7c1a3f5c0e2fa08788d3cf6f15eb192",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 0,
-            "seed": 0
-        },
-        {
-            "id": 8,
-            "name": "Vanguard.2020.720p BluRay x264 BONE",
-            "btih": "a23e4ecafbc810ff3d23a892c35a4cddf47ca6b7",
-            "resolution": "720",
-            "encoding": "264",
-            "private": false,
-            "peer": 0,
-            "seed": 0
-        },
-        {
-            "id": 18,
+            "id": 85,
             "name": "Vanguard.2020.D.WEB-DLRip.14OOMB.avi",
             "btih": "db40e845ce7f4d2d004161bba8ce19bc69560de0",
             "resolution": "sd",
             "encoding": "none",
             "private": false,
-            "peer": 0,
-            "seed": 0
+            "peer": 208464,
+            "seed": 111274
+        },
+        {
+            "id": 3587,
+            "name": "multi-btih-1-2x-Vanguard (2020) [1080p] [WEBRip] [YTS.MX]",
+            "btih": "33669b93c5e576cb3e157ecec41bd02918984463",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 158063,
+            "seed": 68459
+        },
+        {
+            "id": 102,
+            "name": "[limetorrents.info]Vanguard..2020..[720p].[WEBRip].[YTS.MX]",
+            "btih": "d75356296ca6d2edc0e131c5754b309fcf9783c8",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 155984,
+            "seed": 63693
+        },
+        {
+            "id": 3615,
+            "name": "multi-btih-29-2x-Vanguard.2020.CHINESE.ENSUBBED.1080p.WEBRip.AAC2.0.x264-NOGRP-[rarbg.to]",
+            "btih": "271d3dc15a4ca26ca1216e20766ced95548a0e00",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 99184,
+            "seed": 24655
+        },
+        {
+            "id": 3613,
+            "name": "multi-btih-27-2x-Vanguard.2020.CHINESE.720p.SUBBED.HDRip.800MB.x264-GalaxyRG[TGx]",
+            "btih": "2aaef9a64399e7a23214e213324bac2799beb618",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 93923,
+            "seed": 18304
+        },
+        {
+            "id": 121,
+            "name": "[limetorrents.info]Vanguard.2020.CHINESE.HDCAM.ENG.SUB.850MB.c1nem4.x264-SUNSCREEN[",
+            "btih": "87bf4ce4e4731567e5a7282b78b7f2128bd8a945",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 76531,
+            "seed": 16394
+        },
+        {
+            "id": 3605,
+            "name": "multi-btih-19-2x-Vanguard.2020.1080p.HC.HDRip.X264.AC3-EVO[TGx]",
+            "btih": "d725cda0fc9d4da998138f4f4a84544ab62de4a1",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 68676,
+            "seed": 20057
+        },
+        {
+            "id": 110,
+            "name": "[limetorrents.info]Vanguard.2020.720p.HDCAM.Hindi.Dub.Dual-Audio.x264-1XBET",
+            "btih": "b2f915f78c27b1592028290f29cb506c1f1870c8",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 67923,
+            "seed": 6660
+        },
+        {
+            "id": 116,
+            "name": "[limetorrents.info]Vanguard.2020.CHINESE.720p.HDCAM.ENG.SUB",
+            "btih": "04bf2631d1df9523d95992ce2dbc6401c150aca9",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 66806,
+            "seed": 8257
+        },
+        {
+            "id": 3607,
+            "name": "multi-btih-21-2x-Vanguard.2020.720p.HDCAM.Telugu.Dub.Dual-Audio.x264-1XBET.mkv",
+            "btih": "4f66207747d19fa54fc79aeef4ec4e269cffb9ae",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 62138,
+            "seed": 1082
+        },
+        {
+            "id": 149,
+            "name": "【更多蓝光电影访问 www.BBQDDQ.com】急先锋[国语中字].Vanguard.2020.WEB-DL.2160P.H265.AAC-BYRTV",
+            "btih": "9d25017e90d5942f9c2b16bf0e017265b5f331b9",
+            "resolution": "2160",
+            "encoding": "265",
+            "private": false,
+            "peer": 59956,
+            "seed": 3589
+        },
+        {
+            "id": 104,
+            "name": "[limetorrents.info]Vanguard..2020.[720p.HQ.DVDScr.-.[Telugu..Fan.Dub....Chi].-.x264.-.900MB]",
+            "btih": "bb40ac592391ca5ecff429a691cc6c71bc1e35ca",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 49872,
+            "seed": 1869
+        },
+        {
+            "id": 127,
+            "name": "[limetorrents.info]急先锋[低码版].Vanguard.2020.Cantonese.HD1080P.x264.AAC.中文字幕.CHS.taobaobt",
+            "btih": "0570549aeec9a6a1e4078bbf3d956023b8eb1efa",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 49712,
+            "seed": 6601
+        },
+        {
+            "id": 2,
+            "name": "COMANDO.TO - Agentes Vanguard 2020 [1080p] DUAL",
+            "btih": "ccaad5c258b73fa65750e81b85561dc06128aac0",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 47993,
+            "seed": 7235
+        },
+        {
+            "id": 128,
+            "name": "[limetorrents.info]急先锋[高码版].Vanguard.2020.Cantonese.HD1080P.x264.AAC.中文字幕.CHS.taobaobt",
+            "btih": "9477e7d88b79b002641d313c870415724211d2d9",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 47615,
+            "seed": 12904
+        },
+        {
+            "id": 81,
+            "name": "Vanguard.2020.CHINESE[freedownloadterminal.com]",
+            "btih": "b484cfae4de9b6d6ce7ee6ec1a6a1410057c246b",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 46020,
+            "seed": 110
+        },
+        {
+            "id": 125,
+            "name": "[limetorrents.info]急先锋.Vanguard.2020.TC720P.X264.AAC.Cantonese.CHS",
+            "btih": "2684fbf7037b6af4b2d42815c82827bd7a50959c",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 45914,
+            "seed": 8480
+        },
+        {
+            "id": 3618,
+            "name": "multi-btih-32-2x-[limetorrents.info]Vanguard.2020.1080p.HDTV.H264-BYRTV",
+            "btih": "376f777df3fd9170dcab21cb2a2c6020dbf27e03",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 44442,
+            "seed": 12916
+        },
+        {
+            "id": 90,
+            "name": "Vanguard.2020.HC.HDRip.XviD.AC3-EVO",
+            "btih": "45d3ec35d57ad64ff7d3e637e019462e948efd5a",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": false,
+            "peer": 44276,
+            "seed": 10597
+        },
+        {
+            "id": 108,
+            "name": "[limetorrents.info]Vanguard.2020.720p.HDCAM.Bengali.Dub.x264-1XBET",
+            "btih": "d2d1a58d07691e7177b47a2de58a5ede54c18c04",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 42724,
+            "seed": 721
+        },
+        {
+            "id": 3602,
+            "name": "multi-btih-16-2x-Vanguard-2020-HDRip-XviD",
+            "btih": "393feac3161639785478b576f9dd5478308e67d7",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": false,
+            "peer": 42602,
+            "seed": 13723
+        },
+        {
+            "id": 3617,
+            "name": "multi-btih-31-2x-Vanguard.2020.CHINESE.ENSUBBED.WEBRip.x264-NOGRP-[rarbg.to]",
+            "btih": "8a3a843374cac7e454bff9d4aef40b38d6a44a7a",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 42341,
+            "seed": 5145
+        },
+        {
+            "id": 122,
+            "name": "[limetorrents.info]Vanguard.2020.HC.HDRip.XviD",
+            "btih": "95795dff4f7e31e025ec0617c9ebd4a1b6924965",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": false,
+            "peer": 41731,
+            "seed": 8873
+        },
+        {
+            "id": 151,
+            "name": "뱅가드 (정식자막) 急先锋.Vanguard.2020.1080p.KOR.FHDRip.H264.AAC-RTM.mkv",
+            "btih": "2bbddd353708091664dc2ab860b29f35f7232755",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 40540,
+            "seed": 9483
+        },
+        {
+            "id": 153,
+            "name": "뱅가드 急先锋.Vanguard.2020.720p.HDRip.H264.AAC-RTM",
+            "btih": "c87d6dd700942ca137aa83a2f7d8039437972fc5",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 39748,
+            "seed": 2224
+        },
+        {
+            "id": 123,
+            "name": "[limetorrents.info]Vanguard.2020.Pk.TS.72Op",
+            "btih": "b0cc7780e8b46995048f975c2d93a67ebf7c6a2c",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 39485,
+            "seed": 6678
+        },
+        {
+            "id": 3598,
+            "name": "multi-btih-12-2x-Vanguard-2020-CHINESE-1080p-WEB-DL-H264-DD5-1",
+            "btih": "562248244b7079ce219a8db1487bbfb57468bfbf",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 39406,
+            "seed": 11620
+        },
+        {
+            "id": 38,
+            "name": "Vanguard-2020-CHINESE-REPACK-720p-WEBRip-800MB-x264",
+            "btih": "7d73d59f97dd4013a1996adcabcc77b36f6e860b",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 39385,
+            "seed": 1530
+        },
+        {
+            "id": 3604,
+            "name": "multi-btih-18-3x-Vanguard.(2020).WEBRip.Ukr.Chi.avi",
+            "btih": "e8594bd1381fc9891529a31e8026a111a9568175",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 38192,
+            "seed": 2554
+        },
+        {
+            "id": 3616,
+            "name": "multi-btih-30-3x-Vanguard.2020.CHINESE.ENSUBBED.WEBRip.XviD.MP3-NOGRP-[rarbg.to]",
+            "btih": "57f6fa48ba782788e128a95f0290c3f7eba3db8c",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": false,
+            "peer": 37722,
+            "seed": 3714
+        },
+        {
+            "id": 82,
+            "name": "Vanguard.2020.D.TS.14OOMB.avi",
+            "btih": "d6b3834a31cde99898c3240d3163736283b6c2ee",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 35449,
+            "seed": 5097
+        },
+        {
+            "id": 109,
+            "name": "[limetorrents.info]Vanguard.2020.720p.HDCAM.HINDI.SUB.1XBET",
+            "btih": "8de48208529b85052afd8e4490c42e86f3e70e17",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 34386,
+            "seed": 641
+        },
+        {
+            "id": 3609,
+            "name": "multi-btih-23-2x-Vanguard.2020.720p.Webrip.Hindi.Dub.Dual-Audio.x264-1XBET.mkv",
+            "btih": "28f609c8f75de34ae1a613ce8526d91a5dcd54bb",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 33494,
+            "seed": 1322
+        },
+        {
+            "id": 83,
+            "name": "Vanguard.2020.D.TS.72Op.mkv",
+            "btih": "9214cd76d082542b668d3de2608d741179430c4b",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 32421,
+            "seed": 1316
+        },
+        {
+            "id": 113,
+            "name": "[limetorrents.info]Vanguard.2020.720p.WEBRip.Hindi.Dub.Dual-Audio.x264-1XBET",
+            "btih": "795b0a3a95f280b91f1ab878890c8e4221905398",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 31554,
+            "seed": 1870
+        },
+        {
+            "id": 3600,
+            "name": "multi-btih-14-2x-Vanguard-2020-CHINESE-WEB-DL-XviD",
+            "btih": "597fbee43f1714cda4c2c6a9ed30182e109d485d",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": false,
+            "peer": 31553,
+            "seed": 594
+        },
+        {
+            "id": 96,
+            "name": "Vanguard.2020.WEBRip.avi",
+            "btih": "83a2c20abf72e697cc58fcab4f4ffef97318dd5b",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 30775,
+            "seed": 1371
+        },
+        {
+            "id": 94,
+            "name": "Vanguard.2020.WEBRip.1080p-LQ.mkv",
+            "btih": "49e85cd442a53567511ccb9cc59c397ab2e13c1c",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 30592,
+            "seed": 3876
+        },
+        {
+            "id": 3590,
+            "name": "multi-btih-4-2x-Vanguard-2020-BDRip(AVC)-OlLanDGroup",
+            "btih": "02b52b747e53e44bf06d94f7a765426660e35507",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 29939,
+            "seed": 624
+        },
+        {
+            "id": 126,
+            "name": "[limetorrents.info]急先锋.粤语中字-成龙-杨洋]..Vanguard.2020.WEB-1080p.X264.AAC.CHS-UUMp4",
+            "btih": "5781cffefe515937491332c538857cd48cd389bc",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 28166,
+            "seed": 4768
+        },
+        {
+            "id": 51,
+            "name": "Vanguard.2020.1080p.WEB-DL.X264",
+            "btih": "d7e80c4424760bbda7915244f747d88298f5824a",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 25780,
+            "seed": 5750
+        },
+        {
+            "id": 8,
+            "name": "Vanguard [2020]1080p.BluRay.x264.[ExYuSubs]",
+            "btih": "2272ec319ed3d7f029bd6d4fc5d640da1bb0a79b",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 25678,
+            "seed": 230
+        },
+        {
+            "id": 91,
+            "name": "Vanguard.2020.HC.HDRip.XviD.AC3-EVO[TGx]",
+            "btih": "630029f8a15c0cbc8c7958bdcaf48efe3de7ccb4",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": false,
+            "peer": 25264,
+            "seed": 4020
+        },
+        {
+            "id": 3595,
+            "name": "multi-btih-9-2x-Vanguard-2020-BDRip-720p-seleZen",
+            "btih": "8d910e9014d2718f6a52559296d744bdbeb874f9",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 25057,
+            "seed": 3650
+        },
+        {
+            "id": 3591,
+            "name": "multi-btih-5-2x-Vanguard-2020-BDRip-1-46Gb-MegaPeer",
+            "btih": "5ef4f8991516ca6160e4dbe8f820736745925a9f",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 24473,
+            "seed": 10494
+        },
+        {
+            "id": 4,
+            "name": "Vanguard (2020) WEBRip 1080p [UKR_CHI] [Hurtom].mkv",
+            "btih": "af174631a53bbcf3b1425cfe85419c6fa57e0fec",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 22767,
+            "seed": 1196
+        },
+        {
+            "id": 3601,
+            "name": "multi-btih-15-2x-Vanguard-2020-CHINESE-WEB-DL-x264",
+            "btih": "a59b83d83bcaf2f80248d93bf53a515ca2ebc58f",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 22487,
+            "seed": 1726
+        },
+        {
+            "id": 3603,
+            "name": "multi-btih-17-3x-Vanguard.(2020).WEBRip.1080p.Ukr.Chi.mkv",
+            "btih": "ec967f6890f25068895b1e6837a00aae02765654",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 21363,
+            "seed": 1904
+        },
+        {
+            "id": 9,
+            "name": "Vanguard [BluRay 720p X264 MKV][AC3 5.1 Latino][www.PctMix.Com]",
+            "btih": "dae8379debae635765a086e66b51edd256f17b8b",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 21315,
+            "seed": 252
+        },
+        {
+            "id": 3606,
+            "name": "multi-btih-20-2x-Vanguard.2020.720p.HC.HDRip.x264-HDETG.com",
+            "btih": "9ca820bc83b9958ca75976d0840c50db3481ae1a",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 20796,
+            "seed": 275
+        },
+        {
+            "id": 3612,
+            "name": "multi-btih-26-2x-Vanguard.2020.CHINESE.720p.BluRay.H264.AAC-VXT-[rarbg.to]",
+            "btih": "0b667ab9ac88a27b97f4eaab23060bfc173f9dff",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 20042,
+            "seed": 3205
+        },
+        {
+            "id": 144,
+            "name": "www.TamilBlasters.ws - Vanguard (2020) [720p BDRip - [Telugu (Fan Dub) + Chi] - x264 - MP3 - 950MB].mkv",
+            "btih": "88448fb4c360b8ead16207847a02fe6c0d8e8f33",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 19494,
+            "seed": 378
+        },
+        {
+            "id": 3608,
+            "name": "multi-btih-22-2x-Vanguard.2020.720p.WEBRip.Bengali.Dub.x264-1XBET.mkv",
+            "btih": "2e230fbc96a3241f40e72966dc8aafdc59db54ca",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 18533,
+            "seed": 281
+        },
+        {
+            "id": 86,
+            "name": "Vanguard.2020.D.WEB-DLRip.7OOMB.avi",
+            "btih": "db6e1fc9c98b2912f1e12ecf468f601384c6621e",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 17505,
+            "seed": 304
+        },
+        {
+            "id": 3593,
+            "name": "multi-btih-7-2x-Vanguard-2020-BDRip-1080p-seleZen",
+            "btih": "0321c95a3f50a4ba9b63d0762fc7084ff21abad0",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 16354,
+            "seed": 10708
+        },
+        {
+            "id": 3586,
+            "name": "multi-btih-0-2x-Torrenting.org   -   Vanguard.2020.720p.WEBRip.AAC2.0.X.264-EVO",
+            "btih": "a9caab9a07306426ec4958e0bf71f9544ec9f637",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 16158,
+            "seed": 85
+        },
+        {
+            "id": 7,
+            "name": "Vanguard 2020 720p HC HDRip x264 ESubs - MkvHub.Com.mkv",
+            "btih": "046ff10a7569617558707208e64cc1430ab38835",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 16058,
+            "seed": 235
+        },
+        {
+            "id": 114,
+            "name": "[limetorrents.info]Vanguard.2020.720p.WEBRip.Telugu.Dub.Dual-Audio.x264-1XBET",
+            "btih": "f8a95e1966c02a346c35265187b80002a7b64c29",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 15034,
+            "seed": 304
+        },
+        {
+            "id": 44,
+            "name": "Vanguard-2020-MULTi-UHD-2160p-HDR-TrueHD-5-1-HEVC-DDR",
+            "btih": "5466ec6499d3adf1961869f83a264f9dabce1b8d",
+            "resolution": "2160",
+            "encoding": "none",
+            "private": false,
+            "peer": 15007,
+            "seed": 627
+        },
+        {
+            "id": 87,
+            "name": "Vanguard.2020.DVDRip.mp4",
+            "btih": "a6b2073bb7c1a3f5c0e2fa08788d3cf6f15eb192",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 14690,
+            "seed": 204
+        },
+        {
+            "id": 129,
+            "name": "[limetorrents.info]追光寻影.（）急先锋.Vanguard.2020.1080p.HDTV.AAC.x264-粤语中字",
+            "btih": "1d4b6d3fcb075ba4d04c1ebc2364969fbf83013f",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 14358,
+            "seed": 1579
+        },
+        {
+            "id": 53,
+            "name": "Vanguard.2020.720p BluRay x264 BONE",
+            "btih": "a23e4ecafbc810ff3d23a892c35a4cddf47ca6b7",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 13972,
+            "seed": 83
+        },
+        {
+            "id": 3592,
+            "name": "multi-btih-6-2x-Vanguard-2020-BDRip-1080p-HEVC-DUB-10bit-mikos",
+            "btih": "9c09de6e565c5aab743bfd16ca276aa126d07f5a",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 13859,
+            "seed": 1279
+        },
+        {
+            "id": 130,
+            "name": "[rutor.is]Avangard.2020.BDRip.ELEKTRI4KA.UNIONGANG",
+            "btih": "53566437a58f83949abe45d28b8656cf37fe08fc",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 13666,
+            "seed": 3149
+        },
+        {
+            "id": 3599,
+            "name": "multi-btih-13-2x-Vanguard-2020-CHINESE-1080p-WEBRip-x264",
+            "btih": "afc2f9bae1870a1d64208f57e6bcb43aa26e490b",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 13189,
+            "seed": 2607
+        },
+        {
+            "id": 3594,
+            "name": "multi-btih-8-2x-Vanguard-2020-BDRip-2-14Gb-MegaPeer",
+            "btih": "0fcfcbeb118eab77d01ce14760acaeccd7692e53",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 12409,
+            "seed": 1178
+        },
+        {
+            "id": 95,
+            "name": "Vanguard.2020.WEBRip.Line.avi",
+            "btih": "25aff38ca28d153183485e17598589bda94af2ac",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 11068,
+            "seed": 276
+        },
+        {
+            "id": 3610,
+            "name": "multi-btih-24-2x-Vanguard.2020.CHINESE.1080p.BluRay.H264.AAC-VXT-[rarbg.to]",
+            "btih": "624583d0ce2183c65cb15726d62a5fb48ed961f3",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 9619,
+            "seed": 715
+        },
+        {
+            "id": 42,
+            "name": "Vanguard-2020-HDRip-XviD-AC3-EVO[TGx]",
+            "btih": "41c665fa54b1475f97106925b17925b70ff3b45f",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": false,
+            "peer": 8887,
+            "seed": 370
+        },
+        {
+            "id": 41,
+            "name": "Vanguard-2020-HDRip-XviD-AC3-EVO",
+            "btih": "a5b7f0926a54bda10483087406b0ae79b9c44fe6",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": false,
+            "peer": 8411,
+            "seed": 62
+        },
+        {
+            "id": 63,
+            "name": "Vanguard.2020.CHINESE.1080p.BluRay.x264.DTS-HD.MA.5.1-FGT",
+            "btih": "50f06d80ad364725695d43ad0cf426d3790c1d49",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 8021,
+            "seed": 923
+        },
+        {
+            "id": 12,
+            "name": "Vanguard-2020-1080p-BluRay-TrueHD-ztorrenter",
+            "btih": "0ef389d5d429ca26da1978e5afd87f13d1a138ef",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 7856,
+            "seed": 506
+        },
+        {
+            "id": 84,
+            "name": "Vanguard.2020.D.WEB-DL.72Op.mkv",
+            "btih": "4acec8758f763c1739d5dcf19ca0f3e5512c3904",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 7558,
+            "seed": 153
+        },
+        {
+            "id": 35,
+            "name": "Vanguard-2020-CHINESE-720p-10bit-BluRay-6CH-x265-HEVC",
+            "btih": "c0d03915305174223a70462f0332ce2c3590d31a",
+            "resolution": "720",
+            "encoding": "265",
+            "private": false,
+            "peer": 7527,
+            "seed": 228
+        },
+        {
+            "id": 3597,
+            "name": "multi-btih-11-2x-Vanguard-2020-CHINESE-1080p-BluRay-x265-VXT",
+            "btih": "7736fb58b9547cbc4aa5f07e07b80587088c1745",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 7413,
+            "seed": 555
+        },
+        {
+            "id": 13,
+            "name": "Vanguard-2020-1080p-WEB-DL-H264-DD5-1-EVO",
+            "btih": "b0753701370364ea0e1ace1087adb065fd28dced",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 7352,
+            "seed": 109
+        },
+        {
+            "id": 152,
+            "name": "뱅가드 急先锋.Vanguard.2020.1080p.FHDRip.H264.AAC-RTM",
+            "btih": "035eea027c8d6f4e4400a4507bb2d44b32e43daf",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 7337,
+            "seed": 1315
+        },
+        {
+            "id": 10,
+            "name": "Vanguard-(2020)-720p-Chinese-HDRip-x264-AAC-ESub-By-Full4Movies",
+            "btih": "899612b4acc6f3c5baefceddb9c6ce4e0a5b3133",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 6871,
+            "seed": 245
+        },
+        {
+            "id": 3588,
+            "name": "multi-btih-2-2x-Vanguard-2020-BDREMUX-1080p-seleZen",
+            "btih": "623821de6d7a1fb9b5f9557659a7e33f4bd11314",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 6729,
+            "seed": 2119
+        },
+        {
+            "id": 88,
+            "name": "Vanguard.2020.HC.1080p.WEB-DL.H265.AAC-OurTV",
+            "btih": "6db399e86bdb93482e266499a1694886e99fe958",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 6722,
+            "seed": 129
+        },
+        {
+            "id": 17,
+            "name": "Vanguard-2020-720p-WEBRip-800MB-x264-GalaxyRG",
+            "btih": "03b18c47bf9936ef6f9b61012b81ebc923334a3c",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 6631,
+            "seed": 142
+        },
+        {
+            "id": 131,
+            "name": "[rutor.is]Avangard.Arkticheskie.Volki.2020.D.BDRip.1400Mb",
+            "btih": "8da5dd21a59d1150f745178f0cf589e0b4ff3e62",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 6604,
+            "seed": 606
+        },
+        {
+            "id": 28,
+            "name": "Vanguard-2020-BluRay-1080p-2Audio-x264",
+            "btih": "750b548aef53c1ebc577bc1de84bc016c907803b",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 6594,
+            "seed": 1054
+        },
+        {
+            "id": 148,
+            "name": "Авангард Арктические волки Ji xian feng Vanguard (Стэнли Тун Stanley Tong) [2020, Китай, боевик, криминал, BDRip] Dub (iTun [rutracker-5987011]",
+            "btih": "7c66ad855afaff12ec946f88692c34fa3da48f70",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 6156,
+            "seed": 699
+        },
+        {
+            "id": 103,
+            "name": "[limetorrents.info]Vanguard..2020.",
+            "btih": "ee877885845b68a0603bfb051b6af233aa32c165",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 5985,
+            "seed": 317
+        },
+        {
+            "id": 37,
+            "name": "Vanguard-2020-CHINESE-720p-WEB-DL-x265-HEVC-HDETG-com",
+            "btih": "4ca9c756b326d1eb467be3081fef3c4a8dc61fa3",
+            "resolution": "720",
+            "encoding": "265",
+            "private": false,
+            "peer": 5917,
+            "seed": 52
+        },
+        {
+            "id": 15,
+            "name": "Vanguard-2020-1080p-WEBRip-DD5-1-X-264-EVO",
+            "btih": "ba4e3505772658b636937ff4b1cade4f176663b1",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 5841,
+            "seed": 85
+        },
+        {
+            "id": 47,
+            "name": "Vanguard.2020.(1080p) [BluRay] [YTS MX]",
+            "btih": "fcf327ce411728931f7fc74df30ea28595aa319f",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 5424,
+            "seed": 116
+        },
+        {
+            "id": 36,
+            "name": "Vanguard-2020-CHINESE-720p-BluRay-HEVC-x265-RMTeam",
+            "btih": "02e46ec92e69b97c75f40673e337bd75aea2ed3e",
+            "resolution": "720",
+            "encoding": "265",
+            "private": false,
+            "peer": 5234,
+            "seed": 250
+        },
+        {
+            "id": 72,
+            "name": "Vanguard.2020.CHINESE.720p.WEBRip.2CH.x265.HEVC-PSA",
+            "btih": "e16a3e4ab750c85134e94218ac2eb8b8860c4cf4",
+            "resolution": "720",
+            "encoding": "265",
+            "private": false,
+            "peer": 5219,
+            "seed": 184
+        },
+        {
+            "id": 14,
+            "name": "Vanguard-2020-1080p-WEB-DL-H264-DD5-1-EVO[TGx]",
+            "btih": "121c81f45da2c11afa74262723c2b0fadc91d67c",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 5155,
+            "seed": 1029
+        },
+        {
+            "id": 62,
+            "name": "Vanguard.2020.CHINESE.1080p.BluRay.REMUX.AVC.DTS-HD.MA.TrueHD.5.1-FGT",
+            "btih": "f38bb07c87374e3cadb7e6775d365440771fece1",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 5023,
+            "seed": 651
+        },
+        {
+            "id": 3596,
+            "name": "multi-btih-10-2x-Vanguard-2020-BDRip-AVC-ExKinoRay",
+            "btih": "a6279376d7820a099e4113fbbdd4a142e9a23e80",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 4960,
+            "seed": 1308
+        },
+        {
+            "id": 146,
+            "name": "Авангард Арктические волки Ji xian feng Vanguard (Стэнли Тун Stanley Tong) [2020, Китай, Боевик, криминал, BDRemux 1080p] D [rutracker-5986994]",
+            "btih": "b57542ef0451218b8d2368ab5be48bc5c755567d",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 4737,
+            "seed": 255
+        },
+        {
+            "id": 3589,
+            "name": "multi-btih-3-2x-Vanguard-2020-BDRip(AVC)-745Mb-OlLanDGroup",
+            "btih": "b74a8a77376c38edcd53568ef8ad7031c04d6d99",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 4618,
+            "seed": 686
+        },
+        {
+            "id": 132,
+            "name": "[rutor.is]Avangard.Arkticheskie.Volki.2020.D.BDRip.2100Mb",
+            "btih": "8ac9d27bee6caeecfb99e4479f5b6f73921f0a19",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 4492,
+            "seed": 496
+        },
+        {
+            "id": 3614,
+            "name": "multi-btih-28-2x-Vanguard.2020.CHINESE.BRRip.XviD.MP3-VXT-[rarbg.to]",
+            "btih": "b49a85a84184fc3138cd9e667e2bafbedd48c93f",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": false,
+            "peer": 4321,
+            "seed": 244
+        },
+        {
+            "id": 30,
+            "name": "Vanguard-2020-CHINESE-1080p-BluRay-AVC-TrueHD-5-1-FGT",
+            "btih": "64347793de5577febd725a5c2c61d8f3fe976a2a",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 4063,
+            "seed": 599
+        },
+        {
+            "id": 150,
+            "name": "急先锋(蓝光粤语中字)-Vanguard-2020-Cantonese-BD-1080p-X264-AAC-CHS-UUMp4",
+            "btih": "70e5d6653be5e04281b45547530e2313eacd40cb",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 4058,
+            "seed": 939
+        },
+        {
+            "id": 145,
+            "name": "www.Torrenting.org - Vanguard.2020.HC.HDRip.XviD.AC3-EVO",
+            "btih": "dd293b78d3682fb6ff54f601c74e46e11630c784",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": false,
+            "peer": 4006,
+            "seed": 144
+        },
+        {
+            "id": 33,
+            "name": "Vanguard-2020-CHINESE-1080p-WEB-DL-x265-HEVC-HDETG-com",
+            "btih": "9de7d1c6dd82abbb4e75944df51d0a793f99b5b9",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 3663,
+            "seed": 89
+        },
+        {
+            "id": 1,
+            "name": "Agentes.Vanguard.2020.1080p.BluRay.x265-CHD.DUAL-RK",
+            "btih": "0e7fab97862f8f4249bbb7280bb9986ce2d85fc5",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 3517,
+            "seed": 57
+        },
+        {
+            "id": 29,
+            "name": "Vanguard-2020-CHINESE-1080p-10bit-BluRay-6CH-x265-HEVC",
+            "btih": "88ddf35af847a9831032004b48b1298c861c9c4d",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 3512,
+            "seed": 477
+        },
+        {
+            "id": 16,
+            "name": "Vanguard-2020-576p-BRRip-x265-AAC-SSN",
+            "btih": "dda67793eb2ede43c29e693b6604447244c587af",
+            "resolution": "sd",
+            "encoding": "265",
+            "private": false,
+            "peer": 2210,
+            "seed": 99
+        },
+        {
+            "id": 3611,
+            "name": "multi-btih-25-2x-Vanguard.2020.CHINESE.1080p.BluRay.x264.TrueHD.5.1-FGT-[rarbg.to]",
+            "btih": "7453933796a0c51230314ca835cb6cd7e1219417",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 2197,
+            "seed": 743
+        },
+        {
+            "id": 89,
+            "name": "Vanguard.2020.HC.HDRip.XviD.AC3-EVO [IPT]",
+            "btih": "a7584a29d595760b168a7942bc1c80997cab4b80",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 2123,
+            "seed": 1071
+        },
+        {
+            "id": 48,
+            "name": "Vanguard.2020.1080p.HC.HDRip.X264.AC3-EVO [IPT]",
+            "btih": "b0cd0cf14886f04a21eabfb01f9146e326aed12f",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 1937,
+            "seed": 1096
+        },
+        {
+            "id": 147,
+            "name": "Авангард Арктические волки Ji xian feng Vanguard (Стэнли Тун Stanley Tong) [2020, Китай, Боевик, криминал, BDRip 1080p] Dub [rutracker-5988527]",
+            "btih": "a7852b1c1abb12291d818f0e1472307582a48068",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 945,
+            "seed": 211
+        },
+        {
+            "id": 11,
+            "name": "Vanguard-(2020)-[Jackie-Chan]-1080p-H264-DolbyD-5-1- -nickarad",
+            "btih": "b62fa15b39649f5e460d0d443706bfab866dc8ea",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 920,
+            "seed": 116
+        },
+        {
+            "id": 50,
+            "name": "Vanguard.2020.1080p.WEB-DL.H264.DD5.1-EVO [IPT]",
+            "btih": "ee7e3fb4dcd36624172533e84e9b4277386212b3",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 709,
+            "seed": 497
+        },
+        {
+            "id": 52,
+            "name": "Vanguard.2020.1080p.WEBRip.DD5.1.X.264-EVO [IPT]",
+            "btih": "2898340bc5e8534d53a3c517f118334a911a6aa4",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 597,
+            "seed": 382
+        },
+        {
+            "id": 92,
+            "name": "Vanguard.2020.HDRip.XviD.AC3-EVO [IPT]",
+            "btih": "ac08817fd7f5d2fa50512aae5af8eed741791e65",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 555,
+            "seed": 330
+        },
+        {
+            "id": 56,
+            "name": "Vanguard.2020.720p.WEBRip.AAC2.0.X.264-EVO [IPT]",
+            "btih": "9da49e1fde2bbd87744f89ee2a00f6445f48dd4c",
+            "resolution": "720",
+            "encoding": "264",
+            "private": true,
+            "peer": 416,
+            "seed": 237
+        },
+        {
+            "id": 59,
+            "name": "Vanguard.2020.BDRip.XviD.AC3-EVO [IPT]",
+            "btih": "8b6373724d39c2def39b59f42ac0391b572c185f",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": true,
+            "peer": 371,
+            "seed": 240
+        },
+        {
+            "id": 6,
+            "name": "Vanguard 2020 576p BRRip x265 AAC-SSN [IPT]",
+            "btih": "45652e3e638dd482ceccaa334dda07e0d40a1b45",
+            "resolution": "sd",
+            "encoding": "265",
+            "private": true,
+            "peer": 61,
+            "seed": 48
+        },
+        {
+            "id": 98,
+            "name": "[ShareUniversity]Vanguard.2020.1080p.WEB-DL.H264.DD5.1-EVO",
+            "btih": "73f114566af79f1d51a9400ddcc157cce6c3e326",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 34,
+            "seed": 22
+        },
+        {
+            "id": 97,
+            "name": "[ShareUniversity]Vanguard.2020.1080p.HC.HDRip.X264.AC3-EVO",
+            "btih": "f87a86557dd381b651db08b318097ae70ff8639d",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 9,
+            "seed": 8
         }
     ]
 }
