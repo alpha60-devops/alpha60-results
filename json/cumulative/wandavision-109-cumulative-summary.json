@@ -2,25 +2,25 @@
     "data-version": "20201228",
     "collection-name": "WandaVision",
     "collection-id": "109",
-    "sample-duration": "2021-03-05-to-2021-04-29",
-    "sample-days": 56,
+    "sample-duration": "2021-03-05-to-2021-05-13",
+    "sample-days": 70,
     "sample-year-start": 2021,
     "sample-year-end": 2021,
     "sample-day-year-start": 64,
-    "sample-day-year-end": 119,
+    "sample-day-year-end": 133,
     "collection-all-btiha-total": {
         "btiha-size": 219,
-        "upeers-total": 6303827,
-        "useeds-total": 2252133,
-        "anomaly-total": 403365,
-        "anomaly-percentage": "6.40"
+        "upeers-total": 11155685,
+        "useeds-total": 2477956,
+        "anomaly-total": 1025839,
+        "anomaly-percentage": "9.20"
     },
     "collection-unique-btiha-total": {
         "btiha-size": 193,
-        "upeers-total": 5261311,
-        "useeds-total": 1914354,
-        "anomaly-total": 274889,
-        "anomaly-percentage": "5.22"
+        "upeers-total": 9756710,
+        "useeds-total": 2105713,
+        "anomaly-total": 747880,
+        "anomaly-percentage": "7.67"
     },
     "collection-unique-btiha-week-00001": {
         "btiha-size": 161,
@@ -78,53 +78,67 @@
         "anomaly-total": 274889,
         "anomaly-percentage": "5.22"
     },
+    "collection-unique-btiha-week-00009": {
+        "btiha-size": 193,
+        "upeers-total": 7972632,
+        "useeds-total": 2017353,
+        "anomaly-total": 566792,
+        "anomaly-percentage": "7.11"
+    },
+    "collection-unique-btiha-week-00010": {
+        "btiha-size": 193,
+        "upeers-total": 9756710,
+        "useeds-total": 2105713,
+        "anomaly-total": 747880,
+        "anomaly-percentage": "7.67"
+    },
     "transfer-units": "terabyte",
-    "transfer-size": 39492.42973424069,
+    "transfer-size": 83074.1249189946,
     "transfer-price-1-name": "CloudFront-1-year",
     "transfer-price-1-per-gigabyte-cost": 0.005,
-    "transfer-price-1-USD": 365462.14867120349,
+    "transfer-price-1-USD": 583370.6245949729,
     "resolution-partitions": [
         {
             "number": 1,
             "name": "1080-all",
-            "total-percentage-upeers": "48.92",
-            "total-percentage-bytes": "41.59",
-            "upeers-total": 2573701
+            "total-percentage-upeers": "46.58",
+            "total-percentage-bytes": "38.66",
+            "upeers-total": 4544189
         },
         {
             "number": 2,
             "name": "720-all",
-            "total-percentage-upeers": "23.60",
-            "total-percentage-bytes": "10.71",
-            "upeers-total": 1241907
+            "total-percentage-upeers": "21.63",
+            "total-percentage-bytes": "9.32",
+            "upeers-total": 2109954
         },
         {
             "number": 3,
             "name": "sd-none",
-            "total-percentage-upeers": "8.70",
-            "total-percentage-bytes": "11.73",
-            "upeers-total": 457767
+            "total-percentage-upeers": "10.68",
+            "total-percentage-bytes": "11.29",
+            "upeers-total": 1041921
         },
         {
             "number": 4,
-            "name": "sd-264",
-            "total-percentage-upeers": "8.32",
-            "total-percentage-bytes": "1.18",
-            "upeers-total": 437901
+            "name": "2160-all",
+            "total-percentage-upeers": "10.42",
+            "total-percentage-bytes": "39.33",
+            "upeers-total": 1016630
         },
         {
             "number": 5,
-            "name": "2160-all",
-            "total-percentage-upeers": "8.03",
-            "total-percentage-bytes": "34.45",
-            "upeers-total": 422673
+            "name": "sd-264",
+            "total-percentage-upeers": "7.35",
+            "total-percentage-bytes": "0.95",
+            "upeers-total": 716982
         },
         {
             "number": 6,
             "name": "sd-xvid",
-            "total-percentage-upeers": "2.42",
-            "total-percentage-bytes": "0.35",
-            "upeers-total": 127362
+            "total-percentage-upeers": "3.35",
+            "total-percentage-bytes": "0.44",
+            "upeers-total": 327034
         }
     ],
     "geo-country-top-10": [
@@ -132,71 +146,71 @@
             "number": 1,
             "country-code": "USA",
             "country-name": "United States of America",
-            "total-percentage-upeers": "14.34",
-            "upeers-total": 754417
+            "total-percentage-upeers": "24.06",
+            "upeers-total": 2347566
         },
         {
             "number": 2,
             "country-code": "BRA",
             "country-name": "Brazil",
-            "total-percentage-upeers": "10.18",
-            "upeers-total": 535776
+            "total-percentage-upeers": "6.74",
+            "upeers-total": 657781
         },
         {
             "number": 3,
-            "country-code": "RUS",
-            "country-name": "Russian Federation",
-            "total-percentage-upeers": "6.63",
-            "upeers-total": 349052
+            "country-code": "CHN",
+            "country-name": "China",
+            "total-percentage-upeers": "6.00",
+            "upeers-total": 585551
         },
         {
             "number": 4,
-            "country-code": "IND",
-            "country-name": "India",
-            "total-percentage-upeers": "6.59",
-            "upeers-total": 346562
+            "country-code": "RUS",
+            "country-name": "Russian Federation",
+            "total-percentage-upeers": "4.73",
+            "upeers-total": 461156
         },
         {
             "number": 5,
-            "country-code": "CHN",
-            "country-name": "China",
-            "total-percentage-upeers": "4.99",
-            "upeers-total": 262388
+            "country-code": "IND",
+            "country-name": "India",
+            "total-percentage-upeers": "4.26",
+            "upeers-total": 416038
         },
         {
             "number": 6,
-            "country-code": "PHL",
-            "country-name": "Philippines",
-            "total-percentage-upeers": "3.30",
-            "upeers-total": 173483
+            "country-code": "JPN",
+            "country-name": "Japan",
+            "total-percentage-upeers": "2.78",
+            "upeers-total": 271090
         },
         {
             "number": 7,
             "country-code": "GBR",
             "country-name": "United Kingdom of Great Britain and Northern Ireland",
-            "total-percentage-upeers": "2.40",
-            "upeers-total": 126451
+            "total-percentage-upeers": "2.69",
+            "upeers-total": 262358
         },
         {
             "number": 8,
-            "country-code": "KOR",
-            "country-name": "Korea, Republic of",
-            "total-percentage-upeers": "1.64",
-            "upeers-total": 86304
+            "country-code": "PHL",
+            "country-name": "Philippines",
+            "total-percentage-upeers": "1.99",
+            "upeers-total": 193900
         },
         {
             "number": 9,
-            "country-code": "CAN",
-            "country-name": "Canada",
-            "total-percentage-upeers": "1.60",
-            "upeers-total": 84432
+            "country-code": "KOR",
+            "country-name": "Korea, Republic of",
+            "total-percentage-upeers": "1.96",
+            "upeers-total": 190984
         },
         {
             "number": 10,
-            "country-code": "ZAF",
-            "country-name": "South Africa",
-            "total-percentage-upeers": "1.52",
-            "upeers-total": 80131
+            "country-code": "CAN",
+            "country-name": "Canada",
+            "total-percentage-upeers": "1.86",
+            "upeers-total": 181500
         }
     ],
     "geo-country-region-city-top-30": [
@@ -204,211 +218,211 @@
             "number": 1,
             "country-code": "USA",
             "country-name": "United States of America",
-            "total-percentage-upeers": "3.94",
-            "upeers-total": 207352
+            "total-percentage-upeers": "7.61",
+            "upeers-total": 742625
         },
         {
             "number": 2,
             "country-code": "IND",
             "country-name": "India",
-            "total-percentage-upeers": "1.46",
-            "upeers-total": 77061
+            "total-percentage-upeers": "1.01",
+            "upeers-total": 98491
         },
         {
             "number": 3,
-            "country-code": "BRA",
-            "country-name": "Brazil, 14",
-            "total-percentage-upeers": "1.20",
-            "upeers-total": 63331
+            "country-code": "CHN",
+            "country-name": "China, Beijing, 22",
+            "total-percentage-upeers": "0.95",
+            "upeers-total": 92787
         },
         {
             "number": 4,
-            "country-code": "RUS",
-            "country-name": "Russian Federation, Moscow, 48",
-            "total-percentage-upeers": "0.92",
-            "upeers-total": 48402
+            "country-code": "GBR",
+            "country-name": "United Kingdom of Great Britain and Northern Ireland",
+            "total-percentage-upeers": "0.94",
+            "upeers-total": 91683
         },
         {
             "number": 5,
-            "country-code": "BRA",
-            "country-name": "Brazil, Sao Paulo, 27",
-            "total-percentage-upeers": "0.88",
-            "upeers-total": 46201
+            "country-code": "JPN",
+            "country-name": "Japan",
+            "total-percentage-upeers": "0.94",
+            "upeers-total": 91672
         },
         {
             "number": 6,
-            "country-code": "PHL",
-            "country-name": "Philippines",
-            "total-percentage-upeers": "0.84",
-            "upeers-total": 44322
+            "country-code": "BRA",
+            "country-name": "Brazil, 14",
+            "total-percentage-upeers": "0.94",
+            "upeers-total": 91605
         },
         {
             "number": 7,
-            "country-code": "GBR",
-            "country-name": "United Kingdom of Great Britain and Northern Ireland",
-            "total-percentage-upeers": "0.72",
-            "upeers-total": 38057
+            "country-code": "KOR",
+            "country-name": "Korea, Republic of",
+            "total-percentage-upeers": "0.88",
+            "upeers-total": 85682
         },
         {
             "number": 8,
-            "country-code": "RUS",
-            "country-name": "Russian Federation",
-            "total-percentage-upeers": "0.67",
-            "upeers-total": 35388
+            "country-code": "DEU",
+            "country-name": "Germany",
+            "total-percentage-upeers": "0.81",
+            "upeers-total": 79170
         },
         {
             "number": 9,
-            "country-code": "ITA",
-            "country-name": "Italy",
-            "total-percentage-upeers": "0.64",
-            "upeers-total": 33447
+            "country-code": "JPN",
+            "country-name": "Japan, Tokyo, 40",
+            "total-percentage-upeers": "0.74",
+            "upeers-total": 72362
         },
         {
             "number": 10,
-            "country-code": "IND",
-            "country-name": "India, Mumbai, 16",
-            "total-percentage-upeers": "0.62",
-            "upeers-total": 32368
+            "country-code": "RUS",
+            "country-name": "Russian Federation, Moscow, 48",
+            "total-percentage-upeers": "0.70",
+            "upeers-total": 68089
         },
         {
             "number": 11,
-            "country-code": "CHN",
-            "country-name": "China, Beijing, 22",
-            "total-percentage-upeers": "0.60",
-            "upeers-total": 31522
+            "country-code": "ITA",
+            "country-name": "Italy",
+            "total-percentage-upeers": "0.66",
+            "upeers-total": 64254
         },
         {
             "number": 12,
-            "country-code": "KOR",
-            "country-name": "Korea, Republic of, Seoul, 11",
-            "total-percentage-upeers": "0.56",
-            "upeers-total": 29492
+            "country-code": "USA",
+            "country-name": "United States of America, Fort Huachuca, AZ",
+            "total-percentage-upeers": "0.65",
+            "upeers-total": 63237
         },
         {
             "number": 13,
-            "country-code": "IND",
-            "country-name": "India, Kolkata, 28",
-            "total-percentage-upeers": "0.52",
-            "upeers-total": 27391
+            "country-code": "BRA",
+            "country-name": "Brazil, Sao Paulo, 27",
+            "total-percentage-upeers": "0.61",
+            "upeers-total": 59721
         },
         {
             "number": 14,
-            "country-code": "USA",
-            "country-name": "United States of America, Boardman, OR",
-            "total-percentage-upeers": "0.52",
-            "upeers-total": 27193
+            "country-code": "CHN",
+            "country-name": "China, Guangzhou, 30",
+            "total-percentage-upeers": "0.61",
+            "upeers-total": 59547
         },
         {
             "number": 15,
-            "country-code": "USA",
-            "country-name": "United States of America, Ashburn, VA",
-            "total-percentage-upeers": "0.51",
-            "upeers-total": 26972
+            "country-code": "FRA",
+            "country-name": "France",
+            "total-percentage-upeers": "0.56",
+            "upeers-total": 54166
         },
         {
             "number": 16,
-            "country-code": "KOR",
-            "country-name": "Korea, Republic of",
-            "total-percentage-upeers": "0.51",
-            "upeers-total": 26837
+            "country-code": "PHL",
+            "country-name": "Philippines",
+            "total-percentage-upeers": "0.53",
+            "upeers-total": 51236
         },
         {
             "number": 17,
-            "country-code": "CHN",
-            "country-name": "China, Guangzhou, 30",
-            "total-percentage-upeers": "0.49",
-            "upeers-total": 25966
+            "country-code": "KOR",
+            "country-name": "Korea, Republic of, Seoul, 11",
+            "total-percentage-upeers": "0.52",
+            "upeers-total": 50723
         },
         {
             "number": 18,
-            "country-code": "BRA",
-            "country-name": "Brazil, Rio De Janeiro, 21",
-            "total-percentage-upeers": "0.49",
-            "upeers-total": 25887
+            "country-code": "RUS",
+            "country-name": "Russian Federation",
+            "total-percentage-upeers": "0.51",
+            "upeers-total": 49748
         },
         {
             "number": 19,
             "country-code": "USA",
-            "country-name": "United States of America, Atlanta, GA",
-            "total-percentage-upeers": "0.45",
-            "upeers-total": 23442
+            "country-name": "United States of America, Ashburn, VA",
+            "total-percentage-upeers": "0.48",
+            "upeers-total": 46541
         },
         {
             "number": 20,
-            "country-code": "ROU",
-            "country-name": "Romania",
-            "total-percentage-upeers": "0.44",
-            "upeers-total": 23151
+            "country-code": "CHN",
+            "country-name": "China",
+            "total-percentage-upeers": "0.43",
+            "upeers-total": 41632
         },
         {
             "number": 21,
-            "country-code": "RUS",
-            "country-name": "Russian Federation, Saint Petersburg, 66",
-            "total-percentage-upeers": "0.44",
-            "upeers-total": 23005
+            "country-code": "NLD",
+            "country-name": "Netherlands",
+            "total-percentage-upeers": "0.43",
+            "upeers-total": 41523
         },
         {
             "number": 22,
-            "country-code": "IND",
-            "country-name": "India, Delhi, 07",
-            "total-percentage-upeers": "0.43",
-            "upeers-total": 22630
+            "country-code": "USA",
+            "country-name": "United States of America, Palo Alto, CA",
+            "total-percentage-upeers": "0.42",
+            "upeers-total": 41138
         },
         {
             "number": 23,
-            "country-code": "NLD",
-            "country-name": "Netherlands",
-            "total-percentage-upeers": "0.42",
-            "upeers-total": 22359
+            "country-code": "IND",
+            "country-name": "India, Mumbai, 16",
+            "total-percentage-upeers": "0.39",
+            "upeers-total": 37850
         },
         {
             "number": 24,
-            "country-code": "DEU",
-            "country-name": "Germany",
-            "total-percentage-upeers": "0.42",
-            "upeers-total": 22136
+            "country-code": "USA",
+            "country-name": "United States of America, Cambridge, MD",
+            "total-percentage-upeers": "0.39",
+            "upeers-total": 37671
         },
         {
             "number": 25,
-            "country-code": "JPN",
-            "country-name": "Japan",
-            "total-percentage-upeers": "0.40",
-            "upeers-total": 20858
+            "country-code": "USA",
+            "country-name": "United States of America, Boardman, OR",
+            "total-percentage-upeers": "0.38",
+            "upeers-total": 37377
         },
         {
             "number": 26,
-            "country-code": "CHN",
-            "country-name": "China, Shanghai, 23",
-            "total-percentage-upeers": "0.40",
-            "upeers-total": 20804
+            "country-code": "TWN",
+            "country-name": "Taiwan, Province of China, Taipei, 03",
+            "total-percentage-upeers": "0.38",
+            "upeers-total": 37229
         },
         {
             "number": 27,
-            "country-code": "GRC",
-            "country-name": "Greece, Athens, 35",
-            "total-percentage-upeers": "0.39",
-            "upeers-total": 20479
+            "country-code": "USA",
+            "country-name": "United States of America, New York, NY",
+            "total-percentage-upeers": "0.38",
+            "upeers-total": 37030
         },
         {
             "number": 28,
             "country-code": "CHN",
-            "country-name": "China",
-            "total-percentage-upeers": "0.39",
-            "upeers-total": 20473
+            "country-name": "China, Shanghai, 23",
+            "total-percentage-upeers": "0.37",
+            "upeers-total": 35939
         },
         {
             "number": 29,
-            "country-code": "ISR",
-            "country-name": "Israel",
-            "total-percentage-upeers": "0.38",
-            "upeers-total": 19808
+            "country-code": "USA",
+            "country-name": "United States of America, Houston, TX",
+            "total-percentage-upeers": "0.36",
+            "upeers-total": 35245
         },
         {
             "number": 30,
-            "country-code": "FRA",
-            "country-name": "France",
-            "total-percentage-upeers": "0.37",
-            "upeers-total": 19299
+            "country-code": "USA",
+            "country-name": "United States of America, Dearborn, MI",
+            "total-percentage-upeers": "0.35",
+            "upeers-total": 34460
         }
     ],
     "collection-unique-btiha-detail": [
@@ -419,18 +433,8 @@
             "resolution": "720",
             "encoding": "264",
             "private": false,
-            "peer": 321413,
-            "seed": 155991
-        },
-        {
-            "id": 1772,
-            "name": "multi-btih-16-2x-WandaVision.S01E09.Episode.9.1080p.DSNP.WEBRip.DDP5.1.x264-TOMMY[rartv]",
-            "btih": "2277b099e3302dbf1485b19fdd7a006a0498759e",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 307396,
-            "seed": 89267
+            "peer": 384256,
+            "seed": 180564
         },
         {
             "id": 4,
@@ -439,8 +443,18 @@
             "resolution": "1080",
             "encoding": "none",
             "private": false,
-            "peer": 304738,
-            "seed": 134753
+            "peer": 332667,
+            "seed": 149270
+        },
+        {
+            "id": 2156,
+            "name": "multi-btih-16-2x-WandaVision.S01E09.Episode.9.1080p.DSNP.WEBRip.DDP5.1.x264-TOMMY[rartv]",
+            "btih": "2277b099e3302dbf1485b19fdd7a006a0498759e",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 327774,
+            "seed": 98446
         },
         {
             "id": 88,
@@ -449,8 +463,8 @@
             "resolution": "1080",
             "encoding": "264",
             "private": false,
-            "peer": 204480,
-            "seed": 75817
+            "peer": 231297,
+            "seed": 84024
         },
         {
             "id": 85,
@@ -459,8 +473,8 @@
             "resolution": "1080",
             "encoding": "264",
             "private": false,
-            "peer": 179899,
-            "seed": 65863
+            "peer": 211382,
+            "seed": 76270
         },
         {
             "id": 140,
@@ -469,8 +483,18 @@
             "resolution": "sd",
             "encoding": "264",
             "private": false,
-            "peer": 173819,
-            "seed": 60421
+            "peer": 207712,
+            "seed": 64859
+        },
+        {
+            "id": 2157,
+            "name": "multi-btih-17-2x-WandaVision.S01E09.Episode.9.720p.DSNP.WEBRip.DDP5.1.x264-TOMMY[rartv]",
+            "btih": "7352e536a0683d098ab715aa7ed16669c65ac606",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 187717,
+            "seed": 52382
         },
         {
             "id": 109,
@@ -479,28 +503,18 @@
             "resolution": "720",
             "encoding": "265",
             "private": false,
-            "peer": 142694,
-            "seed": 71096
+            "peer": 165751,
+            "seed": 76094
         },
         {
-            "id": 1773,
-            "name": "multi-btih-17-2x-WandaVision.S01E09.Episode.9.720p.DSNP.WEBRip.DDP5.1.x264-TOMMY[rartv]",
-            "btih": "7352e536a0683d098ab715aa7ed16669c65ac606",
-            "resolution": "720",
-            "encoding": "264",
-            "private": false,
-            "peer": 131205,
-            "seed": 48391
-        },
-        {
-            "id": 1758,
+            "id": 2142,
             "name": "multi-btih-2-2x-WandaVision.S01.1080p.DSNP.WEBRip.DDP5.1.Atmos.x264-TOMMY[rartv]-[rarbg.to]",
             "btih": "084c6a3a90c65ffa3f80287c69426acbd5625723",
             "resolution": "1080",
             "encoding": "264",
             "private": false,
-            "peer": 126774,
-            "seed": 59563
+            "peer": 145735,
+            "seed": 66005
         },
         {
             "id": 97,
@@ -509,28 +523,58 @@
             "resolution": "1080",
             "encoding": "264",
             "private": false,
-            "peer": 112104,
-            "seed": 40520
+            "peer": 143118,
+            "seed": 43407
         },
         {
-            "id": 1761,
+            "id": 2162,
+            "name": "multi-btih-22-2x-[rutor.is]WandaVision_(s01)_AF",
+            "btih": "4db6ca0798946e81459fe36fb19313beb5c62274",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 140779,
+            "seed": 48761
+        },
+        {
+            "id": 2145,
             "name": "multi-btih-5-2x-WandaVision.S01.2160p.DSNP.WEB-DL.x265.10bit.HDR.DDP5.1.Atmos-KOGi[rartv]-[rarbg.to]",
             "btih": "e7522a97587de27cf28a4b00b15e75b2124706ac",
             "resolution": "2160",
             "encoding": "265",
             "private": false,
-            "peer": 101006,
-            "seed": 56072
+            "peer": 139563,
+            "seed": 59066
         },
         {
-            "id": 1768,
+            "id": 2152,
             "name": "multi-btih-12-2x-WandaVision.S01.WEB-DL.1080p.LF",
             "btih": "a3d7f3b97328a852a6290c73523352f235625dd6",
             "resolution": "1080",
             "encoding": "none",
             "private": false,
-            "peer": 89709,
-            "seed": 51013
+            "peer": 135740,
+            "seed": 56129
+        },
+        {
+            "id": 2163,
+            "name": "multi-btih-23-2x-[rutor.is]WandaVision_s01_AlexFilm_1080p",
+            "btih": "b7b45d74c8d927ec2dec6b608a25e0292ab23e67",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 121203,
+            "seed": 34410
+        },
+        {
+            "id": 2148,
+            "name": "multi-btih-8-2x-WandaVision.S01.720p.DSNP.WEBRip.DDP5.1.Atmos.x264-TOMMY[rartv]-[rarbg.to]",
+            "btih": "9fb607bd85a2f2874d25fc44e74344ceb2f9610f",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 115510,
+            "seed": 31868
         },
         {
             "id": 110,
@@ -539,8 +583,8 @@
             "resolution": "720",
             "encoding": "265",
             "private": false,
-            "peer": 83030,
-            "seed": 43520
+            "peer": 107222,
+            "seed": 44779
         },
         {
             "id": 19,
@@ -549,38 +593,28 @@
             "resolution": "1080",
             "encoding": "265",
             "private": false,
-            "peer": 82448,
-            "seed": 37531
+            "peer": 106311,
+            "seed": 41917
         },
         {
-            "id": 1778,
-            "name": "multi-btih-22-2x-[rutor.is]WandaVision_(s01)_AF",
-            "btih": "4db6ca0798946e81459fe36fb19313beb5c62274",
-            "resolution": "sd",
-            "encoding": "none",
+            "id": 2158,
+            "name": "multi-btih-18-2x-WandaVision.S01E09.HDR.2160p.WEB.h265-KOGi[rartv]-[rarbg.to]",
+            "btih": "2ee9131e244eb0d70616be37f127fdac832eec71",
+            "resolution": "2160",
+            "encoding": "265",
             "private": false,
-            "peer": 80379,
-            "seed": 44538
+            "peer": 103859,
+            "seed": 26760
         },
         {
-            "id": 1764,
-            "name": "multi-btih-8-2x-WandaVision.S01.720p.DSNP.WEBRip.DDP5.1.Atmos.x264-TOMMY[rartv]-[rarbg.to]",
-            "btih": "9fb607bd85a2f2874d25fc44e74344ceb2f9610f",
+            "id": 2159,
+            "name": "multi-btih-19-3x-WandaVision.s01.WEBDL.720p.Rus.Eng",
+            "btih": "06ef630349669e45d5ea079cafe521e69774fcec",
             "resolution": "720",
-            "encoding": "264",
-            "private": false,
-            "peer": 78994,
-            "seed": 28758
-        },
-        {
-            "id": 1779,
-            "name": "multi-btih-23-2x-[rutor.is]WandaVision_s01_AlexFilm_1080p",
-            "btih": "b7b45d74c8d927ec2dec6b608a25e0292ab23e67",
-            "resolution": "1080",
             "encoding": "none",
             "private": false,
-            "peer": 75483,
-            "seed": 32229
+            "peer": 90935,
+            "seed": 8914
         },
         {
             "id": 83,
@@ -589,198 +623,8 @@
             "resolution": "sd",
             "encoding": "264",
             "private": false,
-            "peer": 71552,
-            "seed": 29904
-        },
-        {
-            "id": 3,
-            "name": "COMANDO.TO - WandaVision REPACK S01E08 WEB-DL 1080p DUAL",
-            "btih": "8f3146527866456c93ad99c6e977d0e461add076",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 62077,
-            "seed": 19445
-        },
-        {
-            "id": 1774,
-            "name": "multi-btih-18-2x-WandaVision.S01E09.HDR.2160p.WEB.h265-KOGi[rartv]-[rarbg.to]",
-            "btih": "2ee9131e244eb0d70616be37f127fdac832eec71",
-            "resolution": "2160",
-            "encoding": "265",
-            "private": false,
-            "peer": 60361,
-            "seed": 25772
-        },
-        {
-            "id": 1775,
-            "name": "multi-btih-19-3x-WandaVision.s01.WEBDL.720p.Rus.Eng",
-            "btih": "06ef630349669e45d5ea079cafe521e69774fcec",
-            "resolution": "720",
-            "encoding": "none",
-            "private": false,
-            "peer": 59704,
-            "seed": 7786
-        },
-        {
-            "id": 96,
-            "name": "WandaVision.S01E09.1080p.WEB.H264-DRYB[eztv.re].mkv",
-            "btih": "b1e41ed1addcc6d670a06bcd8512d608719814d5",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 57857,
-            "seed": 32776
-        },
-        {
-            "id": 138,
-            "name": "WandaVision.S01E09.WEB.x264-PHOENiX[eztv.re].mkv",
-            "btih": "61966a622adb2a1b68b3d17ba256241a7386bb7f",
-            "resolution": "sd",
-            "encoding": "264",
-            "private": false,
-            "peer": 56521,
-            "seed": 26571
-        },
-        {
-            "id": 214,
-            "name": "旺达幻视.WandaVision.S01",
-            "btih": "439744ff9f2fbe230b2cbe89966672c742627225",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 53789,
-            "seed": 26683
-        },
-        {
-            "id": 118,
-            "name": "WandaVision.S01E09.Episode.9.720p.DSNP.WEBRip.DDP5.1.x264-TOMMY[eztv.re].mkv",
-            "btih": "c07e7236aafc28d69bf1d9ab33a8930b29bbc173",
-            "resolution": "720",
-            "encoding": "264",
-            "private": false,
-            "peer": 51844,
-            "seed": 24402
-        },
-        {
-            "id": 142,
-            "name": "WandaVision.S01E09.WEBRip.x264-ION10[eztv.re].mp4",
-            "btih": "ea52919b3e41c7dbb6595b0b6b832c32c0d6c93b",
-            "resolution": "sd",
-            "encoding": "264",
-            "private": false,
-            "peer": 47143,
-            "seed": 25104
-        },
-        {
-            "id": 40,
-            "name": "WandaVision.1x09.lati.mp4",
-            "btih": "140445ce30f41f92f2cfd5fb33ad75b4a6d8a719",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 47022,
-            "seed": 11244
-        },
-        {
-            "id": 1771,
-            "name": "multi-btih-15-2x-WandaVision.S01E09.Episode.9.1080p.DSNP.WEBRip.DDP5.1.x264-TOMMY[eztv.re].mkv(1)",
-            "btih": "cf24dbf9129617822c55a24a6456b7e7de7e36a0",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 45662,
-            "seed": 23916
-        },
-        {
-            "id": 161,
-            "name": "Wandavision Season 1 Mp4 1080p",
-            "btih": "15c3a81b295d4ea32bbc5689f25021cff410cf8c",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 45159,
-            "seed": 22121
-        },
-        {
-            "id": 1776,
-            "name": "multi-btih-20-2x-[rutor.is]WandaVision.S01.2021",
-            "btih": "afba2781b5359b037e51d69413c5d99ced2e05cf",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 44487,
-            "seed": 6126
-        },
-        {
-            "id": 34,
-            "name": "WandaVision S01E09 WEB-DL 1080p DUAL 5.1",
-            "btih": "54e2b601f9691bd8b466cebfcb5fe133bbf127de",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 40814,
-            "seed": 21391
-        },
-        {
-            "id": 167,
-            "name": "[ OxTorrent.tv ] WandaVision.S01E09.FINAL.FRENCH.WEB.XviD-EXTREME.avi",
-            "btih": "b078bad3d88c5e52d8204c1bc09d3c70dbd138d9",
-            "resolution": "sd",
-            "encoding": "xvid",
-            "private": false,
-            "peer": 39900,
-            "seed": 25126
-        },
-        {
-            "id": 35,
-            "name": "WandaVision Season 1  [1080p x265 10bit Joy]",
-            "btih": "2988928ae6e5c8a752cce9530e6047c96b862d7e",
-            "resolution": "1080",
-            "encoding": "265",
-            "private": false,
-            "peer": 37409,
-            "seed": 17152
-        },
-        {
-            "id": 1766,
-            "name": "multi-btih-10-3x-WandaVision.S01.720p.WEB-DL.LostFilm",
-            "btih": "4c0f1361223f65d4e22dd217944281985778b3b8",
-            "resolution": "720",
-            "encoding": "none",
-            "private": false,
-            "peer": 35737,
-            "seed": 15447
-        },
-        {
-            "id": 126,
-            "name": "WandaVision.S01E09.The.Series.Finale.1080p.DSNP.WEB-DL.DDP5.1.H.264-EVO[eztv.re].mkv",
-            "btih": "305a465caaefff1b96723feb06d9b249599c29e6",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 35507,
-            "seed": 18772
-        },
-        {
-            "id": 124,
-            "name": "WandaVision.S01E09.The.Series.Finale.1080p.DSNP.WEB-DL.DDP5.1.H.264-EVO [IPT]",
-            "btih": "067f86bc1199876c571c113aef9e3303214a325b",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": true,
-            "peer": 33524,
-            "seed": 15639
-        },
-        {
-            "id": 1777,
-            "name": "multi-btih-21-2x-[rutor.is]WandaVision_(s01)_1080p",
-            "btih": "4677b5024acd45a5e467949e2e332452e0b89b39",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 32671,
-            "seed": 12026
+            "peer": 83715,
+            "seed": 33272
         },
         {
             "id": 166,
@@ -789,98 +633,58 @@
             "resolution": "1080",
             "encoding": "264",
             "private": false,
-            "peer": 31705,
-            "seed": 5468
+            "peer": 83101,
+            "seed": 6051
         },
         {
-            "id": 181,
-            "name": "[rutor.is]WandaVision.S01.720p.Kerob",
-            "btih": "de63243e37ecd6816199809143f2793c0224361d",
-            "resolution": "720",
-            "encoding": "none",
-            "private": false,
-            "peer": 31093,
-            "seed": 4170
-        },
-        {
-            "id": 70,
-            "name": "WandaVision.S01.COMPLETE.HDR.2160p.WEB-DL.DDP.5.1.x265-TOMMY[TGx]",
-            "btih": "f3f8469bb1ba30e103ddaa9dcfb143a38761d11d",
-            "resolution": "2160",
-            "encoding": "265",
-            "private": false,
-            "peer": 30820,
-            "seed": 17851
-        },
-        {
-            "id": 213,
-            "name": "旺达幻视.WandaVision.S01.1080p.WEBRIP.HEVC.10bit-GHFLY",
-            "btih": "7030a99d4f912b4fde18415b29000c1ad6842572",
+            "id": 3,
+            "name": "COMANDO.TO - WandaVision REPACK S01E08 WEB-DL 1080p DUAL",
+            "btih": "8f3146527866456c93ad99c6e977d0e461add076",
             "resolution": "1080",
             "encoding": "none",
             "private": false,
-            "peer": 30143,
-            "seed": 2377
+            "peer": 83024,
+            "seed": 21756
         },
         {
-            "id": 150,
-            "name": "WandaVision.Season1.Movie.720p.WEB.H264.AAC 2.0-IceJackal",
-            "btih": "df59dadf922de0996dbec602bb18e77f86f41804",
-            "resolution": "720",
-            "encoding": "264",
-            "private": false,
-            "peer": 29593,
-            "seed": 7580
-        },
-        {
-            "id": 112,
-            "name": "WandaVision.S01E09.Episode.9.1080p.DSNP.WEBRip.DDP5.1.x264-TOMMY[TGx]",
-            "btih": "68d40c98d4526f10db8c2e94aeb312c15bfc6f71",
+            "id": 96,
+            "name": "WandaVision.S01E09.1080p.WEB.H264-DRYB[eztv.re].mkv",
+            "btih": "b1e41ed1addcc6d670a06bcd8512d608719814d5",
             "resolution": "1080",
             "encoding": "264",
             "private": false,
-            "peer": 29405,
-            "seed": 16073
+            "peer": 81975,
+            "seed": 33552
         },
         {
-            "id": 169,
-            "name": "[WILU]WandaVision S01[wilu75]",
-            "btih": "d8f49fd331bff92b935404d77c0b71a568a22e77",
+            "id": 2160,
+            "name": "multi-btih-20-2x-[rutor.is]WandaVision.S01.2021",
+            "btih": "afba2781b5359b037e51d69413c5d99ced2e05cf",
             "resolution": "sd",
             "encoding": "none",
             "private": false,
-            "peer": 29086,
-            "seed": 5736
+            "peer": 79370,
+            "seed": 6517
         },
         {
-            "id": 1757,
-            "name": "multi-btih-1-2x-WandaVision (Season 1) WEB-DL 1080p",
-            "btih": "518f22c40ac78b2dcb72cd8747926ed01266c812",
+            "id": 161,
+            "name": "Wandavision Season 1 Mp4 1080p",
+            "btih": "15c3a81b295d4ea32bbc5689f25021cff410cf8c",
             "resolution": "1080",
             "encoding": "none",
             "private": false,
-            "peer": 28603,
-            "seed": 9521
+            "peer": 77838,
+            "seed": 24036
         },
         {
-            "id": 123,
-            "name": "WandaVision.S01E09.The.Series.Finale.1080p.10bit.WEBRip.6CH.x265.HEVC-PSA.mkv",
-            "btih": "841a96158fdc6d720f8840f4c7574df82b4f6ccc",
-            "resolution": "1080",
-            "encoding": "265",
+            "id": 142,
+            "name": "WandaVision.S01E09.WEBRip.x264-ION10[eztv.re].mp4",
+            "btih": "ea52919b3e41c7dbb6595b0b6b832c32c0d6c93b",
+            "resolution": "sd",
+            "encoding": "264",
             "private": false,
-            "peer": 28429,
-            "seed": 10037
-        },
-        {
-            "id": 1770,
-            "name": "multi-btih-14-2x-WandaVision.S01E09.2160p.WEB-DL.DDP5.1.Atmos.DV.x265-ZTV[rartv]-[rarbg.to]",
-            "btih": "3eee1342d1a5ec7cbabe49778a1eb83f601e7fa9",
-            "resolution": "2160",
-            "encoding": "265",
-            "private": false,
-            "peer": 28281,
-            "seed": 13856
+            "peer": 77360,
+            "seed": 26099
         },
         {
             "id": 77,
@@ -889,8 +693,58 @@
             "resolution": "sd",
             "encoding": "xvid",
             "private": false,
-            "peer": 27881,
-            "seed": 1215
+            "peer": 74482,
+            "seed": 1445
+        },
+        {
+            "id": 214,
+            "name": "旺达幻视.WandaVision.S01",
+            "btih": "439744ff9f2fbe230b2cbe89966672c742627225",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 74066,
+            "seed": 28407
+        },
+        {
+            "id": 138,
+            "name": "WandaVision.S01E09.WEB.x264-PHOENiX[eztv.re].mkv",
+            "btih": "61966a622adb2a1b68b3d17ba256241a7386bb7f",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 73459,
+            "seed": 27591
+        },
+        {
+            "id": 2150,
+            "name": "multi-btih-10-3x-WandaVision.S01.720p.WEB-DL.LostFilm",
+            "btih": "4c0f1361223f65d4e22dd217944281985778b3b8",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 73304,
+            "seed": 17729
+        },
+        {
+            "id": 169,
+            "name": "[WILU]WandaVision S01[wilu75]",
+            "btih": "d8f49fd331bff92b935404d77c0b71a568a22e77",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 72794,
+            "seed": 6440
+        },
+        {
+            "id": 181,
+            "name": "[rutor.is]WandaVision.S01.720p.Kerob",
+            "btih": "de63243e37ecd6816199809143f2793c0224361d",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 72661,
+            "seed": 4481
         },
         {
             "id": 21,
@@ -899,378 +753,48 @@
             "resolution": "1080",
             "encoding": "none",
             "private": false,
-            "peer": 27688,
-            "seed": 272
+            "peer": 71336,
+            "seed": 362
         },
         {
-            "id": 100,
-            "name": "WandaVision.S01E09.2160p.WEB.h265-KOGi[rartv]-[rarbg.to]",
-            "btih": "2768b28debe16a31ee78c72abcb9623d387a3107",
-            "resolution": "2160",
-            "encoding": "265",
-            "private": false,
-            "peer": 25819,
-            "seed": 6398
-        },
-        {
-            "id": 12,
-            "name": "WandaVision (2021) S01E09 1080p English HDRip x264 (DD 5.1) AAC ESub By Full4Movies.mkv",
-            "btih": "ae917a833f09a0ba7203ec07fe5f2ca471be362f",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 24733,
-            "seed": 5133
-        },
-        {
-            "id": 146,
-            "name": "WandaVision.S01E09.iTA.ENG.1080p.DDP5.1.WEB.h264-DENiED.mkv",
-            "btih": "049c0e2479ee57b8f58977eb768b0cb9e8c1d8aa",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 23856,
-            "seed": 1817
-        },
-        {
-            "id": 53,
-            "name": "WandaVision.S01.2160p.DSNP.WEB-DL.DDP5.1.Atmos.DV.x265-ZTV[rartv]-[rarbg.to]",
-            "btih": "a9fc7f770abf948a9e30f81d6a27b57e48762108",
-            "resolution": "2160",
-            "encoding": "265",
-            "private": false,
-            "peer": 23291,
-            "seed": 8896
-        },
-        {
-            "id": 1769,
-            "name": "multi-btih-13-2x-WandaVision.S01.WEB-DLRip.LF",
-            "btih": "2b7bd99665aaa3370bf4b55f7b97970aaea589fc",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 22590,
-            "seed": 11545
-        },
-        {
-            "id": 172,
-            "name": "[rutor.is]WandaVision.S01.1080p.Kerob",
-            "btih": "550ae0adf06a56c0f9d6f92e62145947917d15d3",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 21606,
-            "seed": 7616
-        },
-        {
-            "id": 185,
-            "name": "[rutor.is]WandaVision",
-            "btih": "484fa144ffeb9efc037c101b0175154d1227ef87",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 21586,
-            "seed": 6799
-        },
-        {
-            "id": 117,
-            "name": "WandaVision.S01E09.Episode.9.720p.DSNP.WEBRip.DDP5.1.x264-TOMMY[TGx]",
-            "btih": "2261c38c76a37b52bda4a59f1a45b8f8498ae8cf",
-            "resolution": "720",
-            "encoding": "264",
-            "private": false,
-            "peer": 21139,
-            "seed": 7400
-        },
-        {
-            "id": 1762,
-            "name": "multi-btih-6-2x-WandaVision.S01.2160p.DSNP.WEB-DL.x265.8bit.SDR.DDP5.1.Atmos-KOGi[rartv]-[rarbg.to]",
-            "btih": "4e0269f8d09a7c08bc9671e18a902f1f36949a40",
-            "resolution": "2160",
-            "encoding": "265",
-            "private": false,
-            "peer": 20834,
-            "seed": 6726
-        },
-        {
-            "id": 11,
-            "name": "WandaVision (2021) COMPLETE S01 (1080p DSNP WEBRip 10bit HEVC x265 imSamirOFFICIAL)",
-            "btih": "bb420b61c4092957c4b471916926fbf2f7397079",
-            "resolution": "1080",
-            "encoding": "265",
-            "private": false,
-            "peer": 20798,
-            "seed": 8916
-        },
-        {
-            "id": 60,
-            "name": "WandaVision.S01.480p.x264-ZMNT",
-            "btih": "c2358605310a7ff13d14e6b5f6a43bb402a26f21",
-            "resolution": "sd",
-            "encoding": "264",
-            "private": false,
-            "peer": 20508,
-            "seed": 4960
-        },
-        {
-            "id": 107,
-            "name": "WandaVision.S01E09.720p.WEB.h264-KOGi[eztv.re].mkv",
-            "btih": "806b0875893819353a3cc0215f8b14c4dca44bd2",
-            "resolution": "720",
-            "encoding": "264",
-            "private": false,
-            "peer": 18990,
-            "seed": 3865
-        },
-        {
-            "id": 9,
-            "name": "WANDAVISION - 1ª TEMPORADA COMPLETA DVDR AUTORADO",
-            "btih": "7c43edad9f0effbaf4cdf5b98f8f7026338119e4",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 18952,
-            "seed": 285
-        },
-        {
-            "id": 137,
-            "name": "WandaVision.S01E09.WEB-DL.XviD.B4ND1T69",
-            "btih": "5f162d3a3070500d0c54e59661588ada125a74c0",
-            "resolution": "sd",
-            "encoding": "xvid",
-            "private": false,
-            "peer": 18641,
-            "seed": 2778
-        },
-        {
-            "id": 151,
-            "name": "WandaVision.Season1.Movie.REPACK.1080p.MP4.H264.AAC 2.0-IceJackal",
-            "btih": "c5473128f6172889c28aab96ba33a34acd973194",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 18388,
-            "seed": 2813
-        },
-        {
-            "id": 122,
-            "name": "WandaVision.S01E09.ITA.ENG.HDR.2160p.WEB.H265-MeM.mkv",
-            "btih": "b710155f7daf9886029f2a9886ab0d07588f5513",
-            "resolution": "2160",
-            "encoding": "265",
-            "private": false,
-            "peer": 18041,
-            "seed": 6121
-        },
-        {
-            "id": 141,
-            "name": "WandaVision.S01E09.WEBRip.x264-ION10",
-            "btih": "d8fb6fd362955638cd15931a1be169d0cc680cee",
-            "resolution": "sd",
-            "encoding": "264",
-            "private": false,
-            "peer": 17940,
-            "seed": 3854
-        },
-        {
-            "id": 216,
-            "name": "旺达幻视.WandaVision.S01E09.1080p.H265-NEW字幕组.mp4",
-            "btih": "c657662b6fbdf614ca7cb78b5d1001d1366f2fe0",
-            "resolution": "1080",
-            "encoding": "265",
-            "private": false,
-            "peer": 17684,
-            "seed": 1435
-        },
-        {
-            "id": 1767,
+            "id": 2151,
             "name": "multi-btih-11-2x-WandaVision.S01.DSNP.HDR.WEB-DL.2160p.by.AKTEP",
             "btih": "50b949c63471a63db562ef2feea48148c0e4e355",
             "resolution": "2160",
             "encoding": "none",
             "private": false,
-            "peer": 17643,
-            "seed": 6605
+            "peer": 71117,
+            "seed": 7072
         },
         {
-            "id": 68,
-            "name": "WandaVision.S01.720p.x265-ZMNT",
-            "btih": "94e9fb829f43b533cc9e1cfd124067908471092f",
-            "resolution": "720",
-            "encoding": "265",
-            "private": false,
-            "peer": 16598,
-            "seed": 5624
-        },
-        {
-            "id": 14,
-            "name": "WandaVision (2021) S01E09 720p English HDRip x264 (DD 5.1) AAC ESub By Full4Movies.mkv",
-            "btih": "6e9cd15304267242bc6a04f8458bb9d092c24237",
-            "resolution": "720",
-            "encoding": "264",
-            "private": false,
-            "peer": 16344,
-            "seed": 4838
-        },
-        {
-            "id": 1765,
-            "name": "multi-btih-9-2x-WandaVision.S01.720p.NewComers",
-            "btih": "143e02e87dc686ae7fa88cfa17723255a16fbf67",
-            "resolution": "720",
-            "encoding": "none",
-            "private": false,
-            "peer": 16311,
-            "seed": 3891
-        },
-        {
-            "id": 211,
-            "name": "旺达幻视.WandaVision.2021.S01.1080P.WEB-DL.DDP5.1.H264.115WiKi",
-            "btih": "50556839d7db06f067bbdee89224d38cad3741f6",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 15348,
-            "seed": 764
-        },
-        {
-            "id": 162,
-            "name": "Wandavision.S01E08.720p.WEBRip.Hindi-English.x264-KatmovieHD.se.mkv",
-            "btih": "15931124b2889d6e369445a4b06cfb705c4be1d6",
-            "resolution": "720",
-            "encoding": "264",
-            "private": false,
-            "peer": 14892,
-            "seed": 4073
-        },
-        {
-            "id": 36,
-            "name": "WandaVision Season 1  [2160p x265 10bit Joy]",
-            "btih": "4da2603494b79fd25544eead1fff23d9a5cc6e76",
-            "resolution": "2160",
-            "encoding": "265",
-            "private": false,
-            "peer": 14774,
-            "seed": 6806
-        },
-        {
-            "id": 32,
-            "name": "WandaVision S01E09 1080p DSNP WEBRip 10bit HEVC x265 English DDP 5.1 Atmos ESub ~ imSamirOFFICIAL.mkv",
-            "btih": "df72599bfbf7a4996fbd853dbcb15bb674cfcae1",
+            "id": 35,
+            "name": "WandaVision Season 1  [1080p x265 10bit Joy]",
+            "btih": "2988928ae6e5c8a752cce9530e6047c96b862d7e",
             "resolution": "1080",
             "encoding": "265",
             "private": false,
-            "peer": 14553,
-            "seed": 2864
+            "peer": 70809,
+            "seed": 18284
         },
         {
-            "id": 197,
-            "name": "[酷漫字幕组][旺达·幻视][Wanda Vision][中英双语特效字幕][07][1080P][AVC MKV].mkv",
-            "btih": "63369a550f55846158aa59821a878f6c81994ef3",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 14158,
-            "seed": 162
-        },
-        {
-            "id": 168,
-            "name": "[ OxTorrent.tv ] WandaVision.S01E09.VOSTFR.WEB.XviD-EXTREME.avi",
-            "btih": "f6d45e2125705abee11f247940cea6c9ce6860fb",
+            "id": 167,
+            "name": "[ OxTorrent.tv ] WandaVision.S01E09.FINAL.FRENCH.WEB.XviD-EXTREME.avi",
+            "btih": "b078bad3d88c5e52d8204c1bc09d3c70dbd138d9",
             "resolution": "sd",
             "encoding": "xvid",
             "private": false,
-            "peer": 13902,
-            "seed": 4968
+            "peer": 69545,
+            "seed": 26820
         },
         {
-            "id": 163,
-            "name": "Wandavision.S01E09.Episodio.Nove.1080p.WEBRip.HEVC.ITA.ENG.DDP5.1.x265-BlackBit.mkv",
-            "btih": "daa1d878a38c64e548a70eb9cfa34e403d3dab56",
+            "id": 2161,
+            "name": "multi-btih-21-2x-[rutor.is]WandaVision_(s01)_1080p",
+            "btih": "4677b5024acd45a5e467949e2e332452e0b89b39",
             "resolution": "1080",
-            "encoding": "265",
-            "private": false,
-            "peer": 13645,
-            "seed": 3677
-        },
-        {
-            "id": 202,
-            "name": "Ванда Вижн WandaVision Сезон 1 Серии 1-8 из 9 (Мэтт Шекман) [2021, США, Фантастика, фэнтези, боевик, драма, комедия, прикл [rutracker-5998440]",
-            "btih": "f69d0e20f2a393b7b727685535d9b2976e3b024b",
-            "resolution": "sd",
             "encoding": "none",
             "private": false,
-            "peer": 13636,
-            "seed": 3487
-        },
-        {
-            "id": 7,
-            "name": "Marvel's WandaVision Season 1 Complete [English-DD5.1] 720p HDRip ESubs - ExtraMovies",
-            "btih": "ca2b842758dd847ebf179332cb9a8b33dcd4f8fe",
-            "resolution": "720",
-            "encoding": "none",
-            "private": false,
-            "peer": 13472,
-            "seed": 2260
-        },
-        {
-            "id": 111,
-            "name": "WandaVision.S01E09.720p.x265-ZMNT",
-            "btih": "dda0e836189cf9c972d6c138bf9df3c87701d17b",
-            "resolution": "720",
-            "encoding": "265",
-            "private": false,
-            "peer": 13383,
-            "seed": 4087
-        },
-        {
-            "id": 108,
-            "name": "WandaVision.S01E09.720p.WEB.h264-KOGi[rartv]-[rarbg.to]",
-            "btih": "dce6c9fad715d7b0cfaea5ea74520de7d60c428c",
-            "resolution": "720",
-            "encoding": "264",
-            "private": false,
-            "peer": 13050,
-            "seed": 4307
-        },
-        {
-            "id": 37,
-            "name": "WandaVision Season 1 YG",
-            "btih": "28cc3542ec9eced6951ebe38726a2013206ad153",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 13028,
-            "seed": 1783
-        },
-        {
-            "id": 44,
-            "name": "WandaVision.S01.1080p.DSNP.WEB-DL.DDP5.1.H.264-TOMMY [IPT]",
-            "btih": "39c490258e765fd72190ab1ba2264d629f1168ee",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": true,
-            "peer": 12920,
-            "seed": 5181
-        },
-        {
-            "id": 102,
-            "name": "WandaVision.S01E09.480p.x264-mSD[eztv.re].mkv",
-            "btih": "174b7856a6c5c3977f2195208fe6c273440fd769",
-            "resolution": "sd",
-            "encoding": "264",
-            "private": false,
-            "peer": 12837,
-            "seed": 944
-        },
-        {
-            "id": 179,
-            "name": "[rutor.is]WandaVision.S01.400p.Kerob",
-            "btih": "6c45602b2e9b215256b3038cd43b20f0d639a117",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 12730,
-            "seed": 3552
+            "peer": 68113,
+            "seed": 13758
         },
         {
             "id": 18,
@@ -1279,18 +803,78 @@
             "resolution": "1080",
             "encoding": "265",
             "private": false,
-            "peer": 12546,
-            "seed": 4812
+            "peer": 67933,
+            "seed": 5682
         },
         {
-            "id": 95,
-            "name": "WandaVision.S01E09.1080p.WEB.H264-DRYB[TGx]",
-            "btih": "84db94cf05824411bc62aeb77efaf3b14f07d30d",
+            "id": 126,
+            "name": "WandaVision.S01E09.The.Series.Finale.1080p.DSNP.WEB-DL.DDP5.1.H.264-EVO[eztv.re].mkv",
+            "btih": "305a465caaefff1b96723feb06d9b249599c29e6",
             "resolution": "1080",
             "encoding": "264",
             "private": false,
-            "peer": 12519,
-            "seed": 2425
+            "peer": 67507,
+            "seed": 19539
+        },
+        {
+            "id": 118,
+            "name": "WandaVision.S01E09.Episode.9.720p.DSNP.WEBRip.DDP5.1.x264-TOMMY[eztv.re].mkv",
+            "btih": "c07e7236aafc28d69bf1d9ab33a8930b29bbc173",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 66864,
+            "seed": 25093
+        },
+        {
+            "id": 146,
+            "name": "WandaVision.S01E09.iTA.ENG.1080p.DDP5.1.WEB.h264-DENiED.mkv",
+            "btih": "049c0e2479ee57b8f58977eb768b0cb9e8c1d8aa",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 66689,
+            "seed": 2082
+        },
+        {
+            "id": 2141,
+            "name": "multi-btih-1-2x-WandaVision (Season 1) WEB-DL 1080p",
+            "btih": "518f22c40ac78b2dcb72cd8747926ed01266c812",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 65274,
+            "seed": 10016
+        },
+        {
+            "id": 40,
+            "name": "WandaVision.1x09.lati.mp4",
+            "btih": "140445ce30f41f92f2cfd5fb33ad75b4a6d8a719",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 64823,
+            "seed": 12869
+        },
+        {
+            "id": 70,
+            "name": "WandaVision.S01.COMPLETE.HDR.2160p.WEB-DL.DDP.5.1.x265-TOMMY[TGx]",
+            "btih": "f3f8469bb1ba30e103ddaa9dcfb143a38761d11d",
+            "resolution": "2160",
+            "encoding": "265",
+            "private": false,
+            "peer": 64455,
+            "seed": 19065
+        },
+        {
+            "id": 172,
+            "name": "[rutor.is]WandaVision.S01.1080p.Kerob",
+            "btih": "550ae0adf06a56c0f9d6f92e62145947917d15d3",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 64082,
+            "seed": 7984
         },
         {
             "id": 148,
@@ -1299,328 +883,128 @@
             "resolution": "sd",
             "encoding": "xvid",
             "private": false,
-            "peer": 12147,
-            "seed": 1045
+            "peer": 63369,
+            "seed": 1297
         },
         {
-            "id": 132,
-            "name": "WandaVision.S01E09.The.Series.Finale.REPACK.1080p.DSNP.WEB-DL.DDP5.1.H.264-TOMMY.chs.eng.mp4",
-            "btih": "2066facf17330001e45ff49217ea8dd2d083a6a9",
+            "id": 151,
+            "name": "WandaVision.Season1.Movie.REPACK.1080p.MP4.H264.AAC 2.0-IceJackal",
+            "btih": "c5473128f6172889c28aab96ba33a34acd973194",
             "resolution": "1080",
             "encoding": "264",
             "private": false,
-            "peer": 11860,
-            "seed": 5378
+            "peer": 62335,
+            "seed": 3171
         },
         {
-            "id": 90,
-            "name": "WandaVision.S01E08.720p.WEB.h264-KOGi[rartv]-[rarbg.to]",
-            "btih": "58240f9ed98de400acf53cb8fafecdd6cd41f129",
+            "id": 34,
+            "name": "WandaVision S01E09 WEB-DL 1080p DUAL 5.1",
+            "btih": "54e2b601f9691bd8b466cebfcb5fe133bbf127de",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 62132,
+            "seed": 22938
+        },
+        {
+            "id": 150,
+            "name": "WandaVision.Season1.Movie.720p.WEB.H264.AAC 2.0-IceJackal",
+            "btih": "df59dadf922de0996dbec602bb18e77f86f41804",
             "resolution": "720",
             "encoding": "264",
             "private": false,
-            "peer": 11777,
-            "seed": 4382
+            "peer": 59221,
+            "seed": 8440
         },
         {
-            "id": 16,
-            "name": "WandaVision (2021) S01E09 Episode 9 1080p 10bit DSNP WEBRip x265 HEVC English DDP 5.1 Atmos ESubs ~ DarkHero.mkv",
-            "btih": "1177c4f242cc0e8c110433aa3fe3129cd55c07b9",
+            "id": 14,
+            "name": "WandaVision (2021) S01E09 720p English HDRip x264 (DD 5.1) AAC ESub By Full4Movies.mkv",
+            "btih": "6e9cd15304267242bc6a04f8458bb9d092c24237",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 57930,
+            "seed": 5598
+        },
+        {
+            "id": 2155,
+            "name": "multi-btih-15-2x-WandaVision.S01E09.Episode.9.1080p.DSNP.WEBRip.DDP5.1.x264-TOMMY[eztv.re].mkv(1)",
+            "btih": "cf24dbf9129617822c55a24a6456b7e7de7e36a0",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 56507,
+            "seed": 25019
+        },
+        {
+            "id": 216,
+            "name": "旺达幻视.WandaVision.S01E09.1080p.H265-NEW字幕组.mp4",
+            "btih": "c657662b6fbdf614ca7cb78b5d1001d1366f2fe0",
             "resolution": "1080",
             "encoding": "265",
             "private": false,
-            "peer": 11586,
-            "seed": 1561
+            "peer": 54860,
+            "seed": 1688
         },
         {
-            "id": 149,
-            "name": "WandaVision.Season1.Movie.1080p.H.264-IceJackal",
-            "btih": "39bec53b64e4e5adc372fe50f34eb2dfce5b21bf",
+            "id": 112,
+            "name": "WandaVision.S01E09.Episode.9.1080p.DSNP.WEBRip.DDP5.1.x264-TOMMY[TGx]",
+            "btih": "68d40c98d4526f10db8c2e94aeb312c15bfc6f71",
             "resolution": "1080",
             "encoding": "264",
             "private": false,
-            "peer": 11499,
-            "seed": 4470
+            "peer": 54388,
+            "seed": 16985
         },
         {
-            "id": 156,
-            "name": "WandaVision.s01e09.WEBDL.1080p.NewStudio.TV.mkv",
-            "btih": "89f6cd91005ace5ed41f77bb780402360bf55594",
+            "id": 12,
+            "name": "WandaVision (2021) S01E09 1080p English HDRip x264 (DD 5.1) AAC ESub By Full4Movies.mkv",
+            "btih": "ae917a833f09a0ba7203ec07fe5f2ca471be362f",
             "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 11430,
-            "seed": 1353
-        },
-        {
-            "id": 89,
-            "name": "WandaVision.S01E08.720p.WEB.h264-KOGi[eztv.re].mkv",
-            "btih": "095137eef3691d9d065d16b9817bb634574676e4",
-            "resolution": "720",
             "encoding": "264",
             "private": false,
-            "peer": 11395,
-            "seed": 851
+            "peer": 54345,
+            "seed": 5709
         },
         {
-            "id": 22,
-            "name": "WandaVision - Season 1 (2021) WEBRip 1080p [Ukr.Eng] [Цікава Ідея]",
-            "btih": "c3af2dc57e0499c07042461d1165ecdaa1cf55ef",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 11330,
-            "seed": 1363
-        },
-        {
-            "id": 103,
-            "name": "WandaVision.S01E09.720p.FIX字幕侠",
-            "btih": "9fa3c44b4f7d8843da4f46fe815776c9b739a13b",
-            "resolution": "720",
-            "encoding": "none",
-            "private": false,
-            "peer": 11212,
-            "seed": 5248
-        },
-        {
-            "id": 104,
-            "name": "WandaVision.S01E09.720p.HDTV.Subtitulado.Esp.SC.mp4",
-            "btih": "627cb2b63326c07e02b6867221689008047cece1",
-            "resolution": "720",
-            "encoding": "none",
-            "private": false,
-            "peer": 11093,
-            "seed": 1749
-        },
-        {
-            "id": 1756,
-            "name": "multi-btih-0-2x-(Score) [WEB] ВандаВижен Ванда Вижн WandaVision (by Christophe Beck & Kristen Anderson-Lopez) (9 albums) - 2021, MP3 (tracks), [rutracker-6008973]",
-            "btih": "ef72b4e5b3c07d2efb13fe29a14bed9001e713e7",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 10902,
-            "seed": 420
-        },
-        {
-            "id": 93,
-            "name": "WandaVision.S01E09.1080p.HEVC.x265-MeGusta [IPT]",
-            "btih": "af08b359a1cb449cdd83f29935613ac11b7bb0cf",
-            "resolution": "1080",
-            "encoding": "265",
-            "private": true,
-            "peer": 10893,
-            "seed": 4703
-        },
-        {
-            "id": 219,
-            "name": "완다비전 시즌1.WandaVision.S01E09.방영중.x264.한글자막",
-            "btih": "f11f57cf282946b0d01f68c121e532791253f708",
-            "resolution": "sd",
-            "encoding": "264",
-            "private": false,
-            "peer": 10663,
-            "seed": 6274
-        },
-        {
-            "id": 10,
-            "name": "WANDAVISION [2021] [SEZON 1] [E09] [FINAL]",
-            "btih": "5e9f3b41bb36751c3098957560a377fd00cd9bbd",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 10587,
-            "seed": 1252
-        },
-        {
-            "id": 145,
-            "name": "WandaVision.S01E09.XviD-AFG[eztv.re].avi",
-            "btih": "8d700502d3f9d174e87ddf4e6ac6599385870501",
-            "resolution": "sd",
-            "encoding": "xvid",
-            "private": false,
-            "peer": 10489,
-            "seed": 660
-        },
-        {
-            "id": 131,
-            "name": "WandaVision.S01E09.The.Series.Finale.720p.10bit.WEBRip.2CH.x265.HEVC-PSA.mkv",
-            "btih": "267a2febf4cb12506cc0bdccf2c367f1ed46adfb",
-            "resolution": "720",
-            "encoding": "265",
-            "private": false,
-            "peer": 10223,
-            "seed": 3262
-        },
-        {
-            "id": 6,
-            "name": "Marvel's WandaVision Season 1 Complete [English-DD5.1] 1080p WEB-DL ESubs - ExtraMovies",
-            "btih": "2e841f5d56a4ed27ad329aaee765e90dcde103a5",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 10184,
-            "seed": 1380
-        },
-        {
-            "id": 1763,
-            "name": "multi-btih-7-2x-WandaVision.S01.2160p.HDR.NewComers",
-            "btih": "937a6345465325b36afdcd2512c64351181408b7",
+            "id": 122,
+            "name": "WandaVision.S01E09.ITA.ENG.HDR.2160p.WEB.H265-MeM.mkv",
+            "btih": "b710155f7daf9886029f2a9886ab0d07588f5513",
             "resolution": "2160",
-            "encoding": "none",
+            "encoding": "265",
             "private": false,
-            "peer": 10105,
-            "seed": 3316
+            "peer": 54323,
+            "seed": 6554
         },
         {
-            "id": 116,
-            "name": "WandaVision.S01E09.Episode.9.720p.DSNP.WEBRip.DDP5.1.x264-TOMMY",
-            "btih": "1f467d08f5eb3616a4001e811fc6d014835eccd5",
-            "resolution": "720",
-            "encoding": "264",
-            "private": false,
-            "peer": 10101,
-            "seed": 5130
-        },
-        {
-            "id": 178,
-            "name": "[rutor.is]WandaVision.S01.2160p.Kerob",
-            "btih": "a4cdb94d3cf80f7e097eb842bfd010aa1b681d21",
-            "resolution": "2160",
-            "encoding": "none",
-            "private": false,
-            "peer": 10085,
-            "seed": 812
-        },
-        {
-            "id": 200,
-            "name": "www.lyrics.lol    -    WandaVision S01E09 480p x264-mSD",
-            "btih": "7b4ce3659d55b753d48281caa0a4894e625e8438",
-            "resolution": "sd",
-            "encoding": "264",
-            "private": false,
-            "peer": 10009,
-            "seed": 452
-        },
-        {
-            "id": 196,
-            "name": "[酷漫字幕组][旺达·幻视][Wanda Vision][中英双语特效字幕][06][1080P][AVC MKV][V2].mkv",
-            "btih": "3ee3f61ebc4f1b5387276f0222f4d15f4212a236",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 9897,
-            "seed": 181
-        },
-        {
-            "id": 157,
-            "name": "Wandavision (2021) 1080p ITA-ENG",
-            "btih": "abc720daf44c11caaa52b72bda2f8a45216d9568",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 9879,
-            "seed": 1229
-        },
-        {
-            "id": 24,
-            "name": "WandaVision - Season 1 (AlexFilm) WEB-DL 1080p",
-            "btih": "3bbfceb7136453d909007afb217160b4934c3001",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 9765,
-            "seed": 988
-        },
-        {
-            "id": 127,
-            "name": "WandaVision.S01E09.The.Series.Finale.1080p.DSNP.WEB-DL.DDP5.1.H.264-dedbit.mkv",
-            "btih": "d398929af081a64c6e2a48c8ca4d4307e7ab8141",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 9338,
-            "seed": 2023
-        },
-        {
-            "id": 15,
-            "name": "WandaVision (2021) S01E09 720p WebDL Eng Atmos 5.1 Msub x264 - BLAZE [Happy2Share]",
-            "btih": "269bbdeb71d93977974222558c565153397ce01a",
-            "resolution": "720",
-            "encoding": "264",
-            "private": false,
-            "peer": 9311,
-            "seed": 1184
-        },
-        {
-            "id": 182,
-            "name": "[rutor.is]WandaVision.S01.720p.LakeFIlms",
-            "btih": "63a15a3234a269f61775171e46d4cfc98c1d5d47",
-            "resolution": "720",
-            "encoding": "none",
-            "private": false,
-            "peer": 9263,
-            "seed": 1694
-        },
-        {
-            "id": 1759,
+            "id": 2143,
             "name": "multi-btih-3-2x-WandaVision.S01.1080p.NewComers",
             "btih": "aa73335872db7a69e183f6732ec25ff3cea30b47",
             "resolution": "1080",
             "encoding": "none",
             "private": false,
-            "peer": 9252,
-            "seed": 4175
+            "peer": 54104,
+            "seed": 4678
         },
         {
-            "id": 45,
-            "name": "WandaVision.S01.1080p.DSNP.WEB-DL.DDP5.1.H.264-TOMMY",
-            "btih": "854d999139bd64df53e0c6ced2e0f140a5a590eb",
-            "resolution": "1080",
+            "id": 141,
+            "name": "WandaVision.S01E09.WEBRip.x264-ION10",
+            "btih": "d8fb6fd362955638cd15931a1be169d0cc680cee",
+            "resolution": "sd",
             "encoding": "264",
             "private": false,
-            "peer": 9203,
-            "seed": 840
+            "peer": 53709,
+            "seed": 4254
         },
         {
-            "id": 170,
-            "name": "[rutor.is]WandaVision.2021.Mini-Series.AF",
-            "btih": "27d4ec56a6c167ae05aef9caa61ba2c7b99f4707",
+            "id": 2153,
+            "name": "multi-btih-13-2x-WandaVision.S01.WEB-DLRip.LF",
+            "btih": "2b7bd99665aaa3370bf4b55f7b97970aaea589fc",
             "resolution": "sd",
             "encoding": "none",
             "private": false,
-            "peer": 9203,
-            "seed": 2598
-        },
-        {
-            "id": 25,
-            "name": "WandaVision - Season 1 (AlexFilm) WEB-DL 720p",
-            "btih": "82282af26b6b9aa23c2a968816ad5b398e356215",
-            "resolution": "720",
-            "encoding": "none",
-            "private": false,
-            "peer": 9140,
-            "seed": 713
-        },
-        {
-            "id": 86,
-            "name": "WandaVision.S01E01.ITA-ENG.2160p.WEB-DL.DDP5.1.DV.H.265-gattopollo.mp4",
-            "btih": "cdc53a428f578d87fbe39ffbd61e62d8d0d629b0",
-            "resolution": "2160",
-            "encoding": "265",
-            "private": false,
-            "peer": 8755,
-            "seed": 689
-        },
-        {
-            "id": 128,
-            "name": "WandaVision.S01E09.The.Series.Finale.1080p.DSNP.WEB-DL.DDP5.1.H264.EVO.DUAL-VAL",
-            "btih": "243b5b0674b2577f1208e5ca1d8144c7e5f9879e",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 8722,
-            "seed": 543
+            "peer": 52884,
+            "seed": 13023
         },
         {
             "id": 139,
@@ -1629,278 +1013,88 @@
             "resolution": "1080",
             "encoding": "none",
             "private": false,
-            "peer": 8654,
-            "seed": 2035
+            "peer": 51694,
+            "seed": 2255
         },
         {
-            "id": 1760,
-            "name": "multi-btih-4-2x-WandaVision.S01.1080p.WEBRip.DD+5.1.le-production",
-            "btih": "6efc14ddedabee935644cfe5cb4c73292c53f805",
-            "resolution": "1080",
-            "encoding": "none",
+            "id": 60,
+            "name": "WandaVision.S01.480p.x264-ZMNT",
+            "btih": "c2358605310a7ff13d14e6b5f6a43bb402a26f21",
+            "resolution": "sd",
+            "encoding": "264",
             "private": false,
-            "peer": 8535,
-            "seed": 1288
+            "peer": 51654,
+            "seed": 5516
         },
         {
-            "id": 66,
-            "name": "WandaVision.S01.720p.Ultradox",
-            "btih": "b5da002ac735fddabe12aac3d5541c33f84e28e4",
+            "id": 7,
+            "name": "Marvel's WandaVision Season 1 Complete [English-DD5.1] 720p HDRip ESubs - ExtraMovies",
+            "btih": "ca2b842758dd847ebf179332cb9a8b33dcd4f8fe",
             "resolution": "720",
             "encoding": "none",
             "private": false,
-            "peer": 8410,
-            "seed": 476
+            "peer": 51110,
+            "seed": 2557
         },
         {
-            "id": 106,
-            "name": "WandaVision.S01E09.720p.HEVC.x265-MeGusta[eztv.re].mkv",
-            "btih": "274e539ae0976350d4fa896ae3ddbe388d83bf27",
+            "id": 53,
+            "name": "WandaVision.S01.2160p.DSNP.WEB-DL.DDP5.1.Atmos.DV.x265-ZTV[rartv]-[rarbg.to]",
+            "btih": "a9fc7f770abf948a9e30f81d6a27b57e48762108",
+            "resolution": "2160",
+            "encoding": "265",
+            "private": false,
+            "peer": 51007,
+            "seed": 9801
+        },
+        {
+            "id": 2146,
+            "name": "multi-btih-6-2x-WandaVision.S01.2160p.DSNP.WEB-DL.x265.8bit.SDR.DDP5.1.Atmos-KOGi[rartv]-[rarbg.to]",
+            "btih": "4e0269f8d09a7c08bc9671e18a902f1f36949a40",
+            "resolution": "2160",
+            "encoding": "265",
+            "private": false,
+            "peer": 50618,
+            "seed": 7295
+        },
+        {
+            "id": 185,
+            "name": "[rutor.is]WandaVision",
+            "btih": "484fa144ffeb9efc037c101b0175154d1227ef87",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 49848,
+            "seed": 8278
+        },
+        {
+            "id": 213,
+            "name": "旺达幻视.WandaVision.S01.1080p.WEBRIP.HEVC.10bit-GHFLY",
+            "btih": "7030a99d4f912b4fde18415b29000c1ad6842572",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 49630,
+            "seed": 2653
+        },
+        {
+            "id": 2149,
+            "name": "multi-btih-9-2x-WandaVision.S01.720p.NewComers",
+            "btih": "143e02e87dc686ae7fa88cfa17723255a16fbf67",
             "resolution": "720",
-            "encoding": "265",
-            "private": false,
-            "peer": 8407,
-            "seed": 2868
-        },
-        {
-            "id": 23,
-            "name": "WandaVision - Season 1 (2021) WEBRip-AVC [Ukr.Eng] [Цікава Ідея]",
-            "btih": "5d4ca66e75218372d9245b23d5443c1f86c8c17f",
-            "resolution": "sd",
             "encoding": "none",
             "private": false,
-            "peer": 8232,
-            "seed": 1689
+            "peer": 49473,
+            "seed": 4381
         },
         {
-            "id": 26,
-            "name": "WandaVision 1 - LostFilm.TV [MP4]",
-            "btih": "48a7b3df789a02712438bd07e0b9b54eec080828",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 8225,
-            "seed": 2531
-        },
-        {
-            "id": 212,
-            "name": "旺达幻视.WandaVision.2021.S01.1080p.DSNP.WEB-DL.DDP5.1.Atmos.H.264-酷漫字幕组",
-            "btih": "714de1fe15e831c65ff0c0cf4afb882d9e5e88ce",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 8026,
-            "seed": 1514
-        },
-        {
-            "id": 91,
-            "name": "WandaVision.S01E09.1080p - TheUltimate",
-            "btih": "2cbf7a7c6d976f7dd6c1bdfe8b1849bda47ebad4",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 8003,
-            "seed": 911
-        },
-        {
-            "id": 92,
-            "name": "WandaVision.S01E09.1080p.ColdFilm.mkv",
-            "btih": "2a8f4ec58cd060b9fde1940d5b1447571a4e5fcd",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 7937,
-            "seed": 2044
-        },
-        {
-            "id": 155,
-            "name": "WandaVision.s01.WEBRip.x264.Rus.BaibaKo.tv",
-            "btih": "35c106460f757d54c98c7b095693041b432a6f0e",
-            "resolution": "sd",
-            "encoding": "264",
-            "private": false,
-            "peer": 7900,
-            "seed": 249
-        },
-        {
-            "id": 175,
-            "name": "[rutor.is]WandaVision.S01.2021(1)",
-            "btih": "e0aac37a4fbc208d8e169f2ac984f2440b90bdfe",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 7730,
-            "seed": 3210
-        },
-        {
-            "id": 13,
-            "name": "WandaVision (2021) S01E09 1080p WebDL Eng Atmos 5.1 Msub x264 - BLAZE [Happy2Share]",
-            "btih": "5758baaf0cd8d52d046ab0712571219a46acecb0",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 7730,
-            "seed": 775
-        },
-        {
-            "id": 27,
-            "name": "WandaVision 2021 [Miniserial] [S01E09] [Finał]  [720p] [WEB-DL] [DD5.1] [XviD] [Napisy PL] [Kamila]",
-            "btih": "20e9996dcda87c5e02b14fac5eff6bee33fd0dd0",
-            "resolution": "720",
-            "encoding": "xvid",
-            "private": false,
-            "peer": 7631,
-            "seed": 1547
-        },
-        {
-            "id": 101,
-            "name": "WandaVision.S01E09.400p.ColdFilm.avi",
-            "btih": "ac7eddb25827d3b89d68faa638b27a2726a3fcfe",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 7582,
-            "seed": 767
-        },
-        {
-            "id": 29,
-            "name": "WandaVision S01E08 (1080p DSNP WEB-DL AAC 5.1CH x264) [0ASSASSIN].mkv",
-            "btih": "564109b92607935b6faceea686e31ff84232e429",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 7521,
-            "seed": 72
-        },
-        {
-            "id": 201,
-            "name": "www.lyrics.lol    -    WandaVision S01E09 AAC MP4-Mobile",
-            "btih": "7905d811dc73c6143083aec843ea749c32257fd6",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 7144,
-            "seed": 383
-        },
-        {
-            "id": 135,
-            "name": "WandaVision.S01E09.The.Series.Finale.REPACK.1080p.RUS.SUB.1080p.WEBRip.x264.AAC.Zetflix.mp4",
-            "btih": "b7f8b228cb7baccfc7d81299e139cef020e59d22",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 7033,
-            "seed": 402
-        },
-        {
-            "id": 74,
-            "name": "WandaVision.S01.HDR.2160p.WEB-DL.DDP.5.1.x265-TOMMY [IPT]",
-            "btih": "7830287fbbccb55630db9b784ffd225ebdce60ea",
-            "resolution": "2160",
-            "encoding": "265",
-            "private": true,
-            "peer": 7027,
-            "seed": 2281
-        },
-        {
-            "id": 164,
-            "name": "Wandavision.S01E09.Episodio.Nove.2160p.WEBRip.HEVC.HDR.ITA.ENG.DDP5.1.x265-BlackBit.mkv",
-            "btih": "514e97aa83174d171f758158cf4df7eb62596518",
-            "resolution": "2160",
-            "encoding": "265",
-            "private": false,
-            "peer": 6933,
-            "seed": 2137
-        },
-        {
-            "id": 49,
-            "name": "WandaVision.S01.1080p.Ultradox",
-            "btih": "ebfd5c0f20d603a357461f1996e75ef567c944ec",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 6873,
-            "seed": 300
-        },
-        {
-            "id": 204,
-            "name": "Ванда Вижн WandaVision Сезон 1 Серии 1-9 из 9 (Мэтт Шекман Matt Shakman) [2021, США, фантастика, фэнтези, боевик, драма, [rutracker-6025504]",
-            "btih": "ca7372a1f562ae4713da75a3fdffd6001ed3d724",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 6866,
-            "seed": 1340
-        },
-        {
-            "id": 194,
-            "name": "[rutor.is]wandavision_s01_400p_newcomers",
-            "btih": "c28049ccc746c4c026bc71ae86f05d56902e07da",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 6848,
-            "seed": 3271
-        },
-        {
-            "id": 217,
-            "name": "旺达幻视.WandaVision.S01E09.2160p.DSNP.WEB-DL.无水印中英双字.7meiju.mp4",
-            "btih": "7667e284ce4fab24d85620ebf88019bdeb279751",
-            "resolution": "2160",
-            "encoding": "none",
-            "private": false,
-            "peer": 6780,
-            "seed": 1044
-        },
-        {
-            "id": 199,
-            "name": "www.lyrics.lol    -    WandaVision S01E09 1080p HEVC x265-MeGusta",
-            "btih": "98cd608b2f95b654351ce0047033e429a28a6f0d",
+            "id": 16,
+            "name": "WandaVision (2021) S01E09 Episode 9 1080p 10bit DSNP WEBRip x265 HEVC English DDP 5.1 Atmos ESubs ~ DarkHero.mkv",
+            "btih": "1177c4f242cc0e8c110433aa3fe3129cd55c07b9",
             "resolution": "1080",
             "encoding": "265",
             "private": false,
-            "peer": 6745,
-            "seed": 2355
-        },
-        {
-            "id": 180,
-            "name": "[rutor.is]WandaVision.S01.400p.TVShows",
-            "btih": "8e2590048d997c5494b2d4789508a609784439aa",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 6438,
-            "seed": 2513
-        },
-        {
-            "id": 173,
-            "name": "[rutor.is]WandaVision.S01.1080p.LakeFIlms",
-            "btih": "bc1e886b8ea618a3cc0fd7f3b9b8ac434b06619a",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 6313,
-            "seed": 1349
-        },
-        {
-            "id": 33,
-            "name": "WandaVision S01E09 The Series Finale  [2160p x265 10bit FS96 Joy].mkv",
-            "btih": "22a023211e06f76197bb391dadb1827ba3d7f1cd",
-            "resolution": "2160",
-            "encoding": "265",
-            "private": false,
-            "peer": 6292,
-            "seed": 2912
-        },
-        {
-            "id": 17,
-            "name": "WandaVision (2021) S1E09 The Series Finale 1080p 10bit DSNP WEBRip x265 HEVC Atmos DDP 5.1 MSubs ~ TombDoc.mkv",
-            "btih": "502d34bf890123ffec9997cd43a98d039b6aed92",
-            "resolution": "1080",
-            "encoding": "265",
-            "private": false,
-            "peer": 6032,
-            "seed": 1166
+            "peer": 49146,
+            "seed": 1766
         },
         {
             "id": 58,
@@ -1909,138 +1103,8 @@
             "resolution": "2160",
             "encoding": "265",
             "private": false,
-            "peer": 5663,
-            "seed": 591
-        },
-        {
-            "id": 165,
-            "name": "Wandavision.S01E09.Episodio.Nove.WEBRip.ITA.ENG.DDP5.1.x264-BlackBit.mkv",
-            "btih": "600bf2890b40c619b2dc1915fe84225e22792df1",
-            "resolution": "sd",
-            "encoding": "264",
-            "private": false,
-            "peer": 5506,
-            "seed": 716
-        },
-        {
-            "id": 171,
-            "name": "[rutor.is]WandaVision.S01.1080p.Flarrow.Films",
-            "btih": "48c857097e2c99bb5f21f0d15cbe48d07ce9094d",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 5425,
-            "seed": 1424
-        },
-        {
-            "id": 61,
-            "name": "WandaVision.S01.720p.10bit.DSNP.WEB-DL.x265.2CH",
-            "btih": "eb5eedaeddacef79b6807fcb0ec0041ea37ccb47",
-            "resolution": "720",
-            "encoding": "265",
-            "private": false,
-            "peer": 5295,
-            "seed": 1616
-        },
-        {
-            "id": 218,
-            "name": "旺达幻视.WandaVision.S01E09.The.Series.Finale.REPACK.1080p.DSNP.WEB-DL.DDP5.1.H.旺达幻视.mp4",
-            "btih": "4e125cc8dbd881e84b1290ed27cb754aacc0a002",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 4985,
-            "seed": 1828
-        },
-        {
-            "id": 5,
-            "name": "COMANDO.TO - WandaVision.S01E07.1080p.WEB-DL.x264-DUAL.mkv",
-            "btih": "3625539cfca9c98a3e79d9cc792360d0c1c270ba",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 4939,
-            "seed": 78
-        },
-        {
-            "id": 79,
-            "name": "WandaVision.S01.SweSub-EngSub.1080p.x264-Justiso",
-            "btih": "b8009901b5133fada04b6d231297efdb717bfe5e",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 4859,
-            "seed": 1105
-        },
-        {
-            "id": 72,
-            "name": "WandaVision.S01.DSNP.HDR.WEB-DL.2160p",
-            "btih": "b0edf707d802c255c0f72bd24cfea2d7609eae2e",
-            "resolution": "2160",
-            "encoding": "none",
-            "private": false,
-            "peer": 4810,
-            "seed": 1056
-        },
-        {
-            "id": 41,
-            "name": "WandaVision.2021.S01.1080p",
-            "btih": "9674984c192e770df51c20ca2913e0298d5a8115",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 4782,
-            "seed": 354
-        },
-        {
-            "id": 8,
-            "name": "MkvHub.Com - WandaVision (2021) S01E09 English 720p WEB-DL x264 ESubs.mkv",
-            "btih": "111e224be1653903ecad41eb4f88ec913c7d7708",
-            "resolution": "720",
-            "encoding": "264",
-            "private": false,
-            "peer": 4540,
-            "seed": 78
-        },
-        {
-            "id": 160,
-            "name": "Wandavision S01E09 1080 LAT - ZeiZ.mkv",
-            "btih": "2fe5ac3401dcb89554bbf226f4ed746596049d02",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 4403,
-            "seed": 2353
-        },
-        {
-            "id": 76,
-            "name": "WandaVision.S01.ITA-ENG.2160p.WEB-DL.DDP5.1.DV.H.265-gattopollo",
-            "btih": "07c1f2965c130a0ad71060f34eedbc69634c4510",
-            "resolution": "2160",
-            "encoding": "265",
-            "private": false,
-            "peer": 4386,
-            "seed": 414
-        },
-        {
-            "id": 31,
-            "name": "WandaVision S01E09 1080p DSNP  WEBrip x265 DDP5 1 Atmos D0ct0rLew[SEV]",
-            "btih": "6d0aae2b610bb600e53ae7f09e654ee098a51ed6",
-            "resolution": "1080",
-            "encoding": "265",
-            "private": false,
-            "peer": 4175,
-            "seed": 1600
-        },
-        {
-            "id": 215,
-            "name": "旺达幻视.WandaVision.S01E09.1080p.DSNP.WEB-DL.中英双字.7meiju.mp4",
-            "btih": "ebe1c1fbd10b07494981c1adf87fc7a3751d3138",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 4092,
-            "seed": 781
+            "peer": 47063,
+            "seed": 746
         },
         {
             "id": 152,
@@ -2049,48 +1113,458 @@
             "resolution": "1080",
             "encoding": "none",
             "private": false,
-            "peer": 3989,
-            "seed": 461
+            "peer": 46320,
+            "seed": 569
         },
         {
-            "id": 144,
-            "name": "WandaVision.S01E09.XviD-AFG[TGx]",
-            "btih": "32b10ae134833308dcedfc209cf0774dd96fe6e4",
-            "resolution": "sd",
-            "encoding": "xvid",
+            "id": 163,
+            "name": "Wandavision.S01E09.Episodio.Nove.1080p.WEBRip.HEVC.ITA.ENG.DDP5.1.x265-BlackBit.mkv",
+            "btih": "daa1d878a38c64e548a70eb9cfa34e403d3dab56",
+            "resolution": "1080",
+            "encoding": "265",
             "private": false,
-            "peer": 3882,
-            "seed": 811
+            "peer": 45871,
+            "seed": 4240
         },
         {
-            "id": 39,
-            "name": "WandaVision.(Season 01).NewComers",
-            "btih": "c33cf15a8724be665cb5af15a89f67e2448dd479",
+            "id": 201,
+            "name": "www.lyrics.lol    -    WandaVision S01E09 AAC MP4-Mobile",
+            "btih": "7905d811dc73c6143083aec843ea749c32257fd6",
             "resolution": "sd",
             "encoding": "none",
             "private": false,
-            "peer": 3704,
-            "seed": 539
+            "peer": 45314,
+            "seed": 509
         },
         {
-            "id": 42,
-            "name": "WandaVision.2021.S01.720p",
-            "btih": "f697a76a2e4629df77fe14a91f197d2ac810c769",
-            "resolution": "720",
-            "encoding": "none",
-            "private": false,
-            "peer": 3679,
-            "seed": 231
-        },
-        {
-            "id": 52,
-            "name": "WandaVision.S01.2160p.10bit.HDR.WEBRip.6CH.x265.HEVC-PSA",
-            "btih": "0350de4234a1659fd4ead050f794e1f3a16d60a6",
+            "id": 33,
+            "name": "WandaVision S01E09 The Series Finale  [2160p x265 10bit FS96 Joy].mkv",
+            "btih": "22a023211e06f76197bb391dadb1827ba3d7f1cd",
             "resolution": "2160",
             "encoding": "265",
             "private": false,
-            "peer": 3504,
-            "seed": 737
+            "peer": 45007,
+            "seed": 3267
+        },
+        {
+            "id": 128,
+            "name": "WandaVision.S01E09.The.Series.Finale.1080p.DSNP.WEB-DL.DDP5.1.H264.EVO.DUAL-VAL",
+            "btih": "243b5b0674b2577f1208e5ca1d8144c7e5f9879e",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 44918,
+            "seed": 670
+        },
+        {
+            "id": 123,
+            "name": "WandaVision.S01E09.The.Series.Finale.1080p.10bit.WEBRip.6CH.x265.HEVC-PSA.mkv",
+            "btih": "841a96158fdc6d720f8840f4c7574df82b4f6ccc",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 44792,
+            "seed": 10587
+        },
+        {
+            "id": 23,
+            "name": "WandaVision - Season 1 (2021) WEBRip-AVC [Ukr.Eng] [Цікава Ідея]",
+            "btih": "5d4ca66e75218372d9245b23d5443c1f86c8c17f",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 44053,
+            "seed": 2056
+        },
+        {
+            "id": 212,
+            "name": "旺达幻视.WandaVision.2021.S01.1080p.DSNP.WEB-DL.DDP5.1.Atmos.H.264-酷漫字幕组",
+            "btih": "714de1fe15e831c65ff0c0cf4afb882d9e5e88ce",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 43956,
+            "seed": 1731
+        },
+        {
+            "id": 111,
+            "name": "WandaVision.S01E09.720p.x265-ZMNT",
+            "btih": "dda0e836189cf9c972d6c138bf9df3c87701d17b",
+            "resolution": "720",
+            "encoding": "265",
+            "private": false,
+            "peer": 43775,
+            "seed": 4404
+        },
+        {
+            "id": 197,
+            "name": "[酷漫字幕组][旺达·幻视][Wanda Vision][中英双语特效字幕][07][1080P][AVC MKV].mkv",
+            "btih": "63369a550f55846158aa59821a878f6c81994ef3",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 42229,
+            "seed": 209
+        },
+        {
+            "id": 2154,
+            "name": "multi-btih-14-2x-WandaVision.S01E09.2160p.WEB-DL.DDP5.1.Atmos.DV.x265-ZTV[rartv]-[rarbg.to]",
+            "btih": "3eee1342d1a5ec7cbabe49778a1eb83f601e7fa9",
+            "resolution": "2160",
+            "encoding": "265",
+            "private": false,
+            "peer": 42218,
+            "seed": 14453
+        },
+        {
+            "id": 27,
+            "name": "WandaVision 2021 [Miniserial] [S01E09] [Finał]  [720p] [WEB-DL] [DD5.1] [XviD] [Napisy PL] [Kamila]",
+            "btih": "20e9996dcda87c5e02b14fac5eff6bee33fd0dd0",
+            "resolution": "720",
+            "encoding": "xvid",
+            "private": false,
+            "peer": 42203,
+            "seed": 1799
+        },
+        {
+            "id": 200,
+            "name": "www.lyrics.lol    -    WandaVision S01E09 480p x264-mSD",
+            "btih": "7b4ce3659d55b753d48281caa0a4894e625e8438",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 41558,
+            "seed": 553
+        },
+        {
+            "id": 68,
+            "name": "WandaVision.S01.720p.x265-ZMNT",
+            "btih": "94e9fb829f43b533cc9e1cfd124067908471092f",
+            "resolution": "720",
+            "encoding": "265",
+            "private": false,
+            "peer": 41396,
+            "seed": 6256
+        },
+        {
+            "id": 9,
+            "name": "WANDAVISION - 1ª TEMPORADA COMPLETA DVDR AUTORADO",
+            "btih": "7c43edad9f0effbaf4cdf5b98f8f7026338119e4",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 41141,
+            "seed": 354
+        },
+        {
+            "id": 211,
+            "name": "旺达幻视.WandaVision.2021.S01.1080P.WEB-DL.DDP5.1.H264.115WiKi",
+            "btih": "50556839d7db06f067bbdee89224d38cad3741f6",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 41121,
+            "seed": 915
+        },
+        {
+            "id": 100,
+            "name": "WandaVision.S01E09.2160p.WEB.h265-KOGi[rartv]-[rarbg.to]",
+            "btih": "2768b28debe16a31ee78c72abcb9623d387a3107",
+            "resolution": "2160",
+            "encoding": "265",
+            "private": false,
+            "peer": 40666,
+            "seed": 6796
+        },
+        {
+            "id": 31,
+            "name": "WandaVision S01E09 1080p DSNP  WEBrip x265 DDP5 1 Atmos D0ct0rLew[SEV]",
+            "btih": "6d0aae2b610bb600e53ae7f09e654ee098a51ed6",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 39640,
+            "seed": 1878
+        },
+        {
+            "id": 104,
+            "name": "WandaVision.S01E09.720p.HDTV.Subtitulado.Esp.SC.mp4",
+            "btih": "627cb2b63326c07e02b6867221689008047cece1",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 39614,
+            "seed": 1959
+        },
+        {
+            "id": 10,
+            "name": "WANDAVISION [2021] [SEZON 1] [E09] [FINAL]",
+            "btih": "5e9f3b41bb36751c3098957560a377fd00cd9bbd",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 39466,
+            "seed": 1461
+        },
+        {
+            "id": 66,
+            "name": "WandaVision.S01.720p.Ultradox",
+            "btih": "b5da002ac735fddabe12aac3d5541c33f84e28e4",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 39433,
+            "seed": 568
+        },
+        {
+            "id": 2140,
+            "name": "multi-btih-0-2x-(Score) [WEB] ВандаВижен Ванда Вижн WandaVision (by Christophe Beck & Kristen Anderson-Lopez) (9 albums) - 2021, MP3 (tracks), [rutracker-6008973]",
+            "btih": "ef72b4e5b3c07d2efb13fe29a14bed9001e713e7",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 39284,
+            "seed": 569
+        },
+        {
+            "id": 107,
+            "name": "WandaVision.S01E09.720p.WEB.h264-KOGi[eztv.re].mkv",
+            "btih": "806b0875893819353a3cc0215f8b14c4dca44bd2",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 38299,
+            "seed": 4264
+        },
+        {
+            "id": 199,
+            "name": "www.lyrics.lol    -    WandaVision S01E09 1080p HEVC x265-MeGusta",
+            "btih": "98cd608b2f95b654351ce0047033e429a28a6f0d",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 38169,
+            "seed": 2589
+        },
+        {
+            "id": 49,
+            "name": "WandaVision.S01.1080p.Ultradox",
+            "btih": "ebfd5c0f20d603a357461f1996e75ef567c944ec",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 37796,
+            "seed": 394
+        },
+        {
+            "id": 124,
+            "name": "WandaVision.S01E09.The.Series.Finale.1080p.DSNP.WEB-DL.DDP5.1.H.264-EVO [IPT]",
+            "btih": "067f86bc1199876c571c113aef9e3303214a325b",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 37064,
+            "seed": 16948
+        },
+        {
+            "id": 170,
+            "name": "[rutor.is]WandaVision.2021.Mini-Series.AF",
+            "btih": "27d4ec56a6c167ae05aef9caa61ba2c7b99f4707",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 36246,
+            "seed": 3100
+        },
+        {
+            "id": 11,
+            "name": "WandaVision (2021) COMPLETE S01 (1080p DSNP WEBRip 10bit HEVC x265 imSamirOFFICIAL)",
+            "btih": "bb420b61c4092957c4b471916926fbf2f7397079",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 36241,
+            "seed": 9698
+        },
+        {
+            "id": 137,
+            "name": "WandaVision.S01E09.WEB-DL.XviD.B4ND1T69",
+            "btih": "5f162d3a3070500d0c54e59661588ada125a74c0",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": false,
+            "peer": 35875,
+            "seed": 3022
+        },
+        {
+            "id": 79,
+            "name": "WandaVision.S01.SweSub-EngSub.1080p.x264-Justiso",
+            "btih": "b8009901b5133fada04b6d231297efdb717bfe5e",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 35707,
+            "seed": 1320
+        },
+        {
+            "id": 102,
+            "name": "WandaVision.S01E09.480p.x264-mSD[eztv.re].mkv",
+            "btih": "174b7856a6c5c3977f2195208fe6c273440fd769",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 35381,
+            "seed": 1617
+        },
+        {
+            "id": 2144,
+            "name": "multi-btih-4-2x-WandaVision.S01.1080p.WEBRip.DD+5.1.le-production",
+            "btih": "6efc14ddedabee935644cfe5cb4c73292c53f805",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 35371,
+            "seed": 1484
+        },
+        {
+            "id": 37,
+            "name": "WandaVision Season 1 YG",
+            "btih": "28cc3542ec9eced6951ebe38726a2013206ad153",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 35330,
+            "seed": 2701
+        },
+        {
+            "id": 178,
+            "name": "[rutor.is]WandaVision.S01.2160p.Kerob",
+            "btih": "a4cdb94d3cf80f7e097eb842bfd010aa1b681d21",
+            "resolution": "2160",
+            "encoding": "none",
+            "private": false,
+            "peer": 34800,
+            "seed": 889
+        },
+        {
+            "id": 108,
+            "name": "WandaVision.S01E09.720p.WEB.h264-KOGi[rartv]-[rarbg.to]",
+            "btih": "dce6c9fad715d7b0cfaea5ea74520de7d60c428c",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 34091,
+            "seed": 4874
+        },
+        {
+            "id": 182,
+            "name": "[rutor.is]WandaVision.S01.720p.LakeFIlms",
+            "btih": "63a15a3234a269f61775171e46d4cfc98c1d5d47",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 33751,
+            "seed": 2180
+        },
+        {
+            "id": 117,
+            "name": "WandaVision.S01E09.Episode.9.720p.DSNP.WEBRip.DDP5.1.x264-TOMMY[TGx]",
+            "btih": "2261c38c76a37b52bda4a59f1a45b8f8498ae8cf",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 32775,
+            "seed": 8085
+        },
+        {
+            "id": 13,
+            "name": "WandaVision (2021) S01E09 1080p WebDL Eng Atmos 5.1 Msub x264 - BLAZE [Happy2Share]",
+            "btih": "5758baaf0cd8d52d046ab0712571219a46acecb0",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 32750,
+            "seed": 881
+        },
+        {
+            "id": 86,
+            "name": "WandaVision.S01E01.ITA-ENG.2160p.WEB-DL.DDP5.1.DV.H.265-gattopollo.mp4",
+            "btih": "cdc53a428f578d87fbe39ffbd61e62d8d0d629b0",
+            "resolution": "2160",
+            "encoding": "265",
+            "private": false,
+            "peer": 32585,
+            "seed": 787
+        },
+        {
+            "id": 2147,
+            "name": "multi-btih-7-2x-WandaVision.S01.2160p.HDR.NewComers",
+            "btih": "937a6345465325b36afdcd2512c64351181408b7",
+            "resolution": "2160",
+            "encoding": "none",
+            "private": false,
+            "peer": 32520,
+            "seed": 3709
+        },
+        {
+            "id": 72,
+            "name": "WandaVision.S01.DSNP.HDR.WEB-DL.2160p",
+            "btih": "b0edf707d802c255c0f72bd24cfea2d7609eae2e",
+            "resolution": "2160",
+            "encoding": "none",
+            "private": false,
+            "peer": 32226,
+            "seed": 1208
+        },
+        {
+            "id": 89,
+            "name": "WandaVision.S01E08.720p.WEB.h264-KOGi[eztv.re].mkv",
+            "btih": "095137eef3691d9d065d16b9817bb634574676e4",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 32130,
+            "seed": 1123
+        },
+        {
+            "id": 91,
+            "name": "WandaVision.S01E09.1080p - TheUltimate",
+            "btih": "2cbf7a7c6d976f7dd6c1bdfe8b1849bda47ebad4",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 31627,
+            "seed": 991
+        },
+        {
+            "id": 149,
+            "name": "WandaVision.Season1.Movie.1080p.H.264-IceJackal",
+            "btih": "39bec53b64e4e5adc372fe50f34eb2dfce5b21bf",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 31334,
+            "seed": 4861
+        },
+        {
+            "id": 15,
+            "name": "WandaVision (2021) S01E09 720p WebDL Eng Atmos 5.1 Msub x264 - BLAZE [Happy2Share]",
+            "btih": "269bbdeb71d93977974222558c565153397ce01a",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 31298,
+            "seed": 1314
+        },
+        {
+            "id": 204,
+            "name": "Ванда Вижн WandaVision Сезон 1 Серии 1-9 из 9 (Мэтт Шекман Matt Shakman) [2021, США, фантастика, фэнтези, боевик, драма, [rutracker-6025504]",
+            "btih": "ca7372a1f562ae4713da75a3fdffd6001ed3d724",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 30919,
+            "seed": 2185
         },
         {
             "id": 73,
@@ -2099,38 +1573,28 @@
             "resolution": "sd",
             "encoding": "264",
             "private": false,
-            "peer": 3503,
-            "seed": 99
+            "peer": 30699,
+            "seed": 189
         },
         {
-            "id": 94,
-            "name": "WandaVision.S01E09.1080p.WEB.H264-DRYB [IPT]",
-            "btih": "21ad96eeda040b0257e541d3ed029af2d2e75ee4",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": true,
-            "peer": 3301,
-            "seed": 1613
-        },
-        {
-            "id": 130,
-            "name": "WandaVision.S01E09.The.Series.Finale.2160p.WEB.x265.10bit-YSH.mkv",
-            "btih": "4a63b06be7c511de7029d1347d29e64ee8194d4d",
+            "id": 36,
+            "name": "WandaVision Season 1  [2160p x265 10bit Joy]",
+            "btih": "4da2603494b79fd25544eead1fff23d9a5cc6e76",
             "resolution": "2160",
             "encoding": "265",
             "private": false,
-            "peer": 3247,
-            "seed": 1106
+            "peer": 29391,
+            "seed": 7377
         },
         {
-            "id": 198,
-            "name": "[酷漫字幕组][旺达·幻视][Wanda Vision][中英双语特效字幕][09][1080P][AVC MKV].mkv",
-            "btih": "91c3c108452682e95edd3ed271bd560449205d95",
+            "id": 24,
+            "name": "WandaVision - Season 1 (AlexFilm) WEB-DL 1080p",
+            "btih": "3bbfceb7136453d909007afb217160b4934c3001",
             "resolution": "1080",
             "encoding": "none",
             "private": false,
-            "peer": 3181,
-            "seed": 205
+            "peer": 29120,
+            "seed": 1083
         },
         {
             "id": 153,
@@ -2139,8 +1603,188 @@
             "resolution": "1080",
             "encoding": "265",
             "private": false,
-            "peer": 3178,
-            "seed": 556
+            "peer": 28961,
+            "seed": 691
+        },
+        {
+            "id": 6,
+            "name": "Marvel's WandaVision Season 1 Complete [English-DD5.1] 1080p WEB-DL ESubs - ExtraMovies",
+            "btih": "2e841f5d56a4ed27ad329aaee765e90dcde103a5",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 28700,
+            "seed": 1499
+        },
+        {
+            "id": 144,
+            "name": "WandaVision.S01E09.XviD-AFG[TGx]",
+            "btih": "32b10ae134833308dcedfc209cf0774dd96fe6e4",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": false,
+            "peer": 28641,
+            "seed": 995
+        },
+        {
+            "id": 92,
+            "name": "WandaVision.S01E09.1080p.ColdFilm.mkv",
+            "btih": "2a8f4ec58cd060b9fde1940d5b1447571a4e5fcd",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 28592,
+            "seed": 2261
+        },
+        {
+            "id": 156,
+            "name": "WandaVision.s01e09.WEBDL.1080p.NewStudio.TV.mkv",
+            "btih": "89f6cd91005ace5ed41f77bb780402360bf55594",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 27858,
+            "seed": 1584
+        },
+        {
+            "id": 217,
+            "name": "旺达幻视.WandaVision.S01E09.2160p.DSNP.WEB-DL.无水印中英双字.7meiju.mp4",
+            "btih": "7667e284ce4fab24d85620ebf88019bdeb279751",
+            "resolution": "2160",
+            "encoding": "none",
+            "private": false,
+            "peer": 27784,
+            "seed": 1146
+        },
+        {
+            "id": 135,
+            "name": "WandaVision.S01E09.The.Series.Finale.REPACK.1080p.RUS.SUB.1080p.WEBRip.x264.AAC.Zetflix.mp4",
+            "btih": "b7f8b228cb7baccfc7d81299e139cef020e59d22",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 27761,
+            "seed": 516
+        },
+        {
+            "id": 168,
+            "name": "[ OxTorrent.tv ] WandaVision.S01E09.VOSTFR.WEB.XviD-EXTREME.avi",
+            "btih": "f6d45e2125705abee11f247940cea6c9ce6860fb",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": false,
+            "peer": 27601,
+            "seed": 5465
+        },
+        {
+            "id": 32,
+            "name": "WandaVision S01E09 1080p DSNP WEBRip 10bit HEVC x265 English DDP 5.1 Atmos ESub ~ imSamirOFFICIAL.mkv",
+            "btih": "df72599bfbf7a4996fbd853dbcb15bb674cfcae1",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 27519,
+            "seed": 3032
+        },
+        {
+            "id": 17,
+            "name": "WandaVision (2021) S1E09 The Series Finale 1080p 10bit DSNP WEBRip x265 HEVC Atmos DDP 5.1 MSubs ~ TombDoc.mkv",
+            "btih": "502d34bf890123ffec9997cd43a98d039b6aed92",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 27035,
+            "seed": 1334
+        },
+        {
+            "id": 145,
+            "name": "WandaVision.S01E09.XviD-AFG[eztv.re].avi",
+            "btih": "8d700502d3f9d174e87ddf4e6ac6599385870501",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": false,
+            "peer": 26791,
+            "seed": 977
+        },
+        {
+            "id": 22,
+            "name": "WandaVision - Season 1 (2021) WEBRip 1080p [Ukr.Eng] [Цікава Ідея]",
+            "btih": "c3af2dc57e0499c07042461d1165ecdaa1cf55ef",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 26430,
+            "seed": 1588
+        },
+        {
+            "id": 219,
+            "name": "완다비전 시즌1.WandaVision.S01E09.방영중.x264.한글자막",
+            "btih": "f11f57cf282946b0d01f68c121e532791253f708",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 25902,
+            "seed": 7104
+        },
+        {
+            "id": 29,
+            "name": "WandaVision S01E08 (1080p DSNP WEB-DL AAC 5.1CH x264) [0ASSASSIN].mkv",
+            "btih": "564109b92607935b6faceea686e31ff84232e429",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 25867,
+            "seed": 114
+        },
+        {
+            "id": 116,
+            "name": "WandaVision.S01E09.Episode.9.720p.DSNP.WEBRip.DDP5.1.x264-TOMMY",
+            "btih": "1f467d08f5eb3616a4001e811fc6d014835eccd5",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 25614,
+            "seed": 5584
+        },
+        {
+            "id": 45,
+            "name": "WandaVision.S01.1080p.DSNP.WEB-DL.DDP5.1.H.264-TOMMY",
+            "btih": "854d999139bd64df53e0c6ced2e0f140a5a590eb",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 25542,
+            "seed": 1039
+        },
+        {
+            "id": 127,
+            "name": "WandaVision.S01E09.The.Series.Finale.1080p.DSNP.WEB-DL.DDP5.1.H.264-dedbit.mkv",
+            "btih": "d398929af081a64c6e2a48c8ca4d4307e7ab8141",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 25166,
+            "seed": 2307
+        },
+        {
+            "id": 25,
+            "name": "WandaVision - Season 1 (AlexFilm) WEB-DL 720p",
+            "btih": "82282af26b6b9aa23c2a968816ad5b398e356215",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 25084,
+            "seed": 807
+        },
+        {
+            "id": 198,
+            "name": "[酷漫字幕组][旺达·幻视][Wanda Vision][中英双语特效字幕][09][1080P][AVC MKV].mkv",
+            "btih": "91c3c108452682e95edd3ed271bd560449205d95",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 24982,
+            "seed": 254
         },
         {
             "id": 78,
@@ -2149,88 +1793,238 @@
             "resolution": "1080",
             "encoding": "264",
             "private": false,
-            "peer": 3001,
-            "seed": 305
+            "peer": 24573,
+            "seed": 422
         },
         {
-            "id": 147,
-            "name": "WandaVision.S01E09[Dub][Filmesmp4.com].rar",
-            "btih": "e6c40e147d48661c65f783e0483f500bb0b1de74",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 2936,
-            "seed": 261
-        },
-        {
-            "id": 184,
-            "name": "[rutor.is]WandaVision.S01.SD.LakeFIlms",
-            "btih": "ad4e4413f1937a3e2faac4ffb2bc0d1f98df148f",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 2717,
-            "seed": 1043
-        },
-        {
-            "id": 28,
-            "name": "WandaVision S01 [1080p DSNP WEB-DL] [zgnrips]",
-            "btih": "21f89b0a7b781edb6b8e9c68e2820b43af0e375f",
+            "id": 171,
+            "name": "[rutor.is]WandaVision.S01.1080p.Flarrow.Films",
+            "btih": "48c857097e2c99bb5f21f0d15cbe48d07ce9094d",
             "resolution": "1080",
             "encoding": "none",
             "private": false,
-            "peer": 2662,
-            "seed": 398
+            "peer": 24478,
+            "seed": 1655
         },
         {
-            "id": 51,
-            "name": "WandaVision.S01.2021.WEBRip.2160p.HDR.[Ukr.Eng]",
-            "btih": "a4e000a4dd9c88b2903dc737508e9d049b8f6d58",
+            "id": 162,
+            "name": "Wandavision.S01E08.720p.WEBRip.Hindi-English.x264-KatmovieHD.se.mkv",
+            "btih": "15931124b2889d6e369445a4b06cfb705c4be1d6",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 24309,
+            "seed": 4736
+        },
+        {
+            "id": 202,
+            "name": "Ванда Вижн WandaVision Сезон 1 Серии 1-8 из 9 (Мэтт Шекман) [2021, США, Фантастика, фэнтези, боевик, драма, комедия, прикл [rutracker-5998440]",
+            "btih": "f69d0e20f2a393b7b727685535d9b2976e3b024b",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 24230,
+            "seed": 3810
+        },
+        {
+            "id": 218,
+            "name": "旺达幻视.WandaVision.S01E09.The.Series.Finale.REPACK.1080p.DSNP.WEB-DL.DDP5.1.H.旺达幻视.mp4",
+            "btih": "4e125cc8dbd881e84b1290ed27cb754aacc0a002",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 24093,
+            "seed": 2067
+        },
+        {
+            "id": 180,
+            "name": "[rutor.is]WandaVision.S01.400p.TVShows",
+            "btih": "8e2590048d997c5494b2d4789508a609784439aa",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 24088,
+            "seed": 2918
+        },
+        {
+            "id": 164,
+            "name": "Wandavision.S01E09.Episodio.Nove.2160p.WEBRip.HEVC.HDR.ITA.ENG.DDP5.1.x265-BlackBit.mkv",
+            "btih": "514e97aa83174d171f758158cf4df7eb62596518",
             "resolution": "2160",
-            "encoding": "none",
-            "private": false,
-            "peer": 2483,
-            "seed": 646
-        },
-        {
-            "id": 129,
-            "name": "WandaVision.S01E09.The.Series.Finale.1080p.DSNP.WEBRip [SaltBae].mkv",
-            "btih": "12bd8dd70fcc00e24128cdb43ce244956dede728",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 2389,
-            "seed": 590
-        },
-        {
-            "id": 159,
-            "name": "Wandavision 2021 S01 1080P DSNP WEBRip x265 HEVC  DDP 5.1 ESBU-Top10Torrent.site",
-            "btih": "5b0d16e79506e31c2baf9d94cf3d602b82afdecf",
-            "resolution": "1080",
             "encoding": "265",
             "private": false,
-            "peer": 2376,
-            "seed": 668
+            "peer": 23947,
+            "seed": 2694
         },
         {
-            "id": 81,
-            "name": "WandaVision.S01.WEB-DL.NW.1080p[2021]",
-            "btih": "05c907cb532f269a051b947996be324a070cf620",
+            "id": 39,
+            "name": "WandaVision.(Season 01).NewComers",
+            "btih": "c33cf15a8724be665cb5af15a89f67e2448dd479",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 23942,
+            "seed": 622
+        },
+        {
+            "id": 106,
+            "name": "WandaVision.S01E09.720p.HEVC.x265-MeGusta[eztv.re].mkv",
+            "btih": "274e539ae0976350d4fa896ae3ddbe388d83bf27",
+            "resolution": "720",
+            "encoding": "265",
+            "private": false,
+            "peer": 23732,
+            "seed": 3344
+        },
+        {
+            "id": 179,
+            "name": "[rutor.is]WandaVision.S01.400p.Kerob",
+            "btih": "6c45602b2e9b215256b3038cd43b20f0d639a117",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 23725,
+            "seed": 3812
+        },
+        {
+            "id": 196,
+            "name": "[酷漫字幕组][旺达·幻视][Wanda Vision][中英双语特效字幕][06][1080P][AVC MKV][V2].mkv",
+            "btih": "3ee3f61ebc4f1b5387276f0222f4d15f4212a236",
             "resolution": "1080",
             "encoding": "none",
             "private": false,
-            "peer": 1955,
-            "seed": 651
+            "peer": 22995,
+            "seed": 209
         },
         {
-            "id": 84,
-            "name": "WandaVision.S01E01.1080p.DSNP.WEBRip.DDP5.1.Atmos.x264-CM.mkv",
-            "btih": "59a59d5731ab0eff954c84073e1ff38d01d9f808",
+            "id": 103,
+            "name": "WandaVision.S01E09.720p.FIX字幕侠",
+            "btih": "9fa3c44b4f7d8843da4f46fe815776c9b739a13b",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 22878,
+            "seed": 5692
+        },
+        {
+            "id": 132,
+            "name": "WandaVision.S01E09.The.Series.Finale.REPACK.1080p.DSNP.WEB-DL.DDP5.1.H.264-TOMMY.chs.eng.mp4",
+            "btih": "2066facf17330001e45ff49217ea8dd2d083a6a9",
             "resolution": "1080",
             "encoding": "264",
             "private": false,
-            "peer": 1772,
-            "seed": 85
+            "peer": 22530,
+            "seed": 5726
+        },
+        {
+            "id": 101,
+            "name": "WandaVision.S01E09.400p.ColdFilm.avi",
+            "btih": "ac7eddb25827d3b89d68faa638b27a2726a3fcfe",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 22500,
+            "seed": 924
+        },
+        {
+            "id": 90,
+            "name": "WandaVision.S01E08.720p.WEB.h264-KOGi[rartv]-[rarbg.to]",
+            "btih": "58240f9ed98de400acf53cb8fafecdd6cd41f129",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 21872,
+            "seed": 4920
+        },
+        {
+            "id": 76,
+            "name": "WandaVision.S01.ITA-ENG.2160p.WEB-DL.DDP5.1.DV.H.265-gattopollo",
+            "btih": "07c1f2965c130a0ad71060f34eedbc69634c4510",
+            "resolution": "2160",
+            "encoding": "265",
+            "private": false,
+            "peer": 21770,
+            "seed": 505
+        },
+        {
+            "id": 8,
+            "name": "MkvHub.Com - WandaVision (2021) S01E09 English 720p WEB-DL x264 ESubs.mkv",
+            "btih": "111e224be1653903ecad41eb4f88ec913c7d7708",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 20353,
+            "seed": 116
+        },
+        {
+            "id": 5,
+            "name": "COMANDO.TO - WandaVision.S01E07.1080p.WEB-DL.x264-DUAL.mkv",
+            "btih": "3625539cfca9c98a3e79d9cc792360d0c1c270ba",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 20310,
+            "seed": 104
+        },
+        {
+            "id": 95,
+            "name": "WandaVision.S01E09.1080p.WEB.H264-DRYB[TGx]",
+            "btih": "84db94cf05824411bc62aeb77efaf3b14f07d30d",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 20260,
+            "seed": 2592
+        },
+        {
+            "id": 160,
+            "name": "Wandavision S01E09 1080 LAT - ZeiZ.mkv",
+            "btih": "2fe5ac3401dcb89554bbf226f4ed746596049d02",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 19913,
+            "seed": 2665
+        },
+        {
+            "id": 157,
+            "name": "Wandavision (2021) 1080p ITA-ENG",
+            "btih": "abc720daf44c11caaa52b72bda2f8a45216d9568",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 19871,
+            "seed": 1444
+        },
+        {
+            "id": 52,
+            "name": "WandaVision.S01.2160p.10bit.HDR.WEBRip.6CH.x265.HEVC-PSA",
+            "btih": "0350de4234a1659fd4ead050f794e1f3a16d60a6",
+            "resolution": "2160",
+            "encoding": "265",
+            "private": false,
+            "peer": 19742,
+            "seed": 827
+        },
+        {
+            "id": 131,
+            "name": "WandaVision.S01E09.The.Series.Finale.720p.10bit.WEBRip.2CH.x265.HEVC-PSA.mkv",
+            "btih": "267a2febf4cb12506cc0bdccf2c367f1ed46adfb",
+            "resolution": "720",
+            "encoding": "265",
+            "private": false,
+            "peer": 19707,
+            "seed": 3533
+        },
+        {
+            "id": 215,
+            "name": "旺达幻视.WandaVision.S01E09.1080p.DSNP.WEB-DL.中英双字.7meiju.mp4",
+            "btih": "ebe1c1fbd10b07494981c1adf87fc7a3751d3138",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 19677,
+            "seed": 860
         },
         {
             "id": 158,
@@ -2239,18 +2033,58 @@
             "resolution": "2160",
             "encoding": "none",
             "private": false,
-            "peer": 1688,
-            "seed": 619
+            "peer": 19595,
+            "seed": 723
         },
         {
-            "id": 38,
-            "name": "WandaVision- House of M.mp4",
-            "btih": "3bd06f1e46d8581f9edd71420631964abce3adc1",
+            "id": 84,
+            "name": "WandaVision.S01E01.1080p.DSNP.WEBRip.DDP5.1.Atmos.x264-CM.mkv",
+            "btih": "59a59d5731ab0eff954c84073e1ff38d01d9f808",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 18491,
+            "seed": 140
+        },
+        {
+            "id": 155,
+            "name": "WandaVision.s01.WEBRip.x264.Rus.BaibaKo.tv",
+            "btih": "35c106460f757d54c98c7b095693041b432a6f0e",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 18307,
+            "seed": 321
+        },
+        {
+            "id": 42,
+            "name": "WandaVision.2021.S01.720p",
+            "btih": "f697a76a2e4629df77fe14a91f197d2ac810c769",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 17943,
+            "seed": 407
+        },
+        {
+            "id": 165,
+            "name": "Wandavision.S01E09.Episodio.Nove.WEBRip.ITA.ENG.DDP5.1.x264-BlackBit.mkv",
+            "btih": "600bf2890b40c619b2dc1915fe84225e22792df1",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 17526,
+            "seed": 796
+        },
+        {
+            "id": 194,
+            "name": "[rutor.is]wandavision_s01_400p_newcomers",
+            "btih": "c28049ccc746c4c026bc71ae86f05d56902e07da",
             "resolution": "sd",
             "encoding": "none",
             "private": false,
-            "peer": 1368,
-            "seed": 231
+            "peer": 17450,
+            "seed": 3692
         },
         {
             "id": 87,
@@ -2259,8 +2093,188 @@
             "resolution": "1080",
             "encoding": "264",
             "private": false,
-            "peer": 1127,
-            "seed": 190
+            "peer": 17267,
+            "seed": 257
+        },
+        {
+            "id": 61,
+            "name": "WandaVision.S01.720p.10bit.DSNP.WEB-DL.x265.2CH",
+            "btih": "eb5eedaeddacef79b6807fcb0ec0041ea37ccb47",
+            "resolution": "720",
+            "encoding": "265",
+            "private": false,
+            "peer": 16498,
+            "seed": 2538
+        },
+        {
+            "id": 26,
+            "name": "WandaVision 1 - LostFilm.TV [MP4]",
+            "btih": "48a7b3df789a02712438bd07e0b9b54eec080828",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 15984,
+            "seed": 2986
+        },
+        {
+            "id": 44,
+            "name": "WandaVision.S01.1080p.DSNP.WEB-DL.DDP5.1.H.264-TOMMY [IPT]",
+            "btih": "39c490258e765fd72190ab1ba2264d629f1168ee",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 15406,
+            "seed": 6007
+        },
+        {
+            "id": 159,
+            "name": "Wandavision 2021 S01 1080P DSNP WEBRip x265 HEVC  DDP 5.1 ESBU-Top10Torrent.site",
+            "btih": "5b0d16e79506e31c2baf9d94cf3d602b82afdecf",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 15208,
+            "seed": 750
+        },
+        {
+            "id": 130,
+            "name": "WandaVision.S01E09.The.Series.Finale.2160p.WEB.x265.10bit-YSH.mkv",
+            "btih": "4a63b06be7c511de7029d1347d29e64ee8194d4d",
+            "resolution": "2160",
+            "encoding": "265",
+            "private": false,
+            "peer": 15070,
+            "seed": 1261
+        },
+        {
+            "id": 175,
+            "name": "[rutor.is]WandaVision.S01.2021(1)",
+            "btih": "e0aac37a4fbc208d8e169f2ac984f2440b90bdfe",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 14709,
+            "seed": 4057
+        },
+        {
+            "id": 184,
+            "name": "[rutor.is]WandaVision.S01.SD.LakeFIlms",
+            "btih": "ad4e4413f1937a3e2faac4ffb2bc0d1f98df148f",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 14210,
+            "seed": 1177
+        },
+        {
+            "id": 173,
+            "name": "[rutor.is]WandaVision.S01.1080p.LakeFIlms",
+            "btih": "bc1e886b8ea618a3cc0fd7f3b9b8ac434b06619a",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 13508,
+            "seed": 1447
+        },
+        {
+            "id": 28,
+            "name": "WandaVision S01 [1080p DSNP WEB-DL] [zgnrips]",
+            "btih": "21f89b0a7b781edb6b8e9c68e2820b43af0e375f",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 12913,
+            "seed": 469
+        },
+        {
+            "id": 93,
+            "name": "WandaVision.S01E09.1080p.HEVC.x265-MeGusta [IPT]",
+            "btih": "af08b359a1cb449cdd83f29935613ac11b7bb0cf",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": true,
+            "peer": 12294,
+            "seed": 5241
+        },
+        {
+            "id": 147,
+            "name": "WandaVision.S01E09[Dub][Filmesmp4.com].rar",
+            "btih": "e6c40e147d48661c65f783e0483f500bb0b1de74",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 9841,
+            "seed": 313
+        },
+        {
+            "id": 51,
+            "name": "WandaVision.S01.2021.WEBRip.2160p.HDR.[Ukr.Eng]",
+            "btih": "a4e000a4dd9c88b2903dc737508e9d049b8f6d58",
+            "resolution": "2160",
+            "encoding": "none",
+            "private": false,
+            "peer": 9378,
+            "seed": 788
+        },
+        {
+            "id": 129,
+            "name": "WandaVision.S01E09.The.Series.Finale.1080p.DSNP.WEBRip [SaltBae].mkv",
+            "btih": "12bd8dd70fcc00e24128cdb43ce244956dede728",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 9325,
+            "seed": 672
+        },
+        {
+            "id": 41,
+            "name": "WandaVision.2021.S01.1080p",
+            "btih": "9674984c192e770df51c20ca2913e0298d5a8115",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 8954,
+            "seed": 605
+        },
+        {
+            "id": 74,
+            "name": "WandaVision.S01.HDR.2160p.WEB-DL.DDP.5.1.x265-TOMMY [IPT]",
+            "btih": "7830287fbbccb55630db9b784ffd225ebdce60ea",
+            "resolution": "2160",
+            "encoding": "265",
+            "private": true,
+            "peer": 7881,
+            "seed": 2518
+        },
+        {
+            "id": 81,
+            "name": "WandaVision.S01.WEB-DL.NW.1080p[2021]",
+            "btih": "05c907cb532f269a051b947996be324a070cf620",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 7560,
+            "seed": 797
+        },
+        {
+            "id": 38,
+            "name": "WandaVision- House of M.mp4",
+            "btih": "3bd06f1e46d8581f9edd71420631964abce3adc1",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 4925,
+            "seed": 283
+        },
+        {
+            "id": 94,
+            "name": "WandaVision.S01E09.1080p.WEB.H264-DRYB [IPT]",
+            "btih": "21ad96eeda040b0257e541d3ed029af2d2e75ee4",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 3551,
+            "seed": 1719
         },
         {
             "id": 143,
@@ -2269,8 +2283,8 @@
             "resolution": "sd",
             "encoding": "xvid",
             "private": true,
-            "peer": 520,
-            "seed": 341
+            "peer": 730,
+            "seed": 505
         },
         {
             "id": 105,
@@ -2279,8 +2293,8 @@
             "resolution": "720",
             "encoding": "265",
             "private": true,
-            "peer": 387,
-            "seed": 246
+            "peer": 561,
+            "seed": 317
         },
         {
             "id": 62,
@@ -2289,8 +2303,8 @@
             "resolution": "720",
             "encoding": "264",
             "private": true,
-            "peer": 339,
-            "seed": 333
+            "peer": 423,
+            "seed": 417
         },
         {
             "id": 125,
@@ -2299,8 +2313,8 @@
             "resolution": "1080",
             "encoding": "264",
             "private": true,
-            "peer": 224,
-            "seed": 221
+            "peer": 267,
+            "seed": 264
         },
         {
             "id": 30,
@@ -2309,8 +2323,8 @@
             "resolution": "720",
             "encoding": "264",
             "private": true,
-            "peer": 218,
-            "seed": 217
+            "peer": 261,
+            "seed": 260
         },
         {
             "id": 133,
@@ -2319,8 +2333,8 @@
             "resolution": "1080",
             "encoding": "264",
             "private": true,
-            "peer": 203,
-            "seed": 196
+            "peer": 246,
+            "seed": 239
         },
         {
             "id": 57,
@@ -2339,8 +2353,8 @@
             "resolution": "1080",
             "encoding": "264",
             "private": true,
-            "peer": 5,
-            "seed": 4
+            "peer": 11,
+            "seed": 7
         }
     ]
 }
