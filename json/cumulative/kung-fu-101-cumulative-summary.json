@@ -2,25 +2,25 @@
     "data-version": "20201228",
     "collection-name": "Kung Fu 2021",
     "collection-id": "1",
-    "sample-duration": "2021-04-08-to-2021-04-28",
-    "sample-days": 21,
+    "sample-duration": "2021-04-08-to-2021-06-23",
+    "sample-days": 77,
     "sample-year-start": 2021,
     "sample-year-end": 2021,
     "sample-day-year-start": 98,
-    "sample-day-year-end": 118,
+    "sample-day-year-end": 174,
     "collection-all-btiha-total": {
-        "btiha-size": 65,
-        "upeers-total": 408345,
-        "useeds-total": 130772,
-        "anomaly-total": 30992,
-        "anomaly-percentage": "7.59"
+        "btiha-size": 66,
+        "upeers-total": 3536615,
+        "useeds-total": 233540,
+        "anomaly-total": 406361,
+        "anomaly-percentage": "11.49"
     },
     "collection-unique-btiha-total": {
-        "btiha-size": 57,
-        "upeers-total": 374502,
-        "useeds-total": 121004,
-        "anomaly-total": 21054,
-        "anomaly-percentage": "5.62"
+        "btiha-size": 58,
+        "upeers-total": 3180856,
+        "useeds-total": 212366,
+        "anomaly-total": 284262,
+        "anomaly-percentage": "8.94"
     },
     "collection-unique-btiha-week-00001": {
         "btiha-size": 54,
@@ -43,46 +43,102 @@
         "anomaly-total": 21054,
         "anomaly-percentage": "5.62"
     },
-    "transfer-units": "gigabyte",
-    "transfer-size": 519238.698379767,
+    "collection-unique-btiha-week-00004": {
+        "btiha-size": 58,
+        "upeers-total": 1047315,
+        "useeds-total": 140083,
+        "anomaly-total": 90472,
+        "anomaly-percentage": "8.64"
+    },
+    "collection-unique-btiha-week-00005": {
+        "btiha-size": 58,
+        "upeers-total": 1476005,
+        "useeds-total": 153433,
+        "anomaly-total": 134422,
+        "anomaly-percentage": "9.11"
+    },
+    "collection-unique-btiha-week-00006": {
+        "btiha-size": 58,
+        "upeers-total": 1901916,
+        "useeds-total": 165109,
+        "anomaly-total": 172798,
+        "anomaly-percentage": "9.09"
+    },
+    "collection-unique-btiha-week-00007": {
+        "btiha-size": 58,
+        "upeers-total": 2220014,
+        "useeds-total": 173626,
+        "anomaly-total": 205509,
+        "anomaly-percentage": "9.26"
+    },
+    "collection-unique-btiha-week-00008": {
+        "btiha-size": 58,
+        "upeers-total": 2404003,
+        "useeds-total": 183847,
+        "anomaly-total": 220814,
+        "anomaly-percentage": "9.19"
+    },
+    "collection-unique-btiha-week-00009": {
+        "btiha-size": 58,
+        "upeers-total": 2653872,
+        "useeds-total": 195719,
+        "anomaly-total": 238022,
+        "anomaly-percentage": "8.97"
+    },
+    "collection-unique-btiha-week-00010": {
+        "btiha-size": 58,
+        "upeers-total": 2888392,
+        "useeds-total": 204226,
+        "anomaly-total": 255096,
+        "anomaly-percentage": "8.83"
+    },
+    "collection-unique-btiha-week-00011": {
+        "btiha-size": 58,
+        "upeers-total": 3180856,
+        "useeds-total": 212366,
+        "anomaly-total": 284262,
+        "anomaly-percentage": "8.94"
+    },
+    "transfer-units": "terabyte",
+    "transfer-size": 4964.377450444572,
     "transfer-price-1-name": "CloudFront-1-year",
     "transfer-price-1-per-gigabyte-cost": 0.005,
-    "transfer-price-1-USD": 170596.19349189884,
+    "transfer-price-1-USD": 192821.88725222287,
     "resolution-partitions": [
         {
             "number": 1,
-            "name": "sd-264",
-            "total-percentage-upeers": "37.70",
-            "total-percentage-bytes": "7.66",
-            "upeers-total": 141185
+            "name": "720-all",
+            "total-percentage-upeers": "32.56",
+            "total-percentage-bytes": "46.93",
+            "upeers-total": 1035622
         },
         {
             "number": 2,
-            "name": "720-all",
-            "total-percentage-upeers": "28.84",
-            "total-percentage-bytes": "44.25",
-            "upeers-total": 108022
+            "name": "1080-all",
+            "total-percentage-upeers": "31.71",
+            "total-percentage-bytes": "44.75",
+            "upeers-total": 1008607
         },
         {
             "number": 3,
-            "name": "1080-all",
-            "total-percentage-upeers": "27.54",
-            "total-percentage-bytes": "46.14",
-            "upeers-total": 103131
+            "name": "sd-264",
+            "total-percentage-upeers": "20.50",
+            "total-percentage-bytes": "3.54",
+            "upeers-total": 651923
         },
         {
             "number": 4,
-            "name": "sd-xvid",
-            "total-percentage-upeers": "3.39",
-            "total-percentage-bytes": "0.96",
-            "upeers-total": 12703
+            "name": "sd-none",
+            "total-percentage-upeers": "10.04",
+            "total-percentage-bytes": "3.48",
+            "upeers-total": 319286
         },
         {
             "number": 5,
-            "name": "sd-none",
-            "total-percentage-upeers": "2.53",
-            "total-percentage-bytes": "1.00",
-            "upeers-total": 9461
+            "name": "sd-xvid",
+            "total-percentage-upeers": "5.20",
+            "total-percentage-bytes": "1.31",
+            "upeers-total": 165418
         },
         {
             "number": 6,
@@ -97,71 +153,71 @@
             "number": 1,
             "country-code": "USA",
             "country-name": "United States of America",
-            "total-percentage-upeers": "19.42",
-            "upeers-total": 72734
+            "total-percentage-upeers": "32.97",
+            "upeers-total": 1048756
         },
         {
             "number": 2,
-            "country-code": "GBR",
-            "country-name": "United Kingdom of Great Britain and Northern Ireland",
-            "total-percentage-upeers": "3.90",
-            "upeers-total": 14588
+            "country-code": "CHN",
+            "country-name": "China",
+            "total-percentage-upeers": "6.23",
+            "upeers-total": 198271
         },
         {
             "number": 3,
-            "country-code": "CHN",
-            "country-name": "China",
-            "total-percentage-upeers": "3.19",
-            "upeers-total": 11943
+            "country-code": "JPN",
+            "country-name": "Japan",
+            "total-percentage-upeers": "3.92",
+            "upeers-total": 124571
         },
         {
             "number": 4,
             "country-code": "RUS",
             "country-name": "Russian Federation",
-            "total-percentage-upeers": "2.53",
-            "upeers-total": 9486
+            "total-percentage-upeers": "3.85",
+            "upeers-total": 122408
         },
         {
             "number": 5,
-            "country-code": "BRA",
-            "country-name": "Brazil",
-            "total-percentage-upeers": "2.44",
-            "upeers-total": 9131
+            "country-code": "GBR",
+            "country-name": "United Kingdom of Great Britain and Northern Ireland",
+            "total-percentage-upeers": "3.29",
+            "upeers-total": 104695
         },
         {
             "number": 6,
             "country-code": "DEU",
             "country-name": "Germany",
-            "total-percentage-upeers": "2.37",
-            "upeers-total": 8889
+            "total-percentage-upeers": "3.08",
+            "upeers-total": 98088
         },
         {
             "number": 7,
-            "country-code": "ZAF",
-            "country-name": "South Africa",
-            "total-percentage-upeers": "2.34",
-            "upeers-total": 8779
+            "country-code": "CAN",
+            "country-name": "Canada",
+            "total-percentage-upeers": "2.39",
+            "upeers-total": 76148
         },
         {
             "number": 8,
-            "country-code": "CAN",
-            "country-name": "Canada",
-            "total-percentage-upeers": "2.30",
-            "upeers-total": 8605
+            "country-code": "KOR",
+            "country-name": "Korea, Republic of",
+            "total-percentage-upeers": "2.33",
+            "upeers-total": 74213
         },
         {
             "number": 9,
-            "country-code": "AUS",
-            "country-name": "Australia",
-            "total-percentage-upeers": "2.15",
-            "upeers-total": 8037
+            "country-code": "FRA",
+            "country-name": "France",
+            "total-percentage-upeers": "2.07",
+            "upeers-total": 65878
         },
         {
             "number": 10,
-            "country-code": "JPN",
-            "country-name": "Japan",
-            "total-percentage-upeers": "1.74",
-            "upeers-total": 6517
+            "country-code": "BRA",
+            "country-name": "Brazil",
+            "total-percentage-upeers": "2.03",
+            "upeers-total": 64620
         }
     ],
     "geo-country-region-city-top-30": [
@@ -169,563 +225,613 @@
             "number": 1,
             "country-code": "USA",
             "country-name": "United States of America",
-            "total-percentage-upeers": "5.03",
-            "upeers-total": 18826
+            "total-percentage-upeers": "10.27",
+            "upeers-total": 326713
         },
         {
             "number": 2,
-            "country-code": "DEU",
-            "country-name": "Germany, Leipzig, 13",
-            "total-percentage-upeers": "1.09",
-            "upeers-total": 4083
+            "country-code": "JPN",
+            "country-name": "Japan",
+            "total-percentage-upeers": "1.33",
+            "upeers-total": 42289
         },
         {
             "number": 3,
-            "country-code": "GBR",
-            "country-name": "United Kingdom of Great Britain and Northern Ireland",
-            "total-percentage-upeers": "1.04",
-            "upeers-total": 3910
+            "country-code": "DEU",
+            "country-name": "Germany",
+            "total-percentage-upeers": "1.17",
+            "upeers-total": 37311
         },
         {
             "number": 4,
-            "country-code": "ITA",
-            "country-name": "Italy",
-            "total-percentage-upeers": "0.72",
-            "upeers-total": 2692
+            "country-code": "CHN",
+            "country-name": "China, Beijing, 22",
+            "total-percentage-upeers": "1.15",
+            "upeers-total": 36657
         },
         {
             "number": 5,
-            "country-code": "NLD",
-            "country-name": "Netherlands",
-            "total-percentage-upeers": "0.69",
-            "upeers-total": 2578
+            "country-code": "KOR",
+            "country-name": "Korea, Republic of",
+            "total-percentage-upeers": "1.14",
+            "upeers-total": 36413
         },
         {
             "number": 6,
-            "country-code": "DEU",
-            "country-name": "Germany",
-            "total-percentage-upeers": "0.68",
-            "upeers-total": 2533
+            "country-code": "GBR",
+            "country-name": "United Kingdom of Great Britain and Northern Ireland",
+            "total-percentage-upeers": "1.13",
+            "upeers-total": 35910
         },
         {
             "number": 7,
-            "country-code": "KEN",
-            "country-name": "Kenya",
-            "total-percentage-upeers": "0.64",
-            "upeers-total": 2402
+            "country-code": "JPN",
+            "country-name": "Japan, Tokyo, 40",
+            "total-percentage-upeers": "1.04",
+            "upeers-total": 33031
         },
         {
             "number": 8,
             "country-code": "USA",
-            "country-name": "United States of America, Atlanta, GA",
-            "total-percentage-upeers": "0.58",
-            "upeers-total": 2190
+            "country-name": "United States of America, Fort Huachuca, AZ",
+            "total-percentage-upeers": "0.92",
+            "upeers-total": 29403
         },
         {
             "number": 9,
-            "country-code": "JPN",
-            "country-name": "Japan",
-            "total-percentage-upeers": "0.53",
-            "upeers-total": 1988
+            "country-code": "FRA",
+            "country-name": "France",
+            "total-percentage-upeers": "0.83",
+            "upeers-total": 26414
         },
         {
             "number": 10,
-            "country-code": "CHN",
-            "country-name": "China, Beijing, 22",
-            "total-percentage-upeers": "0.51",
-            "upeers-total": 1898
+            "country-code": "DEU",
+            "country-name": "Germany, Leipzig, 13",
+            "total-percentage-upeers": "0.79",
+            "upeers-total": 24983
         },
         {
             "number": 11,
-            "country-code": "ROU",
-            "country-name": "Romania",
-            "total-percentage-upeers": "0.50",
-            "upeers-total": 1888
+            "country-code": "RUS",
+            "country-name": "Russian Federation, Moscow, 48",
+            "total-percentage-upeers": "0.67",
+            "upeers-total": 21253
         },
         {
             "number": 12,
-            "country-code": "AUS",
-            "country-name": "Australia, 02",
-            "total-percentage-upeers": "0.50",
-            "upeers-total": 1871
+            "country-code": "ITA",
+            "country-name": "Italy",
+            "total-percentage-upeers": "0.64",
+            "upeers-total": 20337
         },
         {
             "number": 13,
-            "country-code": "KOR",
-            "country-name": "Korea, Republic of",
-            "total-percentage-upeers": "0.49",
-            "upeers-total": 1846
+            "country-code": "CHN",
+            "country-name": "China, Guangzhou, 30",
+            "total-percentage-upeers": "0.64",
+            "upeers-total": 20241
         },
         {
             "number": 14,
-            "country-code": "FRA",
-            "country-name": "France",
-            "total-percentage-upeers": "0.47",
-            "upeers-total": 1766
+            "country-code": "USA",
+            "country-name": "United States of America, Ashburn, VA",
+            "total-percentage-upeers": "0.60",
+            "upeers-total": 19149
         },
         {
             "number": 15,
-            "country-code": "RUS",
-            "country-name": "Russian Federation",
-            "total-percentage-upeers": "0.46",
-            "upeers-total": 1731
+            "country-code": "USA",
+            "country-name": "United States of America, Palo Alto, CA",
+            "total-percentage-upeers": "0.59",
+            "upeers-total": 18904
         },
         {
             "number": 16,
-            "country-code": "JPN",
-            "country-name": "Japan, Tokyo, 40",
-            "total-percentage-upeers": "0.46",
-            "upeers-total": 1705
+            "country-code": "NLD",
+            "country-name": "Netherlands",
+            "total-percentage-upeers": "0.59",
+            "upeers-total": 18778
         },
         {
             "number": 17,
-            "country-code": "RUS",
-            "country-name": "Russian Federation, Moscow, 48",
-            "total-percentage-upeers": "0.40",
-            "upeers-total": 1503
+            "country-code": "KOR",
+            "country-name": "Korea, Republic of, Seoul, 11",
+            "total-percentage-upeers": "0.56",
+            "upeers-total": 17741
         },
         {
             "number": 18,
-            "country-code": "ZAF",
-            "country-name": "South Africa",
-            "total-percentage-upeers": "0.37",
-            "upeers-total": 1374
+            "country-code": "USA",
+            "country-name": "United States of America, Cambridge, MA",
+            "total-percentage-upeers": "0.55",
+            "upeers-total": 17361
         },
         {
             "number": 19,
-            "country-code": "ZAF",
-            "country-name": "South Africa, Johannesburg, 06",
-            "total-percentage-upeers": "0.34",
-            "upeers-total": 1292
+            "country-code": "USA",
+            "country-name": "United States of America, Dearborn, MI",
+            "total-percentage-upeers": "0.51",
+            "upeers-total": 16162
         },
         {
             "number": 20,
             "country-code": "USA",
-            "country-name": "United States of America, Fort Huachuca, AZ",
-            "total-percentage-upeers": "0.34",
-            "upeers-total": 1261
+            "country-name": "United States of America, Houston, TX",
+            "total-percentage-upeers": "0.50",
+            "upeers-total": 15962
         },
         {
             "number": 21,
-            "country-code": "KOR",
-            "country-name": "Korea, Republic of, Seoul, 11",
-            "total-percentage-upeers": "0.33",
-            "upeers-total": 1234
+            "country-code": "USA",
+            "country-name": "United States of America, New York, NY",
+            "total-percentage-upeers": "0.49",
+            "upeers-total": 15573
         },
         {
             "number": 22,
-            "country-code": "IND",
-            "country-name": "India",
-            "total-percentage-upeers": "0.32",
-            "upeers-total": 1207
+            "country-code": "BRA",
+            "country-name": "Brazil",
+            "total-percentage-upeers": "0.49",
+            "upeers-total": 15458
         },
         {
             "number": 23,
-            "country-code": "USA",
-            "country-name": "United States of America, Ashburn, VA",
-            "total-percentage-upeers": "0.32",
-            "upeers-total": 1189
+            "country-code": "TWN",
+            "country-name": "Taiwan, Province of China, Taipei, 03",
+            "total-percentage-upeers": "0.46",
+            "upeers-total": 14735
         },
         {
             "number": 24,
-            "country-code": "BRA",
-            "country-name": "Brazil, 02",
-            "total-percentage-upeers": "0.31",
-            "upeers-total": 1179
+            "country-code": "CHN",
+            "country-name": "China",
+            "total-percentage-upeers": "0.42",
+            "upeers-total": 13277
         },
         {
             "number": 25,
-            "country-code": "TWN",
-            "country-name": "Taiwan, Province of China, Taipei, 03",
-            "total-percentage-upeers": "0.30",
-            "upeers-total": 1142
+            "country-code": "RUS",
+            "country-name": "Russian Federation, 53",
+            "total-percentage-upeers": "0.40",
+            "upeers-total": 12824
         },
         {
             "number": 26,
-            "country-code": "CHN",
-            "country-name": "China, Guangzhou, 30",
-            "total-percentage-upeers": "0.30",
-            "upeers-total": 1141
+            "country-code": "USA",
+            "country-name": "United States of America, Newark, NJ",
+            "total-percentage-upeers": "0.37",
+            "upeers-total": 11919
         },
         {
             "number": 27,
-            "country-code": "BRA",
-            "country-name": "Brazil, Sao Paulo, 27",
-            "total-percentage-upeers": "0.30",
-            "upeers-total": 1141
+            "country-code": "AUS",
+            "country-name": "Australia, 02",
+            "total-percentage-upeers": "0.35",
+            "upeers-total": 11045
         },
         {
             "number": 28,
-            "country-code": "SGP",
-            "country-name": "Singapore, Singapore, 00",
-            "total-percentage-upeers": "0.30",
-            "upeers-total": 1138
+            "country-code": "USA",
+            "country-name": "United States of America, Seattle, WA",
+            "total-percentage-upeers": "0.35",
+            "upeers-total": 11043
         },
         {
             "number": 29,
             "country-code": "USA",
-            "country-name": "United States of America, New York, NY",
-            "total-percentage-upeers": "0.30",
-            "upeers-total": 1119
+            "country-name": "United States of America, Montgomery, AL",
+            "total-percentage-upeers": "0.34",
+            "upeers-total": 10847
         },
         {
             "number": 30,
-            "country-code": "IND",
-            "country-name": "India, Chennai, 25",
-            "total-percentage-upeers": "0.30",
-            "upeers-total": 1111
+            "country-code": "USA",
+            "country-name": "United States of America, San Diego, CA",
+            "total-percentage-upeers": "0.33",
+            "upeers-total": 10497
         }
     ],
     "collection-unique-btiha-detail": [
         {
-            "id": 41,
+            "id": 42,
             "name": "Kung.Fu.2021.S01E01.WEB.x264-PHOENiX[TGx]",
             "btih": "463a7359e2120a3a57ea6f4c15a05cbde68b4eb2",
             "resolution": "sd",
             "encoding": "264",
             "private": false,
-            "peer": 85582,
-            "seed": 41315
+            "peer": 156659,
+            "seed": 65763
         },
         {
-            "id": 27,
-            "name": "Kung.Fu.2021.S01E01.720p.WEB.x265-MiNX[TGx]",
-            "btih": "e62659e1494cdc6313bd15d93fe2d298ff5abe43",
-            "resolution": "720",
-            "encoding": "265",
-            "private": false,
-            "peer": 29537,
-            "seed": 16078
-        },
-        {
-            "id": 261,
-            "name": "multi-btih-3-2x-Kung.Fu.2021.S01E01.1080p.WEB.H264-CAKES[rarbg]",
-            "btih": "cbacaa814240089992e575ba1ae7732800eb17c3",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 26222,
-            "seed": 3188
-        },
-        {
-            "id": 262,
+            "id": 775,
             "name": "multi-btih-4-2x-Kung.Fu.2021.S01E01.720p.WEB.H264-CAKES[rarbg]",
             "btih": "2f69e7ce3b01d83dd4fec0959c562a74128b6447",
             "resolution": "720",
             "encoding": "264",
             "private": false,
-            "peer": 20351,
-            "seed": 7060
+            "peer": 106770,
+            "seed": 9172
         },
         {
-            "id": 35,
-            "name": "Kung.Fu.2021.S01E01.Pilot.1080p.AMZN.WEBRip.DDP5.1.x264-NTb[rartv]-[rarbg.to]",
-            "btih": "5e4bf2a6f5d7788bbcd0c1d80e4dbe33c959cd01",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 16913,
-            "seed": 5075
-        },
-        {
-            "id": 16,
-            "name": "Kung.Fu.2021.S01E01.480p.x264-mSD[eztv.re].mkv",
-            "btih": "08009aa236a903f1ea4aed858f5a9218fcbca20e",
-            "resolution": "sd",
-            "encoding": "264",
-            "private": false,
-            "peer": 14486,
-            "seed": 1823
-        },
-        {
-            "id": 6,
-            "name": "Kung.Fu.2021.S01E01.1080p.HDTV.x264-YANKEES[eztv.re].mkv",
-            "btih": "90b73688a7ad0410c56b3827a1bcf5e9fa98cf39",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 13174,
-            "seed": 1885
-        },
-        {
-            "id": 265,
-            "name": "multi-btih-7-2x-Kung.Fu.S01E01.WEBRip.x264-ION10-[rarbg.to]",
-            "btih": "795982b66d786985c70f877155035c9f67aed446",
-            "resolution": "sd",
-            "encoding": "264",
-            "private": false,
-            "peer": 12871,
-            "seed": 5031
-        },
-        {
-            "id": 260,
+            "id": 773,
             "name": "multi-btih-2-2x-Kung.Fu.2021.S01E01.1080p.HDTV.x264-YANKEES[rarbg]",
             "btih": "dae743196ce0576ec4faaa1b20f28b10fc514ac5",
             "resolution": "1080",
             "encoding": "264",
             "private": false,
-            "peer": 12100,
-            "seed": 4577
+            "peer": 100093,
+            "seed": 7549
         },
         {
-            "id": 5,
-            "name": "Kung.Fu.2021.S01E01.1080p.HDTV.x264-YANKEES[TGx]",
-            "btih": "a764d58473b786339ee239f89917a2d6c561c15a",
+            "id": 774,
+            "name": "multi-btih-3-2x-Kung.Fu.2021.S01E01.1080p.WEB.H264-CAKES[rarbg]",
+            "btih": "cbacaa814240089992e575ba1ae7732800eb17c3",
             "resolution": "1080",
             "encoding": "264",
             "private": false,
-            "peer": 11782,
-            "seed": 117
+            "peer": 97892,
+            "seed": 4417
         },
         {
-            "id": 263,
-            "name": "multi-btih-5-2x-Kung.Fu.2021.S01E01.HDTV.x264-YANKEES[rarbg]",
-            "btih": "741032a4c1308e7efeb6d1e384069fb12aaf8161",
-            "resolution": "sd",
-            "encoding": "264",
-            "private": false,
-            "peer": 10146,
-            "seed": 3532
-        },
-        {
-            "id": 21,
-            "name": "Kung.Fu.2021.S01E01.720p.HEVC.x265-MeGusta[eztv.re].mkv",
-            "btih": "3e758cad8179eb940278b7d618c36c1e33fd9887",
+            "id": 28,
+            "name": "Kung.Fu.2021.S01E01.720p.WEB.x265-MiNX[TGx]",
+            "btih": "e62659e1494cdc6313bd15d93fe2d298ff5abe43",
             "resolution": "720",
             "encoding": "265",
             "private": false,
-            "peer": 9714,
-            "seed": 2109
+            "peer": 93003,
+            "seed": 19804
         },
         {
-            "id": 264,
-            "name": "multi-btih-6-2x-Kung.Fu.2021.S01E01.Pilot.720p.AMZN.WEBRip.DDP5.1.x264-NTb[rarbg]",
-            "btih": "50439e63bc67d8680dc38e94f17ba529381d4e63",
-            "resolution": "720",
+            "id": 778,
+            "name": "multi-btih-7-2x-Kung.Fu.S01E01.WEBRip.x264-ION10-[rarbg.to]",
+            "btih": "795982b66d786985c70f877155035c9f67aed446",
+            "resolution": "sd",
             "encoding": "264",
             "private": false,
-            "peer": 9488,
-            "seed": 3840
+            "peer": 88616,
+            "seed": 10392
         },
         {
-            "id": 12,
-            "name": "Kung.Fu.2021.S01E01.1080p.WEB.H264-CAKES[TGx]",
-            "btih": "c3433c1594f90b68fd9a87f42f82787fca92e0c4",
+            "id": 7,
+            "name": "Kung.Fu.2021.S01E01.1080p.HDTV.x264-YANKEES[eztv.re].mkv",
+            "btih": "90b73688a7ad0410c56b3827a1bcf5e9fa98cf39",
             "resolution": "1080",
             "encoding": "264",
             "private": false,
-            "peer": 6855,
-            "seed": 3860
+            "peer": 86438,
+            "seed": 4669
         },
         {
-            "id": 34,
-            "name": "Kung.Fu.2021.S01E01.Pilot.1080p.AMZN.WEBRip.DDP5.1.x264-NTb[TGx]",
-            "btih": "a65ea915f254a57a782201ee9d08678de01b4adf",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 6606,
-            "seed": 2352
-        },
-        {
-            "id": 24,
+            "id": 25,
             "name": "Kung.Fu.2021.S01E01.720p.WEB.H264-CAKES[TGx]",
             "btih": "46918f42a818dbf0b9ad475463081831e23fc8f1",
             "resolution": "720",
             "encoding": "264",
             "private": false,
-            "peer": 6534,
-            "seed": 3350
-        },
-        {
-            "id": 45,
-            "name": "Kung.Fu.2021.S01E03.HDTV.x264-YANKEES[TGx]",
-            "btih": "80ced5aeb991867a1544014cbfeb9c21f28ba08a",
-            "resolution": "sd",
-            "encoding": "264",
-            "private": false,
-            "peer": 6378,
-            "seed": 130
-        },
-        {
-            "id": 44,
-            "name": "Kung.Fu.2021.S01E01.XviD-AFG[eztv.re].avi",
-            "btih": "5b19452bca1a5fccd925979e75c12199c3980dbf",
-            "resolution": "sd",
-            "encoding": "xvid",
-            "private": false,
-            "peer": 5554,
-            "seed": 2039
-        },
-        {
-            "id": 63,
-            "name": "[rutor.is]Kung.Fu.S01.AMZN.WEBRip.720p.-ad3wal3",
-            "btih": "1e2c16103687cdfbbcc0b559404ee2710679170b",
-            "resolution": "720",
-            "encoding": "none",
-            "private": false,
-            "peer": 5482,
-            "seed": 511
-        },
-        {
-            "id": 259,
-            "name": "multi-btih-1-2x-Kung.Fu.2021.S01.720p.Kerob",
-            "btih": "6dfc36869d613602f8e0efc047a70e32f4faa25e",
-            "resolution": "720",
-            "encoding": "none",
-            "private": false,
-            "peer": 5195,
-            "seed": 513
-        },
-        {
-            "id": 64,
-            "name": "www.Torrenting.com   -    Kung Fu 2021 S01E01 480p x264-mSD",
-            "btih": "e9263ea6c05b9c8d7a65c5ee1e30ca63dad8ac0a",
-            "resolution": "sd",
-            "encoding": "264",
-            "private": false,
-            "peer": 4632,
-            "seed": 108
-        },
-        {
-            "id": 31,
-            "name": "Kung.Fu.2021.S01E01.HDTV.x264-YANKEES[TGx]",
-            "btih": "5265fa7db88d39e7bc52c3cf0dea737e64000967",
-            "resolution": "sd",
-            "encoding": "264",
-            "private": false,
-            "peer": 4204,
-            "seed": 859
+            "peer": 81656,
+            "seed": 4180
         },
         {
             "id": 36,
-            "name": "Kung.Fu.2021.S01E01.Pilot.720p.AMZN.WEBRip.DDP5.1.x264-NTb[TGx]",
-            "btih": "49fcda5321a7f003221fd16336d154ac526622dd",
-            "resolution": "720",
+            "name": "Kung.Fu.2021.S01E01.Pilot.1080p.AMZN.WEBRip.DDP5.1.x264-NTb[rartv]-[rarbg.to]",
+            "btih": "5e4bf2a6f5d7788bbcd0c1d80e4dbe33c959cd01",
+            "resolution": "1080",
             "encoding": "264",
             "private": false,
-            "peer": 3567,
-            "seed": 1048
+            "peer": 81142,
+            "seed": 8319
         },
         {
-            "id": 23,
-            "name": "Kung.Fu.2021.S01E01.720p.WEB.H264-CAKES",
-            "btih": "7c4a5d26de1e5245cf2790f7a621897ae008be41",
-            "resolution": "720",
-            "encoding": "264",
-            "private": false,
-            "peer": 3297,
-            "seed": 921
-        },
-        {
-            "id": 43,
-            "name": "Kung.Fu.2021.S01E01.XviD-AFG[TGx]",
-            "btih": "a965cdebb1123e47ddf7ba49effa4c9e942c7324",
-            "resolution": "sd",
-            "encoding": "xvid",
-            "private": false,
-            "peer": 3284,
-            "seed": 630
-        },
-        {
-            "id": 19,
+            "id": 20,
             "name": "Kung.Fu.2021.S01E01.720p.HDTV.x264-YANKEES[rartv]-[rarbg.to]",
             "btih": "63b110e518333ad2e7fb582797db7fabdd1ab7e8",
             "resolution": "720",
             "encoding": "264",
             "private": false,
-            "peer": 3268,
-            "seed": 1232
+            "peer": 81062,
+            "seed": 2059
         },
         {
-            "id": 65,
-            "name": "www.Torrenting.com   -    Kung Fu 2021 S01E01 XviD-AFG",
-            "btih": "d620a8621ab27c6074de13d422601908e37aa947",
-            "resolution": "sd",
-            "encoding": "xvid",
-            "private": false,
-            "peer": 3204,
-            "seed": 192
-        },
-        {
-            "id": 18,
-            "name": "Kung.Fu.2021.S01E01.720p.HDTV.x264-YANKEES[TGx]",
-            "btih": "d634f6645f327786c14c10f0ce47540a65b4f33e",
+            "id": 772,
+            "name": "multi-btih-1-2x-Kung.Fu.2021.S01.720p.Kerob",
+            "btih": "6dfc36869d613602f8e0efc047a70e32f4faa25e",
             "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 80706,
+            "seed": 1600
+        },
+        {
+            "id": 776,
+            "name": "multi-btih-5-2x-Kung.Fu.2021.S01E01.HDTV.x264-YANKEES[rarbg]",
+            "btih": "741032a4c1308e7efeb6d1e384069fb12aaf8161",
+            "resolution": "sd",
             "encoding": "264",
             "private": false,
-            "peer": 3062,
-            "seed": 442
+            "peer": 79002,
+            "seed": 6018
         },
         {
-            "id": 53,
-            "name": "Kung.Fu.S01E01.720p.x265-ZMNT",
-            "btih": "ca41dc972ce336f4c88dcca2a6b4a853c8f6b34f",
+            "id": 22,
+            "name": "Kung.Fu.2021.S01E01.720p.HEVC.x265-MeGusta[eztv.re].mkv",
+            "btih": "3e758cad8179eb940278b7d618c36c1e33fd9887",
             "resolution": "720",
             "encoding": "265",
             "private": false,
-            "peer": 2818,
-            "seed": 706
+            "peer": 75497,
+            "seed": 5388
         },
         {
-            "id": 51,
+            "id": 24,
+            "name": "Kung.Fu.2021.S01E01.720p.WEB.H264-CAKES",
+            "btih": "7c4a5d26de1e5245cf2790f7a621897ae008be41",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 73666,
+            "seed": 5001
+        },
+        {
+            "id": 65,
+            "name": "www.Torrenting.com   -    Kung Fu 2021 S01E01 480p x264-mSD",
+            "btih": "e9263ea6c05b9c8d7a65c5ee1e30ca63dad8ac0a",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 72571,
+            "seed": 329
+        },
+        {
+            "id": 777,
+            "name": "multi-btih-6-2x-Kung.Fu.2021.S01E01.Pilot.720p.AMZN.WEBRip.DDP5.1.x264-NTb[rarbg]",
+            "btih": "50439e63bc67d8680dc38e94f17ba529381d4e63",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 72089,
+            "seed": 7204
+        },
+        {
+            "id": 30,
+            "name": "Kung.Fu.2021.S01E01.HDTV.Subtitulado.Esp.SC.mp4",
+            "btih": "95dd5abc6d641faebf2e211a3c4aa3c82b4ff7fd",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 71035,
+            "seed": 1045
+        },
+        {
+            "id": 44,
+            "name": "Kung.Fu.2021.S01E01.XviD-AFG[TGx]",
+            "btih": "a965cdebb1123e47ddf7ba49effa4c9e942c7324",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": false,
+            "peer": 70139,
+            "seed": 1310
+        },
+        {
+            "id": 6,
+            "name": "Kung.Fu.2021.S01E01.1080p.HDTV.x264-YANKEES[TGx]",
+            "btih": "a764d58473b786339ee239f89917a2d6c561c15a",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 68562,
+            "seed": 1934
+        },
+        {
+            "id": 60,
+            "name": "[HR] Kung Fu S01E01 [PV 1080p HEVC E-OPUS 5.1]~HR-DR",
+            "btih": "6676efcddc1a72ab31d878dccb0469afc1e7d6d6",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 68407,
+            "seed": 464
+        },
+        {
+            "id": 17,
+            "name": "Kung.Fu.2021.S01E01.480p.x264-mSD[eztv.re].mkv",
+            "btih": "08009aa236a903f1ea4aed858f5a9218fcbca20e",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 67980,
+            "seed": 4751
+        },
+        {
+            "id": 59,
+            "name": "Kung.Fu.s01.HD1080p.WEBRip.Rus.BaibaKo.tv",
+            "btih": "7cf069fff20e92d30f8dd4cbbf4afdce6aa94529",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 67970,
+            "seed": 217
+        },
+        {
+            "id": 52,
             "name": "Kung.Fu.S01E01.480p.x264-ZMNT",
             "btih": "058a451cb094f4c0dae57ea4c0ff68f64a650158",
             "resolution": "sd",
             "encoding": "264",
             "private": false,
-            "peer": 2545,
-            "seed": 400
+            "peer": 66486,
+            "seed": 1577
         },
         {
-            "id": 39,
-            "name": "Kung.Fu.2021.S01E01.Pilot.720p.WEBRip.2CH.x265.HEVC-PSA.mkv",
-            "btih": "e037a1d466c2154eee87f93bd729ce093e9f061d",
-            "resolution": "720",
-            "encoding": "265",
-            "private": false,
-            "peer": 2438,
-            "seed": 332
-        },
-        {
-            "id": 258,
+            "id": 771,
             "name": "multi-btih-0-2x-Kung.Fu.2021.S01.1080p.Kerob",
             "btih": "87b9a9ef34d56b0cae0634cc13a79fa05441b93d",
             "resolution": "1080",
             "encoding": "none",
             "private": false,
-            "peer": 2169,
-            "seed": 654
+            "peer": 64844,
+            "seed": 1709
         },
         {
-            "id": 48,
+            "id": 32,
+            "name": "Kung.Fu.2021.S01E01.HDTV.x264-YANKEES[TGx]",
+            "btih": "5265fa7db88d39e7bc52c3cf0dea737e64000967",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 60746,
+            "seed": 1473
+        },
+        {
+            "id": 56,
+            "name": "Kung.Fu.S01E01.WEBRip.1080p.ukr.5.1.HDREZKA.STUDIO.mkv",
+            "btih": "6f8cdfe02002ebdb7d345237bcbf998816522af9",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 60700,
+            "seed": 159
+        },
+        {
+            "id": 49,
             "name": "Kung.Fu.S01.400p.Ultradox",
             "btih": "502ab7f0555836cf36d499eab2925142f53d504b",
             "resolution": "sd",
             "encoding": "none",
             "private": false,
-            "peer": 2157,
-            "seed": 99
+            "peer": 60514,
+            "seed": 241
         },
         {
-            "id": 52,
-            "name": "Kung.Fu.S01E01.720p.ColdFilm.mkv",
-            "btih": "443ae045858d148c1356fb7f1fff8c24ee63c70e",
+            "id": 54,
+            "name": "Kung.Fu.S01E01.720p.x265-ZMNT",
+            "btih": "ca41dc972ce336f4c88dcca2a6b4a853c8f6b34f",
             "resolution": "720",
+            "encoding": "265",
+            "private": false,
+            "peer": 59349,
+            "seed": 2244
+        },
+        {
+            "id": 46,
+            "name": "Kung.Fu.2021.S01E03.HDTV.x264-YANKEES[TGx]",
+            "btih": "80ced5aeb991867a1544014cbfeb9c21f28ba08a",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 59227,
+            "seed": 1969
+        },
+        {
+            "id": 35,
+            "name": "Kung.Fu.2021.S01E01.Pilot.1080p.AMZN.WEBRip.DDP5.1.x264-NTb[TGx]",
+            "btih": "a65ea915f254a57a782201ee9d08678de01b4adf",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 57758,
+            "seed": 3904
+        },
+        {
+            "id": 19,
+            "name": "Kung.Fu.2021.S01E01.720p.HDTV.x264-YANKEES[TGx]",
+            "btih": "d634f6645f327786c14c10f0ce47540a65b4f33e",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 57062,
+            "seed": 688
+        },
+        {
+            "id": 40,
+            "name": "Kung.Fu.2021.S01E01.Pilot.720p.WEBRip.2CH.x265.HEVC-PSA.mkv",
+            "btih": "e037a1d466c2154eee87f93bd729ce093e9f061d",
+            "resolution": "720",
+            "encoding": "265",
+            "private": false,
+            "peer": 55712,
+            "seed": 971
+        },
+        {
+            "id": 55,
+            "name": "Kung.Fu.S01E01.WEBRip.1080p.rus.5.1.HDREZKA.STUDIO.mkv",
+            "btih": "ab398ad15e644478a17f6081eefe5ded402a148b",
+            "resolution": "1080",
             "encoding": "none",
             "private": false,
-            "peer": 2126,
-            "seed": 184
+            "peer": 55375,
+            "seed": 213
         },
         {
-            "id": 50,
+            "id": 66,
+            "name": "www.Torrenting.com   -    Kung Fu 2021 S01E01 XviD-AFG",
+            "btih": "d620a8621ab27c6074de13d422601908e37aa947",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": false,
+            "peer": 55234,
+            "seed": 402
+        },
+        {
+            "id": 12,
+            "name": "Kung.Fu.2021.S01E01.1080p.WEB.H264-CAKES",
+            "btih": "6c62cc180186632737ef1a85a075d4b57b75fed0",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 54944,
+            "seed": 460
+        },
+        {
+            "id": 51,
             "name": "Kung.Fu.S01E01.400p.ColdFilm.avi",
             "btih": "79299d3e13c5ef211837bef59dc2826fd99d21bf",
             "resolution": "sd",
             "encoding": "none",
             "private": false,
-            "peer": 2014,
-            "seed": 426
+            "peer": 54150,
+            "seed": 581
+        },
+        {
+            "id": 64,
+            "name": "[rutor.is]Kung.Fu.S01.AMZN.WEBRip.720p.-ad3wal3",
+            "btih": "1e2c16103687cdfbbcc0b559404ee2710679170b",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 52514,
+            "seed": 2038
+        },
+        {
+            "id": 13,
+            "name": "Kung.Fu.2021.S01E01.1080p.WEB.H264-CAKES[TGx]",
+            "btih": "c3433c1594f90b68fd9a87f42f82787fca92e0c4",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 52227,
+            "seed": 4792
+        },
+        {
+            "id": 53,
+            "name": "Kung.Fu.S01E01.720p.ColdFilm.mkv",
+            "btih": "443ae045858d148c1356fb7f1fff8c24ee63c70e",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 52121,
+            "seed": 365
+        },
+        {
+            "id": 47,
+            "name": "Kung.Fu.S01.1080p.Ultradox",
+            "btih": "1b592d023681950553bfcbb9b3c22a0bacd20efa",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 47758,
+            "seed": 104
         },
         {
             "id": 1,
@@ -734,218 +840,178 @@
             "resolution": "sd",
             "encoding": "none",
             "private": false,
-            "peer": 1735,
-            "seed": 514
+            "peer": 47578,
+            "seed": 817
         },
         {
-            "id": 61,
-            "name": "[rutor.is]Kung.Fu.2021.S01.400p.Kerob",
-            "btih": "141e095862e3417ee254badb83a83f0ba95fc941",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 1478,
-            "seed": 636
-        },
-        {
-            "id": 46,
-            "name": "Kung.Fu.S01.1080p.Ultradox",
-            "btih": "1b592d023681950553bfcbb9b3c22a0bacd20efa",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 1295,
-            "seed": 31
-        },
-        {
-            "id": 29,
-            "name": "Kung.Fu.2021.S01E01.HDTV.Subtitulado.Esp.SC.mp4",
-            "btih": "95dd5abc6d641faebf2e211a3c4aa3c82b4ff7fd",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 1244,
-            "seed": 493
-        },
-        {
-            "id": 49,
-            "name": "Kung.Fu.S01E01.1080p.ColdFilm.mkv",
-            "btih": "4c703429b7790a4374cd8595a8a6ae8f2cf5203a",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 1128,
-            "seed": 197
-        },
-        {
-            "id": 55,
-            "name": "Kung.Fu.S01E01.WEBRip.1080p.ukr.5.1.HDREZKA.STUDIO.mkv",
-            "btih": "6f8cdfe02002ebdb7d345237bcbf998816522af9",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 1053,
-            "seed": 42
-        },
-        {
-            "id": 11,
-            "name": "Kung.Fu.2021.S01E01.1080p.WEB.H264-CAKES",
-            "btih": "6c62cc180186632737ef1a85a075d4b57b75fed0",
-            "resolution": "1080",
+            "id": 37,
+            "name": "Kung.Fu.2021.S01E01.Pilot.720p.AMZN.WEBRip.DDP5.1.x264-NTb[TGx]",
+            "btih": "49fcda5321a7f003221fd16336d154ac526622dd",
+            "resolution": "720",
             "encoding": "264",
             "private": false,
-            "peer": 948,
-            "seed": 217
+            "peer": 46129,
+            "seed": 1533
         },
         {
-            "id": 20,
-            "name": "Kung.Fu.2021.S01E01.720p.HEVC.x265-MeGusta [IPT]",
-            "btih": "ee20a272dd9418d547275a7ec16960a8c987a6f8",
+            "id": 2,
+            "name": "26a7-Kung.Fu.2021.S01E01.720p.WEB.H264-CAKES",
+            "btih": "bae3122c860ff1711f901275718458f95ee36851",
             "resolution": "720",
-            "encoding": "265",
-            "private": true,
-            "peer": 698,
-            "seed": 401
+            "encoding": "264",
+            "private": false,
+            "peer": 46124,
+            "seed": 3633
         },
         {
-            "id": 47,
+            "id": 48,
             "name": "Kung.Fu.S01.400p.ColdFilm",
             "btih": "2ada3afd5325df4edb0680ed6fa1f15f74ca577a",
             "resolution": "sd",
             "encoding": "none",
             "private": false,
-            "peer": 683,
-            "seed": 62
+            "peer": 45545,
+            "seed": 197
         },
         {
-            "id": 42,
+            "id": 50,
+            "name": "Kung.Fu.S01E01.1080p.ColdFilm.mkv",
+            "btih": "4c703429b7790a4374cd8595a8a6ae8f2cf5203a",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 42130,
+            "seed": 537
+        },
+        {
+            "id": 62,
+            "name": "[rutor.is]Kung.Fu.2021.S01.400p.Kerob",
+            "btih": "141e095862e3417ee254badb83a83f0ba95fc941",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 40207,
+            "seed": 1644
+        },
+        {
+            "id": 45,
+            "name": "Kung.Fu.2021.S01E01.XviD-AFG[eztv.re].avi",
+            "btih": "5b19452bca1a5fccd925979e75c12199c3980dbf",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": false,
+            "peer": 38464,
+            "seed": 4771
+        },
+        {
+            "id": 43,
             "name": "Kung.Fu.2021.S01E01.XviD-AFG [IPT]",
             "btih": "1755dd8b02747be406155c632b94268ba4660534",
             "resolution": "sd",
             "encoding": "xvid",
             "private": true,
-            "peer": 661,
-            "seed": 338
+            "peer": 1581,
+            "seed": 643
         },
         {
-            "id": 58,
-            "name": "Kung.Fu.s01.HD1080p.WEBRip.Rus.BaibaKo.tv",
-            "btih": "7cf069fff20e92d30f8dd4cbbf4afdce6aa94529",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 658,
-            "seed": 75
+            "id": 21,
+            "name": "Kung.Fu.2021.S01E01.720p.HEVC.x265-MeGusta [IPT]",
+            "btih": "ee20a272dd9418d547275a7ec16960a8c987a6f8",
+            "resolution": "720",
+            "encoding": "265",
+            "private": true,
+            "peer": 1376,
+            "seed": 791
         },
         {
-            "id": 59,
-            "name": "[HR] Kung Fu S01E01 [PV 1080p HEVC E-OPUS 5.1]~HR-DR",
-            "btih": "6676efcddc1a72ab31d878dccb0469afc1e7d6d6",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 594,
-            "seed": 44
-        },
-        {
-            "id": 9,
+            "id": 10,
             "name": "Kung.Fu.2021.S01E01.1080p.HEVC.x265-MeGusta [IPT]",
             "btih": "6f02ff6bddc29c335bad06adc5b5e0985f8d6e10",
             "resolution": "1080",
             "encoding": "265",
             "private": true,
-            "peer": 530,
-            "seed": 279
+            "peer": 1218,
+            "seed": 581
         },
         {
-            "id": 10,
+            "id": 11,
             "name": "Kung.Fu.2021.S01E01.1080p.WEB.H264-CAKES [IPT]",
             "btih": "6ebfee45cbba2a27439702380aa7738844a01d9b",
             "resolution": "1080",
             "encoding": "264",
             "private": true,
-            "peer": 491,
-            "seed": 354
+            "peer": 887,
+            "seed": 613
         },
         {
-            "id": 54,
-            "name": "Kung.Fu.S01E01.WEBRip.1080p.rus.5.1.HDREZKA.STUDIO.mkv",
-            "btih": "ab398ad15e644478a17f6081eefe5ded402a148b",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 470,
-            "seed": 59
-        },
-        {
-            "id": 22,
+            "id": 23,
             "name": "Kung.Fu.2021.S01E01.720p.WEB.H264-CAKES [IPT]",
             "btih": "b4b507306cf00257ca4257d16a95a8328a1e27c8",
             "resolution": "720",
             "encoding": "264",
             "private": true,
-            "peer": 323,
-            "seed": 182
+            "peer": 540,
+            "seed": 298
         },
         {
-            "id": 15,
+            "id": 16,
             "name": "Kung.Fu.2021.S01E01.480p.x264-mSD [IPT]",
             "btih": "e74e4472c9d15dde80d98336d6e0265456da3df5",
             "resolution": "sd",
             "encoding": "264",
             "private": true,
-            "peer": 269,
-            "seed": 151
+            "peer": 518,
+            "seed": 320
         },
         {
-            "id": 28,
-            "name": "Kung.Fu.2021.S01E01.AAC.MP4-Mobile [IPT]",
-            "btih": "a958bda909cbe4732f3f8ff294e310987318d9a9",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": true,
-            "peer": 150,
-            "seed": 97
-        },
-        {
-            "id": 4,
+            "id": 5,
             "name": "Kung.Fu.2021.S01E01.1080p.HDTV.x264-YANKEES [IPT]",
             "btih": "71dc4f0895163acf72462c9ea77c81408fac3ea6",
             "resolution": "1080",
             "encoding": "264",
             "private": true,
-            "peer": 143,
-            "seed": 75
+            "peer": 262,
+            "seed": 121
         },
         {
-            "id": 17,
+            "id": 29,
+            "name": "Kung.Fu.2021.S01E01.AAC.MP4-Mobile [IPT]",
+            "btih": "a958bda909cbe4732f3f8ff294e310987318d9a9",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 257,
+            "seed": 159
+        },
+        {
+            "id": 18,
             "name": "Kung.Fu.2021.S01E01.720p.HDTV.x264-YANKEES [IPT]",
             "btih": "8353606426f8afa494290a6cb196f03ab5ce35f8",
             "resolution": "720",
             "encoding": "264",
             "private": true,
-            "peer": 124,
-            "seed": 95
+            "peer": 246,
+            "seed": 150
         },
         {
-            "id": 40,
+            "id": 41,
             "name": "Kung.Fu.2021.S01E01.WEB.x264-PHOENiX [IPT]",
             "btih": "17b92e64039a683f483acf7b70e0f5e0cf93cc1b",
             "resolution": "sd",
             "encoding": "264",
             "private": true,
-            "peer": 54,
-            "seed": 29
+            "peer": 65,
+            "seed": 38
         },
         {
-            "id": 30,
+            "id": 31,
             "name": "Kung.Fu.2021.S01E01.HDTV.x264-YANKEES [IPT]",
             "btih": "5ecc51ed1a9e34cfc499950e2ac3ba2c7dce7ab8",
             "resolution": "sd",
             "encoding": "264",
             "private": true,
-            "peer": 18,
-            "seed": 15
+            "peer": 53,
+            "seed": 45
         }
     ]
 }
