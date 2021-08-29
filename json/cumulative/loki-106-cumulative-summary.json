@@ -2,25 +2,25 @@
     "data-version": "20201228",
     "collection-name": "Loki",
     "collection-id": "106",
-    "sample-duration": "2021-07-14-to-2021-08-10",
-    "sample-days": 28,
+    "sample-duration": "2021-07-14-to-2021-08-24",
+    "sample-days": 42,
     "sample-year-start": 2021,
     "sample-year-end": 2021,
     "sample-day-year-start": 195,
-    "sample-day-year-end": 222,
+    "sample-day-year-end": 236,
     "collection-all-btiha-total": {
         "btiha-size": 287,
-        "upeers-total": 9966928,
-        "useeds-total": 1959088,
-        "anomaly-total": 897542,
-        "anomaly-percentage": "9.01"
+        "upeers-total": 13095769,
+        "useeds-total": 2422640,
+        "anomaly-total": 1217239,
+        "anomaly-percentage": "9.29"
     },
     "collection-unique-btiha-total": {
         "btiha-size": 265,
-        "upeers-total": 8916286,
-        "useeds-total": 1736900,
-        "anomaly-total": 664506,
-        "anomaly-percentage": "7.45"
+        "upeers-total": 11785354,
+        "useeds-total": 2142937,
+        "anomaly-total": 926275,
+        "anomaly-percentage": "7.86"
     },
     "collection-unique-btiha-week-00001": {
         "btiha-size": 218,
@@ -50,53 +50,67 @@
         "anomaly-total": 664506,
         "anomaly-percentage": "7.45"
     },
+    "collection-unique-btiha-week-00005": {
+        "btiha-size": 265,
+        "upeers-total": 10467925,
+        "useeds-total": 1955717,
+        "anomaly-total": 805574,
+        "anomaly-percentage": "7.70"
+    },
+    "collection-unique-btiha-week-00006": {
+        "btiha-size": 265,
+        "upeers-total": 11785354,
+        "useeds-total": 2142937,
+        "anomaly-total": 926275,
+        "anomaly-percentage": "7.86"
+    },
     "transfer-units": "terabyte",
-    "transfer-size": 58429.32479580659,
+    "transfer-size": 77224.4954745214,
     "transfer-price-1-name": "CloudFront-1-year",
     "transfer-price-1-per-gigabyte-cost": 0.005,
-    "transfer-price-1-USD": 460146.623979033,
+    "transfer-price-1-USD": 554122.477372607,
     "resolution-partitions": [
         {
             "number": 1,
             "name": "1080-all",
-            "total-percentage-upeers": "45.00",
-            "total-percentage-bytes": "40.96",
-            "upeers-total": 4011997
+            "total-percentage-upeers": "44.60",
+            "total-percentage-bytes": "40.66",
+            "upeers-total": 5256092
         },
         {
             "number": 2,
             "name": "720-all",
-            "total-percentage-upeers": "22.72",
-            "total-percentage-bytes": "10.73",
-            "upeers-total": 2026046
+            "total-percentage-upeers": "22.67",
+            "total-percentage-bytes": "10.55",
+            "upeers-total": 2672139
         },
         {
             "number": 3,
             "name": "2160-all",
-            "total-percentage-upeers": "12.29",
-            "total-percentage-bytes": "39.67",
-            "upeers-total": 1095965
+            "total-percentage-upeers": "12.09",
+            "total-percentage-bytes": "39.58",
+            "upeers-total": 1424411
         },
         {
             "number": 4,
             "name": "sd-none",
-            "total-percentage-upeers": "9.50",
-            "total-percentage-bytes": "5.63",
-            "upeers-total": 846975
+            "total-percentage-upeers": "10.08",
+            "total-percentage-bytes": "5.90",
+            "upeers-total": 1188194
         },
         {
             "number": 5,
             "name": "sd-264",
-            "total-percentage-upeers": "7.58",
-            "total-percentage-bytes": "2.22",
-            "upeers-total": 675491
+            "total-percentage-upeers": "7.18",
+            "total-percentage-bytes": "2.15",
+            "upeers-total": 846263
         },
         {
             "number": 6,
             "name": "sd-xvid",
-            "total-percentage-upeers": "2.35",
-            "total-percentage-bytes": "0.16",
-            "upeers-total": 209550
+            "total-percentage-upeers": "2.53",
+            "total-percentage-bytes": "0.19",
+            "upeers-total": 297663
         }
     ],
     "geo-country-top-10": [
@@ -104,71 +118,71 @@
             "number": 1,
             "country-code": "USA",
             "country-name": "United States of America",
-            "total-percentage-upeers": "21.34",
-            "upeers-total": 1902448
+            "total-percentage-upeers": "22.59",
+            "upeers-total": 2662724
         },
         {
             "number": 2,
-            "country-code": "CHN",
-            "country-name": "China",
-            "total-percentage-upeers": "6.66",
-            "upeers-total": 593680
+            "country-code": "RUS",
+            "country-name": "Russian Federation",
+            "total-percentage-upeers": "6.70",
+            "upeers-total": 790014
         },
         {
             "number": 3,
-            "country-code": "RUS",
-            "country-name": "Russian Federation",
-            "total-percentage-upeers": "6.34",
-            "upeers-total": 565166
+            "country-code": "CHN",
+            "country-name": "China",
+            "total-percentage-upeers": "6.60",
+            "upeers-total": 777251
         },
         {
             "number": 4,
             "country-code": "IND",
             "country-name": "India",
-            "total-percentage-upeers": "5.46",
-            "upeers-total": 486440
+            "total-percentage-upeers": "5.03",
+            "upeers-total": 592636
         },
         {
             "number": 5,
             "country-code": "BRA",
             "country-name": "Brazil",
-            "total-percentage-upeers": "3.19",
-            "upeers-total": 284220
+            "total-percentage-upeers": "3.06",
+            "upeers-total": 360237
         },
         {
             "number": 6,
             "country-code": "GBR",
             "country-name": "United Kingdom of Great Britain and Northern Ireland",
-            "total-percentage-upeers": "2.77",
-            "upeers-total": 247411
+            "total-percentage-upeers": "2.76",
+            "upeers-total": 325682
         },
         {
             "number": 7,
             "country-code": "JPN",
             "country-name": "Japan",
-            "total-percentage-upeers": "2.52",
-            "upeers-total": 224640
+            "total-percentage-upeers": "2.72",
+            "upeers-total": 320397
         },
         {
             "number": 8,
             "country-code": "KOR",
             "country-name": "Korea, Republic of",
-            "total-percentage-upeers": "2.04",
-            "upeers-total": 182039
+            "total-percentage-upeers": "2.16",
+            "upeers-total": 254481
         },
         {
             "number": 9,
             "country-code": "FRA",
             "country-name": "France",
-            "total-percentage-upeers": "1.79",
-            "upeers-total": 159325
+            "total-percentage-upeers": "1.83",
+            "upeers-total": 215430
         },
         {
             "number": 10,
             "country-code": "CAN",
             "country-name": "Canada",
             "total-percentage-upeers": "1.75",
-            "upeers-total": 155894
+            "upeers-total": 206774
         }
     ],
     "geo-country-region-city-top-30": [
@@ -176,211 +190,211 @@
             "number": 1,
             "country-code": "USA",
             "country-name": "United States of America",
-            "total-percentage-upeers": "6.98",
-            "upeers-total": 622078
+            "total-percentage-upeers": "7.44",
+            "upeers-total": 876276
         },
         {
             "number": 2,
             "country-code": "IND",
             "country-name": "India",
-            "total-percentage-upeers": "1.34",
-            "upeers-total": 119404
+            "total-percentage-upeers": "1.24",
+            "upeers-total": 146179
         },
         {
             "number": 3,
-            "country-code": "CHN",
-            "country-name": "China, Beijing, 22",
-            "total-percentage-upeers": "0.95",
-            "upeers-total": 84264
+            "country-code": "RUS",
+            "country-name": "Russian Federation, Moscow, 48",
+            "total-percentage-upeers": "0.99",
+            "upeers-total": 116818
         },
         {
             "number": 4,
-            "country-code": "RUS",
-            "country-name": "Russian Federation, Moscow, 48",
-            "total-percentage-upeers": "0.94",
-            "upeers-total": 84156
+            "country-code": "CHN",
+            "country-name": "China, Beijing, 22",
+            "total-percentage-upeers": "0.97",
+            "upeers-total": 114492
         },
         {
             "number": 5,
             "country-code": "GBR",
             "country-name": "United Kingdom of Great Britain and Northern Ireland",
-            "total-percentage-upeers": "0.92",
-            "upeers-total": 81992
+            "total-percentage-upeers": "0.94",
+            "upeers-total": 110593
         },
         {
             "number": 6,
             "country-code": "JPN",
             "country-name": "Japan",
-            "total-percentage-upeers": "0.86",
-            "upeers-total": 77038
+            "total-percentage-upeers": "0.93",
+            "upeers-total": 109876
         },
         {
             "number": 7,
             "country-code": "KOR",
             "country-name": "Korea, Republic of",
-            "total-percentage-upeers": "0.85",
-            "upeers-total": 75728
+            "total-percentage-upeers": "0.90",
+            "upeers-total": 106611
         },
         {
             "number": 8,
             "country-code": "DEU",
             "country-name": "Germany",
-            "total-percentage-upeers": "0.81",
-            "upeers-total": 72362
+            "total-percentage-upeers": "0.85",
+            "upeers-total": 100535
         },
         {
             "number": 9,
-            "country-code": "RUS",
-            "country-name": "Russian Federation",
-            "total-percentage-upeers": "0.70",
-            "upeers-total": 62283
+            "country-code": "JPN",
+            "country-name": "Japan, Tokyo, 40",
+            "total-percentage-upeers": "0.73",
+            "upeers-total": 86226
         },
         {
             "number": 10,
-            "country-code": "JPN",
-            "country-name": "Japan, Tokyo, 40",
-            "total-percentage-upeers": "0.68",
-            "upeers-total": 60843
+            "country-code": "RUS",
+            "country-name": "Russian Federation",
+            "total-percentage-upeers": "0.72",
+            "upeers-total": 84471
         },
         {
             "number": 11,
-            "country-code": "CHN",
-            "country-name": "China, Guangzhou, 30",
-            "total-percentage-upeers": "0.65",
-            "upeers-total": 57649
+            "country-code": "FRA",
+            "country-name": "France",
+            "total-percentage-upeers": "0.67",
+            "upeers-total": 79483
         },
         {
             "number": 12,
-            "country-code": "FRA",
-            "country-name": "France",
-            "total-percentage-upeers": "0.64",
-            "upeers-total": 57444
+            "country-code": "CHN",
+            "country-name": "China, Guangzhou, 30",
+            "total-percentage-upeers": "0.65",
+            "upeers-total": 76581
         },
         {
             "number": 13,
             "country-code": "USA",
             "country-name": "United States of America, Fort Huachuca, AZ",
-            "total-percentage-upeers": "0.60",
-            "upeers-total": 53374
+            "total-percentage-upeers": "0.65",
+            "upeers-total": 76016
         },
         {
             "number": 14,
             "country-code": "KOR",
             "country-name": "Korea, Republic of, Seoul, 11",
-            "total-percentage-upeers": "0.58",
-            "upeers-total": 51742
+            "total-percentage-upeers": "0.61",
+            "upeers-total": 71563
         },
         {
             "number": 15,
             "country-code": "ITA",
             "country-name": "Italy",
-            "total-percentage-upeers": "0.55",
-            "upeers-total": 49468
+            "total-percentage-upeers": "0.56",
+            "upeers-total": 66213
         },
         {
             "number": 16,
-            "country-code": "CHN",
-            "country-name": "China",
-            "total-percentage-upeers": "0.53",
-            "upeers-total": 47287
+            "country-code": "BRA",
+            "country-name": "Brazil",
+            "total-percentage-upeers": "0.52",
+            "upeers-total": 60925
         },
         {
             "number": 17,
-            "country-code": "BRA",
-            "country-name": "Brazil",
-            "total-percentage-upeers": "0.51",
-            "upeers-total": 45720
+            "country-code": "CHN",
+            "country-name": "China",
+            "total-percentage-upeers": "0.52",
+            "upeers-total": 60890
         },
         {
             "number": 18,
             "country-code": "NLD",
             "country-name": "Netherlands",
-            "total-percentage-upeers": "0.47",
-            "upeers-total": 42289
+            "total-percentage-upeers": "0.49",
+            "upeers-total": 57279
         },
         {
             "number": 19,
-            "country-code": "CHN",
-            "country-name": "China, Shanghai, 23",
-            "total-percentage-upeers": "0.45",
-            "upeers-total": 40213
+            "country-code": "RUS",
+            "country-name": "Russian Federation, Saint Petersburg, 66",
+            "total-percentage-upeers": "0.42",
+            "upeers-total": 50004
         },
         {
             "number": 20,
-            "country-code": "IND",
-            "country-name": "India, Mumbai, 16",
-            "total-percentage-upeers": "0.43",
-            "upeers-total": 38074
+            "country-code": "CHN",
+            "country-name": "China, Shanghai, 23",
+            "total-percentage-upeers": "0.42",
+            "upeers-total": 49933
         },
         {
             "number": 21,
-            "country-code": "RUS",
-            "country-name": "Russian Federation, Saint Petersburg, 66",
-            "total-percentage-upeers": "0.41",
-            "upeers-total": 36716
+            "country-code": "USA",
+            "country-name": "United States of America, Palo Alto, CA",
+            "total-percentage-upeers": "0.42",
+            "upeers-total": 49618
         },
         {
             "number": 22,
-            "country-code": "USA",
-            "country-name": "United States of America, Palo Alto, CA",
+            "country-code": "IND",
+            "country-name": "India, Mumbai, 16",
             "total-percentage-upeers": "0.39",
-            "upeers-total": 34901
+            "upeers-total": 45709
         },
         {
             "number": 23,
-            "country-code": "PHL",
-            "country-name": "Philippines",
-            "total-percentage-upeers": "0.37",
-            "upeers-total": 32709
+            "country-code": "USA",
+            "country-name": "United States of America, Cambridge, MA",
+            "total-percentage-upeers": "0.38",
+            "upeers-total": 44418
         },
         {
             "number": 24,
-            "country-code": "IND",
-            "country-name": "India, Kolkata, 28",
-            "total-percentage-upeers": "0.35",
-            "upeers-total": 31504
+            "country-code": "USA",
+            "country-name": "United States of America, New York, NY",
+            "total-percentage-upeers": "0.37",
+            "upeers-total": 43609
         },
         {
             "number": 25,
-            "country-code": "USA",
-            "country-name": "United States of America, New York, NY",
-            "total-percentage-upeers": "0.35",
-            "upeers-total": 31471
+            "country-code": "TWN",
+            "country-name": "Taiwan, Province of China, Taipei, 03",
+            "total-percentage-upeers": "0.36",
+            "upeers-total": 42788
         },
         {
             "number": 26,
             "country-code": "USA",
-            "country-name": "United States of America, Cambridge, MA",
-            "total-percentage-upeers": "0.35",
-            "upeers-total": 31279
+            "country-name": "United States of America, Houston, TX",
+            "total-percentage-upeers": "0.36",
+            "upeers-total": 42561
         },
         {
             "number": 27,
-            "country-code": "TWN",
-            "country-name": "Taiwan, Province of China, Taipei, 03",
+            "country-code": "USA",
+            "country-name": "United States of America, Dearborn, MI",
             "total-percentage-upeers": "0.35",
-            "upeers-total": 31091
+            "upeers-total": 41181
         },
         {
             "number": 28,
-            "country-code": "USA",
-            "country-name": "United States of America, Houston, TX",
+            "country-code": "PHL",
+            "country-name": "Philippines",
             "total-percentage-upeers": "0.34",
-            "upeers-total": 30266
+            "upeers-total": 40212
         },
         {
             "number": 29,
-            "country-code": "BRA",
-            "country-name": "Brazil, Sao Paulo, 27",
-            "total-percentage-upeers": "0.33",
-            "upeers-total": 29753
-        },
-        {
-            "number": 30,
             "country-code": "CHN",
             "country-name": "China, Nanjing, 04",
             "total-percentage-upeers": "0.33",
-            "upeers-total": 29603
+            "upeers-total": 38622
+        },
+        {
+            "number": 30,
+            "country-code": "BRA",
+            "country-name": "Brazil, Sao Paulo, 27",
+            "total-percentage-upeers": "0.32",
+            "upeers-total": 37984
         }
     ],
     "collection-unique-btiha-detail": [
@@ -391,8 +405,8 @@
             "resolution": "1080",
             "encoding": "264",
             "private": false,
-            "peer": 441815,
-            "seed": 111909
+            "peer": 497831,
+            "seed": 133099
         },
         {
             "id": 166,
@@ -401,8 +415,8 @@
             "resolution": "1080",
             "encoding": "264",
             "private": false,
-            "peer": 384851,
-            "seed": 63277
+            "peer": 430593,
+            "seed": 76666
         },
         {
             "id": 105,
@@ -411,8 +425,8 @@
             "resolution": "720",
             "encoding": "264",
             "private": false,
-            "peer": 250332,
-            "seed": 79324
+            "peer": 330939,
+            "seed": 109761
         },
         {
             "id": 190,
@@ -421,28 +435,8 @@
             "resolution": "sd",
             "encoding": "264",
             "private": false,
-            "peer": 231730,
-            "seed": 66712
-        },
-        {
-            "id": 974,
-            "name": "multi-btih-14-2x-Loki.S01E06.720p.WEB.H264-EXPLOIT[rarbg]",
-            "btih": "42ded99d11b72c20dd252c3bc487f2d4ec3d0f13",
-            "resolution": "720",
-            "encoding": "264",
-            "private": false,
-            "peer": 167126,
-            "seed": 45133
-        },
-        {
-            "id": 962,
-            "name": "multi-btih-2-3x-Loki.S01.1080p.WEB-DL.LostFilm",
-            "btih": "0e357181f560c163e191073d562731711711e11d",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 159327,
-            "seed": 71757
+            "peer": 261737,
+            "seed": 81127
         },
         {
             "id": 22,
@@ -451,38 +445,58 @@
             "resolution": "1080",
             "encoding": "265",
             "private": false,
-            "peer": 147535,
-            "seed": 53030
+            "peer": 213588,
+            "seed": 75729
         },
         {
-            "id": 971,
+            "id": 1310,
+            "name": "multi-btih-14-2x-Loki.S01E06.720p.WEB.H264-EXPLOIT[rarbg]",
+            "btih": "42ded99d11b72c20dd252c3bc487f2d4ec3d0f13",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 189870,
+            "seed": 57354
+        },
+        {
+            "id": 1298,
+            "name": "multi-btih-2-3x-Loki.S01.1080p.WEB-DL.LostFilm",
+            "btih": "0e357181f560c163e191073d562731711711e11d",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 189591,
+            "seed": 89903
+        },
+        {
+            "id": 1307,
             "name": "multi-btih-11-2x-Loki.S01E06.1080p.WEB.H264-EXPLOIT[rarbg]",
             "btih": "8653931f70e812fca855210bbbaaf3b91a118758",
             "resolution": "1080",
             "encoding": "264",
             "private": false,
-            "peer": 145335,
-            "seed": 44877
+            "peer": 168290,
+            "seed": 55512
         },
         {
-            "id": 978,
+            "id": 1314,
             "name": "multi-btih-18-2x-Loki.S01E06.WEBRip.x264-ION10-[rarbg.to]",
             "btih": "f3942885ffae9a7cfdddb09b9342a4e54f318113",
             "resolution": "sd",
             "encoding": "264",
             "private": false,
-            "peer": 143925,
-            "seed": 50678
+            "peer": 167705,
+            "seed": 61512
         },
         {
-            "id": 980,
+            "id": 1316,
             "name": "multi-btih-20-2x-[rutor.is]Loki_s01_AlexFilm_1080p",
             "btih": "94182f245222a8df60e09a253a9c9aa28ebacd82",
             "resolution": "1080",
             "encoding": "none",
             "private": false,
-            "peer": 126470,
-            "seed": 40659
+            "peer": 154608,
+            "seed": 53055
         },
         {
             "id": 144,
@@ -491,8 +505,8 @@
             "resolution": "720",
             "encoding": "264",
             "private": false,
-            "peer": 125128,
-            "seed": 48989
+            "peer": 145227,
+            "seed": 58061
         },
         {
             "id": 230,
@@ -501,38 +515,8 @@
             "resolution": "sd",
             "encoding": "none",
             "private": false,
-            "peer": 107442,
-            "seed": 38923
-        },
-        {
-            "id": 973,
-            "name": "multi-btih-13-2x-Loki.S01E06.2160p.WEB-DL.x265.8bit.SDR.DDP5.1.Atmos-SWTYBLZ-[rarbg.to]",
-            "btih": "18e63bef69bb3840cd98f382930c9e2d6c973777",
-            "resolution": "2160",
-            "encoding": "265",
-            "private": false,
-            "peer": 98783,
-            "seed": 9732
-        },
-        {
-            "id": 208,
-            "name": "[ OxTorrent.pe ] Loki.S01E06.FiNAL.FRENCH.WEBRip.Xvid-EXTREME.avi",
-            "btih": "debbf99f4a0f48f205d9d759537cbd264c60aa7b",
-            "resolution": "sd",
-            "encoding": "xvid",
-            "private": false,
-            "peer": 93588,
-            "seed": 49479
-        },
-        {
-            "id": 77,
-            "name": "Loki.S01.1080p.DSNP.WEBRip.DDP5.1.Atmos.x264-MIXED[rartv]-[rarbg.to]",
-            "btih": "dbeabeacd75c87b50d6a7cd69242c2f854d709b9",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 93562,
-            "seed": 34985
+            "peer": 132787,
+            "seed": 50912
         },
         {
             "id": 62,
@@ -541,38 +525,38 @@
             "resolution": "1080",
             "encoding": "none",
             "private": false,
-            "peer": 89875,
-            "seed": 25172
+            "peer": 123977,
+            "seed": 31570
         },
         {
-            "id": 964,
-            "name": "multi-btih-4-2x-Loki.S01.2160p.WEB-DL.x265.8bit.SDR.DDP5.1.Atmos-SWTYBLZ-[rarbg.to]",
-            "btih": "8e9abdff52dc7646d66068b1cc52087bfeaf8da7",
-            "resolution": "2160",
-            "encoding": "265",
-            "private": false,
-            "peer": 88152,
-            "seed": 4608
-        },
-        {
-            "id": 968,
-            "name": "multi-btih-8-2x-Loki.S01.720p.WEBRip.DD+5.1.le-production",
-            "btih": "9ae107a3d721ac208d3f36d3c608db3de1df8d64",
-            "resolution": "720",
-            "encoding": "none",
-            "private": false,
-            "peer": 87029,
-            "seed": 1083
-        },
-        {
-            "id": 210,
-            "name": "[re]Loki.S01E06.1080p.DSNP.WEBRip.DDP5.1.Atmos.x264-NOGRP.chs.eng.mp4",
-            "btih": "1feb5bade714e163d303b6bc00a4399ae91ca02b",
+            "id": 77,
+            "name": "Loki.S01.1080p.DSNP.WEBRip.DDP5.1.Atmos.x264-MIXED[rartv]-[rarbg.to]",
+            "btih": "dbeabeacd75c87b50d6a7cd69242c2f854d709b9",
             "resolution": "1080",
             "encoding": "264",
             "private": false,
-            "peer": 86119,
-            "seed": 17952
+            "peer": 117834,
+            "seed": 46290
+        },
+        {
+            "id": 208,
+            "name": "[ OxTorrent.pe ] Loki.S01E06.FiNAL.FRENCH.WEBRip.Xvid-EXTREME.avi",
+            "btih": "debbf99f4a0f48f205d9d759537cbd264c60aa7b",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": false,
+            "peer": 113632,
+            "seed": 61933
+        },
+        {
+            "id": 1308,
+            "name": "multi-btih-12-2x-Loki.S01E06.2160p.WEB-DL.x265.10bit.HDR.DDP5.1.Atmos-SWTYBLZ-[rarbg.to]",
+            "btih": "7ce562c469b7f648e925ce5fa8d0e402ff97830c",
+            "resolution": "2160",
+            "encoding": "265",
+            "private": false,
+            "peer": 110768,
+            "seed": 28808
         },
         {
             "id": 57,
@@ -581,8 +565,28 @@
             "resolution": "1080",
             "encoding": "none",
             "private": false,
-            "peer": 84019,
-            "seed": 46309
+            "peer": 109630,
+            "seed": 61101
+        },
+        {
+            "id": 210,
+            "name": "[re]Loki.S01E06.1080p.DSNP.WEBRip.DDP5.1.Atmos.x264-NOGRP.chs.eng.mp4",
+            "btih": "1feb5bade714e163d303b6bc00a4399ae91ca02b",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 105548,
+            "seed": 20000
+        },
+        {
+            "id": 1309,
+            "name": "multi-btih-13-2x-Loki.S01E06.2160p.WEB-DL.x265.8bit.SDR.DDP5.1.Atmos-SWTYBLZ-[rarbg.to]",
+            "btih": "18e63bef69bb3840cd98f382930c9e2d6c973777",
+            "resolution": "2160",
+            "encoding": "265",
+            "private": false,
+            "peer": 104067,
+            "seed": 10448
         },
         {
             "id": 149,
@@ -591,8 +595,58 @@
             "resolution": "720",
             "encoding": "265",
             "private": false,
-            "peer": 83799,
-            "seed": 33179
+            "peer": 103572,
+            "seed": 40698
+        },
+        {
+            "id": 1299,
+            "name": "multi-btih-3-2x-Loki.S01.2160p.WEB-DL.x265.10bit.HDR.DDP5.1.Atmos-SWTYBLZ-[rarbg.to]",
+            "btih": "05303e884fb4d21de190a4eb4d037bf5a81b78b7",
+            "resolution": "2160",
+            "encoding": "265",
+            "private": false,
+            "peer": 102134,
+            "seed": 27151
+        },
+        {
+            "id": 1300,
+            "name": "multi-btih-4-2x-Loki.S01.2160p.WEB-DL.x265.8bit.SDR.DDP5.1.Atmos-SWTYBLZ-[rarbg.to]",
+            "btih": "8e9abdff52dc7646d66068b1cc52087bfeaf8da7",
+            "resolution": "2160",
+            "encoding": "265",
+            "private": false,
+            "peer": 97813,
+            "seed": 5601
+        },
+        {
+            "id": 1311,
+            "name": "multi-btih-15-2x-Loki.S01E06.For.All.Time.Always.2160p.WEB-DL.DDP5.1.Atmos.DV.x265-FLUX[rartv]-[rarbg.to]",
+            "btih": "49b76f89f895ce28c405c72e0933f3d2e2657133",
+            "resolution": "2160",
+            "encoding": "265",
+            "private": false,
+            "peer": 96548,
+            "seed": 14202
+        },
+        {
+            "id": 1304,
+            "name": "multi-btih-8-2x-Loki.S01.720p.WEBRip.DD+5.1.le-production",
+            "btih": "9ae107a3d721ac208d3f36d3c608db3de1df8d64",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 94831,
+            "seed": 1319
+        },
+        {
+            "id": 1312,
+            "name": "multi-btih-16-2x-Loki.S01E06.For.All.Time.Always.720p.DSNP.WEBRip.DDP5.1.x264-TOMMY[rarbg]",
+            "btih": "3fe0f91ab1bf81d49d49387fbb4c66ba89896c66",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 94719,
+            "seed": 31469
         },
         {
             "id": 66,
@@ -601,18 +655,8 @@
             "resolution": "sd",
             "encoding": "none",
             "private": false,
-            "peer": 82433,
-            "seed": 18697
-        },
-        {
-            "id": 976,
-            "name": "multi-btih-16-2x-Loki.S01E06.For.All.Time.Always.720p.DSNP.WEBRip.DDP5.1.x264-TOMMY[rarbg]",
-            "btih": "3fe0f91ab1bf81d49d49387fbb4c66ba89896c66",
-            "resolution": "720",
-            "encoding": "264",
-            "private": false,
-            "peer": 82128,
-            "seed": 27524
+            "peer": 93398,
+            "seed": 20829
         },
         {
             "id": 181,
@@ -621,8 +665,8 @@
             "resolution": "sd",
             "encoding": "xvid",
             "private": false,
-            "peer": 81136,
-            "seed": 5363
+            "peer": 92379,
+            "seed": 6385
         },
         {
             "id": 233,
@@ -631,68 +675,18 @@
             "resolution": "1080",
             "encoding": "none",
             "private": false,
-            "peer": 78254,
-            "seed": 8601
+            "peer": 87890,
+            "seed": 10319
         },
         {
-            "id": 972,
-            "name": "multi-btih-12-2x-Loki.S01E06.2160p.WEB-DL.x265.10bit.HDR.DDP5.1.Atmos-SWTYBLZ-[rarbg.to]",
-            "btih": "7ce562c469b7f648e925ce5fa8d0e402ff97830c",
-            "resolution": "2160",
-            "encoding": "265",
-            "private": false,
-            "peer": 75903,
-            "seed": 26366
-        },
-        {
-            "id": 963,
-            "name": "multi-btih-3-2x-Loki.S01.2160p.WEB-DL.x265.10bit.HDR.DDP5.1.Atmos-SWTYBLZ-[rarbg.to]",
-            "btih": "05303e884fb4d21de190a4eb4d037bf5a81b78b7",
-            "resolution": "2160",
-            "encoding": "265",
-            "private": false,
-            "peer": 75214,
-            "seed": 23076
-        },
-        {
-            "id": 977,
+            "id": 1313,
             "name": "multi-btih-17-2x-Loki.S01E06.HDR.2160p.WEB.H265-EXPLOIT[rartv]-[rarbg.to]",
             "btih": "56f1605a223464006d94e93edd470c9fb65a8eea",
             "resolution": "2160",
             "encoding": "265",
             "private": false,
-            "peer": 71730,
-            "seed": 7894
-        },
-        {
-            "id": 114,
-            "name": "Loki.S01.WEBRip.720p.IdeaFilm",
-            "btih": "ece7d3dc2a8f83b370378d15094383ae5575118e",
-            "resolution": "720",
-            "encoding": "none",
-            "private": false,
-            "peer": 68210,
-            "seed": 837
-        },
-        {
-            "id": 975,
-            "name": "multi-btih-15-2x-Loki.S01E06.For.All.Time.Always.2160p.WEB-DL.DDP5.1.Atmos.DV.x265-FLUX[rartv]-[rarbg.to]",
-            "btih": "49b76f89f895ce28c405c72e0933f3d2e2657133",
-            "resolution": "2160",
-            "encoding": "265",
-            "private": false,
-            "peer": 67608,
-            "seed": 13146
-        },
-        {
-            "id": 42,
-            "name": "Loki S01 E01-06 WebRip 720p Hindi English AAC 5.1 x264 MSubs - mkvCinemas [Telly]",
-            "btih": "ad4c7baa5907b5a6473272f03b00801b1d71bfa7",
-            "resolution": "720",
-            "encoding": "264",
-            "private": false,
-            "peer": 66294,
-            "seed": 5405
+            "peer": 87482,
+            "seed": 8704
         },
         {
             "id": 115,
@@ -701,28 +695,28 @@
             "resolution": "sd",
             "encoding": "264",
             "private": false,
-            "peer": 65062,
-            "seed": 25823
+            "peer": 86013,
+            "seed": 29970
         },
         {
-            "id": 94,
-            "name": "Loki.S01.400p.WEBRip.x264.AAC.Zetflix",
-            "btih": "07dde9b89adf837d8105fd01bc8e5513a3b24d52",
-            "resolution": "sd",
+            "id": 42,
+            "name": "Loki S01 E01-06 WebRip 720p Hindi English AAC 5.1 x264 MSubs - mkvCinemas [Telly]",
+            "btih": "ad4c7baa5907b5a6473272f03b00801b1d71bfa7",
+            "resolution": "720",
             "encoding": "264",
             "private": false,
-            "peer": 61803,
-            "seed": 572
+            "peer": 74579,
+            "seed": 6994
         },
         {
-            "id": 179,
-            "name": "Loki.S01E06.For.All.Time.Always.INTERNAL.1080p.10bit.WEBRip.6CH.x265.HEVC-PSA.mkv",
-            "btih": "f9d66559f50f2db2258f11f92a8ba6633fc6486d",
-            "resolution": "1080",
-            "encoding": "265",
+            "id": 1303,
+            "name": "multi-btih-7-2x-Loki.S01.720p.LF_RUTOR",
+            "btih": "0e8776fc939980a02a56765e6a8bfe292886e98f",
+            "resolution": "720",
+            "encoding": "none",
             "private": false,
-            "peer": 61304,
-            "seed": 3319
+            "peer": 74568,
+            "seed": 17798
         },
         {
             "id": 127,
@@ -731,288 +725,28 @@
             "resolution": "1080",
             "encoding": "264",
             "private": false,
-            "peer": 56554,
-            "seed": 14587
+            "peer": 74158,
+            "seed": 15400
         },
         {
-            "id": 979,
-            "name": "multi-btih-19-2x-[rutor.is]Loki.S01.WEBRip.Rus.HDRezka",
-            "btih": "0791c7cccf5386f4421ed337b403bdc0cd9c71bf",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 55041,
-            "seed": 9633
-        },
-        {
-            "id": 162,
-            "name": "Loki.S01E06.For.All.Time.Always.1080p.DSNP.WEB-DL.DDP5.1.H.264-EVO[TGx]",
-            "btih": "196e24370119b8bd2dd51e446b4805c79e6528d8",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 53825,
-            "seed": 24667
-        },
-        {
-            "id": 14,
-            "name": "Loki (2021) S01 1080p 10bit [60FPS] DSNP WEBRip (HINDI-ENG) 6CH ~ MrStrange",
-            "btih": "e837d53a5a99f7440ca4dda547b9b43f578ddf01",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 53495,
-            "seed": 249
-        },
-        {
-            "id": 280,
-            "name": "洛基.Loki.S01E06.1080p.60fps.H265-NEW字幕组.mp4",
-            "btih": "37e96c8968bfd54707c248b6cc9d1ff561cf70f4",
-            "resolution": "1080",
-            "encoding": "265",
-            "private": false,
-            "peer": 52918,
-            "seed": 12833
-        },
-        {
-            "id": 967,
-            "name": "multi-btih-7-2x-Loki.S01.720p.LF_RUTOR",
-            "btih": "0e8776fc939980a02a56765e6a8bfe292886e98f",
-            "resolution": "720",
-            "encoding": "none",
-            "private": false,
-            "peer": 52266,
-            "seed": 14442
-        },
-        {
-            "id": 213,
-            "name": "[rutor.is]Loki.S01.1080p.Kerob",
-            "btih": "50978cc9f1fe91b5b4aa3247ee06ffeb8d042aa4",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 52013,
-            "seed": 6497
-        },
-        {
-            "id": 217,
-            "name": "[rutor.is]Loki.S01.2160p.HDR.Kerob",
-            "btih": "54ef5f23e83d85ca7605c78433e5c9745424e78d",
-            "resolution": "2160",
-            "encoding": "none",
-            "private": false,
-            "peer": 51436,
-            "seed": 3592
-        },
-        {
-            "id": 970,
-            "name": "multi-btih-10-2x-Loki.S01.LF_RUTOR",
-            "btih": "940db36b7bcaf3c9968c053862fad32ffaf9ae26",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 49527,
-            "seed": 13191
-        },
-        {
-            "id": 170,
-            "name": "Loki.S01E06.For.All.Time.Always.2160p.DSNP.WEB-DL.DDP5.1.Atmos.HDR.HEVC-CMRG[eztv.re].mkv",
-            "btih": "b472754a48a1ba340a408bb74618c37016d2198c",
-            "resolution": "2160",
-            "encoding": "none",
-            "private": false,
-            "peer": 49274,
-            "seed": 18424
-        },
-        {
-            "id": 161,
-            "name": "Loki.S01E06.For.All.Time.Always.1080p.DSNP.WEB-DL.DDP5.1.H.264-EVO.mkv",
-            "btih": "b4f9cf235c6aeace1fe5b54831e3287d676bbefd",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 47879,
-            "seed": 7351
-        },
-        {
-            "id": 960,
+            "id": 1296,
             "name": "multi-btih-0-2x-Loki S01 (2021) 1080p WEBRip [Gears Media] (ID1203039)",
             "btih": "a3309cf3a1fe0aa36758a12e1db08b31bc9cef39",
             "resolution": "1080",
             "encoding": "none",
             "private": false,
-            "peer": 47651,
-            "seed": 1935
+            "peer": 72591,
+            "seed": 2559
         },
         {
-            "id": 5,
-            "name": "LOKI (2021) S01 EP06 TRUE WEB-DL - 720p - AVC - (DD+5.1 - 192Kbps) [English + Hindi] - 546MB - ESub.mkv",
-            "btih": "5505e66dd756435ffaaf603ce6fabb5946f9bc98",
+            "id": 114,
+            "name": "Loki.S01.WEBRip.720p.IdeaFilm",
+            "btih": "ece7d3dc2a8f83b370378d15094383ae5575118e",
             "resolution": "720",
             "encoding": "none",
             "private": false,
-            "peer": 47197,
-            "seed": 1039
-        },
-        {
-            "id": 206,
-            "name": "TVBOXNOW Loki 洛基",
-            "btih": "a97dbdf70e18c0d9a5fdd157a5a79a2a555e986a",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 46710,
-            "seed": 314
-        },
-        {
-            "id": 231,
-            "name": "[rutor.is]Loki_(s01)_HDr_1080p",
-            "btih": "1207315db2405d03640b441d014ae1438bb7a462",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 46679,
-            "seed": 23916
-        },
-        {
-            "id": 157,
-            "name": "Loki.S01E06.For.All.Time.Always.1080p.DSNP.WEB-DL.DDP5.1.Atmos.H.264-CMRG[eztv.re].mkv",
-            "btih": "7188dc6cb74207f50d11a24696483457e14ce9ba",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 44556,
-            "seed": 12305
-        },
-        {
-            "id": 286,
-            "name": "洛基.Loki.S01E06.For.All.Time.Always.2160p.HD中英双字[66影视www.66Ys.Co].mp4",
-            "btih": "8d540b620770db6000aa31d6a3a39a796fe10355",
-            "resolution": "2160",
-            "encoding": "none",
-            "private": false,
-            "peer": 43998,
-            "seed": 11353
-        },
-        {
-            "id": 966,
-            "name": "multi-btih-6-2x-Loki.S01.720p.DSNP.WEBRip.DDP5.1.Atmos.x264-MIXED[rartv]-[rarbg.to]",
-            "btih": "cad5d54d91de2ec0bcd3995eebd69403bf244c65",
-            "resolution": "720",
-            "encoding": "264",
-            "private": false,
-            "peer": 43776,
-            "seed": 16368
-        },
-        {
-            "id": 283,
-            "name": "洛基.Loki.S01E06.1080p.HD中英双字[66影视www.66Ys.Co].mp4",
-            "btih": "5105f5faa3b7911c7837f678ffd70c9d2ff62285",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 43356,
-            "seed": 7793
-        },
-        {
-            "id": 277,
-            "name": "Локи Loki Сезон 1 Серии 1-6 из 6 (Кейт Херрон) [2021, США, Фантастика, фэнтези, боевик, приключения, WEB-DL 720p] 3 х MVO [rutracker-6066987]",
-            "btih": "14bd0a229c6c68b1b49ef95f5f8ebdfe8dcd2916",
-            "resolution": "720",
-            "encoding": "none",
-            "private": false,
-            "peer": 42802,
-            "seed": 11574
-        },
-        {
-            "id": 26,
-            "name": "Loki - S01E06 - For all time. Always [MULTI][WEB-Rip][1080p][H265_10b][HE-AAC_5.1] - K-LITY.mkv",
-            "btih": "d8bdb4bace5b7a0591190ede7bee1efff38fca3f",
-            "resolution": "1080",
-            "encoding": "265",
-            "private": false,
-            "peer": 42563,
-            "seed": 417
-        },
-        {
-            "id": 235,
-            "name": "[rutor.is]Loki_-_sezon_1_-_VHSnik_torrent",
-            "btih": "aa9695bb0fe4e62eebbf04562249312e5be8f2b5",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 42138,
-            "seed": 3716
-        },
-        {
-            "id": 276,
-            "name": "Локи Loki Сезон 1 Серии 1-6 из 6 (Кейт Херрон) [2021, США, Фантастика, фэнтези, боевик, приключения, WEB-DL 1080p] Origina [rutracker-6066517]",
-            "btih": "5b70170e28f8b53aee584d2631e4b03c5eeac902",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 41964,
-            "seed": 3582
-        },
-        {
-            "id": 18,
-            "name": "Loki (2021) S01E06 (2160p DSNP WEB-DL x265 HEVC 10bit Atmos DDP 5.1 Vyndros)",
-            "btih": "ae9bb05c9d3b3c4fdada11bc834b27c9c38606cf",
-            "resolution": "2160",
-            "encoding": "265",
-            "private": false,
-            "peer": 41519,
-            "seed": 2392
-        },
-        {
-            "id": 969,
-            "name": "multi-btih-9-2x-Loki.S01.DSNP.HDR.WEB-DL.2160p.by.AKTEP",
-            "btih": "bf052adea9b6217dc531d733942c49111ac34e7f",
-            "resolution": "2160",
-            "encoding": "none",
-            "private": false,
-            "peer": 40461,
-            "seed": 4717
-        },
-        {
-            "id": 49,
-            "name": "Loki S01E06 Dual (2160p WEBRip x265 10bit DolbyAtmos) - [Musafirboy]",
-            "btih": "16c693c996a1889b92ea18b8983f738db2cb1063",
-            "resolution": "2160",
-            "encoding": "265",
-            "private": false,
-            "peer": 38970,
-            "seed": 1049
-        },
-        {
-            "id": 192,
-            "name": "Loki.S01E06.WEBRip.720p.rus.5.1.HDREZKA.STUDIO.mkv",
-            "btih": "dd9df32f03cfdf9cdf2ce845fa7d9bc20c9c3e79",
-            "resolution": "720",
-            "encoding": "none",
-            "private": false,
-            "peer": 38583,
-            "seed": 456
-        },
-        {
-            "id": 961,
-            "name": "multi-btih-1-2x-Loki S01 (2021) 720p WEBRip [Gears Media] (ID1203039)",
-            "btih": "8089a095139de2bf3684f27c280871f643cdf11e",
-            "resolution": "720",
-            "encoding": "none",
-            "private": false,
-            "peer": 37727,
-            "seed": 1875
-        },
-        {
-            "id": 165,
-            "name": "Loki.S01E06.For.All.Time.Always.1080p.DSNP.WEBRip.DDP5.1.x264-TOMMY[TGx]",
-            "btih": "d593f3526a03cdea5f12115045c3db0c4643d876",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 37404,
-            "seed": 1643
+            "peer": 72083,
+            "seed": 1087
         },
         {
             "id": 53,
@@ -1021,388 +755,68 @@
             "resolution": "1080",
             "encoding": "none",
             "private": false,
-            "peer": 36830,
-            "seed": 2714
+            "peer": 71682,
+            "seed": 3840
         },
         {
-            "id": 76,
-            "name": "Loki.S01.1080p.DSNP.WEBRip.DDP5.1.Atmos.x264-MIXED[eztv.re]",
-            "btih": "7b71802c81079af0b63576684c51075f633b97a9",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 36384,
-            "seed": 11072
-        },
-        {
-            "id": 965,
-            "name": "multi-btih-5-2x-Loki.S01.2160p.WEBRip.DD+5.1.le-production",
-            "btih": "f5456243299d9f00641417276d4fecd7f4fb483a",
-            "resolution": "2160",
-            "encoding": "none",
-            "private": false,
-            "peer": 36349,
-            "seed": 787
-        },
-        {
-            "id": 52,
-            "name": "Loki S01E06 WEB-DL 720p DUAL 5.1",
-            "btih": "8b57ab263a724245a51a6cff333d062a36258b9d",
-            "resolution": "720",
-            "encoding": "none",
-            "private": false,
-            "peer": 36336,
-            "seed": 13748
-        },
-        {
-            "id": 219,
-            "name": "[rutor.is]Loki.S01.400p.FilmsClub.TVShows",
-            "btih": "9bca61db4607cf91e70796fb199303ef1e0cce7f",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 35887,
-            "seed": 4333
-        },
-        {
-            "id": 31,
-            "name": "Loki - Temporada 1 [HDTV][Cap.106][Castellano][www.maxitorrent.com]",
-            "btih": "339cf6d6c18d88cf40d95820a940b123dce3fbc4",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 35823,
-            "seed": 17736
-        },
-        {
-            "id": 186,
-            "name": "Loki.S01E06.Per.tutti.i.tempi.Sempre.iTALIAN.MULTI.2160p.WEB.x265.10bit.HDR-MeM.mkv",
-            "btih": "692a4f0f869b06c18970c3c888bb9260ada13a77",
-            "resolution": "2160",
-            "encoding": "265",
-            "private": false,
-            "peer": 35798,
-            "seed": 3086
-        },
-        {
-            "id": 56,
-            "name": "Loki Season 1 Complete Dual Audio [Hindi-DD5.1] 720p HDRip ESubs - ExtraMovies",
-            "btih": "84f4a82173f68065bc74e712c5f0a1c6ee24d12a",
-            "resolution": "720",
-            "encoding": "none",
-            "private": false,
-            "peer": 35365,
-            "seed": 2146
-        },
-        {
-            "id": 87,
-            "name": "Loki.S01.2160p.WEB-DL.DDP5.1.Atmos.DV.x265-MIXED[rartv]-[rarbg.to]",
-            "btih": "6c26396db40f8281e07eaf4051ba44287f12221e",
-            "resolution": "2160",
-            "encoding": "265",
-            "private": false,
-            "peer": 35322,
-            "seed": 7695
-        },
-        {
-            "id": 228,
-            "name": "[rutor.is]Loki.S01.LostFilm",
-            "btih": "081ffb1b12670943d9550b1db9a8ab9b01fa57fa",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 34725,
-            "seed": 10494
-        },
-        {
-            "id": 246,
-            "name": "www.1TamilMV.one - LOKI (2021) S01 EP06 TRUE WEB-DL - 1080p - (DD+5.1 - 192Kbps) [Tam + Tel + Hin + Eng] - ESub.mkv",
-            "btih": "3cf223745bc85605aef360d58411d45ea31ddfb8",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 33848,
-            "seed": 749
-        },
-        {
-            "id": 28,
-            "name": "Loki - Season 1 (2021) WEBRip-AVC [Ukr.Eng] [Цікава Ідея]",
-            "btih": "1e85bbaa1638fb6f350ed9ffc3065d44265e2a66",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 33592,
-            "seed": 821
-        },
-        {
-            "id": 238,
-            "name": "[rutor.is]Loki_S01_2021_WEBRip_Gears_Media_ID1203039",
-            "btih": "a370fbef7eb1785ffd6a40f5a3eb50a178ebd98d",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 33511,
-            "seed": 1200
-        },
-        {
-            "id": 40,
-            "name": "Loki S01 720p 10bit DSNP WEBRip Hindi English AAC 5.1 x265 - mkvAnime [Telly]",
-            "btih": "293edde899dc15681900cd754438bf2f70f842e1",
-            "resolution": "720",
-            "encoding": "265",
-            "private": false,
-            "peer": 32777,
-            "seed": 1813
-        },
-        {
-            "id": 168,
-            "name": "Loki.S01E06.For.All.Time.Always.2160p.10bit.HDR.WEBRip.6CH.x265.HEVC-PSA.mkv",
-            "btih": "e7b7a01beefd2e872d74f8d468c362e9058ddaf8",
-            "resolution": "2160",
-            "encoding": "265",
-            "private": false,
-            "peer": 32676,
-            "seed": 2265
-        },
-        {
-            "id": 101,
-            "name": "Loki.S01.720p.WEB-DL.DDP5.1.H.265.DUAL-G4RiS",
-            "btih": "6103e198be9143f058ed5b847ada2414d044a029",
-            "resolution": "720",
-            "encoding": "265",
-            "private": false,
-            "peer": 32531,
-            "seed": 2117
-        },
-        {
-            "id": 268,
-            "name": "www.TamilBlasters.bz - Loki (2021) S01 E06 [720p TRUE-HD AVC x264 - [English + Hindi (DDP5.1 - 192Kbps)] - 300MB - Esub]",
-            "btih": "562e0981a4f826be9b89040718b76d2fb8b32007",
-            "resolution": "720",
-            "encoding": "264",
-            "private": false,
-            "peer": 32356,
-            "seed": 387
-        },
-        {
-            "id": 139,
-            "name": "Loki.S01E06.720p.FIX字幕侠",
-            "btih": "fb68eace0906b3b9c80e0cb321ca5e0f809e675e",
-            "resolution": "720",
-            "encoding": "none",
-            "private": false,
-            "peer": 32032,
-            "seed": 2124
-        },
-        {
-            "id": 68,
-            "name": "Loki.2021.S01.1080p.DSNP.WEB-DL.x265",
-            "btih": "057a2409b7cf4f172be821fa0fe1b0d6c3c1d8e0",
+            "id": 179,
+            "name": "Loki.S01E06.For.All.Time.Always.INTERNAL.1080p.10bit.WEBRip.6CH.x265.HEVC-PSA.mkv",
+            "btih": "f9d66559f50f2db2258f11f92a8ba6633fc6486d",
             "resolution": "1080",
             "encoding": "265",
             "private": false,
-            "peer": 31641,
-            "seed": 1712
+            "peer": 69995,
+            "seed": 3829
         },
         {
-            "id": 15,
-            "name": "Loki (2021) S01 1080p UHD 10bit [60FPS] DSNP WEBRip (HINDI-ENG) 6CH ~ MrStrange",
-            "btih": "96fbbad4b7e35658958e95fa48753467d5b42f8d",
+            "id": 213,
+            "name": "[rutor.is]Loki.S01.1080p.Kerob",
+            "btih": "50978cc9f1fe91b5b4aa3247ee06ffeb8d042aa4",
             "resolution": "1080",
             "encoding": "none",
             "private": false,
-            "peer": 31316,
-            "seed": 2182
+            "peer": 69427,
+            "seed": 7312
         },
         {
-            "id": 38,
-            "name": "Loki S01 1080p WEB x264 [Pahe.ph]",
-            "btih": "7a477e477164515e8a97f3a61815eae9ebbabb6f",
+            "id": 162,
+            "name": "Loki.S01E06.For.All.Time.Always.1080p.DSNP.WEB-DL.DDP5.1.H.264-EVO[TGx]",
+            "btih": "196e24370119b8bd2dd51e446b4805c79e6528d8",
             "resolution": "1080",
             "encoding": "264",
             "private": false,
-            "peer": 31150,
-            "seed": 1176
+            "peer": 66430,
+            "seed": 28938
         },
         {
-            "id": 17,
-            "name": "Loki (2021) S01 WEBDL 1080p ITA ENG SUBS",
-            "btih": "2ce202e0e1aa873cb1626f66b037a5a92a5a12da",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 30905,
-            "seed": 696
-        },
-        {
-            "id": 131,
-            "name": "Loki.S01E06.1080p.WEBRip.AR.DUB.mkv",
-            "btih": "e2e7ddb656faf564dfc9ff6a73ca24922dce22ec",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 30851,
-            "seed": 399
-        },
-        {
-            "id": 79,
-            "name": "Loki.S01.1080p.HS.DSNP.WEB-DL.Multi.DDP5.1.x264-ShiNobi",
-            "btih": "0fa022e39721ccc0d43a3ffa68ecae480f385d40",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 30370,
-            "seed": 77
-        },
-        {
-            "id": 81,
-            "name": "Loki.S01.1080p.WEB.H264-MIXED.DUAL-KALAX",
-            "btih": "762cbddc1ca7ee5084f5b536c6dcbc77d516a0f0",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 30360,
-            "seed": 1032
-        },
-        {
-            "id": 78,
-            "name": "Loki.S01.1080p.DSNP.WEBRip.DDP5.1.x265-MiXED.DUAL-Vinci",
-            "btih": "1752b07558746e4bd734f14432cd716f0ccebd2c",
-            "resolution": "1080",
-            "encoding": "265",
-            "private": false,
-            "peer": 30356,
-            "seed": 4102
-        },
-        {
-            "id": 21,
-            "name": "Loki (2021) S1E06 For All Time. Always. 1080p 10bit DSNP WEBRip x265 HEVC Hindi-Eng Atmos DDP 5.1 MSubs ~ TombDoc.mkv",
-            "btih": "75ebda738a5f5e46d9c949c990350e370828f99c",
-            "resolution": "1080",
-            "encoding": "265",
-            "private": false,
-            "peer": 30198,
-            "seed": 8445
-        },
-        {
-            "id": 188,
-            "name": "Loki.S01E06.WEB-DLRip.400p.ukr.2.0.HDREZKA.STUDIO.avi",
-            "btih": "8917504c0d304003c342a4a874ab24cda2b5e5e9",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 29858,
-            "seed": 232
-        },
-        {
-            "id": 118,
-            "name": "Loki.S01.x.264.WEBRip.1080p",
-            "btih": "c6d80874ec64548355a0167769547e3dbc84939f",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 29853,
-            "seed": 6561
-        },
-        {
-            "id": 71,
-            "name": "Loki.2021.Season.1.1080p.Complete.x265.[HashMiner]",
-            "btih": "cacbb443fadce2ebaa81b73fe973a55b3e01f825",
-            "resolution": "1080",
-            "encoding": "265",
-            "private": false,
-            "peer": 29127,
-            "seed": 8532
-        },
-        {
-            "id": 116,
-            "name": "Loki.S01.WEBRip.x264-ION10[eztv.re]",
-            "btih": "0de93b9a71b08874739337285ef9f59f3b0ec336",
+            "id": 94,
+            "name": "Loki.S01.400p.WEBRip.x264.AAC.Zetflix",
+            "btih": "07dde9b89adf837d8105fd01bc8e5513a3b24d52",
             "resolution": "sd",
             "encoding": "264",
             "private": false,
-            "peer": 29011,
-            "seed": 8497
+            "peer": 65930,
+            "seed": 766
         },
         {
-            "id": 138,
-            "name": "Loki.S01E06.480p.x264-ZMNT[eztv.re].mkv",
-            "btih": "2218d8a117fa26e087cd8e0ff89703786bc2af41",
-            "resolution": "sd",
-            "encoding": "264",
-            "private": false,
-            "peer": 28935,
-            "seed": 9080
-        },
-        {
-            "id": 30,
-            "name": "Loki - Temporada 1 [HDTV 720p][Cap.106][AC3 5.1 Castellano][www.maxitorrent.com]",
-            "btih": "3838cae5b9ecbae4475b18136b0e358970612617",
-            "resolution": "720",
-            "encoding": "none",
-            "private": false,
-            "peer": 28765,
-            "seed": 12868
-        },
-        {
-            "id": 63,
-            "name": "Loki.(2021).1080P-Ing.Subt-Cine-Calidad.Com (1)-1.mp4",
-            "btih": "be138c22a62e9174e33a03f682fa0de2cd731c24",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 28561,
-            "seed": 1766
-        },
-        {
-            "id": 148,
-            "name": "Loki.S01E06.720p.x265-ZMNT[ettv]",
-            "btih": "3dbcded55018fd311a9076649ef6c073fca11a34",
-            "resolution": "720",
-            "encoding": "265",
-            "private": false,
-            "peer": 28508,
-            "seed": 2356
-        },
-        {
-            "id": 220,
-            "name": "[rutor.is]Loki.S01.400p.Kerob",
-            "btih": "6de84d69ce38530e3ec812ca58252833b2bc0256",
+            "id": 1306,
+            "name": "multi-btih-10-2x-Loki.S01.LF_RUTOR",
+            "btih": "940db36b7bcaf3c9968c053862fad32ffaf9ae26",
             "resolution": "sd",
             "encoding": "none",
             "private": false,
-            "peer": 27438,
-            "seed": 2887
+            "peer": 64776,
+            "seed": 16274
         },
         {
-            "id": 69,
-            "name": "Loki.2021.S01.720p.WEB-DL.DSNP.H264.DD5.1[UKR].DDP5.1[ENG].SRT[ENG]-Hurtom",
-            "btih": "6b5a144bd774e8d7b989871493e5bdbc5d10afc5",
-            "resolution": "720",
-            "encoding": "264",
-            "private": false,
-            "peer": 27429,
-            "seed": 519
-        },
-        {
-            "id": 201,
-            "name": "Loki.s01e06.WEBDLRip.NewStudio.TV.avi",
-            "btih": "61984808a1e99adec8d6d95858cb87f71e06b370",
+            "id": 1315,
+            "name": "multi-btih-19-2x-[rutor.is]Loki.S01.WEBRip.Rus.HDRezka",
+            "btih": "0791c7cccf5386f4421ed337b403bdc0cd9c71bf",
             "resolution": "sd",
             "encoding": "none",
             "private": false,
-            "peer": 26736,
-            "seed": 497
-        },
-        {
-            "id": 279,
-            "name": "洛基.Loki.2021.EP01-06.4K.X264.AAC.English.特效中英双字.Mp4er",
-            "btih": "b48ba29ee272ad5ee05fcdf32bccaf05e5d6ee9b",
-            "resolution": "sd",
-            "encoding": "264",
-            "private": false,
-            "peer": 26656,
-            "seed": 3764
+            "peer": 64768,
+            "seed": 11737
         },
         {
             "id": 48,
@@ -1411,938 +825,18 @@
             "resolution": "720",
             "encoding": "264",
             "private": false,
-            "peer": 26567,
-            "seed": 8442
+            "peer": 64279,
+            "seed": 10240
         },
         {
-            "id": 65,
-            "name": "Loki.1X06.1080P-Dual-Cast-Cine-Calidad.Com.mp4",
-            "btih": "bf1a01d0906cca86240093fc6a928819b12a7bf6",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 26295,
-            "seed": 3972
-        },
-        {
-            "id": 2,
-            "name": "LOKI (2021) 720p S01 EP-[05-06] TRUE WEB-DL - (DD+5.1 - 192Kbps) [Tel + Tam + Hin + Eng] - ESub",
-            "btih": "0a6b45182397fc9dae1bbdbfa2f34c037eaf99d7",
-            "resolution": "720",
-            "encoding": "none",
-            "private": false,
-            "peer": 26074,
-            "seed": 13221
-        },
-        {
-            "id": 19,
-            "name": "Loki (2021) S01E06 1080p DSNP WEB-DL Latino.mkv",
-            "btih": "0360628e5f7953b7ea6c1df3663b1e208f8c59f1",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 25797,
-            "seed": 668
-        },
-        {
-            "id": 262,
-            "name": "www.TamilBlasters.bz - Loki (2021) S01 E06 [1080p TRUE-HD AVC x264 - UNTOUCHED - English (DD+5.1 ATMOS - 768Kbps) - 2GB - Esub]",
-            "btih": "54e4ed4e980f929ddd015de529159ddfff4afad6",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 25624,
-            "seed": 2267
-        },
-        {
-            "id": 226,
-            "name": "[rutor.is]Loki.S01.HDR.2160p.NewComers",
-            "btih": "2a7123cc841711c14d302cbbed90e07182a831d0",
+            "id": 217,
+            "name": "[rutor.is]Loki.S01.2160p.HDR.Kerob",
+            "btih": "54ef5f23e83d85ca7605c78433e5c9745424e78d",
             "resolution": "2160",
             "encoding": "none",
             "private": false,
-            "peer": 25182,
-            "seed": 1009
-        },
-        {
-            "id": 242,
-            "name": "loki 1080p dublado completo",
-            "btih": "1a7d5349f6f9ee00e576ee862c062be1092e0722",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 24671,
-            "seed": 133
-        },
-        {
-            "id": 143,
-            "name": "Loki.S01E06.720p.WEB.H264-EXPLOIT[ettv]",
-            "btih": "f2df6a57dda23b0997ac1cc77c3d9c3df9847e4b",
-            "resolution": "720",
-            "encoding": "264",
-            "private": false,
-            "peer": 24662,
-            "seed": 4466
-        },
-        {
-            "id": 214,
-            "name": "[rutor.is]Loki.S01.1080p.NewComers",
-            "btih": "36980c237a71e8a7cefea6cecc47f82b074ed097",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 24550,
-            "seed": 738
-        },
-        {
-            "id": 16,
-            "name": "Loki (2021) S01 Complete - HQ (1080p UHD HDR10 WEBRip 10bit Hindi-Eng DDP 5.1 Atmos x265) - PeruGuy",
-            "btih": "7e58554100a23a16e72a7919a2b3c00efd192de7",
-            "resolution": "1080",
-            "encoding": "265",
-            "private": false,
-            "peer": 24231,
-            "seed": 3019
-        },
-        {
-            "id": 281,
-            "name": "洛基.Loki.S01E06.1080p.DSNP.WEB-DL.DDP5.1.H.264.中英双字.7meiju.mp4",
-            "btih": "0c1dac913024f496ebdbdd04f1e16f2e184736fd",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 24154,
-            "seed": 571
-        },
-        {
-            "id": 203,
-            "name": "T1.Ep6.Loki.(2021).1080p.dual-cast-cinecalidad.Link.mp4",
-            "btih": "f55e4a99e686ddb4cda852a621228e6994d00074",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 23864,
-            "seed": 702
-        },
-        {
-            "id": 154,
-            "name": "Loki.S01E06.For.All.Time.Always.1080p.10bit.WEBRip.6CH.x265.HEVC-PSA.mkv",
-            "btih": "e4f6926511a89b91d624dc075a826b643dfba5dc",
-            "resolution": "1080",
-            "encoding": "265",
-            "private": false,
-            "peer": 23268,
-            "seed": 5008
-        },
-        {
-            "id": 175,
-            "name": "Loki.S01E06.For.All.Time.Always.720p.DSNP.WEBRip.DDP5.1.x264-TOMMY[TGx]",
-            "btih": "16fef82487fe0cb31569a0ec4de2625fbed5fab1",
-            "resolution": "720",
-            "encoding": "264",
-            "private": false,
-            "peer": 22988,
-            "seed": 1591
-        },
-        {
-            "id": 265,
-            "name": "www.TamilBlasters.bz - Loki (2021) S01 E06 [1080p TRUE-HD HEVC x265 - [English + Hindi (DD+5.1 - 192Kbps)] - 450MB - Esub]",
-            "btih": "94dd878d21695825f2afa28d6c414ec4c525c2a6",
-            "resolution": "1080",
-            "encoding": "265",
-            "private": false,
-            "peer": 22819,
-            "seed": 608
-        },
-        {
-            "id": 178,
-            "name": "Loki.S01E06.For.All.Time.Always.DSNP.1080p.DDP.5.1.x265.[HashMiner].mkv",
-            "btih": "49d7b66bcd719c137a443f816dd259bd27800bec",
-            "resolution": "1080",
-            "encoding": "265",
-            "private": false,
-            "peer": 22794,
-            "seed": 1081
-        },
-        {
-            "id": 174,
-            "name": "Loki.S01E06.For.All.Time.Always.720p.10bit.WEBRip.2CH.x265.HEVC-PSA.mkv",
-            "btih": "746a2c168a22b9a79067b78576736d7d5338a42d",
-            "resolution": "720",
-            "encoding": "265",
-            "private": false,
-            "peer": 22615,
-            "seed": 1185
-        },
-        {
-            "id": 25,
-            "name": "Loki - S01E06 - For All Time. Always..mkv",
-            "btih": "822241fd2a6048582a30d0fb20c463459c77b5fc",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 22503,
-            "seed": 1679
-        },
-        {
-            "id": 260,
-            "name": "www.TamilBlasters.bz - Loki (2021) S01 E06 Hindi + English - [1080p TRUE-HD AVC x264 - UNTOUCHED - DDP5.1(192kbps) - 1.2GB - Esub].mkv",
-            "btih": "58fdf59a47fa232b7038414eb22bee704ff6626f",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 22443,
-            "seed": 1491
-        },
-        {
-            "id": 267,
-            "name": "www.TamilBlasters.bz - Loki (2021) S01 E06 [4K HDR10 TRUE-UHD HEVC x265 - UNTOUCHED - [Tam + Tel + Hin (DDP5.1 - 192kbps) + Eng (DD+5.1 ATMOS - 768Kbps)] - 7.3GB - ESub]",
-            "btih": "288872e853528c8eb1763e277bd252393c875232",
-            "resolution": "sd",
-            "encoding": "265",
-            "private": false,
-            "peer": 22129,
-            "seed": 410
-        },
-        {
-            "id": 44,
-            "name": "Loki S01E06 -1080p x264 [Worldfree4u.Quest].mkv",
-            "btih": "c455b7087532fc3055a8bb25a915097e3aa300ac",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 21813,
-            "seed": 221
-        },
-        {
-            "id": 13,
-            "name": "Loki (2021) Movie Season1.720p_IceJackal",
-            "btih": "401c4961709537d112acdfc8e6651dc9e2d2130c",
-            "resolution": "720",
-            "encoding": "none",
-            "private": false,
-            "peer": 21588,
-            "seed": 1826
-        },
-        {
-            "id": 287,
-            "name": "로키.Loki.S01E06.완결.x264.한글자막",
-            "btih": "b442b2394756807dda8002614622c1131c92d7c2",
-            "resolution": "sd",
-            "encoding": "264",
-            "private": false,
-            "peer": 21557,
-            "seed": 4241
-        },
-        {
-            "id": 284,
-            "name": "洛基.Loki.S01E06.2160p.DSNP.WEB-DL.DDP5.1.H.264.中英双字.7meiju.mp4",
-            "btih": "315f225d6f4330572898ac1243d683e5d45f8254",
-            "resolution": "2160",
-            "encoding": "264",
-            "private": false,
-            "peer": 21419,
-            "seed": 774
-        },
-        {
-            "id": 132,
-            "name": "Loki.S01E06.2160p.DSNP.WEB-DL.DDP5.1.HDR.HEVC-Telly.DUAL-Vinci",
-            "btih": "b4ea1ada8996b77ca121bf7463a3ddbbd285d2ad",
-            "resolution": "2160",
-            "encoding": "none",
-            "private": false,
-            "peer": 20955,
-            "seed": 904
-        },
-        {
-            "id": 198,
-            "name": "Loki.s01.HD720p.WEBRip.Rus.BaibaKo.tv",
-            "btih": "ab77125a711031f43d8f1ffa168097789df01237",
-            "resolution": "720",
-            "encoding": "none",
-            "private": false,
-            "peer": 20766,
-            "seed": 565
-        },
-        {
-            "id": 96,
-            "name": "Loki.S01.720p.DSNP.WEBRip.DDP5.1.Atmos.x264-MIXED[eztv.re]",
-            "btih": "6bd9b86f328d5b3044ae80e16ce1bfd6055175ff",
-            "resolution": "720",
-            "encoding": "264",
-            "private": false,
-            "peer": 20635,
-            "seed": 4072
-        },
-        {
-            "id": 257,
-            "name": "www.1TamilMV.pw - LOKI (2021) S01 EP06 TRUE WEB-DL - 720p - AVC - (DD+5.1 - 192Kbps) [English + Hindi] - 546MB - ESub.mkv",
-            "btih": "9a33cfcfc905589e65e21c5b69b138be177e5f1b",
-            "resolution": "720",
-            "encoding": "none",
-            "private": false,
-            "peer": 20560,
-            "seed": 813
-        },
-        {
-            "id": 27,
-            "name": "Loki - Season 1 (2021) WEBRip 1080p [Ukr.Eng] [Цікава Ідея]",
-            "btih": "17474f1b0128037f01d87324b57f852fce5abf24",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 20385,
-            "seed": 1061
-        },
-        {
-            "id": 222,
-            "name": "[rutor.is]Loki.S01.720p.HD_Video",
-            "btih": "6318ec8d233e9c8f138d21f3ce32b894caa1ffc6",
-            "resolution": "720",
-            "encoding": "none",
-            "private": false,
-            "peer": 20378,
-            "seed": 5467
-        },
-        {
-            "id": 221,
-            "name": "[rutor.is]Loki.S01.400p.NewComers",
-            "btih": "995ad46bd6087c0ec388f57aac8295d93a3d5495",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 20327,
-            "seed": 899
-        },
-        {
-            "id": 100,
-            "name": "Loki.S01.720p.NewComers",
-            "btih": "90783e0baebb54f6cabdacdb415f53744f096ba0",
-            "resolution": "720",
-            "encoding": "none",
-            "private": false,
-            "peer": 20270,
-            "seed": 1184
-        },
-        {
-            "id": 126,
-            "name": "Loki.S01E06.1080p.WEB.H264-EXPLOIT[ettv]",
-            "btih": "34ed6152c428d5db5e92ba84d0e57dc4fe14d737",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 20239,
-            "seed": 7386
-        },
-        {
-            "id": 270,
-            "name": "www.TamilBlasters.bz - Loki (2021) S01 E06 [HQ HDRip AVC x264 - [English + Hindi] - 150MB - Esub]",
-            "btih": "203c50a93286ea5c1ee3dce2d9080cfef28fc166",
-            "resolution": "sd",
-            "encoding": "264",
-            "private": false,
-            "peer": 20014,
-            "seed": 463
-        },
-        {
-            "id": 61,
-            "name": "Loki temporada 1 completa [4K Webrip][2160p][HDR10][EAC3 5.1 Castellano-EAC3 5.1-Ingles+Subs][ES-EN]",
-            "btih": "8a0dd31921bca6f6e8f32d76ab9a8c353c924290",
-            "resolution": "2160",
-            "encoding": "none",
-            "private": false,
-            "peer": 20001,
-            "seed": 1380
-        },
-        {
-            "id": 9,
-            "name": "Loki  2021 S01 1080p DSNP WEBRIP DDP5.1 H265 HEVC ESUB -[Hasan]",
-            "btih": "f52ba60ff629aa12fd2d2483b8ecee0cc69bd457",
-            "resolution": "1080",
-            "encoding": "265",
-            "private": false,
-            "peer": 19803,
-            "seed": 199
-        },
-        {
-            "id": 45,
-            "name": "Loki S01E06 -720p x264 [Worldfree4u.Quest].AAC.ESub.mkv",
-            "btih": "bdb33dc639f69e93edbdaecffa4be61e47b8db5c",
-            "resolution": "720",
-            "encoding": "264",
-            "private": false,
-            "peer": 19344,
-            "seed": 1585
-        },
-        {
-            "id": 54,
-            "name": "Loki S01e01-06 (720p Ita Eng Spa 5.1 SubS) byMe7alh",
-            "btih": "8d40a2963fd2774a9fabfc81c11e56ecf518ad76",
-            "resolution": "720",
-            "encoding": "none",
-            "private": false,
-            "peer": 19196,
-            "seed": 2720
-        },
-        {
-            "id": 160,
-            "name": "Loki.S01E06.For.All.Time.Always.1080p.DSNP.WEB-DL.DDP5.1.H.264-EVO [IPT]",
-            "btih": "1bed24730717082ae5f0479ebabbdb91dc25d7d9",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": true,
-            "peer": 19137,
-            "seed": 10623
-        },
-        {
-            "id": 60,
-            "name": "Loki Vol. 2 (Episodes 4-6) FLAC (16bit-44.1kHz) EVIIIILL",
-            "btih": "63589f35d6fb85d01fed1d59be9fa8a8e602ca21",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 19041,
-            "seed": 237
-        },
-        {
-            "id": 167,
-            "name": "Loki.S01E06.For.All.Time.Always.1080p.HEVC.DSNP.WEB-DL.DDP5.1.G66.Repack.mkv",
-            "btih": "e8a6d2e1469a60bbc10937ec0966030670b414e9",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 18996,
-            "seed": 489
-        },
-        {
-            "id": 272,
-            "name": "Локи Loki Сезон 1 Серии 1-6 из 6 (Кейт Херрон Kate Herron) [2021, США, фантастика, фэнтези, боевик, приключения, WEB-DLR [rutracker-6066859]",
-            "btih": "f75dc06083ef3fa652852b75cb7fa5d73622b4c2",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 18777,
-            "seed": 3418
-        },
-        {
-            "id": 258,
-            "name": "www.1TamilMV.pw - LOKI (2021) S01 EP06 TRUE WEB-DL - 720p - HEVC - (DD+5.1 - 192Kbps) [English + Hindi] - 300MB - ESub.mkv",
-            "btih": "063469189d4efc4bbb8900a1822f33e2ebe807e8",
-            "resolution": "720",
-            "encoding": "none",
-            "private": false,
-            "peer": 18630,
-            "seed": 1553
-        },
-        {
-            "id": 8,
-            "name": "LOKI.Stagione.01.2160p.HDR10.zip",
-            "btih": "3d5f3ba656b7439f34529628080ef51860bdf8e4",
-            "resolution": "2160",
-            "encoding": "none",
-            "private": false,
-            "peer": 18607,
-            "seed": 108
-        },
-        {
-            "id": 199,
-            "name": "Loki.s01e06.WEBDL.1080p.NewStudio.TV.mkv",
-            "btih": "fd55b6fe154873541cb2ea8e822414665a50612b",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 18577,
-            "seed": 767
-        },
-        {
-            "id": 124,
-            "name": "Loki.S01E06.1080p.WEB.H264-EXPLOIT",
-            "btih": "389ff886e92f4092d2c0ac35e81daebe2769e1bb",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 18519,
-            "seed": 3249
-        },
-        {
-            "id": 41,
-            "name": "Loki S01 Dual (2160p WEBRip x265 10bit DolbyAtmos) - [Musafirboy]",
-            "btih": "f1d3618cb3d6e66f85f9aafe6e83d9ea22a48b2f",
-            "resolution": "2160",
-            "encoding": "265",
-            "private": false,
-            "peer": 18264,
-            "seed": 2487
-        },
-        {
-            "id": 125,
-            "name": "Loki.S01E06.1080p.WEB.H264-EXPLOIT[TGx]",
-            "btih": "f505b35b2114dd7380da83f4bcf64c6ea556dbf8",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 18244,
-            "seed": 1385
-        },
-        {
-            "id": 122,
-            "name": "Loki.S01E06.1080p.DSNP.WEB-DL.H264.AAC5.1-DRKHLM.mkv",
-            "btih": "a430369c925a4101a67f1196d81103e9d2336339",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 18222,
-            "seed": 327
-        },
-        {
-            "id": 84,
-            "name": "Loki.S01.2160p.10bit.HDR.WEBRip.6CH.x265.HEVC-PSA",
-            "btih": "a0b7ea863046f9ebaa935434758529dad381d321",
-            "resolution": "2160",
-            "encoding": "265",
-            "private": false,
-            "peer": 18041,
-            "seed": 1647
-        },
-        {
-            "id": 55,
-            "name": "Loki Season 1 Complete Dual Audio [Hindi-DD5.1] 1080p WEB-DL ESubs - ExtraMovies",
-            "btih": "57a82d877e676c24e1a3826417b6a98a9db633fd",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 17922,
-            "seed": 1622
-        },
-        {
-            "id": 266,
-            "name": "www.TamilBlasters.bz - Loki (2021) S01 E06 [4K HDR10 TRUE-UHD HEVC x265 - UNTOUCHED - [English (DD+5.1 ATMOS - 768Kbps) + Hindi (DD+5.1 - 192Kbps)] - 7.2GB - Esub]",
-            "btih": "b6ce9fab70a0cc786e84c26784eb498a95414b64",
-            "resolution": "sd",
-            "encoding": "265",
-            "private": false,
-            "peer": 17850,
-            "seed": 368
-        },
-        {
-            "id": 4,
-            "name": "LOKI (2021) S01 EP06 TRUE WEB-DL - 1080p - AVC - (DD+5.1 - 192Kbps) [English + Hindi] - 705MB - ESub.mkv",
-            "btih": "9bc368f55d4dacccb3f398d18015e57f76267572",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 17760,
-            "seed": 253
-        },
-        {
-            "id": 212,
-            "name": "[rutor.is]Loki.S01.1080p.FilmsClub.TVShows",
-            "btih": "fa0e8335768f46e038f2f492d4b81cad2150753e",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 17363,
-            "seed": 2493
-        },
-        {
-            "id": 51,
-            "name": "Loki S01E06 HDR10 (1080p UHD WEBRip 10bit Hindi-Eng DDP 5.1 Atmos x265) - PeruGuy",
-            "btih": "d1e82345f3baeb35afbac5a13d1bffd075accb95",
-            "resolution": "1080",
-            "encoding": "265",
-            "private": false,
-            "peer": 17034,
-            "seed": 3053
-        },
-        {
-            "id": 200,
-            "name": "Loki.s01e06.WEBDL.720p.NewStudio.TV.mkv",
-            "btih": "fca81dfbdfea8b4b80d52552e6ae8421b46c0ba6",
-            "resolution": "720",
-            "encoding": "none",
-            "private": false,
-            "peer": 16954,
-            "seed": 459
-        },
-        {
-            "id": 264,
-            "name": "www.TamilBlasters.bz - Loki (2021) S01 E06 [1080p TRUE-HD AVC x264 - [English + Hindi (DDP5.1 - 192Kbps)] - 700MB - Esub]",
-            "btih": "1bf45882c17eef73d6307dc8afe3eb5d77bd4935",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 16838,
-            "seed": 852
-        },
-        {
-            "id": 46,
-            "name": "Loki S01E06 1080p - ZeiZ.mkv",
-            "btih": "e35f203e7d9f71bda954c0cc05f97ed978bb7dfc",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 16810,
-            "seed": 1285
-        },
-        {
-            "id": 11,
-            "name": "Loki (2021) 720p S01E06 WEB-HDRip [Hindi ORG + English] x264 (DD 5.1) AAC ESub By Full4Movies.mkv",
-            "btih": "99ed45cd3d999ef98df8aa75b07796a084c2e022",
-            "resolution": "720",
-            "encoding": "264",
-            "private": false,
-            "peer": 16787,
-            "seed": 2113
-        },
-        {
-            "id": 204,
-            "name": "T1.Ep6.Loki.(2021).1080p.dual-lat-cinecalidad.Link.mp4",
-            "btih": "84ffbbfaf7b8383b6d5c590e91c5aa9162fabc2e",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 16624,
-            "seed": 1540
-        },
-        {
-            "id": 83,
-            "name": "Loki.S01.2021.1080p.DSNP.WEB-DL.DDP5.1.Atmos.H.264-KKYY@CHDBits",
-            "btih": "f7d1143dba6e88cf6fe7467c6b620e77749658a1",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 16482,
-            "seed": 62
-        },
-        {
-            "id": 119,
-            "name": "Loki.S01E06-deviltorrents.pl",
-            "btih": "b6fd487054a222a3def42d391b50874bf0d8c532",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 16415,
-            "seed": 4309
-        },
-        {
-            "id": 158,
-            "name": "Loki.S01E06.For.All.Time.Always.1080p.DSNP.WEB-DL.DDP5.1.Atmos.H.264-TBD.mkv",
-            "btih": "b94b219f0117c4ea87b2437ac0ae752cc7819918",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 16064,
-            "seed": 126
-        },
-        {
-            "id": 123,
-            "name": "Loki.S01E06.1080p.DSNP.WEB-DL.H265.AAC5.1-DRKHLM.mkv",
-            "btih": "9969d5bcd5fce9d62bf4fd878a4d472c9ad4371b",
-            "resolution": "1080",
-            "encoding": "265",
-            "private": false,
-            "peer": 15906,
-            "seed": 403
-        },
-        {
-            "id": 256,
-            "name": "www.1TamilMV.pw - LOKI (2021) S01 EP06 TRUE WEB-DL - 4K HDR - HEVC - [Eng (ATMOS) + Hin (DD+5.1 - 192Kbps)] - 7.2GB - ESub.mkv",
-            "btih": "c4c7431f14453766a5625bf3f582a19baa81945d",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 15798,
-            "seed": 469
-        },
-        {
-            "id": 282,
-            "name": "洛基.Loki.S01E06.1080p.H265-NEW字幕组.mp4",
-            "btih": "1a1b78645fb21621e70c2bf7559cda19405be1b6",
-            "resolution": "1080",
-            "encoding": "265",
-            "private": false,
-            "peer": 15375,
-            "seed": 1601
-        },
-        {
-            "id": 211,
-            "name": "[rutor.is]Loki.S01.1080p.D.Flarrow.Films",
-            "btih": "0f644269d78b753601d6a77b0c52236e2f9663de",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 15321,
-            "seed": 2581
-        },
-        {
-            "id": 223,
-            "name": "[rutor.is]Loki.S01.720p.Kerob",
-            "btih": "7d79a1262d7fa052a79832f44cb5d41ddf1633bb",
-            "resolution": "720",
-            "encoding": "none",
-            "private": false,
-            "peer": 15086,
-            "seed": 3938
-        },
-        {
-            "id": 254,
-            "name": "www.1TamilMV.pw - LOKI (2021) S01 EP06 TRUE WEB-DL - 1080p - HEVC - (DD+5.1 - 192Kbps) [English + Hindi] - 465MB - ESub.mkv",
-            "btih": "58287b49408cd6f1b6e217d41809e3cc6d0d4aab",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 15033,
-            "seed": 1044
-        },
-        {
-            "id": 141,
-            "name": "Loki.S01E06.720p.WEB.H264-EXPLOIT.mkv",
-            "btih": "0736f546136109a0660635e775eabbc682c00cf7",
-            "resolution": "720",
-            "encoding": "264",
-            "private": false,
-            "peer": 14704,
-            "seed": 143
-        },
-        {
-            "id": 153,
-            "name": "Loki.S01E06.For.All.Time.Always.1080p.10bit.DSNP.WEBRip.[DDP5.1-Hindi+DDP5.1-English].Atmos.MSubs.HEVC-The.PunisheR.mkv",
-            "btih": "aa9f368bbeb1995f87170e8d7d00dcba9f8cea2e",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 14618,
-            "seed": 1802
-        },
-        {
-            "id": 252,
-            "name": "www.1TamilMV.pw - LOKI (2021) S01 EP03 TRUE WEB-DL - 720p - HEVC - [Tam + Tel + Hin + Eng] - ESub.mkv",
-            "btih": "182dc0b129cd121592303f6b96e44dea7749377e",
-            "resolution": "720",
-            "encoding": "none",
-            "private": false,
-            "peer": 14335,
-            "seed": 950
-        },
-        {
-            "id": 185,
-            "name": "Loki.S01E06.Per.tutti.i.tempi.Sempre.iTALIAN.MULTI.1080p.WEB.H264-MEM.mkv",
-            "btih": "f9fa7bc7b8cb463c73283b6dd4d93dc2099a9a93",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 14326,
-            "seed": 6229
-        },
-        {
-            "id": 169,
-            "name": "Loki.S01E06.For.All.Time.Always.2160p.DSNP.WEB-DL.DDP5.1.Atmos.HDR.HEVC-CMRG [IPT]",
-            "btih": "a7cf677c3a67ede14a5def019b267db682c4fdef",
-            "resolution": "2160",
-            "encoding": "none",
-            "private": true,
-            "peer": 14016,
-            "seed": 7175
-        },
-        {
-            "id": 196,
-            "name": "Loki.S01e06.ITA.ENG.DSNP.WEBRip.XviD-Pir8",
-            "btih": "703e732de55e9d42490dd7bdcc4eb87386176319",
-            "resolution": "sd",
-            "encoding": "xvid",
-            "private": false,
-            "peer": 14015,
-            "seed": 552
-        },
-        {
-            "id": 241,
-            "name": "[ซี่รี่ย์ฝรั่ง] Loki S01 EP06. 2021 Disney+ [พากย์ไทย]ไฟล์เล็ก.mp4",
-            "btih": "c49ab95d16e9a0a6f00a3324aa15677be1fdc784",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 13830,
-            "seed": 372
-        },
-        {
-            "id": 12,
-            "name": "Loki (2021) Movie Season1.1080p_IceJackal",
-            "btih": "776ad82a19a47075b7b11e7d47c76979da4d0565",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 13820,
-            "seed": 2365
-        },
-        {
-            "id": 259,
-            "name": "www.1TamilMV.pw - LOKI (2021) S01E06 HQ HDRip - x264 - [Eng + Hin] - 150MB - ESub.mkv",
-            "btih": "93f77acf36c2cbbaa751efdd362f7282ad431a6f",
-            "resolution": "sd",
-            "encoding": "264",
-            "private": false,
-            "peer": 13659,
-            "seed": 175
-        },
-        {
-            "id": 156,
-            "name": "Loki.S01E06.For.All.Time.Always.1080p.DSNP.WEB-DL.DDP5.1.Atmos.H.264-CMRG.mkv",
-            "btih": "e4e5f9b5664a00f7156eb267f9d5c75154f739af",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 13416,
-            "seed": 1782
-        },
-        {
-            "id": 39,
-            "name": "Loki S01 1080p WEB x265 [Pahe.ph]",
-            "btih": "1566e8de10f7e6d12984ab14fcc5b3ab0f589615",
-            "resolution": "1080",
-            "encoding": "265",
-            "private": false,
-            "peer": 13289,
-            "seed": 1562
-        },
-        {
-            "id": 147,
-            "name": "Loki.S01E06.720p.x265-ZMNT",
-            "btih": "b11bed8fb14d1a66820a15a36a4b7a3c4dc00126",
-            "resolution": "720",
-            "encoding": "265",
-            "private": false,
-            "peer": 13173,
-            "seed": 1112
-        },
-        {
-            "id": 142,
-            "name": "Loki.S01E06.720p.WEB.H264-EXPLOIT[TGx]",
-            "btih": "c32beb22d758ed1820eb21cf01a21d59e1515024",
-            "resolution": "720",
-            "encoding": "264",
-            "private": false,
-            "peer": 13094,
-            "seed": 1147
-        },
-        {
-            "id": 195,
-            "name": "Loki.S01e06.For.All.Time.Always.720p.Dsnp.Web-Dl.x264-Tinymkv.xyz.mkv",
-            "btih": "9534ec2b4dc61dbf3d07dd72f8a5fc0ccb4eef5d",
-            "resolution": "720",
-            "encoding": "264",
-            "private": false,
-            "peer": 12908,
-            "seed": 1601
-        },
-        {
-            "id": 209,
-            "name": "[WILU]Loki S01 720P[wilu75]",
-            "btih": "8477331d8d5a7b23dc09b76a22e652bf246443a9",
-            "resolution": "720",
-            "encoding": "none",
-            "private": false,
-            "peer": 12702,
-            "seed": 2341
-        },
-        {
-            "id": 121,
-            "name": "Loki.S01E06.1080p.ColdFilm.mkv",
-            "btih": "7a4533ee1d702bb689dba73784db842e68213efa",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 12588,
-            "seed": 1093
-        },
-        {
-            "id": 216,
-            "name": "[rutor.is]Loki.S01.1080p.WEBRip.DD5.1.le-production",
-            "btih": "7aa76e90d5efeadbf24d5c7e95a7695841cafb62",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 12542,
-            "seed": 1069
-        },
-        {
-            "id": 130,
-            "name": "Loki.S01E06.1080p.WEB.H264.DUAL.THEPIRATEFILMES4K.ORG",
-            "btih": "6b96519c615b57e0b2efd2eb63ff7e7587921dcd",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 12295,
-            "seed": 1650
-        },
-        {
-            "id": 6,
-            "name": "LOKI 2021 S01 EP06 TRUE WEB-DL 720p AVC DD+5.1 - 192Kbps English + Hindi H264 ESub [BRAHMADAITTYA].mkv",
-            "btih": "98cea50a12bf54d43fa021797af19173d1df9ad1",
-            "resolution": "720",
-            "encoding": "264",
-            "private": false,
-            "peer": 12259,
-            "seed": 165
-        },
-        {
-            "id": 58,
-            "name": "Loki Season One YG",
-            "btih": "a651177ad4b1450b9b9a2c1212d59a69eeb79d0e",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 12202,
-            "seed": 1842
-        },
-        {
-            "id": 47,
-            "name": "Loki S01E06 4K UHD - ZeiZ.mkv",
-            "btih": "70a53484bd69034d5702f59a3a8e2134d20a8c25",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 12188,
-            "seed": 330
-        },
-        {
-            "id": 249,
-            "name": "www.1TamilMV.one - LOKI (2021) S01 EP06 TRUE WEB-DL - 720p - (DD+5.1 - 192Kbps) [Tam + Tel + Hin + Eng] - ESub.mkv",
-            "btih": "7a753c82ec2c37b4a8002fb8c4e11225c55cb184",
-            "resolution": "720",
-            "encoding": "none",
-            "private": false,
-            "peer": 11767,
-            "seed": 657
-        },
-        {
-            "id": 20,
-            "name": "Loki (2021) S01E06 For All Time. Always. 1080p 10bit DSNP WEBRip x265 HEVC Hindi-English DDP 5.1 Atmos ESubs ~ DarkHero.mkv",
-            "btih": "6c0d54c6992371fae7eb08c0ea1d9cbda23382d9",
-            "resolution": "1080",
-            "encoding": "265",
-            "private": false,
-            "peer": 11613,
-            "seed": 275
-        },
-        {
-            "id": 180,
-            "name": "Loki.S01E06.For.All.Time.Always.INTERNAL.720p.10bit.WEBRip.2CH.x265.HEVC-PSA.mkv",
-            "btih": "00e1a4c2f3c9a6a4df95d728ad723305967aa3ff",
-            "resolution": "720",
-            "encoding": "265",
-            "private": false,
-            "peer": 11465,
-            "seed": 790
-        },
-        {
-            "id": 150,
-            "name": "Loki.S01E06.For.All.Time..Always.1080p.HDR10.DSNP.WEB-DL.Multi.DDP5.1.HEVC-ShiNobi.mkv",
-            "btih": "3870835f07ecf13a38801c3fd0fa089e0f382f96",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 11286,
-            "seed": 871
+            "peer": 64129,
+            "seed": 3949
         },
         {
             "id": 227,
@@ -2351,208 +845,688 @@
             "resolution": "sd",
             "encoding": "none",
             "private": false,
-            "peer": 11254,
-            "seed": 3283
+            "peer": 63176,
+            "seed": 4713
         },
         {
-            "id": 1,
-            "name": "LOKI (2021) 1080p S01 EP-[05-06] TRUE WEB-DL - (DD+5.1 - 192Kbps) [Tel + Tam + Hin + Eng] - ESub",
-            "btih": "f6184174311f40a0cf6443d1c2ed9f0e9db20e79",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 11241,
-            "seed": 1940
-        },
-        {
-            "id": 248,
-            "name": "www.1TamilMV.one - LOKI (2021) S01 EP06 TRUE WEB-DL - 1080p - HEVC - (DD+5.1 - 192Kbps) [Tam + Tel + Hin + Eng (ATMOS)] - ESub.mkv",
-            "btih": "98f5477c69ad65a7972d79ed2ef1f2fad410b425",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 11010,
-            "seed": 722
-        },
-        {
-            "id": 107,
-            "name": "Loki.S01.DSNP.HDR.WEB-DL.2160p",
-            "btih": "e8cf33ac542f319f7965fa053a7b189296584f68",
-            "resolution": "2160",
-            "encoding": "none",
-            "private": false,
-            "peer": 10796,
-            "seed": 338
-        },
-        {
-            "id": 159,
-            "name": "Loki.S01E06.For.All.Time.Always.1080p.DSNP.WEB-DL.DDP5.1.G66.Repack.mkv",
-            "btih": "70cf2451bd8ce5612bd26bd6d4e880668e4eff3f",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 10747,
-            "seed": 1650
-        },
-        {
-            "id": 137,
-            "name": "Loki.S01E06.480p.x264-ZMNT[ettv]",
-            "btih": "7b0076e490bc224968c413fe3fc961b21606a663",
-            "resolution": "sd",
-            "encoding": "264",
-            "private": false,
-            "peer": 10615,
-            "seed": 374
-        },
-        {
-            "id": 112,
-            "name": "Loki.S01.WEBRip(HEVC)1080p",
-            "btih": "547ff4e46a2339a4b96171c2fa4f2783a11011f1",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 10555,
-            "seed": 1483
-        },
-        {
-            "id": 207,
-            "name": "Top10Torrent.Site - Loki S01 720P DSNP WEB-DL x264 DD 5.1 [English + Hindi] ESub-Top10Torrent.Site",
-            "btih": "8c2a043c7d92f401a2058502d0d26eeee9b78a24",
-            "resolution": "720",
-            "encoding": "264",
-            "private": false,
-            "peer": 10321,
-            "seed": 117
-        },
-        {
-            "id": 253,
-            "name": "www.1TamilMV.pw - LOKI (2021) S01 EP06 TRUE WEB-DL - 1080p - AVC - [Eng (ATMOS) + Hin (DD+5.1 - 192Kbps)] - 1.5GB - ESub.mkv",
-            "btih": "3262faea32cd9970d56528cf8867f02760cb90c0",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 10299,
-            "seed": 2703
-        },
-        {
-            "id": 285,
-            "name": "洛基.Loki.S01E06.720p.WEB-DL.x264-双语字幕精较版-深影字幕组.mp4",
-            "btih": "9a7664499e9d8f54e2a0bb201db375e27ca99ccc",
-            "resolution": "720",
-            "encoding": "264",
-            "private": false,
-            "peer": 10294,
-            "seed": 246
-        },
-        {
-            "id": 205,
-            "name": "T1.Ep6.Loki.(2021).4K.x265.dual-lat-cinecalidad.Link.mkv",
-            "btih": "f4e341eb5db48d8b07b13871375eab6fae261a7f",
-            "resolution": "sd",
-            "encoding": "265",
-            "private": false,
-            "peer": 10283,
-            "seed": 568
-        },
-        {
-            "id": 50,
-            "name": "Loki S01E06 For All Time Always 1080p DSNP WEBrip x265 DDP5 1 Atmos D0ct0rLew[SEV]",
-            "btih": "d1e9bf6ec18523567a10379d62753b8d8a043536",
+            "id": 280,
+            "name": "洛基.Loki.S01E06.1080p.60fps.H265-NEW字幕组.mp4",
+            "btih": "37e96c8968bfd54707c248b6cc9d1ff561cf70f4",
             "resolution": "1080",
             "encoding": "265",
             "private": false,
-            "peer": 10236,
-            "seed": 1524
+            "peer": 63084,
+            "seed": 14730
         },
         {
-            "id": 152,
-            "name": "Loki.S01E06.For.All.Time..Always.2160p.HDR10.HS.DSNP.WEB-DL.Multi.DDP5.1.HEVC-ShiNobi.mkv",
-            "btih": "9bfcd7c3a8bd731058e8f869b833ef36f03c3629",
+            "id": 228,
+            "name": "[rutor.is]Loki.S01.LostFilm",
+            "btih": "081ffb1b12670943d9550b1db9a8ab9b01fa57fa",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 61739,
+            "seed": 13896
+        },
+        {
+            "id": 1302,
+            "name": "multi-btih-6-2x-Loki.S01.720p.DSNP.WEBRip.DDP5.1.Atmos.x264-MIXED[rartv]-[rarbg.to]",
+            "btih": "cad5d54d91de2ec0bcd3995eebd69403bf244c65",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 61709,
+            "seed": 19368
+        },
+        {
+            "id": 5,
+            "name": "LOKI (2021) S01 EP06 TRUE WEB-DL - 720p - AVC - (DD+5.1 - 192Kbps) [English + Hindi] - 546MB - ESub.mkv",
+            "btih": "5505e66dd756435ffaaf603ce6fabb5946f9bc98",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 60410,
+            "seed": 1342
+        },
+        {
+            "id": 196,
+            "name": "Loki.S01e06.ITA.ENG.DSNP.WEBRip.XviD-Pir8",
+            "btih": "703e732de55e9d42490dd7bdcc4eb87386176319",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": false,
+            "peer": 59542,
+            "seed": 738
+        },
+        {
+            "id": 170,
+            "name": "Loki.S01E06.For.All.Time.Always.2160p.DSNP.WEB-DL.DDP5.1.Atmos.HDR.HEVC-CMRG[eztv.re].mkv",
+            "btih": "b472754a48a1ba340a408bb74618c37016d2198c",
             "resolution": "2160",
             "encoding": "none",
             "private": false,
-            "peer": 10184,
-            "seed": 61
+            "peer": 58702,
+            "seed": 20139
         },
         {
-            "id": 269,
-            "name": "www.TamilBlasters.bz - Loki (2021) S01 E06 [720p TRUE-HD AVC x264 - [English + Hindi (DDP5.1 - 192Kbps)] - 550MB - Esub]",
-            "btih": "9be67080a3cec1dfebc9c5df529a056d81f0e1f2",
-            "resolution": "720",
-            "encoding": "264",
+            "id": 231,
+            "name": "[rutor.is]Loki_(s01)_HDr_1080p",
+            "btih": "1207315db2405d03640b441d014ae1438bb7a462",
+            "resolution": "1080",
+            "encoding": "none",
             "private": false,
-            "peer": 9898,
-            "seed": 835
+            "peer": 57076,
+            "seed": 27664
         },
         {
-            "id": 74,
-            "name": "Loki.S01.1080p.DSNP.WEB-DL.DDP5.1.H.264-EVO",
-            "btih": "82e55b93e4fcff88d8cf26d50391e25805ff8047",
+            "id": 286,
+            "name": "洛基.Loki.S01E06.For.All.Time.Always.2160p.HD中英双字[66影视www.66Ys.Co].mp4",
+            "btih": "8d540b620770db6000aa31d6a3a39a796fe10355",
+            "resolution": "2160",
+            "encoding": "none",
+            "private": false,
+            "peer": 56669,
+            "seed": 12800
+        },
+        {
+            "id": 14,
+            "name": "Loki (2021) S01 1080p 10bit [60FPS] DSNP WEBRip (HINDI-ENG) 6CH ~ MrStrange",
+            "btih": "e837d53a5a99f7440ca4dda547b9b43f578ddf01",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 56400,
+            "seed": 270
+        },
+        {
+            "id": 201,
+            "name": "Loki.s01e06.WEBDLRip.NewStudio.TV.avi",
+            "btih": "61984808a1e99adec8d6d95858cb87f71e06b370",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 56345,
+            "seed": 755
+        },
+        {
+            "id": 157,
+            "name": "Loki.S01E06.For.All.Time.Always.1080p.DSNP.WEB-DL.DDP5.1.Atmos.H.264-CMRG[eztv.re].mkv",
+            "btih": "7188dc6cb74207f50d11a24696483457e14ce9ba",
             "resolution": "1080",
             "encoding": "264",
             "private": false,
-            "peer": 9768,
-            "seed": 1034
+            "peer": 55390,
+            "seed": 13166
         },
         {
-            "id": 224,
-            "name": "[rutor.is]Loki.S01.720p.NewComers",
-            "btih": "04a98430517426516a3fb959dacf74f1a0b9fb18",
+            "id": 161,
+            "name": "Loki.S01E06.For.All.Time.Always.1080p.DSNP.WEB-DL.DDP5.1.H.264-EVO.mkv",
+            "btih": "b4f9cf235c6aeace1fe5b54831e3287d676bbefd",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 54843,
+            "seed": 8250
+        },
+        {
+            "id": 277,
+            "name": "Локи Loki Сезон 1 Серии 1-6 из 6 (Кейт Херрон) [2021, США, Фантастика, фэнтези, боевик, приключения, WEB-DL 720p] 3 х MVO [rutracker-6066987]",
+            "btih": "14bd0a229c6c68b1b49ef95f5f8ebdfe8dcd2916",
             "resolution": "720",
             "encoding": "none",
             "private": false,
-            "peer": 9644,
-            "seed": 821
+            "peer": 54368,
+            "seed": 14497
         },
         {
-            "id": 189,
-            "name": "Loki.S01E06.WEB.x264-PHOENiX [IPT]",
-            "btih": "30706b4c12c199d8cbe3a827ac5040b3bf0e3c8b",
+            "id": 206,
+            "name": "TVBOXNOW Loki 洛基",
+            "btih": "a97dbdf70e18c0d9a5fdd157a5a79a2a555e986a",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 53332,
+            "seed": 478
+        },
+        {
+            "id": 266,
+            "name": "www.TamilBlasters.bz - Loki (2021) S01 E06 [4K HDR10 TRUE-UHD HEVC x265 - UNTOUCHED - [English (DD+5.1 ATMOS - 768Kbps) + Hindi (DD+5.1 - 192Kbps)] - 7.2GB - Esub]",
+            "btih": "b6ce9fab70a0cc786e84c26784eb498a95414b64",
+            "resolution": "sd",
+            "encoding": "265",
+            "private": false,
+            "peer": 51818,
+            "seed": 513
+        },
+        {
+            "id": 26,
+            "name": "Loki - S01E06 - For all time. Always [MULTI][WEB-Rip][1080p][H265_10b][HE-AAC_5.1] - K-LITY.mkv",
+            "btih": "d8bdb4bace5b7a0591190ede7bee1efff38fca3f",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 51207,
+            "seed": 547
+        },
+        {
+            "id": 283,
+            "name": "洛基.Loki.S01E06.1080p.HD中英双字[66影视www.66Ys.Co].mp4",
+            "btih": "5105f5faa3b7911c7837f678ffd70c9d2ff62285",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 51016,
+            "seed": 9761
+        },
+        {
+            "id": 49,
+            "name": "Loki S01E06 Dual (2160p WEBRip x265 10bit DolbyAtmos) - [Musafirboy]",
+            "btih": "16c693c996a1889b92ea18b8983f738db2cb1063",
+            "resolution": "2160",
+            "encoding": "265",
+            "private": false,
+            "peer": 50976,
+            "seed": 1375
+        },
+        {
+            "id": 31,
+            "name": "Loki - Temporada 1 [HDTV][Cap.106][Castellano][www.maxitorrent.com]",
+            "btih": "339cf6d6c18d88cf40d95820a940b123dce3fbc4",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 50931,
+            "seed": 21096
+        },
+        {
+            "id": 192,
+            "name": "Loki.S01E06.WEBRip.720p.rus.5.1.HDREZKA.STUDIO.mkv",
+            "btih": "dd9df32f03cfdf9cdf2ce845fa7d9bc20c9c3e79",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 49219,
+            "seed": 586
+        },
+        {
+            "id": 1305,
+            "name": "multi-btih-9-2x-Loki.S01.DSNP.HDR.WEB-DL.2160p.by.AKTEP",
+            "btih": "bf052adea9b6217dc531d733942c49111ac34e7f",
+            "resolution": "2160",
+            "encoding": "none",
+            "private": false,
+            "peer": 48933,
+            "seed": 5442
+        },
+        {
+            "id": 52,
+            "name": "Loki S01E06 WEB-DL 720p DUAL 5.1",
+            "btih": "8b57ab263a724245a51a6cff333d062a36258b9d",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 48887,
+            "seed": 15900
+        },
+        {
+            "id": 235,
+            "name": "[rutor.is]Loki_-_sezon_1_-_VHSnik_torrent",
+            "btih": "aa9695bb0fe4e62eebbf04562249312e5be8f2b5",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 48306,
+            "seed": 4452
+        },
+        {
+            "id": 168,
+            "name": "Loki.S01E06.For.All.Time.Always.2160p.10bit.HDR.WEBRip.6CH.x265.HEVC-PSA.mkv",
+            "btih": "e7b7a01beefd2e872d74f8d468c362e9058ddaf8",
+            "resolution": "2160",
+            "encoding": "265",
+            "private": false,
+            "peer": 47392,
+            "seed": 2811
+        },
+        {
+            "id": 79,
+            "name": "Loki.S01.1080p.HS.DSNP.WEB-DL.Multi.DDP5.1.x264-ShiNobi",
+            "btih": "0fa022e39721ccc0d43a3ffa68ecae480f385d40",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 47050,
+            "seed": 112
+        },
+        {
+            "id": 56,
+            "name": "Loki Season 1 Complete Dual Audio [Hindi-DD5.1] 720p HDRip ESubs - ExtraMovies",
+            "btih": "84f4a82173f68065bc74e712c5f0a1c6ee24d12a",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 46952,
+            "seed": 2966
+        },
+        {
+            "id": 78,
+            "name": "Loki.S01.1080p.DSNP.WEBRip.DDP5.1.x265-MiXED.DUAL-Vinci",
+            "btih": "1752b07558746e4bd734f14432cd716f0ccebd2c",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 46878,
+            "seed": 6048
+        },
+        {
+            "id": 18,
+            "name": "Loki (2021) S01E06 (2160p DSNP WEB-DL x265 HEVC 10bit Atmos DDP 5.1 Vyndros)",
+            "btih": "ae9bb05c9d3b3c4fdada11bc834b27c9c38606cf",
+            "resolution": "2160",
+            "encoding": "265",
+            "private": false,
+            "peer": 46597,
+            "seed": 2793
+        },
+        {
+            "id": 276,
+            "name": "Локи Loki Сезон 1 Серии 1-6 из 6 (Кейт Херрон) [2021, США, Фантастика, фэнтези, боевик, приключения, WEB-DL 1080p] Origina [rutracker-6066517]",
+            "btih": "5b70170e28f8b53aee584d2631e4b03c5eeac902",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 46363,
+            "seed": 4351
+        },
+        {
+            "id": 203,
+            "name": "T1.Ep6.Loki.(2021).1080p.dual-cast-cinecalidad.Link.mp4",
+            "btih": "f55e4a99e686ddb4cda852a621228e6994d00074",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 46323,
+            "seed": 979
+        },
+        {
+            "id": 71,
+            "name": "Loki.2021.Season.1.1080p.Complete.x265.[HashMiner]",
+            "btih": "cacbb443fadce2ebaa81b73fe973a55b3e01f825",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 46027,
+            "seed": 10908
+        },
+        {
+            "id": 186,
+            "name": "Loki.S01E06.Per.tutti.i.tempi.Sempre.iTALIAN.MULTI.2160p.WEB.x265.10bit.HDR-MeM.mkv",
+            "btih": "692a4f0f869b06c18970c3c888bb9260ada13a77",
+            "resolution": "2160",
+            "encoding": "265",
+            "private": false,
+            "peer": 45903,
+            "seed": 3847
+        },
+        {
+            "id": 268,
+            "name": "www.TamilBlasters.bz - Loki (2021) S01 E06 [720p TRUE-HD AVC x264 - [English + Hindi (DDP5.1 - 192Kbps)] - 300MB - Esub]",
+            "btih": "562e0981a4f826be9b89040718b76d2fb8b32007",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 45789,
+            "seed": 527
+        },
+        {
+            "id": 199,
+            "name": "Loki.s01e06.WEBDL.1080p.NewStudio.TV.mkv",
+            "btih": "fd55b6fe154873541cb2ea8e822414665a50612b",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 45562,
+            "seed": 1051
+        },
+        {
+            "id": 21,
+            "name": "Loki (2021) S1E06 For All Time. Always. 1080p 10bit DSNP WEBRip x265 HEVC Hindi-Eng Atmos DDP 5.1 MSubs ~ TombDoc.mkv",
+            "btih": "75ebda738a5f5e46d9c949c990350e370828f99c",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 45505,
+            "seed": 9747
+        },
+        {
+            "id": 1297,
+            "name": "multi-btih-1-2x-Loki S01 (2021) 720p WEBRip [Gears Media] (ID1203039)",
+            "btih": "8089a095139de2bf3684f27c280871f643cdf11e",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 45250,
+            "seed": 2487
+        },
+        {
+            "id": 219,
+            "name": "[rutor.is]Loki.S01.400p.FilmsClub.TVShows",
+            "btih": "9bca61db4607cf91e70796fb199303ef1e0cce7f",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 45037,
+            "seed": 5985
+        },
+        {
+            "id": 40,
+            "name": "Loki S01 720p 10bit DSNP WEBRip Hindi English AAC 5.1 x265 - mkvAnime [Telly]",
+            "btih": "293edde899dc15681900cd754438bf2f70f842e1",
+            "resolution": "720",
+            "encoding": "265",
+            "private": false,
+            "peer": 44750,
+            "seed": 2300
+        },
+        {
+            "id": 81,
+            "name": "Loki.S01.1080p.WEB.H264-MIXED.DUAL-KALAX",
+            "btih": "762cbddc1ca7ee5084f5b536c6dcbc77d516a0f0",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 44599,
+            "seed": 1458
+        },
+        {
+            "id": 1301,
+            "name": "multi-btih-5-2x-Loki.S01.2160p.WEBRip.DD+5.1.le-production",
+            "btih": "f5456243299d9f00641417276d4fecd7f4fb483a",
+            "resolution": "2160",
+            "encoding": "none",
+            "private": false,
+            "peer": 44078,
+            "seed": 929
+        },
+        {
+            "id": 287,
+            "name": "로키.Loki.S01E06.완결.x264.한글자막",
+            "btih": "b442b2394756807dda8002614622c1131c92d7c2",
             "resolution": "sd",
             "encoding": "264",
-            "private": true,
-            "peer": 9478,
-            "seed": 4443
+            "private": false,
+            "peer": 43742,
+            "seed": 6708
         },
         {
-            "id": 85,
-            "name": "Loki.S01.2160p.SDR.HS.DSNP.WEB-DL.Multi.DDP5.1.HEVC-ShiNobi",
-            "btih": "727ac83a811d7e1d62546a4eae59585ef6eff77b",
+            "id": 87,
+            "name": "Loki.S01.2160p.WEB-DL.DDP5.1.Atmos.DV.x265-MIXED[rartv]-[rarbg.to]",
+            "btih": "6c26396db40f8281e07eaf4051ba44287f12221e",
             "resolution": "2160",
-            "encoding": "none",
+            "encoding": "265",
             "private": false,
-            "peer": 9321,
-            "seed": 71
+            "peer": 43676,
+            "seed": 8927
         },
         {
-            "id": 251,
-            "name": "www.1TamilMV.one - LOKI (2021) S01 EP06 TRUE WEB-DL - 720p - HEVC - [Tam + Tel + Hin + Eng] - ESub.mkv",
-            "btih": "b1672a679346953b8476e096a9fd88cf79b603f7",
-            "resolution": "720",
-            "encoding": "none",
-            "private": false,
-            "peer": 9238,
-            "seed": 758
-        },
-        {
-            "id": 86,
-            "name": "Loki.S01.2160p.WEB-DL.DDP.5.1.Atmos.DoVi.by.DVT",
-            "btih": "cc4483ff040af2e523e5b35aa3fecef9128f529c",
-            "resolution": "2160",
-            "encoding": "none",
-            "private": false,
-            "peer": 9219,
-            "seed": 998
-        },
-        {
-            "id": 110,
-            "name": "Loki.S01.SweSub-EngSub.1080p.x264-Justiso",
-            "btih": "90be703c66db8b123acd95c03614847fe38acb53",
+            "id": 165,
+            "name": "Loki.S01E06.For.All.Time.Always.1080p.DSNP.WEBRip.DDP5.1.x264-TOMMY[TGx]",
+            "btih": "d593f3526a03cdea5f12115045c3db0c4643d876",
             "resolution": "1080",
             "encoding": "264",
             "private": false,
-            "peer": 9181,
-            "seed": 864
+            "peer": 43433,
+            "seed": 1950
+        },
+        {
+            "id": 76,
+            "name": "Loki.S01.1080p.DSNP.WEBRip.DDP5.1.Atmos.x264-MIXED[eztv.re]",
+            "btih": "7b71802c81079af0b63576684c51075f633b97a9",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 43417,
+            "seed": 12344
+        },
+        {
+            "id": 238,
+            "name": "[rutor.is]Loki_S01_2021_WEBRip_Gears_Media_ID1203039",
+            "btih": "a370fbef7eb1785ffd6a40f5a3eb50a178ebd98d",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 42929,
+            "seed": 1440
+        },
+        {
+            "id": 130,
+            "name": "Loki.S01E06.1080p.WEB.H264.DUAL.THEPIRATEFILMES4K.ORG",
+            "btih": "6b96519c615b57e0b2efd2eb63ff7e7587921dcd",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 42085,
+            "seed": 2033
+        },
+        {
+            "id": 17,
+            "name": "Loki (2021) S01 WEBDL 1080p ITA ENG SUBS",
+            "btih": "2ce202e0e1aa873cb1626f66b037a5a92a5a12da",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 41835,
+            "seed": 891
+        },
+        {
+            "id": 69,
+            "name": "Loki.2021.S01.720p.WEB-DL.DSNP.H264.DD5.1[UKR].DDP5.1[ENG].SRT[ENG]-Hurtom",
+            "btih": "6b5a144bd774e8d7b989871493e5bdbc5d10afc5",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 41029,
+            "seed": 876
+        },
+        {
+            "id": 54,
+            "name": "Loki S01e01-06 (720p Ita Eng Spa 5.1 SubS) byMe7alh",
+            "btih": "8d40a2963fd2774a9fabfc81c11e56ecf518ad76",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 40566,
+            "seed": 3670
+        },
+        {
+            "id": 101,
+            "name": "Loki.S01.720p.WEB-DL.DDP5.1.H.265.DUAL-G4RiS",
+            "btih": "6103e198be9143f058ed5b847ada2414d044a029",
+            "resolution": "720",
+            "encoding": "265",
+            "private": false,
+            "peer": 40524,
+            "seed": 3156
+        },
+        {
+            "id": 242,
+            "name": "loki 1080p dublado completo",
+            "btih": "1a7d5349f6f9ee00e576ee862c062be1092e0722",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 40189,
+            "seed": 204
+        },
+        {
+            "id": 116,
+            "name": "Loki.S01.WEBRip.x264-ION10[eztv.re]",
+            "btih": "0de93b9a71b08874739337285ef9f59f3b0ec336",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 40120,
+            "seed": 9541
+        },
+        {
+            "id": 246,
+            "name": "www.1TamilMV.one - LOKI (2021) S01 EP06 TRUE WEB-DL - 1080p - (DD+5.1 - 192Kbps) [Tam + Tel + Hin + Eng] - ESub.mkv",
+            "btih": "3cf223745bc85605aef360d58411d45ea31ddfb8",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 39780,
+            "seed": 1077
+        },
+        {
+            "id": 19,
+            "name": "Loki (2021) S01E06 1080p DSNP WEB-DL Latino.mkv",
+            "btih": "0360628e5f7953b7ea6c1df3663b1e208f8c59f1",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 39637,
+            "seed": 849
+        },
+        {
+            "id": 131,
+            "name": "Loki.S01E06.1080p.WEBRip.AR.DUB.mkv",
+            "btih": "e2e7ddb656faf564dfc9ff6a73ca24922dce22ec",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 39347,
+            "seed": 515
+        },
+        {
+            "id": 15,
+            "name": "Loki (2021) S01 1080p UHD 10bit [60FPS] DSNP WEBRip (HINDI-ENG) 6CH ~ MrStrange",
+            "btih": "96fbbad4b7e35658958e95fa48753467d5b42f8d",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 39276,
+            "seed": 2828
+        },
+        {
+            "id": 2,
+            "name": "LOKI (2021) 720p S01 EP-[05-06] TRUE WEB-DL - (DD+5.1 - 192Kbps) [Tel + Tam + Hin + Eng] - ESub",
+            "btih": "0a6b45182397fc9dae1bbdbfa2f34c037eaf99d7",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 38439,
+            "seed": 15697
+        },
+        {
+            "id": 257,
+            "name": "www.1TamilMV.pw - LOKI (2021) S01 EP06 TRUE WEB-DL - 720p - AVC - (DD+5.1 - 192Kbps) [English + Hindi] - 546MB - ESub.mkv",
+            "btih": "9a33cfcfc905589e65e21c5b69b138be177e5f1b",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 38217,
+            "seed": 1061
+        },
+        {
+            "id": 61,
+            "name": "Loki temporada 1 completa [4K Webrip][2160p][HDR10][EAC3 5.1 Castellano-EAC3 5.1-Ingles+Subs][ES-EN]",
+            "btih": "8a0dd31921bca6f6e8f32d76ab9a8c353c924290",
+            "resolution": "2160",
+            "encoding": "none",
+            "private": false,
+            "peer": 37865,
+            "seed": 1721
+        },
+        {
+            "id": 65,
+            "name": "Loki.1X06.1080P-Dual-Cast-Cine-Calidad.Com.mp4",
+            "btih": "bf1a01d0906cca86240093fc6a928819b12a7bf6",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 37828,
+            "seed": 5078
+        },
+        {
+            "id": 220,
+            "name": "[rutor.is]Loki.S01.400p.Kerob",
+            "btih": "6de84d69ce38530e3ec812ca58252833b2bc0256",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 37616,
+            "seed": 3445
+        },
+        {
+            "id": 138,
+            "name": "Loki.S01E06.480p.x264-ZMNT[eztv.re].mkv",
+            "btih": "2218d8a117fa26e087cd8e0ff89703786bc2af41",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 37461,
+            "seed": 10989
+        },
+        {
+            "id": 38,
+            "name": "Loki S01 1080p WEB x264 [Pahe.ph]",
+            "btih": "7a477e477164515e8a97f3a61815eae9ebbabb6f",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 37360,
+            "seed": 1488
+        },
+        {
+            "id": 28,
+            "name": "Loki - Season 1 (2021) WEBRip-AVC [Ukr.Eng] [Цікава Ідея]",
+            "btih": "1e85bbaa1638fb6f350ed9ffc3065d44265e2a66",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 36587,
+            "seed": 1142
+        },
+        {
+            "id": 63,
+            "name": "Loki.(2021).1080P-Ing.Subt-Cine-Calidad.Com (1)-1.mp4",
+            "btih": "be138c22a62e9174e33a03f682fa0de2cd731c24",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 36440,
+            "seed": 2208
+        },
+        {
+            "id": 139,
+            "name": "Loki.S01E06.720p.FIX字幕侠",
+            "btih": "fb68eace0906b3b9c80e0cb321ca5e0f809e675e",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 36300,
+            "seed": 2510
+        },
+        {
+            "id": 27,
+            "name": "Loki - Season 1 (2021) WEBRip 1080p [Ukr.Eng] [Цікава Ідея]",
+            "btih": "17474f1b0128037f01d87324b57f852fce5abf24",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 36261,
+            "seed": 1329
+        },
+        {
+            "id": 148,
+            "name": "Loki.S01E06.720p.x265-ZMNT[ettv]",
+            "btih": "3dbcded55018fd311a9076649ef6c073fca11a34",
+            "resolution": "720",
+            "encoding": "265",
+            "private": false,
+            "peer": 36114,
+            "seed": 2934
         },
         {
             "id": 120,
@@ -2561,28 +1535,258 @@
             "resolution": "1080",
             "encoding": "none",
             "private": false,
-            "peer": 8940,
-            "seed": 130
+            "peer": 35867,
+            "seed": 212
         },
         {
-            "id": 29,
-            "name": "Loki - Season 1 (AlexFilm) WEB-DLRip",
-            "btih": "b8befadb2e77499d3a1f74c646eb2207186ff729",
+            "id": 68,
+            "name": "Loki.2021.S01.1080p.DSNP.WEB-DL.x265",
+            "btih": "057a2409b7cf4f172be821fa0fe1b0d6c3c1d8e0",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 35671,
+            "seed": 2236
+        },
+        {
+            "id": 188,
+            "name": "Loki.S01E06.WEB-DLRip.400p.ukr.2.0.HDREZKA.STUDIO.avi",
+            "btih": "8917504c0d304003c342a4a874ab24cda2b5e5e9",
             "resolution": "sd",
             "encoding": "none",
             "private": false,
-            "peer": 8935,
-            "seed": 537
+            "peer": 35631,
+            "seed": 288
         },
         {
-            "id": 155,
-            "name": "Loki.S01E06.For.All.Time.Always.1080p.DSNP.WEB-DL.DDP5.1.Atmos.H.264-CMRG [IPT]",
-            "btih": "e67c85fd11e2e2651c4a3ead5aef1572f4eb6541",
+            "id": 154,
+            "name": "Loki.S01E06.For.All.Time.Always.1080p.10bit.WEBRip.6CH.x265.HEVC-PSA.mkv",
+            "btih": "e4f6926511a89b91d624dc075a826b643dfba5dc",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 35579,
+            "seed": 5869
+        },
+        {
+            "id": 118,
+            "name": "Loki.S01.x.264.WEBRip.1080p",
+            "btih": "c6d80874ec64548355a0167769547e3dbc84939f",
             "resolution": "1080",
             "encoding": "264",
-            "private": true,
-            "peer": 8830,
-            "seed": 4940
+            "private": false,
+            "peer": 35486,
+            "seed": 7619
+        },
+        {
+            "id": 279,
+            "name": "洛基.Loki.2021.EP01-06.4K.X264.AAC.English.特效中英双字.Mp4er",
+            "btih": "b48ba29ee272ad5ee05fcdf32bccaf05e5d6ee9b",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 35164,
+            "seed": 4896
+        },
+        {
+            "id": 262,
+            "name": "www.TamilBlasters.bz - Loki (2021) S01 E06 [1080p TRUE-HD AVC x264 - UNTOUCHED - English (DD+5.1 ATMOS - 768Kbps) - 2GB - Esub]",
+            "btih": "54e4ed4e980f929ddd015de529159ddfff4afad6",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 35016,
+            "seed": 2818
+        },
+        {
+            "id": 143,
+            "name": "Loki.S01E06.720p.WEB.H264-EXPLOIT[ettv]",
+            "btih": "f2df6a57dda23b0997ac1cc77c3d9c3df9847e4b",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 34792,
+            "seed": 5444
+        },
+        {
+            "id": 260,
+            "name": "www.TamilBlasters.bz - Loki (2021) S01 E06 Hindi + English - [1080p TRUE-HD AVC x264 - UNTOUCHED - DDP5.1(192kbps) - 1.2GB - Esub].mkv",
+            "btih": "58fdf59a47fa232b7038414eb22bee704ff6626f",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 34459,
+            "seed": 1743
+        },
+        {
+            "id": 204,
+            "name": "T1.Ep6.Loki.(2021).1080p.dual-lat-cinecalidad.Link.mp4",
+            "btih": "84ffbbfaf7b8383b6d5c590e91c5aa9162fabc2e",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 33380,
+            "seed": 2608
+        },
+        {
+            "id": 46,
+            "name": "Loki S01E06 1080p - ZeiZ.mkv",
+            "btih": "e35f203e7d9f71bda954c0cc05f97ed978bb7dfc",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 33062,
+            "seed": 1773
+        },
+        {
+            "id": 8,
+            "name": "LOKI.Stagione.01.2160p.HDR10.zip",
+            "btih": "3d5f3ba656b7439f34529628080ef51860bdf8e4",
+            "resolution": "2160",
+            "encoding": "none",
+            "private": false,
+            "peer": 32593,
+            "seed": 159
+        },
+        {
+            "id": 30,
+            "name": "Loki - Temporada 1 [HDTV 720p][Cap.106][AC3 5.1 Castellano][www.maxitorrent.com]",
+            "btih": "3838cae5b9ecbae4475b18136b0e358970612617",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 32551,
+            "seed": 14754
+        },
+        {
+            "id": 25,
+            "name": "Loki - S01E06 - For All Time. Always..mkv",
+            "btih": "822241fd2a6048582a30d0fb20c463459c77b5fc",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 32491,
+            "seed": 1977
+        },
+        {
+            "id": 41,
+            "name": "Loki S01 Dual (2160p WEBRip x265 10bit DolbyAtmos) - [Musafirboy]",
+            "btih": "f1d3618cb3d6e66f85f9aafe6e83d9ea22a48b2f",
+            "resolution": "2160",
+            "encoding": "265",
+            "private": false,
+            "peer": 31971,
+            "seed": 3126
+        },
+        {
+            "id": 16,
+            "name": "Loki (2021) S01 Complete - HQ (1080p UHD HDR10 WEBRip 10bit Hindi-Eng DDP 5.1 Atmos x265) - PeruGuy",
+            "btih": "7e58554100a23a16e72a7919a2b3c00efd192de7",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 30960,
+            "seed": 4039
+        },
+        {
+            "id": 267,
+            "name": "www.TamilBlasters.bz - Loki (2021) S01 E06 [4K HDR10 TRUE-UHD HEVC x265 - UNTOUCHED - [Tam + Tel + Hin (DDP5.1 - 192kbps) + Eng (DD+5.1 ATMOS - 768Kbps)] - 7.3GB - ESub]",
+            "btih": "288872e853528c8eb1763e277bd252393c875232",
+            "resolution": "sd",
+            "encoding": "265",
+            "private": false,
+            "peer": 30923,
+            "seed": 681
+        },
+        {
+            "id": 265,
+            "name": "www.TamilBlasters.bz - Loki (2021) S01 E06 [1080p TRUE-HD HEVC x265 - [English + Hindi (DD+5.1 - 192Kbps)] - 450MB - Esub]",
+            "btih": "94dd878d21695825f2afa28d6c414ec4c525c2a6",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 30647,
+            "seed": 707
+        },
+        {
+            "id": 226,
+            "name": "[rutor.is]Loki.S01.HDR.2160p.NewComers",
+            "btih": "2a7123cc841711c14d302cbbed90e07182a831d0",
+            "resolution": "2160",
+            "encoding": "none",
+            "private": false,
+            "peer": 30609,
+            "seed": 1224
+        },
+        {
+            "id": 4,
+            "name": "LOKI (2021) S01 EP06 TRUE WEB-DL - 1080p - AVC - (DD+5.1 - 192Kbps) [English + Hindi] - 705MB - ESub.mkv",
+            "btih": "9bc368f55d4dacccb3f398d18015e57f76267572",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 30352,
+            "seed": 346
+        },
+        {
+            "id": 119,
+            "name": "Loki.S01E06-deviltorrents.pl",
+            "btih": "b6fd487054a222a3def42d391b50874bf0d8c532",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 30318,
+            "seed": 4949
+        },
+        {
+            "id": 281,
+            "name": "洛基.Loki.S01E06.1080p.DSNP.WEB-DL.DDP5.1.H.264.中英双字.7meiju.mp4",
+            "btih": "0c1dac913024f496ebdbdd04f1e16f2e184736fd",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 30070,
+            "seed": 714
+        },
+        {
+            "id": 60,
+            "name": "Loki Vol. 2 (Episodes 4-6) FLAC (16bit-44.1kHz) EVIIIILL",
+            "btih": "63589f35d6fb85d01fed1d59be9fa8a8e602ca21",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 29893,
+            "seed": 359
+        },
+        {
+            "id": 158,
+            "name": "Loki.S01E06.For.All.Time.Always.1080p.DSNP.WEB-DL.DDP5.1.Atmos.H.264-TBD.mkv",
+            "btih": "b94b219f0117c4ea87b2437ac0ae752cc7819918",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 29844,
+            "seed": 197
+        },
+        {
+            "id": 214,
+            "name": "[rutor.is]Loki.S01.1080p.NewComers",
+            "btih": "36980c237a71e8a7cefea6cecc47f82b074ed097",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 29609,
+            "seed": 913
+        },
+        {
+            "id": 270,
+            "name": "www.TamilBlasters.bz - Loki (2021) S01 E06 [HQ HDRip AVC x264 - [English + Hindi] - 150MB - Esub]",
+            "btih": "203c50a93286ea5c1ee3dce2d9080cfef28fc166",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 29116,
+            "seed": 532
         },
         {
             "id": 140,
@@ -2591,8 +1795,418 @@
             "resolution": "720",
             "encoding": "none",
             "private": false,
-            "peer": 8445,
-            "seed": 915
+            "peer": 29050,
+            "seed": 1160
+        },
+        {
+            "id": 100,
+            "name": "Loki.S01.720p.NewComers",
+            "btih": "90783e0baebb54f6cabdacdb415f53744f096ba0",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 28911,
+            "seed": 1496
+        },
+        {
+            "id": 13,
+            "name": "Loki (2021) Movie Season1.720p_IceJackal",
+            "btih": "401c4961709537d112acdfc8e6651dc9e2d2130c",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 28725,
+            "seed": 2704
+        },
+        {
+            "id": 211,
+            "name": "[rutor.is]Loki.S01.1080p.D.Flarrow.Films",
+            "btih": "0f644269d78b753601d6a77b0c52236e2f9663de",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 27869,
+            "seed": 3297
+        },
+        {
+            "id": 126,
+            "name": "Loki.S01E06.1080p.WEB.H264-EXPLOIT[ettv]",
+            "btih": "34ed6152c428d5db5e92ba84d0e57dc4fe14d737",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 27658,
+            "seed": 8597
+        },
+        {
+            "id": 132,
+            "name": "Loki.S01E06.2160p.DSNP.WEB-DL.DDP5.1.HDR.HEVC-Telly.DUAL-Vinci",
+            "btih": "b4ea1ada8996b77ca121bf7463a3ddbbd285d2ad",
+            "resolution": "2160",
+            "encoding": "none",
+            "private": false,
+            "peer": 27616,
+            "seed": 1162
+        },
+        {
+            "id": 47,
+            "name": "Loki S01E06 4K UHD - ZeiZ.mkv",
+            "btih": "70a53484bd69034d5702f59a3a8e2134d20a8c25",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 27515,
+            "seed": 496
+        },
+        {
+            "id": 178,
+            "name": "Loki.S01E06.For.All.Time.Always.DSNP.1080p.DDP.5.1.x265.[HashMiner].mkv",
+            "btih": "49d7b66bcd719c137a443f816dd259bd27800bec",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 26874,
+            "seed": 1545
+        },
+        {
+            "id": 258,
+            "name": "www.1TamilMV.pw - LOKI (2021) S01 EP06 TRUE WEB-DL - 720p - HEVC - (DD+5.1 - 192Kbps) [English + Hindi] - 300MB - ESub.mkv",
+            "btih": "063469189d4efc4bbb8900a1822f33e2ebe807e8",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 26563,
+            "seed": 1725
+        },
+        {
+            "id": 11,
+            "name": "Loki (2021) 720p S01E06 WEB-HDRip [Hindi ORG + English] x264 (DD 5.1) AAC ESub By Full4Movies.mkv",
+            "btih": "99ed45cd3d999ef98df8aa75b07796a084c2e022",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 26229,
+            "seed": 2567
+        },
+        {
+            "id": 174,
+            "name": "Loki.S01E06.For.All.Time.Always.720p.10bit.WEBRip.2CH.x265.HEVC-PSA.mkv",
+            "btih": "746a2c168a22b9a79067b78576736d7d5338a42d",
+            "resolution": "720",
+            "encoding": "265",
+            "private": false,
+            "peer": 26096,
+            "seed": 1476
+        },
+        {
+            "id": 221,
+            "name": "[rutor.is]Loki.S01.400p.NewComers",
+            "btih": "995ad46bd6087c0ec388f57aac8295d93a3d5495",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 26086,
+            "seed": 1145
+        },
+        {
+            "id": 96,
+            "name": "Loki.S01.720p.DSNP.WEBRip.DDP5.1.Atmos.x264-MIXED[eztv.re]",
+            "btih": "6bd9b86f328d5b3044ae80e16ce1bfd6055175ff",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 26079,
+            "seed": 5112
+        },
+        {
+            "id": 45,
+            "name": "Loki S01E06 -720p x264 [Worldfree4u.Quest].AAC.ESub.mkv",
+            "btih": "bdb33dc639f69e93edbdaecffa4be61e47b8db5c",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 25988,
+            "seed": 1873
+        },
+        {
+            "id": 167,
+            "name": "Loki.S01E06.For.All.Time.Always.1080p.HEVC.DSNP.WEB-DL.DDP5.1.G66.Repack.mkv",
+            "btih": "e8a6d2e1469a60bbc10937ec0966030670b414e9",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 25769,
+            "seed": 703
+        },
+        {
+            "id": 222,
+            "name": "[rutor.is]Loki.S01.720p.HD_Video",
+            "btih": "6318ec8d233e9c8f138d21f3ce32b894caa1ffc6",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 25359,
+            "seed": 6878
+        },
+        {
+            "id": 264,
+            "name": "www.TamilBlasters.bz - Loki (2021) S01 E06 [1080p TRUE-HD AVC x264 - [English + Hindi (DDP5.1 - 192Kbps)] - 700MB - Esub]",
+            "btih": "1bf45882c17eef73d6307dc8afe3eb5d77bd4935",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 25056,
+            "seed": 1061
+        },
+        {
+            "id": 39,
+            "name": "Loki S01 1080p WEB x265 [Pahe.ph]",
+            "btih": "1566e8de10f7e6d12984ab14fcc5b3ab0f589615",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 25038,
+            "seed": 1924
+        },
+        {
+            "id": 175,
+            "name": "Loki.S01E06.For.All.Time.Always.720p.DSNP.WEBRip.DDP5.1.x264-TOMMY[TGx]",
+            "btih": "16fef82487fe0cb31569a0ec4de2625fbed5fab1",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 24939,
+            "seed": 2173
+        },
+        {
+            "id": 272,
+            "name": "Локи Loki Сезон 1 Серии 1-6 из 6 (Кейт Херрон Kate Herron) [2021, США, фантастика, фэнтези, боевик, приключения, WEB-DLR [rutracker-6066859]",
+            "btih": "f75dc06083ef3fa652852b75cb7fa5d73622b4c2",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 24912,
+            "seed": 4357
+        },
+        {
+            "id": 284,
+            "name": "洛基.Loki.S01E06.2160p.DSNP.WEB-DL.DDP5.1.H.264.中英双字.7meiju.mp4",
+            "btih": "315f225d6f4330572898ac1243d683e5d45f8254",
+            "resolution": "2160",
+            "encoding": "264",
+            "private": false,
+            "peer": 24632,
+            "seed": 872
+        },
+        {
+            "id": 256,
+            "name": "www.1TamilMV.pw - LOKI (2021) S01 EP06 TRUE WEB-DL - 4K HDR - HEVC - [Eng (ATMOS) + Hin (DD+5.1 - 192Kbps)] - 7.2GB - ESub.mkv",
+            "btih": "c4c7431f14453766a5625bf3f582a19baa81945d",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 24629,
+            "seed": 644
+        },
+        {
+            "id": 251,
+            "name": "www.1TamilMV.one - LOKI (2021) S01 EP06 TRUE WEB-DL - 720p - HEVC - [Tam + Tel + Hin + Eng] - ESub.mkv",
+            "btih": "b1672a679346953b8476e096a9fd88cf79b603f7",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 24596,
+            "seed": 1001
+        },
+        {
+            "id": 259,
+            "name": "www.1TamilMV.pw - LOKI (2021) S01E06 HQ HDRip - x264 - [Eng + Hin] - 150MB - ESub.mkv",
+            "btih": "93f77acf36c2cbbaa751efdd362f7282ad431a6f",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 24535,
+            "seed": 304
+        },
+        {
+            "id": 198,
+            "name": "Loki.s01.HD720p.WEBRip.Rus.BaibaKo.tv",
+            "btih": "ab77125a711031f43d8f1ffa168097789df01237",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 24372,
+            "seed": 740
+        },
+        {
+            "id": 55,
+            "name": "Loki Season 1 Complete Dual Audio [Hindi-DD5.1] 1080p WEB-DL ESubs - ExtraMovies",
+            "btih": "57a82d877e676c24e1a3826417b6a98a9db633fd",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 24143,
+            "seed": 2035
+        },
+        {
+            "id": 125,
+            "name": "Loki.S01E06.1080p.WEB.H264-EXPLOIT[TGx]",
+            "btih": "f505b35b2114dd7380da83f4bcf64c6ea556dbf8",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 24069,
+            "seed": 1646
+        },
+        {
+            "id": 185,
+            "name": "Loki.S01E06.Per.tutti.i.tempi.Sempre.iTALIAN.MULTI.1080p.WEB.H264-MEM.mkv",
+            "btih": "f9fa7bc7b8cb463c73283b6dd4d93dc2099a9a93",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 23805,
+            "seed": 7507
+        },
+        {
+            "id": 44,
+            "name": "Loki S01E06 -1080p x264 [Worldfree4u.Quest].mkv",
+            "btih": "c455b7087532fc3055a8bb25a915097e3aa300ac",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 23755,
+            "seed": 283
+        },
+        {
+            "id": 160,
+            "name": "Loki.S01E06.For.All.Time.Always.1080p.DSNP.WEB-DL.DDP5.1.H.264-EVO [IPT]",
+            "btih": "1bed24730717082ae5f0479ebabbdb91dc25d7d9",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 23226,
+            "seed": 12296
+        },
+        {
+            "id": 83,
+            "name": "Loki.S01.2021.1080p.DSNP.WEB-DL.DDP5.1.Atmos.H.264-KKYY@CHDBits",
+            "btih": "f7d1143dba6e88cf6fe7467c6b620e77749658a1",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 22740,
+            "seed": 74
+        },
+        {
+            "id": 123,
+            "name": "Loki.S01E06.1080p.DSNP.WEB-DL.H265.AAC5.1-DRKHLM.mkv",
+            "btih": "9969d5bcd5fce9d62bf4fd878a4d472c9ad4371b",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 22536,
+            "seed": 497
+        },
+        {
+            "id": 212,
+            "name": "[rutor.is]Loki.S01.1080p.FilmsClub.TVShows",
+            "btih": "fa0e8335768f46e038f2f492d4b81cad2150753e",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 22431,
+            "seed": 3146
+        },
+        {
+            "id": 9,
+            "name": "Loki  2021 S01 1080p DSNP WEBRIP DDP5.1 H265 HEVC ESUB -[Hasan]",
+            "btih": "f52ba60ff629aa12fd2d2483b8ecee0cc69bd457",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 21732,
+            "seed": 212
+        },
+        {
+            "id": 141,
+            "name": "Loki.S01E06.720p.WEB.H264-EXPLOIT.mkv",
+            "btih": "0736f546136109a0660635e775eabbc682c00cf7",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 21244,
+            "seed": 202
+        },
+        {
+            "id": 124,
+            "name": "Loki.S01E06.1080p.WEB.H264-EXPLOIT",
+            "btih": "389ff886e92f4092d2c0ac35e81daebe2769e1bb",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 21125,
+            "seed": 3719
+        },
+        {
+            "id": 121,
+            "name": "Loki.S01E06.1080p.ColdFilm.mkv",
+            "btih": "7a4533ee1d702bb689dba73784db842e68213efa",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 21122,
+            "seed": 1445
+        },
+        {
+            "id": 122,
+            "name": "Loki.S01E06.1080p.DSNP.WEB-DL.H264.AAC5.1-DRKHLM.mkv",
+            "btih": "a430369c925a4101a67f1196d81103e9d2336339",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 20860,
+            "seed": 382
+        },
+        {
+            "id": 51,
+            "name": "Loki S01E06 HDR10 (1080p UHD WEBRip 10bit Hindi-Eng DDP 5.1 Atmos x265) - PeruGuy",
+            "btih": "d1e82345f3baeb35afbac5a13d1bffd075accb95",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 20848,
+            "seed": 3403
+        },
+        {
+            "id": 107,
+            "name": "Loki.S01.DSNP.HDR.WEB-DL.2160p",
+            "btih": "e8cf33ac542f319f7965fa053a7b189296584f68",
+            "resolution": "2160",
+            "encoding": "none",
+            "private": false,
+            "peer": 20480,
+            "seed": 437
+        },
+        {
+            "id": 84,
+            "name": "Loki.S01.2160p.10bit.HDR.WEBRip.6CH.x265.HEVC-PSA",
+            "btih": "a0b7ea863046f9ebaa935434758529dad381d321",
+            "resolution": "2160",
+            "encoding": "265",
+            "private": false,
+            "peer": 20431,
+            "seed": 2060
+        },
+        {
+            "id": 252,
+            "name": "www.1TamilMV.pw - LOKI (2021) S01 EP03 TRUE WEB-DL - 720p - HEVC - [Tam + Tel + Hin + Eng] - ESub.mkv",
+            "btih": "182dc0b129cd121592303f6b96e44dea7749377e",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 19876,
+            "seed": 1104
         },
         {
             "id": 255,
@@ -2601,238 +2215,138 @@
             "resolution": "1080",
             "encoding": "none",
             "private": false,
-            "peer": 8302,
-            "seed": 475
+            "peer": 19827,
+            "seed": 763
         },
         {
-            "id": 261,
-            "name": "www.TamilBlasters.bz - Loki (2021) S01 E06 [1080p TRUE-HD AVC x264 - UNTOUCHED - English (DD+5.1 ATMOS - 768Kbps) - 1.3GB - Esub]",
-            "btih": "49621d3e90d4158a4ae5409bf5b6e5c0f35ed0a8",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 8228,
-            "seed": 827
-        },
-        {
-            "id": 164,
-            "name": "Loki.S01E06.For.All.Time.Always.1080p.DSNP.WEB-DL.DDP5.1.H.264-EVO~1.mkv",
-            "btih": "225d01ac52f9864412fa0a05309c416c165a030d",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 8186,
-            "seed": 42
-        },
-        {
-            "id": 151,
-            "name": "Loki.S01E06.For.All.Time..Always.1080p.HS.DSNP.WEB-DL.Multi.DDP5.1.x264-ShiNobi.mkv",
-            "btih": "9213448219066bc77b3d9080c3e02f05008abc71",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 8034,
-            "seed": 151
-        },
-        {
-            "id": 24,
-            "name": "Loki (2021) [S01E06] [Finał] [480p] [WEB-DL] [XviD] [Napisy PL] [Kamila]",
-            "btih": "52799890a5ab02d6aa0fdc8040bf0cfceaef8610",
-            "resolution": "sd",
-            "encoding": "xvid",
-            "private": false,
-            "peer": 7819,
-            "seed": 682
-        },
-        {
-            "id": 274,
-            "name": "Локи Loki Сезон 1 Серии 1-6 из 6 (Кейт Херрон) [2021, США, Фантастика, фэнтези, боевик, приключения, HEVC, HDR, WEB-DL 216 [rutracker-6069565]",
-            "btih": "281170f88fd67d45fd36794e6a8d1760064e5b32",
-            "resolution": "sd",
+            "id": 200,
+            "name": "Loki.s01e06.WEBDL.720p.NewStudio.TV.mkv",
+            "btih": "fca81dfbdfea8b4b80d52552e6ae8421b46c0ba6",
+            "resolution": "720",
             "encoding": "none",
             "private": false,
-            "peer": 6903,
-            "seed": 1830
+            "peer": 19645,
+            "seed": 611
         },
         {
-            "id": 171,
-            "name": "Loki.S01E06.For.All.Time.Always.2160p.DSNP.WEB-DL.HDR.DDP.5.1.ITA.ENG.G66.mkv",
-            "btih": "bf52f61e413bf17b849dcbcf7ce013e401612e1a",
-            "resolution": "2160",
+            "id": 254,
+            "name": "www.1TamilMV.pw - LOKI (2021) S01 EP06 TRUE WEB-DL - 1080p - HEVC - (DD+5.1 - 192Kbps) [English + Hindi] - 465MB - ESub.mkv",
+            "btih": "58287b49408cd6f1b6e217d41809e3cc6d0d4aab",
+            "resolution": "1080",
             "encoding": "none",
             "private": false,
-            "peer": 6741,
-            "seed": 1022
+            "peer": 19503,
+            "seed": 1309
         },
         {
-            "id": 197,
-            "name": "Loki.Season.1.1080p.10bit.WEBRip.6CH.x265.HEVC-PSA",
-            "btih": "50fa1f96ec60806d672496f53a973680ff23d6f7",
+            "id": 223,
+            "name": "[rutor.is]Loki.S01.720p.Kerob",
+            "btih": "7d79a1262d7fa052a79832f44cb5d41ddf1633bb",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 19419,
+            "seed": 4520
+        },
+        {
+            "id": 248,
+            "name": "www.1TamilMV.one - LOKI (2021) S01 EP06 TRUE WEB-DL - 1080p - HEVC - (DD+5.1 - 192Kbps) [Tam + Tel + Hin + Eng (ATMOS)] - ESub.mkv",
+            "btih": "98f5477c69ad65a7972d79ed2ef1f2fad410b425",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 19224,
+            "seed": 1058
+        },
+        {
+            "id": 209,
+            "name": "[WILU]Loki S01 720P[wilu75]",
+            "btih": "8477331d8d5a7b23dc09b76a22e652bf246443a9",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 19182,
+            "seed": 2928
+        },
+        {
+            "id": 112,
+            "name": "Loki.S01.WEBRip(HEVC)1080p",
+            "btih": "547ff4e46a2339a4b96171c2fa4f2783a11011f1",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 19069,
+            "seed": 1939
+        },
+        {
+            "id": 20,
+            "name": "Loki (2021) S01E06 For All Time. Always. 1080p 10bit DSNP WEBRip x265 HEVC Hindi-English DDP 5.1 Atmos ESubs ~ DarkHero.mkv",
+            "btih": "6c0d54c6992371fae7eb08c0ea1d9cbda23382d9",
             "resolution": "1080",
             "encoding": "265",
             "private": false,
-            "peer": 6654,
-            "seed": 1251
+            "peer": 19055,
+            "seed": 344
         },
         {
-            "id": 32,
-            "name": "Loki 1X6 HDTV XviD Castellano www.torrent.nom.es",
-            "btih": "ec042744d015a11501d818480c31651b707682c5",
-            "resolution": "sd",
-            "encoding": "xvid",
-            "private": false,
-            "peer": 6558,
-            "seed": 773
-        },
-        {
-            "id": 244,
-            "name": "www.1TamilMV.one - LOKI (2021) S01 EP06 HQ HDRip - x264 - [Tam + Tel + Hin + Eng] - 200MB - ESub.mkv",
-            "btih": "e701edcc7dd89cef17065d32049442a0f6c44e1e",
-            "resolution": "sd",
-            "encoding": "264",
-            "private": false,
-            "peer": 6554,
-            "seed": 590
-        },
-        {
-            "id": 73,
-            "name": "Loki.S01.1080p.DSNP.WEB-DL.DDP5.1.H.264-EVO [IPT]",
-            "btih": "f36aab85cd23a943bda24793df716be11d047ea4",
+            "id": 282,
+            "name": "洛基.Loki.S01E06.1080p.H265-NEW字幕组.mp4",
+            "btih": "1a1b78645fb21621e70c2bf7559cda19405be1b6",
             "resolution": "1080",
-            "encoding": "264",
-            "private": true,
-            "peer": 6305,
-            "seed": 3367
-        },
-        {
-            "id": 10,
-            "name": "Loki (2021) 480p S01E06 WEB-HDRip [Hindi ORG + English] x264 (DD 2.0) AAC ESub By Full4Movies.mkv",
-            "btih": "f7374ce6a590732b358f7744592c52a7bfb522cc",
-            "resolution": "sd",
-            "encoding": "264",
+            "encoding": "265",
             "private": false,
-            "peer": 6296,
-            "seed": 675
+            "peer": 18512,
+            "seed": 1893
         },
         {
-            "id": 67,
-            "name": "Loki.2021.(Season 01).1080p.AlexFilm",
-            "btih": "56eb2aa0ddf4fb8605e6e5eb7725236fe6ea0ea6",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 6238,
-            "seed": 565
-        },
-        {
-            "id": 243,
-            "name": "www.1TamilMV.one - LOKI (2021) S01 EP05 TRUE WEB-DL - 1080p - AVC - (DD+5.1 - 192Kbps) [Tam + Tel + Hin + Eng] - ESub.mkv",
-            "btih": "d33d5dd7251c3dc5b94e55e1e16aafe395d6551f",
-            "resolution": "1080",
-            "encoding": "none",
-            "private": false,
-            "peer": 6209,
-            "seed": 481
-        },
-        {
-            "id": 108,
-            "name": "Loki.S01.ITA.ENG.DSNP.WEBRip.XviD-Pir8",
-            "btih": "06c565703fca1363bf9bc866ce32a37e2ea3cacf",
-            "resolution": "sd",
-            "encoding": "xvid",
-            "private": false,
-            "peer": 6073,
-            "seed": 749
-        },
-        {
-            "id": 187,
-            "name": "Loki.S01E06.SPANiSH.1080p.DSNP.WEB-DL.x264-dem3nt3",
-            "btih": "54679f038164b9fcdc6ff1eb7ce95a4ce3e7abca",
-            "resolution": "1080",
-            "encoding": "264",
-            "private": false,
-            "peer": 5988,
-            "seed": 231
-        },
-        {
-            "id": 35,
-            "name": "Loki 2021 [ Bolly4u.org] WEB-DL Dual Audio S01E06 720p.mkv",
-            "btih": "ff7cf0b5340c1d46cdacee888a94cb7a5cbb8149",
+            "id": 142,
+            "name": "Loki.S01E06.720p.WEB.H264-EXPLOIT[TGx]",
+            "btih": "c32beb22d758ed1820eb21cf01a21d59e1515024",
             "resolution": "720",
-            "encoding": "none",
-            "private": false,
-            "peer": 5945,
-            "seed": 190
-        },
-        {
-            "id": 250,
-            "name": "www.1TamilMV.one - LOKI (2021) S01 EP06 TRUE WEB-DL - 720p - HEVC - (DD+5.1 - 192Kbps) [Tam + Tel + Hin + Eng] - ESub.mkv",
-            "btih": "96ace8664c94e9977cca10f63cbf42c4793bd6fc",
-            "resolution": "720",
-            "encoding": "none",
-            "private": false,
-            "peer": 5912,
-            "seed": 619
-        },
-        {
-            "id": 75,
-            "name": "Loki.S01.1080p.DSNP.WEB-DL.DDPA5.1.H.264-TOMMY",
-            "btih": "d3f9de269eb9c95d6e8e3a42c4cdabfff1ec2851",
-            "resolution": "1080",
             "encoding": "264",
             "private": false,
-            "peer": 5374,
-            "seed": 36
+            "peer": 18407,
+            "seed": 1499
         },
         {
-            "id": 43,
-            "name": "Loki S01 web 10bit ddp hevc-d3g [IPT]",
-            "btih": "b28f3537499c572cfa8ae3a785ad8a75d18404bd",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": true,
-            "peer": 5205,
-            "seed": 2568
-        },
-        {
-            "id": 7,
-            "name": "LOKI [2021] [SEZON 1] [E06] [FINAL] [NAPISY-PL]",
-            "btih": "0c98d1d90c98f9ddb459e7fd854286a31b592d28",
+            "id": 58,
+            "name": "Loki Season One YG",
+            "btih": "a651177ad4b1450b9b9a2c1212d59a69eeb79d0e",
             "resolution": "sd",
             "encoding": "none",
             "private": false,
-            "peer": 5187,
-            "seed": 665
+            "peer": 18049,
+            "seed": 2363
         },
         {
-            "id": 33,
-            "name": "Loki 1ª Temporada  Disco 1.iso",
-            "btih": "076ec20870a3245d620f44951a19bff00f605984",
+            "id": 205,
+            "name": "T1.Ep6.Loki.(2021).4K.x265.dual-lat-cinecalidad.Link.mkv",
+            "btih": "f4e341eb5db48d8b07b13871375eab6fae261a7f",
             "resolution": "sd",
-            "encoding": "none",
+            "encoding": "265",
             "private": false,
-            "peer": 5096,
-            "seed": 83
+            "peer": 17851,
+            "seed": 768
         },
         {
-            "id": 240,
-            "name": "[ซี่รี่ย์ฝรั่ง] Loki S01 EP06. 2021 Disney+ [พากย์ไทย].mp4",
-            "btih": "5b18986e784a0120cdeb08a044bf569e0dd1e4fe",
-            "resolution": "sd",
-            "encoding": "none",
-            "private": false,
-            "peer": 5022,
-            "seed": 175
-        },
-        {
-            "id": 247,
-            "name": "www.1TamilMV.one - LOKI (2021) S01 EP06 TRUE WEB-DL - 1080p - AVC - (DD+5.1 - 192Kbps) [Tam + Tel + Hin + Eng] - ESub.mkv",
-            "btih": "bb88905c8da58b2d054c3dcd05309ddbf6de0a4b",
+            "id": 1,
+            "name": "LOKI (2021) 1080p S01 EP-[05-06] TRUE WEB-DL - (DD+5.1 - 192Kbps) [Tel + Tam + Hin + Eng] - ESub",
+            "btih": "f6184174311f40a0cf6443d1c2ed9f0e9db20e79",
             "resolution": "1080",
             "encoding": "none",
             "private": false,
-            "peer": 4976,
-            "seed": 632
+            "peer": 17654,
+            "seed": 3291
+        },
+        {
+            "id": 216,
+            "name": "[rutor.is]Loki.S01.1080p.WEBRip.DD5.1.le-production",
+            "btih": "7aa76e90d5efeadbf24d5c7e95a7695841cafb62",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 17489,
+            "seed": 1277
         },
         {
             "id": 102,
@@ -2841,58 +2355,128 @@
             "resolution": "720",
             "encoding": "none",
             "private": false,
-            "peer": 4751,
-            "seed": 697
+            "peer": 17340,
+            "seed": 1139
         },
         {
-            "id": 34,
-            "name": "Loki 2021 S01 ViE WEB-DL 2160p DDP Atmos 5.1 HEVC-TOMMY",
-            "btih": "41dcb29f780d86018bebca70735d18f9ff955ce5",
-            "resolution": "2160",
-            "encoding": "none",
+            "id": 147,
+            "name": "Loki.S01E06.720p.x265-ZMNT",
+            "btih": "b11bed8fb14d1a66820a15a36a4b7a3c4dc00126",
+            "resolution": "720",
+            "encoding": "265",
             "private": false,
-            "peer": 4641,
-            "seed": 80
+            "peer": 17299,
+            "seed": 1397
         },
         {
-            "id": 113,
-            "name": "Loki.S01.WEBRip.1080",
-            "btih": "f42383178227c7a11f7a28ac26210dfb39552b15",
+            "id": 180,
+            "name": "Loki.S01E06.For.All.Time.Always.INTERNAL.720p.10bit.WEBRip.2CH.x265.HEVC-PSA.mkv",
+            "btih": "00e1a4c2f3c9a6a4df95d728ad723305967aa3ff",
+            "resolution": "720",
+            "encoding": "265",
+            "private": false,
+            "peer": 17242,
+            "seed": 946
+        },
+        {
+            "id": 269,
+            "name": "www.TamilBlasters.bz - Loki (2021) S01 E06 [720p TRUE-HD AVC x264 - [English + Hindi (DDP5.1 - 192Kbps)] - 550MB - Esub]",
+            "btih": "9be67080a3cec1dfebc9c5df529a056d81f0e1f2",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 17220,
+            "seed": 1028
+        },
+        {
+            "id": 12,
+            "name": "Loki (2021) Movie Season1.1080p_IceJackal",
+            "btih": "776ad82a19a47075b7b11e7d47c76979da4d0565",
             "resolution": "1080",
             "encoding": "none",
             "private": false,
-            "peer": 4497,
-            "seed": 348
+            "peer": 17184,
+            "seed": 3133
         },
         {
-            "id": 59,
-            "name": "Loki Vol. 1 (Episodes 1-3) FLAC (16bit-44.1kHz) EVIIIILL",
-            "btih": "0965bbd47838a8e34bde7bd206c696b8aeff6c70",
-            "resolution": "sd",
+            "id": 153,
+            "name": "Loki.S01E06.For.All.Time.Always.1080p.10bit.DSNP.WEBRip.[DDP5.1-Hindi+DDP5.1-English].Atmos.MSubs.HEVC-The.PunisheR.mkv",
+            "btih": "aa9f368bbeb1995f87170e8d7d00dcba9f8cea2e",
+            "resolution": "1080",
             "encoding": "none",
             "private": false,
-            "peer": 4252,
-            "seed": 475
+            "peer": 17023,
+            "seed": 2137
         },
         {
-            "id": 88,
-            "name": "Loki.S01.2160p.WEB-DL.x265.10bit.HDR.DDP5.1.Atmos-SWTYBLZ [IPT]",
-            "btih": "014261d95fc0e5cdc1f7a89e9e7d87259506c683",
+            "id": 169,
+            "name": "Loki.S01E06.For.All.Time.Always.2160p.DSNP.WEB-DL.DDP5.1.Atmos.HDR.HEVC-CMRG [IPT]",
+            "btih": "a7cf677c3a67ede14a5def019b267db682c4fdef",
             "resolution": "2160",
-            "encoding": "265",
+            "encoding": "none",
             "private": true,
-            "peer": 3374,
-            "seed": 1638
+            "peer": 16959,
+            "seed": 8284
         },
         {
-            "id": 191,
-            "name": "Loki.S01E06.WEBRip.400p.rus.2.0.HDREZKA.STUDIO.avi",
-            "btih": "634bb929c02af752191eaf5419c9f42e172f633e",
+            "id": 244,
+            "name": "www.1TamilMV.one - LOKI (2021) S01 EP06 HQ HDRip - x264 - [Tam + Tel + Hin + Eng] - 200MB - ESub.mkv",
+            "btih": "e701edcc7dd89cef17065d32049442a0f6c44e1e",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 16625,
+            "seed": 880
+        },
+        {
+            "id": 159,
+            "name": "Loki.S01E06.For.All.Time.Always.1080p.DSNP.WEB-DL.DDP5.1.G66.Repack.mkv",
+            "btih": "70cf2451bd8ce5612bd26bd6d4e880668e4eff3f",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 16506,
+            "seed": 2662
+        },
+        {
+            "id": 241,
+            "name": "[ซี่รี่ย์ฝรั่ง] Loki S01 EP06. 2021 Disney+ [พากย์ไทย]ไฟล์เล็ก.mp4",
+            "btih": "c49ab95d16e9a0a6f00a3324aa15677be1fdc784",
             "resolution": "sd",
             "encoding": "none",
             "private": false,
-            "peer": 3179,
-            "seed": 163
+            "peer": 16258,
+            "seed": 483
+        },
+        {
+            "id": 86,
+            "name": "Loki.S01.2160p.WEB-DL.DDP.5.1.Atmos.DoVi.by.DVT",
+            "btih": "cc4483ff040af2e523e5b35aa3fecef9128f529c",
+            "resolution": "2160",
+            "encoding": "none",
+            "private": false,
+            "peer": 16181,
+            "seed": 1611
+        },
+        {
+            "id": 207,
+            "name": "Top10Torrent.Site - Loki S01 720P DSNP WEB-DL x264 DD 5.1 [English + Hindi] ESub-Top10Torrent.Site",
+            "btih": "8c2a043c7d92f401a2058502d0d26eeee9b78a24",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 15800,
+            "seed": 168
+        },
+        {
+            "id": 156,
+            "name": "Loki.S01E06.For.All.Time.Always.1080p.DSNP.WEB-DL.DDP5.1.Atmos.H.264-CMRG.mkv",
+            "btih": "e4e5f9b5664a00f7156eb267f9d5c75154f739af",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 15595,
+            "seed": 2324
         },
         {
             "id": 3,
@@ -2901,48 +2485,298 @@
             "resolution": "720",
             "encoding": "none",
             "private": false,
-            "peer": 3123,
-            "seed": 225
+            "peer": 15557,
+            "seed": 378
         },
         {
-            "id": 245,
-            "name": "www.1TamilMV.one - LOKI (2021) S01 EP06 TRUE WEB-DL - 1080p - (DD+5.1 - 192Kbps) [Tam + Tel + Hin + Eng (ATMOS)] - ESub.mkv",
-            "btih": "400528252cb69ad8735239da7e905fa422860c13",
-            "resolution": "1080",
+            "id": 224,
+            "name": "[rutor.is]Loki.S01.720p.NewComers",
+            "btih": "04a98430517426516a3fb959dacf74f1a0b9fb18",
+            "resolution": "720",
             "encoding": "none",
             "private": false,
-            "peer": 3012,
-            "seed": 532
+            "peer": 15379,
+            "seed": 1071
         },
         {
-            "id": 263,
-            "name": "www.TamilBlasters.bz - Loki (2021) S01 E06 [1080p TRUE-HD AVC x264 - UNTOUCHED - [Tam + Tel + Hin] (DD+5.1(192Kbps) +English (DD+5.1 ATMOS - 768Kbps) - 2.2GB - Esub]",
-            "btih": "eeb352dcd8dd60d575d3efe5177c6e571b8eb0aa",
-            "resolution": "1080",
+            "id": 6,
+            "name": "LOKI 2021 S01 EP06 TRUE WEB-DL 720p AVC DD+5.1 - 192Kbps English + Hindi H264 ESub [BRAHMADAITTYA].mkv",
+            "btih": "98cea50a12bf54d43fa021797af19173d1df9ad1",
+            "resolution": "720",
             "encoding": "264",
             "private": false,
-            "peer": 2946,
-            "seed": 519
+            "peer": 15206,
+            "seed": 236
         },
         {
-            "id": 64,
-            "name": "Loki.(2021).S01.1080p.10bit.AMZN.WEBrip.E-AC3.DDP5.1.x265.HEVC-D0ct0rLew [SEV] (CzTitulky)",
-            "btih": "a97121121f34eaab2f990a850598a146bfa132d2",
+            "id": 29,
+            "name": "Loki - Season 1 (AlexFilm) WEB-DLRip",
+            "btih": "b8befadb2e77499d3a1f74c646eb2207186ff729",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 15013,
+            "seed": 700
+        },
+        {
+            "id": 195,
+            "name": "Loki.S01e06.For.All.Time.Always.720p.Dsnp.Web-Dl.x264-Tinymkv.xyz.mkv",
+            "btih": "9534ec2b4dc61dbf3d07dd72f8a5fc0ccb4eef5d",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 14977,
+            "seed": 1931
+        },
+        {
+            "id": 249,
+            "name": "www.1TamilMV.one - LOKI (2021) S01 EP06 TRUE WEB-DL - 720p - (DD+5.1 - 192Kbps) [Tam + Tel + Hin + Eng] - ESub.mkv",
+            "btih": "7a753c82ec2c37b4a8002fb8c4e11225c55cb184",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 14865,
+            "seed": 937
+        },
+        {
+            "id": 285,
+            "name": "洛基.Loki.S01E06.720p.WEB-DL.x264-双语字幕精较版-深影字幕组.mp4",
+            "btih": "9a7664499e9d8f54e2a0bb201db375e27ca99ccc",
+            "resolution": "720",
+            "encoding": "264",
+            "private": false,
+            "peer": 14120,
+            "seed": 423
+        },
+        {
+            "id": 50,
+            "name": "Loki S01E06 For All Time Always 1080p DSNP WEBrip x265 DDP5 1 Atmos D0ct0rLew[SEV]",
+            "btih": "d1e9bf6ec18523567a10379d62753b8d8a043536",
             "resolution": "1080",
             "encoding": "265",
             "private": false,
-            "peer": 2625,
-            "seed": 587
+            "peer": 13938,
+            "seed": 2179
         },
         {
-            "id": 202,
-            "name": "S01E06 Loki WEB-DL 1080p DUAL 5.1.mkv",
-            "btih": "77931113f5040411e6c3916b1b77c05345813382",
+            "id": 247,
+            "name": "www.1TamilMV.one - LOKI (2021) S01 EP06 TRUE WEB-DL - 1080p - AVC - (DD+5.1 - 192Kbps) [Tam + Tel + Hin + Eng] - ESub.mkv",
+            "btih": "bb88905c8da58b2d054c3dcd05309ddbf6de0a4b",
             "resolution": "1080",
             "encoding": "none",
             "private": false,
-            "peer": 2396,
-            "seed": 86
+            "peer": 13859,
+            "seed": 870
+        },
+        {
+            "id": 85,
+            "name": "Loki.S01.2160p.SDR.HS.DSNP.WEB-DL.Multi.DDP5.1.HEVC-ShiNobi",
+            "btih": "727ac83a811d7e1d62546a4eae59585ef6eff77b",
+            "resolution": "2160",
+            "encoding": "none",
+            "private": false,
+            "peer": 13801,
+            "seed": 88
+        },
+        {
+            "id": 137,
+            "name": "Loki.S01E06.480p.x264-ZMNT[ettv]",
+            "btih": "7b0076e490bc224968c413fe3fc961b21606a663",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 13616,
+            "seed": 542
+        },
+        {
+            "id": 110,
+            "name": "Loki.S01.SweSub-EngSub.1080p.x264-Justiso",
+            "btih": "90be703c66db8b123acd95c03614847fe38acb53",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 13616,
+            "seed": 1209
+        },
+        {
+            "id": 67,
+            "name": "Loki.2021.(Season 01).1080p.AlexFilm",
+            "btih": "56eb2aa0ddf4fb8605e6e5eb7725236fe6ea0ea6",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 13277,
+            "seed": 820
+        },
+        {
+            "id": 150,
+            "name": "Loki.S01E06.For.All.Time..Always.1080p.HDR10.DSNP.WEB-DL.Multi.DDP5.1.HEVC-ShiNobi.mkv",
+            "btih": "3870835f07ecf13a38801c3fd0fa089e0f382f96",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 13241,
+            "seed": 1122
+        },
+        {
+            "id": 253,
+            "name": "www.1TamilMV.pw - LOKI (2021) S01 EP06 TRUE WEB-DL - 1080p - AVC - [Eng (ATMOS) + Hin (DD+5.1 - 192Kbps)] - 1.5GB - ESub.mkv",
+            "btih": "3262faea32cd9970d56528cf8867f02760cb90c0",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 13104,
+            "seed": 3222
+        },
+        {
+            "id": 74,
+            "name": "Loki.S01.1080p.DSNP.WEB-DL.DDP5.1.H.264-EVO",
+            "btih": "82e55b93e4fcff88d8cf26d50391e25805ff8047",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 12967,
+            "seed": 1269
+        },
+        {
+            "id": 75,
+            "name": "Loki.S01.1080p.DSNP.WEB-DL.DDPA5.1.H.264-TOMMY",
+            "btih": "d3f9de269eb9c95d6e8e3a42c4cdabfff1ec2851",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 12864,
+            "seed": 50
+        },
+        {
+            "id": 274,
+            "name": "Локи Loki Сезон 1 Серии 1-6 из 6 (Кейт Херрон) [2021, США, Фантастика, фэнтези, боевик, приключения, HEVC, HDR, WEB-DL 216 [rutracker-6069565]",
+            "btih": "281170f88fd67d45fd36794e6a8d1760064e5b32",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 12859,
+            "seed": 2168
+        },
+        {
+            "id": 152,
+            "name": "Loki.S01E06.For.All.Time..Always.2160p.HDR10.HS.DSNP.WEB-DL.Multi.DDP5.1.HEVC-ShiNobi.mkv",
+            "btih": "9bfcd7c3a8bd731058e8f869b833ef36f03c3629",
+            "resolution": "2160",
+            "encoding": "none",
+            "private": false,
+            "peer": 12634,
+            "seed": 73
+        },
+        {
+            "id": 261,
+            "name": "www.TamilBlasters.bz - Loki (2021) S01 E06 [1080p TRUE-HD AVC x264 - UNTOUCHED - English (DD+5.1 ATMOS - 768Kbps) - 1.3GB - Esub]",
+            "btih": "49621d3e90d4158a4ae5409bf5b6e5c0f35ed0a8",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 12462,
+            "seed": 1003
+        },
+        {
+            "id": 24,
+            "name": "Loki (2021) [S01E06] [Finał] [480p] [WEB-DL] [XviD] [Napisy PL] [Kamila]",
+            "btih": "52799890a5ab02d6aa0fdc8040bf0cfceaef8610",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": false,
+            "peer": 12247,
+            "seed": 888
+        },
+        {
+            "id": 187,
+            "name": "Loki.S01E06.SPANiSH.1080p.DSNP.WEB-DL.x264-dem3nt3",
+            "btih": "54679f038164b9fcdc6ff1eb7ce95a4ce3e7abca",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 12155,
+            "seed": 382
+        },
+        {
+            "id": 10,
+            "name": "Loki (2021) 480p S01E06 WEB-HDRip [Hindi ORG + English] x264 (DD 2.0) AAC ESub By Full4Movies.mkv",
+            "btih": "f7374ce6a590732b358f7744592c52a7bfb522cc",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": false,
+            "peer": 12126,
+            "seed": 881
+        },
+        {
+            "id": 189,
+            "name": "Loki.S01E06.WEB.x264-PHOENiX [IPT]",
+            "btih": "30706b4c12c199d8cbe3a827ac5040b3bf0e3c8b",
+            "resolution": "sd",
+            "encoding": "264",
+            "private": true,
+            "peer": 12087,
+            "seed": 5306
+        },
+        {
+            "id": 151,
+            "name": "Loki.S01E06.For.All.Time..Always.1080p.HS.DSNP.WEB-DL.Multi.DDP5.1.x264-ShiNobi.mkv",
+            "btih": "9213448219066bc77b3d9080c3e02f05008abc71",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 11591,
+            "seed": 201
+        },
+        {
+            "id": 240,
+            "name": "[ซี่รี่ย์ฝรั่ง] Loki S01 EP06. 2021 Disney+ [พากย์ไทย].mp4",
+            "btih": "5b18986e784a0120cdeb08a044bf569e0dd1e4fe",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 11439,
+            "seed": 237
+        },
+        {
+            "id": 35,
+            "name": "Loki 2021 [ Bolly4u.org] WEB-DL Dual Audio S01E06 720p.mkv",
+            "btih": "ff7cf0b5340c1d46cdacee888a94cb7a5cbb8149",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 11174,
+            "seed": 272
+        },
+        {
+            "id": 243,
+            "name": "www.1TamilMV.one - LOKI (2021) S01 EP05 TRUE WEB-DL - 1080p - AVC - (DD+5.1 - 192Kbps) [Tam + Tel + Hin + Eng] - ESub.mkv",
+            "btih": "d33d5dd7251c3dc5b94e55e1e16aafe395d6551f",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 11173,
+            "seed": 684
+        },
+        {
+            "id": 155,
+            "name": "Loki.S01E06.For.All.Time.Always.1080p.DSNP.WEB-DL.DDP5.1.Atmos.H.264-CMRG [IPT]",
+            "btih": "e67c85fd11e2e2651c4a3ead5aef1572f4eb6541",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 10802,
+            "seed": 5777
+        },
+        {
+            "id": 32,
+            "name": "Loki 1X6 HDTV XviD Castellano www.torrent.nom.es",
+            "btih": "ec042744d015a11501d818480c31651b707682c5",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": false,
+            "peer": 10494,
+            "seed": 994
         },
         {
             "id": 184,
@@ -2951,8 +2785,188 @@
             "resolution": "2160",
             "encoding": "265",
             "private": false,
-            "peer": 2011,
-            "seed": 79
+            "peer": 10377,
+            "seed": 142
+        },
+        {
+            "id": 250,
+            "name": "www.1TamilMV.one - LOKI (2021) S01 EP06 TRUE WEB-DL - 720p - HEVC - (DD+5.1 - 192Kbps) [Tam + Tel + Hin + Eng] - ESub.mkv",
+            "btih": "96ace8664c94e9977cca10f63cbf42c4793bd6fc",
+            "resolution": "720",
+            "encoding": "none",
+            "private": false,
+            "peer": 9989,
+            "seed": 861
+        },
+        {
+            "id": 197,
+            "name": "Loki.Season.1.1080p.10bit.WEBRip.6CH.x265.HEVC-PSA",
+            "btih": "50fa1f96ec60806d672496f53a973680ff23d6f7",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 9861,
+            "seed": 1761
+        },
+        {
+            "id": 34,
+            "name": "Loki 2021 S01 ViE WEB-DL 2160p DDP Atmos 5.1 HEVC-TOMMY",
+            "btih": "41dcb29f780d86018bebca70735d18f9ff955ce5",
+            "resolution": "2160",
+            "encoding": "none",
+            "private": false,
+            "peer": 9112,
+            "seed": 93
+        },
+        {
+            "id": 202,
+            "name": "S01E06 Loki WEB-DL 1080p DUAL 5.1.mkv",
+            "btih": "77931113f5040411e6c3916b1b77c05345813382",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 9062,
+            "seed": 146
+        },
+        {
+            "id": 164,
+            "name": "Loki.S01E06.For.All.Time.Always.1080p.DSNP.WEB-DL.DDP5.1.H.264-EVO~1.mkv",
+            "btih": "225d01ac52f9864412fa0a05309c416c165a030d",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 8888,
+            "seed": 57
+        },
+        {
+            "id": 171,
+            "name": "Loki.S01E06.For.All.Time.Always.2160p.DSNP.WEB-DL.HDR.DDP.5.1.ITA.ENG.G66.mkv",
+            "btih": "bf52f61e413bf17b849dcbcf7ce013e401612e1a",
+            "resolution": "2160",
+            "encoding": "none",
+            "private": false,
+            "peer": 8870,
+            "seed": 1291
+        },
+        {
+            "id": 108,
+            "name": "Loki.S01.ITA.ENG.DSNP.WEBRip.XviD-Pir8",
+            "btih": "06c565703fca1363bf9bc866ce32a37e2ea3cacf",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "private": false,
+            "peer": 8786,
+            "seed": 1001
+        },
+        {
+            "id": 73,
+            "name": "Loki.S01.1080p.DSNP.WEB-DL.DDP5.1.H.264-EVO [IPT]",
+            "btih": "f36aab85cd23a943bda24793df716be11d047ea4",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": true,
+            "peer": 8373,
+            "seed": 4203
+        },
+        {
+            "id": 113,
+            "name": "Loki.S01.WEBRip.1080",
+            "btih": "f42383178227c7a11f7a28ac26210dfb39552b15",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 7703,
+            "seed": 439
+        },
+        {
+            "id": 64,
+            "name": "Loki.(2021).S01.1080p.10bit.AMZN.WEBrip.E-AC3.DDP5.1.x265.HEVC-D0ct0rLew [SEV] (CzTitulky)",
+            "btih": "a97121121f34eaab2f990a850598a146bfa132d2",
+            "resolution": "1080",
+            "encoding": "265",
+            "private": false,
+            "peer": 7429,
+            "seed": 1017
+        },
+        {
+            "id": 7,
+            "name": "LOKI [2021] [SEZON 1] [E06] [FINAL] [NAPISY-PL]",
+            "btih": "0c98d1d90c98f9ddb459e7fd854286a31b592d28",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 7244,
+            "seed": 883
+        },
+        {
+            "id": 33,
+            "name": "Loki 1ª Temporada  Disco 1.iso",
+            "btih": "076ec20870a3245d620f44951a19bff00f605984",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 6912,
+            "seed": 136
+        },
+        {
+            "id": 43,
+            "name": "Loki S01 web 10bit ddp hevc-d3g [IPT]",
+            "btih": "b28f3537499c572cfa8ae3a785ad8a75d18404bd",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": true,
+            "peer": 6719,
+            "seed": 3191
+        },
+        {
+            "id": 245,
+            "name": "www.1TamilMV.one - LOKI (2021) S01 EP06 TRUE WEB-DL - 1080p - (DD+5.1 - 192Kbps) [Tam + Tel + Hin + Eng (ATMOS)] - ESub.mkv",
+            "btih": "400528252cb69ad8735239da7e905fa422860c13",
+            "resolution": "1080",
+            "encoding": "none",
+            "private": false,
+            "peer": 6210,
+            "seed": 768
+        },
+        {
+            "id": 263,
+            "name": "www.TamilBlasters.bz - Loki (2021) S01 E06 [1080p TRUE-HD AVC x264 - UNTOUCHED - [Tam + Tel + Hin] (DD+5.1(192Kbps) +English (DD+5.1 ATMOS - 768Kbps) - 2.2GB - Esub]",
+            "btih": "eeb352dcd8dd60d575d3efe5177c6e571b8eb0aa",
+            "resolution": "1080",
+            "encoding": "264",
+            "private": false,
+            "peer": 5999,
+            "seed": 749
+        },
+        {
+            "id": 59,
+            "name": "Loki Vol. 1 (Episodes 1-3) FLAC (16bit-44.1kHz) EVIIIILL",
+            "btih": "0965bbd47838a8e34bde7bd206c696b8aeff6c70",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 5915,
+            "seed": 756
+        },
+        {
+            "id": 191,
+            "name": "Loki.S01E06.WEBRip.400p.rus.2.0.HDREZKA.STUDIO.avi",
+            "btih": "634bb929c02af752191eaf5419c9f42e172f633e",
+            "resolution": "sd",
+            "encoding": "none",
+            "private": false,
+            "peer": 4584,
+            "seed": 257
+        },
+        {
+            "id": 88,
+            "name": "Loki.S01.2160p.WEB-DL.x265.10bit.HDR.DDP5.1.Atmos-SWTYBLZ [IPT]",
+            "btih": "014261d95fc0e5cdc1f7a89e9e7d87259506c683",
+            "resolution": "2160",
+            "encoding": "265",
+            "private": true,
+            "peer": 4413,
+            "seed": 2001
         },
         {
             "id": 82,
@@ -2961,8 +2975,8 @@
             "resolution": "1080",
             "encoding": "265",
             "private": true,
-            "peer": 1158,
-            "seed": 676
+            "peer": 2028,
+            "seed": 1042
         },
         {
             "id": 104,
@@ -2971,8 +2985,8 @@
             "resolution": "720",
             "encoding": "265",
             "private": true,
-            "peer": 374,
-            "seed": 210
+            "peer": 616,
+            "seed": 281
         },
         {
             "id": 117,
@@ -2981,8 +2995,8 @@
             "resolution": "sd",
             "encoding": "xvid",
             "private": true,
-            "peer": 361,
-            "seed": 225
+            "peer": 583,
+            "seed": 357
         },
         {
             "id": 95,
@@ -2991,8 +3005,8 @@
             "resolution": "sd",
             "encoding": "264",
             "private": true,
-            "peer": 196,
-            "seed": 139
+            "peer": 286,
+            "seed": 170
         },
         {
             "id": 23,
@@ -3001,8 +3015,8 @@
             "resolution": "1080",
             "encoding": "264",
             "private": true,
-            "peer": 167,
-            "seed": 156
+            "peer": 222,
+            "seed": 208
         },
         {
             "id": 70,
@@ -3011,8 +3025,8 @@
             "resolution": "720",
             "encoding": "264",
             "private": true,
-            "peer": 98,
-            "seed": 89
+            "peer": 142,
+            "seed": 131
         },
         {
             "id": 111,
@@ -3021,8 +3035,8 @@
             "resolution": "1080",
             "encoding": "none",
             "private": true,
-            "peer": 40,
-            "seed": 38
+            "peer": 83,
+            "seed": 81
         },
         {
             "id": 72,
