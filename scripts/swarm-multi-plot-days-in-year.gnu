@@ -1,4 +1,4 @@
-# 2021-11-13, 26 bdekoz
+# 2021-12-11, 26 bdekoz
 # expect directories hour/day/week with media-title-hours.csv, etc inside.
 
 set datafile separator ','
@@ -46,7 +46,7 @@ set style line 4 lc rgb '#AAAAAA' lt 1 lw 1 pt 6 ps 1   # gray
 
 # LINE 9
 #set style line 9 linetype 1 linecolor 1 linewidth 1 ps 1
-set style line 9 linewidth 1 linecolor variable pointsize 0.5
+set style line 9 linewidth 1 linecolor variable pointsize 2
 #set style line 9 default
 
 
@@ -107,6 +107,6 @@ print FILET
 
 #plot 'r4k-days.csv' using 1:2:xticlabels(6)
 
-plot FILET using 1:2:xticlabels(sprintf('%s  %6.3u', stringcolumn(6), column(1))) notitle
+#plot FILET using 1:2:xticlabels(sprintf('%s  %6.3u', stringcolumn(6), column(1))) notitle
 
 unset multiplot
