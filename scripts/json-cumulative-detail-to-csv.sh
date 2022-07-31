@@ -11,7 +11,9 @@ echo "found cumulative-detail data: $CDFILE"
 MAXPEERS=`jq '.["collection-all-btiha-total"]|.["upeers-total"]' ${CDFILE}`
 MAXBTIHA=`jq '.["collection-all-btiha-total"]|.["btiha-size"]' ${CDFILE}`
 
+# week number, btiha size, upeers, useeds
 OUTPUTFILE="cumulative-detail-by-week.csv"
+echo "0,0,0,0" >> $OUTPUTFILE;
 
 mangle_week_n_field_4() {
     ITER="$1"
@@ -35,10 +37,8 @@ do
   echo "iteration: $c"
   mangle_week_n_field_4 "$c" "btiha-size"
   weeknbtihav=`jq -rf tmp-${c}-btiha-size ${CDFILE}`;
-  if [ -z "$weeknbtihav" ]; then
-      echo "bailing.... not found";
-      exit ${c};
-  else
+  if [ "$weeknbtihav" != "null" ]
+  then
       mangle_week_n_field_4 "$c" "upeers-total"
       weeknpv=`jq -rf tmp-${c}-upeers-total ${CDFILE}`;
 
@@ -46,6 +46,9 @@ do
       weeknsv=`jq -rf tmp-${c}-useeds-total ${CDFILE}`;
 
       echo "$c,$weeknbtihav,$weeknpv,$weeknsv" >> $OUTPUTFILE;
+  else
+      echo "done....";
+      break;
   fi
 done
 
@@ -74,7 +77,7 @@ do
   if [ "$weeknbtihav" != "null" ]
   then
       echo "iteration: $c"
-      
+
       mangle_week_n_field_3 "$c" "upeers-total"
       weeknpv=`jq -rf tmp-${c}-upeers-total ${CDFILE}`;
 
