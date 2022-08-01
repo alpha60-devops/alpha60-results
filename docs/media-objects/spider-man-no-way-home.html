@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Embedding Vega-Lite</title>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+  </head>
+  <body>
+    <div id="vis1"></div>
+
+    <script type="text/javascript" crossorigin="anonymous">
+      var yourVlSpec = {
+	"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+	"width": 644,
+	"height": 329,
+	"data": {"url": "spider-man-no-way-home-cumulative-detail.csv"},
+	"mark": "line",
+	"encoding": {
+	    "x": {
+		"field": "weekn",
+		"timeUnit": "week",
+		"title": "week"
+	    },
+	    "y": {
+		"field": "btiha_size",
+		"type": "quantitative",
+		"format": ".2f",
+		"title": "BTIHA size",
+		"axis": {"titleFontWeight": 700, "titleFontSize": 14, "titleX": -50}
+	    }
+	}
+      };
+      vegaEmbed('#vis1', yourVlSpec);
+    </script>
+
+  </body>
+</html>
