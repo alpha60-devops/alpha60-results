@@ -10,8 +10,5 @@ The alpha60 project publishes results in two data interchange formats:
 These data files are released under the Creative Commons
 Attribution-NonCommercial-ShareAlike license (CC BY-NC-SA). Please contact us if you want to analyze these results in your own research; we'd like to help you.
 
-In addition, some media objects have individual results.
+In addition, some [media objects](https://media-objects/mo.md) have individual results.
 
-.
-+-- media-objects
-|   +-- spider-man-no-way-home.html
