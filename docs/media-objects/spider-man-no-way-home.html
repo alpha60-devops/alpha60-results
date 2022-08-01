@@ -10,12 +10,12 @@
     <div id="vis1"></div>
 
     <script type="text/javascript" crossorigin="anonymous">
-      var linegraph = {
+      var yourVlSpec = {
 	"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 	"width": 644,
 	"height": 329,
 	"data": {"url": "data/spider-man-no-way-home-cumulative-detail.csv"},
-	"mark": "line"
+	"mark": "line",
 	"encoding": {
 	    "x": {
 		"field": "weekn",
@@ -30,7 +30,7 @@
 	    }
 	}
       };
-      vegaEmbed('#spiderman', linegraph);
+      vegaEmbed('#vis1', yourVlSpec);
     </script>
 
   </body>
