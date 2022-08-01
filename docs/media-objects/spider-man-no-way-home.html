@@ -9,8 +9,8 @@
   <body>
     <div id="vis1"></div>
 
-    <script type="text/javascript" crossorigin="*">
-      var yourVlSpec = {
+    <script type="text/javascript" crossorigin="anonymous">
+      var linegraph = {
 	"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 	"width": 644,
 	"height": 329,
@@ -19,19 +19,18 @@
 	"encoding": {
 	    "x": {
 		"field": "weekn",
-		"timeUnit": "week",
+		"type": "quantitative",
 		"title": "week"
 	    },
 	    "y": {
 		"field": "upeers",
 		"type": "quantitative",
-		"format": ".2f",
 		"title": "upeers",
 		"axis": {"titleFontWeight": 600, "titleFontSize": 12, "titleX": -50}
 	    }
 	}
       };
-      vegaEmbed('#vis1', yourVlSpec);
+      vegaEmbed('#spiderman', linegraph);
     </script>
 
   </body>
