@@ -1,1 +1,1 @@
-[Spider Man No Way Home](https://spider-man-no-way-home.html)
+[Spider Man No Way Home](spider-man-no-way-home.html)
