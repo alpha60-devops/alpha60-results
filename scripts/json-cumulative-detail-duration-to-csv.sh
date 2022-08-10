@@ -5,6 +5,16 @@
 CDFILE=$1
 DUR=$2
 
+if [ ! -n "$CDFILE" ]; then
+    echo "Data file input argument not supplied, exiting";
+    exit 1;
+fi
+if [ ! -n "$DUR" ]; then
+    echo "Duration (week, day, hour) not supplied, exiting";
+    exit 1;
+fi
+
+
 echo "using cumulative-detail data: $CDFILE with duration (${DUR})"
 
 MAXPEERS=`jq '.["collection-all-btiha-total"]|.["upeers-total"]' ${CDFILE}`
@@ -16,6 +26,8 @@ MAXBTIHA=`jq '.["collection-all-btiha-total"]|.["btiha-size"]' ${CDFILE}`
 filebase="${CDFILE##*/}"
 FILE="${filebase%.*}"
 OUTPUTFILE="$FILE-by-${DUR}.csv"
+
+echo "outputfile: $OUTPUTFILE"
 echo "0,0,0,0" >> $OUTPUTFILE;
 
 # Find durations, like:
@@ -46,7 +58,7 @@ do
   echo "iteration: $f"
   ITER=`echo $f | sed 's/collection-unique-btiha-//g' | sed 's/.*-//'`
   echo $ITER
-  
+
   mangle_duration_n_field "$f" "btiha-size"
   weeknbtihav=`jq -rf tmp-${f}-btiha-size ${CDFILE}`;
 

@@ -68,14 +68,14 @@ set multiplot
 #plot for [data in FILES] data u 1:2
 #plot for [data in FILES] data u 1:2 w p pt 1 lt rgb 'black' notitle
 
+plot for [data in FILES] data u 1:2 with linespoints ls 3
+
 #plot for [i=1:words(FILES)] word(FILES,i) u 1:2 w p pt 1 title word(TITLES,i)
 
 # pointsize 0.5, 0.75, 1
 #plot for [i=1:words(FILES)] word(FILES,i) u 1:2 with linespoints pointsize 0.75 title word(TITLES,i)
-
-plot for [i=1:words(FILES)] word(FILES,i) u 1:3 with linespoints ls 3 title word(TITLES,i)
-
-plot for [i=1:words(FILES)] word(FILES,i) u 1:4 with linespoints ls 4 title word(TITLES,i)
+#plot for [i=1:words(FILES)] word(FILES,i) u 1:3 with linespoints ls 3 title word(TITLES,i)
+#plot for [i=1:words(FILES)] word(FILES,i) u 1:4 with linespoints ls 4 title word(TITLES,i)
 
 
 
