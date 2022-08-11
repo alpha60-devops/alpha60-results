@@ -12,7 +12,8 @@ set rmargin 15
 set tmargin 20
 set bmargin 20
 
-# OUTPUT FILES
+# FILES, OUTPUT FILES
+FILES = system("find . -type f -name '*.csv' | sort")
 outputfilename = sprintf("%s-cumulative-%s.svg", "ukr-rus-cyberwar", "day");
 set output outputfilename
 
@@ -40,8 +41,8 @@ set style line 9 linewidth 1 linecolor variable pointsize 0.5
 
 set style fill transparent solid 0.5 noborder
 
-FILES = system("find . -type f -name '*.csv' | sort")
-TITLES = system("find . -type f -name '*.csv' | sort | sed -e 's/-weeks.csv//' -e 's|^\./||' ")
+
+
 
 # LABELS, FORMATTING, MARGINS
 set format y "%'g"
@@ -50,21 +51,33 @@ set autoscale y
 set xtics 1 rotate by 90 right nomirror font "SourceCodePro-Light,9"
 
 # PLOT
+#
+# A note about
+# set origin (xorigin),(yorigin)
+#
+# A box of length one, 0,0 is the lower left.
+#
+#             (1,1)
+#    (0,0)
+#
 # set multiplot
 # output two graphs in 2 rows 1 col
-set multiplot layout 2,1 rowsfirst
+set multiplot layout 2,1 upwards
+xlabeltext = "DAYS"
+set xlabel xlabeltext font "Apercu,24" offset 0,-2
 
 # 1 btiha
 ylabeltext = "BTIHA"
 set ylabel ylabeltext font "Apercu,24" offset -6,0
-xlabeltext = "DAYS"
-set xlabel xlabeltext font "Apercu,24" offset 0,-2
+set origin 0,0
 plot for [data in FILES] data u 1:2 with linespoints ls 3 notitle
 unset ylabel
+unset autoscale y
 
 # 2,3 upeer/useeds
 ylabeltext = "UNIQUE PEERS"
 set ylabel ylabeltext font "Apercu,24" offset -6,0
+set origin 0,0.5
 plot for [data in FILES] data u 1:3 with linespoints ls 4 notitle
 plot for [data in FILES] data u 1:4 with linespoints ls 5 notitle
 
