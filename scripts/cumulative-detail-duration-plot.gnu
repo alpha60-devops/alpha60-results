@@ -1,6 +1,7 @@
 # 2022-08-10 bdekoz
 # expect directories hour/day/week with media-title-hours.csv, etc inside.
 
+reset
 set decimal locale
 set datafile separator ','
 set border 0
@@ -13,7 +14,8 @@ set tmargin 20
 set bmargin 20
 
 # FILES, OUTPUT FILES
-FILES = system("find . -type f -name '*.csv' | sort")
+#FILES = system("find . -type f -name '*.csv' | sort")
+FILES = "ukr-rus-war-2022-cumulative-detail-by-day.csv"
 outputfilename = sprintf("%s-cumulative-%s.svg", "ukr-rus-cyberwar", "day");
 set output outputfilename
 
@@ -62,24 +64,30 @@ set xtics 1 rotate by 90 right nomirror font "SourceCodePro-Light,9"
 #
 # set multiplot
 # output two graphs in 2 rows 1 col
-set multiplot layout 2,1 upwards
+#set multiplot layout 2,1 upwards
+set size 1,1
+set multiplot
+unset key
+
 xlabeltext = "DAYS"
 set xlabel xlabeltext font "Apercu,24" offset 0,-2
 
 # 1 btiha
 ylabeltext = "BTIHA"
 set ylabel ylabeltext font "Apercu,24" offset -6,0
+set size 1,0.5
 set origin 0,0
 plot for [data in FILES] data u 1:2 with linespoints ls 3 notitle
 unset ylabel
-unset autoscale y
+#unset autoscale y
 
 # 2,3 upeer/useeds
 ylabeltext = "UNIQUE PEERS"
 set ylabel ylabeltext font "Apercu,24" offset -6,0
+set size 1,0.5
 set origin 0,0.5
-plot for [data in FILES] data u 1:3 with linespoints ls 4 notitle
-plot for [data in FILES] data u 1:4 with linespoints ls 5 notitle
+plot for [data in FILES] data u 1:3:4 with linespoints ls 4 notitle
+#plot for [data in FILES] data u 1:4 with linespoints ls 5 notitle
 
 
 unset multiplot
