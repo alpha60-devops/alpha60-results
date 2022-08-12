@@ -15,22 +15,26 @@ set bmargin 20
 
 # FILES, OUTPUT FILES
 #FILES = system("find . -type f -name '*.csv' | sort")
-FILES = "ukr-rus-war-2022-cumulative-detail-by-day.csv"
+FILECD = "ukr-rus-war-2022-cumulative-detail-by-day.csv"
+FILEUD = "ukr-rus-war-2022-days.csv"
 outputfilename = sprintf("%s-cumulative-%s.svg", "ukr-rus-cyberwar", "day");
 set output outputfilename
 
 
 # LINE 1
 #set style line 1 lc rgb '#FFBBF1' lt 1 lw 2 pt 7 ps 1   # --- pink
-set style line 1 lc rgb '#888888' lt 1 lw 2 pt 7 ps 1   # --- pink
+set style line 1 lc rgb '#888888' lt 1 lw 2 pt 1 ps 1   # --- pink
 
 # LINE 2
 #set style line 2 lc rgb '#FFFF00' lt 1 lw 2 pt 7 ps 1   # --- yellow
 set style line 2 lc rgb '#444444' lt 1 lw 2 pt 7 ps 1   # --- yellow
 
 # LINE 3
-#set style line 3 lc rgb '#88000000' lt 1 lw 1 pt 3 ps 0.5   # --- black x 50%
-set style line 3 lc rgb '#000000' lt 1 lw 1 pt 3 ps 0.5   # --- black
+#set style line 3 lc rgb '#88000000' lt 1 lw 1 pt 3 ps 0.5   # --- black x size 50%
+set style line 30 lc rgb '#000000' lt 1 lw 1 pt 3 ps 1   # --- black
+set style line 31 lc rgb '#767676' lt 1 lw 1 pt 7 ps 0.5   # --- wcag grey
+set style line 32 lc rgb '#949494' lt 3 lw 1 pt 7 ps 1   # --- wcag light grey
+set style line 33 lc rgb '#969696' lt 3 lw 1 pt 9 ps 1   # --- wcag light light grey
 
 # LINE 4
 #set style line 4 lc rgb '#88AAAAAA' lt 1 lw 1 pt 6 ps 0.3   # gray x 50%
@@ -42,8 +46,6 @@ set style line 9 linewidth 1 linecolor variable pointsize 0.5
 #set style line 9 default
 
 set style fill transparent solid 0.5 noborder
-
-
 
 
 # LABELS, FORMATTING, MARGINS
@@ -70,24 +72,32 @@ set multiplot
 unset key
 
 xlabeltext = "DAYS"
-set xlabel xlabeltext font "Apercu,24" offset 0,-2
+set xlabel xlabeltext font "Apercu,16" offset 0,-2
 
 # 1 btiha
 ylabeltext = "BTIHA"
-set ylabel ylabeltext font "Apercu,24" offset -6,0
-set size 1,0.5
+set ylabel ylabeltext font "Apercu,16" offset -4,0
+set size 1,0.25
 set origin 0,0
-plot for [data in FILES] data u 1:2 with linespoints ls 3 notitle
+plot for [data in FILECD] data u 1:2 with linespoints ls 1 notitle
 unset ylabel
-#unset autoscale y
+unset xlabel
 
-# 2,3 upeer/useeds
-ylabeltext = "UNIQUE PEERS"
-set ylabel ylabeltext font "Apercu,24" offset -6,0
-set size 1,0.5
-set origin 0,0.5
-plot for [data in FILES] data u 1:3:4 with linespoints ls 4 notitle
-#plot for [data in FILES] data u 1:4 with linespoints ls 5 notitle
+# 2,3 cumulative upeer/useeds
+ylabeltext = "CUMULATIVE PEERS/SEEDS"
+set ylabel ylabeltext font "Apercu,16" offset -4,0
+set size 1,0.375
+set origin 0,0.625
+plot FILECD using 1:3 with linespoints ls 30, '' using 1:4 with linespoints ls 31 notitle
+unset ylabel
+
+# 3,5 per-day upeer/useeds
+ylabeltext = "DAILY PEERS/SEEDS"
+set ylabel ylabeltext font "Apercu,16" offset -4,0
+set size 1,0.375
+set origin 0,0.25
+plot FILEUD using 1:2 with linespoints ls 30, '' using 1:3 with linespoints ls 31 notitle
+unset ylabel
 
 
 unset multiplot
