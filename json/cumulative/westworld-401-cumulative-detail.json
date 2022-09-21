@@ -1,25 +1,25 @@
 {
     "collection-name": "Westworld",
     "collection-id": "401",
-    "sample-duration": "2022-06-27-to-2022-08-14",
-    "sample-days": 49,
+    "sample-duration": "2022-06-27-to-2022-09-04",
+    "sample-days": 70,
     "sample-year-start": 2022,
     "sample-year-end": 2022,
     "sample-day-year-start": 178,
-    "sample-day-year-end": 226,
+    "sample-day-year-end": 247,
     "collection-all-btiha-total": {
         "btiha-size": 119,
-        "upeers-total": 1978748,
-        "useeds-total": 567115,
-        "anomaly-total": 99915,
-        "anomaly-percentage": "5.05"
+        "upeers-total": 2404570,
+        "useeds-total": 648032,
+        "anomaly-total": 117079,
+        "anomaly-percentage": "4.87"
     },
     "collection-unique-btiha-total": {
         "btiha-size": 102,
-        "upeers-total": 1720691,
-        "useeds-total": 492472,
-        "anomaly-total": 57384,
-        "anomaly-percentage": "3.33"
+        "upeers-total": 2100301,
+        "useeds-total": 562701,
+        "anomaly-total": 67884,
+        "anomaly-percentage": "3.23"
     },
     "collection-unique-btiha-week-00001": {
         "btiha-size": 93,
@@ -70,46 +70,67 @@
         "anomaly-total": 57384,
         "anomaly-percentage": "3.33"
     },
+    "collection-unique-btiha-week-00008": {
+        "btiha-size": 102,
+        "upeers-total": 1867956,
+        "useeds-total": 522753,
+        "anomaly-total": 61308,
+        "anomaly-percentage": "3.28"
+    },
+    "collection-unique-btiha-week-00009": {
+        "btiha-size": 102,
+        "upeers-total": 1985339,
+        "useeds-total": 544218,
+        "anomaly-total": 64771,
+        "anomaly-percentage": "3.26"
+    },
+    "collection-unique-btiha-week-00010": {
+        "btiha-size": 102,
+        "upeers-total": 2100301,
+        "useeds-total": 562701,
+        "anomaly-total": 67884,
+        "anomaly-percentage": "3.23"
+    },
     "transfer-units": "terabyte",
-    "transfer-size": 3152.1831569094499,
+    "transfer-size": 3817.237957114321,
     "transfer-price-1-name": "CloudFront-1-year",
     "transfer-price-1-per-gigabyte-cost": 0.005,
-    "transfer-price-1-USD": 183760.91578454726,
+    "transfer-price-1-USD": 187086.1897855716,
     "resolution-partitions": [
         {
             "number": 1,
             "name": "1080-all",
-            "total-percentage-upeers": "51.60",
-            "total-percentage-bytes": "72.58",
-            "upeers-total": 887818
+            "total-percentage-upeers": "56.28",
+            "total-percentage-bytes": "76.12",
+            "upeers-total": 1182147
         },
         {
             "number": 2,
             "name": "720-all",
-            "total-percentage-upeers": "20.49",
-            "total-percentage-bytes": "14.42",
-            "upeers-total": 352655
+            "total-percentage-upeers": "26.75",
+            "total-percentage-bytes": "17.06",
+            "upeers-total": 561836
         },
         {
             "number": 3,
             "name": "sd-none",
-            "total-percentage-upeers": "13.45",
-            "total-percentage-bytes": "9.07",
-            "upeers-total": 231428
+            "total-percentage-upeers": "7.21",
+            "total-percentage-bytes": "4.27",
+            "upeers-total": 151368
         },
         {
             "number": 4,
             "name": "sd-264",
-            "total-percentage-upeers": "11.84",
-            "total-percentage-bytes": "3.13",
-            "upeers-total": 203739
+            "total-percentage-upeers": "6.86",
+            "total-percentage-bytes": "1.67",
+            "upeers-total": 144015
         },
         {
             "number": 5,
             "name": "sd-xvid",
-            "total-percentage-upeers": "2.62",
-            "total-percentage-bytes": "0.79",
-            "upeers-total": 45051
+            "total-percentage-upeers": "2.90",
+            "total-percentage-bytes": "0.88",
+            "upeers-total": 60935
         },
         {
             "number": 6,
@@ -119,76 +140,148 @@
             "upeers-total": 0
         }
     ],
-    "geo-country-top-10": [
+    "geo-country-top-10-peer": [
         {
             "number": 1,
-            "country-code": "CHN",
-            "country-name": "China",
-            "total-percentage-upeers": "12.94",
-            "upeers-total": 222642
+            "country-code": "RUS",
+            "country-name": "Russian Federation",
+            "total-percentage-upeers": "14.14",
+            "upeers-total": 297045
         },
         {
             "number": 2,
-            "country-code": "RUS",
-            "country-name": "Russian Federation",
-            "total-percentage-upeers": "12.73",
-            "upeers-total": 219085
+            "country-code": "CHN",
+            "country-name": "China",
+            "total-percentage-upeers": "12.68",
+            "upeers-total": 266250
         },
         {
             "number": 3,
             "country-code": "USA",
             "country-name": "United States of America",
-            "total-percentage-upeers": "11.37",
-            "upeers-total": 195715
+            "total-percentage-upeers": "11.40",
+            "upeers-total": 239423
         },
         {
             "number": 4,
             "country-code": "GBR",
             "country-name": "United Kingdom of Great Britain and Northern Ireland",
-            "total-percentage-upeers": "3.68",
-            "upeers-total": 63302
+            "total-percentage-upeers": "3.52",
+            "upeers-total": 74025
         },
         {
             "number": 5,
-            "country-code": "BRA",
-            "country-name": "Brazil",
-            "total-percentage-upeers": "2.83",
-            "upeers-total": 48640
+            "country-code": "KOR",
+            "country-name": "Korea, Republic of",
+            "total-percentage-upeers": "2.97",
+            "upeers-total": 62313
         },
         {
             "number": 6,
-            "country-code": "KOR",
-            "country-name": "Korea, Republic of",
-            "total-percentage-upeers": "2.59",
-            "upeers-total": 44489
+            "country-code": "BRA",
+            "country-name": "Brazil",
+            "total-percentage-upeers": "2.81",
+            "upeers-total": 59041
         },
         {
             "number": 7,
-            "country-code": "AUS",
-            "country-name": "Australia",
-            "total-percentage-upeers": "2.19",
-            "upeers-total": 37658
+            "country-code": "FRA",
+            "country-name": "France",
+            "total-percentage-upeers": "2.24",
+            "upeers-total": 46988
         },
         {
             "number": 8,
-            "country-code": "FRA",
-            "country-name": "France",
-            "total-percentage-upeers": "2.17",
-            "upeers-total": 37324
+            "country-code": "AUS",
+            "country-name": "Australia",
+            "total-percentage-upeers": "2.06",
+            "upeers-total": 43210
         },
         {
             "number": 9,
             "country-code": "CAN",
             "country-name": "Canada",
-            "total-percentage-upeers": "2.00",
-            "upeers-total": 34345
+            "total-percentage-upeers": "1.95",
+            "upeers-total": 40899
         },
         {
             "number": 10,
             "country-code": "NLD",
             "country-name": "Netherlands",
             "total-percentage-upeers": "1.73",
-            "upeers-total": 29805
+            "upeers-total": 36277
+        }
+    ],
+    "geo-country-top-10-seed": [
+        {
+            "number": 1,
+            "country-code": "CHN",
+            "country-name": "China",
+            "total-percentage-upeers": "10.65",
+            "upeers-total": 59932
+        },
+        {
+            "number": 2,
+            "country-code": "USA",
+            "country-name": "United States of America",
+            "total-percentage-upeers": "10.11",
+            "upeers-total": 56889
+        },
+        {
+            "number": 3,
+            "country-code": "RUS",
+            "country-name": "Russian Federation",
+            "total-percentage-upeers": "7.37",
+            "upeers-total": 41492
+        },
+        {
+            "number": 4,
+            "country-code": "GBR",
+            "country-name": "United Kingdom of Great Britain and Northern Ireland",
+            "total-percentage-upeers": "4.54",
+            "upeers-total": 25559
+        },
+        {
+            "number": 5,
+            "country-code": "BRA",
+            "country-name": "Brazil",
+            "total-percentage-upeers": "3.44",
+            "upeers-total": 19351
+        },
+        {
+            "number": 6,
+            "country-code": "AUS",
+            "country-name": "Australia",
+            "total-percentage-upeers": "3.26",
+            "upeers-total": 18346
+        },
+        {
+            "number": 7,
+            "country-code": "CAN",
+            "country-name": "Canada",
+            "total-percentage-upeers": "2.33",
+            "upeers-total": 13137
+        },
+        {
+            "number": 8,
+            "country-code": "ESP",
+            "country-name": "Spain",
+            "total-percentage-upeers": "1.82",
+            "upeers-total": 10250
+        },
+        {
+            "number": 9,
+            "country-code": "FRA",
+            "country-name": "France",
+            "total-percentage-upeers": "1.64",
+            "upeers-total": 9228
+        },
+        {
+            "number": 10,
+            "country-code": "NLD",
+            "country-name": "Netherlands",
+            "total-percentage-upeers": "1.49",
+            "upeers-total": 8357
         }
     ],
     "geo-country-region-city-top-30": [
@@ -196,217 +289,217 @@
             "number": 1,
             "country-code": "USA",
             "country-name": "United States of America",
-            "total-percentage-upeers": "2.35",
-            "upeers-total": 40484
+            "total-percentage-upeers": "2.32",
+            "upeers-total": 48676
         },
         {
             "number": 2,
             "country-code": "RUS",
             "country-name": "Russian Federation, Moscow, 48",
-            "total-percentage-upeers": "1.97",
-            "upeers-total": 33831
+            "total-percentage-upeers": "2.18",
+            "upeers-total": 45788
         },
         {
             "number": 3,
             "country-code": "CHN",
             "country-name": "China, 12",
-            "total-percentage-upeers": "1.49",
-            "upeers-total": 25664
+            "total-percentage-upeers": "1.45",
+            "upeers-total": 30549
         },
         {
             "number": 4,
-            "country-code": "CHN",
-            "country-name": "China, Shanghai, 23",
-            "total-percentage-upeers": "1.29",
-            "upeers-total": 22131
+            "country-code": "USA",
+            "country-name": "United States of America, Ashburn, VA",
+            "total-percentage-upeers": "1.44",
+            "upeers-total": 30309
         },
         {
             "number": 5,
-            "country-code": "USA",
-            "country-name": "United States of America, Ashburn, VA",
-            "total-percentage-upeers": "1.23",
-            "upeers-total": 21157
+            "country-code": "CHN",
+            "country-name": "China, Shanghai, 23",
+            "total-percentage-upeers": "1.24",
+            "upeers-total": 26132
         },
         {
             "number": 6,
             "country-code": "RUS",
             "country-name": "Russian Federation",
-            "total-percentage-upeers": "1.10",
-            "upeers-total": 18966
+            "total-percentage-upeers": "1.18",
+            "upeers-total": 24758
         },
         {
             "number": 7,
-            "country-code": "NLD",
-            "country-name": "Netherlands",
-            "total-percentage-upeers": "1.03",
-            "upeers-total": 17662
+            "country-code": "KOR",
+            "country-name": "Korea, Republic of, Seoul, 11",
+            "total-percentage-upeers": "1.17",
+            "upeers-total": 24622
         },
         {
             "number": 8,
-            "country-code": "KOR",
-            "country-name": "Korea, Republic of, Seoul, 11",
-            "total-percentage-upeers": "1.02",
-            "upeers-total": 17557
+            "country-code": "NLD",
+            "country-name": "Netherlands",
+            "total-percentage-upeers": "1.04",
+            "upeers-total": 21844
         },
         {
             "number": 9,
             "country-code": "CHN",
             "country-name": "China, Beijing, 22",
-            "total-percentage-upeers": "1.01",
-            "upeers-total": 17418
+            "total-percentage-upeers": "0.99",
+            "upeers-total": 20802
         },
         {
             "number": 10,
             "country-code": "CHN",
             "country-name": "China, Guangzhou, 30",
-            "total-percentage-upeers": "1.01",
-            "upeers-total": 17309
+            "total-percentage-upeers": "0.98",
+            "upeers-total": 20635
         },
         {
             "number": 11,
-            "country-code": "GBR",
-            "country-name": "United Kingdom of Great Britain and Northern Ireland",
-            "total-percentage-upeers": "0.88",
-            "upeers-total": 15058
+            "country-code": "RUS",
+            "country-name": "Russian Federation, Saint Petersburg, 66",
+            "total-percentage-upeers": "0.94",
+            "upeers-total": 19708
         },
         {
             "number": 12,
-            "country-code": "RUS",
-            "country-name": "Russian Federation, Saint Petersburg, 66",
-            "total-percentage-upeers": "0.84",
-            "upeers-total": 14520
+            "country-code": "FRA",
+            "country-name": "France",
+            "total-percentage-upeers": "0.89",
+            "upeers-total": 18631
         },
         {
             "number": 13,
-            "country-code": "FRA",
-            "country-name": "France",
+            "country-code": "GBR",
+            "country-name": "United Kingdom of Great Britain and Northern Ireland",
             "total-percentage-upeers": "0.84",
-            "upeers-total": 14502
+            "upeers-total": 17658
         },
         {
             "number": 14,
-            "country-code": "ROU",
-            "country-name": "Romania",
-            "total-percentage-upeers": "0.71",
-            "upeers-total": 12218
-        },
-        {
-            "number": 15,
             "country-code": "CHN",
             "country-name": "China, Nanjing, 04",
             "total-percentage-upeers": "0.66",
-            "upeers-total": 11379
+            "upeers-total": 13919
+        },
+        {
+            "number": 15,
+            "country-code": "ROU",
+            "country-name": "Romania",
+            "total-percentage-upeers": "0.66",
+            "upeers-total": 13884
         },
         {
             "number": 16,
             "country-code": "CHN",
             "country-name": "China, Chengdu, 32",
-            "total-percentage-upeers": "0.57",
-            "upeers-total": 9762
+            "total-percentage-upeers": "0.56",
+            "upeers-total": 11675
         },
         {
             "number": 17,
-            "country-code": "ITA",
-            "country-name": "Italy",
-            "total-percentage-upeers": "0.57",
-            "upeers-total": 9749
+            "country-code": "DEU",
+            "country-name": "Germany",
+            "total-percentage-upeers": "0.55",
+            "upeers-total": 11636
         },
         {
             "number": 18,
-            "country-code": "DEU",
-            "country-name": "Germany",
-            "total-percentage-upeers": "0.53",
-            "upeers-total": 9086
+            "country-code": "ITA",
+            "country-name": "Italy",
+            "total-percentage-upeers": "0.55",
+            "upeers-total": 11476
         },
         {
             "number": 19,
-            "country-code": "AUS",
-            "country-name": "Australia",
-            "total-percentage-upeers": "0.53",
-            "upeers-total": 9082
+            "country-code": "KOR",
+            "country-name": "Korea, Republic of",
+            "total-percentage-upeers": "0.50",
+            "upeers-total": 10603
         },
         {
             "number": 20,
-            "country-code": "UKR",
-            "country-name": "Ukraine",
-            "total-percentage-upeers": "0.47",
-            "upeers-total": 8144
+            "country-code": "AUS",
+            "country-name": "Australia",
+            "total-percentage-upeers": "0.49",
+            "upeers-total": 10388
         },
         {
             "number": 21,
-            "country-code": "CHN",
-            "country-name": "China, Shenzhen, 30",
+            "country-code": "UKR",
+            "country-name": "Ukraine",
             "total-percentage-upeers": "0.45",
-            "upeers-total": 7671
+            "upeers-total": 9451
         },
         {
             "number": 22,
             "country-code": "CHN",
             "country-name": "China, Jinan, 25",
             "total-percentage-upeers": "0.44",
-            "upeers-total": 7644
+            "upeers-total": 9245
         },
         {
             "number": 23,
-            "country-code": "KOR",
-            "country-name": "Korea, Republic of",
-            "total-percentage-upeers": "0.44",
-            "upeers-total": 7606
+            "country-code": "CHN",
+            "country-name": "China, Shenzhen, 30",
+            "total-percentage-upeers": "0.43",
+            "upeers-total": 9114
         },
         {
             "number": 24,
             "country-code": "GBR",
             "country-name": "United Kingdom of Great Britain and Northern Ireland, London, H9",
-            "total-percentage-upeers": "0.42",
-            "upeers-total": 7203
+            "total-percentage-upeers": "0.40",
+            "upeers-total": 8374
         },
         {
             "number": 25,
             "country-code": "USA",
             "country-name": "United States of America, Atlanta, GA",
-            "total-percentage-upeers": "0.41",
-            "upeers-total": 7127
+            "total-percentage-upeers": "0.39",
+            "upeers-total": 8189
         },
         {
             "number": 26,
             "country-code": "CHN",
             "country-name": "China, Hangzhou, 02",
-            "total-percentage-upeers": "0.39",
-            "upeers-total": 6653
+            "total-percentage-upeers": "0.38",
+            "upeers-total": 7899
         },
         {
             "number": 27,
-            "country-code": "GRC",
-            "country-name": "Greece, Athens, 35",
+            "country-code": "RUS",
+            "country-name": "Russian Federation, Yekaterinburg, 71",
             "total-percentage-upeers": "0.38",
-            "upeers-total": 6532
+            "upeers-total": 7879
         },
         {
             "number": 28,
             "country-code": "CHN",
             "country-name": "China, Wuhan, 12",
-            "total-percentage-upeers": "0.38",
-            "upeers-total": 6530
+            "total-percentage-upeers": "0.37",
+            "upeers-total": 7762
         },
         {
             "number": 29,
-            "country-code": "CHN",
-            "country-name": "China, Zhengzhou, 09",
-            "total-percentage-upeers": "0.35",
-            "upeers-total": 5961
+            "country-code": "GRC",
+            "country-name": "Greece, Athens, 35",
+            "total-percentage-upeers": "0.36",
+            "upeers-total": 7625
         },
         {
             "number": 30,
-            "country-code": "IND",
-            "country-name": "India",
+            "country-code": "CHN",
+            "country-name": "China, Zhengzhou, 09",
             "total-percentage-upeers": "0.34",
-            "upeers-total": 5862
+            "upeers-total": 7155
         }
     ],
     "collection-unique-btiha-detail": [
         {
-            "id": 1042,
-            "name": "multi-btih-10-2x-Westworld.S04E01.1080p.WEB.H264-CAKES[rarbg]",
+            "id": 1426,
+            "name": "multi-btih-10-2-x-Westworld.S04E01.1080p.WEB.H264-CAKES[rarbg]",
             "btih": "9ce98bd6a3286db31dca7a52eb1fc5e559cf97d7",
             "resolution": "1080",
             "encoding": "264",
@@ -414,8 +507,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 163670,
-            "seed": 84610
+            "peer": 183636,
+            "seed": 93411
         },
         {
             "id": 108,
@@ -427,21 +520,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 101047,
-            "seed": 44459
-        },
-        {
-            "id": 1045,
-            "name": "multi-btih-13-2x-Westworld.S04E01.The.Auguries.1080p.HMAX.WEBRip.DD5.1.x264-NTb[rarbg]",
-            "btih": "435d3c7f20f7f72184468c0fab05ae52f2fcec2f",
-            "resolution": "1080",
-            "encoding": "264",
-            "bytes": -780110848,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 100866,
-            "seed": 36932
+            "peer": 115132,
+            "seed": 50013
         },
         {
             "id": 63,
@@ -453,34 +533,47 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 96298,
-            "seed": 37820
+            "peer": 110536,
+            "seed": 40851
+        },
+        {
+            "id": 1429,
+            "name": "multi-btih-13-2-x-Westworld.S04E01.The.Auguries.1080p.HMAX.WEBRip.DD5.1.x264-NTb[rarbg]",
+            "btih": "435d3c7f20f7f72184468c0fab05ae52f2fcec2f",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": -780110848,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 110327,
+            "seed": 40249
         },
         {
             "id": 83,
             "name": "Westworld.S04E01.WEBRip.x264-ION10-[rarbg.to]",
             "btih": "6f0d8ae000c9afc0fa40e3e53a8b6e38909cacfe",
-            "resolution": "sd",
+            "resolution": "720",
             "encoding": "264",
             "bytes": 549309682,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 86589,
-            "seed": 32286
+            "peer": 97409,
+            "seed": 35680
         },
         {
             "id": 118,
             "name": "西部世界.Westworld.S04",
             "btih": "a5ba9c7d500056bb41ec76a654a51b8657dfb1ae",
-            "resolution": "sd",
+            "resolution": "1080",
             "encoding": "none",
             "bytes": 1207386735,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 81038,
-            "seed": 17055
+            "peer": 96806,
+            "seed": 21191
         },
         {
             "id": 106,
@@ -492,8 +585,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 79041,
-            "seed": 18679
+            "peer": 94277,
+            "seed": 23008
         },
         {
             "id": 36,
@@ -505,12 +598,12 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 64767,
-            "seed": 24120
+            "peer": 76735,
+            "seed": 26066
         },
         {
-            "id": 1044,
-            "name": "multi-btih-12-2x-Westworld.S04E01.720p.WEB.h264-KOGi[rarbg]",
+            "id": 1428,
+            "name": "multi-btih-12-2-x-Westworld.S04E01.720p.WEB.h264-KOGi[rarbg]",
             "btih": "732d7c8f5806dcd93843026f6e65ef6352c12d82",
             "resolution": "720",
             "encoding": "264",
@@ -518,12 +611,12 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 61000,
-            "seed": 22249
+            "peer": 68989,
+            "seed": 24582
         },
         {
-            "id": 1046,
-            "name": "multi-btih-14-2x-Westworld.S04E01.The.Auguries.720p.HMAX.WEBRip.DD5.1.x264-NTb[rarbg]",
+            "id": 1430,
+            "name": "multi-btih-14-2-x-Westworld.S04E01.The.Auguries.720p.HMAX.WEBRip.DD5.1.x264-NTb[rarbg]",
             "btih": "ef61ad64b001d689c57d7c6097df752dbb3b65ae",
             "resolution": "720",
             "encoding": "264",
@@ -531,8 +624,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 36164,
-            "seed": 9276
+            "peer": 43378,
+            "seed": 10657
         },
         {
             "id": 80,
@@ -544,8 +637,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 34792,
-            "seed": 7887
+            "peer": 39256,
+            "seed": 8472
         },
         {
             "id": 91,
@@ -557,34 +650,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 30029,
-            "seed": 7653
-        },
-        {
-            "id": 60,
-            "name": "Westworld.S04E01.720p.WEB.h264-KOGi[eztv.re].mkv",
-            "btih": "f8d93af2592f96c0626d9559e0532a914e077513",
-            "resolution": "720",
-            "encoding": "264",
-            "bytes": 1537970614,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 26322,
-            "seed": 7236
-        },
-        {
-            "id": 45,
-            "name": "Westworld.S04E01.1080p.rus.LostFilm.TV.mkv",
-            "btih": "33c6f1b70b5d80cbad1ba1fe6cab543e33ea2abd",
-            "resolution": "1080",
-            "encoding": "none",
-            "bytes": -1113024882,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 26316,
-            "seed": 6946
+            "peer": 38406,
+            "seed": 9277
         },
         {
             "id": 94,
@@ -596,12 +663,38 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 25361,
-            "seed": 5248
+            "peer": 33416,
+            "seed": 6623
         },
         {
-            "id": 1036,
-            "name": "multi-btih-4-2x-Westworld.S04.WEB-DL.1080p.LF_[rutor]",
+            "id": 45,
+            "name": "Westworld.S04E01.1080p.rus.LostFilm.TV.mkv",
+            "btih": "33c6f1b70b5d80cbad1ba1fe6cab543e33ea2abd",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": -1113024882,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 33396,
+            "seed": 9107
+        },
+        {
+            "id": 60,
+            "name": "Westworld.S04E01.720p.WEB.h264-KOGi[eztv.re].mkv",
+            "btih": "f8d93af2592f96c0626d9559e0532a914e077513",
+            "resolution": "720",
+            "encoding": "264",
+            "bytes": 1537970614,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 31255,
+            "seed": 7893
+        },
+        {
+            "id": 1420,
+            "name": "multi-btih-4-2-x-Westworld.S04.WEB-DL.1080p.LF_[rutor]",
             "btih": "5bfc8046de3dd4d483274f3a3f9fd04b4d5297b6",
             "resolution": "1080",
             "encoding": "none",
@@ -609,12 +702,12 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 23977,
-            "seed": 3740
+            "peer": 30309,
+            "seed": 4180
         },
         {
-            "id": 1041,
-            "name": "multi-btih-9-2x-Westworld.S04E01.1080p.WEB.H264-CAKES [IPT]",
+            "id": 1425,
+            "name": "multi-btih-9-2-x-Westworld.S04E01.1080p.WEB.H264-CAKES [IPT]",
             "btih": "6d5637b8fdf5033d2b73a135658b37f84d7fd908",
             "resolution": "1080",
             "encoding": "264",
@@ -622,8 +715,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 23196,
-            "seed": 7125
+            "peer": 27951,
+            "seed": 8218
         },
         {
             "id": 33,
@@ -635,34 +728,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 21093,
-            "seed": 5617
-        },
-        {
-            "id": 31,
-            "name": "Westworld.S04E01.1080p.10bit.WEBRip.6CH.x265.HEVC-PSA.mkv",
-            "btih": "22e565438c460007d4b5414202ee39006bb239ab",
-            "resolution": "1080",
-            "encoding": "265",
-            "bytes": 665677799,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 18677,
-            "seed": 2696
-        },
-        {
-            "id": 35,
-            "name": "Westworld.S04E01.1080p.HEVC.x265-MeGusta[TGx]",
-            "btih": "8ffc6144ad0e4004638e197bb9892a7b01eb1607",
-            "resolution": "1080",
-            "encoding": "265",
-            "bytes": 488978002,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 18625,
-            "seed": 3357
+            "peer": 26149,
+            "seed": 6657
         },
         {
             "id": 55,
@@ -674,25 +741,12 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 18593,
-            "seed": 4296
+            "peer": 23312,
+            "seed": 4897
         },
         {
-            "id": 49,
-            "name": "Westworld.S04E01.480p.x264-mSD[eztv.re].mkv",
-            "btih": "25b34795d09436d21a73df54106df5f9d03d958c",
-            "resolution": "sd",
-            "encoding": "264",
-            "bytes": 289178067,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 17503,
-            "seed": 4464
-        },
-        {
-            "id": 1035,
-            "name": "multi-btih-3-2x-Westworld.S04.400p.Kerob",
+            "id": 1419,
+            "name": "multi-btih-3-2-x-Westworld.S04.400p.Kerob",
             "btih": "008bf5b6df40de85d5a2b6cdb53b0f62f99345cf",
             "resolution": "sd",
             "encoding": "none",
@@ -700,8 +754,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 17395,
-            "seed": 3064
+            "peer": 23256,
+            "seed": 3574
         },
         {
             "id": 119,
@@ -713,21 +767,21 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 17320,
-            "seed": 4356
+            "peer": 22817,
+            "seed": 5438
         },
         {
-            "id": 95,
-            "name": "[ Torrent911.org ] Westworld.S04E01.VOSTFR.WEBRip.x264-ION10.mkv",
-            "btih": "e09ea7045c8f464132eac2fe9d819213d3eea4d7",
-            "resolution": "sd",
-            "encoding": "264",
-            "bytes": 547922504,
+            "id": 35,
+            "name": "Westworld.S04E01.1080p.HEVC.x265-MeGusta[TGx]",
+            "btih": "8ffc6144ad0e4004638e197bb9892a7b01eb1607",
+            "resolution": "1080",
+            "encoding": "265",
+            "bytes": 488978002,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 17262,
-            "seed": 1945
+            "peer": 22515,
+            "seed": 3873
         },
         {
             "id": 4,
@@ -739,8 +793,60 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 17066,
-            "seed": 3384
+            "peer": 21996,
+            "seed": 4178
+        },
+        {
+            "id": 1418,
+            "name": "multi-btih-2-2-x-Westworld.S04.1080p.LakeFilms",
+            "btih": "08b71298a8061d518f7ea2d2575b28a4ef5c5469",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": 1767465108,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 21832,
+            "seed": 1533
+        },
+        {
+            "id": 31,
+            "name": "Westworld.S04E01.1080p.10bit.WEBRip.6CH.x265.HEVC-PSA.mkv",
+            "btih": "22e565438c460007d4b5414202ee39006bb239ab",
+            "resolution": "1080",
+            "encoding": "265",
+            "bytes": 665677799,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 21767,
+            "seed": 3057
+        },
+        {
+            "id": 95,
+            "name": "[ Torrent911.org ] Westworld.S04E01.VOSTFR.WEBRip.x264-ION10.mkv",
+            "btih": "e09ea7045c8f464132eac2fe9d819213d3eea4d7",
+            "resolution": "sd",
+            "encoding": "264",
+            "bytes": 547922504,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 21635,
+            "seed": 2392
+        },
+        {
+            "id": 49,
+            "name": "Westworld.S04E01.480p.x264-mSD[eztv.re].mkv",
+            "btih": "25b34795d09436d21a73df54106df5f9d03d958c",
+            "resolution": "sd",
+            "encoding": "264",
+            "bytes": 289178067,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 20851,
+            "seed": 5124
         },
         {
             "id": 1,
@@ -752,12 +858,25 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 16680,
-            "seed": 2611
+            "peer": 20344,
+            "seed": 3070
         },
         {
-            "id": 1037,
-            "name": "multi-btih-5-2x-Westworld.S04.WEB-DL1080p.xz",
+            "id": 90,
+            "name": "Westworld.S04E01.rus.LostFilm.TV.avi",
+            "btih": "1dc13c64b80fadac24418ce25120842dbcdec206",
+            "resolution": "720",
+            "encoding": "none",
+            "bytes": 845180928,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 20168,
+            "seed": 5114
+        },
+        {
+            "id": 1421,
+            "name": "multi-btih-5-2-x-Westworld.S04.WEB-DL1080p.xz",
             "btih": "43a5f492ac9b755b4615932e6d4d888605adbfec",
             "resolution": "1080",
             "encoding": "none",
@@ -765,38 +884,12 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 16147,
-            "seed": 5808
+            "peer": 19658,
+            "seed": 6477
         },
         {
-            "id": 1033,
-            "name": "multi-btih-1-2x-Westworld.S04.1080p.Kerob",
-            "btih": "dd5fcbdfb6cdee4fc5f6f91d371fd3199f113ceb",
-            "resolution": "1080",
-            "encoding": "none",
-            "bytes": -571643074,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 15471,
-            "seed": 5724
-        },
-        {
-            "id": 1034,
-            "name": "multi-btih-2-2x-Westworld.S04.1080p.LakeFilms",
-            "btih": "08b71298a8061d518f7ea2d2575b28a4ef5c5469",
-            "resolution": "1080",
-            "encoding": "none",
-            "bytes": 1767465108,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 14716,
-            "seed": 1321
-        },
-        {
-            "id": 1040,
-            "name": "multi-btih-8-3x-Westworld.S04.WEBRip.Rus.HDRezka",
+            "id": 1424,
+            "name": "multi-btih-8-3-x-Westworld.S04.WEBRip.Rus.HDRezka",
             "btih": "07d7d9ff63c1affe745e353c2b8379f703d0b0a1",
             "resolution": "sd",
             "encoding": "none",
@@ -804,8 +897,21 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 14687,
-            "seed": 2577
+            "peer": 19284,
+            "seed": 2950
+        },
+        {
+            "id": 1417,
+            "name": "multi-btih-1-2-x-Westworld.S04.1080p.Kerob",
+            "btih": "dd5fcbdfb6cdee4fc5f6f91d371fd3199f113ceb",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": -571643074,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 18978,
+            "seed": 6346
         },
         {
             "id": 42,
@@ -817,38 +923,12 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 14406,
-            "seed": 3944
+            "peer": 17367,
+            "seed": 4478
         },
         {
-            "id": 90,
-            "name": "Westworld.S04E01.rus.LostFilm.TV.avi",
-            "btih": "1dc13c64b80fadac24418ce25120842dbcdec206",
-            "resolution": "sd",
-            "encoding": "none",
-            "bytes": 845180928,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 14288,
-            "seed": 3811
-        },
-        {
-            "id": 117,
-            "name": "Мир Дикого запада Westworld Сезон 4 Серии 1 из 8 (Ричард Дж. Льюис, Пол Кэмерон, Крэйг Уильям Макнейлл) [2022, США, фантас [rutracker-6230483]",
-            "btih": "449ccf69a84f471ee5b7e35a1b4d071612e5d902",
-            "resolution": "sd",
-            "encoding": "none",
-            "bytes": -467251121,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 12562,
-            "seed": 3294
-        },
-        {
-            "id": 1038,
-            "name": "multi-btih-6-2x-Westworld.S04.WEB-DLRip-AVC",
+            "id": 1422,
+            "name": "multi-btih-6-2-x-Westworld.S04.WEB-DLRip-AVC",
             "btih": "adb7ed8389d5e8c47791c7e8309fb5a2ce3b7707",
             "resolution": "sd",
             "encoding": "none",
@@ -856,8 +936,21 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 12019,
-            "seed": 1758
+            "peer": 16981,
+            "seed": 2124
+        },
+        {
+            "id": 117,
+            "name": "Мир Дикого запада Westworld Сезон 4 Серии 1 из 8 (Ричард Дж. Льюис, Пол Кэмерон, Крэйг Уильям Макнейлл) [2022, США, фантас [rutracker-6230483]",
+            "btih": "449ccf69a84f471ee5b7e35a1b4d071612e5d902",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": -467251121,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 16403,
+            "seed": 3549
         },
         {
             "id": 89,
@@ -869,8 +962,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 11959,
-            "seed": 2916
+            "peer": 15508,
+            "seed": 3431
         },
         {
             "id": 84,
@@ -882,47 +975,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 11162,
-            "seed": 2646
-        },
-        {
-            "id": 64,
-            "name": "Westworld.S04E01.720p.rus.LostFilm.TV.mp4",
-            "btih": "7c144afabcb92b6b5fdd2847ba7f33de088b05b1",
-            "resolution": "720",
-            "encoding": "none",
-            "bytes": 1781396899,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 10176,
-            "seed": 1633
-        },
-        {
-            "id": 107,
-            "name": "westworld.s04e01.1080p.web.h264-cakes.mkv",
-            "btih": "98c331ccf203683428b12251dd8ce6ef6d5fc4ae",
-            "resolution": "1080",
-            "encoding": "264",
-            "bytes": -780303009,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 10059,
-            "seed": 2212
-        },
-        {
-            "id": 70,
-            "name": "Westworld.S04E01.I.presagi.ITA.ENG.1080p.HMAX.WEB-DLMux.DD5.1.x264-MeM.GP.mkv",
-            "btih": "c99a92edee425eaecaaf8c70d13e119b49607be7",
-            "resolution": "1080",
-            "encoding": "264",
-            "bytes": -636360696,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 9450,
-            "seed": 1619
+            "peer": 13536,
+            "seed": 3121
         },
         {
             "id": 96,
@@ -934,8 +988,21 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 9013,
-            "seed": 2408
+            "peer": 13481,
+            "seed": 2986
+        },
+        {
+            "id": 70,
+            "name": "Westworld.S04E01.I.presagi.ITA.ENG.1080p.HMAX.WEB-DLMux.DD5.1.x264-MeM.GP.mkv",
+            "btih": "c99a92edee425eaecaaf8c70d13e119b49607be7",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": -636360696,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 13238,
+            "seed": 2213
         },
         {
             "id": 3,
@@ -947,34 +1014,34 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 8932,
-            "seed": 1781
+            "peer": 13099,
+            "seed": 2393
         },
         {
-            "id": 6,
-            "name": "Westworld 4X1 HDTV XviD Castellano",
-            "btih": "7caf024cfa059cc80df080c543d6368dc0138d52",
-            "resolution": "sd",
-            "encoding": "xvid",
-            "bytes": 640906374,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 8924,
-            "seed": 601
-        },
-        {
-            "id": 73,
-            "name": "Westworld.S04E01.The.Auguries.1080p.HMAX.WEBRip.DD5.1.x264-NTb[TGx]",
-            "btih": "57789f2f7575a64834f8d555f10fac3939a5101e",
+            "id": 107,
+            "name": "westworld.s04e01.1080p.web.h264-cakes.mkv",
+            "btih": "98c331ccf203683428b12251dd8ce6ef6d5fc4ae",
             "resolution": "1080",
             "encoding": "264",
-            "bytes": -780110259,
+            "bytes": -780303009,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 8830,
-            "seed": 1613
+            "peer": 12803,
+            "seed": 2702
+        },
+        {
+            "id": 64,
+            "name": "Westworld.S04E01.720p.rus.LostFilm.TV.mp4",
+            "btih": "7c144afabcb92b6b5fdd2847ba7f33de088b05b1",
+            "resolution": "720",
+            "encoding": "none",
+            "bytes": 1781396899,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 12257,
+            "seed": 2112
         },
         {
             "id": 57,
@@ -986,8 +1053,21 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 8706,
-            "seed": 1775
+            "peer": 11399,
+            "seed": 2173
+        },
+        {
+            "id": 73,
+            "name": "Westworld.S04E01.The.Auguries.1080p.HMAX.WEBRip.DD5.1.x264-NTb[TGx]",
+            "btih": "57789f2f7575a64834f8d555f10fac3939a5101e",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": -780110259,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 11269,
+            "seed": 1994
         },
         {
             "id": 34,
@@ -999,8 +1079,21 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 8522,
-            "seed": 1490
+            "peer": 11204,
+            "seed": 1857
+        },
+        {
+            "id": 6,
+            "name": "Westworld 4X1 HDTV XviD Castellano",
+            "btih": "7caf024cfa059cc80df080c543d6368dc0138d52",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "bytes": 640906374,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 10753,
+            "seed": 696
         },
         {
             "id": 115,
@@ -1012,34 +1105,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 7720,
-            "seed": 1378
-        },
-        {
-            "id": 10,
-            "name": "Westworld.4x01.lati.mp4",
-            "btih": "ad245d742a0f7d491c94ef2ade8e715faaee78de",
-            "resolution": "sd",
-            "encoding": "none",
-            "bytes": 492345946,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 7624,
-            "seed": 1250
-        },
-        {
-            "id": 109,
-            "name": "westworld.s04e01.multi.1080p.web.h264-sheeeit[eztv.re].mkv",
-            "btih": "e71d8fd60a05b2e9d33fccd37598324c039ff653",
-            "resolution": "1080",
-            "encoding": "264",
-            "bytes": -318839371,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 7562,
-            "seed": 1335
+            "peer": 10640,
+            "seed": 1625
         },
         {
             "id": 59,
@@ -1051,8 +1118,34 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 7358,
-            "seed": 1252
+            "peer": 10262,
+            "seed": 1718
+        },
+        {
+            "id": 1423,
+            "name": "multi-btih-7-2-x-Westworld.S04.WEBDL.1080p.Rus.Eng",
+            "btih": "959ecda4d4fabcdbab551286abc7e5a87c1566d7",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": -623779505,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 10124,
+            "seed": 1268
+        },
+        {
+            "id": 109,
+            "name": "westworld.s04e01.multi.1080p.web.h264-sheeeit[eztv.re].mkv",
+            "btih": "e71d8fd60a05b2e9d33fccd37598324c039ff653",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": -318839371,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 10066,
+            "seed": 1631
         },
         {
             "id": 92,
@@ -1064,34 +1157,21 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 7310,
-            "seed": 117
+            "peer": 9905,
+            "seed": 136
         },
         {
-            "id": 1039,
-            "name": "multi-btih-7-2x-Westworld.S04.WEBDL.1080p.Rus.Eng",
-            "btih": "959ecda4d4fabcdbab551286abc7e5a87c1566d7",
-            "resolution": "1080",
-            "encoding": "none",
-            "bytes": -623779505,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 7018,
-            "seed": 1133
-        },
-        {
-            "id": 88,
-            "name": "Westworld.S04E01.XviD-AFG[TGx]",
-            "btih": "7ca23097a7d2919dac6ad01fd078be85381b288b",
+            "id": 10,
+            "name": "Westworld.4x01.lati.mp4",
+            "btih": "ad245d742a0f7d491c94ef2ade8e715faaee78de",
             "resolution": "sd",
-            "encoding": "xvid",
-            "bytes": 487288503,
+            "encoding": "none",
+            "bytes": 492345946,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 6829,
-            "seed": 662
+            "peer": 9635,
+            "seed": 1628
         },
         {
             "id": 101,
@@ -1103,346 +1183,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 6794,
-            "seed": 1943
-        },
-        {
-            "id": 50,
-            "name": "Westworld.S04E01.720p.10bit.WEBRip.2CH.x265.HEVC-PSA.mkv",
-            "btih": "3e979a0f3646e3583c877dbcf6a6ffceba229c2b",
-            "resolution": "720",
-            "encoding": "265",
-            "bytes": 293837932,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 6546,
-            "seed": 744
-        },
-        {
-            "id": 77,
-            "name": "Westworld.S04E01.The.Auguries.720p.HMAX.WEBRip.DD5.1.x264-NTb[TGx]",
-            "btih": "99a3ae41cab1341f011b1426981ced6827589b03",
-            "resolution": "720",
-            "encoding": "264",
-            "bytes": 1538161446,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 6156,
-            "seed": 927
-        },
-        {
-            "id": 53,
-            "name": "Westworld.S04E01.720p.HEVC.x265-MeGusta.mkv",
-            "btih": "11ecdde08d45448f65372f60b4be13e789420bd8",
-            "resolution": "720",
-            "encoding": "265",
-            "bytes": 369926575,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 6122,
-            "seed": 955
-        },
-        {
-            "id": 13,
-            "name": "Westworld.S01.PL.720p.HMAX.WEB-DL.h264.DD2.0-r4u",
-            "btih": "40586ab9e7b0d34a646bb0edb963f2c795c994c2",
-            "resolution": "720",
-            "encoding": "264",
-            "bytes": -285988641,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 5657,
-            "seed": 1137
-        },
-        {
-            "id": 46,
-            "name": "Westworld.S04E01.1080p.x265-ELiTE",
-            "btih": "2a3e9c7f4fdd87bb19ad17e4ca64d42a810b6912",
-            "resolution": "1080",
-            "encoding": "265",
-            "bytes": 687484095,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 5655,
-            "seed": 852
-        },
-        {
-            "id": 21,
-            "name": "Westworld.S04.400p.Ultradox",
-            "btih": "0f04562fb6f0845f99131a2937357b54ac58c1de",
-            "resolution": "sd",
-            "encoding": "none",
-            "bytes": 787255296,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 5563,
-            "seed": 592
-        },
-        {
-            "id": 56,
-            "name": "Westworld.S04E01.720p.WEB.h264-KOGi [IPT]",
-            "btih": "8ae45afd0b9d27215f770cc161448bbd15811183",
-            "resolution": "720",
-            "encoding": "264",
-            "bytes": 1537977978,
-            "ssl": false,
-            "private": true,
-            "i2p": false,
-            "peer": 5556,
-            "seed": 1527
-        },
-        {
-            "id": 5,
-            "name": "Westworld - Temporada 4 [WEB-DL 1080p][Cap.401][Dual DDP5.1 + Subs][www.atomoHD.ONE]",
-            "btih": "1fc28bd733d8e62083e5b3301beee5ac826255a4",
-            "resolution": "1080",
-            "encoding": "none",
-            "bytes": -774139133,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 5533,
-            "seed": 889
-        },
-        {
-            "id": 110,
-            "name": "www.scenetime.com   -    Westworld S04E01 AAC MP4-Mobile",
-            "btih": "d76e205cee1bd92e09dc28f19b0dfd262ae97b74",
-            "resolution": "sd",
-            "encoding": "none",
-            "bytes": 201514244,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 5395,
-            "seed": 135
-        },
-        {
-            "id": 97,
-            "name": "[rutor.is]Westworld(1)",
-            "btih": "3bcf0799ac16ab442fbd009cee37cad63ca2b3da",
-            "resolution": "sd",
-            "encoding": "none",
-            "bytes": -229649896,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 5377,
-            "seed": 534
-        },
-        {
-            "id": 1047,
-            "name": "multi-btih-15-2x-Westworld.S04E01.XviD-AFG [IPT]",
-            "btih": "245d62064ca6053786cf0768a41ee8326fbc85a9",
-            "resolution": "sd",
-            "encoding": "xvid",
-            "bytes": 488151152,
-            "ssl": false,
-            "private": true,
-            "i2p": false,
-            "peer": 5296,
-            "seed": 1485
-        },
-        {
-            "id": 14,
-            "name": "Westworld.S01E10.1080p.rus.LostFilm.TV.mkv",
-            "btih": "9855ee4e6a19098352fc6e217f9721c17a0d3b78",
-            "resolution": "1080",
-            "encoding": "none",
-            "bytes": 1155045499,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 5178,
-            "seed": 804
-        },
-        {
-            "id": 19,
-            "name": "Westworld.S04.400p.ColdFilm",
-            "btih": "d1cc7976ba2109d603b920ed726ac12d1b7b1182",
-            "resolution": "sd",
-            "encoding": "none",
-            "bytes": 693659322,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 5174,
-            "seed": 250
-        },
-        {
-            "id": 68,
-            "name": "Westworld.S04E01.HDTV.SubtituladoEsp.SC.mp4",
-            "btih": "4307492da2e5f74653ea6e2f810a0330866bf1a3",
-            "resolution": "sd",
-            "encoding": "none",
-            "bytes": 589987508,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 5096,
-            "seed": 600
-        },
-        {
-            "id": 1043,
-            "name": "multi-btih-11-2x-Westworld.S04E01.720p.HEVC.x265-MeGusta [IPT]",
-            "btih": "9395a03fb6bb2bf0e4fbbe20b8a6a879661ad8e0",
-            "resolution": "720",
-            "encoding": "265",
-            "bytes": 381025070,
-            "ssl": false,
-            "private": true,
-            "i2p": false,
-            "peer": 5042,
-            "seed": 1622
-        },
-        {
-            "id": 1032,
-            "name": "multi-btih-0-2x-Westworld (Season 4) AlexFilm WEB-DLRip",
-            "btih": "fd433e139b6c881d98fc047867b002addf468775",
-            "resolution": "sd",
-            "encoding": "none",
-            "bytes": 854652086,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 4917,
-            "seed": 240
-        },
-        {
-            "id": 85,
-            "name": "Westworld.S04E01.WEBRip.x264-XEN0N",
-            "btih": "3deafa2f57e77f49f8903643279247bf87a99a2c",
-            "resolution": "sd",
-            "encoding": "264",
-            "bytes": 329511962,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 4754,
-            "seed": 427
-        },
-        {
-            "id": 93,
-            "name": "Westworld.s04.WEBRip.XviD.Rus.RuDub.tv",
-            "btih": "89d2d474a246b97f721d1d79a502595da3350e73",
-            "resolution": "sd",
-            "encoding": "xvid",
-            "bytes": 706612906,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 4710,
-            "seed": 595
-        },
-        {
-            "id": 66,
-            "name": "Westworld.S04E01.720p.x265-T0PAZ",
-            "btih": "2d23d8f20c32af532030f9f2c15e56a94a108452",
-            "resolution": "720",
-            "encoding": "265",
-            "bytes": 485179891,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 4641,
-            "seed": 980
-        },
-        {
-            "id": 58,
-            "name": "Westworld.S04E01.720p.WEB.h264-KOGi",
-            "btih": "ee427df3cdbd50639a8132b2f920502b633feeb4",
-            "resolution": "720",
-            "encoding": "264",
-            "bytes": 1537970614,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 4516,
-            "seed": 212
-        },
-        {
-            "id": 82,
-            "name": "Westworld.S04E01.WEBRip.720p.rus.5.1.HDREZKA.STUDIO.mkv",
-            "btih": "62564a525d225e01dc443846cf967c2d30256f99",
-            "resolution": "720",
-            "encoding": "none",
-            "bytes": 1873338123,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 4451,
-            "seed": 161
-        },
-        {
-            "id": 81,
-            "name": "Westworld.S04E01.WEBRip.1080p.rus.5.1.HDREZKA.STUDIO.mkv",
-            "btih": "aec0fc78238129a659acc62c42fd7f3b49b33bfc",
-            "resolution": "1080",
-            "encoding": "none",
-            "bytes": -256265624,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 4401,
-            "seed": 298
-        },
-        {
-            "id": 7,
-            "name": "Westworld S04E01 2022 WEB-DL 1080p DUAL 2.0",
-            "btih": "17ed4fad8b5fe56b6e6a4772d62a64ddcb3659e8",
-            "resolution": "1080",
-            "encoding": "none",
-            "bytes": 1644558417,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 4363,
-            "seed": 832
-        },
-        {
-            "id": 11,
-            "name": "Westworld.Dove.Tutto.E.Concesso.4x01.I.Presagi.ITA.ENG.1080p.DLMux.AAC.x265-Pir8.mkv",
-            "btih": "ff10bc75b08dde76832025861487f404ff1eeb8a",
-            "resolution": "1080",
-            "encoding": "265",
-            "bytes": 1072332661,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 4265,
-            "seed": 259
-        },
-        {
-            "id": 69,
-            "name": "Westworld.S04E01.I.Presagi.HMAX.WEBMux.ITA.ENG.x264-BlackBit.mkv",
-            "btih": "6450b17dc9b2c73bbeaca884df76363a06b5f09c",
-            "resolution": "sd",
-            "encoding": "264",
-            "bytes": 484267213,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 4255,
-            "seed": 567
-        },
-        {
-            "id": 51,
-            "name": "Westworld.S04E01.720p.ColdFilm.mkv",
-            "btih": "925a9dc5e930529c332c4980fcfaee283d216086",
-            "resolution": "720",
-            "encoding": "none",
-            "bytes": 1325929192,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 4243,
-            "seed": 288
+            "peer": 9210,
+            "seed": 2240
         },
         {
             "id": 111,
@@ -1454,86 +1196,320 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 4222,
-            "seed": 598
+            "peer": 8635,
+            "seed": 1671
+        },
+        {
+            "id": 88,
+            "name": "Westworld.S04E01.XviD-AFG[TGx]",
+            "btih": "7ca23097a7d2919dac6ad01fd078be85381b288b",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "bytes": 487288503,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 8569,
+            "seed": 871
         },
         {
             "id": 102,
             "name": "[rutor.is]Westworld.S04.SD.LakeFilms",
             "btih": "d9f8c450e4d55974c4e1077bb3f06e7627d4a9f1",
-            "resolution": "sd",
+            "resolution": "720",
             "encoding": "none",
             "bytes": 492698980,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 4186,
-            "seed": 868
+            "peer": 8033,
+            "seed": 1000
         },
         {
-            "id": 29,
-            "name": "Westworld.S04.WEBDL.720p.LostFilm",
-            "btih": "5d369360ac361c8456b485b0d2093a2af76f7800",
+            "id": 77,
+            "name": "Westworld.S04E01.The.Auguries.720p.HMAX.WEBRip.DD5.1.x264-NTb[TGx]",
+            "btih": "99a3ae41cab1341f011b1426981ced6827589b03",
             "resolution": "720",
-            "encoding": "none",
-            "bytes": 1694477457,
+            "encoding": "264",
+            "bytes": 1538161446,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 4086,
-            "seed": 216
+            "peer": 7930,
+            "seed": 1202
         },
         {
-            "id": 22,
-            "name": "Westworld.S04.720p.ColdFilm",
-            "btih": "32a3aef1e456368ce3e2a043525e28ea98c08f8c",
+            "id": 53,
+            "name": "Westworld.S04E01.720p.HEVC.x265-MeGusta.mkv",
+            "btih": "11ecdde08d45448f65372f60b4be13e789420bd8",
             "resolution": "720",
-            "encoding": "none",
-            "bytes": 1537875447,
+            "encoding": "265",
+            "bytes": 369926575,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 3918,
-            "seed": 539
+            "peer": 7780,
+            "seed": 1168
         },
         {
-            "id": 28,
-            "name": "Westworld.S04.WEBDL.720p.AlexFilm",
-            "btih": "6daf7b1c6299b576e00eb47632a85f8de8cc8336",
+            "id": 13,
+            "name": "Westworld.S01.PL.720p.HMAX.WEB-DL.h264.DD2.0-r4u",
+            "btih": "40586ab9e7b0d34a646bb0edb963f2c795c994c2",
             "resolution": "720",
-            "encoding": "none",
-            "bytes": 1694486711,
+            "encoding": "264",
+            "bytes": -285988641,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 3878,
-            "seed": 88
+            "peer": 7747,
+            "seed": 1406
         },
         {
-            "id": 15,
-            "name": "Westworld.S03E04.1080p.BluRay.60FPS.Dubbed.HEVC.HDR.AC3.ytcodecs",
-            "btih": "e3db06464b92df523ed0a61fd07dd2807dd91762",
+            "id": 5,
+            "name": "Westworld - Temporada 4 [WEB-DL 1080p][Cap.401][Dual DDP5.1 + Subs][www.atomoHD.ONE]",
+            "btih": "1fc28bd733d8e62083e5b3301beee5ac826255a4",
             "resolution": "1080",
             "encoding": "none",
-            "bytes": 1496936431,
+            "bytes": -774139133,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 3831,
-            "seed": 88
+            "peer": 7681,
+            "seed": 1006
         },
         {
-            "id": 72,
-            "name": "Westworld.S04E01.The.Auguries.1080.WEBRip.x265-DiN",
-            "btih": "55d5ceef367536a229d78b408ec446b76795a450",
+            "id": 50,
+            "name": "Westworld.S04E01.720p.10bit.WEBRip.2CH.x265.HEVC-PSA.mkv",
+            "btih": "3e979a0f3646e3583c877dbcf6a6ffceba229c2b",
+            "resolution": "720",
+            "encoding": "265",
+            "bytes": 293837932,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 7588,
+            "seed": 865
+        },
+        {
+            "id": 97,
+            "name": "[rutor.is]Westworld(1)",
+            "btih": "3bcf0799ac16ab442fbd009cee37cad63ca2b3da",
+            "resolution": "sd",
+            "encoding": "none",
+            "bytes": -229649896,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 7217,
+            "seed": 582
+        },
+        {
+            "id": 14,
+            "name": "Westworld.S01E10.1080p.rus.LostFilm.TV.mkv",
+            "btih": "9855ee4e6a19098352fc6e217f9721c17a0d3b78",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": 1155045499,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 7201,
+            "seed": 1037
+        },
+        {
+            "id": 21,
+            "name": "Westworld.S04.400p.Ultradox",
+            "btih": "0f04562fb6f0845f99131a2937357b54ac58c1de",
+            "resolution": "sd",
+            "encoding": "none",
+            "bytes": 787255296,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 7151,
+            "seed": 692
+        },
+        {
+            "id": 68,
+            "name": "Westworld.S04E01.HDTV.SubtituladoEsp.SC.mp4",
+            "btih": "4307492da2e5f74653ea6e2f810a0330866bf1a3",
+            "resolution": "sd",
+            "encoding": "none",
+            "bytes": 589987508,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 7144,
+            "seed": 760
+        },
+        {
+            "id": 110,
+            "name": "www.scenetime.com   -    Westworld S04E01 AAC MP4-Mobile",
+            "btih": "d76e205cee1bd92e09dc28f19b0dfd262ae97b74",
+            "resolution": "sd",
+            "encoding": "none",
+            "bytes": 201514244,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 7082,
+            "seed": 222
+        },
+        {
+            "id": 19,
+            "name": "Westworld.S04.400p.ColdFilm",
+            "btih": "d1cc7976ba2109d603b920ed726ac12d1b7b1182",
+            "resolution": "sd",
+            "encoding": "none",
+            "bytes": 693659322,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 7020,
+            "seed": 293
+        },
+        {
+            "id": 46,
+            "name": "Westworld.S04E01.1080p.x265-ELiTE",
+            "btih": "2a3e9c7f4fdd87bb19ad17e4ca64d42a810b6912",
             "resolution": "1080",
             "encoding": "265",
-            "bytes": -1897025603,
+            "bytes": 687484095,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 3821,
-            "seed": 247
+            "peer": 6936,
+            "seed": 1090
+        },
+        {
+            "id": 69,
+            "name": "Westworld.S04E01.I.Presagi.HMAX.WEBMux.ITA.ENG.x264-BlackBit.mkv",
+            "btih": "6450b17dc9b2c73bbeaca884df76363a06b5f09c",
+            "resolution": "sd",
+            "encoding": "264",
+            "bytes": 484267213,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 6924,
+            "seed": 760
+        },
+        {
+            "id": 56,
+            "name": "Westworld.S04E01.720p.WEB.h264-KOGi [IPT]",
+            "btih": "8ae45afd0b9d27215f770cc161448bbd15811183",
+            "resolution": "720",
+            "encoding": "264",
+            "bytes": 1537977978,
+            "ssl": false,
+            "private": true,
+            "i2p": false,
+            "peer": 6644,
+            "seed": 1754
+        },
+        {
+            "id": 58,
+            "name": "Westworld.S04E01.720p.WEB.h264-KOGi",
+            "btih": "ee427df3cdbd50639a8132b2f920502b633feeb4",
+            "resolution": "720",
+            "encoding": "264",
+            "bytes": 1537970614,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 6617,
+            "seed": 248
+        },
+        {
+            "id": 1431,
+            "name": "multi-btih-15-2-x-Westworld.S04E01.XviD-AFG [IPT]",
+            "btih": "245d62064ca6053786cf0768a41ee8326fbc85a9",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "bytes": 488151152,
+            "ssl": false,
+            "private": true,
+            "i2p": false,
+            "peer": 6609,
+            "seed": 1861
+        },
+        {
+            "id": 1416,
+            "name": "multi-btih-0-2-x-Westworld (Season 4) AlexFilm WEB-DLRip",
+            "btih": "fd433e139b6c881d98fc047867b002addf468775",
+            "resolution": "sd",
+            "encoding": "none",
+            "bytes": 854652086,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 6603,
+            "seed": 262
+        },
+        {
+            "id": 1427,
+            "name": "multi-btih-11-2-x-Westworld.S04E01.720p.HEVC.x265-MeGusta [IPT]",
+            "btih": "9395a03fb6bb2bf0e4fbbe20b8a6a879661ad8e0",
+            "resolution": "720",
+            "encoding": "265",
+            "bytes": 381025070,
+            "ssl": false,
+            "private": true,
+            "i2p": false,
+            "peer": 6403,
+            "seed": 1958
+        },
+        {
+            "id": 93,
+            "name": "Westworld.s04.WEBRip.XviD.Rus.RuDub.tv",
+            "btih": "89d2d474a246b97f721d1d79a502595da3350e73",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "bytes": 706612906,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 6319,
+            "seed": 657
+        },
+        {
+            "id": 85,
+            "name": "Westworld.S04E01.WEBRip.x264-XEN0N",
+            "btih": "3deafa2f57e77f49f8903643279247bf87a99a2c",
+            "resolution": "sd",
+            "encoding": "264",
+            "bytes": 329511962,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 5949,
+            "seed": 490
+        },
+        {
+            "id": 7,
+            "name": "Westworld S04E01 2022 WEB-DL 1080p DUAL 2.0",
+            "btih": "17ed4fad8b5fe56b6e6a4772d62a64ddcb3659e8",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": 1644558417,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 5926,
+            "seed": 1070
+        },
+        {
+            "id": 51,
+            "name": "Westworld.S04E01.720p.ColdFilm.mkv",
+            "btih": "925a9dc5e930529c332c4980fcfaee283d216086",
+            "resolution": "720",
+            "encoding": "none",
+            "bytes": 1325929192,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 5812,
+            "seed": 322
         },
         {
             "id": 65,
@@ -1545,60 +1521,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 3785,
-            "seed": 418
-        },
-        {
-            "id": 37,
-            "name": "Westworld.S04E01.1080p.HMAX.60FPS.Dubbed.HEVC.HDR.AC3.ytcodecs",
-            "btih": "f0b465a2ec81a9da77ecdce304de2984b83be919",
-            "resolution": "1080",
-            "encoding": "none",
-            "bytes": 1652327973,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 3776,
-            "seed": 98
-        },
-        {
-            "id": 23,
-            "name": "Westworld.S04.720p.Ultradox",
-            "btih": "9125151ced71c94b8e227544f1a803d75dffaf94",
-            "resolution": "720",
-            "encoding": "none",
-            "bytes": 1238222967,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 3715,
-            "seed": 103
-        },
-        {
-            "id": 9,
-            "name": "Westworld.(Season 04).LostFilm",
-            "btih": "18f8aec8da22e8adca8ad058841d05c1132da3cc",
-            "resolution": "sd",
-            "encoding": "none",
-            "bytes": 845180928,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 3713,
-            "seed": 273
-        },
-        {
-            "id": 18,
-            "name": "Westworld.S04.1080p.Ultradox",
-            "btih": "cfbbc668963d52024fbc5ca1d7a54f34bcb16987",
-            "resolution": "1080",
-            "encoding": "none",
-            "bytes": 1930687342,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 3460,
-            "seed": 98
+            "peer": 5796,
+            "seed": 474
         },
         {
             "id": 32,
@@ -1610,8 +1534,164 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 3178,
-            "seed": 602
+            "peer": 5784,
+            "seed": 720
+        },
+        {
+            "id": 82,
+            "name": "Westworld.S04E01.WEBRip.720p.rus.5.1.HDREZKA.STUDIO.mkv",
+            "btih": "62564a525d225e01dc443846cf967c2d30256f99",
+            "resolution": "720",
+            "encoding": "none",
+            "bytes": 1873338123,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 5760,
+            "seed": 222
+        },
+        {
+            "id": 11,
+            "name": "Westworld.Dove.Tutto.E.Concesso.4x01.I.Presagi.ITA.ENG.1080p.DLMux.AAC.x265-Pir8.mkv",
+            "btih": "ff10bc75b08dde76832025861487f404ff1eeb8a",
+            "resolution": "1080",
+            "encoding": "265",
+            "bytes": 1072332661,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 5684,
+            "seed": 362
+        },
+        {
+            "id": 66,
+            "name": "Westworld.S04E01.720p.x265-T0PAZ",
+            "btih": "2d23d8f20c32af532030f9f2c15e56a94a108452",
+            "resolution": "720",
+            "encoding": "265",
+            "bytes": 485179891,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 5644,
+            "seed": 1118
+        },
+        {
+            "id": 72,
+            "name": "Westworld.S04E01.The.Auguries.1080.WEBRip.x265-DiN",
+            "btih": "55d5ceef367536a229d78b408ec446b76795a450",
+            "resolution": "1080",
+            "encoding": "265",
+            "bytes": -1897025603,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 5549,
+            "seed": 281
+        },
+        {
+            "id": 81,
+            "name": "Westworld.S04E01.WEBRip.1080p.rus.5.1.HDREZKA.STUDIO.mkv",
+            "btih": "aec0fc78238129a659acc62c42fd7f3b49b33bfc",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": -256265624,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 5507,
+            "seed": 446
+        },
+        {
+            "id": 29,
+            "name": "Westworld.S04.WEBDL.720p.LostFilm",
+            "btih": "5d369360ac361c8456b485b0d2093a2af76f7800",
+            "resolution": "720",
+            "encoding": "none",
+            "bytes": 1694477457,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 5320,
+            "seed": 233
+        },
+        {
+            "id": 15,
+            "name": "Westworld.S03E04.1080p.BluRay.60FPS.Dubbed.HEVC.HDR.AC3.ytcodecs",
+            "btih": "e3db06464b92df523ed0a61fd07dd2807dd91762",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": 1496936431,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 5191,
+            "seed": 97
+        },
+        {
+            "id": 22,
+            "name": "Westworld.S04.720p.ColdFilm",
+            "btih": "32a3aef1e456368ce3e2a043525e28ea98c08f8c",
+            "resolution": "720",
+            "encoding": "none",
+            "bytes": 1537875447,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 5142,
+            "seed": 628
+        },
+        {
+            "id": 37,
+            "name": "Westworld.S04E01.1080p.HMAX.60FPS.Dubbed.HEVC.HDR.AC3.ytcodecs",
+            "btih": "f0b465a2ec81a9da77ecdce304de2984b83be919",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": 1652327973,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 5117,
+            "seed": 116
+        },
+        {
+            "id": 9,
+            "name": "Westworld.(Season 04).LostFilm",
+            "btih": "18f8aec8da22e8adca8ad058841d05c1132da3cc",
+            "resolution": "720",
+            "encoding": "none",
+            "bytes": 845180928,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 4982,
+            "seed": 306
+        },
+        {
+            "id": 18,
+            "name": "Westworld.S04.1080p.Ultradox",
+            "btih": "cfbbc668963d52024fbc5ca1d7a54f34bcb16987",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": 1930687342,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 4958,
+            "seed": 120
+        },
+        {
+            "id": 23,
+            "name": "Westworld.S04.720p.Ultradox",
+            "btih": "9125151ced71c94b8e227544f1a803d75dffaf94",
+            "resolution": "720",
+            "encoding": "none",
+            "bytes": 1238222967,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 4948,
+            "seed": 125
         },
         {
             "id": 8,
@@ -1623,34 +1703,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 3139,
-            "seed": 243
-        },
-        {
-            "id": 12,
-            "name": "Westworld.Dove.Tutto.E.Concesso.S04e01.ITA.ENG.DLMux.XviD-Pir8",
-            "btih": "a6b52a037fb90767f29245a6a1bd9c53f3dda78b",
-            "resolution": "sd",
-            "encoding": "xvid",
-            "bytes": 681330194,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 3111,
-            "seed": 283
-        },
-        {
-            "id": 47,
-            "name": "Westworld.S04E01.400p.ColdFilm.avi",
-            "btih": "1601db41d90249115bbfcd1b70bdb8f0de9551d5",
-            "resolution": "sd",
-            "encoding": "none",
-            "bytes": 636514272,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 2523,
-            "seed": 527
+            "peer": 4914,
+            "seed": 297
         },
         {
             "id": 39,
@@ -1662,8 +1716,47 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 2493,
-            "seed": 184
+            "peer": 4910,
+            "seed": 223
+        },
+        {
+            "id": 28,
+            "name": "Westworld.S04.WEBDL.720p.AlexFilm",
+            "btih": "6daf7b1c6299b576e00eb47632a85f8de8cc8336",
+            "resolution": "720",
+            "encoding": "none",
+            "bytes": 1694486711,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 4901,
+            "seed": 104
+        },
+        {
+            "id": 12,
+            "name": "Westworld.Dove.Tutto.E.Concesso.S04e01.ITA.ENG.DLMux.XviD-Pir8",
+            "btih": "a6b52a037fb90767f29245a6a1bd9c53f3dda78b",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "bytes": 681330194,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 4542,
+            "seed": 350
+        },
+        {
+            "id": 47,
+            "name": "Westworld.S04E01.400p.ColdFilm.avi",
+            "btih": "1601db41d90249115bbfcd1b70bdb8f0de9551d5",
+            "resolution": "720",
+            "encoding": "none",
+            "bytes": 636514272,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 3515,
+            "seed": 629
         },
         {
             "id": 71,
@@ -1675,8 +1768,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 2166,
-            "seed": 895
+            "peer": 2576,
+            "seed": 1063
         },
         {
             "id": 48,
@@ -1688,8 +1781,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 2061,
-            "seed": 540
+            "peer": 2448,
+            "seed": 652
         },
         {
             "id": 67,
@@ -1701,8 +1794,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 1946,
-            "seed": 489
+            "peer": 2445,
+            "seed": 596
         },
         {
             "id": 38,
@@ -1714,8 +1807,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 1886,
-            "seed": 49
+            "peer": 2228,
+            "seed": 57
         },
         {
             "id": 76,
