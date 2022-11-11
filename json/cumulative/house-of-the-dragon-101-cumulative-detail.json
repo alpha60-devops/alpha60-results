@@ -1,25 +1,25 @@
 {
     "collection-name": "House of the Dragon",
     "collection-id": "101",
-    "sample-duration": "2022-08-21-to-2022-10-15",
-    "sample-days": 56,
+    "sample-duration": "2022-08-21-to-2022-10-29",
+    "sample-days": 70,
     "sample-year-start": 2022,
     "sample-year-end": 2022,
     "sample-day-year-start": 233,
-    "sample-day-year-end": 288,
+    "sample-day-year-end": 302,
     "collection-all-btiha-total": {
         "btiha-size": 290,
-        "upeers-total": 11197679,
-        "useeds-total": 4524118,
-        "anomaly-total": 627481,
-        "anomaly-percentage": "5.60"
+        "upeers-total": 12558194,
+        "useeds-total": 5027690,
+        "anomaly-total": 696426,
+        "anomaly-percentage": "5.55"
     },
     "collection-unique-btiha-total": {
         "btiha-size": 252,
-        "upeers-total": 8775337,
-        "useeds-total": 3739309,
-        "anomaly-total": 323345,
-        "anomaly-percentage": "3.68"
+        "upeers-total": 9881864,
+        "useeds-total": 4136634,
+        "anomaly-total": 361461,
+        "anomaly-percentage": "3.66"
     },
     "collection-unique-btiha-week-00001": {
         "btiha-size": 194,
@@ -77,53 +77,67 @@
         "anomaly-total": 323345,
         "anomaly-percentage": "3.68"
     },
+    "collection-unique-btiha-week-00009": {
+        "btiha-size": 252,
+        "upeers-total": 9330621,
+        "useeds-total": 3944881,
+        "anomaly-total": 342471,
+        "anomaly-percentage": "3.67"
+    },
+    "collection-unique-btiha-week-00010": {
+        "btiha-size": 252,
+        "upeers-total": 9881864,
+        "useeds-total": 4136634,
+        "anomaly-total": 361461,
+        "anomaly-percentage": "3.66"
+    },
     "transfer-units": "terabyte",
-    "transfer-size": 21850.470891757646,
+    "transfer-size": 24727.223520631418,
     "transfer-price-1-name": "CloudFront-1-year",
     "transfer-price-1-per-gigabyte-cost": 0.005,
-    "transfer-price-1-USD": 277252.35445878826,
+    "transfer-price-1-USD": 291636.11760315709,
     "resolution-partitions": [
         {
             "number": 1,
             "name": "1080-all",
-            "total-percentage-upeers": "47.74",
-            "total-percentage-bytes": "51.29",
-            "upeers-total": 4189227
+            "total-percentage-upeers": "47.45",
+            "total-percentage-bytes": "50.73",
+            "upeers-total": 4688626
         },
         {
             "number": 2,
             "name": "720-all",
-            "total-percentage-upeers": "24.87",
-            "total-percentage-bytes": "10.61",
-            "upeers-total": 2182224
+            "total-percentage-upeers": "24.80",
+            "total-percentage-bytes": "10.57",
+            "upeers-total": 2450460
         },
         {
             "number": 3,
             "name": "2160-all",
-            "total-percentage-upeers": "12.06",
-            "total-percentage-bytes": "32.28",
-            "upeers-total": 1058564
+            "total-percentage-upeers": "12.22",
+            "total-percentage-bytes": "32.80",
+            "upeers-total": 1207144
         },
         {
             "number": 4,
             "name": "sd-264",
-            "total-percentage-upeers": "9.20",
-            "total-percentage-bytes": "2.00",
-            "upeers-total": 807104
+            "total-percentage-upeers": "9.38",
+            "total-percentage-bytes": "2.04",
+            "upeers-total": 926917
         },
         {
             "number": 5,
             "name": "sd-none",
-            "total-percentage-upeers": "5.17",
-            "total-percentage-bytes": "3.61",
-            "upeers-total": 453631
+            "total-percentage-upeers": "5.20",
+            "total-percentage-bytes": "3.64",
+            "upeers-total": 513554
         },
         {
             "number": 6,
             "name": "sd-xvid",
             "total-percentage-upeers": "0.80",
             "total-percentage-bytes": "0.18",
-            "upeers-total": 70066
+            "upeers-total": 79212
         }
     ],
     "geo-country-top-10-peer": [
@@ -131,71 +145,71 @@
             "number": 1,
             "country-code": "RUS",
             "country-name": "Russian Federation",
-            "total-percentage-upeers": "10.39",
-            "upeers-total": 911355
+            "total-percentage-upeers": "10.56",
+            "upeers-total": 1043964
         },
         {
             "number": 2,
             "country-code": "USA",
             "country-name": "United States of America",
             "total-percentage-upeers": "7.87",
-            "upeers-total": 690893
+            "upeers-total": 777335
         },
         {
             "number": 3,
             "country-code": "CHN",
             "country-name": "China",
-            "total-percentage-upeers": "5.68",
-            "upeers-total": 498859
+            "total-percentage-upeers": "5.89",
+            "upeers-total": 582165
         },
         {
             "number": 4,
             "country-code": "IND",
             "country-name": "India",
-            "total-percentage-upeers": "4.16",
-            "upeers-total": 364906
+            "total-percentage-upeers": "4.09",
+            "upeers-total": 404616
         },
         {
             "number": 5,
             "country-code": "GBR",
             "country-name": "United Kingdom of Great Britain and Northern Ireland",
-            "total-percentage-upeers": "3.33",
-            "upeers-total": 291959
+            "total-percentage-upeers": "3.24",
+            "upeers-total": 320011
         },
         {
             "number": 6,
             "country-code": "BRA",
             "country-name": "Brazil",
-            "total-percentage-upeers": "3.10",
-            "upeers-total": 272161
+            "total-percentage-upeers": "3.01",
+            "upeers-total": 297478
         },
         {
             "number": 7,
             "country-code": "KOR",
             "country-name": "Korea, Republic of",
-            "total-percentage-upeers": "2.51",
-            "upeers-total": 219824
+            "total-percentage-upeers": "2.77",
+            "upeers-total": 273858
         },
         {
             "number": 8,
-            "country-code": "ZAF",
-            "country-name": "South Africa",
+            "country-code": "FRA",
+            "country-name": "France",
             "total-percentage-upeers": "2.35",
-            "upeers-total": 206482
+            "upeers-total": 232340
         },
         {
             "number": 9,
-            "country-code": "FRA",
-            "country-name": "France",
+            "country-code": "ZAF",
+            "country-name": "South Africa",
             "total-percentage-upeers": "2.33",
-            "upeers-total": 204541
+            "upeers-total": 230111
         },
         {
             "number": 10,
             "country-code": "AUS",
             "country-name": "Australia",
-            "total-percentage-upeers": "1.78",
-            "upeers-total": 156000
+            "total-percentage-upeers": "1.73",
+            "upeers-total": 171152
         }
     ],
     "geo-country-top-10-seed": [
@@ -203,71 +217,71 @@
             "number": 1,
             "country-code": "RUS",
             "country-name": "Russian Federation",
-            "total-percentage-upeers": "7.90",
-            "upeers-total": 295542
+            "total-percentage-upeers": "7.57",
+            "upeers-total": 313135
         },
         {
             "number": 2,
             "country-code": "USA",
             "country-name": "United States of America",
-            "total-percentage-upeers": "7.51",
-            "upeers-total": 280970
+            "total-percentage-upeers": "7.38",
+            "upeers-total": 305229
         },
         {
             "number": 3,
             "country-code": "CHN",
             "country-name": "China",
-            "total-percentage-upeers": "4.62",
-            "upeers-total": 172859
+            "total-percentage-upeers": "4.71",
+            "upeers-total": 194996
         },
         {
             "number": 4,
             "country-code": "IND",
             "country-name": "India",
             "total-percentage-upeers": "4.24",
-            "upeers-total": 158406
+            "upeers-total": 175372
         },
         {
             "number": 5,
             "country-code": "GBR",
             "country-name": "United Kingdom of Great Britain and Northern Ireland",
-            "total-percentage-upeers": "3.77",
-            "upeers-total": 140876
+            "total-percentage-upeers": "3.71",
+            "upeers-total": 153424
         },
         {
             "number": 6,
             "country-code": "BRA",
             "country-name": "Brazil",
-            "total-percentage-upeers": "3.33",
-            "upeers-total": 124490
+            "total-percentage-upeers": "3.32",
+            "upeers-total": 137265
         },
         {
             "number": 7,
             "country-code": "ZAF",
             "country-name": "South Africa",
-            "total-percentage-upeers": "2.79",
-            "upeers-total": 104479
+            "total-percentage-upeers": "2.84",
+            "upeers-total": 117573
         },
         {
             "number": 8,
             "country-code": "FRA",
             "country-name": "France",
             "total-percentage-upeers": "2.36",
-            "upeers-total": 88128
+            "upeers-total": 97424
         },
         {
             "number": 9,
             "country-code": "GRC",
             "country-name": "Greece",
             "total-percentage-upeers": "2.18",
-            "upeers-total": 81429
+            "upeers-total": 90108
         },
         {
             "number": 10,
             "country-code": "AUS",
             "country-name": "Australia",
-            "total-percentage-upeers": "2.15",
-            "upeers-total": 80512
+            "total-percentage-upeers": "2.13",
+            "upeers-total": 88051
         }
     ],
     "geo-country-region-city-top-30": [
@@ -275,211 +289,211 @@
             "number": 1,
             "country-code": "USA",
             "country-name": "United States of America",
-            "total-percentage-upeers": "1.75",
-            "upeers-total": 153143
+            "total-percentage-upeers": "1.73",
+            "upeers-total": 171102
         },
         {
             "number": 2,
             "country-code": "RUS",
             "country-name": "Russian Federation, Moscow, 48",
-            "total-percentage-upeers": "1.57",
-            "upeers-total": 137964
+            "total-percentage-upeers": "1.61",
+            "upeers-total": 159552
         },
         {
             "number": 3,
-            "country-code": "IND",
-            "country-name": "India",
-            "total-percentage-upeers": "1.06",
-            "upeers-total": 92864
+            "country-code": "KOR",
+            "country-name": "Korea, Republic of, Seoul, 11",
+            "total-percentage-upeers": "1.10",
+            "upeers-total": 108307
         },
         {
             "number": 4,
-            "country-code": "KOR",
-            "country-name": "Korea, Republic of, Seoul, 11",
-            "total-percentage-upeers": "0.99",
-            "upeers-total": 86930
+            "country-code": "IND",
+            "country-name": "India",
+            "total-percentage-upeers": "1.04",
+            "upeers-total": 103005
         },
         {
             "number": 5,
             "country-code": "RUS",
             "country-name": "Russian Federation",
-            "total-percentage-upeers": "0.98",
-            "upeers-total": 86054
+            "total-percentage-upeers": "0.99",
+            "upeers-total": 97519
         },
         {
             "number": 6,
-            "country-code": "GBR",
-            "country-name": "United Kingdom of Great Britain and Northern Ireland",
-            "total-percentage-upeers": "0.81",
-            "upeers-total": 70919
+            "country-code": "FRA",
+            "country-name": "France",
+            "total-percentage-upeers": "0.79",
+            "upeers-total": 78254
         },
         {
             "number": 7,
-            "country-code": "FRA",
-            "country-name": "France",
-            "total-percentage-upeers": "0.76",
-            "upeers-total": 67006
+            "country-code": "GBR",
+            "country-name": "United Kingdom of Great Britain and Northern Ireland",
+            "total-percentage-upeers": "0.78",
+            "upeers-total": 77458
         },
         {
             "number": 8,
-            "country-code": "USA",
-            "country-name": "United States of America, Ashburn, VA",
-            "total-percentage-upeers": "0.74",
-            "upeers-total": 64961
+            "country-code": "NLD",
+            "country-name": "Netherlands",
+            "total-percentage-upeers": "0.75",
+            "upeers-total": 74086
         },
         {
             "number": 9,
-            "country-code": "NLD",
-            "country-name": "Netherlands",
-            "total-percentage-upeers": "0.73",
-            "upeers-total": 63722
+            "country-code": "USA",
+            "country-name": "United States of America, Ashburn, VA",
+            "total-percentage-upeers": "0.72",
+            "upeers-total": 71103
         },
         {
             "number": 10,
             "country-code": "GRC",
             "country-name": "Greece, Athens, 35",
-            "total-percentage-upeers": "0.72",
-            "upeers-total": 62967
+            "total-percentage-upeers": "0.70",
+            "upeers-total": 68776
         },
         {
             "number": 11,
             "country-code": "RUS",
             "country-name": "Russian Federation, Saint Petersburg, 66",
-            "total-percentage-upeers": "0.65",
-            "upeers-total": 56949
+            "total-percentage-upeers": "0.67",
+            "upeers-total": 66158
         },
         {
             "number": 12,
             "country-code": "CHN",
             "country-name": "China",
-            "total-percentage-upeers": "0.64",
-            "upeers-total": 56187
+            "total-percentage-upeers": "0.66",
+            "upeers-total": 65649
         },
         {
             "number": 13,
             "country-code": "CHN",
             "country-name": "China, Shanghai, 23",
-            "total-percentage-upeers": "0.61",
-            "upeers-total": 53107
+            "total-percentage-upeers": "0.62",
+            "upeers-total": 61104
         },
         {
             "number": 14,
-            "country-code": "ZAF",
-            "country-name": "South Africa, Cape Town, 11",
-            "total-percentage-upeers": "0.51",
-            "upeers-total": 44524
+            "country-code": "PHL",
+            "country-name": "Philippines",
+            "total-percentage-upeers": "0.50",
+            "upeers-total": 49652
         },
         {
             "number": 15,
-            "country-code": "PHL",
-            "country-name": "Philippines",
-            "total-percentage-upeers": "0.51",
-            "upeers-total": 44434
+            "country-code": "ZAF",
+            "country-name": "South Africa, Cape Town, 11",
+            "total-percentage-upeers": "0.49",
+            "upeers-total": 48822
         },
         {
             "number": 16,
             "country-code": "ROU",
             "country-name": "Romania",
-            "total-percentage-upeers": "0.50",
-            "upeers-total": 44289
+            "total-percentage-upeers": "0.49",
+            "upeers-total": 48195
         },
         {
             "number": 17,
-            "country-code": "ITA",
-            "country-name": "Italy",
+            "country-code": "KOR",
+            "country-name": "Korea, Republic of",
             "total-percentage-upeers": "0.48",
-            "upeers-total": 42392
+            "upeers-total": 47638
         },
         {
             "number": 18,
-            "country-code": "TUR",
-            "country-name": "Turkey, Istanbul, 34",
-            "total-percentage-upeers": "0.44",
-            "upeers-total": 38581
+            "country-code": "ITA",
+            "country-name": "Italy",
+            "total-percentage-upeers": "0.48",
+            "upeers-total": 46944
         },
         {
             "number": 19,
-            "country-code": "KOR",
-            "country-name": "Korea, Republic of",
-            "total-percentage-upeers": "0.44",
-            "upeers-total": 38478
+            "country-code": "CHN",
+            "country-name": "China, Guangzhou, 30",
+            "total-percentage-upeers": "0.45",
+            "upeers-total": 44581
         },
         {
             "number": 20,
             "country-code": "CHN",
-            "country-name": "China, Guangzhou, 30",
-            "total-percentage-upeers": "0.43",
-            "upeers-total": 38069
+            "country-name": "China, Beijing, 22",
+            "total-percentage-upeers": "0.45",
+            "upeers-total": 44041
         },
         {
             "number": 21,
-            "country-code": "CHN",
-            "country-name": "China, Beijing, 22",
+            "country-code": "TUR",
+            "country-name": "Turkey, Istanbul, 34",
             "total-percentage-upeers": "0.43",
-            "upeers-total": 38016
+            "upeers-total": 42104
         },
         {
             "number": 22,
             "country-code": "AUS",
             "country-name": "Australia",
-            "total-percentage-upeers": "0.43",
-            "upeers-total": 37912
+            "total-percentage-upeers": "0.42",
+            "upeers-total": 41757
         },
         {
             "number": 23,
             "country-code": "KEN",
             "country-name": "Kenya",
             "total-percentage-upeers": "0.40",
-            "upeers-total": 34910
+            "upeers-total": 39369
         },
         {
             "number": 24,
             "country-code": "ZAF",
             "country-name": "South Africa",
-            "total-percentage-upeers": "0.40",
-            "upeers-total": 34905
+            "total-percentage-upeers": "0.39",
+            "upeers-total": 38987
         },
         {
             "number": 25,
-            "country-code": "BGD",
-            "country-name": "Bangladesh, Dhaka, 81",
-            "total-percentage-upeers": "0.37",
-            "upeers-total": 32697
+            "country-code": "DEU",
+            "country-name": "Germany, 07",
+            "total-percentage-upeers": "0.38",
+            "upeers-total": 37184
         },
         {
             "number": 26,
-            "country-code": "DEU",
-            "country-name": "Germany, 07",
-            "total-percentage-upeers": "0.37",
-            "upeers-total": 32448
+            "country-code": "BGD",
+            "country-name": "Bangladesh, Dhaka, 81",
+            "total-percentage-upeers": "0.36",
+            "upeers-total": 36000
         },
         {
             "number": 27,
-            "country-code": "BRA",
-            "country-name": "Brazil, 14",
-            "total-percentage-upeers": "0.36",
-            "upeers-total": 31356
+            "country-code": "PAK",
+            "country-name": "Pakistan, Karachi, 05",
+            "total-percentage-upeers": "0.35",
+            "upeers-total": 34485
         },
         {
             "number": 28,
-            "country-code": "PAK",
-            "country-name": "Pakistan, Karachi, 05",
-            "total-percentage-upeers": "0.36",
-            "upeers-total": 31259
+            "country-code": "BRA",
+            "country-name": "Brazil",
+            "total-percentage-upeers": "0.35",
+            "upeers-total": 34482
         },
         {
             "number": 29,
             "country-code": "GHA",
             "country-name": "Ghana, Accra, 01",
             "total-percentage-upeers": "0.35",
-            "upeers-total": 30595
+            "upeers-total": 34228
         },
         {
             "number": 30,
-            "country-code": "ISR",
-            "country-name": "Israel",
+            "country-code": "CHN",
+            "country-name": "China, Nanjing, 04",
             "total-percentage-upeers": "0.35",
-            "upeers-total": 30437
+            "upeers-total": 34199
         }
     ],
     "collection-unique-btiha-detail": [
@@ -493,8 +507,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 854516,
-            "seed": 314244
+            "peer": 967465,
+            "seed": 367161
         },
         {
             "id": 136,
@@ -506,11 +520,11 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 454150,
-            "seed": 201813
+            "peer": 500022,
+            "seed": 229415
         },
         {
-            "id": 2566,
+            "id": 3126,
             "name": "multi-btih-0-3-x-House of the Dragon (2022) (S01E01) (1080p)",
             "btih": "e8e5384f8a6fddeb03e0c5ae83f49bc726c0639f",
             "resolution": "1080",
@@ -519,11 +533,11 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 417273,
-            "seed": 164160
+            "peer": 451099,
+            "seed": 183165
         },
         {
-            "id": 2592,
+            "id": 3152,
             "name": "multi-btih-26-2-x-House.of.the.Dragon.S01E01.The.Heirs.of.the.Dragon.1080p.HMAX.WEBRip.DDP5.1.x264-NTb[rarbg]",
             "btih": "d573adfa721284f835aef8c873d8900adc770f69",
             "resolution": "1080",
@@ -532,11 +546,11 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 374344,
-            "seed": 169217
+            "peer": 415013,
+            "seed": 190729
         },
         {
-            "id": 2568,
+            "id": 3128,
             "name": "multi-btih-2-3-x-House of the Dragon (2022) (S01E01) (720p)",
             "btih": "ec0d3acf2da74507fd06496203833ed1e03b862f",
             "resolution": "720",
@@ -545,11 +559,11 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 209730,
-            "seed": 116862
+            "peer": 234984,
+            "seed": 130926
         },
         {
-            "id": 2567,
+            "id": 3127,
             "name": "multi-btih-1-3-x-House of the Dragon (2022) (S01E01) (480p)",
             "btih": "aa6ad34cc7e6eb41e17bb9756366444ac9c044c0",
             "resolution": "720",
@@ -558,11 +572,11 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 192690,
-            "seed": 113344
+            "peer": 216269,
+            "seed": 128847
         },
         {
-            "id": 2594,
+            "id": 3154,
             "name": "multi-btih-28-2-x-House.of.the.Dragon.S01E01.WEBRip.x264-ION10-[rarbg.to]",
             "btih": "d7c61187304a203c18f922bd4b62237ff2d3548c",
             "resolution": "sd",
@@ -571,34 +585,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 191767,
-            "seed": 91396
-        },
-        {
-            "id": 211,
-            "name": "House.of.the.Dragon.S01E01.WEB.x264-TORRENTGALAXY[TGx]",
-            "btih": "29526d605b01a51c411ac75b20fc3c9b7aaeba45",
-            "resolution": "sd",
-            "encoding": "264",
-            "bytes": 359104763,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 188818,
-            "seed": 105031
-        },
-        {
-            "id": 2587,
-            "name": "multi-btih-21-2-x-House.of.the.Dragon.S01E01.2160p.HMAX.WEB-DL.x265.10bit.HDR.DDP5.1.Atmos-SMURF[rartv]-[rarbg.to]",
-            "btih": "d739f1c85b6d1563a19c45d9efeae5d7ae4b0b89",
-            "resolution": "2160",
-            "encoding": "265",
-            "bytes": 327802681,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 187137,
-            "seed": 85881
+            "peer": 214118,
+            "seed": 101498
         },
         {
             "id": 249,
@@ -610,11 +598,37 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 181833,
-            "seed": 82191
+            "peer": 212755,
+            "seed": 95550
         },
         {
-            "id": 2593,
+            "id": 211,
+            "name": "House.of.the.Dragon.S01E01.WEB.x264-TORRENTGALAXY[TGx]",
+            "btih": "29526d605b01a51c411ac75b20fc3c9b7aaeba45",
+            "resolution": "sd",
+            "encoding": "264",
+            "bytes": 359104763,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 210617,
+            "seed": 119979
+        },
+        {
+            "id": 3147,
+            "name": "multi-btih-21-2-x-House.of.the.Dragon.S01E01.2160p.HMAX.WEB-DL.x265.10bit.HDR.DDP5.1.Atmos-SMURF[rartv]-[rarbg.to]",
+            "btih": "d739f1c85b6d1563a19c45d9efeae5d7ae4b0b89",
+            "resolution": "2160",
+            "encoding": "265",
+            "bytes": 327802681,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 209728,
+            "seed": 98118
+        },
+        {
+            "id": 3153,
             "name": "multi-btih-27-2-x-House.of.the.Dragon.S01E01.The.Heirs.of.the.Dragon.720p.HMAX.WEBRip.DDP5.1.x264-NTb[rarbg]",
             "btih": "4c1946220513105f146504e32aac08948f63c39a",
             "resolution": "720",
@@ -623,8 +637,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 176932,
-            "seed": 101533
+            "peer": 192162,
+            "seed": 108554
         },
         {
             "id": 192,
@@ -636,11 +650,11 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 165527,
-            "seed": 91186
+            "peer": 182406,
+            "seed": 103401
         },
         {
-            "id": 2599,
+            "id": 3159,
             "name": "multi-btih-33-2-x-House.of.the.Dragons.S01E01.The.Heirs.of.the.Dragon.2160p.HMAX.WEBRip.DDP5.1.Atmos.HDR.X.265-EVO[eztv.re].mkv(1)",
             "btih": "c3b7fe335840a824e2ab9131fdeebabc58b126e8",
             "resolution": "2160",
@@ -649,8 +663,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 165023,
-            "seed": 82667
+            "peer": 180640,
+            "seed": 92182
         },
         {
             "id": 139,
@@ -662,8 +676,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 165011,
-            "seed": 74612
+            "peer": 173572,
+            "seed": 79343
         },
         {
             "id": 236,
@@ -675,8 +689,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 161307,
-            "seed": 44057
+            "peer": 162135,
+            "seed": 44068
         },
         {
             "id": 255,
@@ -688,34 +702,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 140035,
-            "seed": 53847
-        },
-        {
-            "id": 33,
-            "name": "House of the Dragon S01E01 The Heirs of the Dragon 1080p WEBRip AAC5.1 x264-HODL.mkv",
-            "btih": "371baf6d0cf1086607d86b94561a078e4f4454b8",
-            "resolution": "1080",
-            "encoding": "264",
-            "bytes": 779873266,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 124901,
-            "seed": 66478
-        },
-        {
-            "id": 187,
-            "name": "House.of.the.Dragon.S01E01.The.Heirs.of.the.Dragon.1080p.WEB-DL.DD5.1.H.264-MiU.chs.eng.mp4",
-            "btih": "33dfdaf418775f48f9c11b16f06246a82ac19991",
-            "resolution": "1080",
-            "encoding": "264",
-            "bytes": 1182372307,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 123352,
-            "seed": 50244
+            "peer": 147415,
+            "seed": 56350
         },
         {
             "id": 89,
@@ -727,47 +715,34 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 121188,
-            "seed": 65894
+            "peer": 137610,
+            "seed": 75813
         },
         {
-            "id": 2583,
-            "name": "multi-btih-17-2-x-House.of.the.Dragon.S01E01.1080p.HMAX.WEBRip.DDP5.1.Atmos.x264-SMURF[rartv]-[rarbg.to]",
-            "btih": "813ebd14656987989f48c83dd5730c26c52e2299",
+            "id": 187,
+            "name": "House.of.the.Dragon.S01E01.The.Heirs.of.the.Dragon.1080p.WEB-DL.DD5.1.H.264-MiU.chs.eng.mp4",
+            "btih": "33dfdaf418775f48f9c11b16f06246a82ac19991",
             "resolution": "1080",
             "encoding": "264",
-            "bytes": 123111497,
+            "bytes": 1182372307,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 88424,
-            "seed": 49935
+            "peer": 137308,
+            "seed": 54238
         },
         {
-            "id": 243,
-            "name": "House.of.the.Dragons.S01E01.The.Heirs.of.the.Dragon.720p.HMAX.WEBRip.AAC2.0.X.264-EVO[eztv.re].mkv(1)",
-            "btih": "eb0a00017e6ce3ff0a3ab8861d225a5031087506",
-            "resolution": "720",
+            "id": 33,
+            "name": "House of the Dragon S01E01 The Heirs of the Dragon 1080p WEBRip AAC5.1 x264-HODL.mkv",
+            "btih": "371baf6d0cf1086607d86b94561a078e4f4454b8",
+            "resolution": "1080",
             "encoding": "264",
-            "bytes": 606355233,
+            "bytes": 779873266,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 84717,
-            "seed": 46857
-        },
-        {
-            "id": 265,
-            "name": "[rutor.is]House_of_the_Dragon_2022_legsik69",
-            "btih": "686fdb11a7b0b5c12cf884927787437e4ae0a53d",
-            "resolution": "sd",
-            "encoding": "none",
-            "bytes": -1119105422,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 84140,
-            "seed": 48285
+            "peer": 135698,
+            "seed": 72353
         },
         {
             "id": 288,
@@ -779,8 +754,60 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 83188,
-            "seed": 26140
+            "peer": 99311,
+            "seed": 29708
+        },
+        {
+            "id": 3143,
+            "name": "multi-btih-17-2-x-House.of.the.Dragon.S01E01.1080p.HMAX.WEBRip.DDP5.1.Atmos.x264-SMURF[rartv]-[rarbg.to]",
+            "btih": "813ebd14656987989f48c83dd5730c26c52e2299",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": 123111497,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 98466,
+            "seed": 53258
+        },
+        {
+            "id": 243,
+            "name": "House.of.the.Dragons.S01E01.The.Heirs.of.the.Dragon.720p.HMAX.WEBRip.AAC2.0.X.264-EVO[eztv.re].mkv(1)",
+            "btih": "eb0a00017e6ce3ff0a3ab8861d225a5031087506",
+            "resolution": "720",
+            "encoding": "264",
+            "bytes": 606355233,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 96269,
+            "seed": 51703
+        },
+        {
+            "id": 3148,
+            "name": "multi-btih-22-2-x-House.of.the.Dragon.S01E01.2160p.WEB.H265-GGEZ[rarbg]",
+            "btih": "bf55e5a62f47f2e3515f47ff4303f02751a878ce",
+            "resolution": "2160",
+            "encoding": "265",
+            "bytes": -2079882823,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 91384,
+            "seed": 42586
+        },
+        {
+            "id": 265,
+            "name": "[rutor.is]House_of_the_Dragon_2022_legsik69",
+            "btih": "686fdb11a7b0b5c12cf884927787437e4ae0a53d",
+            "resolution": "sd",
+            "encoding": "none",
+            "bytes": -1119105422,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 89860,
+            "seed": 50855
         },
         {
             "id": 96,
@@ -792,34 +819,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 82226,
-            "seed": 42468
-        },
-        {
-            "id": 209,
-            "name": "House.of.the.Dragon.S01E01.WEB.1080p.x265.HEVC - ShortRips.mkv",
-            "btih": "1a8de56596736f945355ffbececb03d80c453fe9",
-            "resolution": "1080",
-            "encoding": "265",
-            "bytes": 621060576,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 81141,
-            "seed": 44535
-        },
-        {
-            "id": 2588,
-            "name": "multi-btih-22-2-x-House.of.the.Dragon.S01E01.2160p.WEB.H265-GGEZ[rarbg]",
-            "btih": "bf55e5a62f47f2e3515f47ff4303f02751a878ce",
-            "resolution": "2160",
-            "encoding": "265",
-            "bytes": -2079882823,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 81072,
-            "seed": 38793
+            "peer": 89546,
+            "seed": 46191
         },
         {
             "id": 203,
@@ -831,34 +832,21 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 80509,
-            "seed": 47860
+            "peer": 88605,
+            "seed": 52274
         },
         {
-            "id": 2591,
-            "name": "multi-btih-25-2-x-House.of.the.Dragon.S01E01.HDR.2160p.WEB.H265-GLHF[rarbg]",
-            "btih": "02a236880a7079a2244174d707dbfdef029f9189",
-            "resolution": "2160",
+            "id": 209,
+            "name": "House.of.the.Dragon.S01E01.WEB.1080p.x265.HEVC - ShortRips.mkv",
+            "btih": "1a8de56596736f945355ffbececb03d80c453fe9",
+            "resolution": "1080",
             "encoding": "265",
-            "bytes": 327778734,
+            "bytes": 621060576,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 71562,
-            "seed": 39415
-        },
-        {
-            "id": 2596,
-            "name": "multi-btih-30-2-x-House.of.the.Dragon.S01_[rutor]",
-            "btih": "90e1758f38d8161dc1f5d484dd3b367eb3588711",
-            "resolution": "sd",
-            "encoding": "none",
-            "bytes": 963768755,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 71310,
-            "seed": 42103
+            "peer": 86768,
+            "seed": 46710
         },
         {
             "id": 8,
@@ -870,8 +858,34 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 70640,
-            "seed": 41961
+            "peer": 78487,
+            "seed": 45323
+        },
+        {
+            "id": 3156,
+            "name": "multi-btih-30-2-x-House.of.the.Dragon.S01_[rutor]",
+            "btih": "90e1758f38d8161dc1f5d484dd3b367eb3588711",
+            "resolution": "sd",
+            "encoding": "none",
+            "bytes": 963768755,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 78410,
+            "seed": 43462
+        },
+        {
+            "id": 3151,
+            "name": "multi-btih-25-2-x-House.of.the.Dragon.S01E01.HDR.2160p.WEB.H265-GLHF[rarbg]",
+            "btih": "02a236880a7079a2244174d707dbfdef029f9189",
+            "resolution": "2160",
+            "encoding": "265",
+            "bytes": 327778734,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 77432,
+            "seed": 42255
         },
         {
             "id": 250,
@@ -883,8 +897,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 68678,
-            "seed": 43053
+            "peer": 77111,
+            "seed": 48199
         },
         {
             "id": 7,
@@ -896,21 +910,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 66940,
-            "seed": 36798
-        },
-        {
-            "id": 244,
-            "name": "House.of.the.Dragons.S01E01.The.Heirs.of.the.Dragon.720p.HMAX.WEBRip.AAC2.0.X.264-EVO[eztv.re].mkv",
-            "btih": "2a7d5b184cbe49d6269cdaf7ef9fe973c142a92a",
-            "resolution": "720",
-            "encoding": "264",
-            "bytes": 606355233,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 63616,
-            "seed": 28995
+            "peer": 74211,
+            "seed": 39761
         },
         {
             "id": 248,
@@ -922,8 +923,21 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 62536,
-            "seed": 40160
+            "peer": 72106,
+            "seed": 45387
+        },
+        {
+            "id": 244,
+            "name": "House.of.the.Dragons.S01E01.The.Heirs.of.the.Dragon.720p.HMAX.WEBRip.AAC2.0.X.264-EVO[eztv.re].mkv",
+            "btih": "2a7d5b184cbe49d6269cdaf7ef9fe973c142a92a",
+            "resolution": "720",
+            "encoding": "264",
+            "bytes": 606355233,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 65860,
+            "seed": 29008
         },
         {
             "id": 284,
@@ -935,21 +949,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 53859,
-            "seed": 18088
-        },
-        {
-            "id": 172,
-            "name": "House.of.the.Dragon.S01E01.INTERNAL.1080p.10bit.WEBRip.6CH.x265.HEVC-PSA.mkv",
-            "btih": "5feea818165305bdc434ebcdea06569d33c8e3a4",
-            "resolution": "1080",
-            "encoding": "265",
-            "bytes": 725938623,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 53667,
-            "seed": 26612
+            "peer": 63373,
+            "seed": 21024
         },
         {
             "id": 128,
@@ -961,11 +962,11 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 53513,
-            "seed": 25846
+            "peer": 60256,
+            "seed": 27694
         },
         {
-            "id": 2572,
+            "id": 3132,
             "name": "multi-btih-6-2-x-House.of.the.Dragon.S01.1080p.Kerob",
             "btih": "da7156bd883a56921347c80445ebc89effa6dc61",
             "resolution": "1080",
@@ -974,8 +975,21 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 53388,
-            "seed": 27914
+            "peer": 57566,
+            "seed": 29434
+        },
+        {
+            "id": 172,
+            "name": "House.of.the.Dragon.S01E01.INTERNAL.1080p.10bit.WEBRip.6CH.x265.HEVC-PSA.mkv",
+            "btih": "5feea818165305bdc434ebcdea06569d33c8e3a4",
+            "resolution": "1080",
+            "encoding": "265",
+            "bytes": 725938623,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 57283,
+            "seed": 27450
         },
         {
             "id": 131,
@@ -987,34 +1001,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 49462,
-            "seed": 29219
-        },
-        {
-            "id": 2584,
-            "name": "multi-btih-18-2-x-House.of.the.Dragon.S01E01.1080p.WEB.H264-CAKES[rarbg]",
-            "btih": "253a0b4dbe03b83728ef98130e05c2a436f47299",
-            "resolution": "1080",
-            "encoding": "264",
-            "bytes": 123087762,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 49306,
-            "seed": 22227
-        },
-        {
-            "id": 77,
-            "name": "House.of.the.Dragon.S01.WEB-DL.1080p.LF_[rutor]",
-            "btih": "69d74a0fea4279b247d1066b80fb23176875674a",
-            "resolution": "1080",
-            "encoding": "none",
-            "bytes": 310926356,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 47273,
-            "seed": 17015
+            "peer": 54879,
+            "seed": 32307
         },
         {
             "id": 91,
@@ -1026,8 +1014,34 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 47111,
-            "seed": 27836
+            "peer": 54672,
+            "seed": 31256
+        },
+        {
+            "id": 3144,
+            "name": "multi-btih-18-2-x-House.of.the.Dragon.S01E01.1080p.WEB.H264-CAKES[rarbg]",
+            "btih": "253a0b4dbe03b83728ef98130e05c2a436f47299",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": 123087762,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 54418,
+            "seed": 23782
+        },
+        {
+            "id": 77,
+            "name": "House.of.the.Dragon.S01.WEB-DL.1080p.LF_[rutor]",
+            "btih": "69d74a0fea4279b247d1066b80fb23176875674a",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": 310926356,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 54203,
+            "seed": 17752
         },
         {
             "id": 102,
@@ -1039,8 +1053,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 46812,
-            "seed": 24120
+            "peer": 51468,
+            "seed": 25945
         },
         {
             "id": 84,
@@ -1052,11 +1066,11 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 45428,
-            "seed": 19241
+            "peer": 49763,
+            "seed": 20140
         },
         {
-            "id": 2590,
+            "id": 3150,
             "name": "multi-btih-24-2-x-House.of.the.Dragon.S01E01.720p.WEB.h264-KOGi[rarbg]",
             "btih": "4efa048eed57963b6721f4e228c67c5b6ef42c5d",
             "resolution": "720",
@@ -1065,11 +1079,11 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 45354,
-            "seed": 24041
+            "peer": 48932,
+            "seed": 25503
         },
         {
-            "id": 2570,
+            "id": 3130,
             "name": "multi-btih-4-2-x-House of the Dragon (Season 1) Кравец-Рекордз WEB-DLRip",
             "btih": "dd21d0d4bb3947db470e94df055a6e0d14fe1373",
             "resolution": "sd",
@@ -1078,8 +1092,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 44670,
-            "seed": 18352
+            "peer": 48806,
+            "seed": 18969
         },
         {
             "id": 126,
@@ -1091,8 +1105,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 43361,
-            "seed": 21038
+            "peer": 48525,
+            "seed": 22387
         },
         {
             "id": 274,
@@ -1104,8 +1118,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 43272,
-            "seed": 22484
+            "peer": 47347,
+            "seed": 23208
         },
         {
             "id": 106,
@@ -1117,8 +1131,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 39524,
-            "seed": 20068
+            "peer": 44992,
+            "seed": 21308
         },
         {
             "id": 267,
@@ -1130,138 +1144,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 38847,
-            "seed": 17672
-        },
-        {
-            "id": 49,
-            "name": "House.of.the.Dragon.1x01.lati.mp4",
-            "btih": "ae0e9dbda26f893a83df651baad4602f205c6bc6",
-            "resolution": "sd",
-            "encoding": "none",
-            "bytes": 1145564165,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 37662,
-            "seed": 10968
-        },
-        {
-            "id": 269,
-            "name": "www.1TamilMV.team - House Of The Dragon (2022) S01 EP 01 - 1080p HQ HDRip - Telugu (Fan Dub)  - 950MB - ESub.mkv",
-            "btih": "05df6094a82faf971ec2e7f5cc7066e4659be466",
-            "resolution": "1080",
-            "encoding": "none",
-            "bytes": 1033462372,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 37431,
-            "seed": 14426
-        },
-        {
-            "id": 2586,
-            "name": "multi-btih-20-2-x-House.of.the.Dragon.S01E01.2160p.HMAX.WEB-DL.DDP5.1.Atmos.DV.MP4.x265-DVSUX[rartv]-[rarbg.to]",
-            "btih": "4a8f6a3647e3c9a4da71cddd6166cdbb0a6d50a5",
-            "resolution": "2160",
-            "encoding": "265",
-            "bytes": 359814085,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 37421,
-            "seed": 16684
-        },
-        {
-            "id": 2589,
-            "name": "multi-btih-23-2-x-House.of.the.Dragon.S01E01.720p.HMAX.WEBRip.DDP5.1.Atmos.x264-SMURF[rartv]-[rarbg.to]",
-            "btih": "fbac9e5a7ee4c6ffcba2d9ca51e79716471ce51f",
-            "resolution": "720",
-            "encoding": "264",
-            "bytes": 2049352528,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 36826,
-            "seed": 16364
-        },
-        {
-            "id": 266,
-            "name": "house.of.the.dragon.s01e01.1080p.web.h264-cakes[eztv.re].mkv",
-            "btih": "a077f2261ec6ecb994ada880015342a28d3685b5",
-            "resolution": "1080",
-            "encoding": "264",
-            "bytes": 123086679,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 36375,
-            "seed": 15507
-        },
-        {
-            "id": 2585,
-            "name": "multi-btih-19-2-x-House.of.the.Dragon.S01E01.2160p.HMAX.WEB-DL.DDP5.1.Atmos.DV.MKV.x265-SMURF[rartv]-[rarbg.to]",
-            "btih": "afcc528df29f24d5b03e70fdf216acb6ebbcd73c",
-            "resolution": "2160",
-            "encoding": "265",
-            "bytes": 359399692,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 36369,
-            "seed": 14336
-        },
-        {
-            "id": 251,
-            "name": "[ Torrent911.cc ] House.of.the.Dragon.S01E01.WEB.x264-TGX.mkv",
-            "btih": "4c446c6362d02303265e6d199cc7a28eb5e6c145",
-            "resolution": "sd",
-            "encoding": "264",
-            "bytes": 359104918,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 36049,
-            "seed": 14347
-        },
-        {
-            "id": 2582,
-            "name": "multi-btih-16-2-x-House.of.the.Dragon.S01E01.1080p.HEVC.x265-MeGusta [IPT]",
-            "btih": "e85c87b51f42fcd06c7ac4684dec986fc6970eae",
-            "resolution": "1080",
-            "encoding": "265",
-            "bytes": 797033086,
-            "ssl": false,
-            "private": true,
-            "i2p": false,
-            "peer": 36013,
-            "seed": 16872
-        },
-        {
-            "id": 17,
-            "name": "House of the Dragon (2022) S01E01 (1080p HMAX WEB-DL x265 HEVC 10bit DDP 5.1 Vyndros)",
-            "btih": "2585537414d9793069c2e4302d1bb7eaf7581e32",
-            "resolution": "1080",
-            "encoding": "265",
-            "bytes": 1898621732,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 35534,
-            "seed": 17164
-        },
-        {
-            "id": 227,
-            "name": "House.of.the.Dragon.S01E01.XviD-AFG[eztv.re].avi",
-            "btih": "b43a93bf4596fbc2ba6b2a5da01378284f0c4a72",
-            "resolution": "sd",
-            "encoding": "xvid",
-            "bytes": 529417300,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 35405,
-            "seed": 15251
+            "peer": 43772,
+            "seed": 18843
         },
         {
             "id": 285,
@@ -1273,8 +1157,125 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 34458,
-            "seed": 9571
+            "peer": 42958,
+            "seed": 11929
+        },
+        {
+            "id": 3146,
+            "name": "multi-btih-20-2-x-House.of.the.Dragon.S01E01.2160p.HMAX.WEB-DL.DDP5.1.Atmos.DV.MP4.x265-DVSUX[rartv]-[rarbg.to]",
+            "btih": "4a8f6a3647e3c9a4da71cddd6166cdbb0a6d50a5",
+            "resolution": "2160",
+            "encoding": "265",
+            "bytes": 359814085,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 42742,
+            "seed": 17760
+        },
+        {
+            "id": 3149,
+            "name": "multi-btih-23-2-x-House.of.the.Dragon.S01E01.720p.HMAX.WEBRip.DDP5.1.Atmos.x264-SMURF[rartv]-[rarbg.to]",
+            "btih": "fbac9e5a7ee4c6ffcba2d9ca51e79716471ce51f",
+            "resolution": "720",
+            "encoding": "264",
+            "bytes": 2049352528,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 42683,
+            "seed": 17417
+        },
+        {
+            "id": 49,
+            "name": "House.of.the.Dragon.1x01.lati.mp4",
+            "btih": "ae0e9dbda26f893a83df651baad4602f205c6bc6",
+            "resolution": "sd",
+            "encoding": "none",
+            "bytes": 1145564165,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 42562,
+            "seed": 12155
+        },
+        {
+            "id": 266,
+            "name": "house.of.the.dragon.s01e01.1080p.web.h264-cakes[eztv.re].mkv",
+            "btih": "a077f2261ec6ecb994ada880015342a28d3685b5",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": 123086679,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 41724,
+            "seed": 17017
+        },
+        {
+            "id": 3142,
+            "name": "multi-btih-16-2-x-House.of.the.Dragon.S01E01.1080p.HEVC.x265-MeGusta [IPT]",
+            "btih": "e85c87b51f42fcd06c7ac4684dec986fc6970eae",
+            "resolution": "1080",
+            "encoding": "265",
+            "bytes": 797033086,
+            "ssl": false,
+            "private": true,
+            "i2p": false,
+            "peer": 41317,
+            "seed": 19078
+        },
+        {
+            "id": 251,
+            "name": "[ Torrent911.cc ] House.of.the.Dragon.S01E01.WEB.x264-TGX.mkv",
+            "btih": "4c446c6362d02303265e6d199cc7a28eb5e6c145",
+            "resolution": "sd",
+            "encoding": "264",
+            "bytes": 359104918,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 41038,
+            "seed": 15263
+        },
+        {
+            "id": 3145,
+            "name": "multi-btih-19-2-x-House.of.the.Dragon.S01E01.2160p.HMAX.WEB-DL.DDP5.1.Atmos.DV.MKV.x265-SMURF[rartv]-[rarbg.to]",
+            "btih": "afcc528df29f24d5b03e70fdf216acb6ebbcd73c",
+            "resolution": "2160",
+            "encoding": "265",
+            "bytes": 359399692,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 40779,
+            "seed": 15472
+        },
+        {
+            "id": 269,
+            "name": "www.1TamilMV.team - House Of The Dragon (2022) S01 EP 01 - 1080p HQ HDRip - Telugu (Fan Dub)  - 950MB - ESub.mkv",
+            "btih": "05df6094a82faf971ec2e7f5cc7066e4659be466",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": 1033462372,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 39514,
+            "seed": 14863
+        },
+        {
+            "id": 17,
+            "name": "House of the Dragon (2022) S01E01 (1080p HMAX WEB-DL x265 HEVC 10bit DDP 5.1 Vyndros)",
+            "btih": "2585537414d9793069c2e4302d1bb7eaf7581e32",
+            "resolution": "1080",
+            "encoding": "265",
+            "bytes": 1898621732,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 39179,
+            "seed": 18050
         },
         {
             "id": 151,
@@ -1286,11 +1287,24 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 34375,
-            "seed": 20207
+            "peer": 39104,
+            "seed": 22314
         },
         {
-            "id": 2577,
+            "id": 227,
+            "name": "House.of.the.Dragon.S01E01.XviD-AFG[eztv.re].avi",
+            "btih": "b43a93bf4596fbc2ba6b2a5da01378284f0c4a72",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "bytes": 529417300,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 39104,
+            "seed": 16161
+        },
+        {
+            "id": 3137,
             "name": "multi-btih-11-2-x-House.of.the.Dragon.S01.HDR.2160P.WEB-DL.H265.HEVC",
             "btih": "301ac21d7d2f909694b1d20f6be1e4ed3ffc81f9",
             "resolution": "2160",
@@ -1299,8 +1313,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 32844,
-            "seed": 12709
+            "peer": 38085,
+            "seed": 13212
         },
         {
             "id": 184,
@@ -1312,11 +1326,11 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 32672,
-            "seed": 13981
+            "peer": 35674,
+            "seed": 14801
         },
         {
-            "id": 2581,
+            "id": 3141,
             "name": "multi-btih-15-2-x-House.of.the.Dragon.S01.WEB-DLRip.LostFilm",
             "btih": "24af1c9a908fec747ea918c041c7b0ce08dffba9",
             "resolution": "720",
@@ -1325,8 +1339,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 32325,
-            "seed": 10643
+            "peer": 34685,
+            "seed": 11346
         },
         {
             "id": 88,
@@ -1338,11 +1352,11 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 30762,
-            "seed": 13562
+            "peer": 33745,
+            "seed": 14532
         },
         {
-            "id": 2576,
+            "id": 3136,
             "name": "multi-btih-10-2-x-House.of.the.Dragon.S01.720p.WEB-DL.sbor",
             "btih": "f0655404d1c94b248747c99fe2819aabc953c537",
             "resolution": "720",
@@ -1351,21 +1365,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 30095,
-            "seed": 11692
-        },
-        {
-            "id": 2573,
-            "name": "multi-btih-7-2-x-House.of.the.Dragon.S01.2160p.HMAX.WEB-DL.DDP5.1.Atmos.DoVi.by.DVT",
-            "btih": "859d91006bb4d3658c7c518a838ff8b8b44508b5",
-            "resolution": "2160",
-            "encoding": "none",
-            "bytes": 740455973,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 29078,
-            "seed": 6754
+            "peer": 33130,
+            "seed": 12311
         },
         {
             "id": 120,
@@ -1377,73 +1378,21 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 27917,
-            "seed": 11539
+            "peer": 32990,
+            "seed": 12733
         },
         {
-            "id": 94,
-            "name": "House.of.the.Dragon.S01E01.1080p.WEB.H264-CAKES [IPT]",
-            "btih": "1d5507eeb7963d50655eeaecee34efb7b419fdd5",
-            "resolution": "1080",
-            "encoding": "264",
-            "bytes": 123089613,
-            "ssl": false,
-            "private": true,
-            "i2p": false,
-            "peer": 27600,
-            "seed": 13751
-        },
-        {
-            "id": 2574,
-            "name": "multi-btih-8-2-x-House.of.the.Dragon.S01.400p.Kerob",
-            "btih": "658eccbaebba8d92497342ea2428abc923a3edb6",
-            "resolution": "sd",
+            "id": 3133,
+            "name": "multi-btih-7-2-x-House.of.the.Dragon.S01.2160p.HMAX.WEB-DL.DDP5.1.Atmos.DoVi.by.DVT",
+            "btih": "859d91006bb4d3658c7c518a838ff8b8b44508b5",
+            "resolution": "2160",
             "encoding": "none",
-            "bytes": 639371434,
+            "bytes": 740455973,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 27322,
-            "seed": 7191
-        },
-        {
-            "id": 170,
-            "name": "House.of.the.Dragon.S01E01.HMAX.WEB.x264-TORRENTGALAXY[TGx]",
-            "btih": "fab50b0c046e301039ff0d8327a1d2a39ad414ed",
-            "resolution": "sd",
-            "encoding": "264",
-            "bytes": 396470880,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 27023,
-            "seed": 12288
-        },
-        {
-            "id": 9,
-            "name": "House Of The Dragon S01E01 The Heirs Of The Dragon 720p x264 Phun Psyz.mp4",
-            "btih": "1420a6e739facce4f2c6723a8a238295015d8292",
-            "resolution": "720",
-            "encoding": "264",
-            "bytes": 437013028,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 24537,
-            "seed": 5819
-        },
-        {
-            "id": 149,
-            "name": "House.of.the.Dragon.S01E01.Episode.1.720p.HMAX.WEBRip.DDP5.1.Atmos.x264-SMURF[TGx]",
-            "btih": "ba46a8c5b940bfc8a27956e5c5692fc622114e4b",
-            "resolution": "720",
-            "encoding": "264",
-            "bytes": 2049353215,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 24425,
-            "seed": 7951
+            "peer": 32463,
+            "seed": 6984
         },
         {
             "id": 230,
@@ -1455,11 +1404,76 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 23724,
-            "seed": 11310
+            "peer": 30705,
+            "seed": 12212
         },
         {
-            "id": 2575,
+            "id": 94,
+            "name": "House.of.the.Dragon.S01E01.1080p.WEB.H264-CAKES [IPT]",
+            "btih": "1d5507eeb7963d50655eeaecee34efb7b419fdd5",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": 123089613,
+            "ssl": false,
+            "private": true,
+            "i2p": false,
+            "peer": 30688,
+            "seed": 15039
+        },
+        {
+            "id": 170,
+            "name": "House.of.the.Dragon.S01E01.HMAX.WEB.x264-TORRENTGALAXY[TGx]",
+            "btih": "fab50b0c046e301039ff0d8327a1d2a39ad414ed",
+            "resolution": "sd",
+            "encoding": "264",
+            "bytes": 396470880,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 30193,
+            "seed": 13029
+        },
+        {
+            "id": 3134,
+            "name": "multi-btih-8-2-x-House.of.the.Dragon.S01.400p.Kerob",
+            "btih": "658eccbaebba8d92497342ea2428abc923a3edb6",
+            "resolution": "sd",
+            "encoding": "none",
+            "bytes": 639371434,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 29348,
+            "seed": 7603
+        },
+        {
+            "id": 9,
+            "name": "House Of The Dragon S01E01 The Heirs Of The Dragon 720p x264 Phun Psyz.mp4",
+            "btih": "1420a6e739facce4f2c6723a8a238295015d8292",
+            "resolution": "720",
+            "encoding": "264",
+            "bytes": 437013028,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 28947,
+            "seed": 6809
+        },
+        {
+            "id": 149,
+            "name": "House.of.the.Dragon.S01E01.Episode.1.720p.HMAX.WEBRip.DDP5.1.Atmos.x264-SMURF[TGx]",
+            "btih": "ba46a8c5b940bfc8a27956e5c5692fc622114e4b",
+            "resolution": "720",
+            "encoding": "264",
+            "bytes": 2049353215,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 27074,
+            "seed": 8827
+        },
+        {
+            "id": 3135,
             "name": "multi-btih-9-2-x-House.of.the.Dragon.S01.720p.Kerob",
             "btih": "12f228eefdb0cd74ef25ca012783ac9f805cc10b",
             "resolution": "720",
@@ -1468,8 +1482,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 22280,
-            "seed": 13068
+            "peer": 26735,
+            "seed": 13726
         },
         {
             "id": 198,
@@ -1481,60 +1495,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 22076,
-            "seed": 8688
-        },
-        {
-            "id": 2578,
-            "name": "multi-btih-12-2-x-House.of.the.Dragon.S01.WEB-DL.2160p.HMAX",
-            "btih": "c6a576950346cd2e742d245f82066c1dfe92a45f",
-            "resolution": "2160",
-            "encoding": "none",
-            "bytes": 723589408,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 21641,
-            "seed": 6500
-        },
-        {
-            "id": 2580,
-            "name": "multi-btih-14-2-x-House.of.the.Dragon.S01.WEB-DLRip-AVC",
-            "btih": "dcb932de94abe186d339b930e63841bc12542448",
-            "resolution": "sd",
-            "encoding": "none",
-            "bytes": 1264625601,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 21167,
-            "seed": 5680
-        },
-        {
-            "id": 2579,
-            "name": "multi-btih-13-2-x-House.of.the.Dragon.S01.WEB-DL.HEVC.SDR.2160p-SOFCJ",
-            "btih": "d40dab353057bf7ce971ea7555ce5010f8e3421e",
-            "resolution": "2160",
-            "encoding": "none",
-            "bytes": -1512304176,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 20991,
-            "seed": 3215
-        },
-        {
-            "id": 268,
-            "name": "www.1TamilMV.team - House Of The Dragon (2022) English S01 EP 01 TRUE WEB-DL - 720p HQ HDRip - 500MB - ESub.mkv",
-            "btih": "19243aeaa5374ad8c595a76756006377b2842bd1",
-            "resolution": "720",
-            "encoding": "none",
-            "bytes": 609712651,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 20961,
-            "seed": 5828
+            "peer": 26028,
+            "seed": 9296
         },
         {
             "id": 152,
@@ -1546,8 +1508,60 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 20726,
-            "seed": 9169
+            "peer": 25587,
+            "seed": 10444
+        },
+        {
+            "id": 3138,
+            "name": "multi-btih-12-2-x-House.of.the.Dragon.S01.WEB-DL.2160p.HMAX",
+            "btih": "c6a576950346cd2e742d245f82066c1dfe92a45f",
+            "resolution": "2160",
+            "encoding": "none",
+            "bytes": 723589408,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 24860,
+            "seed": 6866
+        },
+        {
+            "id": 3140,
+            "name": "multi-btih-14-2-x-House.of.the.Dragon.S01.WEB-DLRip-AVC",
+            "btih": "dcb932de94abe186d339b930e63841bc12542448",
+            "resolution": "sd",
+            "encoding": "none",
+            "bytes": 1264625601,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 23886,
+            "seed": 5907
+        },
+        {
+            "id": 268,
+            "name": "www.1TamilMV.team - House Of The Dragon (2022) English S01 EP 01 TRUE WEB-DL - 720p HQ HDRip - 500MB - ESub.mkv",
+            "btih": "19243aeaa5374ad8c595a76756006377b2842bd1",
+            "resolution": "720",
+            "encoding": "none",
+            "bytes": 609712651,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 23518,
+            "seed": 6227
+        },
+        {
+            "id": 3139,
+            "name": "multi-btih-13-2-x-House.of.the.Dragon.S01.WEB-DL.HEVC.SDR.2160p-SOFCJ",
+            "btih": "d40dab353057bf7ce971ea7555ce5010f8e3421e",
+            "resolution": "2160",
+            "encoding": "none",
+            "bytes": -1512304176,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 22809,
+            "seed": 3461
         },
         {
             "id": 166,
@@ -1559,8 +1573,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 19905,
-            "seed": 8812
+            "peer": 22698,
+            "seed": 9449
         },
         {
             "id": 132,
@@ -1572,47 +1586,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 19301,
-            "seed": 6485
-        },
-        {
-            "id": 113,
-            "name": "House.of.the.Dragon.S01E01.2160p.HMAX.WEB-DL.DDP5.1.Atmos.HDR.HEVC-CMRG [IPT]",
-            "btih": "c886325b498ab98a44f5612620b458add196f6dd",
-            "resolution": "2160",
-            "encoding": "none",
-            "bytes": 327790945,
-            "ssl": false,
-            "private": true,
-            "i2p": false,
-            "peer": 19020,
-            "seed": 9404
-        },
-        {
-            "id": 162,
-            "name": "House.of.the.Dragon.S01E01.HDTV.1080p Eng Sub Ita x264-NAHOM",
-            "btih": "277f916b7c43a6df3b70d447cd1b3b3013ae3724",
-            "resolution": "1080",
-            "encoding": "264",
-            "bytes": -1559464349,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 18430,
-            "seed": 7452
-        },
-        {
-            "id": 2569,
-            "name": "multi-btih-3-2-x-House of the Dragon (Season 1) WEB-DLRip",
-            "btih": "7c858203b8e33358f5d6359b88d06941204a3237",
-            "resolution": "sd",
-            "encoding": "none",
-            "bytes": 1032584973,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 18362,
-            "seed": 3717
+            "peer": 22648,
+            "seed": 7312
         },
         {
             "id": 54,
@@ -1624,21 +1599,34 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 18299,
-            "seed": 4371
+            "peer": 22381,
+            "seed": 5342
         },
         {
-            "id": 76,
-            "name": "House.of.the.Dragon.S01.LF_[rutor]",
-            "btih": "d154b8199b3d11acb187dc025a66d03d2cf0d40a",
+            "id": 113,
+            "name": "House.of.the.Dragon.S01E01.2160p.HMAX.WEB-DL.DDP5.1.Atmos.HDR.HEVC-CMRG [IPT]",
+            "btih": "c886325b498ab98a44f5612620b458add196f6dd",
+            "resolution": "2160",
+            "encoding": "none",
+            "bytes": 327790945,
+            "ssl": false,
+            "private": true,
+            "i2p": false,
+            "peer": 21741,
+            "seed": 10528
+        },
+        {
+            "id": 3129,
+            "name": "multi-btih-3-2-x-House of the Dragon (Season 1) WEB-DLRip",
+            "btih": "7c858203b8e33358f5d6359b88d06941204a3237",
             "resolution": "sd",
             "encoding": "none",
-            "bytes": 903962624,
+            "bytes": 1032584973,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 17832,
-            "seed": 5202
+            "peer": 21347,
+            "seed": 3927
         },
         {
             "id": 208,
@@ -1650,11 +1638,37 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 17799,
-            "seed": 6384
+            "peer": 20908,
+            "seed": 6879
         },
         {
-            "id": 2597,
+            "id": 76,
+            "name": "House.of.the.Dragon.S01.LF_[rutor]",
+            "btih": "d154b8199b3d11acb187dc025a66d03d2cf0d40a",
+            "resolution": "sd",
+            "encoding": "none",
+            "bytes": 903962624,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 20900,
+            "seed": 5467
+        },
+        {
+            "id": 162,
+            "name": "House.of.the.Dragon.S01E01.HDTV.1080p Eng Sub Ita x264-NAHOM",
+            "btih": "277f916b7c43a6df3b70d447cd1b3b3013ae3724",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": -1559464349,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 20897,
+            "seed": 8157
+        },
+        {
+            "id": 3157,
             "name": "multi-btih-31-2-x-House.of.the.Dragons.S01E01.The.Heirs.of.the.Dragon.1080p.HMAX.WEBRip.DD5.1.X.264-EVO [IPT]",
             "btih": "47f611410998e97bded53f9817d38d15b5c26ca8",
             "resolution": "1080",
@@ -1663,8 +1677,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 17644,
-            "seed": 8170
+            "peer": 20256,
+            "seed": 9038
         },
         {
             "id": 253,
@@ -1676,86 +1690,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 17458,
-            "seed": 8853
-        },
-        {
-            "id": 38,
-            "name": "House of the Dragon Wallpapers Collection",
-            "btih": "bb4834e7c61679c351f884358000223d8d841811",
-            "resolution": "720",
-            "encoding": "none",
-            "bytes": 149934547,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 16722,
-            "seed": 2327
-        },
-        {
-            "id": 137,
-            "name": "House.of.the.Dragon.S01E01.720p.rus.LostFilm.TV.mp4",
-            "btih": "909e873100fd44627d9e17971d15c5137e65f7c3",
-            "resolution": "720",
-            "encoding": "none",
-            "bytes": 2133203590,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 16442,
-            "seed": 6486
-        },
-        {
-            "id": 103,
-            "name": "House.of.the.Dragon.S01E01.1080p.x265-ELiTE",
-            "btih": "67f61345519ad779beea96ae238a2d820478f00f",
-            "resolution": "1080",
-            "encoding": "265",
-            "bytes": 687555868,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 16416,
-            "seed": 5186
-        },
-        {
-            "id": 22,
-            "name": "House of the Dragon (Season 1) (2022) WEB-DLRip-AVC [4XUkr.Eng] [sub Ukr. Eng] [Hurtom]",
-            "btih": "0bda372eb5daef09e1321afdccfd2376cdd6d145",
-            "resolution": "sd",
-            "encoding": "none",
-            "bytes": 1616957084,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 16415,
-            "seed": 361
-        },
-        {
-            "id": 226,
-            "name": "House.of.the.Dragon.S01E01.XviD-AFG[TGx]",
-            "btih": "09b1162b9c7856ca32a153ee3b47a22ad4cfdfcf",
-            "resolution": "sd",
-            "encoding": "xvid",
-            "bytes": 529419122,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 15972,
-            "seed": 3951
-        },
-        {
-            "id": 254,
-            "name": "[rutor.is]Dom_Drakona_1_sezon_scarfilm.org",
-            "btih": "244f299b007a15365b5251396ea2c1f6383ca5d6",
-            "resolution": "2160",
-            "encoding": "none",
-            "bytes": 137314652,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 14541,
-            "seed": 5899
+            "peer": 19883,
+            "seed": 9177
         },
         {
             "id": 207,
@@ -1767,73 +1703,60 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 14534,
-            "seed": 5790
+            "peer": 19482,
+            "seed": 6954
         },
         {
-            "id": 50,
-            "name": "House.of.the.Dragon.2022.576p.HDTV.x265.5rFF-E01.mkv",
-            "btih": "bf9e9c129170335f4db8007e80256aa24c35a6c1",
-            "resolution": "sd",
-            "encoding": "265",
-            "bytes": 576948091,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 14521,
-            "seed": 1284
-        },
-        {
-            "id": 195,
-            "name": "House.of.the.Dragon.S01E01.The.Heirs.of.the.Dragon.1080p.WEBRip.ENG.SUB.ITA.x264-BlackBit.mkv",
-            "btih": "0339225d18009344ce5190c466cfbc190bbff94c",
-            "resolution": "1080",
-            "encoding": "264",
-            "bytes": 123162784,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 14459,
-            "seed": 4308
-        },
-        {
-            "id": 100,
-            "name": "House.of.the.Dragon.S01E01.1080p.WEBRip.x264-SURGE.mkv",
-            "btih": "8efe852a906f28b0facb57191e63a9324770a387",
-            "resolution": "1080",
-            "encoding": "264",
-            "bytes": -1215003916,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 14440,
-            "seed": 5592
-        },
-        {
-            "id": 197,
-            "name": "House.of.the.Dragon.S01E01.The.Heirs.of.the.Dragon.2160p.WEBRip.ENG.SUB.ITA.HDR.x265-BlackBit.mkv",
-            "btih": "45ecc058d3f808a7d594357540d722e65002bb2c",
-            "resolution": "2160",
-            "encoding": "265",
-            "bytes": 327853970,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 14067,
-            "seed": 5417
-        },
-        {
-            "id": 138,
-            "name": "House.of.the.Dragon.S01E01.720p.x264-FENiX",
-            "btih": "0523164d195a50fc9908aeb0b902a7040de04dc8",
+            "id": 137,
+            "name": "House.of.the.Dragon.S01E01.720p.rus.LostFilm.TV.mp4",
+            "btih": "909e873100fd44627d9e17971d15c5137e65f7c3",
             "resolution": "720",
-            "encoding": "264",
-            "bytes": 639389088,
+            "encoding": "none",
+            "bytes": 2133203590,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 13749,
-            "seed": 3619
+            "peer": 19098,
+            "seed": 7062
+        },
+        {
+            "id": 226,
+            "name": "House.of.the.Dragon.S01E01.XviD-AFG[TGx]",
+            "btih": "09b1162b9c7856ca32a153ee3b47a22ad4cfdfcf",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "bytes": 529419122,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 18756,
+            "seed": 4317
+        },
+        {
+            "id": 103,
+            "name": "House.of.the.Dragon.S01E01.1080p.x265-ELiTE",
+            "btih": "67f61345519ad779beea96ae238a2d820478f00f",
+            "resolution": "1080",
+            "encoding": "265",
+            "bytes": 687555868,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 18722,
+            "seed": 5690
+        },
+        {
+            "id": 22,
+            "name": "House of the Dragon (Season 1) (2022) WEB-DLRip-AVC [4XUkr.Eng] [sub Ukr. Eng] [Hurtom]",
+            "btih": "0bda372eb5daef09e1321afdccfd2376cdd6d145",
+            "resolution": "sd",
+            "encoding": "none",
+            "bytes": 1616957084,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 18602,
+            "seed": 389
         },
         {
             "id": 71,
@@ -1845,73 +1768,60 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 13694,
-            "seed": 609
+            "peer": 18294,
+            "seed": 633
         },
         {
-            "id": 228,
-            "name": "House.of.the.Dragon.S01E01.YG",
-            "btih": "a27afc4c2c954acebc0e929f9feb2fcfaf47d87f",
-            "resolution": "1080",
+            "id": 38,
+            "name": "House of the Dragon Wallpapers Collection",
+            "btih": "bb4834e7c61679c351f884358000223d8d841811",
+            "resolution": "720",
             "encoding": "none",
-            "bytes": 1483767263,
+            "bytes": 149934547,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 13651,
-            "seed": 4429
+            "peer": 18256,
+            "seed": 2663
         },
         {
-            "id": 143,
-            "name": "House.of.the.Dragon.S01E01.Episode.1.1080p.HMAX.WEBRip.DDP5.1.Atmos.x264-SMURF[TGx]",
-            "btih": "aacf04d3997f71f8dff69e3af83b0fb35e550046",
+            "id": 100,
+            "name": "House.of.the.Dragon.S01E01.1080p.WEBRip.x264-SURGE.mkv",
+            "btih": "8efe852a906f28b0facb57191e63a9324770a387",
             "resolution": "1080",
             "encoding": "264",
-            "bytes": 123112184,
+            "bytes": -1215003916,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 13577,
-            "seed": 4295
+            "peer": 17675,
+            "seed": 6364
         },
         {
-            "id": 201,
-            "name": "House.of.the.Dragon.S01E01.The.Heirs.of.the.Dragon.720p.WEB-DL.DD5.1.H.264-MiU.mkv [IPT]",
-            "btih": "7c433d875b12438b810f02af77caeb70a911c921",
+            "id": 195,
+            "name": "House.of.the.Dragon.S01E01.The.Heirs.of.the.Dragon.1080p.WEBRip.ENG.SUB.ITA.x264-BlackBit.mkv",
+            "btih": "0339225d18009344ce5190c466cfbc190bbff94c",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": 123162784,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 17509,
+            "seed": 4772
+        },
+        {
+            "id": 138,
+            "name": "House.of.the.Dragon.S01E01.720p.x264-FENiX",
+            "btih": "0523164d195a50fc9908aeb0b902a7040de04dc8",
             "resolution": "720",
             "encoding": "264",
-            "bytes": 1780610434,
-            "ssl": false,
-            "private": true,
-            "i2p": false,
-            "peer": 13413,
-            "seed": 6154
-        },
-        {
-            "id": 16,
-            "name": "House of the Dragon (2022) 1080p",
-            "btih": "e02256d1fe9856fe6b761884c5744c5111066c50",
-            "resolution": "1080",
-            "encoding": "none",
-            "bytes": -1645702641,
+            "bytes": 639389088,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 13359,
-            "seed": 3265
-        },
-        {
-            "id": 167,
-            "name": "House.of.the.Dragon.S01E01.HMAX.4K.to.1080-FHD.HVEC.OPUS[HR-DR]",
-            "btih": "5c8d9eb028338d424d7dc0fa4341957bb9097725",
-            "resolution": "1080",
-            "encoding": "none",
-            "bytes": 1049616245,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 13357,
-            "seed": 5581
+            "peer": 17216,
+            "seed": 3932
         },
         {
             "id": 271,
@@ -1923,437 +1833,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 13356,
-            "seed": 3631
-        },
-        {
-            "id": 206,
-            "name": "House.of.the.Dragon.S01E01.The.Heirs.of.the.Dragon.PL.1080p.HMAX.WEB-DL.DDP5.1.H.264-666",
-            "btih": "585c8e32506fb50212bd7c020bb3d2b579b90480",
-            "resolution": "1080",
-            "encoding": "264",
-            "bytes": -67363752,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 13317,
-            "seed": 5930
-        },
-        {
-            "id": 164,
-            "name": "House.of.the.Dragon.S01E01.HMAX.1080p.x265-ELiTE",
-            "btih": "7e69ab0eb8e89a7bcafa8f4be3ebf70a0f2c7e81",
-            "resolution": "1080",
-            "encoding": "265",
-            "bytes": 824342877,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 13013,
-            "seed": 3436
-        },
-        {
-            "id": 2598,
-            "name": "multi-btih-32-2-x-House.of.the.Dragons.S01E01.The.Heirs.of.the.Dragon.2160p.HMAX.WEBRip.DDP5.1.Atmos.HDR.X.265-EVO [IPT]",
-            "btih": "60c40217cd2a851c8c0d0565c19f7ecfd91cc178",
-            "resolution": "2160",
-            "encoding": "265",
-            "bytes": -1795828263,
-            "ssl": false,
-            "private": true,
-            "i2p": false,
-            "peer": 13010,
-            "seed": 6314
-        },
-        {
-            "id": 109,
-            "name": "House.of.the.Dragon.S01E01.2160p.HMAX.WEB-DL.DDP5.1.Atmos.DV.HEVC-CMRG [IPT]",
-            "btih": "a8c10944250f3313f50b3d4adb5e08f5fef638f4",
-            "resolution": "2160",
-            "encoding": "none",
-            "bytes": 359387956,
-            "ssl": false,
-            "private": true,
-            "i2p": false,
-            "peer": 12941,
-            "seed": 5967
-        },
-        {
-            "id": 99,
-            "name": "House.of.the.Dragon.S01E01.1080p.WEBRip.DD5.1.x264-MiU",
-            "btih": "d6f0ad6c4500e4b706f5182306369674791475cc",
-            "resolution": "1080",
-            "encoding": "264",
-            "bytes": -1826713835,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 12714,
-            "seed": 569
-        },
-        {
-            "id": 118,
-            "name": "House.of.the.Dragon.S01E01.480p.x264-RUBiK",
-            "btih": "ab36fd0b659b1d468927a9dd871f0bef4e371e35",
-            "resolution": "sd",
-            "encoding": "264",
-            "bytes": 452860101,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 12677,
-            "seed": 2233
-        },
-        {
-            "id": 289,
-            "name": "용의 가문 House of The Dragon,2022.1080p.KOR.FHDRip.H264.AAC-REEL.mp4",
-            "btih": "c67d6cca17ab40d139f13bfd3600ae460cc0d547",
-            "resolution": "1080",
-            "encoding": "264",
-            "bytes": 1947117569,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 12653,
-            "seed": 2631
-        },
-        {
-            "id": 125,
-            "name": "House.of.the.Dragon.S01E01.720p.HEVC.x265-MeGusta",
-            "btih": "8ac717c88c26e98b9cb553717349344c38709b0c",
-            "resolution": "720",
-            "encoding": "265",
-            "bytes": 639325274,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 12311,
-            "seed": 2513
-        },
-        {
-            "id": 2595,
-            "name": "multi-btih-29-2-x-House.of.the.Dragon.S01E01.XviD-AFG [IPT]",
-            "btih": "e6fa56cdb01a0362f957253f4db77cf11b5acdb3",
-            "resolution": "sd",
-            "encoding": "xvid",
-            "bytes": 529799690,
-            "ssl": false,
-            "private": true,
-            "i2p": false,
-            "peer": 11799,
-            "seed": 5814
-        },
-        {
-            "id": 42,
-            "name": "House of the Dragon_S01E01_The Heirs of the Dragon.mkv",
-            "btih": "3b674bc82fac7a925aaa8f72fcdd812fc9d72414",
-            "resolution": "sd",
-            "encoding": "none",
-            "bytes": -1810307694,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 11716,
-            "seed": 1074
-        },
-        {
-            "id": 156,
-            "name": "House.of.the.Dragon.S01E01.Gli.Eredi.Del.Drago.1080p.HMAX.WEBMux.ITA.ENG.DD5.1.x264-BlackBit",
-            "btih": "ce17feb2d837023845e42b700e267da664a6cac6",
-            "resolution": "1080",
-            "encoding": "264",
-            "bytes": 312255192,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 11575,
-            "seed": 2945
-        },
-        {
-            "id": 64,
-            "name": "House.of.the.Dragon.S01.2160p.WEB-DL.x265.10bit.Master5",
-            "btih": "c5ac832c9cd96332009b32a2abd1d57f78461c04",
-            "resolution": "2160",
-            "encoding": "265",
-            "bytes": -1512274360,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 11330,
-            "seed": 3553
-        },
-        {
-            "id": 270,
-            "name": "www.1TamilMV.team - House Of The Dragon (2022) S01 EP 01 - 720p HQ HDRip - Tamil (Fan Dub)  - 400MB - ESub.mkv",
-            "btih": "7b020143cdaba340f14dcbacab229604dab54b01",
-            "resolution": "720",
-            "encoding": "none",
-            "bytes": 455993789,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 11305,
-            "seed": 1831
-        },
-        {
-            "id": 258,
-            "name": "[rutor.is]House.of.the.Dragon.S01.2160p.WEB-DL.DDP5.1.Atm",
-            "btih": "b2f4e411898209226fa27efa2f36d0a7b9075f40",
-            "resolution": "2160",
-            "encoding": "none",
-            "bytes": -1671522186,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 11248,
-            "seed": 2137
-        },
-        {
-            "id": 19,
-            "name": "House of the Dragon (2022) [legsik69]",
-            "btih": "c8f5c413b29cb0f58039500025f4844e1911e52d",
-            "resolution": "sd",
-            "encoding": "none",
-            "bytes": -1645174994,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 11118,
-            "seed": 1836
-        },
-        {
-            "id": 121,
-            "name": "House.of.the.Dragon.S01E01.4K.HDR.DV.2160p.WEBDL Ita Eng x265-NAHOM",
-            "btih": "b04faf68ece1e1c288317992215c518f94930335",
-            "resolution": "2160",
-            "encoding": "265",
-            "bytes": 534580460,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 11093,
-            "seed": 3346
-        },
-        {
-            "id": 18,
-            "name": "House of the Dragon (2022) S01E01 The Heirs of the Dragon 1080p HMAX Webdl x265 10bit DDP 5.1 Atmos - HxA",
-            "btih": "cc680f5809eb86b1c112ef16d5afb4c73350cc38",
-            "resolution": "1080",
-            "encoding": "265",
-            "bytes": 1899883276,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 11054,
-            "seed": 2719
-        },
-        {
-            "id": 212,
-            "name": "House.of.the.Dragon.S01E01.WEBRip.1080p.rus.2.0.HDREZKA.STUDIO.mkv",
-            "btih": "ac754f5a0702b17074f5e22563f3eb4f7935768f",
-            "resolution": "1080",
-            "encoding": "none",
-            "bytes": -1549291558,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 11007,
-            "seed": 1498
-        },
-        {
-            "id": 68,
-            "name": "House.of.the.Dragon.S01.720p.ColdFilm",
-            "btih": "3cca6d70caabc702c388a27fe1cd2195c42fee11",
-            "resolution": "720",
-            "encoding": "none",
-            "bytes": 1780475860,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 10999,
-            "seed": 2410
-        },
-        {
-            "id": 34,
-            "name": "House of the Dragon S01E01 The Heirs of the Dragon.mkv",
-            "btih": "af3b05a041b362c5e21697db9b8def32e9de0020",
-            "resolution": "sd",
-            "encoding": "none",
-            "bytes": 296373258,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 10617,
-            "seed": 1668
-        },
-        {
-            "id": 145,
-            "name": "House.of.the.Dragon.S01E01.Episode.1.2160p.HMAX.WEB-DL.DDP5.1.Atmos.DV.MKV.x265-SMURF",
-            "btih": "bd06a872502c1a970884ace3c76e802f5e4235a5",
-            "resolution": "2160",
-            "encoding": "265",
-            "bytes": 359399661,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 10308,
-            "seed": 2399
-        },
-        {
-            "id": 105,
-            "name": "House.of.the.Dragon.S01E01.2022.1080p.WEBRip.Hindi-ENG.x264.1XBET",
-            "btih": "4b2c8528a4e8d49b76af2c43bda245a3188b5d74",
-            "resolution": "1080",
-            "encoding": "264",
-            "bytes": -168963196,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 10146,
-            "seed": 3152
-        },
-        {
-            "id": 246,
-            "name": "Rod draka - House of the Dragon S01E01 CZ  - SK 2160p HDR.mkv",
-            "btih": "2105a2faec985ac31a2e7292fd76979329a944c1",
-            "resolution": "2160",
-            "encoding": "none",
-            "bytes": 704685516,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 10061,
-            "seed": 1262
-        },
-        {
-            "id": 2571,
-            "name": "multi-btih-5-2-x-House.of.the.Dragon.S01.1080p.HMAX.WEB-DL.DDP5.1.H.264-EniaHD",
-            "btih": "6b46cc3fdfc424118f5744041c56cc90eaa05786",
-            "resolution": "1080",
-            "encoding": "264",
-            "bytes": 310914274,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 10059,
-            "seed": 800
-        },
-        {
-            "id": 220,
-            "name": "House.of.the.Dragon.S01E01.WEBRip.x264-NOGRP",
-            "btih": "f5820f6ead62678d4434c9a7a57267ba9b1895ea",
-            "resolution": "sd",
-            "encoding": "264",
-            "bytes": 627697526,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 10020,
-            "seed": 1825
-        },
-        {
-            "id": 165,
-            "name": "House.of.the.Dragon.S01E01.HMAX.480p.x264-RUBiK",
-            "btih": "661e0622b277d0e1ee9d01dca3e138632a7ffdae",
-            "resolution": "sd",
-            "encoding": "264",
-            "bytes": 476782859,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 9826,
-            "seed": 1170
-        },
-        {
-            "id": 25,
-            "name": "House of the Dragon - S01E01 - The Heirs of the Dragon.mkv",
-            "btih": "836b7b6357f758dcb23f58b65c4d71eb60bfe493",
-            "resolution": "sd",
-            "encoding": "none",
-            "bytes": 527850895,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 9809,
-            "seed": 3199
-        },
-        {
-            "id": 286,
-            "name": "龙之家族.House.of.the.Dragon.S01E01.1080p.WEB-DL.DD5.1.H.264.中英双字.7meiju",
-            "btih": "130c962e8b0416f9dc91dc97ba23432b2c06393f",
-            "resolution": "1080",
-            "encoding": "264",
-            "bytes": -1822941857,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 9781,
-            "seed": 1117
-        },
-        {
-            "id": 196,
-            "name": "House.of.the.Dragon.S01E01.The.Heirs.of.the.Dragon.1080p.WEBRip.x265.DDP5.1.Atmos-WAR",
-            "btih": "47a02c5a2e541be17f20ac8c3f29f0dbaeb769a0",
-            "resolution": "1080",
-            "encoding": "265",
-            "bytes": -1723609378,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 9744,
-            "seed": 2816
-        },
-        {
-            "id": 182,
-            "name": "House.of.the.Dragon.S01E01.The.Heirs.of.the.Dragon.1080p.HMAX.10bit.DDP.5.1.x265.[HashMiner]",
-            "btih": "4780916febac074ff1b5bfc892fe3aba1a2038b7",
-            "resolution": "1080",
-            "encoding": "265",
-            "bytes": -2036814614,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 9636,
-            "seed": 2977
-        },
-        {
-            "id": 124,
-            "name": "House.of.the.Dragon.S01E01.720p.HEVC.x265-MeGusta [IPT]",
-            "btih": "99939b2e78794eb201128d336e9d97b7c8649a63",
-            "resolution": "720",
-            "encoding": "265",
-            "bytes": 639325274,
-            "ssl": false,
-            "private": true,
-            "i2p": false,
-            "peer": 9480,
-            "seed": 5234
-        },
-        {
-            "id": 74,
-            "name": "House.of.the.Dragon.S01.720p.WEB-DLRip(AVC).sbor",
-            "btih": "6a9f92160f88926d75cfbf74e941b6eed5801c8d",
-            "resolution": "720",
-            "encoding": "none",
-            "bytes": 1844185188,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 9339,
-            "seed": 903
-        },
-        {
-            "id": 122,
-            "name": "House.of.the.Dragon.S01E01.720p.10bit.WEBRip.2CH.x265.HEVC-PSA.mkv",
-            "btih": "c0a1e0362621e33cc176442ea066f8937c75b49e",
-            "resolution": "720",
-            "encoding": "265",
-            "bytes": 436048872,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 9062,
-            "seed": 1890
+            "peer": 17049,
+            "seed": 4543
         },
         {
             "id": 290,
@@ -2365,112 +1846,372 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 9038,
-            "seed": 2979
+            "peer": 16632,
+            "seed": 3076
         },
         {
-            "id": 169,
-            "name": "House.of.the.Dragon.S01E01.HMAX.720p.x265-T0PAZ",
-            "btih": "f9d61a8ceb365f1d4d0449fb3e8c666e09eec42d",
-            "resolution": "720",
-            "encoding": "265",
-            "bytes": 582591226,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 9027,
-            "seed": 2485
-        },
-        {
-            "id": 282,
-            "name": "【高清剧集网 www.BTHDTV.com】龙之家族[第01集][繁英字幕].House.of.the.Dragon.S01E01.The.Heirs.of.the.Dragon.1080p.WEB-DL.DD5.1.H.264-Xiaomi",
-            "btih": "e5cf30f22e6dde60ecba6f204be515b165488248",
-            "resolution": "1080",
-            "encoding": "264",
-            "bytes": -1825439883,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 8998,
-            "seed": 1334
-        },
-        {
-            "id": 154,
-            "name": "House.of.the.Dragon.S01E01.Gli.Eredi.Del.Drago.1080p.HMAX.WEBMux.HEVC.ITA.ENG.DD5.1.x265-BlackBit.mkv",
-            "btih": "a7882d9c9563abf4ac8ef5ad2531b692194e36f6",
-            "resolution": "1080",
-            "encoding": "265",
-            "bytes": -1935519893,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 8661,
-            "seed": 3702
-        },
-        {
-            "id": 252,
-            "name": "[Devil-TorrentS.PL] House.of.the.Dragon.2022.S01E01.MULTi.1080p.HMAX.WEB-DL.HEVC.DD5.1-K83",
-            "btih": "ed73c1680048d83d7cf39bb2f21ccd0d86bd2343",
-            "resolution": "1080",
+            "id": 254,
+            "name": "[rutor.is]Dom_Drakona_1_sezon_scarfilm.org",
+            "btih": "244f299b007a15365b5251396ea2c1f6383ca5d6",
+            "resolution": "2160",
             "encoding": "none",
-            "bytes": -624205177,
+            "bytes": 137314652,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 8423,
-            "seed": 2137
+            "peer": 16594,
+            "seed": 6096
         },
         {
-            "id": 179,
-            "name": "House.of.the.Dragon.S01E01.SPANiSH.1080p.HMAX.WEB-DL.x264-dem3nt3",
-            "btih": "69f8eca5fe9922a9173d6f291e420bc3cb457492",
-            "resolution": "1080",
-            "encoding": "264",
-            "bytes": 310921081,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 8263,
-            "seed": 2349
-        },
-        {
-            "id": 168,
-            "name": "House.of.the.Dragon.S01E01.HMAX.720p.x264-FENiX",
-            "btih": "7b87d58a37fafaac1b513507c33369ed9adfdf06",
-            "resolution": "720",
-            "encoding": "264",
-            "bytes": 658690611,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 8212,
-            "seed": 2765
-        },
-        {
-            "id": 259,
-            "name": "[rutor.is]House.of.the.Dragon.S01.2160p.WEB-DL.x265.10bit",
-            "btih": "00f80a488e3072dded1ec3b555444d2df2450885",
+            "id": 197,
+            "name": "House.of.the.Dragon.S01E01.The.Heirs.of.the.Dragon.2160p.WEBRip.ENG.SUB.ITA.HDR.x265-BlackBit.mkv",
+            "btih": "45ecc058d3f808a7d594357540d722e65002bb2c",
             "resolution": "2160",
             "encoding": "265",
-            "bytes": -1512493984,
+            "bytes": 327853970,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 8200,
-            "seed": 2957
+            "peer": 16192,
+            "seed": 6102
         },
         {
-            "id": 85,
-            "name": "House.of.the.Dragon.S01E01.1080p.ColdFilm.mkv",
-            "btih": "70f0e22b7c421eaf7899c46fa2ae576e128dda4d",
-            "resolution": "1080",
+            "id": 34,
+            "name": "House of the Dragon S01E01 The Heirs of the Dragon.mkv",
+            "btih": "af3b05a041b362c5e21697db9b8def32e9de0020",
+            "resolution": "sd",
             "encoding": "none",
-            "bytes": -2040390088,
+            "bytes": 296373258,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 8104,
-            "seed": 852
+            "peer": 16114,
+            "seed": 1925
+        },
+        {
+            "id": 50,
+            "name": "House.of.the.Dragon.2022.576p.HDTV.x265.5rFF-E01.mkv",
+            "btih": "bf9e9c129170335f4db8007e80256aa24c35a6c1",
+            "resolution": "sd",
+            "encoding": "265",
+            "bytes": 576948091,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 15951,
+            "seed": 1487
+        },
+        {
+            "id": 143,
+            "name": "House.of.the.Dragon.S01E01.Episode.1.1080p.HMAX.WEBRip.DDP5.1.Atmos.x264-SMURF[TGx]",
+            "btih": "aacf04d3997f71f8dff69e3af83b0fb35e550046",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": 123112184,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 15857,
+            "seed": 4707
+        },
+        {
+            "id": 167,
+            "name": "House.of.the.Dragon.S01E01.HMAX.4K.to.1080-FHD.HVEC.OPUS[HR-DR]",
+            "btih": "5c8d9eb028338d424d7dc0fa4341957bb9097725",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": 1049616245,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 15698,
+            "seed": 6413
+        },
+        {
+            "id": 201,
+            "name": "House.of.the.Dragon.S01E01.The.Heirs.of.the.Dragon.720p.WEB-DL.DD5.1.H.264-MiU.mkv [IPT]",
+            "btih": "7c433d875b12438b810f02af77caeb70a911c921",
+            "resolution": "720",
+            "encoding": "264",
+            "bytes": 1780610434,
+            "ssl": false,
+            "private": true,
+            "i2p": false,
+            "peer": 15460,
+            "seed": 6885
+        },
+        {
+            "id": 206,
+            "name": "House.of.the.Dragon.S01E01.The.Heirs.of.the.Dragon.PL.1080p.HMAX.WEB-DL.DDP5.1.H.264-666",
+            "btih": "585c8e32506fb50212bd7c020bb3d2b579b90480",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": -67363752,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 15379,
+            "seed": 6575
+        },
+        {
+            "id": 3158,
+            "name": "multi-btih-32-2-x-House.of.the.Dragons.S01E01.The.Heirs.of.the.Dragon.2160p.HMAX.WEBRip.DDP5.1.Atmos.HDR.X.265-EVO [IPT]",
+            "btih": "60c40217cd2a851c8c0d0565c19f7ecfd91cc178",
+            "resolution": "2160",
+            "encoding": "265",
+            "bytes": -1795828263,
+            "ssl": false,
+            "private": true,
+            "i2p": false,
+            "peer": 15288,
+            "seed": 7178
+        },
+        {
+            "id": 228,
+            "name": "House.of.the.Dragon.S01E01.YG",
+            "btih": "a27afc4c2c954acebc0e929f9feb2fcfaf47d87f",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": 1483767263,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 15111,
+            "seed": 4852
+        },
+        {
+            "id": 109,
+            "name": "House.of.the.Dragon.S01E01.2160p.HMAX.WEB-DL.DDP5.1.Atmos.DV.HEVC-CMRG [IPT]",
+            "btih": "a8c10944250f3313f50b3d4adb5e08f5fef638f4",
+            "resolution": "2160",
+            "encoding": "none",
+            "bytes": 359387956,
+            "ssl": false,
+            "private": true,
+            "i2p": false,
+            "peer": 14736,
+            "seed": 6629
+        },
+        {
+            "id": 164,
+            "name": "House.of.the.Dragon.S01E01.HMAX.1080p.x265-ELiTE",
+            "btih": "7e69ab0eb8e89a7bcafa8f4be3ebf70a0f2c7e81",
+            "resolution": "1080",
+            "encoding": "265",
+            "bytes": 824342877,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 14588,
+            "seed": 3766
+        },
+        {
+            "id": 118,
+            "name": "House.of.the.Dragon.S01E01.480p.x264-RUBiK",
+            "btih": "ab36fd0b659b1d468927a9dd871f0bef4e371e35",
+            "resolution": "sd",
+            "encoding": "264",
+            "bytes": 452860101,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 14467,
+            "seed": 2335
+        },
+        {
+            "id": 125,
+            "name": "House.of.the.Dragon.S01E01.720p.HEVC.x265-MeGusta",
+            "btih": "8ac717c88c26e98b9cb553717349344c38709b0c",
+            "resolution": "720",
+            "encoding": "265",
+            "bytes": 639325274,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 14401,
+            "seed": 2935
+        },
+        {
+            "id": 16,
+            "name": "House of the Dragon (2022) 1080p",
+            "btih": "e02256d1fe9856fe6b761884c5744c5111066c50",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": -1645702641,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 14373,
+            "seed": 3485
+        },
+        {
+            "id": 99,
+            "name": "House.of.the.Dragon.S01E01.1080p.WEBRip.DD5.1.x264-MiU",
+            "btih": "d6f0ad6c4500e4b706f5182306369674791475cc",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": -1826713835,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 14217,
+            "seed": 626
+        },
+        {
+            "id": 42,
+            "name": "House of the Dragon_S01E01_The Heirs of the Dragon.mkv",
+            "btih": "3b674bc82fac7a925aaa8f72fcdd812fc9d72414",
+            "resolution": "sd",
+            "encoding": "none",
+            "bytes": -1810307694,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 13941,
+            "seed": 1243
+        },
+        {
+            "id": 3155,
+            "name": "multi-btih-29-2-x-House.of.the.Dragon.S01E01.XviD-AFG [IPT]",
+            "btih": "e6fa56cdb01a0362f957253f4db77cf11b5acdb3",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "bytes": 529799690,
+            "ssl": false,
+            "private": true,
+            "i2p": false,
+            "peer": 13937,
+            "seed": 6574
+        },
+        {
+            "id": 289,
+            "name": "용의 가문 House of The Dragon,2022.1080p.KOR.FHDRip.H264.AAC-REEL.mp4",
+            "btih": "c67d6cca17ab40d139f13bfd3600ae460cc0d547",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": 1947117569,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 13801,
+            "seed": 2701
+        },
+        {
+            "id": 246,
+            "name": "Rod draka - House of the Dragon S01E01 CZ  - SK 2160p HDR.mkv",
+            "btih": "2105a2faec985ac31a2e7292fd76979329a944c1",
+            "resolution": "2160",
+            "encoding": "none",
+            "bytes": 704685516,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 13619,
+            "seed": 1423
+        },
+        {
+            "id": 19,
+            "name": "House of the Dragon (2022) [legsik69]",
+            "btih": "c8f5c413b29cb0f58039500025f4844e1911e52d",
+            "resolution": "sd",
+            "encoding": "none",
+            "bytes": -1645174994,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 13584,
+            "seed": 2011
+        },
+        {
+            "id": 270,
+            "name": "www.1TamilMV.team - House Of The Dragon (2022) S01 EP 01 - 720p HQ HDRip - Tamil (Fan Dub)  - 400MB - ESub.mkv",
+            "btih": "7b020143cdaba340f14dcbacab229604dab54b01",
+            "resolution": "720",
+            "encoding": "none",
+            "bytes": 455993789,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 13358,
+            "seed": 1939
+        },
+        {
+            "id": 64,
+            "name": "House.of.the.Dragon.S01.2160p.WEB-DL.x265.10bit.Master5",
+            "btih": "c5ac832c9cd96332009b32a2abd1d57f78461c04",
+            "resolution": "2160",
+            "encoding": "265",
+            "bytes": -1512274360,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 13161,
+            "seed": 3987
+        },
+        {
+            "id": 121,
+            "name": "House.of.the.Dragon.S01E01.4K.HDR.DV.2160p.WEBDL Ita Eng x265-NAHOM",
+            "btih": "b04faf68ece1e1c288317992215c518f94930335",
+            "resolution": "2160",
+            "encoding": "265",
+            "bytes": 534580460,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 13137,
+            "seed": 3925
+        },
+        {
+            "id": 105,
+            "name": "House.of.the.Dragon.S01E01.2022.1080p.WEBRip.Hindi-ENG.x264.1XBET",
+            "btih": "4b2c8528a4e8d49b76af2c43bda245a3188b5d74",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": -168963196,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 12847,
+            "seed": 3722
+        },
+        {
+            "id": 165,
+            "name": "House.of.the.Dragon.S01E01.HMAX.480p.x264-RUBiK",
+            "btih": "661e0622b277d0e1ee9d01dca3e138632a7ffdae",
+            "resolution": "sd",
+            "encoding": "264",
+            "bytes": 476782859,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 12761,
+            "seed": 1270
+        },
+        {
+            "id": 156,
+            "name": "House.of.the.Dragon.S01E01.Gli.Eredi.Del.Drago.1080p.HMAX.WEBMux.ITA.ENG.DD5.1.x264-BlackBit",
+            "btih": "ce17feb2d837023845e42b700e267da664a6cac6",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": 312255192,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 12637,
+            "seed": 3251
+        },
+        {
+            "id": 212,
+            "name": "House.of.the.Dragon.S01E01.WEBRip.1080p.rus.2.0.HDREZKA.STUDIO.mkv",
+            "btih": "ac754f5a0702b17074f5e22563f3eb4f7935768f",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": -1549291558,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 12534,
+            "seed": 1631
         },
         {
             "id": 173,
@@ -2482,8 +2223,203 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 8052,
-            "seed": 478
+            "peer": 12497,
+            "seed": 536
+        },
+        {
+            "id": 286,
+            "name": "龙之家族.House.of.the.Dragon.S01E01.1080p.WEB-DL.DD5.1.H.264.中英双字.7meiju",
+            "btih": "130c962e8b0416f9dc91dc97ba23432b2c06393f",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": -1822941857,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 12380,
+            "seed": 1380
+        },
+        {
+            "id": 258,
+            "name": "[rutor.is]House.of.the.Dragon.S01.2160p.WEB-DL.DDP5.1.Atm",
+            "btih": "b2f4e411898209226fa27efa2f36d0a7b9075f40",
+            "resolution": "2160",
+            "encoding": "none",
+            "bytes": -1671522186,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 12364,
+            "seed": 2293
+        },
+        {
+            "id": 18,
+            "name": "House of the Dragon (2022) S01E01 The Heirs of the Dragon 1080p HMAX Webdl x265 10bit DDP 5.1 Atmos - HxA",
+            "btih": "cc680f5809eb86b1c112ef16d5afb4c73350cc38",
+            "resolution": "1080",
+            "encoding": "265",
+            "bytes": 1899883276,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 12076,
+            "seed": 3009
+        },
+        {
+            "id": 68,
+            "name": "House.of.the.Dragon.S01.720p.ColdFilm",
+            "btih": "3cca6d70caabc702c388a27fe1cd2195c42fee11",
+            "resolution": "720",
+            "encoding": "none",
+            "bytes": 1780475860,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 12069,
+            "seed": 2617
+        },
+        {
+            "id": 3131,
+            "name": "multi-btih-5-2-x-House.of.the.Dragon.S01.1080p.HMAX.WEB-DL.DDP5.1.H.264-EniaHD",
+            "btih": "6b46cc3fdfc424118f5744041c56cc90eaa05786",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": 310914274,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 11937,
+            "seed": 820
+        },
+        {
+            "id": 220,
+            "name": "House.of.the.Dragon.S01E01.WEBRip.x264-NOGRP",
+            "btih": "f5820f6ead62678d4434c9a7a57267ba9b1895ea",
+            "resolution": "sd",
+            "encoding": "264",
+            "bytes": 627697526,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 11912,
+            "seed": 1962
+        },
+        {
+            "id": 179,
+            "name": "House.of.the.Dragon.S01E01.SPANiSH.1080p.HMAX.WEB-DL.x264-dem3nt3",
+            "btih": "69f8eca5fe9922a9173d6f291e420bc3cb457492",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": 310921081,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 11686,
+            "seed": 2534
+        },
+        {
+            "id": 145,
+            "name": "House.of.the.Dragon.S01E01.Episode.1.2160p.HMAX.WEB-DL.DDP5.1.Atmos.DV.MKV.x265-SMURF",
+            "btih": "bd06a872502c1a970884ace3c76e802f5e4235a5",
+            "resolution": "2160",
+            "encoding": "265",
+            "bytes": 359399661,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 11629,
+            "seed": 2677
+        },
+        {
+            "id": 282,
+            "name": "【高清剧集网 www.BTHDTV.com】龙之家族[第01集][繁英字幕].House.of.the.Dragon.S01E01.The.Heirs.of.the.Dragon.1080p.WEB-DL.DD5.1.H.264-Xiaomi",
+            "btih": "e5cf30f22e6dde60ecba6f204be515b165488248",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": -1825439883,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 11453,
+            "seed": 1424
+        },
+        {
+            "id": 196,
+            "name": "House.of.the.Dragon.S01E01.The.Heirs.of.the.Dragon.1080p.WEBRip.x265.DDP5.1.Atmos-WAR",
+            "btih": "47a02c5a2e541be17f20ac8c3f29f0dbaeb769a0",
+            "resolution": "1080",
+            "encoding": "265",
+            "bytes": -1723609378,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 11161,
+            "seed": 3223
+        },
+        {
+            "id": 25,
+            "name": "House of the Dragon - S01E01 - The Heirs of the Dragon.mkv",
+            "btih": "836b7b6357f758dcb23f58b65c4d71eb60bfe493",
+            "resolution": "sd",
+            "encoding": "none",
+            "bytes": 527850895,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 11102,
+            "seed": 3411
+        },
+        {
+            "id": 124,
+            "name": "House.of.the.Dragon.S01E01.720p.HEVC.x265-MeGusta [IPT]",
+            "btih": "99939b2e78794eb201128d336e9d97b7c8649a63",
+            "resolution": "720",
+            "encoding": "265",
+            "bytes": 639325274,
+            "ssl": false,
+            "private": true,
+            "i2p": false,
+            "peer": 10977,
+            "seed": 5865
+        },
+        {
+            "id": 154,
+            "name": "House.of.the.Dragon.S01E01.Gli.Eredi.Del.Drago.1080p.HMAX.WEBMux.HEVC.ITA.ENG.DD5.1.x265-BlackBit.mkv",
+            "btih": "a7882d9c9563abf4ac8ef5ad2531b692194e36f6",
+            "resolution": "1080",
+            "encoding": "265",
+            "bytes": -1935519893,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 10938,
+            "seed": 4450
+        },
+        {
+            "id": 122,
+            "name": "House.of.the.Dragon.S01E01.720p.10bit.WEBRip.2CH.x265.HEVC-PSA.mkv",
+            "btih": "c0a1e0362621e33cc176442ea066f8937c75b49e",
+            "resolution": "720",
+            "encoding": "265",
+            "bytes": 436048872,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 10822,
+            "seed": 2189
+        },
+        {
+            "id": 182,
+            "name": "House.of.the.Dragon.S01E01.The.Heirs.of.the.Dragon.1080p.HMAX.10bit.DDP.5.1.x265.[HashMiner]",
+            "btih": "4780916febac074ff1b5bfc892fe3aba1a2038b7",
+            "resolution": "1080",
+            "encoding": "265",
+            "bytes": -2036814614,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 10681,
+            "seed": 3180
         },
         {
             "id": 82,
@@ -2495,8 +2431,47 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 7961,
-            "seed": 1029
+            "peer": 10681,
+            "seed": 1141
+        },
+        {
+            "id": 85,
+            "name": "House.of.the.Dragon.S01E01.1080p.ColdFilm.mkv",
+            "btih": "70f0e22b7c421eaf7899c46fa2ae576e128dda4d",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": -2040390088,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 10431,
+            "seed": 927
+        },
+        {
+            "id": 169,
+            "name": "House.of.the.Dragon.S01E01.HMAX.720p.x265-T0PAZ",
+            "btih": "f9d61a8ceb365f1d4d0449fb3e8c666e09eec42d",
+            "resolution": "720",
+            "encoding": "265",
+            "bytes": 582591226,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 10349,
+            "seed": 2741
+        },
+        {
+            "id": 74,
+            "name": "House.of.the.Dragon.S01.720p.WEB-DLRip(AVC).sbor",
+            "btih": "6a9f92160f88926d75cfbf74e941b6eed5801c8d",
+            "resolution": "720",
+            "encoding": "none",
+            "bytes": 1844185188,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 10250,
+            "seed": 989
         },
         {
             "id": 155,
@@ -2508,424 +2483,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 7948,
-            "seed": 2523
-        },
-        {
-            "id": 163,
-            "name": "House.of.the.Dragon.S01E01.HDTV.SubtituladoEsp.SC.mp4",
-            "btih": "7f99237c7dd6eb2ed5a6aacf949cb78ec4512516",
-            "resolution": "sd",
-            "encoding": "none",
-            "bytes": 674655701,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 7926,
-            "seed": 2136
-        },
-        {
-            "id": 67,
-            "name": "House.of.the.Dragon.S01.400p.Ultradox",
-            "btih": "e45f637116fda1c1cf34f3dd7e18b2a34f00dcfc",
-            "resolution": "sd",
-            "encoding": "none",
-            "bytes": 881299456,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 7897,
-            "seed": 1642
-        },
-        {
-            "id": 247,
-            "name": "Sárkányok háza S01E01 (House of the Dragon) 2022.mkv",
-            "btih": "9a1d09b4584d69d21d5a4dfed39b680469ccba2f",
-            "resolution": "720",
-            "encoding": "none",
-            "bytes": 832253022,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 7878,
-            "seed": 705
-        },
-        {
-            "id": 32,
-            "name": "House of the Dragon S01E01 1080p WEB-DL x264 ESubs - MkvHub.Com.mkv",
-            "btih": "f7cdff958bee5eff2a68f541379c9e9883491203",
-            "resolution": "1080",
-            "encoding": "264",
-            "bytes": 1070566877,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 7699,
-            "seed": 91
-        },
-        {
-            "id": 40,
-            "name": "House of the Dragon.S01E01.WEB-DL.1080p.x265.HMAX.mkv",
-            "btih": "75e40dbd04311d88d36f8d65c20cfd5d290f394a",
-            "resolution": "1080",
-            "encoding": "265",
-            "bytes": -2018039589,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 7684,
-            "seed": 870
-        },
-        {
-            "id": 273,
-            "name": "www.scenetime.com   -    House of the Dragon S01E01 AAC MP4-Mobile",
-            "btih": "9267cd15e487b0f45613ed67b2fd51d846233f8a",
-            "resolution": "720",
-            "encoding": "none",
-            "bytes": 233123203,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 7563,
-            "seed": 1910
-        },
-        {
-            "id": 73,
-            "name": "House.of.the.Dragon.S01.720p.WEB-DLRip(AVC).LostFilm",
-            "btih": "5795fba79ae341e2528a486151446e06944ea32a",
-            "resolution": "720",
-            "encoding": "none",
-            "bytes": 1655095282,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 7430,
-            "seed": 79
-        },
-        {
-            "id": 29,
-            "name": "House of the Dragon 1 HD 2160p",
-            "btih": "53fce843198ac20801520c37f677db79025cb4d7",
-            "resolution": "2160",
-            "encoding": "none",
-            "bytes": 704720284,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 7287,
-            "seed": 216
-        },
-        {
-            "id": 272,
-            "name": "www.scenetime.com   -    House of the Dragon S01E01 480p x264-mSD",
-            "btih": "e83860d52a1007ff7adb4df6f7121d629fa4eb69",
-            "resolution": "sd",
-            "encoding": "264",
-            "bytes": 535899623,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 7173,
-            "seed": 1862
-        },
-        {
-            "id": 189,
-            "name": "House.of.the.Dragon.S01E01.The.Heirs.of.the.Dragon.1080p.WEB-DL.DD5.1.H.264-MiU.srt",
-            "btih": "b6b99a62304b5299815b848105c77decbe79c499",
-            "resolution": "1080",
-            "encoding": "264",
-            "bytes": 50786,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 7166,
-            "seed": 57
-        },
-        {
-            "id": 41,
-            "name": "House of the Dragon.S01E01.WEB-DL.720p.HMAX-NTb.mkv",
-            "btih": "b2922192bbcb23932e642d00ec52de8644b78f6c",
-            "resolution": "720",
-            "encoding": "none",
-            "bytes": -2057799106,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 7035,
-            "seed": 1229
-        },
-        {
-            "id": 283,
-            "name": "龙之家族 第一季.House of the Dragon.S01E01.2022.2022.4K.H264.AC3.English.CHS&ENG-[BTBA]",
-            "btih": "89f0a3001d6a793990b237c0886f4ab85b7f11cf",
-            "resolution": "sd",
-            "encoding": "264",
-            "bytes": 1847904009,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 7017,
-            "seed": 1788
-        },
-        {
-            "id": 245,
-            "name": "Rod Draka - House.of.the.Dragon.S01E01.The.Heirs.of.the.Dragon.1080p.HMAX.WEB-DL.DD5.1.x265 (CZ Audio).mkv",
-            "btih": "5157d6531c0a46230d4dccea2cb7e0351da2d703",
-            "resolution": "1080",
-            "encoding": "265",
-            "bytes": -813126042,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 7002,
-            "seed": 1194
-        },
-        {
-            "id": 59,
-            "name": "House.of.the.Dragon.S01.2022.WEB-DL.2160p.DV",
-            "btih": "3375c64df94d4a0a62fcdde787d06b3b2e8a5e46",
-            "resolution": "2160",
-            "encoding": "none",
-            "bytes": 863318982,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 7000,
-            "seed": 79
-        },
-        {
-            "id": 10,
-            "name": "House Of The Dragon{Game Of Thrones} 1080p WEB H264-CAKES",
-            "btih": "0ad0051244e42c44e39794d8a8f043a9afe091fc",
-            "resolution": "1080",
-            "encoding": "264",
-            "bytes": 581821134,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 6923,
-            "seed": 392
-        },
-        {
-            "id": 233,
-            "name": "House.of.the.Dragon.s01.WEBRip.XviD.Rus.RuDub.tv",
-            "btih": "29f86eda745480a717c8ae8a1f9df38a7507d9c3",
-            "resolution": "sd",
-            "encoding": "xvid",
-            "bytes": 812272618,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 6890,
-            "seed": 899
-        },
-        {
-            "id": 21,
-            "name": "House of the Dragon (Season 1) (2022) WEB-DLRip 720p [4XUkr.Eng] [sub Ukr. Eng] [Hurtom]",
-            "btih": "2cc52334c2caf7697fea61a0aeb1f88a901cc4cd",
-            "resolution": "720",
-            "encoding": "none",
-            "bytes": -1490383905,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 6792,
-            "seed": 351
-        },
-        {
-            "id": 117,
-            "name": "House.of.the.Dragon.S01E01.400p.ColdFilm.avi",
-            "btih": "2616a771ef96a0afe5775f61049dffce103e566d",
-            "resolution": "sd",
-            "encoding": "none",
-            "bytes": 683139914,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 6776,
-            "seed": 1125
-        },
-        {
-            "id": 58,
-            "name": "House.of.the.Dragon.S01.1080p",
-            "btih": "eef2b71b68240b795d882c9a023e7edb4e7173c3",
-            "resolution": "1080",
-            "encoding": "none",
-            "bytes": -298315694,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 6709,
-            "seed": 582
-        },
-        {
-            "id": 217,
-            "name": "House.of.the.Dragon.S01E01.WEBRip.720p.ukr.5.1.HDREZKA.STUDIO.mkv",
-            "btih": "75bd1e4cffb1dc86a5f2a480691b9d81054b489c",
-            "resolution": "720",
-            "encoding": "none",
-            "bytes": -1896468493,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 6653,
-            "seed": 188
-        },
-        {
-            "id": 65,
-            "name": "House.of.the.Dragon.S01.400p.ColdFilm",
-            "btih": "7ca53ac6a1d9e13637402c3ce5d2d16534de4544",
-            "resolution": "sd",
-            "encoding": "none",
-            "bytes": 798605124,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 6524,
-            "seed": 627
-        },
-        {
-            "id": 158,
-            "name": "House.of.the.Dragon.S01E01.Gli.Eredi.Del.Drago.HMAX.WEBMux.ITA.ENG.x264-BlackBit",
-            "btih": "6dc3649ac9a7ae33961f8f8b348106f911a2edd5",
-            "resolution": "sd",
-            "encoding": "264",
-            "bytes": 601049461,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 6376,
-            "seed": 1946
-        },
-        {
-            "id": 157,
-            "name": "House.of.the.Dragon.S01E01.Gli.Eredi.Del.Drago.HMAX.WEBMux.ITA.ENG.x264-BlackBit.mkv",
-            "btih": "e0a7f5acbad8a5412430d15ea54c3c97e1690435",
-            "resolution": "sd",
-            "encoding": "264",
-            "bytes": 601049461,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 6374,
-            "seed": 1376
-        },
-        {
-            "id": 43,
-            "name": "House.Of.The.Dragon.S01E01.Gli.Eredi.Del.Drago.ITA-ENG.720p.HMAX.WEB-DL.DD5.1.x264-BLACKEYE.mkv",
-            "btih": "8820f564eb65981929af23d52aa1b2a69b4f05ed",
-            "resolution": "720",
-            "encoding": "264",
-            "bytes": -2057878979,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 6334,
-            "seed": 446
-        },
-        {
-            "id": 30,
-            "name": "House of the Dragon 1 HD",
-            "btih": "a49a52769ccb3497fae72f5bce8d319ae9d42e21",
-            "resolution": "1080",
-            "encoding": "none",
-            "bytes": -1733928441,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 6308,
-            "seed": 141
-        },
-        {
-            "id": 51,
-            "name": "House.of.the.Dragon.2022.S01.E01.WEBRip.x264-ION10",
-            "btih": "71d37e4e0862e525efed52c1e3a71a782a162076",
-            "resolution": "sd",
-            "encoding": "264",
-            "bytes": 656189698,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 6194,
-            "seed": 914
-        },
-        {
-            "id": 171,
-            "name": "House.of.the.Dragon.S01E01.HMAX.WEBRip.x264-XEN0N",
-            "btih": "eb1601cbf200a6ddd09376cadb5889a219b622e0",
-            "resolution": "sd",
-            "encoding": "264",
-            "bytes": 385670025,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 6174,
-            "seed": 1864
-        },
-        {
-            "id": 44,
-            "name": "House.Of.The.Dragon.S01E01.The.Heirs.Of.The.Dragon.1080p.ITA-ENG.MULTI.HMAX.WEBRip.AAC.x265-V3SP4EV3R.mkv",
-            "btih": "de25fdef1288bd2b687caaa234d6dce5162dd9f5",
-            "resolution": "1080",
-            "encoding": "265",
-            "bytes": 595353856,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 6117,
-            "seed": 705
-        },
-        {
-            "id": 214,
-            "name": "House.of.the.Dragon.S01E01.WEBRip.1080p.ukr.5.1.HDREZKA.STUDIO.mkv",
-            "btih": "28f1581c9865cbf02fb187ace7a06c3fed8e71e5",
-            "resolution": "1080",
-            "encoding": "none",
-            "bytes": -324110162,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 6081,
-            "seed": 447
-        },
-        {
-            "id": 26,
-            "name": "House of the Dragon - Season 1 (2022) WEBRip 1080p [Ukr.Eng] [Цікава Ідея]",
-            "btih": "abacea6126531ab90447e056eb80a9eab4c7608a",
-            "resolution": "1080",
-            "encoding": "none",
-            "bytes": 374132847,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 5979,
-            "seed": 378
-        },
-        {
-            "id": 57,
-            "name": "House.of.the.Dragon.S01.1080p.Ultradox",
-            "btih": "5f28c5ec02c12014b908331413f850b05d926ed3",
-            "resolution": "1080",
-            "encoding": "none",
-            "bytes": -2073833811,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 5814,
-            "seed": 594
-        },
-        {
-            "id": 28,
-            "name": "House of the Dragon - Stagione 1 (2022) [1_10] DLMux 1080p",
-            "btih": "9c7f778b9f6082f597504917f544aae75630457b",
-            "resolution": "1080",
-            "encoding": "none",
-            "bytes": 121645965,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 5770,
-            "seed": 321
+            "peer": 10137,
+            "seed": 2861
         },
         {
             "id": 2,
@@ -2937,164 +2496,47 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 5734,
-            "seed": 210
+            "peer": 9927,
+            "seed": 257
         },
         {
-            "id": 123,
-            "name": "House.of.the.Dragon.S01E01.720p.ColdFilm.mkv",
-            "btih": "b5f4a15e458e5d85cca7eeb8a1bde5053823ce69",
-            "resolution": "720",
-            "encoding": "none",
-            "bytes": 1534995134,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 5608,
-            "seed": 485
-        },
-        {
-            "id": 90,
-            "name": "House.of.the.Dragon.S01E01.1080p.HMAX.WEB-DL.DDP5.1.Atmos.x264-CMRG [IPT]",
-            "btih": "cd8e8d6059afabbfd992a27d61de9e1415a11136",
-            "resolution": "1080",
-            "encoding": "264",
-            "bytes": 123099769,
-            "ssl": false,
-            "private": true,
-            "i2p": false,
-            "peer": 5562,
-            "seed": 2639
-        },
-        {
-            "id": 202,
-            "name": "House.of.the.Dragon.S01E01.The.Heirs.of.the.Dragon.720p.WEB-DL.DD5.1.H.264-MiU.mkv",
-            "btih": "29e0c28f7fcebc20d383db52ea3d5dcdfdee5668",
-            "resolution": "720",
-            "encoding": "264",
-            "bytes": 1780610434,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 5498,
-            "seed": 1173
-        },
-        {
-            "id": 6,
-            "name": "House Of The Dragon Game Of Thrones.WEBRip.x264-EVO",
-            "btih": "2c31ca91f50cd1e1f8e0c33269376adeef507056",
-            "resolution": "sd",
-            "encoding": "264",
-            "bytes": 574683738,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 5354,
-            "seed": 158
-        },
-        {
-            "id": 48,
-            "name": "House.of.the.Dragon.(Season01).ColdFilm",
-            "btih": "eabb10db8215c17c3e5719fe9f7a44a39d30412a",
-            "resolution": "720",
-            "encoding": "none",
-            "bytes": 798605124,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 5318,
-            "seed": 320
-        },
-        {
-            "id": 2600,
-            "name": "multi-btih-34-2-x-House.of.the.Dragons.S01E01.The.Heirs.of.the.Dragon.720p.HMAX.WEBRip.AAC2.0.X.264-EVO [IPT](1)",
-            "btih": "285471b1304d658d0ae9742b67e57f64057d2908",
-            "resolution": "720",
-            "encoding": "264",
-            "bytes": 606355233,
-            "ssl": false,
-            "private": true,
-            "i2p": false,
-            "peer": 5283,
-            "seed": 2403
-        },
-        {
-            "id": 213,
-            "name": "House.of.the.Dragon.S01E01.WEBRip.1080p.rus.5.1.HDREZKA.STUDIO.mkv",
-            "btih": "5d8e9cc1c8bb29ff503d9b55247fe85387935cae",
-            "resolution": "1080",
-            "encoding": "none",
-            "bytes": -1345855942,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 5258,
-            "seed": 1268
-        },
-        {
-            "id": 45,
-            "name": "House.Of.The.Dragon.S01E01.The.Heirs.Of.The.Dragon.2160p.HDR.ENG.SUB-ITA.WEBRip.AAC.x265-V3SP4EV3R.mkv",
-            "btih": "9f61f52c1b964b4b09c84ab745939f7fbfc9f90b",
+            "id": 29,
+            "name": "House of the Dragon 1 HD 2160p",
+            "btih": "53fce843198ac20801520c37f677db79025cb4d7",
             "resolution": "2160",
+            "encoding": "none",
+            "bytes": 704720284,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 9600,
+            "seed": 235
+        },
+        {
+            "id": 252,
+            "name": "[Devil-TorrentS.PL] House.of.the.Dragon.2022.S01E01.MULTi.1080p.HMAX.WEB-DL.HEVC.DD5.1-K83",
+            "btih": "ed73c1680048d83d7cf39bb2f21ccd0d86bd2343",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": -624205177,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 9518,
+            "seed": 2378
+        },
+        {
+            "id": 245,
+            "name": "Rod Draka - House.of.the.Dragon.S01E01.The.Heirs.of.the.Dragon.1080p.HMAX.WEB-DL.DD5.1.x265 (CZ Audio).mkv",
+            "btih": "5157d6531c0a46230d4dccea2cb7e0351da2d703",
+            "resolution": "1080",
             "encoding": "265",
-            "bytes": 1603643134,
+            "bytes": -813126042,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 5217,
-            "seed": 197
-        },
-        {
-            "id": 93,
-            "name": "House.of.the.Dragon.S01E01.1080p.HMAX.WEBRip.DDP5.1.x264-NTb",
-            "btih": "a2309134022f9239aaad63b09c1e7f41234899d5",
-            "resolution": "1080",
-            "encoding": "264",
-            "bytes": 123109935,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 5195,
-            "seed": 890
-        },
-        {
-            "id": 287,
-            "name": "龙之家族.House.of.the.Dragon.S01E01.2160p.WEB-DL.DD5.1.H.264.中英双字.7meiju",
-            "btih": "4f1a7a391f4ca70d8462473047823efff6cc8756",
-            "resolution": "2160",
-            "encoding": "264",
-            "bytes": 1282649801,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 5120,
-            "seed": 1368
-        },
-        {
-            "id": 70,
-            "name": "House.of.the.Dragon.S01.720p.Ultradox",
-            "btih": "ee26aa884fd76745cb3ee955cdebaadb572bdeb8",
-            "resolution": "720",
-            "encoding": "none",
-            "bytes": 1432919202,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 4988,
-            "seed": 163
-        },
-        {
-            "id": 39,
-            "name": "House of the Dragon [WEB-DL-1080p](Season 01 Episode 01) (www.kinokopilka.pro)",
-            "btih": "f47e88cc96244e21c6c5cb14f3afbb5f3565d36b",
-            "resolution": "1080",
-            "encoding": "none",
-            "bytes": -1119049891,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 4982,
-            "seed": 153
+            "peer": 9388,
+            "seed": 1367
         },
         {
             "id": 31,
@@ -3106,47 +2548,372 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 4913,
-            "seed": 226
+            "peer": 9375,
+            "seed": 237
         },
         {
-            "id": 27,
-            "name": "House of the Dragon - Season 1 (2022) WEBRip-AVC [Ukr.Eng] [Цікава Ідея]",
-            "btih": "372a4b912ea9e63a08c62ebe53d494a35a2b10ff",
-            "resolution": "sd",
-            "encoding": "none",
-            "bytes": 1158745074,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 4429,
-            "seed": 272
-        },
-        {
-            "id": 5,
-            "name": "House Of The Dragon - 01 [FullHD 1080p AAC].iso",
-            "btih": "4e193c0e85815b46dacf716fe1dd7fd57f2c75be",
-            "resolution": "1080",
-            "encoding": "none",
-            "bytes": 938506240,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 4331,
-            "seed": 277
-        },
-        {
-            "id": 129,
-            "name": "House.of.the.Dragon.S01E01.720p.WEB-DL.DDP5.1.H.264-iYi",
-            "btih": "aa221a1e77cd0f66d6d01748cced68acf9db171f",
+            "id": 168,
+            "name": "House.of.the.Dragon.S01E01.HMAX.720p.x264-FENiX",
+            "btih": "7b87d58a37fafaac1b513507c33369ed9adfdf06",
             "resolution": "720",
             "encoding": "264",
-            "bytes": 2048541668,
+            "bytes": 658690611,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 4257,
-            "seed": 699
+            "peer": 9040,
+            "seed": 2978
+        },
+        {
+            "id": 247,
+            "name": "Sárkányok háza S01E01 (House of the Dragon) 2022.mkv",
+            "btih": "9a1d09b4584d69d21d5a4dfed39b680469ccba2f",
+            "resolution": "720",
+            "encoding": "none",
+            "bytes": 832253022,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 8996,
+            "seed": 833
+        },
+        {
+            "id": 40,
+            "name": "House of the Dragon.S01E01.WEB-DL.1080p.x265.HMAX.mkv",
+            "btih": "75e40dbd04311d88d36f8d65c20cfd5d290f394a",
+            "resolution": "1080",
+            "encoding": "265",
+            "bytes": -2018039589,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 8965,
+            "seed": 959
+        },
+        {
+            "id": 73,
+            "name": "House.of.the.Dragon.S01.720p.WEB-DLRip(AVC).LostFilm",
+            "btih": "5795fba79ae341e2528a486151446e06944ea32a",
+            "resolution": "720",
+            "encoding": "none",
+            "bytes": 1655095282,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 8947,
+            "seed": 91
+        },
+        {
+            "id": 163,
+            "name": "House.of.the.Dragon.S01E01.HDTV.SubtituladoEsp.SC.mp4",
+            "btih": "7f99237c7dd6eb2ed5a6aacf949cb78ec4512516",
+            "resolution": "sd",
+            "encoding": "none",
+            "bytes": 674655701,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 8905,
+            "seed": 2394
+        },
+        {
+            "id": 259,
+            "name": "[rutor.is]House.of.the.Dragon.S01.2160p.WEB-DL.x265.10bit",
+            "btih": "00f80a488e3072dded1ec3b555444d2df2450885",
+            "resolution": "2160",
+            "encoding": "265",
+            "bytes": -1512493984,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 8861,
+            "seed": 3069
+        },
+        {
+            "id": 283,
+            "name": "龙之家族 第一季.House of the Dragon.S01E01.2022.2022.4K.H264.AC3.English.CHS&ENG-[BTBA]",
+            "btih": "89f0a3001d6a793990b237c0886f4ab85b7f11cf",
+            "resolution": "sd",
+            "encoding": "264",
+            "bytes": 1847904009,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 8793,
+            "seed": 2369
+        },
+        {
+            "id": 41,
+            "name": "House of the Dragon.S01E01.WEB-DL.720p.HMAX-NTb.mkv",
+            "btih": "b2922192bbcb23932e642d00ec52de8644b78f6c",
+            "resolution": "720",
+            "encoding": "none",
+            "bytes": -2057799106,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 8761,
+            "seed": 1331
+        },
+        {
+            "id": 67,
+            "name": "House.of.the.Dragon.S01.400p.Ultradox",
+            "btih": "e45f637116fda1c1cf34f3dd7e18b2a34f00dcfc",
+            "resolution": "sd",
+            "encoding": "none",
+            "bytes": 881299456,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 8685,
+            "seed": 1816
+        },
+        {
+            "id": 117,
+            "name": "House.of.the.Dragon.S01E01.400p.ColdFilm.avi",
+            "btih": "2616a771ef96a0afe5775f61049dffce103e566d",
+            "resolution": "sd",
+            "encoding": "none",
+            "bytes": 683139914,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 8669,
+            "seed": 1244
+        },
+        {
+            "id": 6,
+            "name": "House Of The Dragon Game Of Thrones.WEBRip.x264-EVO",
+            "btih": "2c31ca91f50cd1e1f8e0c33269376adeef507056",
+            "resolution": "sd",
+            "encoding": "264",
+            "bytes": 574683738,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 8610,
+            "seed": 189
+        },
+        {
+            "id": 32,
+            "name": "House of the Dragon S01E01 1080p WEB-DL x264 ESubs - MkvHub.Com.mkv",
+            "btih": "f7cdff958bee5eff2a68f541379c9e9883491203",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": 1070566877,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 8526,
+            "seed": 109
+        },
+        {
+            "id": 59,
+            "name": "House.of.the.Dragon.S01.2022.WEB-DL.2160p.DV",
+            "btih": "3375c64df94d4a0a62fcdde787d06b3b2e8a5e46",
+            "resolution": "2160",
+            "encoding": "none",
+            "bytes": 863318982,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 8489,
+            "seed": 86
+        },
+        {
+            "id": 189,
+            "name": "House.of.the.Dragon.S01E01.The.Heirs.of.the.Dragon.1080p.WEB-DL.DD5.1.H.264-MiU.srt",
+            "btih": "b6b99a62304b5299815b848105c77decbe79c499",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": 50786,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 8374,
+            "seed": 59
+        },
+        {
+            "id": 272,
+            "name": "www.scenetime.com   -    House of the Dragon S01E01 480p x264-mSD",
+            "btih": "e83860d52a1007ff7adb4df6f7121d629fa4eb69",
+            "resolution": "sd",
+            "encoding": "264",
+            "bytes": 535899623,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 8345,
+            "seed": 1941
+        },
+        {
+            "id": 43,
+            "name": "House.Of.The.Dragon.S01E01.Gli.Eredi.Del.Drago.ITA-ENG.720p.HMAX.WEB-DL.DD5.1.x264-BLACKEYE.mkv",
+            "btih": "8820f564eb65981929af23d52aa1b2a69b4f05ed",
+            "resolution": "720",
+            "encoding": "264",
+            "bytes": -2057878979,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 8332,
+            "seed": 493
+        },
+        {
+            "id": 273,
+            "name": "www.scenetime.com   -    House of the Dragon S01E01 AAC MP4-Mobile",
+            "btih": "9267cd15e487b0f45613ed67b2fd51d846233f8a",
+            "resolution": "720",
+            "encoding": "none",
+            "bytes": 233123203,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 8283,
+            "seed": 2053
+        },
+        {
+            "id": 58,
+            "name": "House.of.the.Dragon.S01.1080p",
+            "btih": "eef2b71b68240b795d882c9a023e7edb4e7173c3",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": -298315694,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 8075,
+            "seed": 646
+        },
+        {
+            "id": 51,
+            "name": "House.of.the.Dragon.2022.S01.E01.WEBRip.x264-ION10",
+            "btih": "71d37e4e0862e525efed52c1e3a71a782a162076",
+            "resolution": "sd",
+            "encoding": "264",
+            "bytes": 656189698,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 7985,
+            "seed": 1089
+        },
+        {
+            "id": 158,
+            "name": "House.of.the.Dragon.S01E01.Gli.Eredi.Del.Drago.HMAX.WEBMux.ITA.ENG.x264-BlackBit",
+            "btih": "6dc3649ac9a7ae33961f8f8b348106f911a2edd5",
+            "resolution": "sd",
+            "encoding": "264",
+            "bytes": 601049461,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 7954,
+            "seed": 2405
+        },
+        {
+            "id": 65,
+            "name": "House.of.the.Dragon.S01.400p.ColdFilm",
+            "btih": "7ca53ac6a1d9e13637402c3ce5d2d16534de4544",
+            "resolution": "sd",
+            "encoding": "none",
+            "bytes": 798605124,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 7895,
+            "seed": 676
+        },
+        {
+            "id": 10,
+            "name": "House Of The Dragon{Game Of Thrones} 1080p WEB H264-CAKES",
+            "btih": "0ad0051244e42c44e39794d8a8f043a9afe091fc",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": 581821134,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 7846,
+            "seed": 430
+        },
+        {
+            "id": 171,
+            "name": "House.of.the.Dragon.S01E01.HMAX.WEBRip.x264-XEN0N",
+            "btih": "eb1601cbf200a6ddd09376cadb5889a219b622e0",
+            "resolution": "sd",
+            "encoding": "264",
+            "bytes": 385670025,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 7594,
+            "seed": 2054
+        },
+        {
+            "id": 26,
+            "name": "House of the Dragon - Season 1 (2022) WEBRip 1080p [Ukr.Eng] [Цікава Ідея]",
+            "btih": "abacea6126531ab90447e056eb80a9eab4c7608a",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": 374132847,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 7527,
+            "seed": 392
+        },
+        {
+            "id": 157,
+            "name": "House.of.the.Dragon.S01E01.Gli.Eredi.Del.Drago.HMAX.WEBMux.ITA.ENG.x264-BlackBit.mkv",
+            "btih": "e0a7f5acbad8a5412430d15ea54c3c97e1690435",
+            "resolution": "sd",
+            "encoding": "264",
+            "bytes": 601049461,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 7438,
+            "seed": 1613
+        },
+        {
+            "id": 233,
+            "name": "House.of.the.Dragon.s01.WEBRip.XviD.Rus.RuDub.tv",
+            "btih": "29f86eda745480a717c8ae8a1f9df38a7507d9c3",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "bytes": 812272618,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 7415,
+            "seed": 964
+        },
+        {
+            "id": 44,
+            "name": "House.Of.The.Dragon.S01E01.The.Heirs.Of.The.Dragon.1080p.ITA-ENG.MULTI.HMAX.WEBRip.AAC.x265-V3SP4EV3R.mkv",
+            "btih": "de25fdef1288bd2b687caaa234d6dce5162dd9f5",
+            "resolution": "1080",
+            "encoding": "265",
+            "bytes": 595353856,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 7385,
+            "seed": 1002
+        },
+        {
+            "id": 217,
+            "name": "House.of.the.Dragon.S01E01.WEBRip.720p.ukr.5.1.HDREZKA.STUDIO.mkv",
+            "btih": "75bd1e4cffb1dc86a5f2a480691b9d81054b489c",
+            "resolution": "720",
+            "encoding": "none",
+            "bytes": -1896468493,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 7353,
+            "seed": 196
         },
         {
             "id": 46,
@@ -3158,47 +2925,177 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 4234,
-            "seed": 432
+            "peer": 7153,
+            "seed": 666
         },
         {
-            "id": 4,
-            "name": "House Of The Dragon (Season 1) (2022) WEB-DL 2160p",
-            "btih": "50f912092a4852f533c517f4e05a763dbdcec307",
-            "resolution": "2160",
+            "id": 21,
+            "name": "House of the Dragon (Season 1) (2022) WEB-DLRip 720p [4XUkr.Eng] [sub Ukr. Eng] [Hurtom]",
+            "btih": "2cc52334c2caf7697fea61a0aeb1f88a901cc4cd",
+            "resolution": "720",
             "encoding": "none",
-            "bytes": 1102418666,
+            "bytes": -1490383905,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 4083,
-            "seed": 488
+            "peer": 7140,
+            "seed": 369
         },
         {
-            "id": 63,
-            "name": "House.of.the.Dragon.S01.2160p.HMAX.WEB-DL.x265.10bit.HDR.Master5",
-            "btih": "84c58daadcb07c313e3dbfce0962f9998bb070e6",
-            "resolution": "2160",
-            "encoding": "265",
-            "bytes": 1303708647,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 4078,
-            "seed": 439
-        },
-        {
-            "id": 11,
-            "name": "House Of The Dragon{Game Of Thrones} [1080p] [WEBRip] [5.1]",
-            "btih": "44a31978c22dd4f224f7d026befbc13cde8065ef",
+            "id": 30,
+            "name": "House of the Dragon 1 HD",
+            "btih": "a49a52769ccb3497fae72f5bce8d319ae9d42e21",
             "resolution": "1080",
             "encoding": "none",
-            "bytes": 612818258,
+            "bytes": -1733928441,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 4053,
-            "seed": 124
+            "peer": 7131,
+            "seed": 148
+        },
+        {
+            "id": 57,
+            "name": "House.of.the.Dragon.S01.1080p.Ultradox",
+            "btih": "5f28c5ec02c12014b908331413f850b05d926ed3",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": -2073833811,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 7047,
+            "seed": 628
+        },
+        {
+            "id": 45,
+            "name": "House.Of.The.Dragon.S01E01.The.Heirs.Of.The.Dragon.2160p.HDR.ENG.SUB-ITA.WEBRip.AAC.x265-V3SP4EV3R.mkv",
+            "btih": "9f61f52c1b964b4b09c84ab745939f7fbfc9f90b",
+            "resolution": "2160",
+            "encoding": "265",
+            "bytes": 1603643134,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 7028,
+            "seed": 218
+        },
+        {
+            "id": 202,
+            "name": "House.of.the.Dragon.S01E01.The.Heirs.of.the.Dragon.720p.WEB-DL.DD5.1.H.264-MiU.mkv",
+            "btih": "29e0c28f7fcebc20d383db52ea3d5dcdfdee5668",
+            "resolution": "720",
+            "encoding": "264",
+            "bytes": 1780610434,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 7025,
+            "seed": 1284
+        },
+        {
+            "id": 123,
+            "name": "House.of.the.Dragon.S01E01.720p.ColdFilm.mkv",
+            "btih": "b5f4a15e458e5d85cca7eeb8a1bde5053823ce69",
+            "resolution": "720",
+            "encoding": "none",
+            "bytes": 1534995134,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 7000,
+            "seed": 565
+        },
+        {
+            "id": 28,
+            "name": "House of the Dragon - Stagione 1 (2022) [1_10] DLMux 1080p",
+            "btih": "9c7f778b9f6082f597504917f544aae75630457b",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": 121645965,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 6993,
+            "seed": 377
+        },
+        {
+            "id": 214,
+            "name": "House.of.the.Dragon.S01E01.WEBRip.1080p.ukr.5.1.HDREZKA.STUDIO.mkv",
+            "btih": "28f1581c9865cbf02fb187ace7a06c3fed8e71e5",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": -324110162,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 6813,
+            "seed": 475
+        },
+        {
+            "id": 213,
+            "name": "House.of.the.Dragon.S01E01.WEBRip.1080p.rus.5.1.HDREZKA.STUDIO.mkv",
+            "btih": "5d8e9cc1c8bb29ff503d9b55247fe85387935cae",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": -1345855942,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 6646,
+            "seed": 1579
+        },
+        {
+            "id": 90,
+            "name": "House.of.the.Dragon.S01E01.1080p.HMAX.WEB-DL.DDP5.1.Atmos.x264-CMRG [IPT]",
+            "btih": "cd8e8d6059afabbfd992a27d61de9e1415a11136",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": 123099769,
+            "ssl": false,
+            "private": true,
+            "i2p": false,
+            "peer": 6600,
+            "seed": 2969
+        },
+        {
+            "id": 48,
+            "name": "House.of.the.Dragon.(Season01).ColdFilm",
+            "btih": "eabb10db8215c17c3e5719fe9f7a44a39d30412a",
+            "resolution": "720",
+            "encoding": "none",
+            "bytes": 798605124,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 6489,
+            "seed": 337
+        },
+        {
+            "id": 93,
+            "name": "House.of.the.Dragon.S01E01.1080p.HMAX.WEBRip.DDP5.1.x264-NTb",
+            "btih": "a2309134022f9239aaad63b09c1e7f41234899d5",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": 123109935,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 6401,
+            "seed": 1003
+        },
+        {
+            "id": 3160,
+            "name": "multi-btih-34-2-x-House.of.the.Dragons.S01E01.The.Heirs.of.the.Dragon.720p.HMAX.WEBRip.AAC2.0.X.264-EVO [IPT](1)",
+            "btih": "285471b1304d658d0ae9742b67e57f64057d2908",
+            "resolution": "720",
+            "encoding": "264",
+            "bytes": 606355233,
+            "ssl": false,
+            "private": true,
+            "i2p": false,
+            "peer": 6391,
+            "seed": 2814
         },
         {
             "id": 1,
@@ -3210,8 +3107,47 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 4012,
-            "seed": 374
+            "peer": 6275,
+            "seed": 434
+        },
+        {
+            "id": 287,
+            "name": "龙之家族.House.of.the.Dragon.S01E01.2160p.WEB-DL.DD5.1.H.264.中英双字.7meiju",
+            "btih": "4f1a7a391f4ca70d8462473047823efff6cc8756",
+            "resolution": "2160",
+            "encoding": "264",
+            "bytes": 1282649801,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 6056,
+            "seed": 1638
+        },
+        {
+            "id": 11,
+            "name": "House Of The Dragon{Game Of Thrones} [1080p] [WEBRip] [5.1]",
+            "btih": "44a31978c22dd4f224f7d026befbc13cde8065ef",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": 612818258,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 6033,
+            "seed": 147
+        },
+        {
+            "id": 4,
+            "name": "House Of The Dragon (Season 1) (2022) WEB-DL 2160p",
+            "btih": "50f912092a4852f533c517f4e05a763dbdcec307",
+            "resolution": "2160",
+            "encoding": "none",
+            "bytes": 1102418666,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 5979,
+            "seed": 514
         },
         {
             "id": 135,
@@ -3223,255 +3159,60 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 3921,
-            "seed": 998
+            "peer": 5821,
+            "seed": 1485
         },
         {
-            "id": 47,
-            "name": "House.of.the.Dragon.(Season 01).LostFilm",
-            "btih": "d92caff27a9c06a0cc785469de5ab5dbb9c6f244",
-            "resolution": "720",
-            "encoding": "none",
-            "bytes": 1009301504,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 3903,
-            "seed": 969
-        },
-        {
-            "id": 119,
-            "name": "House.of.the.Dragon.S01E01.480p.x264-mSD [IPT]",
-            "btih": "b554b99f8e3442206ca7bc015b0fc832a0f1e073",
-            "resolution": "sd",
-            "encoding": "264",
-            "bytes": 535899538,
-            "ssl": false,
-            "private": true,
-            "i2p": false,
-            "peer": 3896,
-            "seed": 765
-        },
-        {
-            "id": 37,
-            "name": "House of the Dragon Season 1 (2022)",
-            "btih": "3f4b5775eee69baf5948ddbb28bd90aa275c9857",
-            "resolution": "sd",
-            "encoding": "none",
-            "bytes": -1350942114,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 3884,
-            "seed": 84
-        },
-        {
-            "id": 140,
-            "name": "House.of.the.Dragon.S01E01.AAC.MP4-Mobile [IPT]",
-            "btih": "47653977b71ca72481a3510329704a082ff05993",
-            "resolution": "720",
-            "encoding": "none",
-            "bytes": 233123118,
-            "ssl": false,
-            "private": true,
-            "i2p": false,
-            "peer": 3846,
-            "seed": 981
-        },
-        {
-            "id": 210,
-            "name": "House.of.the.Dragon.S01E01.WEB.x264-TORRENTGALAXY[RETOR].mkv",
-            "btih": "d04e3a1b38ee6e100ba164465b25b83948be7bd0",
-            "resolution": "sd",
-            "encoding": "264",
-            "bytes": 359103965,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 3768,
-            "seed": 80
-        },
-        {
-            "id": 101,
-            "name": "House.of.the.Dragon.S01E01.1080p.WEBRip.x264.[ExYuSubs]",
-            "btih": "ab58d6ffe57b418c23936063258e421837c435a9",
-            "resolution": "1080",
-            "encoding": "264",
-            "bytes": 1074023150,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 3760,
-            "seed": 638
-        },
-        {
-            "id": 36,
-            "name": "House of the Dragon S1-2022",
-            "btih": "50dc66dab46282e26605492d7c488ded0d47b6ad",
-            "resolution": "sd",
-            "encoding": "none",
-            "bytes": -1645174994,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 3578,
-            "seed": 136
-        },
-        {
-            "id": 232,
-            "name": "House.of.the.Dragon.s01.HD1080p.WEBRip.Ukr.Eng.BaibaKo",
-            "btih": "1b30adcfaa218accb1aa9b3e6e482a6f1ee21c93",
+            "id": 39,
+            "name": "House of the Dragon [WEB-DL-1080p](Season 01 Episode 01) (www.kinokopilka.pro)",
+            "btih": "f47e88cc96244e21c6c5cb14f3afbb5f3565d36b",
             "resolution": "1080",
             "encoding": "none",
-            "bytes": 436662323,
+            "bytes": -1119049891,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 3402,
-            "seed": 361
+            "peer": 5586,
+            "seed": 176
         },
         {
-            "id": 130,
-            "name": "House.of.the.Dragon.S01E01.720p.WEB.h264-KOGi [IPT]",
-            "btih": "4b5fb6204174a8f3d92be6cf18664b51e06f45d4",
-            "resolution": "720",
-            "encoding": "264",
-            "bytes": 2049361793,
-            "ssl": false,
-            "private": true,
-            "i2p": false,
-            "peer": 3391,
-            "seed": 856
-        },
-        {
-            "id": 215,
-            "name": "House.of.the.Dragon.S01E01.WEBRip.400p.rus.2.0.HDREZKA.STUDIO.avi",
-            "btih": "fd8a9b65892b0451543d20349ef402eaee8e0397",
-            "resolution": "sd",
-            "encoding": "none",
-            "bytes": 672178068,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 3370,
-            "seed": 126
-        },
-        {
-            "id": 223,
-            "name": "House.of.the.Dragon.S01E01.WEBRip.x264-XEN0N",
-            "btih": "b5d7bcd703fb9e12b6828ea8ad6cfe41c2e53795",
-            "resolution": "sd",
-            "encoding": "264",
-            "bytes": 367341794,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 3311,
-            "seed": 810
-        },
-        {
-            "id": 147,
-            "name": "House.of.the.Dragon.S01E01.Episode.1.2160p.HMAX.WEB-DL.x265.10bit.HDR.DDP5.1.Atmos-SMURF",
-            "btih": "c6b5a1f437541988554258da33ea87235f8275a8",
+            "id": 63,
+            "name": "House.of.the.Dragon.S01.2160p.HMAX.WEB-DL.x265.10bit.HDR.Master5",
+            "btih": "84c58daadcb07c313e3dbfce0962f9998bb070e6",
             "resolution": "2160",
             "encoding": "265",
-            "bytes": 327802650,
+            "bytes": 1303708647,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 3188,
-            "seed": 448
+            "peer": 5489,
+            "seed": 470
         },
         {
-            "id": 107,
-            "name": "House.of.the.Dragon.S01E01.2160p.CRAV.WEB-DL.DD5.1.HEVC-NTb.mkv",
-            "btih": "6c231c80f6adc64cd018169ed6d71eaac7be819d",
-            "resolution": "2160",
-            "encoding": "none",
-            "bytes": -1889395365,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 3169,
-            "seed": 77
-        },
-        {
-            "id": 12,
-            "name": "House Of The Dragon{Game Of Thrones}(2022) [1080p] [BluRay]",
-            "btih": "b3463b13de9c65144ab2377d4bd34b24d268bbf9",
-            "resolution": "1080",
-            "encoding": "none",
-            "bytes": 631960380,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 3096,
-            "seed": 208
-        },
-        {
-            "id": 60,
-            "name": "House.of.the.Dragon.S01.2160p.HDR.NewComers",
-            "btih": "bae3b30b4b4a6afe0d76c9edf0ac0f57a4cbe702",
-            "resolution": "2160",
-            "encoding": "none",
-            "bytes": 546982817,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 2916,
-            "seed": 80
-        },
-        {
-            "id": 104,
-            "name": "House.of.the.Dragon.S01E01.1440p.SDR.WEB.DL.x264.DailyFliX.mp4",
-            "btih": "6bcb8667ca54720dfcb3fd6bee11c08f7511c2bf",
-            "resolution": "sd",
-            "encoding": "264",
-            "bytes": 1600087009,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 2911,
-            "seed": 79
-        },
-        {
-            "id": 216,
-            "name": "House.of.the.Dragon.S01E01.WEBRip.400p.ukr.2.0.HDREZKA.STUDIO.avi",
-            "btih": "375c2255e86cb0c5e43410bbac1b1b978005b7e3",
-            "resolution": "sd",
-            "encoding": "none",
-            "bytes": 1018148950,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 2798,
-            "seed": 132
-        },
-        {
-            "id": 141,
-            "name": "House.of.the.Dragon.S01E01.AAC.MP4-Mobile",
-            "btih": "594ea194548019ec960a004a17855ea9d7729051",
+            "id": 70,
+            "name": "House.of.the.Dragon.S01.720p.Ultradox",
+            "btih": "ee26aa884fd76745cb3ee955cdebaadb572bdeb8",
             "resolution": "720",
             "encoding": "none",
-            "bytes": 233123118,
+            "bytes": 1432919202,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 2696,
-            "seed": 41
+            "peer": 5322,
+            "seed": 172
         },
         {
-            "id": 20,
-            "name": "House of the Dragon (Season 01 Episode 01) (www.kinokopilka.pro)",
-            "btih": "fd1444207f08a7465f5323993ad7adb044262e8a",
-            "resolution": "sd",
+            "id": 5,
+            "name": "House Of The Dragon - 01 [FullHD 1080p AAC].iso",
+            "btih": "4e193c0e85815b46dacf716fe1dd7fd57f2c75be",
+            "resolution": "1080",
             "encoding": "none",
-            "bytes": 1032508438,
+            "bytes": 938506240,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 2582,
-            "seed": 124
+            "peer": 5311,
+            "seed": 330
         },
         {
             "id": 62,
@@ -3483,47 +3224,99 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 2561,
-            "seed": 129
+            "peer": 5216,
+            "seed": 140
         },
         {
-            "id": 108,
-            "name": "House.of.the.Dragon.S01E01.2160p.CRAV.WEB-DL.DDP5.1.Atmos.H.265-NTb",
-            "btih": "6b06cb903e475ae7079632ff886e8b347179ac77",
+            "id": 27,
+            "name": "House of the Dragon - Season 1 (2022) WEBRip-AVC [Ukr.Eng] [Цікава Ідея]",
+            "btih": "372a4b912ea9e63a08c62ebe53d494a35a2b10ff",
+            "resolution": "sd",
+            "encoding": "none",
+            "bytes": 1158745074,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 5162,
+            "seed": 304
+        },
+        {
+            "id": 37,
+            "name": "House of the Dragon Season 1 (2022)",
+            "btih": "3f4b5775eee69baf5948ddbb28bd90aa275c9857",
+            "resolution": "sd",
+            "encoding": "none",
+            "bytes": -1350942114,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 5151,
+            "seed": 90
+        },
+        {
+            "id": 147,
+            "name": "House.of.the.Dragon.S01E01.Episode.1.2160p.HMAX.WEB-DL.x265.10bit.HDR.DDP5.1.Atmos-SMURF",
+            "btih": "c6b5a1f437541988554258da33ea87235f8275a8",
             "resolution": "2160",
             "encoding": "265",
+            "bytes": 327802650,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 5093,
+            "seed": 492
+        },
+        {
+            "id": 129,
+            "name": "House.of.the.Dragon.S01E01.720p.WEB-DL.DDP5.1.H.264-iYi",
+            "btih": "aa221a1e77cd0f66d6d01748cced68acf9db171f",
+            "resolution": "720",
+            "encoding": "264",
+            "bytes": 2048541668,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 5052,
+            "seed": 801
+        },
+        {
+            "id": 47,
+            "name": "House.of.the.Dragon.(Season 01).LostFilm",
+            "btih": "d92caff27a9c06a0cc785469de5ab5dbb9c6f244",
+            "resolution": "720",
+            "encoding": "none",
+            "bytes": 1009301504,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 4988,
+            "seed": 1087
+        },
+        {
+            "id": 141,
+            "name": "House.of.the.Dragon.S01E01.AAC.MP4-Mobile",
+            "btih": "594ea194548019ec960a004a17855ea9d7729051",
+            "resolution": "720",
+            "encoding": "none",
+            "bytes": 233123118,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 4976,
+            "seed": 50
+        },
+        {
+            "id": 107,
+            "name": "House.of.the.Dragon.S01E01.2160p.CRAV.WEB-DL.DD5.1.HEVC-NTb.mkv",
+            "btih": "6c231c80f6adc64cd018169ed6d71eaac7be819d",
+            "resolution": "2160",
+            "encoding": "none",
             "bytes": -1889395365,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 1912,
-            "seed": 28
-        },
-        {
-            "id": 35,
-            "name": "House of the Dragon S01E1 720p WEB H264-mSD",
-            "btih": "4b0a18287e84aab2658151837287f91905e77cb5",
-            "resolution": "720",
-            "encoding": "264",
-            "bytes": 699423738,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 1883,
-            "seed": 62
-        },
-        {
-            "id": 153,
-            "name": "House.of.the.Dragon.S01E01.Episodio1.SD.Ita.Eng.AC3.5.1.SUB.ita.eng.Maury.MIRCrew.mkv",
-            "btih": "d119a1aae7ded667c46b4c0041faf382c1103309",
-            "resolution": "sd",
-            "encoding": "none",
-            "bytes": 993305226,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 1812,
-            "seed": 128
+            "peer": 4800,
+            "seed": 106
         },
         {
             "id": 3,
@@ -3535,8 +3328,229 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 1596,
-            "seed": 68
+            "peer": 4694,
+            "seed": 90
+        },
+        {
+            "id": 140,
+            "name": "House.of.the.Dragon.S01E01.AAC.MP4-Mobile [IPT]",
+            "btih": "47653977b71ca72481a3510329704a082ff05993",
+            "resolution": "720",
+            "encoding": "none",
+            "bytes": 233123118,
+            "ssl": false,
+            "private": true,
+            "i2p": false,
+            "peer": 4604,
+            "seed": 1129
+        },
+        {
+            "id": 119,
+            "name": "House.of.the.Dragon.S01E01.480p.x264-mSD [IPT]",
+            "btih": "b554b99f8e3442206ca7bc015b0fc832a0f1e073",
+            "resolution": "sd",
+            "encoding": "264",
+            "bytes": 535899538,
+            "ssl": false,
+            "private": true,
+            "i2p": false,
+            "peer": 4591,
+            "seed": 910
+        },
+        {
+            "id": 232,
+            "name": "House.of.the.Dragon.s01.HD1080p.WEBRip.Ukr.Eng.BaibaKo",
+            "btih": "1b30adcfaa218accb1aa9b3e6e482a6f1ee21c93",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": 436662323,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 4516,
+            "seed": 372
+        },
+        {
+            "id": 215,
+            "name": "House.of.the.Dragon.S01E01.WEBRip.400p.rus.2.0.HDREZKA.STUDIO.avi",
+            "btih": "fd8a9b65892b0451543d20349ef402eaee8e0397",
+            "resolution": "sd",
+            "encoding": "none",
+            "bytes": 672178068,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 4463,
+            "seed": 200
+        },
+        {
+            "id": 223,
+            "name": "House.of.the.Dragon.S01E01.WEBRip.x264-XEN0N",
+            "btih": "b5d7bcd703fb9e12b6828ea8ad6cfe41c2e53795",
+            "resolution": "sd",
+            "encoding": "264",
+            "bytes": 367341794,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 4290,
+            "seed": 988
+        },
+        {
+            "id": 101,
+            "name": "House.of.the.Dragon.S01E01.1080p.WEBRip.x264.[ExYuSubs]",
+            "btih": "ab58d6ffe57b418c23936063258e421837c435a9",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": 1074023150,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 4286,
+            "seed": 692
+        },
+        {
+            "id": 210,
+            "name": "House.of.the.Dragon.S01E01.WEB.x264-TORRENTGALAXY[RETOR].mkv",
+            "btih": "d04e3a1b38ee6e100ba164465b25b83948be7bd0",
+            "resolution": "sd",
+            "encoding": "264",
+            "bytes": 359103965,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 4178,
+            "seed": 92
+        },
+        {
+            "id": 108,
+            "name": "House.of.the.Dragon.S01E01.2160p.CRAV.WEB-DL.DDP5.1.Atmos.H.265-NTb",
+            "btih": "6b06cb903e475ae7079632ff886e8b347179ac77",
+            "resolution": "2160",
+            "encoding": "265",
+            "bytes": -1889395365,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 4165,
+            "seed": 44
+        },
+        {
+            "id": 36,
+            "name": "House of the Dragon S1-2022",
+            "btih": "50dc66dab46282e26605492d7c488ded0d47b6ad",
+            "resolution": "sd",
+            "encoding": "none",
+            "bytes": -1645174994,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 4117,
+            "seed": 152
+        },
+        {
+            "id": 104,
+            "name": "House.of.the.Dragon.S01E01.1440p.SDR.WEB.DL.x264.DailyFliX.mp4",
+            "btih": "6bcb8667ca54720dfcb3fd6bee11c08f7511c2bf",
+            "resolution": "sd",
+            "encoding": "264",
+            "bytes": 1600087009,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 4079,
+            "seed": 91
+        },
+        {
+            "id": 12,
+            "name": "House Of The Dragon{Game Of Thrones}(2022) [1080p] [BluRay]",
+            "btih": "b3463b13de9c65144ab2377d4bd34b24d268bbf9",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": 631960380,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 4033,
+            "seed": 228
+        },
+        {
+            "id": 130,
+            "name": "House.of.the.Dragon.S01E01.720p.WEB.h264-KOGi [IPT]",
+            "btih": "4b5fb6204174a8f3d92be6cf18664b51e06f45d4",
+            "resolution": "720",
+            "encoding": "264",
+            "bytes": 2049361793,
+            "ssl": false,
+            "private": true,
+            "i2p": false,
+            "peer": 3812,
+            "seed": 949
+        },
+        {
+            "id": 60,
+            "name": "House.of.the.Dragon.S01.2160p.HDR.NewComers",
+            "btih": "bae3b30b4b4a6afe0d76c9edf0ac0f57a4cbe702",
+            "resolution": "2160",
+            "encoding": "none",
+            "bytes": 546982817,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 3786,
+            "seed": 90
+        },
+        {
+            "id": 20,
+            "name": "House of the Dragon (Season 01 Episode 01) (www.kinokopilka.pro)",
+            "btih": "fd1444207f08a7465f5323993ad7adb044262e8a",
+            "resolution": "sd",
+            "encoding": "none",
+            "bytes": 1032508438,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 3556,
+            "seed": 184
+        },
+        {
+            "id": 216,
+            "name": "House.of.the.Dragon.S01E01.WEBRip.400p.ukr.2.0.HDREZKA.STUDIO.avi",
+            "btih": "375c2255e86cb0c5e43410bbac1b1b978005b7e3",
+            "resolution": "sd",
+            "encoding": "none",
+            "bytes": 1018148950,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 3392,
+            "seed": 181
+        },
+        {
+            "id": 35,
+            "name": "House of the Dragon S01E1 720p WEB H264-mSD",
+            "btih": "4b0a18287e84aab2658151837287f91905e77cb5",
+            "resolution": "720",
+            "encoding": "264",
+            "bytes": 699423738,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 3090,
+            "seed": 73
+        },
+        {
+            "id": 153,
+            "name": "House.of.the.Dragon.S01E01.Episodio1.SD.Ita.Eng.AC3.5.1.SUB.ita.eng.Maury.MIRCrew.mkv",
+            "btih": "d119a1aae7ded667c46b4c0041faf382c1103309",
+            "resolution": "sd",
+            "encoding": "none",
+            "bytes": 993305226,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 2389,
+            "seed": 156
         },
         {
             "id": 174,
@@ -3548,8 +3562,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 131,
-            "seed": 96
+            "peer": 136,
+            "seed": 100
         },
         {
             "id": 142,
@@ -3561,8 +3575,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 77,
-            "seed": 32
+            "peer": 89,
+            "seed": 35
         },
         {
             "id": 176,
@@ -3574,8 +3588,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 64,
-            "seed": 51
+            "peer": 67,
+            "seed": 54
         },
         {
             "id": 188,
@@ -3591,6 +3605,19 @@
             "seed": 42
         },
         {
+            "id": 190,
+            "name": "House.of.the.Dragon.S01E01.The.Heirs.of.the.Dragon.1080p.WEB-DL.DD5.1.H.264-MiU",
+            "btih": "d9677a7717e8c7b8bd96c98497940598efc4d0b9",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": -1826713389,
+            "ssl": false,
+            "private": true,
+            "i2p": false,
+            "peer": 55,
+            "seed": 32
+        },
+        {
             "id": 159,
             "name": "House.of.the.Dragon.S01E01.HDR.2160p.WEB.H265-GLHF",
             "btih": "9c4cf50239319054b188ed1a7bb8bd24c1f25aa8",
@@ -3604,19 +3631,6 @@
             "seed": 41
         },
         {
-            "id": 190,
-            "name": "House.of.the.Dragon.S01E01.The.Heirs.of.the.Dragon.1080p.WEB-DL.DD5.1.H.264-MiU",
-            "btih": "d9677a7717e8c7b8bd96c98497940598efc4d0b9",
-            "resolution": "1080",
-            "encoding": "264",
-            "bytes": -1826713389,
-            "ssl": false,
-            "private": true,
-            "i2p": false,
-            "peer": 41,
-            "seed": 19
-        },
-        {
             "id": 183,
             "name": "House.of.the.Dragon.S01E01.The.Heirs.of.the.Dragon.1080p.HMAX.WEB.DL.DDPA5.1.H.264.HeBits-NTb",
             "btih": "d4e5b3e8c9beec5429114081b8d7cdf869787231",
@@ -3626,8 +3640,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 32,
-            "seed": 23
+            "peer": 35,
+            "seed": 26
         },
         {
             "id": 175,
@@ -3639,7 +3653,7 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 31,
+            "peer": 32,
             "seed": 19
         },
         {
@@ -3652,7 +3666,7 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 16,
+            "peer": 18,
             "seed": 12
         },
         {
@@ -3665,8 +3679,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 13,
-            "seed": 10
+            "peer": 14,
+            "seed": 11
         },
         {
             "id": 180,
@@ -3717,7 +3731,7 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 10,
+            "peer": 11,
             "seed": 3
         },
         {
@@ -3756,7 +3770,7 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 3,
+            "peer": 4,
             "seed": 1
         }
     ]
