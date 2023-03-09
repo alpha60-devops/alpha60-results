@@ -17,9 +17,10 @@ set bmargin 20
 
 # FILES, OUTPUT FILES
 #FILES = system("find . -type f -name '*.csv' | sort")
-FILECD = "ukr-rus-war-2022-cumulative-detail-by-day.csv"
-FILEUD = "ukr-rus-war-2022-days.csv"
-outputfilename = sprintf("%s-cumulative-%s.svg", "ukr-rus-cyberwar", "day");
+MEDIAOBJECT = "stranger-things-04.2"
+FILECD = MEDIAOBJECT."-cumulative-detail-by-week.csv"
+FILEUD = MEDIAOBJECT."-weeks.csv"
+outputfilename = sprintf("%s-cumulative-%s.svg", MEDIAOBJECT, "week");
 set output outputfilename
 
 
@@ -74,11 +75,11 @@ set size 1,1
 set multiplot
 unset key
 
-xlabeltext = "DAYS"
+xlabeltext = "WEEKS"
 set xlabel xlabeltext font "Apercu,16" offset 0,0
 
 # 1 btiha
-ylabeltext = "BTIHA"
+ylabeltext = "BTIHA SIZE"
 set ylabel ylabeltext font "Apercu,16" offset -6,0
 set size 1,0.33
 set origin 0,0
@@ -87,7 +88,7 @@ unset ylabel
 unset xlabel
 
 # 2,3 cumulative upeer/useeds
-ylabeltext = "CUMULATIVE PEERS/SEEDS"
+ylabeltext = "CUMULATIVE PEERS \\& SEEDS"
 set ylabel ylabeltext font "Apercu,16" offset -1,0
 set size 1,0.33
 set origin 0,0.66
@@ -95,7 +96,7 @@ plot FILECD using 1:3 with linespoints ls 30, '' using 1:4 with linespoints ls 3
 unset ylabel
 
 # 3,5 per-day upeer/useeds
-ylabeltext = "DAILY PEERS/SEEDS"
+ylabeltext = "WEEKLY PEERS \\& SEEDS"
 set ylabel ylabeltext font "Apercu,16" offset -2,0
 set size 1,0.33
 set origin 0,0.33
