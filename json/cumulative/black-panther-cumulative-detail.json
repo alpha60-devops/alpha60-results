@@ -82,48 +82,60 @@
     "transfer-price-1-name": "CloudFront-1-year",
     "transfer-price-1-per-gigabyte-cost": 0.005,
     "transfer-price-1-USD": 428472.30001960616,
-    "resolution-partitions": [
+    "whole-earth-resolution-partitions": [
         {
             "number": 1,
             "name": "1080-all",
+            "upeers-total": 6462585,
             "total-percentage-upeers": "46.33",
-            "total-percentage-bytes": "63.45",
-            "upeers-total": 6462585
+            "total-percentage-bytes": "63.45"
         },
         {
             "number": 2,
             "name": "720-all",
+            "upeers-total": 3862319,
             "total-percentage-upeers": "27.69",
-            "total-percentage-bytes": "18.97",
-            "upeers-total": 3862319
+            "total-percentage-bytes": "18.97"
         },
         {
             "number": 3,
-            "name": "sd-264",
-            "total-percentage-upeers": "10.19",
-            "total-percentage-bytes": "5.05",
-            "upeers-total": 1421752
+            "name": "sd-none",
+            "upeers-total": 838323,
+            "total-percentage-upeers": "6.01",
+            "total-percentage-bytes": "3.51"
         },
         {
             "number": 4,
-            "name": "sd-xvid",
-            "total-percentage-upeers": "9.31",
-            "total-percentage-bytes": "3.92",
-            "upeers-total": 1299237
-        },
-        {
-            "number": 5,
-            "name": "sd-none",
-            "total-percentage-upeers": "6.01",
-            "total-percentage-bytes": "3.51",
-            "upeers-total": 838323
-        },
-        {
-            "number": 6,
             "name": "2160-all",
+            "upeers-total": 63619,
             "total-percentage-upeers": "0.46",
-            "total-percentage-bytes": "5.09",
-            "upeers-total": 63619
+            "total-percentage-bytes": "5.09"
+        }
+    ],
+    "geo-slices-4-longitude-regions": [
+        {
+            "number": 1,
+            "name": "Pacifica America",
+            "upeers-slice": 572215,
+            "slice-percentage-upeers": "4.10"
+        },
+        {
+            "number": 2,
+            "name": "Americas",
+            "upeers-slice": 3402490,
+            "slice-percentage-upeers": "24.39"
+        },
+        {
+            "number": 3,
+            "name": "Afro Eur Asia",
+            "upeers-slice": 5280741,
+            "slice-percentage-upeers": "37.86"
+        },
+        {
+            "number": 4,
+            "name": "Asia Pacifica",
+            "upeers-slice": 4688773,
+            "slice-percentage-upeers": "33.62"
         }
     ],
     "geo-country-top-10-peer": [
@@ -536,7 +548,7 @@
             "seed": 112051
         },
         {
-            "id": 575,
+            "id": 211,
             "name": "multi-btih-2-2-x-Black Panther 2018 NEW PROPER HD-TS X264-CPG.726b4809351adf6f",
             "btih": "726b4809351adf6fedc6ad779762829bf5512ae1",
             "resolution": "sd",
@@ -562,7 +574,7 @@
             "seed": 229231
         },
         {
-            "id": 578,
+            "id": 214,
             "name": "multi-btih-5-2-x-[ Torrent9.bz ] Black.Panther.2018.TRUEFRENCH.V2.TS.MD.XViD-MOBIDIK.2921a8938cb3241c",
             "btih": "2921a8938cb3241c1c5d49c96ae762e588d9743b",
             "resolution": "sd",
@@ -588,7 +600,7 @@
             "seed": 120987
         },
         {
-            "id": 574,
+            "id": 210,
             "name": "multi-btih-1-2-x-Black Panther 2018 720P  HDTS 999MB MkvCage.mkv.e3d9f519a862ef2d",
             "btih": "e3d9f519a862ef2da2a7a7a12c19dec365f49593",
             "resolution": "720",
@@ -653,7 +665,7 @@
             "seed": 72032
         },
         {
-            "id": 576,
+            "id": 212,
             "name": "multi-btih-3-2-x-Black.Panther.2018.BDRip.x264-SPARKS-[rarbg.to]",
             "btih": "751212cf4ac3e09f5de7b6ba90cef5bd1578f085",
             "resolution": "sd",
@@ -848,7 +860,7 @@
             "seed": 21114
         },
         {
-            "id": 573,
+            "id": 209,
             "name": "multi-btih-0-2-x-Black Panther 2018 1080p BRRip 1.9 GB - iExTV.34cbc803a9bbcb2f",
             "btih": "34cbc803a9bbcb2f14e86c55acb691ae2cd38e6f",
             "resolution": "1080",
@@ -991,7 +1003,7 @@
             "seed": 15546
         },
         {
-            "id": 579,
+            "id": 215,
             "name": "multi-btih-6-2-x-[rutor.is]CHjornaja_Pantera_._Black_Panther_2018_WEBRip_1",
             "btih": "46962501bf092786d023bfb4d11363ff32c434fc",
             "resolution": "1080",
@@ -2252,7 +2264,7 @@
             "seed": 347
         },
         {
-            "id": 577,
+            "id": 213,
             "name": "multi-btih-4-2-x-Black.Panther.2018.COMPLETE.BLURAY-LAZERS [IPT] (1)",
             "btih": "36a5cb28cbb6cbe6207672ee0c7ca6a82d1f1b91",
             "resolution": "sd",
