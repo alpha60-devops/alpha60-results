@@ -1,0 +1,1198 @@
+{
+    "collection-name": "Liaison",
+    "collection-id": "101",
+    "data-version": "2023-05-31",
+    "sample-duration": "2023-02-24-to-2023-05-18",
+    "sample-days": 84,
+    "sample-year-start": 2023,
+    "sample-year-end": 2023,
+    "sample-day-year-start": 55,
+    "sample-day-year-end": 138,
+    "collection-all-btiha-total": {
+        "btiha-size": 60,
+        "upeers-total": 816979,
+        "useeds-total": 134270,
+        "anomaly-total": 4104,
+        "anomaly-percentage": "0.50"
+    },
+    "collection-unique-btiha-total": {
+        "btiha-size": 50,
+        "upeers-total": 717026,
+        "useeds-total": 110356,
+        "anomaly-total": 3396,
+        "anomaly-percentage": "0.47"
+    },
+    "collection-unique-btiha-week-00001": {
+        "btiha-size": 42,
+        "upeers-total": 85667,
+        "useeds-total": 25558
+    },
+    "collection-unique-btiha-week-00002": {
+        "btiha-size": 50,
+        "upeers-total": 179011,
+        "useeds-total": 46018
+    },
+    "collection-unique-btiha-week-00003": {
+        "btiha-size": 50,
+        "upeers-total": 248516,
+        "useeds-total": 57680
+    },
+    "collection-unique-btiha-week-00004": {
+        "btiha-size": 50,
+        "upeers-total": 310728,
+        "useeds-total": 66830
+    },
+    "collection-unique-btiha-week-00005": {
+        "btiha-size": 50,
+        "upeers-total": 372780,
+        "useeds-total": 75491
+    },
+    "collection-unique-btiha-week-00006": {
+        "btiha-size": 50,
+        "upeers-total": 432927,
+        "useeds-total": 84407
+    },
+    "collection-unique-btiha-week-00007": {
+        "btiha-size": 50,
+        "upeers-total": 487530,
+        "useeds-total": 90057
+    },
+    "collection-unique-btiha-week-00008": {
+        "btiha-size": 50,
+        "upeers-total": 538489,
+        "useeds-total": 94761
+    },
+    "collection-unique-btiha-week-00009": {
+        "btiha-size": 50,
+        "upeers-total": 585647,
+        "useeds-total": 99388
+    },
+    "collection-unique-btiha-week-00010": {
+        "btiha-size": 50,
+        "upeers-total": 631038,
+        "useeds-total": 103154
+    },
+    "collection-unique-btiha-week-00011": {
+        "btiha-size": 50,
+        "upeers-total": 677542,
+        "useeds-total": 106956
+    },
+    "collection-unique-btiha-week-00012": {
+        "btiha-size": 50,
+        "upeers-total": 717026,
+        "useeds-total": 110356
+    },
+    "transfer-units": "terabyte",
+    "transfer-size": 2195.149780359222,
+    "transfer-price-1-name": "CloudFront-1-year",
+    "transfer-price-1-per-gigabyte-cost": 0.005,
+    "transfer-price-1-USD": 178975.74890179613,
+    "geo-whole-earth-resolution-partitions": [
+        {
+            "number": 1,
+            "name": "1080-all",
+            "upeers-total": 272055,
+            "total-percentage-upeers": "37.94",
+            "total-percentage-bytes": "47.71"
+        },
+        {
+            "number": 2,
+            "name": "720-all",
+            "upeers-total": 225233,
+            "total-percentage-upeers": "31.41",
+            "total-percentage-bytes": "11.06"
+        },
+        {
+            "number": 3,
+            "name": "sd-all",
+            "upeers-total": 141888,
+            "total-percentage-upeers": "19.79",
+            "total-percentage-bytes": "4.48"
+        },
+        {
+            "number": 4,
+            "name": "2160-all",
+            "upeers-total": 77850,
+            "total-percentage-upeers": "10.86",
+            "total-percentage-bytes": "36.74"
+        }
+    ],
+    "geo-slices-4-longitude-region-peers": [
+        {
+            "number": 1,
+            "name": "Pacifica America",
+            "upeers-slice": 16734,
+            "slice-percentage-upeers": "2.33"
+        },
+        {
+            "number": 2,
+            "name": "Americas",
+            "upeers-slice": 123850,
+            "slice-percentage-upeers": "17.27"
+        },
+        {
+            "number": 3,
+            "name": "Afro Eur Asia",
+            "upeers-slice": 435218,
+            "slice-percentage-upeers": "60.70"
+        },
+        {
+            "number": 4,
+            "name": "Asia Pacifica",
+            "upeers-slice": 141186,
+            "slice-percentage-upeers": "19.69"
+        }
+    ],
+    "geo-slices-continental-peers": [
+        {
+            "number": 1,
+            "name": "Europe",
+            "upeers-slice": 355268,
+            "slice-percentage-upeers": "49.55"
+        },
+        {
+            "number": 2,
+            "name": "Asia",
+            "upeers-slice": 133212,
+            "slice-percentage-upeers": "18.58"
+        },
+        {
+            "number": 3,
+            "name": "North America",
+            "upeers-slice": 88212,
+            "slice-percentage-upeers": "12.30"
+        },
+        {
+            "number": 4,
+            "name": "South America",
+            "upeers-slice": 36868,
+            "slice-percentage-upeers": "5.14"
+        },
+        {
+            "number": 5,
+            "name": "Africa",
+            "upeers-slice": 31003,
+            "slice-percentage-upeers": "4.32"
+        },
+        {
+            "number": 6,
+            "name": "Oceania",
+            "upeers-slice": 9213,
+            "slice-percentage-upeers": "1.28"
+        },
+        {
+            "number": 7,
+            "name": "",
+            "upeers-slice": 1635,
+            "slice-percentage-upeers": "0.23"
+        }
+    ],
+    "geo-country-top-10-peers": [
+        {
+            "number": 1,
+            "country-code": "RUS",
+            "country-name": "Russian Federation",
+            "total-percentage-upeers": "18.77",
+            "upeers-total": 134596
+        },
+        {
+            "number": 2,
+            "country-code": "USA",
+            "country-name": "United States of America",
+            "total-percentage-upeers": "8.41",
+            "upeers-total": 60294
+        },
+        {
+            "number": 3,
+            "country-code": "CHN",
+            "country-name": "China",
+            "total-percentage-upeers": "6.40",
+            "upeers-total": 45900
+        },
+        {
+            "number": 4,
+            "country-code": "NLD",
+            "country-name": "Netherlands",
+            "total-percentage-upeers": "4.51",
+            "upeers-total": 32311
+        },
+        {
+            "number": 5,
+            "country-code": "KOR",
+            "country-name": "Korea, Republic of",
+            "total-percentage-upeers": "3.75",
+            "upeers-total": 26857
+        },
+        {
+            "number": 6,
+            "country-code": "FRA",
+            "country-name": "France",
+            "total-percentage-upeers": "3.70",
+            "upeers-total": 26561
+        },
+        {
+            "number": 7,
+            "country-code": "BRA",
+            "country-name": "Brazil",
+            "total-percentage-upeers": "3.42",
+            "upeers-total": 24539
+        },
+        {
+            "number": 8,
+            "country-code": "ESP",
+            "country-name": "Spain",
+            "total-percentage-upeers": "3.30",
+            "upeers-total": 23653
+        },
+        {
+            "number": 9,
+            "country-code": "TUR",
+            "country-name": "Turkey",
+            "total-percentage-upeers": "2.36",
+            "upeers-total": 16931
+        },
+        {
+            "number": 10,
+            "country-code": "GBR",
+            "country-name": "United Kingdom of Great Britain and Northern Ireland",
+            "total-percentage-upeers": "2.35",
+            "upeers-total": 16844
+        }
+    ],
+    "geo-country-top-10-seeds": [
+        {
+            "number": 1,
+            "country-code": "USA",
+            "country-name": "United States of America",
+            "total-percentage-upeers": "12.10",
+            "upeers-total": 13352
+        },
+        {
+            "number": 2,
+            "country-code": "RUS",
+            "country-name": "Russian Federation",
+            "total-percentage-upeers": "10.61",
+            "upeers-total": 11708
+        },
+        {
+            "number": 3,
+            "country-code": "CHN",
+            "country-name": "China",
+            "total-percentage-upeers": "9.75",
+            "upeers-total": 10759
+        },
+        {
+            "number": 4,
+            "country-code": "ESP",
+            "country-name": "Spain",
+            "total-percentage-upeers": "5.02",
+            "upeers-total": 5535
+        },
+        {
+            "number": 5,
+            "country-code": "GBR",
+            "country-name": "United Kingdom of Great Britain and Northern Ireland",
+            "total-percentage-upeers": "2.58",
+            "upeers-total": 2849
+        },
+        {
+            "number": 6,
+            "country-code": "BRA",
+            "country-name": "Brazil",
+            "total-percentage-upeers": "2.37",
+            "upeers-total": 2611
+        },
+        {
+            "number": 7,
+            "country-code": "FRA",
+            "country-name": "France",
+            "total-percentage-upeers": "2.25",
+            "upeers-total": 2488
+        },
+        {
+            "number": 8,
+            "country-code": "ITA",
+            "country-name": "Italy",
+            "total-percentage-upeers": "2.23",
+            "upeers-total": 2462
+        },
+        {
+            "number": 9,
+            "country-code": "CAN",
+            "country-name": "Canada",
+            "total-percentage-upeers": "2.15",
+            "upeers-total": 2371
+        },
+        {
+            "number": 10,
+            "country-code": "BGR",
+            "country-name": "Bulgaria",
+            "total-percentage-upeers": "2.12",
+            "upeers-total": 2336
+        }
+    ],
+    "geo-country-region-city-top-30-peers": [
+        {
+            "number": 1,
+            "country-code": "NLD",
+            "country-name": "Netherlands, Amsterdam",
+            "total-percentage-upeers": "3.19",
+            "upeers-total": 22864
+        },
+        {
+            "number": 2,
+            "country-code": "RUS",
+            "country-name": "Russian Federation, Moscow",
+            "total-percentage-upeers": "3.15",
+            "upeers-total": 22601
+        },
+        {
+            "number": 3,
+            "country-code": "USA",
+            "country-name": "United States of America, Ashburn",
+            "total-percentage-upeers": "2.89",
+            "upeers-total": 20723
+        },
+        {
+            "number": 4,
+            "country-code": "CHN",
+            "country-name": "China",
+            "total-percentage-upeers": "2.13",
+            "upeers-total": 15307
+        },
+        {
+            "number": 5,
+            "country-code": "RUS",
+            "country-name": "Russian Federation, St Petersburg",
+            "total-percentage-upeers": "1.34",
+            "upeers-total": 9588
+        },
+        {
+            "number": 6,
+            "country-code": "RUS",
+            "country-name": "Russian Federation",
+            "total-percentage-upeers": "1.18",
+            "upeers-total": 8429
+        },
+        {
+            "number": 7,
+            "country-code": "FRA",
+            "country-name": "France",
+            "total-percentage-upeers": "0.80",
+            "upeers-total": 5754
+        },
+        {
+            "number": 8,
+            "country-code": "TUR",
+            "country-name": "Turkey, Istanbul",
+            "total-percentage-upeers": "0.79",
+            "upeers-total": 5644
+        },
+        {
+            "number": 9,
+            "country-code": "NLD",
+            "country-name": "Netherlands",
+            "total-percentage-upeers": "0.66",
+            "upeers-total": 4711
+        },
+        {
+            "number": 10,
+            "country-code": "CHN",
+            "country-name": "China, Shanghai",
+            "total-percentage-upeers": "0.61",
+            "upeers-total": 4360
+        },
+        {
+            "number": 11,
+            "country-code": "RUS",
+            "country-name": "Russian Federation, Yekaterinburg",
+            "total-percentage-upeers": "0.59",
+            "upeers-total": 4259
+        },
+        {
+            "number": 12,
+            "country-code": "ESP",
+            "country-name": "Spain, Madrid",
+            "total-percentage-upeers": "0.54",
+            "upeers-total": 3883
+        },
+        {
+            "number": 13,
+            "country-code": "FRA",
+            "country-name": "France, Paris",
+            "total-percentage-upeers": "0.50",
+            "upeers-total": 3583
+        },
+        {
+            "number": 14,
+            "country-code": "RUS",
+            "country-name": "Russian Federation, Novosibirsk",
+            "total-percentage-upeers": "0.49",
+            "upeers-total": 3524
+        },
+        {
+            "number": 15,
+            "country-code": "BGR",
+            "country-name": "Bulgaria, Sofia",
+            "total-percentage-upeers": "0.49",
+            "upeers-total": 3515
+        },
+        {
+            "number": 16,
+            "country-code": "USA",
+            "country-name": "United States of America",
+            "total-percentage-upeers": "0.48",
+            "upeers-total": 3440
+        },
+        {
+            "number": 17,
+            "country-code": "CHN",
+            "country-name": "China, Beijing",
+            "total-percentage-upeers": "0.46",
+            "upeers-total": 3317
+        },
+        {
+            "number": 18,
+            "country-code": "CAN",
+            "country-name": "Canada, Toronto",
+            "total-percentage-upeers": "0.44",
+            "upeers-total": 3125
+        },
+        {
+            "number": 19,
+            "country-code": "BRA",
+            "country-name": "Brazil, SĂŁo Paulo",
+            "total-percentage-upeers": "0.43",
+            "upeers-total": 3069
+        },
+        {
+            "number": 20,
+            "country-code": "GBR",
+            "country-name": "United Kingdom of Great Britain and Northern Ireland, London",
+            "total-percentage-upeers": "0.42",
+            "upeers-total": 3000
+        },
+        {
+            "number": 21,
+            "country-code": "RUS",
+            "country-name": "Russian Federation, Nizhniy Novgorod",
+            "total-percentage-upeers": "0.38",
+            "upeers-total": 2706
+        },
+        {
+            "number": 22,
+            "country-code": "HUN",
+            "country-name": "Hungary, Budapest",
+            "total-percentage-upeers": "0.37",
+            "upeers-total": 2666
+        },
+        {
+            "number": 23,
+            "country-code": "AUS",
+            "country-name": "Australia, Sydney",
+            "total-percentage-upeers": "0.35",
+            "upeers-total": 2526
+        },
+        {
+            "number": 24,
+            "country-code": "DEU",
+            "country-name": "Germany, Frankfurt am Main",
+            "total-percentage-upeers": "0.35",
+            "upeers-total": 2509
+        },
+        {
+            "number": 25,
+            "country-code": "RUS",
+            "country-name": "Russian Federation, Krasnodar",
+            "total-percentage-upeers": "0.33",
+            "upeers-total": 2398
+        },
+        {
+            "number": 26,
+            "country-code": "USA",
+            "country-name": "United States of America, New York",
+            "total-percentage-upeers": "0.33",
+            "upeers-total": 2364
+        },
+        {
+            "number": 27,
+            "country-code": "CAN",
+            "country-name": "Canada, Montreal",
+            "total-percentage-upeers": "0.32",
+            "upeers-total": 2259
+        },
+        {
+            "number": 28,
+            "country-code": "UKR",
+            "country-name": "Ukraine, Kyiv",
+            "total-percentage-upeers": "0.31",
+            "upeers-total": 2240
+        },
+        {
+            "number": 29,
+            "country-code": "RUS",
+            "country-name": "Russian Federation, Chelyabinsk",
+            "total-percentage-upeers": "0.31",
+            "upeers-total": 2225
+        },
+        {
+            "number": 30,
+            "country-code": "RUS",
+            "country-name": "Russian Federation, Samara",
+            "total-percentage-upeers": "0.30",
+            "upeers-total": 2150
+        }
+    ],
+    "collection-unique-btiha-detail": [
+        {
+            "id": 46,
+            "name": "Liaison.S01E01.WEB.x264-TORRENTGALAXY[TGx]",
+            "btih": "e0a1983db6c57103ef9754d99d6d9a207e45680c",
+            "resolution": "720",
+            "encoding": "264",
+            "bytes": 402436434.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 61622,
+            "seed": 14930
+        },
+        {
+            "id": 934,
+            "name": "multi-btih-0-3-x-Liaison.S01.1080p.ATVP.WEB-DL.DDP5.1.H.264-EniaHD",
+            "btih": "1fdcb5690499ab361db4b3b4c09e0da14cd53874",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": 4894549688.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 38270,
+            "seed": 9063
+        },
+        {
+            "id": 940,
+            "name": "multi-btih-6-2-x-Liaison.S01E01.Storm.Warning.1080p.ATVP.WEB-DL.DDP5.1.H264-NTb[rartv]-[rarbg.to]",
+            "btih": "1b7f7168f9750e66e606185a2f8f707a3736942b",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": 4569994823.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 35428,
+            "seed": 6510
+        },
+        {
+            "id": 941,
+            "name": "multi-btih-7-2-x-Liaison.S01E01.Storm.Warning.720p.ATVP.WEB-DL.DDP5.1.H264-NTb[rartv]-[rarbg.to]",
+            "btih": "e02cc488382c933e16c027c7109f9dc2e1519f84",
+            "resolution": "720",
+            "encoding": "264",
+            "bytes": 1518354205.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 35036,
+            "seed": 8512
+        },
+        {
+            "id": 52,
+            "name": "[ Torrent911.ws ] Liaison.S01E01.FRENCH.WEBRip.x264.mp4",
+            "btih": "3b809829a282afce0b9097267fc4a8074f46a445",
+            "resolution": "sd",
+            "encoding": "264",
+            "bytes": 430945552.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 33713,
+            "seed": 5947
+        },
+        {
+            "id": 60,
+            "name": "危险关系.liaison.s01e01",
+            "btih": "daf01c3ff0441c3637add5685f400d22ec748658",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": 1176241229.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 28858,
+            "seed": 7342
+        },
+        {
+            "id": 24,
+            "name": "Liaison.S01E01.720p.WEB.x265-MiNX[TGx]",
+            "btih": "00056ee1661964fec93a8f630c74af7b0d388ea0",
+            "resolution": "720",
+            "encoding": "265",
+            "bytes": 329672016.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 25084,
+            "seed": 4386
+        },
+        {
+            "id": 35,
+            "name": "Liaison.S01E01.Storm.Warning.720p.ATVP.WEB-DL.DDP5.1.H.264-NTb[eztv.re].mkv",
+            "btih": "c911d3db47e73541f32b5d881b14044553e31ecb",
+            "resolution": "720",
+            "encoding": "264",
+            "bytes": 1518354076.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 24820,
+            "seed": 5297
+        },
+        {
+            "id": 942,
+            "name": "multi-btih-8-2-x-[rutor.is]Svjaz_Liaison_Sezon_1.1",
+            "btih": "ab7132e7073c6f3ee20e571bb2216e900d90867c",
+            "resolution": "sd",
+            "encoding": "none",
+            "bytes": 982549798.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 23451,
+            "seed": 2883
+        },
+        {
+            "id": 937,
+            "name": "multi-btih-3-2-x-Liaison.S01E01.2160p.ATVP.WEB-DL.DDP5.1.Atmos.DV.MP4.x265-DVSUX[rartv]-[rarbg.to]",
+            "btih": "53d70f7dc941cc9bceaa025235de9e8ce27d4937",
+            "resolution": "2160",
+            "encoding": "265",
+            "bytes": 10688315471.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 18359,
+            "seed": 1036
+        },
+        {
+            "id": 935,
+            "name": "multi-btih-1-2-x-Liaison.S01E01.1080p.WEB.H264-CAKES[rarbg]",
+            "btih": "b10e7b57c7a34acfe05859b75286fc543caf9dc4",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": 4572000081.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 18066,
+            "seed": 3747
+        },
+        {
+            "id": 939,
+            "name": "multi-btih-5-2-x-Liaison.S01E01.HDR.2160p.WEB.H265-CAKES[rarbg]",
+            "btih": "3c63f531c6f0134cbdc0c06886b05cb02b9bcc1a",
+            "resolution": "2160",
+            "encoding": "265",
+            "bytes": 10545874848.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 16736,
+            "seed": 2492
+        },
+        {
+            "id": 2,
+            "name": "Liaison - Temporada 1 [HDTV][Cap.101][Castellano][www.AtomoHD.how]",
+            "btih": "071f5a2335905ccda3eed52917a45176338baf3d",
+            "resolution": "sd",
+            "encoding": "none",
+            "bytes": 691409572.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 15865,
+            "seed": 2656
+        },
+        {
+            "id": 938,
+            "name": "multi-btih-4-2-x-Liaison.S01E01.2160p.WEB.H265-CAKES[rarbg]",
+            "btih": "0971c9e70574cb48f4e619c137807b0af00b7673",
+            "resolution": "2160",
+            "encoding": "265",
+            "bytes": 9091476422.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 15352,
+            "seed": 1361
+        },
+        {
+            "id": 13,
+            "name": "Liaison.S01E01.1080p.WEB.H264-CAKES[TGx]",
+            "btih": "c45e4f512fd8ba0222f6e0432c1b14671d12c363",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": 4648286573.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 14925,
+            "seed": 3325
+        },
+        {
+            "id": 42,
+            "name": "Liaison.S01E01.Tempesta.in.Arrivo.ITA.FRE.1080p.ATVP.WEB-DL.DDP5.1.H.264-MeM.GP.mkv",
+            "btih": "c9146104d86cd4995752471645ec0cc317ad3929",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": 4892503977.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 14741,
+            "seed": 1652
+        },
+        {
+            "id": 50,
+            "name": "Liaison.s01.HD1080p.WEBRip.Rus.RuDub.tv",
+            "btih": "7f469d4dfb79cddd4ad5c9710600a16f93e83efb",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": 3141620113.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 14137,
+            "seed": 1089
+        },
+        {
+            "id": 41,
+            "name": "Liaison.S01E01.Storm.Warning.ATVP.WEBMux.ITA.FRE.x264-BlackBit",
+            "btih": "3f96a72169232544b39e559bb9dc68cc6973894c",
+            "resolution": "sd",
+            "encoding": "264",
+            "bytes": 551065150.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 13832,
+            "seed": 2317
+        },
+        {
+            "id": 8,
+            "name": "Liaison.S01.720p.NevaFilm",
+            "btih": "d55bc4606b69cfb65d63e59ba5d00ac0e6d321d9",
+            "resolution": "720",
+            "encoding": "none",
+            "bytes": 1840646795.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 13366,
+            "seed": 792
+        },
+        {
+            "id": 936,
+            "name": "multi-btih-2-2-x-Liaison.S01E01.2160p.ATVP.WEB-DL.DDP5.1.Atmos.DV.MKV.x265-CAKES[rartv]-[rarbg.to]",
+            "btih": "f52cf1992c0c22c0fc6050bf9eed7f6e78b16363",
+            "resolution": "2160",
+            "encoding": "265",
+            "bytes": 10688142803.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 12439,
+            "seed": 999
+        },
+        {
+            "id": 33,
+            "name": "Liaison.S01E01.Storm.Warning.1080p.WEBRip.x265.DDP5.1.Atmos-WAR",
+            "btih": "7522d6db911b1d928cdb49212b5cccf4f2c7196e",
+            "resolution": "1080",
+            "encoding": "265",
+            "bytes": 2077512584.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 11973,
+            "seed": 1605
+        },
+        {
+            "id": 31,
+            "name": "Liaison.S01E01.Storm.Warning.1080p.ATVP.WEBRip.DDP5.1.x264-NTb[TGx]",
+            "btih": "7ada334ccc0e4d0036b7f7197eb8cf84ae3aa2c0",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": 4569995587.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 11557,
+            "seed": 1668
+        },
+        {
+            "id": 27,
+            "name": "Liaison.S01E01.Storm.Warning.1080p.ATVP.WEB-DL.DDP5.1.H.264-NTb[eztv.re].mkv",
+            "btih": "b8108e3b0c41c10ed9dabb926a6dda4f446278e9",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": 4569994694.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 11213,
+            "seed": 2242
+        },
+        {
+            "id": 57,
+            "name": "Связь Liaison Сезон 1 Серии 1 из 6 (Стивен Хопкинс) [2023, Франция, Великобритания, триллер, WEB-DLRip] Dub (Невафильм) [rutracker-6327131]",
+            "btih": "dcaf95dc49c8d85ebd9701640117deac6bab9749",
+            "resolution": "sd",
+            "encoding": "none",
+            "bytes": 1009766151.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 11116,
+            "seed": 2165
+        },
+        {
+            "id": 23,
+            "name": "Liaison.S01E01.720p.10bit.WEBRip.2CH.x265.HEVC-PSA.mkv",
+            "btih": "9a2d5ae86076cb0523eedd45576e8932f16ac47a",
+            "resolution": "720",
+            "encoding": "265",
+            "bytes": 331908449.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 10305,
+            "seed": 287
+        },
+        {
+            "id": 12,
+            "name": "Liaison.S01E01.1080p.HEVC.WEBDL.ATMOS.ITA.FRA.G66.mkv",
+            "btih": "09da14664bb93b4981ca9c626b1a0668a6419ad8",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": 2384580742.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 10253,
+            "seed": 1206
+        },
+        {
+            "id": 7,
+            "name": "Liaison.S01.720p.ColdFilm",
+            "btih": "a83adc691831b40014dda036799f0467d3998cc3",
+            "resolution": "720",
+            "encoding": "none",
+            "bytes": 1354342179.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 10138,
+            "seed": 445
+        },
+        {
+            "id": 48,
+            "name": "Liaison.S01E01HDTV.Subtitulado.Esp.SC.mp4",
+            "btih": "565f610f7095f8d8fecfaff8677b57ff14b0c3e6",
+            "resolution": "sd",
+            "encoding": "none",
+            "bytes": 608910428.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 10026,
+            "seed": 1443
+        },
+        {
+            "id": 1,
+            "name": "Liaison - Temporada 1 [HDTV 720p][Cap.101][AC3 5.1 Castellano][www.AtomoHD.how]",
+            "btih": "80e6bd0b58d381b5e01009089557d3558adb672e",
+            "resolution": "720",
+            "encoding": "none",
+            "bytes": 1840711923.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 9889,
+            "seed": 1585
+        },
+        {
+            "id": 39,
+            "name": "Liaison.S01E01.Storm.Warning.720p.ATVP.WEBRip.DDP5.1.x264-NTb[TGx]",
+            "btih": "f50474f99a99adc33ed2ee9eade475494d2e103b",
+            "resolution": "720",
+            "encoding": "264",
+            "bytes": 1518354969.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 9625,
+            "seed": 1752
+        },
+        {
+            "id": 22,
+            "name": "Liaison.S01E01.400p.ColdFilm.avi",
+            "btih": "db7cc7de13bcb47f8f6afd4ee15212282abc84d0",
+            "resolution": "sd",
+            "encoding": "none",
+            "bytes": 704854598.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 9368,
+            "seed": 314
+        },
+        {
+            "id": 10,
+            "name": "Liaison.S01E01.1080p.ATVP.WEBRip.DDP5.1.x264-NTb",
+            "btih": "ce1bfd8acf3116263d6ad2a063e607ad190db5ea",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": 4569994694.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 9021,
+            "seed": 333
+        },
+        {
+            "id": 38,
+            "name": "Liaison.S01E01.Storm.Warning.720p.ATVP.WEBRip.DDP5.1.x264-NTb",
+            "btih": "124d9cd5705ff1f697329e6957d6a238a5b214bd",
+            "resolution": "720",
+            "encoding": "264",
+            "bytes": 1518386422.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 8370,
+            "seed": 886
+        },
+        {
+            "id": 11,
+            "name": "Liaison.S01E01.1080p.ColdFilm.mkv",
+            "btih": "ba322c40be0d7339cb56fb3e09688d7763dc3c17",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": 2250686066.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 8266,
+            "seed": 441
+        },
+        {
+            "id": 3,
+            "name": "Liaison - Temporada 1 [WEB-DL 1080p][Cap.101][Dual DDP5.1 + Subs][www.AtomoHD.how]",
+            "btih": "4db11c472dbfbbcb7910d64d61bd5f10c5cecf0a",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": 4892358649.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 8232,
+            "seed": 584
+        },
+        {
+            "id": 49,
+            "name": "Liaison.S01e01.Ita.Eng.Spa.720p.h264.SubS-Me7alh.mkv",
+            "btih": "6c9af27ae241cdb10f153c8b7a98fa8eb27bccce",
+            "resolution": "720",
+            "encoding": "264",
+            "bytes": 2100384311.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 8178,
+            "seed": 1240
+        },
+        {
+            "id": 44,
+            "name": "Liaison.S01E01.WEB-DLRip.400p.ukr.2.0.HDREZKA.STUDIO.avi",
+            "btih": "3bc65d5cadd536d6af6057de7c1aed917264ca88",
+            "resolution": "sd",
+            "encoding": "none",
+            "bytes": 801005568.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 8059,
+            "seed": 231
+        },
+        {
+            "id": 29,
+            "name": "Liaison.S01E01.Storm.Warning.1080p.ATVP.WEBMux.ITA.FRE.DDP5.1.Atmos.H.264-BlackBit.mkv",
+            "btih": "bd4fca9c3bcbb774c644e1009f5174b5dd8b70f2",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": 4894181990.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 8027,
+            "seed": 554
+        },
+        {
+            "id": 9,
+            "name": "Liaison.S01.sbor",
+            "btih": "148975082b3c0feac2ae21b4ab6ed522a012ffe7",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": 2321265165.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 7828,
+            "seed": 367
+        },
+        {
+            "id": 34,
+            "name": "Liaison.S01E01.Storm.Warning.2160p.ATVP.WEBMux.ITA.FRE.DDP5.1.HDR.Atmos.H.265-BlackBit.mkv",
+            "btih": "2956145197f9146003708f12e1b60d814dcd0ca5",
+            "resolution": "2160",
+            "encoding": "265",
+            "bytes": 10870239917.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 7628,
+            "seed": 563
+        },
+        {
+            "id": 59,
+            "name": "【高清剧集网 www.BTHDTV.com】危险关系[第01集][简繁英字幕].Liaison.S01.1080p.Apple.TV+.WEB-DL.DDP.5.1.Atmos.H.264-BlackTV",
+            "btih": "559647e2e23771540728126a435bb2a6eec320be",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": 4573518439.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 7464,
+            "seed": 341
+        },
+        {
+            "id": 58,
+            "name": "【高清剧集网 www.BTHDTV.com】危险关系[杜比视界版本][第01集][简繁英字幕].Liaison.S01.2160p.Apple.TV+.WEB-DL.DDP.5.1.Atmos.DV.H.265-BlackTV",
+            "btih": "4ee6eaa02735e6ff2bd67679b9e335f08acd5a03",
+            "resolution": "2160",
+            "encoding": "265",
+            "bytes": 10690049129.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 7336,
+            "seed": 364
+        },
+        {
+            "id": 51,
+            "name": "Liaison.s01.WEBRip.XviD.Rus.RuDub.tv",
+            "btih": "4a283aab6b60b552ced3e2d81dd3b78a146fe954",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "bytes": 735142394.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 6603,
+            "seed": 287
+        },
+        {
+            "id": 47,
+            "name": "Liaison.S01E01.WEBRip.1080p.rus.5.1.HDREZKA.STUDIO.mkv",
+            "btih": "8ad346ba1b0a8acbd570af599b4d2b29d447a128",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": 4065319626.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 6100,
+            "seed": 441
+        },
+        {
+            "id": 45,
+            "name": "Liaison.S01E01.WEB-DLRip.720p.ukr.5.1.HDREZKA.STUDIO.mkv",
+            "btih": "9ae15e3a5e782718839bdbcd149df08b42d6d38a",
+            "resolution": "720",
+            "encoding": "none",
+            "bytes": 1688920124.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 6072,
+            "seed": 132
+        },
+        {
+            "id": 43,
+            "name": "Liaison.S01E01.WEB-DLRip.1080p.ukr.5.1.HDREZKA.STUDIO.mkv",
+            "btih": "0cfe47d155339d139182838e197cd0ac66a551f7",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": 2949964010.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 5743,
+            "seed": 228
+        },
+        {
+            "id": 4,
+            "name": "Liaison 1X1 HDTV XviD Castellano",
+            "btih": "2bd719f970a321c9272cd9be7317624fcfda4866",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "bytes": 691410232.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 5028,
+            "seed": 629
+        },
+        {
+            "id": 6,
+            "name": "Liaison.S01.400p.ColdFilm",
+            "btih": "0b637c6ebc89ac0a006b2a565f430474093d3ac9",
+            "resolution": "sd",
+            "encoding": "none",
+            "bytes": 717845740.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 4827,
+            "seed": 313
+        },
+        {
+            "id": 37,
+            "name": "Liaison.S01E01.Storm.Warning.720p.ATVP.WEBRip.DDP5.1.x264-NTb [IPT]",
+            "btih": "e073815093114e02729e657d172e3592eec983ab",
+            "resolution": "720",
+            "encoding": "264",
+            "bytes": 1518386435.0,
+            "ssl": false,
+            "private": true,
+            "i2p": false,
+            "peer": 2728,
+            "seed": 803
+        },
+        {
+            "id": 30,
+            "name": "Liaison.S01E01.Storm.Warning.1080p.ATVP.WEBRip.DDP5.1.x264-NTb [IPT]",
+            "btih": "c968690c909f34b4819c3bedf92206ddb2f763f2",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": 4570027049.0,
+            "ssl": false,
+            "private": true,
+            "i2p": false,
+            "peer": 1953,
+            "seed": 571
+        }
+    ]
+}

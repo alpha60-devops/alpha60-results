@@ -1,6 +1,7 @@
 {
     "collection-name": "Magic Mike's Last Dance",
     "collection-id": "",
+    "data-version": "2023-05-31",
     "sample-duration": "2023-02-28-to-2023-05-08",
     "sample-days": 70,
     "sample-year-start": 2023,
@@ -11,489 +12,525 @@
         "btiha-size": 102,
         "upeers-total": 1798311,
         "useeds-total": 487729,
-        "anomaly-total": 102573,
-        "anomaly-percentage": "5.70"
+        "anomaly-total": 9508,
+        "anomaly-percentage": "0.53"
     },
     "collection-unique-btiha-total": {
         "btiha-size": 93,
         "upeers-total": 1543369,
         "useeds-total": 416155,
-        "anomaly-total": 67296,
-        "anomaly-percentage": "4.36"
+        "anomaly-total": 6876,
+        "anomaly-percentage": "0.45"
     },
-    "collection-unique-btiha-week-0001": {
+    "collection-unique-btiha-week-00001": {
         "btiha-size": 69,
         "upeers-total": 321228,
-        "useeds-total": 116645,
-        "anomaly-total": 20254,
-        "anomaly-percentage": "6.31"
+        "useeds-total": 116645
     },
-    "collection-unique-btiha-week-0002": {
+    "collection-unique-btiha-week-00002": {
         "btiha-size": 83,
         "upeers-total": 556396,
-        "useeds-total": 198572,
-        "anomaly-total": 31919,
-        "anomaly-percentage": "5.74"
+        "useeds-total": 198572
     },
-    "collection-unique-btiha-week-0003": {
+    "collection-unique-btiha-week-00003": {
         "btiha-size": 91,
         "upeers-total": 719815,
-        "useeds-total": 244853,
-        "anomaly-total": 38807,
-        "anomaly-percentage": "5.39"
+        "useeds-total": 244853
     },
-    "collection-unique-btiha-week-0004": {
+    "collection-unique-btiha-week-00004": {
         "btiha-size": 92,
         "upeers-total": 862318,
-        "useeds-total": 281384,
-        "anomaly-total": 43905,
-        "anomaly-percentage": "5.09"
+        "useeds-total": 281384
     },
-    "collection-unique-btiha-week-0005": {
+    "collection-unique-btiha-week-00005": {
         "btiha-size": 92,
         "upeers-total": 997314,
-        "useeds-total": 314006,
-        "anomaly-total": 49357,
-        "anomaly-percentage": "4.95"
+        "useeds-total": 314006
     },
-    "collection-unique-btiha-week-0006": {
+    "collection-unique-btiha-week-00006": {
         "btiha-size": 92,
         "upeers-total": 1115322,
-        "useeds-total": 340165,
-        "anomaly-total": 54578,
-        "anomaly-percentage": "4.89"
+        "useeds-total": 340165
     },
-    "collection-unique-btiha-week-0007": {
+    "collection-unique-btiha-week-00007": {
         "btiha-size": 93,
         "upeers-total": 1234292,
-        "useeds-total": 361251,
-        "anomaly-total": 58052,
-        "anomaly-percentage": "4.70"
+        "useeds-total": 361251
     },
-    "collection-unique-btiha-week-0008": {
+    "collection-unique-btiha-week-00008": {
         "btiha-size": 93,
         "upeers-total": 1338463,
-        "useeds-total": 381818,
-        "anomaly-total": 61108,
-        "anomaly-percentage": "4.57"
+        "useeds-total": 381818
     },
-    "collection-unique-btiha-week-0009": {
+    "collection-unique-btiha-week-00009": {
         "btiha-size": 93,
         "upeers-total": 1441760,
-        "useeds-total": 399620,
-        "anomaly-total": 64153,
-        "anomaly-percentage": "4.45"
+        "useeds-total": 399620
     },
-    "collection-unique-btiha-week-0010": {
+    "collection-unique-btiha-week-00010": {
         "btiha-size": 93,
         "upeers-total": 1543369,
-        "useeds-total": 416155,
-        "anomaly-total": 67296,
-        "anomaly-percentage": "4.36"
+        "useeds-total": 416155
     },
     "transfer-units": "terabyte",
     "transfer-size": 6287.999948646796,
     "transfer-price-1-name": "CloudFront-1-year",
     "transfer-price-1-per-gigabyte-cost": 0.005,
     "transfer-price-1-USD": 199439.999743234,
-    "resolution-partitions": [
+    "geo-whole-earth-resolution-partitions": [
         {
             "number": 1,
             "name": "1080-all",
+            "upeers-total": 621031,
             "total-percentage-upeers": "40.24",
-            "total-percentage-bytes": "36.69",
-            "upeers-total": 621031
+            "total-percentage-bytes": "36.69"
         },
         {
             "number": 2,
             "name": "720-all",
+            "upeers-total": 446687,
             "total-percentage-upeers": "28.94",
-            "total-percentage-bytes": "10.32",
-            "upeers-total": 446687
+            "total-percentage-bytes": "10.32"
         },
         {
             "number": 3,
-            "name": "sd-none",
-            "total-percentage-upeers": "13.74",
-            "total-percentage-bytes": "12.08",
-            "upeers-total": 212107
+            "name": "sd-all",
+            "upeers-total": 327022,
+            "total-percentage-upeers": "21.19",
+            "total-percentage-bytes": "14.36"
         },
         {
             "number": 4,
             "name": "2160-all",
+            "upeers-total": 148629,
             "total-percentage-upeers": "9.63",
-            "total-percentage-bytes": "38.63",
-            "upeers-total": 148629
+            "total-percentage-bytes": "38.63"
+        }
+    ],
+    "geo-slices-4-longitude-region-peers": [
+        {
+            "number": 1,
+            "name": "Pacifica America",
+            "upeers-slice": 47385,
+            "slice-percentage-upeers": "3.07"
+        },
+        {
+            "number": 2,
+            "name": "Americas",
+            "upeers-slice": 306571,
+            "slice-percentage-upeers": "19.86"
+        },
+        {
+            "number": 3,
+            "name": "Afro Eur Asia",
+            "upeers-slice": 903223,
+            "slice-percentage-upeers": "58.52"
+        },
+        {
+            "number": 4,
+            "name": "Asia Pacifica",
+            "upeers-slice": 286050,
+            "slice-percentage-upeers": "18.53"
+        }
+    ],
+    "geo-slices-continental-peers": [
+        {
+            "number": 1,
+            "name": "Europe",
+            "upeers-slice": 648888,
+            "slice-percentage-upeers": "42.04"
+        },
+        {
+            "number": 2,
+            "name": "Asia",
+            "upeers-slice": 207777,
+            "slice-percentage-upeers": "13.46"
+        },
+        {
+            "number": 3,
+            "name": "North America",
+            "upeers-slice": 198942,
+            "slice-percentage-upeers": "12.89"
+        },
+        {
+            "number": 4,
+            "name": "South America",
+            "upeers-slice": 110674,
+            "slice-percentage-upeers": "7.17"
         },
         {
             "number": 5,
-            "name": "sd-264",
-            "total-percentage-upeers": "5.71",
-            "total-percentage-bytes": "1.61",
-            "upeers-total": 88069
+            "name": "Africa",
+            "upeers-slice": 82281,
+            "slice-percentage-upeers": "5.33"
         },
         {
             "number": 6,
-            "name": "sd-xvid",
-            "total-percentage-upeers": "1.74",
-            "total-percentage-bytes": "0.67",
-            "upeers-total": 26846
+            "name": "Oceania",
+            "upeers-slice": 26599,
+            "slice-percentage-upeers": "1.72"
+        },
+        {
+            "number": 7,
+            "name": "",
+            "upeers-slice": 3313,
+            "slice-percentage-upeers": "0.21"
         }
     ],
-    "geo-country-top-10-peer": [
+    "geo-country-top-10-peers": [
         {
             "number": 1,
             "country-code": "RUS",
             "country-name": "Russian Federation",
-            "total-percentage-upeers": "16.17",
-            "upeers-total": 249540
+            "total-percentage-upeers": "16.32",
+            "upeers-total": 251870
         },
         {
             "number": 2,
             "country-code": "USA",
             "country-name": "United States of America",
-            "total-percentage-upeers": "9.82",
-            "upeers-total": 151623
+            "total-percentage-upeers": "8.61",
+            "upeers-total": 132848
         },
         {
             "number": 3,
             "country-code": "BRA",
             "country-name": "Brazil",
-            "total-percentage-upeers": "3.57",
-            "upeers-total": 55076
+            "total-percentage-upeers": "4.02",
+            "upeers-total": 62009
         },
         {
             "number": 4,
-            "country-code": "UKR",
-            "country-name": "Ukraine",
-            "total-percentage-upeers": "2.45",
-            "upeers-total": 37737
+            "country-code": "ESP",
+            "country-name": "Spain",
+            "total-percentage-upeers": "2.99",
+            "upeers-total": 46143
         },
         {
             "number": 5,
-            "country-code": "ESP",
-            "country-name": "Spain",
-            "total-percentage-upeers": "2.45",
-            "upeers-total": 37737
+            "country-code": "NLD",
+            "country-name": "Netherlands",
+            "total-percentage-upeers": "2.67",
+            "upeers-total": 41272
         },
         {
             "number": 6,
             "country-code": "ZAF",
             "country-name": "South Africa",
-            "total-percentage-upeers": "2.39",
-            "upeers-total": 36915
+            "total-percentage-upeers": "2.67",
+            "upeers-total": 41213
         },
         {
             "number": 7,
-            "country-code": "CHN",
-            "country-name": "China",
-            "total-percentage-upeers": "2.22",
-            "upeers-total": 34318
+            "country-code": "UKR",
+            "country-name": "Ukraine",
+            "total-percentage-upeers": "2.48",
+            "upeers-total": 38295
         },
         {
             "number": 8,
             "country-code": "DEU",
             "country-name": "Germany",
-            "total-percentage-upeers": "2.18",
-            "upeers-total": 33629
+            "total-percentage-upeers": "2.33",
+            "upeers-total": 35970
         },
         {
             "number": 9,
             "country-code": "KOR",
             "country-name": "Korea, Republic of",
-            "total-percentage-upeers": "2.12",
-            "upeers-total": 32791
+            "total-percentage-upeers": "2.16",
+            "upeers-total": 33314
         },
         {
             "number": 10,
-            "country-code": "GBR",
-            "country-name": "United Kingdom of Great Britain and Northern Ireland",
-            "total-percentage-upeers": "1.99",
-            "upeers-total": 30685
+            "country-code": "CHN",
+            "country-name": "China",
+            "total-percentage-upeers": "2.16",
+            "upeers-total": 33268
         }
     ],
-    "geo-country-top-10-seed": [
+    "geo-country-top-10-seeds": [
         {
             "number": 1,
             "country-code": "RUS",
             "country-name": "Russian Federation",
-            "total-percentage-upeers": "12.46",
-            "upeers-total": 51840
+            "total-percentage-upeers": "12.51",
+            "upeers-total": 52068
         },
         {
             "number": 2,
             "country-code": "USA",
             "country-name": "United States of America",
-            "total-percentage-upeers": "8.28",
-            "upeers-total": 34445
+            "total-percentage-upeers": "7.46",
+            "upeers-total": 31033
         },
         {
             "number": 3,
             "country-code": "ESP",
             "country-name": "Spain",
-            "total-percentage-upeers": "2.85",
-            "upeers-total": 11866
+            "total-percentage-upeers": "3.41",
+            "upeers-total": 14211
         },
         {
             "number": 4,
             "country-code": "BRA",
             "country-name": "Brazil",
-            "total-percentage-upeers": "2.69",
-            "upeers-total": 11197
+            "total-percentage-upeers": "2.99",
+            "upeers-total": 12432
         },
         {
             "number": 5,
-            "country-code": "UKR",
-            "country-name": "Ukraine",
-            "total-percentage-upeers": "2.51",
-            "upeers-total": 10458
+            "country-code": "ZAF",
+            "country-name": "South Africa",
+            "total-percentage-upeers": "2.85",
+            "upeers-total": 11875
         },
         {
             "number": 6,
-            "country-code": "ZAF",
-            "country-name": "South Africa",
-            "total-percentage-upeers": "2.42",
-            "upeers-total": 10052
+            "country-code": "UKR",
+            "country-name": "Ukraine",
+            "total-percentage-upeers": "2.57",
+            "upeers-total": 10687
         },
         {
             "number": 7,
-            "country-code": "GBR",
-            "country-name": "United Kingdom of Great Britain and Northern Ireland",
-            "total-percentage-upeers": "1.68",
-            "upeers-total": 7004
+            "country-code": "CAN",
+            "country-name": "Canada",
+            "total-percentage-upeers": "1.95",
+            "upeers-total": 8096
         },
         {
             "number": 8,
             "country-code": "AUS",
             "country-name": "Australia",
-            "total-percentage-upeers": "1.51",
-            "upeers-total": 6284
+            "total-percentage-upeers": "1.86",
+            "upeers-total": 7730
         },
         {
             "number": 9,
-            "country-code": "ITA",
-            "country-name": "Italy",
-            "total-percentage-upeers": "1.40",
-            "upeers-total": 5816
+            "country-code": "GBR",
+            "country-name": "United Kingdom of Great Britain and Northern Ireland",
+            "total-percentage-upeers": "1.63",
+            "upeers-total": 6783
         },
         {
             "number": 10,
-            "country-code": "CAN",
-            "country-name": "Canada",
-            "total-percentage-upeers": "1.25",
-            "upeers-total": 5185
+            "country-code": "ITA",
+            "country-name": "Italy",
+            "total-percentage-upeers": "1.34",
+            "upeers-total": 5557
         }
     ],
-    "geo-country-region-city-top-30": [
+    "geo-country-region-city-top-30-peers": [
         {
             "number": 1,
             "country-code": "RUS",
-            "country-name": "Russian Federation, Moscow, 48",
-            "total-percentage-upeers": "2.46",
-            "upeers-total": 38031
+            "country-name": "Russian Federation, Moscow",
+            "total-percentage-upeers": "2.65",
+            "upeers-total": 40957
         },
         {
             "number": 2,
             "country-code": "USA",
-            "country-name": "United States of America",
-            "total-percentage-upeers": "2.02",
-            "upeers-total": 31196
+            "country-name": "United States of America, Ashburn",
+            "total-percentage-upeers": "1.83",
+            "upeers-total": 28169
         },
         {
             "number": 3,
-            "country-code": "RUS",
-            "country-name": "Russian Federation",
-            "total-percentage-upeers": "1.59",
-            "upeers-total": 24615
+            "country-code": "NLD",
+            "country-name": "Netherlands, Amsterdam",
+            "total-percentage-upeers": "1.61",
+            "upeers-total": 24783
         },
         {
             "number": 4,
-            "country-code": "USA",
-            "country-name": "United States of America, Ashburn, VA",
-            "total-percentage-upeers": "1.59",
-            "upeers-total": 24473
+            "country-code": "RUS",
+            "country-name": "Russian Federation, St Petersburg",
+            "total-percentage-upeers": "1.10",
+            "upeers-total": 16995
         },
         {
             "number": 5,
-            "country-code": "RUS",
-            "country-name": "Russian Federation, Saint Petersburg, 66",
-            "total-percentage-upeers": "1.05",
-            "upeers-total": 16156
+            "country-code": "DEU",
+            "country-name": "Germany, Leipzig",
+            "total-percentage-upeers": "0.99",
+            "upeers-total": 15293
         },
         {
             "number": 6,
-            "country-code": "DEU",
-            "country-name": "Germany, Leipzig, 13",
-            "total-percentage-upeers": "0.92",
-            "upeers-total": 14131
+            "country-code": "RUS",
+            "country-name": "Russian Federation",
+            "total-percentage-upeers": "0.94",
+            "upeers-total": 14533
         },
         {
             "number": 7,
-            "country-code": "KOR",
-            "country-name": "Korea, Republic of, Seoul, 11",
-            "total-percentage-upeers": "0.83",
-            "upeers-total": 12813
+            "country-code": "CHN",
+            "country-name": "China",
+            "total-percentage-upeers": "0.85",
+            "upeers-total": 13157
         },
         {
             "number": 8,
-            "country-code": "NLD",
-            "country-name": "Netherlands",
-            "total-percentage-upeers": "0.78",
-            "upeers-total": 12052
+            "country-code": "ZAF",
+            "country-name": "South Africa, Johannesburg",
+            "total-percentage-upeers": "0.84",
+            "upeers-total": 13036
         },
         {
             "number": 9,
-            "country-code": "FRA",
-            "country-name": "France",
-            "total-percentage-upeers": "0.69",
-            "upeers-total": 10665
+            "country-code": "ZAF",
+            "country-name": "South Africa, Cape Town",
+            "total-percentage-upeers": "0.56",
+            "upeers-total": 8657
         },
         {
             "number": 10,
-            "country-code": "DEU",
-            "country-name": "Germany",
+            "country-code": "TUR",
+            "country-name": "Turkey, Istanbul",
             "total-percentage-upeers": "0.50",
-            "upeers-total": 7763
+            "upeers-total": 7785
         },
         {
             "number": 11,
-            "country-code": "ZAF",
-            "country-name": "South Africa, Cape Town, 11",
-            "total-percentage-upeers": "0.48",
-            "upeers-total": 7384
+            "country-code": "FRA",
+            "country-name": "France",
+            "total-percentage-upeers": "0.49",
+            "upeers-total": 7537
         },
         {
             "number": 12,
-            "country-code": "ZAF",
-            "country-name": "South Africa",
-            "total-percentage-upeers": "0.47",
-            "upeers-total": 7294
+            "country-code": "CAN",
+            "country-name": "Canada, Toronto",
+            "total-percentage-upeers": "0.48",
+            "upeers-total": 7462
         },
         {
             "number": 13,
-            "country-code": "TUR",
-            "country-name": "Turkey, Istanbul, 34",
-            "total-percentage-upeers": "0.46",
-            "upeers-total": 7085
+            "country-code": "USA",
+            "country-name": "United States of America, New York",
+            "total-percentage-upeers": "0.48",
+            "upeers-total": 7445
         },
         {
             "number": 14,
-            "country-code": "GBR",
-            "country-name": "United Kingdom of Great Britain and Northern Ireland",
-            "total-percentage-upeers": "0.45",
-            "upeers-total": 6917
+            "country-code": "RUS",
+            "country-name": "Russian Federation, Yekaterinburg",
+            "total-percentage-upeers": "0.48",
+            "upeers-total": 7363
         },
         {
             "number": 15,
-            "country-code": "UKR",
-            "country-name": "Ukraine",
-            "total-percentage-upeers": "0.45",
-            "upeers-total": 6880
+            "country-code": "ESP",
+            "country-name": "Spain, Madrid",
+            "total-percentage-upeers": "0.47",
+            "upeers-total": 7253
         },
         {
             "number": 16,
-            "country-code": "BRA",
-            "country-name": "Brazil",
-            "total-percentage-upeers": "0.43",
-            "upeers-total": 6704
+            "country-code": "NLD",
+            "country-name": "Netherlands",
+            "total-percentage-upeers": "0.47",
+            "upeers-total": 7186
         },
         {
             "number": 17,
-            "country-code": "UKR",
-            "country-name": "Ukraine, Kiev, 12",
-            "total-percentage-upeers": "0.41",
-            "upeers-total": 6302
+            "country-code": "ZAF",
+            "country-name": "South Africa, Pretoria",
+            "total-percentage-upeers": "0.46",
+            "upeers-total": 7055
         },
         {
             "number": 18,
-            "country-code": "ITA",
-            "country-name": "Italy",
-            "total-percentage-upeers": "0.40",
-            "upeers-total": 6154
+            "country-code": "USA",
+            "country-name": "United States of America",
+            "total-percentage-upeers": "0.45",
+            "upeers-total": 6969
         },
         {
             "number": 19,
-            "country-code": "RUS",
-            "country-name": "Russian Federation, Yekaterinburg, 71",
-            "total-percentage-upeers": "0.37",
-            "upeers-total": 5702
+            "country-code": "AUS",
+            "country-name": "Australia, Sydney",
+            "total-percentage-upeers": "0.43",
+            "upeers-total": 6702
         },
         {
             "number": 20,
-            "country-code": "ESP",
-            "country-name": "Spain",
-            "total-percentage-upeers": "0.37",
-            "upeers-total": 5695
+            "country-code": "RUS",
+            "country-name": "Russian Federation, Krasnodar",
+            "total-percentage-upeers": "0.43",
+            "upeers-total": 6626
         },
         {
             "number": 21,
-            "country-code": "KOR",
-            "country-name": "Korea, Republic of",
-            "total-percentage-upeers": "0.37",
-            "upeers-total": 5669
+            "country-code": "BRA",
+            "country-name": "Brazil, SĂŁo Paulo",
+            "total-percentage-upeers": "0.42",
+            "upeers-total": 6491
         },
         {
             "number": 22,
-            "country-code": "CHL",
-            "country-name": "Chile, Santiago, 12",
-            "total-percentage-upeers": "0.34",
-            "upeers-total": 5302
+            "country-code": "RUS",
+            "country-name": "Russian Federation, Novosibirsk",
+            "total-percentage-upeers": "0.41",
+            "upeers-total": 6335
         },
         {
             "number": 23,
-            "country-code": "IND",
-            "country-name": "India",
-            "total-percentage-upeers": "0.33",
-            "upeers-total": 5166
+            "country-code": "UKR",
+            "country-name": "Ukraine, Kyiv",
+            "total-percentage-upeers": "0.40",
+            "upeers-total": 6161
         },
         {
             "number": 24,
-            "country-code": "RUS",
-            "country-name": "Russian Federation, Novosibirsk, 53",
-            "total-percentage-upeers": "0.33",
-            "upeers-total": 5144
+            "country-code": "AUS",
+            "country-name": "Australia, Melbourne",
+            "total-percentage-upeers": "0.38",
+            "upeers-total": 5808
         },
         {
             "number": 25,
-            "country-code": "POL",
-            "country-name": "Poland",
-            "total-percentage-upeers": "0.33",
-            "upeers-total": 5083
+            "country-code": "RUS",
+            "country-name": "Russian Federation, Nizhniy Novgorod",
+            "total-percentage-upeers": "0.34",
+            "upeers-total": 5254
         },
         {
             "number": 26,
-            "country-code": "ZAF",
-            "country-name": "South Africa, Durban, 02",
-            "total-percentage-upeers": "0.32",
-            "upeers-total": 4880
+            "country-code": "GBR",
+            "country-name": "United Kingdom of Great Britain and Northern Ireland, London",
+            "total-percentage-upeers": "0.33",
+            "upeers-total": 5085
         },
         {
             "number": 27,
-            "country-code": "ESP",
-            "country-name": "Spain, Madrid, 29",
+            "country-code": "USA",
+            "country-name": "United States of America, Dallas",
             "total-percentage-upeers": "0.31",
-            "upeers-total": 4837
+            "upeers-total": 4759
         },
         {
             "number": 28,
-            "country-code": "ROU",
-            "country-name": "Romania",
+            "country-code": "GRC",
+            "country-name": "Greece, Athens",
             "total-percentage-upeers": "0.29",
-            "upeers-total": 4552
+            "upeers-total": 4511
         },
         {
             "number": 29,
-            "country-code": "BRA",
-            "country-name": "Brazil, Sao Paulo, 27",
-            "total-percentage-upeers": "0.28",
-            "upeers-total": 4375
+            "country-code": "CHL",
+            "country-name": "Chile, Santiago",
+            "total-percentage-upeers": "0.29",
+            "upeers-total": 4482
         },
         {
             "number": 30,
             "country-code": "ZAF",
-            "country-name": "South Africa, Johannesburg, 06",
+            "country-name": "South Africa, Durban",
             "total-percentage-upeers": "0.28",
-            "upeers-total": 4310
+            "upeers-total": 4299
         }
     ],
     "collection-unique-btiha-detail": [
@@ -503,7 +540,7 @@
             "btih": "80d4f393f1b3d4ce33d849ca5a70766d36c3dca9",
             "resolution": "720",
             "encoding": "none",
-            "bytes": 1079825342,
+            "bytes": 1079825342.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -516,7 +553,7 @@
             "btih": "2197428da687b83b15fba93040309bac5b7d6d02",
             "resolution": "sd",
             "encoding": "none",
-            "bytes": -1895791836,
+            "bytes": 2399175460.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -529,7 +566,7 @@
             "btih": "67545a3f833e8bde49dbeb4637bc5eb77b8fd545",
             "resolution": "1080",
             "encoding": "264",
-            "bytes": 1266341061,
+            "bytes": 5561308357.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -542,7 +579,7 @@
             "btih": "1b4fcd8678ef69aff64fb7623ecbdeb0bd0b9bfa",
             "resolution": "1080",
             "encoding": "265",
-            "bytes": 1876295795,
+            "bytes": 1876295795.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -555,7 +592,7 @@
             "btih": "18ebd65c4bfa728a127f83d981125d985b7f33a2",
             "resolution": "sd",
             "encoding": "264",
-            "bytes": 1143754337,
+            "bytes": 1143754337.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -568,7 +605,7 @@
             "btih": "f4dbbd52026a43ce53bc3b94db57ced9ce957c87",
             "resolution": "1080",
             "encoding": "264",
-            "bytes": -2002290394,
+            "bytes": 2292676902.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -581,7 +618,7 @@
             "btih": "3936c644ceaf3b59a5ee32beb8ca242021505a3b",
             "resolution": "1080",
             "encoding": "none",
-            "bytes": 1427985256,
+            "bytes": 5722952552.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -594,7 +631,7 @@
             "btih": "b8350fc05b12f892d24f4ae08be7635bed00b1a6",
             "resolution": "1080",
             "encoding": "none",
-            "bytes": -1912081452,
+            "bytes": 2382885844.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -607,7 +644,7 @@
             "btih": "df88af74f41bfe7ce0544586ca418b75299191cf",
             "resolution": "720",
             "encoding": "none",
-            "bytes": 1569142784,
+            "bytes": 1569142784.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -620,7 +657,7 @@
             "btih": "fbf961493894bc1a2e385ee3d0bc0857ddd7f025",
             "resolution": "sd",
             "encoding": "none",
-            "bytes": 1378719308,
+            "bytes": 1378719308.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -633,7 +670,7 @@
             "btih": "d98844bf53a2ba495578062e8049c0f3f73338ff",
             "resolution": "1080",
             "encoding": "none",
-            "bytes": -1071036389,
+            "bytes": 3223930907.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -646,7 +683,7 @@
             "btih": "282f6c06adc810d40b94360b1158c455ab94d2b5",
             "resolution": "720",
             "encoding": "264",
-            "bytes": -1697292086,
+            "bytes": 2597675210.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -659,7 +696,7 @@
             "btih": "f6c6faeb5b677b2490637c362033cb8f9a2ad89a",
             "resolution": "1080",
             "encoding": "264",
-            "bytes": -1337955409,
+            "bytes": 2957011887.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -672,7 +709,7 @@
             "btih": "c336925d2a408a76e303b8d6876370f0d39e9e00",
             "resolution": "720",
             "encoding": "264",
-            "bytes": -1619126821,
+            "bytes": 2675840475.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -685,7 +722,7 @@
             "btih": "193f14c00ddfb3524d3598debe658bc04da6805f",
             "resolution": "2160",
             "encoding": "none",
-            "bytes": 157804863,
+            "bytes": 21632641343.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -698,7 +735,7 @@
             "btih": "0717f470723302dad127343791f7abbe71f1eaaf",
             "resolution": "1080",
             "encoding": "265",
-            "bytes": 1679695434,
+            "bytes": 1679695434.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -711,7 +748,7 @@
             "btih": "b464b39740a37a914e4c6d574c44c3aa6af9502d",
             "resolution": "1080",
             "encoding": "265",
-            "bytes": 1679695467,
+            "bytes": 1679695467.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -724,7 +761,7 @@
             "btih": "e01ae299ac062b56cea53803ec684cab610dbdde",
             "resolution": "2160",
             "encoding": "265",
-            "bytes": -488013772,
+            "bytes": 20986822708.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -737,7 +774,7 @@
             "btih": "425f427a87ef484350390826e74b4e21ccb18ffb",
             "resolution": "1080",
             "encoding": "none",
-            "bytes": 24147459,
+            "bytes": 4319114755.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -750,7 +787,7 @@
             "btih": "aba4951e99d0de9bcd80c9b019bee8d5838d6860",
             "resolution": "2160",
             "encoding": "265",
-            "bytes": -516079675,
+            "bytes": 20958756805.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -763,7 +800,7 @@
             "btih": "89f6b9c4012a4788a1cde758e08a6d7659a6fbbc",
             "resolution": "1080",
             "encoding": "265",
-            "bytes": -2098680678,
+            "bytes": 2196286618.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -776,7 +813,7 @@
             "btih": "1633f70277b67a402f1e57226fddafdab0a49ec9",
             "resolution": "2160",
             "encoding": "none",
-            "bytes": -1732847866,
+            "bytes": 11152054022.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -789,7 +826,7 @@
             "btih": "614f5afbe52be7e5d2312c99cdb0a1bb681a85c1",
             "resolution": "2160",
             "encoding": "265",
-            "bytes": 1918332257,
+            "bytes": 10508266849.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -802,7 +839,7 @@
             "btih": "7f91ee9e5c285d5921f2edd6deeb78ae711f96c0",
             "resolution": "1080",
             "encoding": "265",
-            "bytes": -1964499276,
+            "bytes": 2330468020.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -815,7 +852,7 @@
             "btih": "09abb6987ee8e1f2f0533d0376000c8159ca03a8",
             "resolution": "1080",
             "encoding": "none",
-            "bytes": -1249163882,
+            "bytes": 7340770710.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -828,7 +865,7 @@
             "btih": "3fdacd3b2af7957bb2845d39558634cbdbbf51a1",
             "resolution": "2160",
             "encoding": "265",
-            "bytes": -290525494,
+            "bytes": 12594376394.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -841,7 +878,7 @@
             "btih": "9941a9ff8e5b160ed9bdb04a3d966c96779d5bfb",
             "resolution": "sd",
             "encoding": "264",
-            "bytes": 1570174095,
+            "bytes": 1570174095.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -854,7 +891,7 @@
             "btih": "605e670265496c2e6265dd2fb521edf65866f919",
             "resolution": "1080",
             "encoding": "none",
-            "bytes": 1912103901,
+            "bytes": 6207071197.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -867,7 +904,7 @@
             "btih": "18cb1224c8792d032647f760afad2992e1498f31",
             "resolution": "2160",
             "encoding": "265",
-            "bytes": -141631653,
+            "bytes": 12743270235.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -880,7 +917,7 @@
             "btih": "e5ec6a7c67fb7042d9cb9fae5155017fefdafa2c",
             "resolution": "1080",
             "encoding": "none",
-            "bytes": -388844513,
+            "bytes": 8201090079.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -893,7 +930,7 @@
             "btih": "c89a598bb462b3bf43bca337acc1ee0d2a87b3ae",
             "resolution": "1080",
             "encoding": "264",
-            "bytes": 1563789383,
+            "bytes": 5858756679.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -906,7 +943,7 @@
             "btih": "5e11fa81f51690e8986f8ebec3c41b05a5ac3496",
             "resolution": "720",
             "encoding": "265",
-            "bytes": 868758467,
+            "bytes": 868758467.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -919,7 +956,7 @@
             "btih": "ec5d5f81684254d660d543c3d2f19fa53a115702",
             "resolution": "sd",
             "encoding": "none",
-            "bytes": 586152210,
+            "bytes": 586152210.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -932,7 +969,7 @@
             "btih": "517dc5b973b948e7fe07d4282551282b838fc68c",
             "resolution": "1080",
             "encoding": "265",
-            "bytes": 2064470217,
+            "bytes": 2064470217.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -945,7 +982,7 @@
             "btih": "ae9a038f0a0a2e9212e4fbe87ac869ca24a248ef",
             "resolution": "sd",
             "encoding": "none",
-            "bytes": -1864064835,
+            "bytes": 2430902461.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -958,7 +995,7 @@
             "btih": "f2d8d4914735239efbc7d760ad1a9db72a2d36a7",
             "resolution": "1080",
             "encoding": "none",
-            "bytes": 804936905,
+            "bytes": 5099904201.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -971,7 +1008,7 @@
             "btih": "8d16d6e540b15bf23f2f3b455cc596060aa48c56",
             "resolution": "720",
             "encoding": "none",
-            "bytes": 1335884365,
+            "bytes": 1335884365.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -984,7 +1021,7 @@
             "btih": "69e3cd0adf2dc1db7ee5e9df9a6aef12d234f6e1",
             "resolution": "2160",
             "encoding": "265",
-            "bytes": -291081040,
+            "bytes": 12593820848.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -997,7 +1034,7 @@
             "btih": "b2cfbce07c6a2cdb37915f1b69e1cfd69e017717",
             "resolution": "720",
             "encoding": "none",
-            "bytes": 1906512184,
+            "bytes": 1906512184.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1010,7 +1047,7 @@
             "btih": "f1b47eaa0a90ef8b5479633dce4d4b1fac68460e",
             "resolution": "1080",
             "encoding": "none",
-            "bytes": 632155117,
+            "bytes": 632155117.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1023,7 +1060,7 @@
             "btih": "8ded3217fc03025616ea6221f8046329e00c280d",
             "resolution": "1080",
             "encoding": "264",
-            "bytes": 646861216,
+            "bytes": 646861216.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1036,7 +1073,7 @@
             "btih": "14e9a12eb8eed88ab4c9089442308430be4ee493",
             "resolution": "sd",
             "encoding": "none",
-            "bytes": 49668565,
+            "bytes": 21524505045.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1049,7 +1086,7 @@
             "btih": "2bf9e190ea41c23c2995beae4ee826e42d3ad631",
             "resolution": "1080",
             "encoding": "264",
-            "bytes": -388844871,
+            "bytes": 8201089721.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1062,7 +1099,7 @@
             "btih": "70977fb29fbe61c9e8638d922b79d2f38dbb10ad",
             "resolution": "1080",
             "encoding": "none",
-            "bytes": 1804382395,
+            "bytes": 6099349691.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1075,7 +1112,7 @@
             "btih": "7dda1fd83be1609c126a484123605e054b8dd4b3",
             "resolution": "720",
             "encoding": "264",
-            "bytes": -1697449460,
+            "bytes": 2597517836.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1088,7 +1125,7 @@
             "btih": "5f709c2a71f1c887de42dd96fedef7e57e2977ed",
             "resolution": "720",
             "encoding": "xvid",
-            "bytes": 1602252880,
+            "bytes": 1602252880.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1101,7 +1138,7 @@
             "btih": "76df790bd0d27b52a6896bb189e8ec06cbb9c5cd",
             "resolution": "sd",
             "encoding": "none",
-            "bytes": 1322110738,
+            "bytes": 1322110738.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1114,7 +1151,7 @@
             "btih": "aa416078b841fb7f2d8286085da4bfa2e1ae16be",
             "resolution": "sd",
             "encoding": "none",
-            "bytes": 49763338,
+            "bytes": 21524599818.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1127,7 +1164,7 @@
             "btih": "d20cd9188a3ddb46e875963527dee07b24e320c5",
             "resolution": "720",
             "encoding": "none",
-            "bytes": 1819525543,
+            "bytes": 1819525543.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1140,7 +1177,7 @@
             "btih": "8f0a3c9152c90f53be6b56c4b911c0e1a7d3f16c",
             "resolution": "720",
             "encoding": "264",
-            "bytes": 676668170,
+            "bytes": 676668170.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1153,7 +1190,7 @@
             "btih": "0e954d2e990492ac92429d2b0cb2f686b7344cf2",
             "resolution": "720",
             "encoding": "264",
-            "bytes": -1697449572,
+            "bytes": 2597517724.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1166,7 +1203,7 @@
             "btih": "0a36e99b5ab86f54b8bab8b0fc90c6ec136f923a",
             "resolution": "1080",
             "encoding": "265",
-            "bytes": 1978589172,
+            "bytes": 1978589172.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1179,7 +1216,7 @@
             "btih": "0558ee2569013ff19c99391b832419e393b44c8a",
             "resolution": "sd",
             "encoding": "xvid",
-            "bytes": 1936532772,
+            "bytes": 1936532772.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1192,7 +1229,7 @@
             "btih": "a13d8e494122623bf50bb66cbdbc66bc10c9378a",
             "resolution": "1080",
             "encoding": "none",
-            "bytes": -388844117,
+            "bytes": 8201090475.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1205,7 +1242,7 @@
             "btih": "af8ea49583032c9ddd5970ff0e198f262da90e0c",
             "resolution": "720",
             "encoding": "xvid",
-            "bytes": 1600796672,
+            "bytes": 1600796672.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1218,7 +1255,7 @@
             "btih": "2f329dcf7954c4e684d732648ae841c57339c570",
             "resolution": "2160",
             "encoding": "none",
-            "bytes": 695526661,
+            "bytes": 22170363141.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1231,7 +1268,7 @@
             "btih": "fb8dcd7b8a198a6877ae1b46f99611667637f546",
             "resolution": "1080",
             "encoding": "none",
-            "bytes": -1548427793,
+            "bytes": 2746539503.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1244,7 +1281,7 @@
             "btih": "f85636c3df97fc4f9aff69aeb614737fd19249e4",
             "resolution": "sd",
             "encoding": "none",
-            "bytes": 1378719074,
+            "bytes": 1378719074.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1257,7 +1294,7 @@
             "btih": "022e72c10c37dc85c30b4fdb3a47eb2f6e4d427c",
             "resolution": "1080",
             "encoding": "none",
-            "bytes": 609753679,
+            "bytes": 609753679.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1270,7 +1307,7 @@
             "btih": "e1e1bbc907e3b13c1acb623ba0f0a6b3f1428463",
             "resolution": "1080",
             "encoding": "264",
-            "bytes": 646876636,
+            "bytes": 646876636.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1283,7 +1320,7 @@
             "btih": "afecefe4cba1393fbf194f1644d47871b00794e7",
             "resolution": "sd",
             "encoding": "xvid",
-            "bytes": 1936532772,
+            "bytes": 1936532772.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1296,7 +1333,7 @@
             "btih": "92b0c8e41f115dcb566d5524806775055e68bd17",
             "resolution": "sd",
             "encoding": "xvid",
-            "bytes": 1378719734,
+            "bytes": 1378719734.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1309,7 +1346,7 @@
             "btih": "d89b14ddd15f65963cf36030156a7f716c04cd4c",
             "resolution": "sd",
             "encoding": "none",
-            "bytes": -1249639101,
+            "bytes": 3045328195.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1322,7 +1359,7 @@
             "btih": "4042cc4504c2afb4dc5bc463da24d992a865c383",
             "resolution": "sd",
             "encoding": "264",
-            "bytes": 676647610,
+            "bytes": 676647610.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1335,7 +1372,7 @@
             "btih": "d348ff328c437926b561919497438631cf4793ad",
             "resolution": "2160",
             "encoding": "none",
-            "bytes": 396153898,
+            "bytes": 13281055786.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1348,7 +1385,7 @@
             "btih": "7beb15a8a719d8bfadfcd6e2b6f29c0073a8a3cf",
             "resolution": "1080",
             "encoding": "none",
-            "bytes": -1690501088,
+            "bytes": 2604466208.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1361,7 +1398,7 @@
             "btih": "0d34e568e34b6bd1891f1dde2f4b2fcf770e680e",
             "resolution": "sd",
             "encoding": "none",
-            "bytes": 1261706966,
+            "bytes": 1261706966.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1374,7 +1411,7 @@
             "btih": "b45db829acab2c39543cae5151b8aff1aa40183a",
             "resolution": "2160",
             "encoding": "265",
-            "bytes": 695525873,
+            "bytes": 22170362353.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1387,7 +1424,7 @@
             "btih": "8b1e23e49ef72def8676b0b6fa2c1b299a305cf3",
             "resolution": "720",
             "encoding": "none",
-            "bytes": 1189162731,
+            "bytes": 1189162731.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1400,7 +1437,7 @@
             "btih": "7f833ed2481564e52ab8b8b39240c6cc482ecf35",
             "resolution": "1080",
             "encoding": "none",
-            "bytes": -1952630269,
+            "bytes": 6637304323.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1413,7 +1450,7 @@
             "btih": "90b3fabacf7c9516d5a8286e06457d9ae711c847",
             "resolution": "sd",
             "encoding": "none",
-            "bytes": 410618053,
+            "bytes": 410618053.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1426,7 +1463,7 @@
             "btih": "6bc06a1b9d7f5ecb406a5d4aa4b9e405b9f26816",
             "resolution": "1080",
             "encoding": "264",
-            "bytes": 1563791254,
+            "bytes": 5858758550.0,
             "ssl": false,
             "private": true,
             "i2p": false,
@@ -1439,7 +1476,7 @@
             "btih": "bbdf756dc72824b3884dca133ed0ecf8d64f1597",
             "resolution": "sd",
             "encoding": "xvid",
-            "bytes": 832656951,
+            "bytes": 832656951.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1452,7 +1489,7 @@
             "btih": "c63fb408f43cb14511be356d081c080da85ef9fc",
             "resolution": "sd",
             "encoding": "none",
-            "bytes": 733633576,
+            "bytes": 733633576.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1465,7 +1502,7 @@
             "btih": "32c01ce16e3eb88458daef921471fcae67eb7482",
             "resolution": "sd",
             "encoding": "264",
-            "bytes": 762884083,
+            "bytes": 762884083.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1478,7 +1515,7 @@
             "btih": "9b14bfe76fe099d52dff72b3d9aa56a321321ca9",
             "resolution": "720",
             "encoding": "none",
-            "bytes": 677836138,
+            "bytes": 4972803434.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1491,7 +1528,7 @@
             "btih": "60fae480d29f175f7581ac446ea0a0dcfc91b936",
             "resolution": "720",
             "encoding": "264",
-            "bytes": -1249637771,
+            "bytes": 3045329525.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1504,7 +1541,7 @@
             "btih": "75991384ba8f70b8f8054f31a612b7ec7bca8eb7",
             "resolution": "1080",
             "encoding": "264",
-            "bytes": 1471193369,
+            "bytes": 5766160665.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1517,7 +1554,7 @@
             "btih": "cde8849e9c20dee0f18458096b8a03f6a2f76752",
             "resolution": "1080",
             "encoding": "265",
-            "bytes": 1876300755,
+            "bytes": 1876300755.0,
             "ssl": false,
             "private": true,
             "i2p": false,
@@ -1530,7 +1567,7 @@
             "btih": "deca575b16cb29d8fc04237e1fa47fe2f2a136be",
             "resolution": "sd",
             "encoding": "264",
-            "bytes": 1143757983,
+            "bytes": 1143757983.0,
             "ssl": false,
             "private": true,
             "i2p": false,
@@ -1543,7 +1580,7 @@
             "btih": "8ceb15f7dc17e8b17ec78eebb456f48449b03169",
             "resolution": "1080",
             "encoding": "none",
-            "bytes": -1928107694,
+            "bytes": 6661826898.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1556,7 +1593,7 @@
             "btih": "c4bd1a89d0e5878d426f9a31872118a3b12abcbb",
             "resolution": "1080",
             "encoding": "264",
-            "bytes": -2002286900,
+            "bytes": 2292680396.0,
             "ssl": false,
             "private": true,
             "i2p": false,
@@ -1569,7 +1606,7 @@
             "btih": "2884a0f97a97f76b64820e988941137f2a367ccb",
             "resolution": "2160",
             "encoding": "none",
-            "bytes": -141631684,
+            "bytes": 12743270204.0,
             "ssl": false,
             "private": true,
             "i2p": false,
@@ -1582,7 +1619,7 @@
             "btih": "1dbabe5bb6738ae60240d070ad200b0f3c45c1e8",
             "resolution": "1080",
             "encoding": "264",
-            "bytes": 1266341030,
+            "bytes": 5561308326.0,
             "ssl": false,
             "private": true,
             "i2p": false,
@@ -1595,7 +1632,7 @@
             "btih": "f2281fe3d3dc86cf9c7f4c8f0606babe25f53839",
             "resolution": "2160",
             "encoding": "265",
-            "bytes": -731449287,
+            "bytes": 20743387193.0,
             "ssl": false,
             "private": true,
             "i2p": false,
@@ -1608,7 +1645,7 @@
             "btih": "008765d08bb4093220e47bb5d0b98bb9d224d3ae",
             "resolution": "2160",
             "encoding": "265",
-            "bytes": 1702958534,
+            "bytes": 10292893126.0,
             "ssl": false,
             "private": true,
             "i2p": false,
@@ -1621,7 +1658,7 @@
             "btih": "a93522a6ab879162235201605ba8259fb9b54cc0",
             "resolution": "1080",
             "encoding": "none",
-            "bytes": 852885786,
+            "bytes": 9442820378.0,
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1634,7 +1671,7 @@
             "btih": "dff3667d73bdf39c5a76feff05269edf06c16a2e",
             "resolution": "2160",
             "encoding": "265",
-            "bytes": -506228063,
+            "bytes": 12378673825.0,
             "ssl": false,
             "private": true,
             "i2p": false,
@@ -1647,7 +1684,7 @@
             "btih": "514a6a7a21cb732ad4d64ce064bec252ca54f63b",
             "resolution": "1080",
             "encoding": "264",
-            "bytes": 1884531512,
+            "bytes": 6179498808.0,
             "ssl": false,
             "private": true,
             "i2p": false,
@@ -1660,7 +1697,7 @@
             "btih": "906d21db4e75539518188446e30a3f0aa6f3d476",
             "resolution": "720",
             "encoding": "264",
-            "bytes": -1619121658,
+            "bytes": 2675845638.0,
             "ssl": false,
             "private": true,
             "i2p": false,
@@ -1673,7 +1710,7 @@
             "btih": "41d8d9eaa8e4f787ad3ac814874cc20b1943dacd",
             "resolution": "2160",
             "encoding": "265",
-            "bytes": -141628699,
+            "bytes": 12743273189.0,
             "ssl": false,
             "private": true,
             "i2p": false,
@@ -1686,7 +1723,7 @@
             "btih": "542bc7deaf6663e4e5d1aa9069f70d7dea6dc66c",
             "resolution": "1080",
             "encoding": "264",
-            "bytes": 1274756745,
+            "bytes": 5569724041.0,
             "ssl": false,
             "private": true,
             "i2p": false,
@@ -1699,7 +1736,7 @@
             "btih": "814560d92247f5471b70ce57292fa3a950af9ba4",
             "resolution": "1080",
             "encoding": "264",
-            "bytes": 1588948986,
+            "bytes": 5883916282.0,
             "ssl": false,
             "private": true,
             "i2p": false,
