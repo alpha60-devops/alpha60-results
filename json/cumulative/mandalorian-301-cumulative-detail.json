@@ -2,24 +2,24 @@
     "collection-name": "The Mandalorian",
     "collection-id": "301",
     "data-version": "2023-05-31",
-    "sample-duration": "2023-03-01-to-2023-08-15",
-    "sample-days": 168,
+    "sample-duration": "2023-03-01-to-2023-08-29",
+    "sample-days": 182,
     "sample-year-start": 2023,
     "sample-year-end": 2023,
     "sample-day-year-start": 60,
-    "sample-day-year-end": 227,
+    "sample-day-year-end": 241,
     "collection-all-btiha-total": {
         "btiha-size": 252,
-        "upeers-total": 9394595,
-        "useeds-total": 2293627,
-        "anomaly-total": 34317,
-        "anomaly-percentage": "0.37"
+        "upeers-total": 9852929,
+        "useeds-total": 2329478,
+        "anomaly-total": 37726,
+        "anomaly-percentage": "0.38"
     },
     "collection-unique-btiha-total": {
         "btiha-size": 229,
-        "upeers-total": 8549923,
-        "useeds-total": 2036976,
-        "anomaly-total": 30457,
+        "upeers-total": 8986039,
+        "useeds-total": 2070990,
+        "anomaly-total": 32762,
         "anomaly-percentage": "0.36"
     },
     "collection-unique-btiha-week-00001": {
@@ -142,108 +142,118 @@
         "upeers-total": 8549923,
         "useeds-total": 2036976
     },
+    "collection-unique-btiha-week-00025": {
+        "btiha-size": 229,
+        "upeers-total": 8767456,
+        "useeds-total": 2052848
+    },
+    "collection-unique-btiha-week-00026": {
+        "btiha-size": 229,
+        "upeers-total": 8986039,
+        "useeds-total": 2070990
+    },
     "transfer-units": "terabyte",
-    "transfer-size": 14776.682004022363,
+    "transfer-size": 15572.21699604122,
     "transfer-price-1-name": "CloudFront-1-year",
     "transfer-price-1-per-gigabyte-cost": 0.005,
-    "transfer-price-1-USD": 241883.41002011184,
+    "transfer-price-1-USD": 245861.0849802061,
     "geo-whole-earth-resolution-partitions": [
         {
             "number": 1,
             "name": "1080-all",
-            "upeers-total": 3704886,
-            "total-percentage-upeers": "43.33",
-            "total-percentage-bytes": "39.81"
+            "upeers-total": 3853349,
+            "total-percentage-upeers": "42.88",
+            "total-percentage-bytes": "39.31"
         },
         {
             "number": 2,
-            "name": "sd-all",
-            "upeers-total": 1628934,
-            "total-percentage-upeers": "19.05",
-            "total-percentage-bytes": "8.56"
+            "name": "720-all",
+            "upeers-total": 1746336,
+            "total-percentage-upeers": "19.43",
+            "total-percentage-bytes": "13.05"
         },
         {
             "number": 3,
-            "name": "720-all",
-            "upeers-total": 1626365,
-            "total-percentage-upeers": "19.02",
-            "total-percentage-bytes": "12.74"
+            "name": "sd-all",
+            "upeers-total": 1703638,
+            "total-percentage-upeers": "18.96",
+            "total-percentage-bytes": "8.56"
         },
         {
             "number": 4,
             "name": "2160-all",
-            "upeers-total": 1589738,
-            "total-percentage-upeers": "18.59",
-            "total-percentage-bytes": "38.89"
+            "upeers-total": 1682716,
+            "total-percentage-upeers": "18.73",
+            "total-percentage-bytes": "39.08"
         }
     ],
     "geo-slices-4-longitude-region-peers": [
         {
             "number": 1,
             "name": "Pacifica America",
-            "upeers-slice": 304736,
-            "slice-percentage-upeers": "3.56"
+            "upeers-slice": 314475,
+            "slice-percentage-upeers": "3.50"
         },
         {
             "number": 2,
             "name": "Americas",
-            "upeers-slice": 1685735,
-            "slice-percentage-upeers": "19.72"
+            "upeers-slice": 1792693,
+            "slice-percentage-upeers": "19.95"
         },
         {
             "number": 3,
             "name": "Afro Eur Asia",
-            "upeers-slice": 4903301,
-            "slice-percentage-upeers": "57.35"
+            "upeers-slice": 5177170,
+            "slice-percentage-upeers": "57.61"
         },
         {
             "number": 4,
             "name": "Asia Pacifica",
-            "upeers-slice": 1655468,
-            "slice-percentage-upeers": "19.36"
+            "upeers-slice": 1700759,
+            "slice-percentage-upeers": "18.93"
         }
     ],
     "geo-slices-continental-peers": [
         {
             "number": 1,
             "name": "Europe",
-            "upeers-slice": 4260352,
-            "slice-percentage-upeers": "49.83"
+            "upeers-slice": 4487248,
+            "slice-percentage-upeers": "49.94"
         },
         {
             "number": 2,
             "name": "Asia",
-            "upeers-slice": 1524235,
-            "slice-percentage-upeers": "17.83"
+            "upeers-slice": 1600113,
+            "slice-percentage-upeers": "17.81"
         },
         {
             "number": 3,
             "name": "North America",
-            "upeers-slice": 1179780,
-            "slice-percentage-upeers": "13.80"
+            "upeers-slice": 1247648,
+            "slice-percentage-upeers": "13.88"
         },
         {
             "number": 4,
             "name": "South America",
-            "upeers-slice": 638970,
-            "slice-percentage-upeers": "7.47"
+            "upeers-slice": 684238,
+            "slice-percentage-upeers": "7.61"
         },
         {
             "number": 5,
             "name": "Africa",
-            "upeers-slice": 267425,
-            "slice-percentage-upeers": "3.13"
+            "upeers-slice": 274570,
+            "slice-percentage-upeers": "3.06"
         },
         {
             "number": 6,
             "name": "Oceania",
-            "upeers-slice": 161925,
-            "slice-percentage-upeers": "1.89"
+            "upeers-slice": 165111,
+            "slice-percentage-upeers": "1.84"
         },
         {
             "number": 7,
             "name": "",
-            "upeers-slice": 14431,
+            "upeers-slice": 15490,
             "slice-percentage-upeers": "0.17"
         }
     ],
@@ -252,71 +262,71 @@
             "number": 1,
             "country-code": "RUS",
             "country-name": "Russian Federation",
-            "total-percentage-upeers": "18.68",
-            "upeers-total": 1597528
+            "total-percentage-upeers": "18.37",
+            "upeers-total": 1650374
         },
         {
             "number": 2,
             "country-code": "USA",
             "country-name": "United States of America",
-            "total-percentage-upeers": "9.24",
-            "upeers-total": 789881
+            "total-percentage-upeers": "9.16",
+            "upeers-total": 823477
         },
         {
             "number": 3,
             "country-code": "BRA",
             "country-name": "Brazil",
-            "total-percentage-upeers": "5.23",
-            "upeers-total": 446968
+            "total-percentage-upeers": "5.33",
+            "upeers-total": 479330
         },
         {
             "number": 4,
             "country-code": "CHN",
             "country-name": "China",
-            "total-percentage-upeers": "4.76",
-            "upeers-total": 407082
+            "total-percentage-upeers": "4.64",
+            "upeers-total": 416513
         },
         {
             "number": 5,
             "country-code": "KOR",
             "country-name": "Korea, Republic of",
-            "total-percentage-upeers": "3.84",
-            "upeers-total": 327989
+            "total-percentage-upeers": "3.79",
+            "upeers-total": 340313
         },
         {
             "number": 6,
             "country-code": "ESP",
             "country-name": "Spain",
-            "total-percentage-upeers": "3.58",
-            "upeers-total": 305818
+            "total-percentage-upeers": "3.63",
+            "upeers-total": 326557
         },
         {
             "number": 7,
             "country-code": "FRA",
             "country-name": "France",
-            "total-percentage-upeers": "3.21",
-            "upeers-total": 274791
+            "total-percentage-upeers": "3.37",
+            "upeers-total": 302816
         },
         {
             "number": 8,
             "country-code": "GBR",
             "country-name": "United Kingdom of Great Britain and Northern Ireland",
-            "total-percentage-upeers": "3.02",
-            "upeers-total": 258377
+            "total-percentage-upeers": "3.04",
+            "upeers-total": 273255
         },
         {
             "number": 9,
             "country-code": "NLD",
             "country-name": "Netherlands",
-            "total-percentage-upeers": "2.90",
-            "upeers-total": 248053
+            "total-percentage-upeers": "2.85",
+            "upeers-total": 255920
         },
         {
             "number": 10,
-            "country-code": "CAN",
-            "country-name": "Canada",
-            "total-percentage-upeers": "2.31",
-            "upeers-total": 197907
+            "country-code": "TUR",
+            "country-name": "Turkey",
+            "total-percentage-upeers": "2.37",
+            "upeers-total": 212853
         }
     ],
     "geo-country-top-10-seeds": [
@@ -324,71 +334,71 @@
             "number": 1,
             "country-code": "USA",
             "country-name": "United States of America",
-            "total-percentage-upeers": "10.46",
-            "upeers-total": 213058
+            "total-percentage-upeers": "10.61",
+            "upeers-total": 219762
         },
         {
             "number": 2,
             "country-code": "RUS",
             "country-name": "Russian Federation",
-            "total-percentage-upeers": "8.11",
-            "upeers-total": 165194
+            "total-percentage-upeers": "8.08",
+            "upeers-total": 167244
         },
         {
             "number": 3,
             "country-code": "BRA",
             "country-name": "Brazil",
-            "total-percentage-upeers": "7.04",
-            "upeers-total": 143478
+            "total-percentage-upeers": "7.05",
+            "upeers-total": 146080
         },
         {
             "number": 4,
             "country-code": "ESP",
             "country-name": "Spain",
-            "total-percentage-upeers": "6.06",
-            "upeers-total": 123401
+            "total-percentage-upeers": "6.03",
+            "upeers-total": 124833
         },
         {
             "number": 5,
             "country-code": "CHN",
             "country-name": "China",
             "total-percentage-upeers": "3.91",
-            "upeers-total": 79696
+            "upeers-total": 81078
         },
         {
             "number": 6,
             "country-code": "GBR",
             "country-name": "United Kingdom of Great Britain and Northern Ireland",
-            "total-percentage-upeers": "3.43",
-            "upeers-total": 69831
+            "total-percentage-upeers": "3.41",
+            "upeers-total": 70570
         },
         {
             "number": 7,
             "country-code": "CAN",
             "country-name": "Canada",
-            "total-percentage-upeers": "2.62",
-            "upeers-total": 53358
+            "total-percentage-upeers": "2.66",
+            "upeers-total": 55051
         },
         {
             "number": 8,
             "country-code": "AUS",
             "country-name": "Australia",
-            "total-percentage-upeers": "2.59",
-            "upeers-total": 52787
+            "total-percentage-upeers": "2.58",
+            "upeers-total": 53517
         },
         {
             "number": 9,
             "country-code": "IRL",
             "country-name": "Ireland",
-            "total-percentage-upeers": "2.29",
-            "upeers-total": 46745
+            "total-percentage-upeers": "2.26",
+            "upeers-total": 46837
         },
         {
             "number": 10,
             "country-code": "DEU",
             "country-name": "Germany",
-            "total-percentage-upeers": "2.28",
-            "upeers-total": 46422
+            "total-percentage-upeers": "2.25",
+            "upeers-total": 46639
         }
     ],
     "geo-country-region-city-top-30-peers": [
@@ -396,211 +406,211 @@
             "number": 1,
             "country-code": "RUS",
             "country-name": "Russian Federation, Moscow",
-            "total-percentage-upeers": "2.96",
-            "upeers-total": 253199
+            "total-percentage-upeers": "2.90",
+            "upeers-total": 260337
         },
         {
             "number": 2,
-            "country-code": "NLD",
-            "country-name": "Netherlands, Amsterdam",
-            "total-percentage-upeers": "1.64",
-            "upeers-total": 140070
+            "country-code": "CHN",
+            "country-name": "China",
+            "total-percentage-upeers": "1.60",
+            "upeers-total": 143462
         },
         {
             "number": 3,
-            "country-code": "CHN",
-            "country-name": "China",
-            "total-percentage-upeers": "1.64",
-            "upeers-total": 139972
+            "country-code": "NLD",
+            "country-name": "Netherlands, Amsterdam",
+            "total-percentage-upeers": "1.59",
+            "upeers-total": 142594
         },
         {
             "number": 4,
             "country-code": "USA",
             "country-name": "United States of America, Ashburn",
-            "total-percentage-upeers": "1.53",
-            "upeers-total": 131192
+            "total-percentage-upeers": "1.58",
+            "upeers-total": 141578
         },
         {
             "number": 5,
             "country-code": "RUS",
             "country-name": "Russian Federation, St Petersburg",
-            "total-percentage-upeers": "1.26",
-            "upeers-total": 107971
+            "total-percentage-upeers": "1.24",
+            "upeers-total": 111167
         },
         {
             "number": 6,
             "country-code": "RUS",
             "country-name": "Russian Federation",
-            "total-percentage-upeers": "1.20",
-            "upeers-total": 102396
+            "total-percentage-upeers": "1.18",
+            "upeers-total": 106341
         },
         {
             "number": 7,
-            "country-code": "DEU",
-            "country-name": "Germany, Frankfurt am Main",
-            "total-percentage-upeers": "0.71",
-            "upeers-total": 60438
+            "country-code": "TUR",
+            "country-name": "Turkey, Istanbul",
+            "total-percentage-upeers": "0.76",
+            "upeers-total": 68195
         },
         {
             "number": 8,
-            "country-code": "TUR",
-            "country-name": "Turkey, Istanbul",
-            "total-percentage-upeers": "0.69",
-            "upeers-total": 58955
+            "country-code": "DEU",
+            "country-name": "Germany, Frankfurt am Main",
+            "total-percentage-upeers": "0.68",
+            "upeers-total": 61069
         },
         {
             "number": 9,
-            "country-code": "IRL",
-            "country-name": "Ireland, Dublin",
-            "total-percentage-upeers": "0.66",
-            "upeers-total": 56834
-        },
-        {
-            "number": 10,
             "country-code": "FRA",
             "country-name": "France",
             "total-percentage-upeers": "0.66",
-            "upeers-total": 56635
+            "upeers-total": 59610
+        },
+        {
+            "number": 10,
+            "country-code": "IRL",
+            "country-name": "Ireland, Dublin",
+            "total-percentage-upeers": "0.64",
+            "upeers-total": 57353
         },
         {
             "number": 11,
-            "country-code": "ESP",
-            "country-name": "Spain, Madrid",
+            "country-code": "BRA",
+            "country-name": "Brazil, SĂŁo Paulo",
             "total-percentage-upeers": "0.59",
-            "upeers-total": 50737
+            "upeers-total": 53017
         },
         {
             "number": 12,
-            "country-code": "RUS",
-            "country-name": "Russian Federation, Yekaterinburg",
-            "total-percentage-upeers": "0.58",
-            "upeers-total": 49447
+            "country-code": "ESP",
+            "country-name": "Spain, Madrid",
+            "total-percentage-upeers": "0.59",
+            "upeers-total": 52798
         },
         {
             "number": 13,
-            "country-code": "BRA",
-            "country-name": "Brazil, SĂŁo Paulo",
-            "total-percentage-upeers": "0.58",
-            "upeers-total": 49217
+            "country-code": "RUS",
+            "country-name": "Russian Federation, Yekaterinburg",
+            "total-percentage-upeers": "0.57",
+            "upeers-total": 51094
         },
         {
             "number": 14,
             "country-code": "NLD",
             "country-name": "Netherlands",
             "total-percentage-upeers": "0.56",
-            "upeers-total": 48219
+            "upeers-total": 49937
         },
         {
             "number": 15,
             "country-code": "CAN",
             "country-name": "Canada, Toronto",
             "total-percentage-upeers": "0.54",
-            "upeers-total": 45799
+            "upeers-total": 48793
         },
         {
             "number": 16,
             "country-code": "RUS",
             "country-name": "Russian Federation, Novosibirsk",
-            "total-percentage-upeers": "0.52",
-            "upeers-total": 44178
+            "total-percentage-upeers": "0.50",
+            "upeers-total": 45311
         },
         {
             "number": 17,
             "country-code": "GBR",
             "country-name": "United Kingdom of Great Britain and Northern Ireland, London",
-            "total-percentage-upeers": "0.51",
-            "upeers-total": 43442
+            "total-percentage-upeers": "0.49",
+            "upeers-total": 44350
         },
         {
             "number": 18,
             "country-code": "USA",
             "country-name": "United States of America, New York",
-            "total-percentage-upeers": "0.48",
-            "upeers-total": 41093
+            "total-percentage-upeers": "0.47",
+            "upeers-total": 41803
         },
         {
             "number": 19,
             "country-code": "USA",
             "country-name": "United States of America, Boardman",
-            "total-percentage-upeers": "0.48",
-            "upeers-total": 40808
+            "total-percentage-upeers": "0.46",
+            "upeers-total": 40901
         },
         {
             "number": 20,
             "country-code": "AUS",
             "country-name": "Australia, Sydney",
-            "total-percentage-upeers": "0.47",
-            "upeers-total": 39983
+            "total-percentage-upeers": "0.45",
+            "upeers-total": 40813
         },
         {
             "number": 21,
             "country-code": "BGR",
             "country-name": "Bulgaria, Sofia",
-            "total-percentage-upeers": "0.46",
-            "upeers-total": 39522
+            "total-percentage-upeers": "0.45",
+            "upeers-total": 40788
         },
         {
             "number": 22,
             "country-code": "HUN",
             "country-name": "Hungary, Budapest",
-            "total-percentage-upeers": "0.44",
-            "upeers-total": 37916
+            "total-percentage-upeers": "0.45",
+            "upeers-total": 40485
         },
         {
             "number": 23,
             "country-code": "AUS",
             "country-name": "Australia, Melbourne",
-            "total-percentage-upeers": "0.44",
-            "upeers-total": 37397
+            "total-percentage-upeers": "0.42",
+            "upeers-total": 37979
         },
         {
             "number": 24,
             "country-code": "CHN",
             "country-name": "China, Shanghai",
-            "total-percentage-upeers": "0.41",
-            "upeers-total": 35327
+            "total-percentage-upeers": "0.40",
+            "upeers-total": 36149
         },
         {
             "number": 25,
             "country-code": "FRA",
             "country-name": "France, Paris",
-            "total-percentage-upeers": "0.40",
-            "upeers-total": 34049
+            "total-percentage-upeers": "0.39",
+            "upeers-total": 35117
         },
         {
             "number": 26,
             "country-code": "RUS",
             "country-name": "Russian Federation, Nizhniy Novgorod",
             "total-percentage-upeers": "0.39",
-            "upeers-total": 33658
+            "upeers-total": 34980
         },
         {
             "number": 27,
             "country-code": "USA",
             "country-name": "United States of America",
             "total-percentage-upeers": "0.38",
-            "upeers-total": 32395
+            "upeers-total": 34069
         },
         {
             "number": 28,
-            "country-code": "USA",
-            "country-name": "United States of America, Chicago",
-            "total-percentage-upeers": "0.36",
-            "upeers-total": 30448
-        },
-        {
-            "number": 29,
             "country-code": "CAN",
             "country-name": "Canada, Montreal",
             "total-percentage-upeers": "0.35",
-            "upeers-total": 30332
+            "upeers-total": 31346
+        },
+        {
+            "number": 29,
+            "country-code": "USA",
+            "country-name": "United States of America, Chicago",
+            "total-percentage-upeers": "0.35",
+            "upeers-total": 31062
         },
         {
             "number": 30,
             "country-code": "GRC",
             "country-name": "Greece, Athens",
             "total-percentage-upeers": "0.34",
-            "upeers-total": 29323
+            "upeers-total": 30125
         }
     ],
     "collection-unique-btiha-detail": [
@@ -614,11 +624,11 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 502812,
-            "seed": 250976
+            "peer": 511628,
+            "seed": 256647
         },
         {
-            "id": 4693,
+            "id": 5061,
             "name": "multi-btih-0-2-x-The Mandalorian (2023) (S03E01) (1080p)",
             "btih": "0b39db8697946dc2c96a7a447db3474bdad0cf55",
             "resolution": "1080",
@@ -627,8 +637,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 291071,
-            "seed": 91068
+            "peer": 296466,
+            "seed": 91718
         },
         {
             "id": 96,
@@ -640,21 +650,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 249651,
-            "seed": 112044
-        },
-        {
-            "id": 101,
-            "name": "The.Mandalorian.S03E01.1080p.WEB.h264-TRUFFLE[eztv.re].mkv",
-            "btih": "0c768b1d99a48f89b428d9191def5bd8c86631ea",
-            "resolution": "1080",
-            "encoding": "264",
-            "bytes": 1793680436.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 198032,
-            "seed": 81459
+            "peer": 255046,
+            "seed": 114219
         },
         {
             "id": 92,
@@ -666,8 +663,21 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 197648,
-            "seed": 117184
+            "peer": 203085,
+            "seed": 119667
+        },
+        {
+            "id": 101,
+            "name": "The.Mandalorian.S03E01.1080p.WEB.h264-TRUFFLE[eztv.re].mkv",
+            "btih": "0c768b1d99a48f89b428d9191def5bd8c86631ea",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": 1793680436.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 202598,
+            "seed": 83394
         },
         {
             "id": 146,
@@ -679,8 +689,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 187919,
-            "seed": 82329
+            "peer": 191582,
+            "seed": 83238
         },
         {
             "id": 179,
@@ -692,11 +702,11 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 171057,
-            "seed": 77663
+            "peer": 175163,
+            "seed": 78450
         },
         {
-            "id": 4695,
+            "id": 5063,
             "name": "multi-btih-2-2-x-The Mandalorian (2023) (S03E01) (480p)",
             "btih": "44295e19f8dbd448009e9a1c4019beaba08c5df5",
             "resolution": "sd",
@@ -705,11 +715,11 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 145556,
-            "seed": 56952
+            "peer": 148692,
+            "seed": 57237
         },
         {
-            "id": 4715,
+            "id": 5083,
             "name": "multi-btih-22-2-x-[rutor.is]The.Mandalorian",
             "btih": "074db357940ab196cdd07b4749b6e66b08596516",
             "resolution": "1080",
@@ -718,11 +728,11 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 132637,
-            "seed": 26853
+            "peer": 139530,
+            "seed": 27081
         },
         {
-            "id": 4712,
+            "id": 5080,
             "name": "multi-btih-19-2-x-The.Mandalorian.S03E01.2160p.DSNP.WEB-DL.x265.10bit.HDR.DDP5.1.Atmos-NTb[rartv]-[rarbg.to]",
             "btih": "72d5402d9c78bf3696fde2dd42bfa0475f98e1b6",
             "resolution": "2160",
@@ -731,8 +741,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 127732,
-            "seed": 49812
+            "peer": 129776,
+            "seed": 50059
         },
         {
             "id": 207,
@@ -744,8 +754,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 126041,
-            "seed": 68252
+            "peer": 129696,
+            "seed": 69098
         },
         {
             "id": 22,
@@ -757,8 +767,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 115212,
-            "seed": 55359
+            "peer": 118562,
+            "seed": 56018
         },
         {
             "id": 106,
@@ -770,8 +780,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 113917,
-            "seed": 41858
+            "peer": 116358,
+            "seed": 42377
         },
         {
             "id": 20,
@@ -783,8 +793,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 105154,
-            "seed": 52398
+            "peer": 107920,
+            "seed": 52990
         },
         {
             "id": 85,
@@ -796,8 +806,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 101088,
-            "seed": 24091
+            "peer": 103355,
+            "seed": 24588
         },
         {
             "id": 113,
@@ -809,8 +819,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 96836,
-            "seed": 37017
+            "peer": 99329,
+            "seed": 37451
         },
         {
             "id": 253,
@@ -822,11 +832,11 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 93137,
-            "seed": 22922
+            "peer": 95822,
+            "seed": 23252
         },
         {
-            "id": 4696,
+            "id": 5064,
             "name": "multi-btih-3-2-x-The Mandalorian (2023) (S03E01) (720p)",
             "btih": "0997bba0959b7d4ac55b9a91be7212452d893fdc",
             "resolution": "720",
@@ -835,11 +845,11 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 91169,
-            "seed": 24231
+            "peer": 94232,
+            "seed": 24462
         },
         {
-            "id": 4713,
+            "id": 5081,
             "name": "multi-btih-20-2-x-The.Mandalorian.S03E01.2160p.WEB-DL.x265.8bit.SDR.DDP5.1.Atmos-NTb[rartv]-[rarbg.to]",
             "btih": "1ad47c0caad42ac28a543db7a320b42720cc4bd4",
             "resolution": "2160",
@@ -848,8 +858,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 83849,
-            "seed": 25017
+            "peer": 86914,
+            "seed": 25201
         },
         {
             "id": 129,
@@ -861,8 +871,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 76339,
-            "seed": 14698
+            "peer": 80457,
+            "seed": 15055
         },
         {
             "id": 102,
@@ -874,11 +884,11 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 73884,
-            "seed": 22867
+            "peer": 76222,
+            "seed": 23041
         },
         {
-            "id": 4694,
+            "id": 5062,
             "name": "multi-btih-1-2-x-The Mandalorian (2023) (S03E01) (2160p)",
             "btih": "9e2bd10a910149323356f2f04e22cdc32fa5978f",
             "resolution": "2160",
@@ -887,21 +897,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 71443,
-            "seed": 17578
-        },
-        {
-            "id": 194,
-            "name": "The.Mandalorian.S03E01.rus.LostFilm.TV.avi",
-            "btih": "813c244708608f695f1b80562094b0ed9eeaaed0",
-            "resolution": "720",
-            "encoding": "none",
-            "bytes": 416817152.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 68635,
-            "seed": 18578
+            "peer": 76062,
+            "seed": 17703
         },
         {
             "id": 135,
@@ -913,11 +910,24 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 66552,
-            "seed": 20415
+            "peer": 75304,
+            "seed": 20572
         },
         {
-            "id": 4699,
+            "id": 194,
+            "name": "The.Mandalorian.S03E01.rus.LostFilm.TV.avi",
+            "btih": "813c244708608f695f1b80562094b0ed9eeaaed0",
+            "resolution": "720",
+            "encoding": "none",
+            "bytes": 416817152.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 73190,
+            "seed": 18875
+        },
+        {
+            "id": 5067,
             "name": "multi-btih-6-2-x-The.Mandalorian.S03.1080p.Kerob",
             "btih": "c60584af99cd6d49fc07c3ab1ebc697066ae621e",
             "resolution": "1080",
@@ -926,11 +936,11 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 63213,
-            "seed": 20081
+            "peer": 65820,
+            "seed": 20211
         },
         {
-            "id": 4697,
+            "id": 5065,
             "name": "multi-btih-4-2-x-The Mandalorian (Season 3) WEB-DLRip",
             "btih": "d0dc9f2bb9e4802f52862a47a16a17920fffdb64",
             "resolution": "sd",
@@ -939,11 +949,11 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 62722,
-            "seed": 5231
+            "peer": 64636,
+            "seed": 5302
         },
         {
-            "id": 4709,
+            "id": 5077,
             "name": "multi-btih-16-2-x-The.Mandalorian.S03E01.1080p.HEVC.x265-MeGusta [IPT]",
             "btih": "496f355ce9abf8b39660e7e6087267ba28d2c2c0",
             "resolution": "1080",
@@ -952,21 +962,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 59241,
-            "seed": 15450
-        },
-        {
-            "id": 144,
-            "name": "The.Mandalorian.S03E01.720p.WEB.h264-KOGi[eztv.re].mkv",
-            "btih": "6886189a2a44fd2f12b1b460391fc61178dd017d",
-            "resolution": "720",
-            "encoding": "264",
-            "bytes": 1041451305.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 56632,
-            "seed": 15703
+            "peer": 60781,
+            "seed": 15980
         },
         {
             "id": 61,
@@ -978,24 +975,24 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 55837,
-            "seed": 3991
+            "peer": 59643,
+            "seed": 4011
         },
         {
-            "id": 4707,
-            "name": "multi-btih-14-2-x-The.Mandalorian.S03.WEB-DLRip.HDRezka",
-            "btih": "13a477f69fea22f91172c8452d4c02da17eab83d",
-            "resolution": "sd",
-            "encoding": "none",
-            "bytes": 451172352.0,
+            "id": 144,
+            "name": "The.Mandalorian.S03E01.720p.WEB.h264-KOGi[eztv.re].mkv",
+            "btih": "6886189a2a44fd2f12b1b460391fc61178dd017d",
+            "resolution": "720",
+            "encoding": "264",
+            "bytes": 1041451305.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 53127,
-            "seed": 2909
+            "peer": 58281,
+            "seed": 16060
         },
         {
-            "id": 4708,
+            "id": 5076,
             "name": "multi-btih-15-2-x-The.Mandalorian.S03.WEBDL.2160p.Rus.Eng",
             "btih": "965b865cae964fee9071abc5cda96a2cf9c089ed",
             "resolution": "2160",
@@ -1004,11 +1001,11 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 52993,
-            "seed": 2607
+            "peer": 58225,
+            "seed": 2638
         },
         {
-            "id": 4703,
+            "id": 5071,
             "name": "multi-btih-10-2-x-The.Mandalorian.S03.SD.LakeFilms",
             "btih": "45be74c0010f6e540ee4d4cb3a76deb1ef4d9bbf",
             "resolution": "720",
@@ -1017,24 +1014,11 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 52789,
-            "seed": 3062
+            "peer": 57074,
+            "seed": 3099
         },
         {
-            "id": 4705,
-            "name": "multi-btih-12-2-x-The.Mandalorian.S03.WEB-DLRip-AVC",
-            "btih": "c91c051c78bcaf650932b90a1eb9598551c861ba",
-            "resolution": "sd",
-            "encoding": "none",
-            "bytes": 595269583.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 52606,
-            "seed": 4841
-        },
-        {
-            "id": 4706,
+            "id": 5074,
             "name": "multi-btih-13-2-x-The.Mandalorian.S03.WEB-DLRip.Dub.RedHeadSound",
             "btih": "0f7d6bb92b69724f8f9aea5715dd0351756f231d",
             "resolution": "sd",
@@ -1043,34 +1027,21 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 52498,
-            "seed": 3038
+            "peer": 56167,
+            "seed": 3074
         },
         {
-            "id": 1,
-            "name": "The Mandalorian (2019) S03E01 (2160p DSNP WEB-DL x265 HEVC 10bit Atmos DDP 5.1 Vyndros)",
-            "btih": "e9c0d4d7ad6fef9b4408c6cc8774af35ec5483b7",
-            "resolution": "2160",
-            "encoding": "265",
-            "bytes": 2279000749.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 52310,
-            "seed": 19258
-        },
-        {
-            "id": 148,
-            "name": "The.Mandalorian.S03E01.720p.rus.LostFilm.TV.mp4",
-            "btih": "9b1ac8b5f1505d1f9e8c49418e42ba3711c8754b",
-            "resolution": "720",
+            "id": 5073,
+            "name": "multi-btih-12-2-x-The.Mandalorian.S03.WEB-DLRip-AVC",
+            "btih": "c91c051c78bcaf650932b90a1eb9598551c861ba",
+            "resolution": "sd",
             "encoding": "none",
-            "bytes": 1094438475.0,
+            "bytes": 595269583.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 51297,
-            "seed": 10344
+            "peer": 55656,
+            "seed": 4946
         },
         {
             "id": 95,
@@ -1082,34 +1053,60 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 50544,
-            "seed": 10645
+            "peer": 55648,
+            "seed": 10974
         },
         {
-            "id": 90,
-            "name": "The.Mandalorian.S03E01.1080p.DSNP.WEBRip.DDP5.1.x264-NTb[TGx]",
-            "btih": "0f6198acb8d4fefe415e63f97eee7874a0cff5ba",
-            "resolution": "1080",
-            "encoding": "264",
-            "bytes": 1793701903.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 49975,
-            "seed": 13530
-        },
-        {
-            "id": 105,
-            "name": "The.Mandalorian.S03E01.1080p.dual-lat.cinecalidad.run.mp4",
-            "btih": "77a88e8d639c68686382b6c4e16feb29b9d23428",
-            "resolution": "1080",
+            "id": 5075,
+            "name": "multi-btih-14-2-x-The.Mandalorian.S03.WEB-DLRip.HDRezka",
+            "btih": "13a477f69fea22f91172c8452d4c02da17eab83d",
+            "resolution": "sd",
             "encoding": "none",
-            "bytes": 796574856.0,
+            "bytes": 451172352.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 49685,
-            "seed": 10815
+            "peer": 54092,
+            "seed": 2960
+        },
+        {
+            "id": 1,
+            "name": "The Mandalorian (2019) S03E01 (2160p DSNP WEB-DL x265 HEVC 10bit Atmos DDP 5.1 Vyndros)",
+            "btih": "e9c0d4d7ad6fef9b4408c6cc8774af35ec5483b7",
+            "resolution": "2160",
+            "encoding": "265",
+            "bytes": 2279000749.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 53591,
+            "seed": 19626
+        },
+        {
+            "id": 148,
+            "name": "The.Mandalorian.S03E01.720p.rus.LostFilm.TV.mp4",
+            "btih": "9b1ac8b5f1505d1f9e8c49418e42ba3711c8754b",
+            "resolution": "720",
+            "encoding": "none",
+            "bytes": 1094438475.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 53482,
+            "seed": 10555
+        },
+        {
+            "id": 5070,
+            "name": "multi-btih-9-2-x-The.Mandalorian.S03.720p.LakeFilms",
+            "btih": "79a549e182ca265c92b3389464285a5e0304e995",
+            "resolution": "720",
+            "encoding": "none",
+            "bytes": 666462879.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 51930,
+            "seed": 1069
         },
         {
             "id": 108,
@@ -1121,60 +1118,47 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 49495,
-            "seed": 11353
+            "peer": 51608,
+            "seed": 11465
         },
         {
-            "id": 4702,
-            "name": "multi-btih-9-2-x-The.Mandalorian.S03.720p.LakeFilms",
-            "btih": "79a549e182ca265c92b3389464285a5e0304e995",
-            "resolution": "720",
-            "encoding": "none",
-            "bytes": 666462879.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 48977,
-            "seed": 1061
-        },
-        {
-            "id": 224,
-            "name": "[rutor.is]The.Mandalorian.S03.2160p.DSNP.WEB-DL.DDP5.1.At",
-            "btih": "7897a5dfb2190184f770438c9c4438c42a663568",
-            "resolution": "2160",
-            "encoding": "none",
-            "bytes": 5612055566.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 48507,
-            "seed": 3357
-        },
-        {
-            "id": 111,
-            "name": "The.Mandalorian.S03E01.2160p.DSNP.WEB-DL.DDP5.1.Atmos.DV.MP4.x265-DVSUX[rartv]",
-            "btih": "91fc6e259195a5e562e3b19a5ef6ee421974a85d",
-            "resolution": "2160",
-            "encoding": "265",
-            "bytes": 4506406244.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 48439,
-            "seed": 5524
-        },
-        {
-            "id": 4710,
-            "name": "multi-btih-17-2-x-The.Mandalorian.S03E01.1080p.WEB.h264-TRUFFLE [IPT]",
-            "btih": "e59cc0ff5caed6d90699a7a9a154fd9b821b9a78",
+            "id": 90,
+            "name": "The.Mandalorian.S03E01.1080p.DSNP.WEBRip.DDP5.1.x264-NTb[TGx]",
+            "btih": "0f6198acb8d4fefe415e63f97eee7874a0cff5ba",
             "resolution": "1080",
             "encoding": "264",
-            "bytes": 1793684479.0,
+            "bytes": 1793701903.0,
             "ssl": false,
-            "private": true,
+            "private": false,
             "i2p": false,
-            "peer": 48227,
-            "seed": 14203
+            "peer": 51518,
+            "seed": 13873
+        },
+        {
+            "id": 105,
+            "name": "The.Mandalorian.S03E01.1080p.dual-lat.cinecalidad.run.mp4",
+            "btih": "77a88e8d639c68686382b6c4e16feb29b9d23428",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": 796574856.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 51444,
+            "seed": 11187
+        },
+        {
+            "id": 5069,
+            "name": "multi-btih-8-2-x-The.Mandalorian.S03.2160p.HDR.Kerob",
+            "btih": "bb285360bad00b1da4d73d72bbb107bb0f786be9",
+            "resolution": "2160",
+            "encoding": "none",
+            "bytes": 3661200653.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 50982,
+            "seed": 4712
         },
         {
             "id": 87,
@@ -1186,21 +1170,60 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 48138,
-            "seed": 16952
+            "peer": 50477,
+            "seed": 17283
         },
         {
-            "id": 78,
-            "name": "The.Mandalorian.S03E01.1080p.10bit.WEBRip.6CH.x265.HEVC-PSA.mkv",
-            "btih": "72369484b9b76c234d7f9282b92b30c9523307ec",
-            "resolution": "1080",
+            "id": 111,
+            "name": "The.Mandalorian.S03E01.2160p.DSNP.WEB-DL.DDP5.1.Atmos.DV.MP4.x265-DVSUX[rartv]",
+            "btih": "91fc6e259195a5e562e3b19a5ef6ee421974a85d",
+            "resolution": "2160",
             "encoding": "265",
-            "bytes": 542653129.0,
+            "bytes": 4506406244.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 47395,
-            "seed": 12672
+            "peer": 50277,
+            "seed": 5550
+        },
+        {
+            "id": 5072,
+            "name": "multi-btih-11-2-x-The.Mandalorian.S03.WEB-DL.1080p.LF_[rutor]",
+            "btih": "8454fee1e3fe852be1f14f63107fccc476a27d00",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": 1894892379.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 49686,
+            "seed": 10747
+        },
+        {
+            "id": 5078,
+            "name": "multi-btih-17-2-x-The.Mandalorian.S03E01.1080p.WEB.h264-TRUFFLE [IPT]",
+            "btih": "e59cc0ff5caed6d90699a7a9a154fd9b821b9a78",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": 1793684479.0,
+            "ssl": false,
+            "private": true,
+            "i2p": false,
+            "peer": 49381,
+            "seed": 14673
+        },
+        {
+            "id": 224,
+            "name": "[rutor.is]The.Mandalorian.S03.2160p.DSNP.WEB-DL.DDP5.1.At",
+            "btih": "7897a5dfb2190184f770438c9c4438c42a663568",
+            "resolution": "2160",
+            "encoding": "none",
+            "bytes": 5612055566.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 49368,
+            "seed": 3375
         },
         {
             "id": 139,
@@ -1212,37 +1235,24 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 47236,
-            "seed": 14575
+            "peer": 49331,
+            "seed": 14982
         },
         {
-            "id": 4704,
-            "name": "multi-btih-11-2-x-The.Mandalorian.S03.WEB-DL.1080p.LF_[rutor]",
-            "btih": "8454fee1e3fe852be1f14f63107fccc476a27d00",
+            "id": 78,
+            "name": "The.Mandalorian.S03E01.1080p.10bit.WEBRip.6CH.x265.HEVC-PSA.mkv",
+            "btih": "72369484b9b76c234d7f9282b92b30c9523307ec",
             "resolution": "1080",
-            "encoding": "none",
-            "bytes": 1894892379.0,
+            "encoding": "265",
+            "bytes": 542653129.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 47082,
-            "seed": 10664
+            "peer": 48803,
+            "seed": 12852
         },
         {
-            "id": 4701,
-            "name": "multi-btih-8-2-x-The.Mandalorian.S03.2160p.HDR.Kerob",
-            "btih": "bb285360bad00b1da4d73d72bbb107bb0f786be9",
-            "resolution": "2160",
-            "encoding": "none",
-            "bytes": 3661200653.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 46557,
-            "seed": 4687
-        },
-        {
-            "id": 4714,
+            "id": 5082,
             "name": "multi-btih-21-2-x-[rutor.is]Mandalorec_The_Mandalorian_Sezon_3(1)",
             "btih": "21e1b94d63866b68a1301f5398103702939abec8",
             "resolution": "720",
@@ -1251,47 +1261,21 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 44099,
-            "seed": 2969
+            "peer": 47391,
+            "seed": 3044
         },
         {
-            "id": 192,
-            "name": "The.Mandalorian.S03E01.XviD-AFG[eztv.re].avi",
-            "btih": "862a1f0d39a9f5f557c9d404537e0712b9b255e5",
-            "resolution": "sd",
-            "encoding": "xvid",
-            "bytes": 383551142.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 43943,
-            "seed": 12840
-        },
-        {
-            "id": 104,
-            "name": "The.Mandalorian.S03E01.1080p.WEBRip.DDP5.1.x265-HODL[TGx]",
-            "btih": "c40339d04ff248794d903cfe6d6d0ea76f1f4301",
+            "id": 5066,
+            "name": "multi-btih-5-2-x-The.Mandalorian.S03.1080p.D.Flarrow.Films",
+            "btih": "4f2187f79ad356b354da4b8b3bbbf7c549da3330",
             "resolution": "1080",
-            "encoding": "265",
-            "bytes": 627746197.0,
+            "encoding": "none",
+            "bytes": 1855349255.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 43814,
-            "seed": 11581
-        },
-        {
-            "id": 127,
-            "name": "The.Mandalorian.S03E01.480p.x264-RUBiK",
-            "btih": "52101882fce92e8b1f30b812972d04e63483a680",
-            "resolution": "sd",
-            "encoding": "264",
-            "bytes": 282434504.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 43517,
-            "seed": 10060
+            "peer": 46326,
+            "seed": 2309
         },
         {
             "id": 208,
@@ -1303,60 +1287,47 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 43468,
-            "seed": 9350
+            "peer": 45765,
+            "seed": 9647
         },
         {
-            "id": 4698,
-            "name": "multi-btih-5-2-x-The.Mandalorian.S03.1080p.D.Flarrow.Films",
-            "btih": "4f2187f79ad356b354da4b8b3bbbf7c549da3330",
-            "resolution": "1080",
-            "encoding": "none",
-            "bytes": 1855349255.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 43337,
-            "seed": 2293
-        },
-        {
-            "id": 251,
-            "name": "曼达洛人.The.Mandalorian.S03E01.1080p.H265-NEW字幕组.mp4",
-            "btih": "8bd755823f71c53511999eada3ec6d6abbda35c3",
-            "resolution": "1080",
-            "encoding": "265",
-            "bytes": 573451123.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 42018,
-            "seed": 8320
-        },
-        {
-            "id": 125,
-            "name": "The.Mandalorian.S03E01.2160p.WEBRip.DDP5.1.DoVi.HDR.x265-HODL[eztv.re].mp4",
-            "btih": "29b9dd6b783b358fb726fc9827ce4056c848072f",
-            "resolution": "2160",
-            "encoding": "265",
-            "bytes": 1246668773.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 42008,
-            "seed": 10864
-        },
-        {
-            "id": 155,
-            "name": "The.Mandalorian.S03E01.Capitolo.17.ITA.ENG.1080p.DSNP.WEB-DL.DDP5.1.H.264-MeM.GP.mkv",
-            "btih": "011aed32c76e797bb871b3164dc4ecdbf8d37884",
-            "resolution": "1080",
+            "id": 127,
+            "name": "The.Mandalorian.S03E01.480p.x264-RUBiK",
+            "btih": "52101882fce92e8b1f30b812972d04e63483a680",
+            "resolution": "sd",
             "encoding": "264",
-            "bytes": 1861024679.0,
+            "bytes": 282434504.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 41940,
-            "seed": 10882
+            "peer": 45753,
+            "seed": 10241
+        },
+        {
+            "id": 104,
+            "name": "The.Mandalorian.S03E01.1080p.WEBRip.DDP5.1.x265-HODL[TGx]",
+            "btih": "c40339d04ff248794d903cfe6d6d0ea76f1f4301",
+            "resolution": "1080",
+            "encoding": "265",
+            "bytes": 627746197.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 45595,
+            "seed": 11900
+        },
+        {
+            "id": 192,
+            "name": "The.Mandalorian.S03E01.XviD-AFG[eztv.re].avi",
+            "btih": "862a1f0d39a9f5f557c9d404537e0712b9b255e5",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "bytes": 383551142.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 45137,
+            "seed": 13183
         },
         {
             "id": 232,
@@ -1368,60 +1339,34 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 41546,
-            "seed": 8768
+            "peer": 44651,
+            "seed": 8999
         },
         {
-            "id": 215,
-            "name": "[rutor.is]Mandalorec_3_sezon_RHS_1080p_scarfilm.org",
-            "btih": "7ea32651d60bb7aaf621443df6a7aecd756b0ad2",
-            "resolution": "1080",
-            "encoding": "none",
-            "bytes": 1708458993.0,
+            "id": 125,
+            "name": "The.Mandalorian.S03E01.2160p.WEBRip.DDP5.1.DoVi.HDR.x265-HODL[eztv.re].mp4",
+            "btih": "29b9dd6b783b358fb726fc9827ce4056c848072f",
+            "resolution": "2160",
+            "encoding": "265",
+            "bytes": 1246668773.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 40070,
-            "seed": 11618
+            "peer": 44161,
+            "seed": 11095
         },
         {
-            "id": 175,
-            "name": "The.Mandalorian.S03E01.SPANiSH.1080p.DSNP.WEB-DL.x264-dem3nt3",
-            "btih": "596c730a21cb1c109550c4ddf3a7f5937853cf75",
+            "id": 155,
+            "name": "The.Mandalorian.S03E01.Capitolo.17.ITA.ENG.1080p.DSNP.WEB-DL.DDP5.1.H.264-MeM.GP.mkv",
+            "btih": "011aed32c76e797bb871b3164dc4ecdbf8d37884",
             "resolution": "1080",
             "encoding": "264",
-            "bytes": 1861027064.0,
+            "bytes": 1861024679.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 40014,
-            "seed": 2158
-        },
-        {
-            "id": 195,
-            "name": "The.Mandalorian.S03e01.2023.1080P-Dual-Lat",
-            "btih": "9a0ecd2ffe09e6c25fbf7c3820e6d94650176a30",
-            "resolution": "1080",
-            "encoding": "none",
-            "bytes": 725250693.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 39861,
-            "seed": 5194
-        },
-        {
-            "id": 226,
-            "name": "[rutor.is]The.Mandalorian.S03.400p.Kerob",
-            "btih": "0f10aa939b2fffc2e423a6880fe100bce02c452a",
-            "resolution": "sd",
-            "encoding": "none",
-            "bytes": 423868460.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 38608,
-            "seed": 3358
+            "peer": 43777,
+            "seed": 11125
         },
         {
             "id": 201,
@@ -1433,63 +1378,37 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 38120,
-            "seed": 1025
+            "peer": 43252,
+            "seed": 1033
         },
         {
-            "id": 35,
-            "name": "The Mandalorian S03E01 Chapter 17 The Apostate 2160p HDR 5.1 - 2.0 x265 10bit Phun Psyz.mkv",
-            "btih": "d0c5be8b245b2a64b50f941364eec0d30bbceebf",
-            "resolution": "2160",
-            "encoding": "265",
-            "bytes": 816968598.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 38036,
-            "seed": 7771
-        },
-        {
-            "id": 242,
-            "name": "Мандалорец The Mandalorian Сезон 3 Серии 1 из 8 (Рик Фамуйива, Брайс Даллас Ховард, Карл Уэзерс) [2023, США, Фантастика, б [rutracker-6330850]",
-            "btih": "098e920be6cf0dae48ff0439a78003648597747d",
-            "resolution": "2160",
-            "encoding": "none",
-            "bytes": 4450068075.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 37932,
-            "seed": 4984
-        },
-        {
-            "id": 156,
-            "name": "The.Mandalorian.S03E01.Capitolo.17.ITA.ENG.2160p.DSNP.WEB-DL.DDP5.1.HDR.H.265-MeM.GP.mkv",
-            "btih": "f388ca233ee2316b138144b335c63d4fdd0f8226",
-            "resolution": "2160",
-            "encoding": "265",
-            "bytes": 3661022422.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 36107,
-            "seed": 6358
-        },
-        {
-            "id": 53,
-            "name": "The.Mandalorian.S03.1080p.Ultradox",
-            "btih": "d53c84306ced92359acaff7cf9bcb23d99e6088f",
+            "id": 251,
+            "name": "曼达洛人.The.Mandalorian.S03E01.1080p.H265-NEW字幕组.mp4",
+            "btih": "8bd755823f71c53511999eada3ec6d6abbda35c3",
             "resolution": "1080",
-            "encoding": "none",
-            "bytes": 1208406124.0,
+            "encoding": "265",
+            "bytes": 573451123.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 36093,
-            "seed": 843
+            "peer": 43251,
+            "seed": 8520
         },
         {
-            "id": 4700,
+            "id": 175,
+            "name": "The.Mandalorian.S03E01.SPANiSH.1080p.DSNP.WEB-DL.x264-dem3nt3",
+            "btih": "596c730a21cb1c109550c4ddf3a7f5937853cf75",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": 1861027064.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 42143,
+            "seed": 2171
+        },
+        {
+            "id": 5068,
             "name": "multi-btih-7-2-x-The.Mandalorian.S03.1080p.LakeFilms",
             "btih": "c427c259ab95a60c1e7402e14d63015708308f8e",
             "resolution": "1080",
@@ -1498,47 +1417,34 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 35901,
-            "seed": 1233
+            "peer": 41852,
+            "seed": 1255
         },
         {
-            "id": 118,
-            "name": "The.Mandalorian.S03E01.2160p.WEB-DL.DDP5.1.H.265-NTb[eztv.re].mkv",
-            "btih": "93b4b6403fa6ae4328cd8a5dbb0ca5750fddc58e",
-            "resolution": "2160",
-            "encoding": "265",
-            "bytes": 4077681654.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 34639,
-            "seed": 9425
-        },
-        {
-            "id": 2,
-            "name": "The Mandalorian (2020) S02 1080p 10bit [60FPS] DSNP WEBRip ~ MrStrange",
-            "btih": "088c6dadaeab168bdf8b97469653d3ec13e15a41",
+            "id": 195,
+            "name": "The.Mandalorian.S03e01.2023.1080P-Dual-Lat",
+            "btih": "9a0ecd2ffe09e6c25fbf7c3820e6d94650176a30",
             "resolution": "1080",
             "encoding": "none",
-            "bytes": 8544527097.0,
+            "bytes": 725250693.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 34270,
-            "seed": 5698
+            "peer": 41459,
+            "seed": 5303
         },
         {
-            "id": 17,
-            "name": "The Mandalorian - Season 3 (AlexFilm) WEB-DL 720p",
-            "btih": "fe0fe8d44926fd6457b7618c7a57c1b33c9e0082",
-            "resolution": "720",
+            "id": 226,
+            "name": "[rutor.is]The.Mandalorian.S03.400p.Kerob",
+            "btih": "0f10aa939b2fffc2e423a6880fe100bce02c452a",
+            "resolution": "sd",
             "encoding": "none",
-            "bytes": 1040976442.0,
+            "bytes": 423868460.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 34012,
-            "seed": 605
+            "peer": 41321,
+            "seed": 3373
         },
         {
             "id": 66,
@@ -1550,268 +1456,47 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 33155,
-            "seed": 1112
+            "peer": 41266,
+            "seed": 1123
         },
         {
-            "id": 15,
-            "name": "The Mandalorian - Season 3 (2023) WEBRip 2160p [Ukr.Eng] [Цікава Ідея]",
-            "btih": "bb933a82d2a4a56c1607de22b990e34fa627f304",
-            "resolution": "2160",
-            "encoding": "none",
-            "bytes": 4216536283.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 32555,
-            "seed": 1156
-        },
-        {
-            "id": 44,
-            "name": "The.Mandalorian.3x01.lati.mp4",
-            "btih": "c9a0daa9757bd8c0eb8a5e0fda53d74e438a820d",
-            "resolution": "sd",
-            "encoding": "none",
-            "bytes": 309352264.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 32492,
-            "seed": 6092
-        },
-        {
-            "id": 234,
-            "name": "www.TamilBlasters.guru - The Mandalorian - S03 EP01 - [720p HQ HDRip - x264 - [Eng+Hin] - AAC - 450MB].mkv",
-            "btih": "01ee6f24c6a0aa46653c3e9afc8219d3c1649fb7",
-            "resolution": "720",
-            "encoding": "264",
-            "bytes": 461903378.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 32417,
-            "seed": 3785
-        },
-        {
-            "id": 54,
-            "name": "The.Mandalorian.S03.1080p.WEBRip.H264.RuDub.tv",
-            "btih": "3eb2337aecfda630019ae9f32c7cc61e62bb8383",
-            "resolution": "1080",
-            "encoding": "264",
-            "bytes": 1326486502.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 32415,
-            "seed": 7192
-        },
-        {
-            "id": 198,
-            "name": "The.Mandalorian.S03e01.Ita.Eng.Spa.1080p.h265.10bit.SubS-Me7alh.mkv",
-            "btih": "9f4c985b094627965aa86212003f35eaf6792141",
-            "resolution": "1080",
-            "encoding": "265",
-            "bytes": 689921142.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 32132,
-            "seed": 5134
-        },
-        {
-            "id": 213,
-            "name": "[Dark-Torrents.pl]The.Mandalorian.S03E01.MULTi.720p.DSNP.WEB-DL.H264.DDP5.1-K83.mkv",
-            "btih": "4ac4f43e8c49d4bccfed441bde3c400b707ca02b",
-            "resolution": "720",
-            "encoding": "264",
-            "bytes": 1108742231.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 32121,
-            "seed": 3512
-        },
-        {
-            "id": 143,
-            "name": "The.Mandalorian.S03E01.720p.WEB.h264-KOGi[TGx]",
-            "btih": "1b59d993b228a35670aac5aa8d341ffbd024a875",
-            "resolution": "720",
-            "encoding": "264",
-            "bytes": 1041455836.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 32094,
-            "seed": 4500
-        },
-        {
-            "id": 10,
-            "name": "The Mandalorian (Season 3) WEB-DL 1080p",
-            "btih": "db9ab67bd5481cd60e3488d12345367f546cd4ca",
+            "id": 215,
+            "name": "[rutor.is]Mandalorec_3_sezon_RHS_1080p_scarfilm.org",
+            "btih": "7ea32651d60bb7aaf621443df6a7aecd756b0ad2",
             "resolution": "1080",
             "encoding": "none",
-            "bytes": 1996573451.0,
+            "bytes": 1708458993.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 31895,
-            "seed": 2637
+            "peer": 41180,
+            "seed": 11726
         },
         {
-            "id": 204,
-            "name": "The.Mandalorian.s03.HDR2160p.WEBRip.x265.Ukr.Eng.BaibaKo.tv",
-            "btih": "ca9b6745c93b29bf2b4e085bebf01b04051fd898",
+            "id": 35,
+            "name": "The Mandalorian S03E01 Chapter 17 The Apostate 2160p HDR 5.1 - 2.0 x265 10bit Phun Psyz.mkv",
+            "btih": "d0c5be8b245b2a64b50f941364eec0d30bbceebf",
             "resolution": "2160",
             "encoding": "265",
-            "bytes": 3762560423.0,
+            "bytes": 816968598.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 31792,
-            "seed": 637
+            "peer": 40495,
+            "seed": 8018
         },
         {
-            "id": 107,
-            "name": "The.Mandalorian.S03E01.1080p.x265-ELiTE",
-            "btih": "856eec1f71b30520dd3135aaf040413f57ee839c",
-            "resolution": "1080",
-            "encoding": "265",
-            "bytes": 500946102.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 31765,
-            "seed": 7605
-        },
-        {
-            "id": 150,
-            "name": "The.Mandalorian.S03E01.720p.x265-T0PAZ",
-            "btih": "8002b6cb9759b350a8a83691e2521a17d47658de",
-            "resolution": "720",
-            "encoding": "265",
-            "bytes": 364158446.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 31521,
-            "seed": 2607
-        },
-        {
-            "id": 42,
-            "name": "The.Mandalorian.2023.S03E01.PLDUB.2160p.DSNP.WEB-DL.HDR.HEVC-Sylvo",
-            "btih": "b79b011c3d9c70311427e25de7f0ddc207460e37",
+            "id": 242,
+            "name": "Мандалорец The Mandalorian Сезон 3 Серии 1 из 8 (Рик Фамуйива, Брайс Даллас Ховард, Карл Уэзерс) [2023, США, Фантастика, б [rutracker-6330850]",
+            "btih": "098e920be6cf0dae48ff0439a78003648597747d",
             "resolution": "2160",
             "encoding": "none",
-            "bytes": 3457882364.0,
+            "bytes": 4450068075.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 31503,
-            "seed": 2261
-        },
-        {
-            "id": 220,
-            "name": "[rutor.is]The.Mandalorian(2)",
-            "btih": "5ff26fc00cdb91e0e3de49585fda1704e6893839",
-            "resolution": "sd",
-            "encoding": "none",
-            "bytes": 8716816384.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 31478,
-            "seed": 3934
-        },
-        {
-            "id": 235,
-            "name": "www.TamilBlasters.guru - The Mandalorian - S03 EP01 - [HQ HDRip - x264 - [Eng+Hin] - AAC - 150MB].mkv",
-            "btih": "8e548586fd5865341f178cc894a82c3e3b4fad75",
-            "resolution": "sd",
-            "encoding": "264",
-            "bytes": 159408879.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 30982,
-            "seed": 2527
-        },
-        {
-            "id": 65,
-            "name": "The.Mandalorian.S03.720p.Ultradox",
-            "btih": "6968933106c5191a055183362d3c8c1683e508a0",
-            "resolution": "720",
-            "encoding": "none",
-            "bytes": 752222139.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 30347,
-            "seed": 708
-        },
-        {
-            "id": 191,
-            "name": "The.Mandalorian.S03E01.XviD-AFG[TGx]",
-            "btih": "72cadc472bc86c98f1bce5cc72d8abe79c280428",
-            "resolution": "sd",
-            "encoding": "xvid",
-            "bytes": 383553126.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 29623,
-            "seed": 3106
-        },
-        {
-            "id": 180,
-            "name": "The.Mandalorian.S03E01.WEBRip.1080p.rus.5.1.HDREZKA.STUDIO.mkv",
-            "btih": "12c8d813333437c5f114a2270c87905774c70f44",
-            "resolution": "1080",
-            "encoding": "none",
-            "bytes": 1718088552.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 29552,
-            "seed": 1136
-        },
-        {
-            "id": 89,
-            "name": "The.Mandalorian.S03E01.1080p.DSNP.WEBRip.DDP5.1.x264-NTb",
-            "btih": "815469080793da903051854d9469be6f0146c5a4",
-            "resolution": "1080",
-            "encoding": "264",
-            "bytes": 1793701010.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 29394,
-            "seed": 1496
-        },
-        {
-            "id": 159,
-            "name": "The.Mandalorian.S03E01.Chapter.17.2160p.DSNP.WEBMux.ITA.ENG.DDP5.1.HDR.H.265-BlackBit.mkv",
-            "btih": "c6d9c7ea8edf01549e5f59b5cc0392f842bfad0c",
-            "resolution": "2160",
-            "encoding": "265",
-            "bytes": 3661511002.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 28590,
-            "seed": 5058
-        },
-        {
-            "id": 55,
-            "name": "The.Mandalorian.S03.1080p.WEBRip",
-            "btih": "8b468a9f370cd8a97e95e0cb266931a5ab7be850",
-            "resolution": "1080",
-            "encoding": "none",
-            "bytes": 1793220812.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 28211,
-            "seed": 1566
+            "peer": 39477,
+            "seed": 5031
         },
         {
             "id": 67,
@@ -1823,73 +1508,190 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 28197,
-            "seed": 3482
+            "peer": 37907,
+            "seed": 3536
         },
         {
-            "id": 124,
-            "name": "The.Mandalorian.S03E01.2160p.WEBRip.DDP5.1.DoVi.HDR.x265-HODL.mp4",
-            "btih": "f00db114e9c35659ac21bb49ba88901624066e33",
+            "id": 156,
+            "name": "The.Mandalorian.S03E01.Capitolo.17.ITA.ENG.2160p.DSNP.WEB-DL.DDP5.1.HDR.H.265-MeM.GP.mkv",
+            "btih": "f388ca233ee2316b138144b335c63d4fdd0f8226",
             "resolution": "2160",
             "encoding": "265",
-            "bytes": 1246668773.0,
+            "bytes": 3661022422.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 27952,
-            "seed": 3381
+            "peer": 37497,
+            "seed": 6630
         },
         {
-            "id": 9,
-            "name": "The Mandalorian (Season 3) (2023) WEB-DL 2160p Dolby Vision HDR [Hybrid]",
-            "btih": "f52bbbed57f659ecffeef21641a71dca5fdbee08",
+            "id": 53,
+            "name": "The.Mandalorian.S03.1080p.Ultradox",
+            "btih": "d53c84306ced92359acaff7cf9bcb23d99e6088f",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": 1208406124.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 37198,
+            "seed": 856
+        },
+        {
+            "id": 2,
+            "name": "The Mandalorian (2020) S02 1080p 10bit [60FPS] DSNP WEBRip ~ MrStrange",
+            "btih": "088c6dadaeab168bdf8b97469653d3ec13e15a41",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": 8544527097.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 35869,
+            "seed": 5826
+        },
+        {
+            "id": 213,
+            "name": "[Dark-Torrents.pl]The.Mandalorian.S03E01.MULTi.720p.DSNP.WEB-DL.H264.DDP5.1-K83.mkv",
+            "btih": "4ac4f43e8c49d4bccfed441bde3c400b707ca02b",
+            "resolution": "720",
+            "encoding": "264",
+            "bytes": 1108742231.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 35860,
+            "seed": 3578
+        },
+        {
+            "id": 118,
+            "name": "The.Mandalorian.S03E01.2160p.WEB-DL.DDP5.1.H.265-NTb[eztv.re].mkv",
+            "btih": "93b4b6403fa6ae4328cd8a5dbb0ca5750fddc58e",
+            "resolution": "2160",
+            "encoding": "265",
+            "bytes": 4077681654.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 35756,
+            "seed": 9687
+        },
+        {
+            "id": 17,
+            "name": "The Mandalorian - Season 3 (AlexFilm) WEB-DL 720p",
+            "btih": "fe0fe8d44926fd6457b7618c7a57c1b33c9e0082",
+            "resolution": "720",
+            "encoding": "none",
+            "bytes": 1040976442.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 35355,
+            "seed": 608
+        },
+        {
+            "id": 15,
+            "name": "The Mandalorian - Season 3 (2023) WEBRip 2160p [Ukr.Eng] [Цікава Ідея]",
+            "btih": "bb933a82d2a4a56c1607de22b990e34fa627f304",
             "resolution": "2160",
             "encoding": "none",
-            "bytes": 4061712868.0,
+            "bytes": 4216536283.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 27845,
-            "seed": 1038
+            "peer": 35004,
+            "seed": 1176
         },
         {
-            "id": 249,
-            "name": "【高清剧集网 www.BTHDTV.com】曼达洛人 第三季[第01集][简繁英字幕].The.Mandalorian.S03.2023.DSNP.WEB-DL.2160p.HEVC.HDR.DDP-Xiaomi",
-            "btih": "ec44512d3e016c6fbf377d81837ebcba720b906a",
-            "resolution": "2160",
-            "encoding": "none",
-            "bytes": 4129104868.0,
+            "id": 234,
+            "name": "www.TamilBlasters.guru - The Mandalorian - S03 EP01 - [720p HQ HDRip - x264 - [Eng+Hin] - AAC - 450MB].mkv",
+            "btih": "01ee6f24c6a0aa46653c3e9afc8219d3c1649fb7",
+            "resolution": "720",
+            "encoding": "264",
+            "bytes": 461903378.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 27738,
-            "seed": 1000
+            "peer": 34305,
+            "seed": 3846
         },
         {
-            "id": 157,
-            "name": "The.Mandalorian.S03E01.Chapter.17.1080p.DSNP.WEBMux.ITA.ENG.DDP5.1.H.264-BlackBit.mkv",
-            "btih": "88dda6e5b5a88549fd5cc2ba0b7958c99b7f53cb",
+            "id": 54,
+            "name": "The.Mandalorian.S03.1080p.WEBRip.H264.RuDub.tv",
+            "btih": "3eb2337aecfda630019ae9f32c7cc61e62bb8383",
             "resolution": "1080",
             "encoding": "264",
-            "bytes": 1861513379.0,
+            "bytes": 1326486502.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 27602,
-            "seed": 4514
+            "peer": 34196,
+            "seed": 7373
         },
         {
-            "id": 248,
-            "name": "【高清剧集网 www.BTHDTV.com】曼达洛人 第三季[第01集][中文字幕].The.Mandalorian.S03.2160p.DSNP.WEB-DL.DDP.5.1.Atmos.HDR10.H.265-BlackTV",
-            "btih": "6e2d65d5846955f3ecc3daf99c6150bd45a09c05",
-            "resolution": "2160",
-            "encoding": "265",
-            "bytes": 3594477389.0,
+            "id": 10,
+            "name": "The Mandalorian (Season 3) WEB-DL 1080p",
+            "btih": "db9ab67bd5481cd60e3488d12345367f546cd4ca",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": 1996573451.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 27433,
-            "seed": 906
+            "peer": 34084,
+            "seed": 2661
+        },
+        {
+            "id": 42,
+            "name": "The.Mandalorian.2023.S03E01.PLDUB.2160p.DSNP.WEB-DL.HDR.HEVC-Sylvo",
+            "btih": "b79b011c3d9c70311427e25de7f0ddc207460e37",
+            "resolution": "2160",
+            "encoding": "none",
+            "bytes": 3457882364.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 34060,
+            "seed": 2279
+        },
+        {
+            "id": 204,
+            "name": "The.Mandalorian.s03.HDR2160p.WEBRip.x265.Ukr.Eng.BaibaKo.tv",
+            "btih": "ca9b6745c93b29bf2b4e085bebf01b04051fd898",
+            "resolution": "2160",
+            "encoding": "265",
+            "bytes": 3762560423.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 33988,
+            "seed": 646
+        },
+        {
+            "id": 150,
+            "name": "The.Mandalorian.S03E01.720p.x265-T0PAZ",
+            "btih": "8002b6cb9759b350a8a83691e2521a17d47658de",
+            "resolution": "720",
+            "encoding": "265",
+            "bytes": 364158446.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 33982,
+            "seed": 2673
+        },
+        {
+            "id": 143,
+            "name": "The.Mandalorian.S03E01.720p.WEB.h264-KOGi[TGx]",
+            "btih": "1b59d993b228a35670aac5aa8d341ffbd024a875",
+            "resolution": "720",
+            "encoding": "264",
+            "bytes": 1041455836.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 33922,
+            "seed": 4591
         },
         {
             "id": 218,
@@ -1901,34 +1703,125 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 27419,
-            "seed": 3675
+            "peer": 33588,
+            "seed": 3718
         },
         {
-            "id": 233,
-            "name": "www.TamilBlasters.guru - The Mandalorian - S03 EP01 - [1080p HQ HDRip - x264 - [Eng+Hin] - AAC - 850MB].mkv",
-            "btih": "e7651f27ea701d51a313fe6253bef904e7d3b8aa",
-            "resolution": "1080",
-            "encoding": "264",
-            "bytes": 867106468.0,
+            "id": 220,
+            "name": "[rutor.is]The.Mandalorian(2)",
+            "btih": "5ff26fc00cdb91e0e3de49585fda1704e6893839",
+            "resolution": "sd",
+            "encoding": "none",
+            "bytes": 8716816384.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 27198,
-            "seed": 6067
+            "peer": 33553,
+            "seed": 3987
         },
         {
-            "id": 210,
-            "name": "[BEST-TORRENTS.ORG] The.Mandalorian.S03E01.MULTi.1080p.DSNP.WEB-DL.H264.DDP5.1-K83",
-            "btih": "739a78fe0ecf093cd3bf6ef522572decd812c48c",
-            "resolution": "1080",
-            "encoding": "264",
-            "bytes": 1861278043.0,
+            "id": 44,
+            "name": "The.Mandalorian.3x01.lati.mp4",
+            "btih": "c9a0daa9757bd8c0eb8a5e0fda53d74e438a820d",
+            "resolution": "sd",
+            "encoding": "none",
+            "bytes": 309352264.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 27157,
-            "seed": 757
+            "peer": 33375,
+            "seed": 6283
+        },
+        {
+            "id": 107,
+            "name": "The.Mandalorian.S03E01.1080p.x265-ELiTE",
+            "btih": "856eec1f71b30520dd3135aaf040413f57ee839c",
+            "resolution": "1080",
+            "encoding": "265",
+            "bytes": 500946102.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 33349,
+            "seed": 7834
+        },
+        {
+            "id": 198,
+            "name": "The.Mandalorian.S03e01.Ita.Eng.Spa.1080p.h265.10bit.SubS-Me7alh.mkv",
+            "btih": "9f4c985b094627965aa86212003f35eaf6792141",
+            "resolution": "1080",
+            "encoding": "265",
+            "bytes": 689921142.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 33117,
+            "seed": 5249
+        },
+        {
+            "id": 235,
+            "name": "www.TamilBlasters.guru - The Mandalorian - S03 EP01 - [HQ HDRip - x264 - [Eng+Hin] - AAC - 150MB].mkv",
+            "btih": "8e548586fd5865341f178cc894a82c3e3b4fad75",
+            "resolution": "sd",
+            "encoding": "264",
+            "bytes": 159408879.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 32543,
+            "seed": 2555
+        },
+        {
+            "id": 248,
+            "name": "【高清剧集网 www.BTHDTV.com】曼达洛人 第三季[第01集][中文字幕].The.Mandalorian.S03.2160p.DSNP.WEB-DL.DDP.5.1.Atmos.HDR10.H.265-BlackTV",
+            "btih": "6e2d65d5846955f3ecc3daf99c6150bd45a09c05",
+            "resolution": "2160",
+            "encoding": "265",
+            "bytes": 3594477389.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 32524,
+            "seed": 910
+        },
+        {
+            "id": 65,
+            "name": "The.Mandalorian.S03.720p.Ultradox",
+            "btih": "6968933106c5191a055183362d3c8c1683e508a0",
+            "resolution": "720",
+            "encoding": "none",
+            "bytes": 752222139.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 31782,
+            "seed": 715
+        },
+        {
+            "id": 180,
+            "name": "The.Mandalorian.S03E01.WEBRip.1080p.rus.5.1.HDREZKA.STUDIO.mkv",
+            "btih": "12c8d813333437c5f114a2270c87905774c70f44",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": 1718088552.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 30885,
+            "seed": 1143
+        },
+        {
+            "id": 191,
+            "name": "The.Mandalorian.S03E01.XviD-AFG[TGx]",
+            "btih": "72cadc472bc86c98f1bce5cc72d8abe79c280428",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "bytes": 383553126.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 30766,
+            "seed": 3142
         },
         {
             "id": 205,
@@ -1940,60 +1833,112 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 27102,
-            "seed": 3185
+            "peer": 30575,
+            "seed": 3258
         },
         {
-            "id": 24,
-            "name": "The Mandalorian 3 HD 2160p",
-            "btih": "5841c5cec86a0af89722bde32fa8189a8bb14981",
-            "resolution": "2160",
-            "encoding": "none",
-            "bytes": 3711803883.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 26787,
-            "seed": 652
-        },
-        {
-            "id": 188,
-            "name": "The.Mandalorian.S03E01.WEBRip.x264-XEN0N",
-            "btih": "a5e7d49f8d41f7db71ceabc39cf919151501d67b",
-            "resolution": "sd",
-            "encoding": "264",
-            "bytes": 228750602.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 26673,
-            "seed": 1893
-        },
-        {
-            "id": 50,
-            "name": "The.Mandalorian.S03.1080p.Flarrow Films",
-            "btih": "665ee005f43163ed9137658ef824096554b84e59",
+            "id": 89,
+            "name": "The.Mandalorian.S03E01.1080p.DSNP.WEBRip.DDP5.1.x264-NTb",
+            "btih": "815469080793da903051854d9469be6f0146c5a4",
             "resolution": "1080",
-            "encoding": "none",
-            "bytes": 1855349255.0,
+            "encoding": "264",
+            "bytes": 1793701010.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 26429,
-            "seed": 814
+            "peer": 30560,
+            "seed": 1524
         },
         {
-            "id": 163,
-            "name": "The.Mandalorian.S03E01.HDR.2160p.DSNP.WEB-DL.DDPA5.1.H.265-NTb",
-            "btih": "70ac2ff521ae0b1d7e47527f49062c0e93d79669",
+            "id": 124,
+            "name": "The.Mandalorian.S03E01.2160p.WEBRip.DDP5.1.DoVi.HDR.x265-HODL.mp4",
+            "btih": "f00db114e9c35659ac21bb49ba88901624066e33",
             "resolution": "2160",
             "encoding": "265",
-            "bytes": 3593695140.0,
+            "bytes": 1246668773.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 26397,
-            "seed": 894
+            "peer": 30260,
+            "seed": 3446
+        },
+        {
+            "id": 9,
+            "name": "The Mandalorian (Season 3) (2023) WEB-DL 2160p Dolby Vision HDR [Hybrid]",
+            "btih": "f52bbbed57f659ecffeef21641a71dca5fdbee08",
+            "resolution": "2160",
+            "encoding": "none",
+            "bytes": 4061712868.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 30236,
+            "seed": 1049
+        },
+        {
+            "id": 159,
+            "name": "The.Mandalorian.S03E01.Chapter.17.2160p.DSNP.WEBMux.ITA.ENG.DDP5.1.HDR.H.265-BlackBit.mkv",
+            "btih": "c6d9c7ea8edf01549e5f59b5cc0392f842bfad0c",
+            "resolution": "2160",
+            "encoding": "265",
+            "bytes": 3661511002.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 30154,
+            "seed": 5126
+        },
+        {
+            "id": 233,
+            "name": "www.TamilBlasters.guru - The Mandalorian - S03 EP01 - [1080p HQ HDRip - x264 - [Eng+Hin] - AAC - 850MB].mkv",
+            "btih": "e7651f27ea701d51a313fe6253bef904e7d3b8aa",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": 867106468.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 30083,
+            "seed": 6110
+        },
+        {
+            "id": 157,
+            "name": "The.Mandalorian.S03E01.Chapter.17.1080p.DSNP.WEBMux.ITA.ENG.DDP5.1.H.264-BlackBit.mkv",
+            "btih": "88dda6e5b5a88549fd5cc2ba0b7958c99b7f53cb",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": 1861513379.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 29867,
+            "seed": 4585
+        },
+        {
+            "id": 249,
+            "name": "【高清剧集网 www.BTHDTV.com】曼达洛人 第三季[第01集][简繁英字幕].The.Mandalorian.S03.2023.DSNP.WEB-DL.2160p.HEVC.HDR.DDP-Xiaomi",
+            "btih": "ec44512d3e016c6fbf377d81837ebcba720b906a",
+            "resolution": "2160",
+            "encoding": "none",
+            "bytes": 4129104868.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 29847,
+            "seed": 1011
+        },
+        {
+            "id": 55,
+            "name": "The.Mandalorian.S03.1080p.WEBRip",
+            "btih": "8b468a9f370cd8a97e95e0cb266931a5ab7be850",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": 1793220812.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 29811,
+            "seed": 1626
         },
         {
             "id": 137,
@@ -2005,34 +1950,21 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 26303,
-            "seed": 726
+            "peer": 29073,
+            "seed": 738
         },
         {
-            "id": 32,
-            "name": "The Mandalorian S03E01 2160p - ZeiZ.mkv",
-            "btih": "4c3ce7d4d441b32e330a6f1daeff03a370bb778c",
-            "resolution": "2160",
-            "encoding": "none",
-            "bytes": 3661016139.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 25555,
-            "seed": 1087
-        },
-        {
-            "id": 83,
-            "name": "The.Mandalorian.S03E01.1080p.DSNP.WEB-DL.DDP5.1.H.264-NTb (1).mkv",
-            "btih": "216c86a45361ab6a5d70ad316b9466df4136a00c",
+            "id": 210,
+            "name": "[BEST-TORRENTS.ORG] The.Mandalorian.S03E01.MULTi.1080p.DSNP.WEB-DL.H264.DDP5.1-K83",
+            "btih": "739a78fe0ecf093cd3bf6ef522572decd812c48c",
             "resolution": "1080",
             "encoding": "264",
-            "bytes": 2199572062.0,
+            "bytes": 1861278043.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 25489,
-            "seed": 658
+            "peer": 28635,
+            "seed": 770
         },
         {
             "id": 199,
@@ -2044,8 +1976,34 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 25359,
-            "seed": 3301
+            "peer": 28361,
+            "seed": 3389
+        },
+        {
+            "id": 50,
+            "name": "The.Mandalorian.S03.1080p.Flarrow Films",
+            "btih": "665ee005f43163ed9137658ef824096554b84e59",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": 1855349255.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 27865,
+            "seed": 820
+        },
+        {
+            "id": 24,
+            "name": "The Mandalorian 3 HD 2160p",
+            "btih": "5841c5cec86a0af89722bde32fa8189a8bb14981",
+            "resolution": "2160",
+            "encoding": "none",
+            "bytes": 3711803883.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 27851,
+            "seed": 656
         },
         {
             "id": 70,
@@ -2057,21 +2015,47 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 25038,
-            "seed": 805
+            "peer": 27810,
+            "seed": 818
         },
         {
-            "id": 246,
-            "name": "【高清剧集网 www.BTHDTV.com】曼达洛人 第三季[第01-02集][简繁英字幕].The.Mandalorian.S03.1080p.DSNP.WEB-DL.DDP.5.1.Atmos.H.264-BlackTV",
-            "btih": "2a44f1646c65a55ac7a4734704ea688753ae5b7c",
-            "resolution": "1080",
+            "id": 188,
+            "name": "The.Mandalorian.S03E01.WEBRip.x264-XEN0N",
+            "btih": "a5e7d49f8d41f7db71ceabc39cf919151501d67b",
+            "resolution": "sd",
             "encoding": "264",
-            "bytes": 3798945981.0,
+            "bytes": 228750602.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 24760,
-            "seed": 1310
+            "peer": 27721,
+            "seed": 1905
+        },
+        {
+            "id": 32,
+            "name": "The Mandalorian S03E01 2160p - ZeiZ.mkv",
+            "btih": "4c3ce7d4d441b32e330a6f1daeff03a370bb778c",
+            "resolution": "2160",
+            "encoding": "none",
+            "bytes": 3661016139.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 27361,
+            "seed": 1115
+        },
+        {
+            "id": 163,
+            "name": "The.Mandalorian.S03E01.HDR.2160p.DSNP.WEB-DL.DDPA5.1.H.265-NTb",
+            "btih": "70ac2ff521ae0b1d7e47527f49062c0e93d79669",
+            "resolution": "2160",
+            "encoding": "265",
+            "bytes": 3593695140.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 27286,
+            "seed": 907
         },
         {
             "id": 176,
@@ -2083,164 +2067,21 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 24403,
-            "seed": 2153
+            "peer": 26786,
+            "seed": 2187
         },
         {
-            "id": 23,
-            "name": "The Mandalorian - Temporada 3 [WEB-DL 1080p][Cap.301][Dual DDP5.1 + Subs][www.atomixHQ.how]",
-            "btih": "2b7740a91c342d3ef9ff457b16707991709e537b",
+            "id": 83,
+            "name": "The.Mandalorian.S03E01.1080p.DSNP.WEB-DL.DDP5.1.H.264-NTb (1).mkv",
+            "btih": "216c86a45361ab6a5d70ad316b9466df4136a00c",
             "resolution": "1080",
-            "encoding": "none",
-            "bytes": 1861001560.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 24377,
-            "seed": 3322
-        },
-        {
-            "id": 245,
-            "name": "【高清剧集网 www.BTHDTV.com】曼达洛人 第三季[杜比视界版本][第02集][简繁英字幕].The.Mandalorian.S03.2160p.DSNP.WEB-DL.DDP5.1.Atmos.DV.H.265-BlackTV",
-            "btih": "76cac05f02253dcbae09bab91acad74645f10160",
-            "resolution": "2160",
-            "encoding": "265",
-            "bytes": 5353701352.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 24078,
-            "seed": 995
-        },
-        {
-            "id": 134,
-            "name": "The.Mandalorian.S03E01.720p.DSNP.WEBRip.DDP5.1.x264-NTb[TGx]",
-            "btih": "1c300c6dffd95d20bc0dc688dcf76ab93815bd93",
-            "resolution": "720",
             "encoding": "264",
-            "bytes": 1041472605.0,
+            "bytes": 2199572062.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 24046,
-            "seed": 3436
-        },
-        {
-            "id": 238,
-            "name": "Мандалорец The Mandalorian Сезон 3 Серии 1 из 8 (Рик Фамуйива) [2023, США, фантастика, боевик, приключения, WEB-DL 720p] M [rutracker-6330342]",
-            "btih": "14ee1b0cbe12ef359da0227edaa89b92fa8f310a",
-            "resolution": "720",
-            "encoding": "none",
-            "bytes": 1413828620.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 23993,
-            "seed": 2911
-        },
-        {
-            "id": 178,
-            "name": "The.Mandalorian.S03E01.WEB-DL.2160p.SDR.8bit",
-            "btih": "1589c8cbf381347326d5c7206a7d075e9f406b6d",
-            "resolution": "2160",
-            "encoding": "none",
-            "bytes": 4245838988.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 23660,
-            "seed": 1488
-        },
-        {
-            "id": 103,
-            "name": "The.Mandalorian.S03E01.1080p.WEBRip.DDP5.1.x265-HODL.mkv",
-            "btih": "09db570edabe1dda71289b45dde69859ced0d52c",
-            "resolution": "1080",
-            "encoding": "265",
-            "bytes": 627745304.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 23578,
-            "seed": 2494
-        },
-        {
-            "id": 216,
-            "name": "[rutor.is]Mandalorec_3_sezon_RHS_4K_scarfilm.org",
-            "btih": "5f2dabfea1f7bb0b8470df6d8e772c0931f841a9",
-            "resolution": "sd",
-            "encoding": "none",
-            "bytes": 3677960680.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 22874,
-            "seed": 2739
-        },
-        {
-            "id": 162,
-            "name": "The.Mandalorian.S03E01.CondorFilms.mkv",
-            "btih": "face5e35651e12833eca4d01896e7e70506fd64b",
-            "resolution": "sd",
-            "encoding": "none",
-            "bytes": 1759352208.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 22837,
-            "seed": 746
-        },
-        {
-            "id": 196,
-            "name": "The.Mandalorian.S03e01.2023.1080p-Dual-Lat",
-            "btih": "c3a8875dbc94ad100876a58cd595734d417cb018",
-            "resolution": "1080",
-            "encoding": "none",
-            "bytes": 798021043.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 22764,
-            "seed": 752
-        },
-        {
-            "id": 58,
-            "name": "The.Mandalorian.S03.1080p",
-            "btih": "a00792d9ec1bf0f07e8848bc353db8305ce83d69",
-            "resolution": "1080",
-            "encoding": "none",
-            "bytes": 2013509685.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 22627,
-            "seed": 1343
-        },
-        {
-            "id": 183,
-            "name": "The.Mandalorian.S03E01.WEBRip.400p.ukr.2.0.HDREZKA.STUDIO.avi",
-            "btih": "43c248e310c0f2f6b10158cf4b303489dd37d380",
-            "resolution": "sd",
-            "encoding": "none",
-            "bytes": 559153496.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 22535,
-            "seed": 740
-        },
-        {
-            "id": 39,
-            "name": "The.Mandalorian.(Season 03).RuDub",
-            "btih": "056de580823cff5e38df3b9dd9b26428e3f43d19",
-            "resolution": "720",
-            "encoding": "none",
-            "bytes": 446984564.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 22466,
-            "seed": 1158
+            "peer": 26508,
+            "seed": 674
         },
         {
             "id": 119,
@@ -2252,138 +2093,125 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 22382,
-            "seed": 294
+            "peer": 26427,
+            "seed": 304
         },
         {
-            "id": 126,
-            "name": "The.Mandalorian.S03E01.400p.ColdFilm.avi",
-            "btih": "7c78daaf82807338addf6c1cf60560be0ed9a00e",
-            "resolution": "sd",
-            "encoding": "none",
-            "bytes": 439722388.0,
+            "id": 246,
+            "name": "【高清剧集网 www.BTHDTV.com】曼达洛人 第三季[第01-02集][简繁英字幕].The.Mandalorian.S03.1080p.DSNP.WEB-DL.DDP.5.1.Atmos.H.264-BlackTV",
+            "btih": "2a44f1646c65a55ac7a4734704ea688753ae5b7c",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": 3798945981.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 22354,
-            "seed": 1472
+            "peer": 26182,
+            "seed": 1355
         },
         {
-            "id": 36,
-            "name": "The Mandalorian S03E01 DSNP WEB-DL HDR DV 2160P ESP ING EAC3 SUBS.mkv",
-            "btih": "6d7a0c652a4302d73186cb38c83fe8e7270b4009",
-            "resolution": "2160",
-            "encoding": "none",
-            "bytes": 3671102155.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 22307,
-            "seed": 169
-        },
-        {
-            "id": 211,
-            "name": "[BEST-TORRENTS.ORG] The.Mandalorian.S03E01.MULTi.2160p.DSNP.WEB-DL.DDP5.1.Atmos.HDR.H.265-P2P",
-            "btih": "dcf81075c55538afa3d632281b6f5f1ef58357e4",
+            "id": 245,
+            "name": "【高清剧集网 www.BTHDTV.com】曼达洛人 第三季[杜比视界版本][第02集][简繁英字幕].The.Mandalorian.S03.2160p.DSNP.WEB-DL.DDP5.1.Atmos.DV.H.265-BlackTV",
+            "btih": "76cac05f02253dcbae09bab91acad74645f10160",
             "resolution": "2160",
             "encoding": "265",
-            "bytes": 3661275401.0,
+            "bytes": 5353701352.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 22069,
-            "seed": 720
+            "peer": 26150,
+            "seed": 1030
         },
         {
-            "id": 203,
-            "name": "The.Mandalorian.s03.HD720p.WEBRip.Ukr.Eng.Baibako.tv",
-            "btih": "79ec81581c9852b5bcc8ba2ca637002e3cfdb15c",
+            "id": 134,
+            "name": "The.Mandalorian.S03E01.720p.DSNP.WEBRip.DDP5.1.x264-NTb[TGx]",
+            "btih": "1c300c6dffd95d20bc0dc688dcf76ab93815bd93",
             "resolution": "720",
-            "encoding": "none",
-            "bytes": 1277455371.0,
+            "encoding": "264",
+            "bytes": 1041472605.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 22060,
-            "seed": 590
+            "peer": 25800,
+            "seed": 3488
         },
         {
-            "id": 37,
-            "name": "The Mandalorian S03E01.4K.dual-lat.cinecalidad.run.mkv",
-            "btih": "6540e5cc30ca8ad6668c91b6fd643bda5d2201c0",
-            "resolution": "sd",
-            "encoding": "none",
-            "bytes": 3660970034.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 21876,
-            "seed": 1946
-        },
-        {
-            "id": 62,
-            "name": "The.Mandalorian.S03.400p.Ultradox",
-            "btih": "48551e986d6283cb0e70a45737337a20eb52c886",
-            "resolution": "sd",
-            "encoding": "none",
-            "bytes": 441450496.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 21749,
-            "seed": 618
-        },
-        {
-            "id": 231,
-            "name": "[rutor.is]The_Mandalorian_s03_AlexFilm_2160p",
-            "btih": "a50ebc02446a87185ee5110369de0c510edcae64",
-            "resolution": "2160",
-            "encoding": "none",
-            "bytes": 3864325078.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 21717,
-            "seed": 2605
-        },
-        {
-            "id": 27,
-            "name": "The Mandalorian S03-2023",
-            "btih": "79769f06dbdee3e64f663fc4b08cd97ae022653d",
+            "id": 23,
+            "name": "The Mandalorian - Temporada 3 [WEB-DL 1080p][Cap.301][Dual DDP5.1 + Subs][www.atomixHQ.how]",
+            "btih": "2b7740a91c342d3ef9ff457b16707991709e537b",
             "resolution": "1080",
             "encoding": "none",
-            "bytes": 1326486502.0,
+            "bytes": 1861001560.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 21703,
-            "seed": 699
+            "peer": 25780,
+            "seed": 3374
         },
         {
-            "id": 136,
-            "name": "The.Mandalorian.S03E01.720p.HDTV.Subtitulado.Esp.SC.mp4",
-            "btih": "2b50a2f3db68651aeffc3d119fd86ca75d853b7b",
+            "id": 178,
+            "name": "The.Mandalorian.S03E01.WEB-DL.2160p.SDR.8bit",
+            "btih": "1589c8cbf381347326d5c7206a7d075e9f406b6d",
+            "resolution": "2160",
+            "encoding": "none",
+            "bytes": 4245838988.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 25532,
+            "seed": 1503
+        },
+        {
+            "id": 238,
+            "name": "Мандалорец The Mandalorian Сезон 3 Серии 1 из 8 (Рик Фамуйива) [2023, США, фантастика, боевик, приключения, WEB-DL 720p] M [rutracker-6330342]",
+            "btih": "14ee1b0cbe12ef359da0227edaa89b92fa8f310a",
             "resolution": "720",
             "encoding": "none",
-            "bytes": 375003595.0,
+            "bytes": 1413828620.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 21611,
-            "seed": 2329
+            "peer": 25476,
+            "seed": 2931
         },
         {
-            "id": 182,
-            "name": "The.Mandalorian.S03E01.WEBRip.400p.rus.2.0.HDREZKA.STUDIO.avi",
-            "btih": "95ee74887b784b4d9b1c10d6007f4723a6f93b09",
-            "resolution": "sd",
-            "encoding": "none",
-            "bytes": 475187734.0,
+            "id": 103,
+            "name": "The.Mandalorian.S03E01.1080p.WEBRip.DDP5.1.x265-HODL.mkv",
+            "btih": "09db570edabe1dda71289b45dde69859ced0d52c",
+            "resolution": "1080",
+            "encoding": "265",
+            "bytes": 627745304.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 21609,
-            "seed": 576
+            "peer": 24814,
+            "seed": 2556
+        },
+        {
+            "id": 196,
+            "name": "The.Mandalorian.S03e01.2023.1080p-Dual-Lat",
+            "btih": "c3a8875dbc94ad100876a58cd595734d417cb018",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": 798021043.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 24694,
+            "seed": 772
+        },
+        {
+            "id": 183,
+            "name": "The.Mandalorian.S03E01.WEBRip.400p.ukr.2.0.HDREZKA.STUDIO.avi",
+            "btih": "43c248e310c0f2f6b10158cf4b303489dd37d380",
+            "resolution": "sd",
+            "encoding": "none",
+            "bytes": 559153496.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 24424,
+            "seed": 754
         },
         {
             "id": 18,
@@ -2395,125 +2223,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 21557,
-            "seed": 631
-        },
-        {
-            "id": 8,
-            "name": "The Mandalorian (Season 3) (2023) WEB-DL 1080p [4xUkr_Eng] [Hurtom]",
-            "btih": "c424899b37a882756e0a1db3cab0763a7ce37edd",
-            "resolution": "1080",
-            "encoding": "none",
-            "bytes": 2250937507.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 21543,
-            "seed": 1015
-        },
-        {
-            "id": 60,
-            "name": "The.Mandalorian.S03.400p.ColdFilm",
-            "btih": "b85a0daaad915af4eece7ab3d8b4a56244bfbdfb",
-            "resolution": "sd",
-            "encoding": "none",
-            "bytes": 448673202.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 21306,
-            "seed": 1584
-        },
-        {
-            "id": 45,
-            "name": "The.Mandalorian.720p.LostFilm",
-            "btih": "dfb48151ccba0a21a3e16c60b8c1c2a01f8e34dc",
-            "resolution": "720",
-            "encoding": "none",
-            "bytes": 30284629909.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 21216,
-            "seed": 404
-        },
-        {
-            "id": 63,
-            "name": "The.Mandalorian.S03.720p.ColdFilm",
-            "btih": "a5316cd9755e30b4e92cba4e109a23b720cee124",
-            "resolution": "720",
-            "encoding": "none",
-            "bytes": 939296505.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 21061,
-            "seed": 1073
-        },
-        {
-            "id": 193,
-            "name": "The.Mandalorian.S03E01.m1080p.10bit.WEBRip.H265.MKV.EAC3-5.1 DUBBPL-ENG-NapisyPL",
-            "btih": "0769e2480902016f7047c0a188e33db134538702",
-            "resolution": "1080",
-            "encoding": "265",
-            "bytes": 624613166.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 21048,
-            "seed": 2350
-        },
-        {
-            "id": 149,
-            "name": "The.Mandalorian.S03E01.720p.x264-FENiX",
-            "btih": "15f72d78fe206debd490089061edbfa36fc1f7d2",
-            "resolution": "720",
-            "encoding": "264",
-            "bytes": 387906649.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 20930,
-            "seed": 2460
-        },
-        {
-            "id": 4711,
-            "name": "multi-btih-18-2-x-The.Mandalorian.S03E01.2160p.DSNP.WEB-DL.x265.10bit.HDR.DDP5.1.Atmos-NTb [IPT]",
-            "btih": "47a77b55daf3978057bc8df72868e44119fa31d5",
-            "resolution": "2160",
-            "encoding": "265",
-            "bytes": 3593714952.0,
-            "ssl": false,
-            "private": true,
-            "i2p": false,
-            "peer": 20924,
-            "seed": 4916
-        },
-        {
-            "id": 14,
-            "name": "The Mandalorian - Season 3 (2023) WEBRip 1080p [Ukr.Eng] [Цікава Ідея]",
-            "btih": "4c99ebe47860025685ab54126a9388273e5075e8",
-            "resolution": "1080",
-            "encoding": "none",
-            "bytes": 1932550484.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 20761,
-            "seed": 766
-        },
-        {
-            "id": 154,
-            "name": "The.Mandalorian.S03E01.Capitolo.17.2160p.HDR.HEVC.WEBDL.EAC3.ITA.ENG.G66.mkv",
-            "btih": "4b5dd1cd7262dd956e2ef7eaf24de56ed6432ca5",
-            "resolution": "2160",
-            "encoding": "none",
-            "bytes": 3660999928.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 20693,
-            "seed": 1940
+            "peer": 24372,
+            "seed": 694
         },
         {
             "id": 80,
@@ -2525,125 +2236,86 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 20682,
-            "seed": 2368
+            "peer": 24204,
+            "seed": 2459
         },
         {
-            "id": 161,
-            "name": "The.Mandalorian.S03E01.Chapter.17.DSNP.WEBMux.ITA.ENG.x264-BlackBit.mkv",
-            "btih": "0ad9137919d064a58f6ed3c5eed2fe030118e739",
-            "resolution": "sd",
-            "encoding": "264",
-            "bytes": 332449092.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 20592,
-            "seed": 3718
-        },
-        {
-            "id": 40,
-            "name": "The.Mandalorian.2023.S03.E01.WEBRip.x264-ION10",
-            "btih": "45ec2392681e4c2728f4352737e2c2a2669422d5",
-            "resolution": "sd",
-            "encoding": "264",
-            "bytes": 350188217.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 20514,
-            "seed": 1283
-        },
-        {
-            "id": 158,
-            "name": "The.Mandalorian.S03E01.Chapter.17.2160p.DSNP.WEB-DL.DDP5.1.Atmos.DV.H.265-playWEB.mkv",
-            "btih": "39e71229caf1c3fef8a3a635d7a49117a906a940",
-            "resolution": "2160",
-            "encoding": "265",
-            "bytes": 4506394650.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 20326,
-            "seed": 1283
-        },
-        {
-            "id": 212,
-            "name": "[BEST-TORRENTS.ORG] The.Mandalorian.S03E01.MULTi.2160p.DSNP.WEB-DL.HDR.HEVC.DDP5.1.Atmos-K83",
-            "btih": "baa4479438199c3260fd20f6a5b2d4066f446d8e",
-            "resolution": "2160",
+            "id": 39,
+            "name": "The.Mandalorian.(Season 03).RuDub",
+            "btih": "056de580823cff5e38df3b9dd9b26428e3f43d19",
+            "resolution": "720",
             "encoding": "none",
-            "bytes": 3661275869.0,
+            "bytes": 446984564.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 19948,
-            "seed": 515
+            "peer": 23980,
+            "seed": 1195
         },
         {
-            "id": 247,
-            "name": "【高清剧集网 www.BTHDTV.com】曼达洛人 第三季[第01集][中文字幕].The.Mandalorian.S03.2023.DSNP.WEB-DL.1080p.H264.DDP-Xiaomi",
-            "btih": "624fe5c394fc3fc68610b38dce5a02f561d3f1d0",
-            "resolution": "1080",
-            "encoding": "264",
-            "bytes": 1795026443.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 19914,
-            "seed": 1261
-        },
-        {
-            "id": 30,
-            "name": "The Mandalorian S03E01 1080p - ZeiZ.mkv",
-            "btih": "ad27ed59cb6767c9889f317fd7760ec2005d808f",
-            "resolution": "1080",
+            "id": 63,
+            "name": "The.Mandalorian.S03.720p.ColdFilm",
+            "btih": "a5316cd9755e30b4e92cba4e109a23b720cee124",
+            "resolution": "720",
             "encoding": "none",
-            "bytes": 1861024727.0,
+            "bytes": 939296505.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 19914,
-            "seed": 2133
+            "peer": 23959,
+            "seed": 1088
         },
         {
-            "id": 250,
-            "name": "【高清剧集网 www.BTHDTV.com】曼达洛人 第三季[第01集][简繁英字幕].The.Mandalorian.S03.2160p.DSNP.WEB-DL.DDP5.1.Atmos.H.265-BlackTV",
-            "btih": "3efbe47d4fd45819efe43c0f282610cea926ceff",
-            "resolution": "2160",
-            "encoding": "265",
-            "bytes": 4083821194.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 19720,
-            "seed": 1004
-        },
-        {
-            "id": 7,
-            "name": "The Mandalorian (2023) S03 2160p 4K",
-            "btih": "19dd8dd0c5d4c8f0f5c335baf41d21ccdeadec48",
-            "resolution": "2160",
+            "id": 203,
+            "name": "The.Mandalorian.s03.HD720p.WEBRip.Ukr.Eng.Baibako.tv",
+            "btih": "79ec81581c9852b5bcc8ba2ca637002e3cfdb15c",
+            "resolution": "720",
             "encoding": "none",
-            "bytes": 3661022422.0,
+            "bytes": 1277455371.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 19684,
-            "seed": 1199
+            "peer": 23958,
+            "seed": 601
         },
         {
-            "id": 12,
-            "name": "The Mandalorian - S03E01 - Chapter 17 - The Apostate.mkv",
-            "btih": "2f90a7a29a549aa2c5b3cf0308c3c143a36cdd05",
+            "id": 126,
+            "name": "The.Mandalorian.S03E01.400p.ColdFilm.avi",
+            "btih": "7c78daaf82807338addf6c1cf60560be0ed9a00e",
             "resolution": "sd",
             "encoding": "none",
-            "bytes": 395727025.0,
+            "bytes": 439722388.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 19665,
-            "seed": 1806
+            "peer": 23610,
+            "seed": 1524
+        },
+        {
+            "id": 162,
+            "name": "The.Mandalorian.S03E01.CondorFilms.mkv",
+            "btih": "face5e35651e12833eca4d01896e7e70506fd64b",
+            "resolution": "sd",
+            "encoding": "none",
+            "bytes": 1759352208.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 23570,
+            "seed": 752
+        },
+        {
+            "id": 36,
+            "name": "The Mandalorian S03E01 DSNP WEB-DL HDR DV 2160P ESP ING EAC3 SUBS.mkv",
+            "btih": "6d7a0c652a4302d73186cb38c83fe8e7270b4009",
+            "resolution": "2160",
+            "encoding": "none",
+            "bytes": 3671102155.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 23474,
+            "seed": 181
         },
         {
             "id": 142,
@@ -2655,73 +2327,34 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 19623,
-            "seed": 561
+            "peer": 23417,
+            "seed": 566
         },
         {
-            "id": 252,
-            "name": "曼达洛人.The.Mandalorian.S03E01.WEB.1080p.x265.10bit.AAC.English.Chs.Eng-Deefun迪幻字幕组-星战中文网.mp4",
-            "btih": "5d864ed31b2d430a148cac46b5ec897792315ac5",
+            "id": 27,
+            "name": "The Mandalorian S03-2023",
+            "btih": "79769f06dbdee3e64f663fc4b08cd97ae022653d",
             "resolution": "1080",
-            "encoding": "265",
-            "bytes": 1342037251.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 19525,
-            "seed": 1034
-        },
-        {
-            "id": 172,
-            "name": "The.Mandalorian.S03E01.MULTi.2160p.WEB-DL.EAC3.HDR.H265-xmatr1x.mkv",
-            "btih": "9e3004edc4b627c95389158e072a48a7c2d12ebf",
-            "resolution": "2160",
-            "encoding": "265",
-            "bytes": 3660970524.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 19455,
-            "seed": 1023
-        },
-        {
-            "id": 140,
-            "name": "The.Mandalorian.S03E01.720p.WEB-DL.DDP5.1.x264 EN,CZ,SK dab.mkv",
-            "btih": "14b3bfa1591fdf8c7211b9113cd7da2fa464ed79",
-            "resolution": "720",
-            "encoding": "264",
-            "bytes": 1042290955.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 19443,
-            "seed": 1568
-        },
-        {
-            "id": 177,
-            "name": "The.Mandalorian.S03E01.The.Apostate.DSNP.WEB-DL.2160p.HDR.by.AKTEP.mkv",
-            "btih": "af46d7775ada63ed8a09ffc8453efd63be482d4c",
-            "resolution": "2160",
             "encoding": "none",
-            "bytes": 3711804002.0,
+            "bytes": 1326486502.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 19339,
-            "seed": 2009
+            "peer": 23392,
+            "seed": 706
         },
         {
-            "id": 202,
-            "name": "The.Mandalorian.s03.HD720p.WEBRip.Rus.RuDub.tv",
-            "btih": "00c5c410307bc44e02c6980f7d0ea66bb77e16e5",
-            "resolution": "720",
+            "id": 58,
+            "name": "The.Mandalorian.S03.1080p",
+            "btih": "a00792d9ec1bf0f07e8848bc353db8305ce83d69",
+            "resolution": "1080",
             "encoding": "none",
-            "bytes": 1178945339.0,
+            "bytes": 2013509685.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 19318,
-            "seed": 967
+            "peer": 23360,
+            "seed": 1357
         },
         {
             "id": 75,
@@ -2733,21 +2366,164 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 19290,
-            "seed": 565
+            "peer": 23351,
+            "seed": 570
         },
         {
-            "id": 147,
-            "name": "The.Mandalorian.S03E01.720p.WEBRip.x264.MKV.EAC3-5.1 DUBBPL-ENG-NapisyPL",
-            "btih": "f9b4f190cdc1b374079ff4251b21b652422e41fa",
-            "resolution": "720",
-            "encoding": "264",
-            "bytes": 776349575.0,
+            "id": 216,
+            "name": "[rutor.is]Mandalorec_3_sezon_RHS_4K_scarfilm.org",
+            "btih": "5f2dabfea1f7bb0b8470df6d8e772c0931f841a9",
+            "resolution": "sd",
+            "encoding": "none",
+            "bytes": 3677960680.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 19216,
-            "seed": 3218
+            "peer": 23331,
+            "seed": 2762
+        },
+        {
+            "id": 231,
+            "name": "[rutor.is]The_Mandalorian_s03_AlexFilm_2160p",
+            "btih": "a50ebc02446a87185ee5110369de0c510edcae64",
+            "resolution": "2160",
+            "encoding": "none",
+            "bytes": 3864325078.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 23249,
+            "seed": 2626
+        },
+        {
+            "id": 182,
+            "name": "The.Mandalorian.S03E01.WEBRip.400p.rus.2.0.HDREZKA.STUDIO.avi",
+            "btih": "95ee74887b784b4d9b1c10d6007f4723a6f93b09",
+            "resolution": "sd",
+            "encoding": "none",
+            "bytes": 475187734.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 23180,
+            "seed": 591
+        },
+        {
+            "id": 62,
+            "name": "The.Mandalorian.S03.400p.Ultradox",
+            "btih": "48551e986d6283cb0e70a45737337a20eb52c886",
+            "resolution": "sd",
+            "encoding": "none",
+            "bytes": 441450496.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 23172,
+            "seed": 623
+        },
+        {
+            "id": 37,
+            "name": "The Mandalorian S03E01.4K.dual-lat.cinecalidad.run.mkv",
+            "btih": "6540e5cc30ca8ad6668c91b6fd643bda5d2201c0",
+            "resolution": "sd",
+            "encoding": "none",
+            "bytes": 3660970034.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 23017,
+            "seed": 2038
+        },
+        {
+            "id": 45,
+            "name": "The.Mandalorian.720p.LostFilm",
+            "btih": "dfb48151ccba0a21a3e16c60b8c1c2a01f8e34dc",
+            "resolution": "720",
+            "encoding": "none",
+            "bytes": 30284629909.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 22703,
+            "seed": 417
+        },
+        {
+            "id": 154,
+            "name": "The.Mandalorian.S03E01.Capitolo.17.2160p.HDR.HEVC.WEBDL.EAC3.ITA.ENG.G66.mkv",
+            "btih": "4b5dd1cd7262dd956e2ef7eaf24de56ed6432ca5",
+            "resolution": "2160",
+            "encoding": "none",
+            "bytes": 3660999928.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 22647,
+            "seed": 1962
+        },
+        {
+            "id": 30,
+            "name": "The Mandalorian S03E01 1080p - ZeiZ.mkv",
+            "btih": "ad27ed59cb6767c9889f317fd7760ec2005d808f",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": 1861024727.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 22628,
+            "seed": 2232
+        },
+        {
+            "id": 250,
+            "name": "【高清剧集网 www.BTHDTV.com】曼达洛人 第三季[第01集][简繁英字幕].The.Mandalorian.S03.2160p.DSNP.WEB-DL.DDP5.1.Atmos.H.265-BlackTV",
+            "btih": "3efbe47d4fd45819efe43c0f282610cea926ceff",
+            "resolution": "2160",
+            "encoding": "265",
+            "bytes": 4083821194.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 22500,
+            "seed": 1011
+        },
+        {
+            "id": 211,
+            "name": "[BEST-TORRENTS.ORG] The.Mandalorian.S03E01.MULTi.2160p.DSNP.WEB-DL.DDP5.1.Atmos.HDR.H.265-P2P",
+            "btih": "dcf81075c55538afa3d632281b6f5f1ef58357e4",
+            "resolution": "2160",
+            "encoding": "265",
+            "bytes": 3661275401.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 22399,
+            "seed": 732
+        },
+        {
+            "id": 136,
+            "name": "The.Mandalorian.S03E01.720p.HDTV.Subtitulado.Esp.SC.mp4",
+            "btih": "2b50a2f3db68651aeffc3d119fd86ca75d853b7b",
+            "resolution": "720",
+            "encoding": "none",
+            "bytes": 375003595.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 22381,
+            "seed": 2388
+        },
+        {
+            "id": 193,
+            "name": "The.Mandalorian.S03E01.m1080p.10bit.WEBRip.H265.MKV.EAC3-5.1 DUBBPL-ENG-NapisyPL",
+            "btih": "0769e2480902016f7047c0a188e33db134538702",
+            "resolution": "1080",
+            "encoding": "265",
+            "bytes": 624613166.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 22372,
+            "seed": 2375
         },
         {
             "id": 152,
@@ -2759,164 +2535,177 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 19110,
-            "seed": 2783
+            "peer": 22303,
+            "seed": 2808
         },
         {
-            "id": 43,
-            "name": "The.Mandalorian.3x01.Episodio.17.216p.HDR.DSNP.WEB-DL.DDP5.1.H.264.mkv",
-            "btih": "c9f1a583f16eb083fedcc1a0b60f08ccc30aa69b",
+            "id": 60,
+            "name": "The.Mandalorian.S03.400p.ColdFilm",
+            "btih": "b85a0daaad915af4eece7ab3d8b4a56244bfbdfb",
             "resolution": "sd",
-            "encoding": "264",
-            "bytes": 3661021989.0,
+            "encoding": "none",
+            "bytes": 448673202.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 19094,
-            "seed": 3782
+            "peer": 22259,
+            "seed": 1600
         },
         {
-            "id": 244,
-            "name": "Мандалорец The Mandalorian Сезон 3 Серии 1 из 8 (Рик Фамуйива, Дэйв Филони, Брайс Даллас Ховард) [2023, США, Фантастика, б [rutracker-6330229]",
-            "btih": "b0f3ce496fb351cc7fd9e17ccfb5abed9d0428f9",
+            "id": 8,
+            "name": "The Mandalorian (Season 3) (2023) WEB-DL 1080p [4xUkr_Eng] [Hurtom]",
+            "btih": "c424899b37a882756e0a1db3cab0763a7ce37edd",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": 2250937507.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 22167,
+            "seed": 1025
+        },
+        {
+            "id": 158,
+            "name": "The.Mandalorian.S03E01.Chapter.17.2160p.DSNP.WEB-DL.DDP5.1.Atmos.DV.H.265-playWEB.mkv",
+            "btih": "39e71229caf1c3fef8a3a635d7a49117a906a940",
             "resolution": "2160",
-            "encoding": "none",
-            "bytes": 3796544475.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 19084,
-            "seed": 1897
-        },
-        {
-            "id": 56,
-            "name": "The.Mandalorian.S03.1080p.rus.LostFilm.TV",
-            "btih": "6c128cfa4f81168fecd27708619413bff5f78818",
-            "resolution": "1080",
-            "encoding": "none",
-            "bytes": 1939826120.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 19071,
-            "seed": 1164
-        },
-        {
-            "id": 209,
-            "name": "[BEST-TORRENTS.ORG] The.Mandalorian.2023.S03E01.PLDUB.480p.DSNP.WEB-DL.H264.DDP5.1-K83",
-            "btih": "753d7f1476252e588742cb54fb451a545200b724",
-            "resolution": "sd",
-            "encoding": "264",
-            "bytes": 541925603.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 18673,
-            "seed": 645
-        },
-        {
-            "id": 25,
-            "name": "The Mandalorian 3X1 HDTV XviD Castellano",
-            "btih": "03dbab3bb37e39f8cda153c07763c125556a6128",
-            "resolution": "sd",
-            "encoding": "xvid",
-            "bytes": 433386622.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 18618,
-            "seed": 2264
-        },
-        {
-            "id": 181,
-            "name": "The.Mandalorian.S03E01.WEBRip.1080p.ukr.5.1.HDREZKA.STUDIO.mkv",
-            "btih": "c6a6530abf52480e13bebab0949ee9c3800bcc6f",
-            "resolution": "1080",
-            "encoding": "none",
-            "bytes": 1928766319.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 18515,
-            "seed": 1571
-        },
-        {
-            "id": 153,
-            "name": "The.Mandalorian.S03E01.Capitolo.17.2160p.DV.HEVC.WEBDL.EAC3.ITA.ENG.G66.mkv",
-            "btih": "61cd4e91e8ccb9fb46f257afb44a4a1be492386d",
-            "resolution": "2160",
-            "encoding": "none",
-            "bytes": 4573649931.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 18395,
-            "seed": 2375
-        },
-        {
-            "id": 57,
-            "name": "The.Mandalorian.S03.1080p.rus.LostFilm",
-            "btih": "e9ebbee46a2594940d73f5deb46d01f36cc19347",
-            "resolution": "1080",
-            "encoding": "none",
-            "bytes": 1939826120.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 18292,
-            "seed": 884
-        },
-        {
-            "id": 206,
-            "name": "The.Mandalorian.s03.WEBRip.x264.Rus.RuDub.tv",
-            "btih": "90d0923114b273722f0828be529b33f988cac57a",
-            "resolution": "sd",
-            "encoding": "264",
-            "bytes": 442951437.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 18141,
-            "seed": 203
-        },
-        {
-            "id": 76,
-            "name": "The.Mandalorian.S03",
-            "btih": "6f56039391d4352f9ba2344267afe3d040141930",
-            "resolution": "sd",
-            "encoding": "none",
-            "bytes": 1793220812.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 18068,
-            "seed": 1542
-        },
-        {
-            "id": 130,
-            "name": "The.Mandalorian.S03E01.720p.10bit.WEBRip.2CH.x265.HEVC-PSA.mkv",
-            "btih": "52bc5eebc35a6c45bd39dc1416ce5f4b329839cd",
-            "resolution": "720",
             "encoding": "265",
-            "bytes": 249004990.0,
+            "bytes": 4506394650.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 18052,
-            "seed": 1755
+            "peer": 22071,
+            "seed": 1291
         },
         {
-            "id": 197,
-            "name": "The.Mandalorian.S03e01.2023.4K-Dual-Lat",
-            "btih": "2398776510857ac5bec5e29357aeee7f139af25c",
-            "resolution": "sd",
+            "id": 14,
+            "name": "The Mandalorian - Season 3 (2023) WEBRip 1080p [Ukr.Eng] [Цікава Ідея]",
+            "btih": "4c99ebe47860025685ab54126a9388273e5075e8",
+            "resolution": "1080",
             "encoding": "none",
-            "bytes": 3660994559.0,
+            "bytes": 1932550484.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 17922,
-            "seed": 583
+            "peer": 22064,
+            "seed": 782
+        },
+        {
+            "id": 149,
+            "name": "The.Mandalorian.S03E01.720p.x264-FENiX",
+            "btih": "15f72d78fe206debd490089061edbfa36fc1f7d2",
+            "resolution": "720",
+            "encoding": "264",
+            "bytes": 387906649.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 22045,
+            "seed": 2482
+        },
+        {
+            "id": 247,
+            "name": "【高清剧集网 www.BTHDTV.com】曼达洛人 第三季[第01集][中文字幕].The.Mandalorian.S03.2023.DSNP.WEB-DL.1080p.H264.DDP-Xiaomi",
+            "btih": "624fe5c394fc3fc68610b38dce5a02f561d3f1d0",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": 1795026443.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 21735,
+            "seed": 1264
+        },
+        {
+            "id": 40,
+            "name": "The.Mandalorian.2023.S03.E01.WEBRip.x264-ION10",
+            "btih": "45ec2392681e4c2728f4352737e2c2a2669422d5",
+            "resolution": "sd",
+            "encoding": "264",
+            "bytes": 350188217.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 21728,
+            "seed": 1298
+        },
+        {
+            "id": 172,
+            "name": "The.Mandalorian.S03E01.MULTi.2160p.WEB-DL.EAC3.HDR.H265-xmatr1x.mkv",
+            "btih": "9e3004edc4b627c95389158e072a48a7c2d12ebf",
+            "resolution": "2160",
+            "encoding": "265",
+            "bytes": 3660970524.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 21521,
+            "seed": 1038
+        },
+        {
+            "id": 212,
+            "name": "[BEST-TORRENTS.ORG] The.Mandalorian.S03E01.MULTi.2160p.DSNP.WEB-DL.HDR.HEVC.DDP5.1.Atmos-K83",
+            "btih": "baa4479438199c3260fd20f6a5b2d4066f446d8e",
+            "resolution": "2160",
+            "encoding": "none",
+            "bytes": 3661275869.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 21471,
+            "seed": 526
+        },
+        {
+            "id": 161,
+            "name": "The.Mandalorian.S03E01.Chapter.17.DSNP.WEBMux.ITA.ENG.x264-BlackBit.mkv",
+            "btih": "0ad9137919d064a58f6ed3c5eed2fe030118e739",
+            "resolution": "sd",
+            "encoding": "264",
+            "bytes": 332449092.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 21450,
+            "seed": 3764
+        },
+        {
+            "id": 5079,
+            "name": "multi-btih-18-2-x-The.Mandalorian.S03E01.2160p.DSNP.WEB-DL.x265.10bit.HDR.DDP5.1.Atmos-NTb [IPT]",
+            "btih": "47a77b55daf3978057bc8df72868e44119fa31d5",
+            "resolution": "2160",
+            "encoding": "265",
+            "bytes": 3593714952.0,
+            "ssl": false,
+            "private": true,
+            "i2p": false,
+            "peer": 21437,
+            "seed": 5079
+        },
+        {
+            "id": 12,
+            "name": "The Mandalorian - S03E01 - Chapter 17 - The Apostate.mkv",
+            "btih": "2f90a7a29a549aa2c5b3cf0308c3c143a36cdd05",
+            "resolution": "sd",
+            "encoding": "none",
+            "bytes": 395727025.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 21417,
+            "seed": 1822
+        },
+        {
+            "id": 140,
+            "name": "The.Mandalorian.S03E01.720p.WEB-DL.DDP5.1.x264 EN,CZ,SK dab.mkv",
+            "btih": "14b3bfa1591fdf8c7211b9113cd7da2fa464ed79",
+            "resolution": "720",
+            "encoding": "264",
+            "bytes": 1042290955.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 20986,
+            "seed": 1632
         },
         {
             "id": 16,
@@ -2928,34 +2717,164 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 17915,
-            "seed": 866
+            "peer": 20791,
+            "seed": 884
         },
         {
-            "id": 46,
-            "name": "The.Mandalorian.S02.1080p.10Bit.WEB-DL.Hindi.5.1-English.5.1.HEVC.x265-HDHub4u.Tv",
-            "btih": "87a3553dcef283030741c993606614599528c84e",
+            "id": 43,
+            "name": "The.Mandalorian.3x01.Episodio.17.216p.HDR.DSNP.WEB-DL.DDP5.1.H.264.mkv",
+            "btih": "c9f1a583f16eb083fedcc1a0b60f08ccc30aa69b",
+            "resolution": "sd",
+            "encoding": "264",
+            "bytes": 3661021989.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 20749,
+            "seed": 3972
+        },
+        {
+            "id": 244,
+            "name": "Мандалорец The Mandalorian Сезон 3 Серии 1 из 8 (Рик Фамуйива, Дэйв Филони, Брайс Даллас Ховард) [2023, США, Фантастика, б [rutracker-6330229]",
+            "btih": "b0f3ce496fb351cc7fd9e17ccfb5abed9d0428f9",
+            "resolution": "2160",
+            "encoding": "none",
+            "bytes": 3796544475.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 20698,
+            "seed": 1918
+        },
+        {
+            "id": 177,
+            "name": "The.Mandalorian.S03E01.The.Apostate.DSNP.WEB-DL.2160p.HDR.by.AKTEP.mkv",
+            "btih": "af46d7775ada63ed8a09ffc8453efd63be482d4c",
+            "resolution": "2160",
+            "encoding": "none",
+            "bytes": 3711804002.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 20690,
+            "seed": 2041
+        },
+        {
+            "id": 252,
+            "name": "曼达洛人.The.Mandalorian.S03E01.WEB.1080p.x265.10bit.AAC.English.Chs.Eng-Deefun迪幻字幕组-星战中文网.mp4",
+            "btih": "5d864ed31b2d430a148cac46b5ec897792315ac5",
             "resolution": "1080",
             "encoding": "265",
-            "bytes": 4140298264.0,
+            "bytes": 1342037251.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 17882,
-            "seed": 647
+            "peer": 20578,
+            "seed": 1058
         },
         {
-            "id": 132,
-            "name": "The.Mandalorian.S03E01.720p.DSNP.WEB-DL.DDP5.1.Atmos.H.264.HUN.ENG-PTHD",
-            "btih": "7fa1e677353bbd647d7aabb59cc58ce59ff06388",
-            "resolution": "720",
-            "encoding": "264",
-            "bytes": 1108792061.0,
+            "id": 25,
+            "name": "The Mandalorian 3X1 HDTV XviD Castellano",
+            "btih": "03dbab3bb37e39f8cda153c07763c125556a6128",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "bytes": 433386622.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 17659,
-            "seed": 1338
+            "peer": 20415,
+            "seed": 2335
+        },
+        {
+            "id": 56,
+            "name": "The.Mandalorian.S03.1080p.rus.LostFilm.TV",
+            "btih": "6c128cfa4f81168fecd27708619413bff5f78818",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": 1939826120.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 20375,
+            "seed": 1170
+        },
+        {
+            "id": 181,
+            "name": "The.Mandalorian.S03E01.WEBRip.1080p.ukr.5.1.HDREZKA.STUDIO.mkv",
+            "btih": "c6a6530abf52480e13bebab0949ee9c3800bcc6f",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": 1928766319.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 20267,
+            "seed": 1580
+        },
+        {
+            "id": 202,
+            "name": "The.Mandalorian.s03.HD720p.WEBRip.Rus.RuDub.tv",
+            "btih": "00c5c410307bc44e02c6980f7d0ea66bb77e16e5",
+            "resolution": "720",
+            "encoding": "none",
+            "bytes": 1178945339.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 20190,
+            "seed": 978
+        },
+        {
+            "id": 7,
+            "name": "The Mandalorian (2023) S03 2160p 4K",
+            "btih": "19dd8dd0c5d4c8f0f5c335baf41d21ccdeadec48",
+            "resolution": "2160",
+            "encoding": "none",
+            "bytes": 3661022422.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 20122,
+            "seed": 1201
+        },
+        {
+            "id": 206,
+            "name": "The.Mandalorian.s03.WEBRip.x264.Rus.RuDub.tv",
+            "btih": "90d0923114b273722f0828be529b33f988cac57a",
+            "resolution": "sd",
+            "encoding": "264",
+            "bytes": 442951437.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 20117,
+            "seed": 214
+        },
+        {
+            "id": 130,
+            "name": "The.Mandalorian.S03E01.720p.10bit.WEBRip.2CH.x265.HEVC-PSA.mkv",
+            "btih": "52bc5eebc35a6c45bd39dc1416ce5f4b329839cd",
+            "resolution": "720",
+            "encoding": "265",
+            "bytes": 249004990.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 20048,
+            "seed": 1856
+        },
+        {
+            "id": 147,
+            "name": "The.Mandalorian.S03E01.720p.WEBRip.x264.MKV.EAC3-5.1 DUBBPL-ENG-NapisyPL",
+            "btih": "f9b4f190cdc1b374079ff4251b21b652422e41fa",
+            "resolution": "720",
+            "encoding": "264",
+            "bytes": 776349575.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 20038,
+            "seed": 3300
         },
         {
             "id": 160,
@@ -2967,21 +2886,47 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 17522,
-            "seed": 1328
+            "peer": 19500,
+            "seed": 1353
         },
         {
-            "id": 19,
-            "name": "The Mandalorian - Temporada 3 [4KWebRip][Cap.301][Dual DD5.1 + Subs][www.atomoHD.how]",
-            "btih": "444d5460ea14296288ba2165258e282f8eef4bd6",
-            "resolution": "sd",
+            "id": 153,
+            "name": "The.Mandalorian.S03E01.Capitolo.17.2160p.DV.HEVC.WEBDL.EAC3.ITA.ENG.G66.mkv",
+            "btih": "61cd4e91e8ccb9fb46f257afb44a4a1be492386d",
+            "resolution": "2160",
             "encoding": "none",
-            "bytes": 3661023574.0,
+            "bytes": 4573649931.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 17481,
-            "seed": 2472
+            "peer": 19478,
+            "seed": 2391
+        },
+        {
+            "id": 209,
+            "name": "[BEST-TORRENTS.ORG] The.Mandalorian.2023.S03E01.PLDUB.480p.DSNP.WEB-DL.H264.DDP5.1-K83",
+            "btih": "753d7f1476252e588742cb54fb451a545200b724",
+            "resolution": "sd",
+            "encoding": "264",
+            "bytes": 541925603.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 19346,
+            "seed": 656
+        },
+        {
+            "id": 197,
+            "name": "The.Mandalorian.S03e01.2023.4K-Dual-Lat",
+            "btih": "2398776510857ac5bec5e29357aeee7f139af25c",
+            "resolution": "sd",
+            "encoding": "none",
+            "bytes": 3660994559.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 19258,
+            "seed": 605
         },
         {
             "id": 21,
@@ -2993,8 +2938,73 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 17231,
-            "seed": 2171
+            "peer": 19191,
+            "seed": 2250
+        },
+        {
+            "id": 57,
+            "name": "The.Mandalorian.S03.1080p.rus.LostFilm",
+            "btih": "e9ebbee46a2594940d73f5deb46d01f36cc19347",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": 1939826120.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 18926,
+            "seed": 891
+        },
+        {
+            "id": 46,
+            "name": "The.Mandalorian.S02.1080p.10Bit.WEB-DL.Hindi.5.1-English.5.1.HEVC.x265-HDHub4u.Tv",
+            "btih": "87a3553dcef283030741c993606614599528c84e",
+            "resolution": "1080",
+            "encoding": "265",
+            "bytes": 4140298264.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 18840,
+            "seed": 658
+        },
+        {
+            "id": 76,
+            "name": "The.Mandalorian.S03",
+            "btih": "6f56039391d4352f9ba2344267afe3d040141930",
+            "resolution": "sd",
+            "encoding": "none",
+            "bytes": 1793220812.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 18818,
+            "seed": 1558
+        },
+        {
+            "id": 132,
+            "name": "The.Mandalorian.S03E01.720p.DSNP.WEB-DL.DDP5.1.Atmos.H.264.HUN.ENG-PTHD",
+            "btih": "7fa1e677353bbd647d7aabb59cc58ce59ff06388",
+            "resolution": "720",
+            "encoding": "264",
+            "bytes": 1108792061.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 18765,
+            "seed": 1358
+        },
+        {
+            "id": 19,
+            "name": "The Mandalorian - Temporada 3 [4KWebRip][Cap.301][Dual DD5.1 + Subs][www.atomoHD.how]",
+            "btih": "444d5460ea14296288ba2165258e282f8eef4bd6",
+            "resolution": "sd",
+            "encoding": "none",
+            "bytes": 3661023574.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 18607,
+            "seed": 2501
         },
         {
             "id": 131,
@@ -3006,8 +3016,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 16980,
-            "seed": 1767
+            "peer": 17806,
+            "seed": 1791
         },
         {
             "id": 200,
@@ -3019,8 +3029,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 15974,
-            "seed": 655
+            "peer": 16595,
+            "seed": 666
         },
         {
             "id": 185,
@@ -3032,21 +3042,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 15715,
-            "seed": 960
-        },
-        {
-            "id": 184,
-            "name": "The.Mandalorian.S03E01.WEBRip.720p.rus.5.1.HDREZKA.STUDIO.mkv",
-            "btih": "4076425baac1fcf62d31f262f7acfa23a71a606d",
-            "resolution": "720",
-            "encoding": "none",
-            "bytes": 1024788270.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 15123,
-            "seed": 583
+            "peer": 16413,
+            "seed": 972
         },
         {
             "id": 38,
@@ -3058,8 +3055,21 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 14634,
-            "seed": 489
+            "peer": 16081,
+            "seed": 497
+        },
+        {
+            "id": 184,
+            "name": "The.Mandalorian.S03E01.WEBRip.720p.rus.5.1.HDREZKA.STUDIO.mkv",
+            "btih": "4076425baac1fcf62d31f262f7acfa23a71a606d",
+            "resolution": "720",
+            "encoding": "none",
+            "bytes": 1024788270.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 15663,
+            "seed": 590
         },
         {
             "id": 214,
@@ -3071,21 +3081,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 13759,
-            "seed": 149
-        },
-        {
-            "id": 190,
-            "name": "The.Mandalorian.S03E01.XviD-AFG [IPT]",
-            "btih": "160d42a79a5b7be58e06615bc8ce5ad70265298a",
-            "resolution": "sd",
-            "encoding": "xvid",
-            "bytes": 384295968.0,
-            "ssl": false,
-            "private": true,
-            "i2p": false,
-            "peer": 13114,
-            "seed": 4289
+            "peer": 14335,
+            "seed": 161
         },
         {
             "id": 48,
@@ -3097,8 +3094,21 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 12678,
-            "seed": 629
+            "peer": 13538,
+            "seed": 634
+        },
+        {
+            "id": 190,
+            "name": "The.Mandalorian.S03E01.XviD-AFG [IPT]",
+            "btih": "160d42a79a5b7be58e06615bc8ce5ad70265298a",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "bytes": 384295968.0,
+            "ssl": false,
+            "private": true,
+            "i2p": false,
+            "peer": 13535,
+            "seed": 4400
         },
         {
             "id": 123,
@@ -3110,8 +3120,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 12177,
-            "seed": 3040
+            "peer": 12637,
+            "seed": 3137
         },
         {
             "id": 88,
@@ -3123,8 +3133,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 11644,
-            "seed": 3080
+            "peer": 12054,
+            "seed": 3154
         },
         {
             "id": 120,
@@ -3136,8 +3146,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 8946,
-            "seed": 2787
+            "peer": 9067,
+            "seed": 2829
         },
         {
             "id": 138,
@@ -3149,8 +3159,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 8512,
-            "seed": 2691
+            "peer": 8817,
+            "seed": 2774
         },
         {
             "id": 97,
@@ -3162,8 +3172,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 7451,
-            "seed": 3142
+            "peer": 7715,
+            "seed": 3312
         },
         {
             "id": 141,
@@ -3175,8 +3185,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 5650,
-            "seed": 1434
+            "peer": 5730,
+            "seed": 1468
         },
         {
             "id": 128,
@@ -3188,8 +3198,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 4898,
-            "seed": 1280
+            "peer": 5046,
+            "seed": 1343
         },
         {
             "id": 151,
@@ -3201,8 +3211,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 4719,
-            "seed": 1131
+            "peer": 4834,
+            "seed": 1173
         },
         {
             "id": 133,
@@ -3214,8 +3224,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 4264,
-            "seed": 1238
+            "peer": 4360,
+            "seed": 1280
         },
         {
             "id": 164,
@@ -3227,8 +3237,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 3597,
-            "seed": 964
+            "peer": 3629,
+            "seed": 988
         },
         {
             "id": 34,
@@ -3240,8 +3250,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 2864,
-            "seed": 1710
+            "peer": 2960,
+            "seed": 1760
         },
         {
             "id": 187,
@@ -3253,8 +3263,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 1061,
-            "seed": 496
+            "peer": 1090,
+            "seed": 511
         },
         {
             "id": 26,
@@ -3279,8 +3289,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 675,
-            "seed": 619
+            "peer": 682,
+            "seed": 621
         },
         {
             "id": 173,
@@ -3357,8 +3367,21 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 484,
+            "peer": 485,
             "seed": 461
+        },
+        {
+            "id": 86,
+            "name": "The.Mandalorian.S03E01.1080p.DSNP.WEB-DL.DDP5.1.H.264-NTb.mkv",
+            "btih": "126fe0380127fbde68d609c9e01fe2855d998b0d",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": 1793701010.0,
+            "ssl": false,
+            "private": true,
+            "i2p": false,
+            "peer": 477,
+            "seed": 335
         },
         {
             "id": 170,
@@ -3370,7 +3393,7 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 455,
+            "peer": 456,
             "seed": 435
         },
         {
@@ -3383,8 +3406,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 446,
-            "seed": 428
+            "peer": 447,
+            "seed": 429
         },
         {
             "id": 171,
@@ -3396,21 +3419,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 437,
+            "peer": 438,
             "seed": 420
-        },
-        {
-            "id": 86,
-            "name": "The.Mandalorian.S03E01.1080p.DSNP.WEB-DL.DDP5.1.H.264-NTb.mkv",
-            "btih": "126fe0380127fbde68d609c9e01fe2855d998b0d",
-            "resolution": "1080",
-            "encoding": "264",
-            "bytes": 1793701010.0,
-            "ssl": false,
-            "private": true,
-            "i2p": false,
-            "peer": 431,
-            "seed": 322
         },
         {
             "id": 82,
@@ -3487,8 +3497,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 357,
-            "seed": 343
+            "peer": 362,
+            "seed": 345
         },
         {
             "id": 28,
@@ -3500,8 +3510,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 309,
-            "seed": 285
+            "peer": 313,
+            "seed": 286
         },
         {
             "id": 33,
@@ -3526,7 +3536,7 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 271,
+            "peer": 272,
             "seed": 263
         },
         {
@@ -3565,7 +3575,7 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 33,
+            "peer": 34,
             "seed": 12
         },
         {
