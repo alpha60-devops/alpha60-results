@@ -2,25 +2,25 @@
     "collection-name": "Only Murders In the Building",
     "collection-id": "310",
     "data-version": "2023-05-31",
-    "sample-duration": "2023-10-03-to-2023-11-07",
-    "sample-days": 36,
+    "sample-duration": "2023-10-03-to-2023-12-19",
+    "sample-days": 78,
     "sample-year-start": 2023,
     "sample-year-end": 2023,
     "sample-day-year-start": 276,
-    "sample-day-year-end": 311,
+    "sample-day-year-end": 353,
     "collection-all-btiha-total": {
         "btiha-size": 146,
-        "upeers-total": 2170681,
-        "useeds-total": 329717,
-        "anomaly-total": 4174024,
-        "anomaly-percentage": "192.29"
+        "upeers-total": 5073381,
+        "useeds-total": 465948,
+        "anomaly-total": 13129,
+        "anomaly-percentage": "0.26"
     },
     "collection-unique-btiha-total": {
         "btiha-size": 126,
-        "upeers-total": 1947830,
-        "useeds-total": 255154,
-        "anomaly-total": 3701628,
-        "anomaly-percentage": "190.04"
+        "upeers-total": 4700049,
+        "useeds-total": 365611,
+        "anomaly-total": 11300,
+        "anomaly-percentage": "0.24"
     },
     "collection-unique-btiha-week-00001": {
         "btiha-size": 109,
@@ -49,52 +49,503 @@
     },
     "collection-unique-btiha-week-00006": {
         "btiha-size": 126,
-        "upeers-total": 1947830,
-        "useeds-total": 255154
+        "upeers-total": 2332848,
+        "useeds-total": 271723
+    },
+    "collection-unique-btiha-week-00007": {
+        "btiha-size": 126,
+        "upeers-total": 2878284,
+        "useeds-total": 293067
+    },
+    "collection-unique-btiha-week-00008": {
+        "btiha-size": 126,
+        "upeers-total": 3347251,
+        "useeds-total": 311726
+    },
+    "collection-unique-btiha-week-00009": {
+        "btiha-size": 126,
+        "upeers-total": 3784874,
+        "useeds-total": 329520
+    },
+    "collection-unique-btiha-week-00010": {
+        "btiha-size": 126,
+        "upeers-total": 4217763,
+        "useeds-total": 346954
+    },
+    "collection-unique-btiha-week-00011": {
+        "btiha-size": 126,
+        "upeers-total": 4643584,
+        "useeds-total": 363466
+    },
+    "collection-unique-btiha-week-00012": {
+        "btiha-size": 126,
+        "upeers-total": 4700049,
+        "useeds-total": 365611
     },
     "transfer-units": "terabyte",
-    "transfer-size": 13025.157765252685,
+    "transfer-size": 32731.58410379522,
     "transfer-price-1-name": "CloudFront-1-year",
     "transfer-price-1-per-gigabyte-cost": 0.005,
-    "transfer-price-1-USD": 233125.78882626343,
+    "transfer-price-1-USD": 331657.9205189761,
     "geo-whole-earth-resolution-partitions": [
         {
             "number": 1,
             "name": "1080-all",
-            "upeers-total": 780474,
-            "total-percentage-upeers": "40.07",
-            "total-percentage-bytes": "43.53"
+            "upeers-total": 1844924,
+            "total-percentage-upeers": "39.25",
+            "total-percentage-bytes": "43.63"
         },
         {
             "number": 2,
             "name": "720-all",
-            "upeers-total": 603361,
-            "total-percentage-upeers": "30.98",
-            "total-percentage-bytes": "11.60"
+            "upeers-total": 1474985,
+            "total-percentage-upeers": "31.38",
+            "total-percentage-bytes": "12.13"
         },
         {
             "number": 3,
             "name": "sd-all",
-            "upeers-total": 381475,
-            "total-percentage-upeers": "19.58",
-            "total-percentage-bytes": "5.34"
+            "upeers-total": 917207,
+            "total-percentage-upeers": "19.51",
+            "total-percentage-bytes": "4.75"
         },
         {
             "number": 4,
             "name": "2160-all",
-            "upeers-total": 182520,
-            "total-percentage-upeers": "9.37",
-            "total-percentage-bytes": "39.53"
+            "upeers-total": 462933,
+            "total-percentage-upeers": "9.85",
+            "total-percentage-bytes": "39.49"
         }
     ],
-    "geo-slices-4-longitude-region-peers": [],
-    "geo-slices-continental-peers": [],
-    "geo-country-top-10-peers": [],
-    "geo-country-top-10-seeds": [],
-    "geo-country-region-city-top-30-peers": [],
+    "geo-slices-4-longitude-region-peers": [
+        {
+            "number": 1,
+            "name": "Pacifica America",
+            "upeers-slice": 128851,
+            "slice-percentage-upeers": "2.74"
+        },
+        {
+            "number": 2,
+            "name": "Americas",
+            "upeers-slice": 917016,
+            "slice-percentage-upeers": "19.51"
+        },
+        {
+            "number": 3,
+            "name": "Afro Eur Asia",
+            "upeers-slice": 2781677,
+            "slice-percentage-upeers": "59.18"
+        },
+        {
+            "number": 4,
+            "name": "Asia Pacifica",
+            "upeers-slice": 872086,
+            "slice-percentage-upeers": "18.55"
+        }
+    ],
+    "geo-slices-continental-peers": [
+        {
+            "number": 1,
+            "name": "Europe",
+            "upeers-slice": 2550599,
+            "slice-percentage-upeers": "54.27"
+        },
+        {
+            "number": 2,
+            "name": "Asia",
+            "upeers-slice": 879415,
+            "slice-percentage-upeers": "18.71"
+        },
+        {
+            "number": 3,
+            "name": "North America",
+            "upeers-slice": 623964,
+            "slice-percentage-upeers": "13.28"
+        },
+        {
+            "number": 4,
+            "name": "South America",
+            "upeers-slice": 369506,
+            "slice-percentage-upeers": "7.86"
+        },
+        {
+            "number": 5,
+            "name": "Africa",
+            "upeers-slice": 55109,
+            "slice-percentage-upeers": "1.17"
+        },
+        {
+            "number": 6,
+            "name": "Oceania",
+            "upeers-slice": 46143,
+            "slice-percentage-upeers": "0.98"
+        },
+        {
+            "number": 7,
+            "name": "",
+            "upeers-slice": 4889,
+            "slice-percentage-upeers": "0.10"
+        }
+    ],
+    "geo-country-top-10-peers": [
+        {
+            "number": 1,
+            "country-code": "RUS",
+            "country-name": "Russian Federation",
+            "total-percentage-upeers": "23.74",
+            "upeers-total": 1115991
+        },
+        {
+            "number": 2,
+            "country-code": "USA",
+            "country-name": "United States of America",
+            "total-percentage-upeers": "7.74",
+            "upeers-total": 363717
+        },
+        {
+            "number": 3,
+            "country-code": "KOR",
+            "country-name": "Korea, Republic of",
+            "total-percentage-upeers": "6.63",
+            "upeers-total": 311527
+        },
+        {
+            "number": 4,
+            "country-code": "BRA",
+            "country-name": "Brazil",
+            "total-percentage-upeers": "5.53",
+            "upeers-total": 260126
+        },
+        {
+            "number": 5,
+            "country-code": "FRA",
+            "country-name": "France",
+            "total-percentage-upeers": "3.69",
+            "upeers-total": 173325
+        },
+        {
+            "number": 6,
+            "country-code": "TUR",
+            "country-name": "Turkey",
+            "total-percentage-upeers": "3.35",
+            "upeers-total": 157463
+        },
+        {
+            "number": 7,
+            "country-code": "CHN",
+            "country-name": "China",
+            "total-percentage-upeers": "3.00",
+            "upeers-total": 141063
+        },
+        {
+            "number": 8,
+            "country-code": "DEU",
+            "country-name": "Germany",
+            "total-percentage-upeers": "2.68",
+            "upeers-total": 125870
+        },
+        {
+            "number": 9,
+            "country-code": "NLD",
+            "country-name": "Netherlands",
+            "total-percentage-upeers": "2.52",
+            "upeers-total": 118241
+        },
+        {
+            "number": 10,
+            "country-code": "GBR",
+            "country-name": "United Kingdom of Great Britain and Northern Ireland",
+            "total-percentage-upeers": "2.50",
+            "upeers-total": 117507
+        }
+    ],
+    "geo-country-top-10-seeds": [
+        {
+            "number": 1,
+            "country-code": "USA",
+            "country-name": "United States of America",
+            "total-percentage-upeers": "18.99",
+            "upeers-total": 69429
+        },
+        {
+            "number": 2,
+            "country-code": "RUS",
+            "country-name": "Russian Federation",
+            "total-percentage-upeers": "6.60",
+            "upeers-total": 24124
+        },
+        {
+            "number": 3,
+            "country-code": "DEU",
+            "country-name": "Germany",
+            "total-percentage-upeers": "5.55",
+            "upeers-total": 20307
+        },
+        {
+            "number": 4,
+            "country-code": "IRL",
+            "country-name": "Ireland",
+            "total-percentage-upeers": "5.42",
+            "upeers-total": 19812
+        },
+        {
+            "number": 5,
+            "country-code": "CAN",
+            "country-name": "Canada",
+            "total-percentage-upeers": "4.88",
+            "upeers-total": 17859
+        },
+        {
+            "number": 6,
+            "country-code": "GBR",
+            "country-name": "United Kingdom of Great Britain and Northern Ireland",
+            "total-percentage-upeers": "3.34",
+            "upeers-total": 12194
+        },
+        {
+            "number": 7,
+            "country-code": "AUS",
+            "country-name": "Australia",
+            "total-percentage-upeers": "2.41",
+            "upeers-total": 8828
+        },
+        {
+            "number": 8,
+            "country-code": "NLD",
+            "country-name": "Netherlands",
+            "total-percentage-upeers": "2.12",
+            "upeers-total": 7735
+        },
+        {
+            "number": 9,
+            "country-code": "GRC",
+            "country-name": "Greece",
+            "total-percentage-upeers": "2.11",
+            "upeers-total": 7699
+        },
+        {
+            "number": 10,
+            "country-code": "BRA",
+            "country-name": "Brazil",
+            "total-percentage-upeers": "2.09",
+            "upeers-total": 7641
+        }
+    ],
+    "geo-country-region-city-top-30-peers": [
+        {
+            "number": 1,
+            "country-code": "RUS",
+            "country-name": "Russian Federation, Moscow",
+            "total-percentage-upeers": "3.64",
+            "upeers-total": 170866
+        },
+        {
+            "number": 2,
+            "country-code": "RUS",
+            "country-name": "Russian Federation",
+            "total-percentage-upeers": "2.05",
+            "upeers-total": 96154
+        },
+        {
+            "number": 3,
+            "country-code": "RUS",
+            "country-name": "Russian Federation, St Petersburg",
+            "total-percentage-upeers": "1.67",
+            "upeers-total": 78472
+        },
+        {
+            "number": 4,
+            "country-code": "USA",
+            "country-name": "United States of America, Ashburn",
+            "total-percentage-upeers": "1.43",
+            "upeers-total": 67330
+        },
+        {
+            "number": 5,
+            "country-code": "CHN",
+            "country-name": "China",
+            "total-percentage-upeers": "1.42",
+            "upeers-total": 66736
+        },
+        {
+            "number": 6,
+            "country-code": "TUR",
+            "country-name": "Turkey, Istanbul",
+            "total-percentage-upeers": "1.07",
+            "upeers-total": 50353
+        },
+        {
+            "number": 7,
+            "country-code": "NLD",
+            "country-name": "Netherlands, Amsterdam",
+            "total-percentage-upeers": "0.96",
+            "upeers-total": 44997
+        },
+        {
+            "number": 8,
+            "country-code": "RUS",
+            "country-name": "Russian Federation, Yekaterinburg",
+            "total-percentage-upeers": "0.83",
+            "upeers-total": 38890
+        },
+        {
+            "number": 9,
+            "country-code": "NLD",
+            "country-name": "Netherlands",
+            "total-percentage-upeers": "0.79",
+            "upeers-total": 36928
+        },
+        {
+            "number": 10,
+            "country-code": "DEU",
+            "country-name": "Germany, Frankfurt am Main",
+            "total-percentage-upeers": "0.74",
+            "upeers-total": 34802
+        },
+        {
+            "number": 11,
+            "country-code": "RUS",
+            "country-name": "Russian Federation, Novosibirsk",
+            "total-percentage-upeers": "0.70",
+            "upeers-total": 32925
+        },
+        {
+            "number": 12,
+            "country-code": "HUN",
+            "country-name": "Hungary, Budapest",
+            "total-percentage-upeers": "0.67",
+            "upeers-total": 31572
+        },
+        {
+            "number": 13,
+            "country-code": "IRL",
+            "country-name": "Ireland, Dublin",
+            "total-percentage-upeers": "0.66",
+            "upeers-total": 31051
+        },
+        {
+            "number": 14,
+            "country-code": "FRA",
+            "country-name": "France",
+            "total-percentage-upeers": "0.66",
+            "upeers-total": 31045
+        },
+        {
+            "number": 15,
+            "country-code": "BRA",
+            "country-name": "Brazil, SĂŁo Paulo",
+            "total-percentage-upeers": "0.62",
+            "upeers-total": 29320
+        },
+        {
+            "number": 16,
+            "country-code": "RUS",
+            "country-name": "Russian Federation, Nizhniy Novgorod",
+            "total-percentage-upeers": "0.51",
+            "upeers-total": 24021
+        },
+        {
+            "number": 17,
+            "country-code": "CAN",
+            "country-name": "Canada, Toronto",
+            "total-percentage-upeers": "0.50",
+            "upeers-total": 23598
+        },
+        {
+            "number": 18,
+            "country-code": "RUS",
+            "country-name": "Russian Federation, Samara",
+            "total-percentage-upeers": "0.46",
+            "upeers-total": 21833
+        },
+        {
+            "number": 19,
+            "country-code": "RUS",
+            "country-name": "Russian Federation, Chelyabinsk",
+            "total-percentage-upeers": "0.44",
+            "upeers-total": 20610
+        },
+        {
+            "number": 20,
+            "country-code": "USA",
+            "country-name": "United States of America, Boardman",
+            "total-percentage-upeers": "0.44",
+            "upeers-total": 20562
+        },
+        {
+            "number": 21,
+            "country-code": "BGR",
+            "country-name": "Bulgaria, Sofia",
+            "total-percentage-upeers": "0.41",
+            "upeers-total": 19178
+        },
+        {
+            "number": 22,
+            "country-code": "KOR",
+            "country-name": "Korea, Republic of, Seoul",
+            "total-percentage-upeers": "0.41",
+            "upeers-total": 19177
+        },
+        {
+            "number": 23,
+            "country-code": "RUS",
+            "country-name": "Russian Federation, Rostov-on-Don",
+            "total-percentage-upeers": "0.38",
+            "upeers-total": 17766
+        },
+        {
+            "number": 24,
+            "country-code": "RUS",
+            "country-name": "Russian Federation, Perm",
+            "total-percentage-upeers": "0.37",
+            "upeers-total": 17536
+        },
+        {
+            "number": 25,
+            "country-code": "RUS",
+            "country-name": "Russian Federation, Krasnodar",
+            "total-percentage-upeers": "0.36",
+            "upeers-total": 16913
+        },
+        {
+            "number": 26,
+            "country-code": "FIN",
+            "country-name": "Finland, Helsinki",
+            "total-percentage-upeers": "0.35",
+            "upeers-total": 16539
+        },
+        {
+            "number": 27,
+            "country-code": "RUS",
+            "country-name": "Russian Federation, Saratov",
+            "total-percentage-upeers": "0.34",
+            "upeers-total": 16022
+        },
+        {
+            "number": 28,
+            "country-code": "UKR",
+            "country-name": "Ukraine, Kyiv",
+            "total-percentage-upeers": "0.34",
+            "upeers-total": 16016
+        },
+        {
+            "number": 29,
+            "country-code": "RUS",
+            "country-name": "Russian Federation, Voronezh",
+            "total-percentage-upeers": "0.34",
+            "upeers-total": 15962
+        },
+        {
+            "number": 30,
+            "country-code": "TUR",
+            "country-name": "Turkey, Ankara",
+            "total-percentage-upeers": "0.33",
+            "upeers-total": 15741
+        }
+    ],
     "collection-unique-btiha-detail": [
         {
-            "id": 929,
+            "id": 1793,
             "name": "multi-btih-8-2-x-Only.Murders.in.the.Building.S03.COMPLETE.720p.DSNP.WEBRip.x264-GalaxyTV",
             "btih": "ccd15a1dd8c572f55f6508e5373fc76316bca478",
             "resolution": "720",
@@ -103,24 +554,11 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 97017,
-            "seed": 48946
+            "peer": 170431,
+            "seed": 68022
         },
         {
-            "id": 921,
-            "name": "multi-btih-0-2-x-Only Murders in the Building (2023) (S03E10) (1080p)",
-            "btih": "3c1e401acd1671638371b661bff18d2858c9c8d1",
-            "resolution": "1080",
-            "encoding": "none",
-            "bytes": 1399143793.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 67052,
-            "seed": 32393
-        },
-        {
-            "id": 936,
+            "id": 1800,
             "name": "multi-btih-15-2-x-Only.Murders.in.the.Building.S03E10.WEB.x264-TORRENTGALAXY",
             "btih": "995b28b47d9f822ecd50b1ee349bce7775e960eb",
             "resolution": "sd",
@@ -129,99 +567,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 62330,
-            "seed": 13796
-        },
-        {
-            "id": 58,
-            "name": "Only.Murders.in.the.Building.S03E10.1080p.WEB.H264-SuccessfulCrab[TGx]",
-            "btih": "d081429d16ee83a9453620e8531aa6052f8c1de7",
-            "resolution": "1080",
-            "encoding": "264",
-            "bytes": 1449161950.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 57322,
-            "seed": 20634
-        },
-        {
-            "id": 938,
-            "name": "multi-btih-17-2-x-Убийства в одном здании Only Murders in the Building Сезон 3 Серии 1-10 из 10 (Шерин Дабис, Джеми Бэббит, Джо",
-            "btih": "7ff4471cb0271066d78772ba88da87600e9cc88a",
-            "resolution": "sd",
-            "encoding": "none",
-            "bytes": 5480755820.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 46149,
-            "seed": 2639
-        },
-        {
-            "id": 46,
-            "name": "Only.Murders.in.the.Building.S03.COMPLETE.720p.DSNP.WEBRip.x264[eztv.re]",
-            "btih": "cea26346c0477bb858727dc6184f77325ed6042d",
-            "resolution": "720",
-            "encoding": "264",
-            "bytes": 2251466572.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 40570,
-            "seed": 2433
-        },
-        {
-            "id": 926,
-            "name": "multi-btih-5-3-x-Only.Murders.in.the.Building.S03.1080p.WEBDL.Rus.Eng",
-            "btih": "24fe671d590a762f9e4570920ebd8ed7c4fdf23e",
-            "resolution": "1080",
-            "encoding": "none",
-            "bytes": 21362765231.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 39421,
-            "seed": 5933
-        },
-        {
-            "id": 77,
-            "name": "Only.Murders.in.the.Building.S03E10.720p.WEB.x265-MiNX[TGx]",
-            "btih": "0475d1d0345c54220eb3f5cdc201c01b7e2d81eb",
-            "resolution": "720",
-            "encoding": "265",
-            "bytes": 226174482.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 38935,
-            "seed": 9792
-        },
-        {
-            "id": 126,
-            "name": "[rutor.is]Only.Murders.in.the.Building(1)",
-            "btih": "b9132b64518d904668c6a52a8732e25f24940237",
-            "resolution": "1080",
-            "encoding": "none",
-            "bytes": 15723926579.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 36740,
-            "seed": 2448
-        },
-        {
-            "id": 43,
-            "name": "Only.Murders.in.the.Building.S03.COMPLETE.1080p.DSNP.WEB-DL.DDP5.1.H.264-NTb[TGx]",
-            "btih": "2faa0d1cc0a043fc2c52fc4af84d157e4df0a452",
-            "resolution": "1080",
-            "encoding": "264",
-            "bytes": 17191463043.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 36325,
-            "seed": 10469
+            "peer": 115384,
+            "seed": 15460
         },
         {
             "id": 114,
@@ -233,37 +580,76 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 35133,
-            "seed": 574
+            "peer": 100830,
+            "seed": 1018
         },
         {
-            "id": 54,
-            "name": "Only.Murders.in.the.Building.S03E10.1080p.HEVC.x265-MeGusta[eztv.re].mkv",
-            "btih": "cec10f219af3fea2fd89778e59d6de333bb3e971",
+            "id": 1785,
+            "name": "multi-btih-0-2-x-Only Murders in the Building (2023) (S03E10) (1080p)",
+            "btih": "3c1e401acd1671638371b661bff18d2858c9c8d1",
             "resolution": "1080",
-            "encoding": "265",
-            "bytes": 378238516.0,
+            "encoding": "none",
+            "bytes": 1399143793.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 34410,
-            "seed": 4632
+            "peer": 100638,
+            "seed": 38242
         },
         {
-            "id": 931,
-            "name": "multi-btih-10-2-x-Only.Murders.in.the.Building.S03E10.1080p.x265-ELiTE [Saturn5]",
-            "btih": "c610a5dc5f3f5ebdf1798b519fe0b7b73af1461e",
+            "id": 1790,
+            "name": "multi-btih-5-3-x-Only.Murders.in.the.Building.S03.1080p.WEBDL.Rus.Eng",
+            "btih": "24fe671d590a762f9e4570920ebd8ed7c4fdf23e",
             "resolution": "1080",
-            "encoding": "265",
-            "bytes": 639327516.0,
+            "encoding": "none",
+            "bytes": 21362765231.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 32641,
-            "seed": 2055
+            "peer": 97162,
+            "seed": 9023
         },
         {
-            "id": 927,
+            "id": 1802,
+            "name": "multi-btih-17-2-x-Убийства в одном здании Only Murders in the Building Сезон 3 Серии 1-10 из 10 (Шерин Дабис, Джеми Бэббит, Джо",
+            "btih": "7ff4471cb0271066d78772ba88da87600e9cc88a",
+            "resolution": "sd",
+            "encoding": "none",
+            "bytes": 5480755820.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 89850,
+            "seed": 4245
+        },
+        {
+            "id": 58,
+            "name": "Only.Murders.in.the.Building.S03E10.1080p.WEB.H264-SuccessfulCrab[TGx]",
+            "btih": "d081429d16ee83a9453620e8531aa6052f8c1de7",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": 1449161950.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 87618,
+            "seed": 22317
+        },
+        {
+            "id": 126,
+            "name": "[rutor.is]Only.Murders.in.the.Building(1)",
+            "btih": "b9132b64518d904668c6a52a8732e25f24940237",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": 15723926579.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 78624,
+            "seed": 4759
+        },
+        {
+            "id": 1791,
             "name": "multi-btih-6-3-x-Only.Murders.in.the.Building.S03.2160p.HULU.WEB-DL.H.265-NTb",
             "btih": "b6da3705c829a2a7a714aedc6f641bf866d4ee6a",
             "resolution": "2160",
@@ -272,128 +658,11 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 31323,
-            "seed": 1758
+            "peer": 74209,
+            "seed": 2590
         },
         {
-            "id": 47,
-            "name": "Only.Murders.in.the.Building.S03.WEB-DLRip.LF",
-            "btih": "ba2af9cc01aa783981215e1bfc381d2568b56f42",
-            "resolution": "sd",
-            "encoding": "none",
-            "bytes": 4912422641.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 30729,
-            "seed": 1130
-        },
-        {
-            "id": 923,
-            "name": "multi-btih-2-2-x-Only Murders in the Building (2023) (S03E10) (720p)",
-            "btih": "af2bbf4206b42553029aac6154a6ba8f3d1380b3",
-            "resolution": "720",
-            "encoding": "none",
-            "bytes": 662693363.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 29579,
-            "seed": 3834
-        },
-        {
-            "id": 1,
-            "name": "Only Murders In The Building Season 3 Mp4 1080p",
-            "btih": "67117dcf4dafdc894ec6649b132aaba00b06f294",
-            "resolution": "1080",
-            "encoding": "none",
-            "bytes": 11044759057.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 29173,
-            "seed": 3253
-        },
-        {
-            "id": 928,
-            "name": "multi-btih-7-2-x-Only.Murders.in.the.Building.S03.400p.Kerob",
-            "btih": "7a32ee809e31f50288032e31f8fd2ed56de4d6f9",
-            "resolution": "sd",
-            "encoding": "none",
-            "bytes": 4194288974.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 27980,
-            "seed": 1137
-        },
-        {
-            "id": 88,
-            "name": "Only.Murders.in.the.Building.S03E10.DV.HDR.2160p.WEB.H265-SuccessfulCrab[TGx]",
-            "btih": "b97c106939b5a228f69626574234a5cf1f155020",
-            "resolution": "2160",
-            "encoding": "265",
-            "bytes": 4659564109.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 26796,
-            "seed": 3492
-        },
-        {
-            "id": 934,
-            "name": "multi-btih-13-2-x-Only.Murders.in.the.Building.S03E10.720p.x265-T0PAZ [Saturn5]",
-            "btih": "3401d0cbc774c4c94af9706a2abfc92e42e8179c",
-            "resolution": "720",
-            "encoding": "265",
-            "bytes": 391356628.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 26788,
-            "seed": 866
-        },
-        {
-            "id": 933,
-            "name": "multi-btih-12-2-x-Only.Murders.in.the.Building.S03E10.720p.x264-FENiX [Saturn5]",
-            "btih": "101551cd6d885359ef3346061eae93c0d34f135b",
-            "resolution": "720",
-            "encoding": "264",
-            "bytes": 473193086.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 25357,
-            "seed": 1109
-        },
-        {
-            "id": 937,
-            "name": "multi-btih-16-2-x-Only.Murders.in.the.Building.S03E10.WEBRip.x264-XEN0N [Saturn5]",
-            "btih": "dfc106d85b88629e969739d2cdc6a16b8710b0e5",
-            "resolution": "sd",
-            "encoding": "264",
-            "bytes": 254494109.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 23460,
-            "seed": 1015
-        },
-        {
-            "id": 129,
-            "name": "[rutor.is]Only.Murders.in.the.Building",
-            "btih": "590aa505466528c5d9a380f06979c08ad63371cf",
-            "resolution": "720",
-            "encoding": "none",
-            "bytes": 12496646424.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 22708,
-            "seed": 2523
-        },
-        {
-            "id": 922,
+            "id": 1786,
             "name": "multi-btih-1-2-x-Only Murders in the Building (2023) (S03E10) (480p)",
             "btih": "0740080cb710a85e9e4a260b3e2521d24c50a62a",
             "resolution": "sd",
@@ -402,63 +671,37 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 22354,
-            "seed": 1861
+            "peer": 73267,
+            "seed": 2713
         },
         {
-            "id": 102,
-            "name": "Only.Murders.in.the.Building.S03E10.Opening.Night.720p.HULU.WEB-DL.DDP5.1.H.264-NTb[TGx]",
-            "btih": "6ee52f37300511bf76fb5d14c668942d0aed5a74",
-            "resolution": "720",
-            "encoding": "264",
-            "bytes": 662800146.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 22125,
-            "seed": 1508
-        },
-        {
-            "id": 112,
-            "name": "Only.Murders.in.the.Building.S03E10.XviD-AFG[eztv.re].avi",
-            "btih": "c29575e20da0abf3edc2a4976d574322d73a14e8",
-            "resolution": "sd",
-            "encoding": "xvid",
-            "bytes": 387339842.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 21213,
-            "seed": 1170
-        },
-        {
-            "id": 924,
-            "name": "multi-btih-3-2-x-Only Murders in the Building Season 3 (Original Soundtrack Deluxe Edition) (2023) Mp3 320kbps [PMEDIA] ⭐️",
-            "btih": "6c365d0d8c835f58f3a2d41d97d793aa066768e1",
-            "resolution": "720",
-            "encoding": "none",
-            "bytes": 148819654.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 20744,
-            "seed": 516
-        },
-        {
-            "id": 19,
-            "name": "Only.Murders.in.The.Building.2023.S03.2160p.DSNP.WEB-DL.DD+5.1.H.265-TheBiscuitMan",
-            "btih": "23333d9a7d01b30d31494ad61c85903c1af3d918",
-            "resolution": "2160",
+            "id": 1795,
+            "name": "multi-btih-10-2-x-Only.Murders.in.the.Building.S03E10.1080p.x265-ELiTE [Saturn5]",
+            "btih": "c610a5dc5f3f5ebdf1798b519fe0b7b73af1461e",
+            "resolution": "1080",
             "encoding": "265",
-            "bytes": 43791986010.0,
+            "bytes": 639327516.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 20555,
-            "seed": 685
+            "peer": 72704,
+            "seed": 3041
         },
         {
-            "id": 932,
+            "id": 1798,
+            "name": "multi-btih-13-2-x-Only.Murders.in.the.Building.S03E10.720p.x265-T0PAZ [Saturn5]",
+            "btih": "3401d0cbc774c4c94af9706a2abfc92e42e8179c",
+            "resolution": "720",
+            "encoding": "265",
+            "bytes": 391356628.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 70874,
+            "seed": 1510
+        },
+        {
+            "id": 1796,
             "name": "multi-btih-11-2-x-Only.Murders.in.the.Building.S03E10.480p.x264-RUBiK [Saturn5]",
             "btih": "46d238b79fe94b802830d580b734224e98c6827d",
             "resolution": "sd",
@@ -467,177 +710,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 20531,
-            "seed": 765
-        },
-        {
-            "id": 91,
-            "name": "Only.Murders.in.the.Building.S03E10.Opening.Night.1080p.DSNP.WEB-DL.DDP5.1.H.264-NTb[TGx]",
-            "btih": "4e61078ab65596bcce8f08e9679038192f00b9fb",
-            "resolution": "1080",
-            "encoding": "264",
-            "bytes": 1856409009.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 19805,
-            "seed": 2517
-        },
-        {
-            "id": 38,
-            "name": "Only.Murders.in.the.Building.S03.720p.WEB.h264-ETHEL",
-            "btih": "a0430cb80f579c4980dc0a3c25340449b5e393af",
-            "resolution": "720",
-            "encoding": "264",
-            "bytes": 5274070830.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 18692,
-            "seed": 685
-        },
-        {
-            "id": 142,
-            "name": "【高清剧集网发布 www.DDHDTV.com】大楼里只有谋杀 第三季[全10集][简繁英字幕].Only.Murders.in.the.Building.S03.2023.DSNP.WEB-DL.1080p.H264.DDP-Xiaomi",
-            "btih": "e68db62f7a681bab632a50038abf4d624b8ac8b0",
-            "resolution": "1080",
-            "encoding": "264",
-            "bytes": 17192895403.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 18209,
-            "seed": 862
-        },
-        {
-            "id": 120,
-            "name": "[ Torrent911.io ] Only.Murders.in.the.Building.S03E10.FiNAL.VOSTFR.WEBRip.x264.mp4",
-            "btih": "983c622cb42ace592774033398f42f62b58e9172",
-            "resolution": "sd",
-            "encoding": "264",
-            "bytes": 292198410.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 17598,
-            "seed": 840
-        },
-        {
-            "id": 53,
-            "name": "Only.Murders.in.the.Building.S03E10.1080p.HEVC.x265-MeGusta[TGx]",
-            "btih": "298f5173beeff6c7fc037b80af49a020725adde2",
-            "resolution": "1080",
-            "encoding": "265",
-            "bytes": 378240475.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 17362,
-            "seed": 2631
-        },
-        {
-            "id": 48,
-            "name": "Only.Murders.in.the.Building.S03.WEBDL.1080p.Ukr.Eng",
-            "btih": "082b72524f43a7f8dc544530ed727e1429a480a2",
-            "resolution": "1080",
-            "encoding": "none",
-            "bytes": 18670444358.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 16885,
-            "seed": 518
-        },
-        {
-            "id": 925,
-            "name": "multi-btih-4-2-x-Only.Murders.in.the.Building.S03.1080p.Kerob",
-            "btih": "4e0faed343714bdd877bfe97f3229fd558a83de2",
-            "resolution": "1080",
-            "encoding": "none",
-            "bytes": 14650748167.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 16843,
-            "seed": 1666
-        },
-        {
-            "id": 111,
-            "name": "Only.Murders.in.the.Building.S03E10.XviD-AFG[TGx]",
-            "btih": "31b8092e221b8c39f88a2c9c01343d8066adfbfa",
-            "resolution": "sd",
-            "encoding": "xvid",
-            "bytes": 387341754.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 16607,
-            "seed": 728
-        },
-        {
-            "id": 59,
-            "name": "Only.Murders.in.the.Building.S03E10.1080p.rus.LostFilm.TV.mkv",
-            "btih": "ed53c88c92a2d892a17a20c6cf6f1f3e93f65897",
-            "resolution": "1080",
-            "encoding": "none",
-            "bytes": 2224580314.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 16538,
-            "seed": 1662
-        },
-        {
-            "id": 82,
-            "name": "Only.Murders.in.the.Building.S03E10.720p.x264-FENiX[eztv.re].mkv",
-            "btih": "459ef864cac49b4cd3a357a683e96f00c9bf0f31",
-            "resolution": "720",
-            "encoding": "264",
-            "bytes": 469824868.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 16281,
-            "seed": 1138
-        },
-        {
-            "id": 16,
-            "name": "Only.Murders.In.The.Building.S03E10.720p.HDTV.Subtitulado.Esp.SC.mp4",
-            "btih": "18b719ea648c916a40be3e11e92c33d24c24a287",
-            "resolution": "720",
-            "encoding": "none",
-            "bytes": 406981675.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 16258,
-            "seed": 724
-        },
-        {
-            "id": 92,
-            "name": "Only.Murders.in.the.Building.S03E10.Opening.Night.1080p.DSNP.WEB-DL.DDP5.1.H.264-NTb[eztv.re].mkv",
-            "btih": "4ebfb4df77b4238783e77999312f3d359c52b36d",
-            "resolution": "1080",
-            "encoding": "264",
-            "bytes": 1856389001.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 16113,
-            "seed": 1412
-        },
-        {
-            "id": 94,
-            "name": "Only.Murders.in.the.Building.S03E10.Opening.Night.1080p.HULU.WEB-DL.DDP5.1.H.264-NTb[TGx]",
-            "btih": "79cb6bf244b9ff465cfdf189bb0ad1cf57daed17",
-            "resolution": "1080",
-            "encoding": "264",
-            "bytes": 2798494706.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 15937,
-            "seed": 1672
+            "peer": 70266,
+            "seed": 1394
         },
         {
             "id": 113,
@@ -649,21 +723,164 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 15914,
-            "seed": 1360
+            "peer": 70055,
+            "seed": 1771
         },
         {
-            "id": 29,
-            "name": "Only.Murders.in.the.Building.S03.1080p.WEBRip.x265-KONTRAST",
-            "btih": "8e0c1a1652b9b3880091d1e49db9ef8288028160",
-            "resolution": "1080",
-            "encoding": "265",
-            "bytes": 6913383150.0,
+            "id": 1792,
+            "name": "multi-btih-7-2-x-Only.Murders.in.the.Building.S03.400p.Kerob",
+            "btih": "7a32ee809e31f50288032e31f8fd2ed56de4d6f9",
+            "resolution": "sd",
+            "encoding": "none",
+            "bytes": 4194288974.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 15895,
-            "seed": 1785
+            "peer": 69922,
+            "seed": 1911
+        },
+        {
+            "id": 1797,
+            "name": "multi-btih-12-2-x-Only.Murders.in.the.Building.S03E10.720p.x264-FENiX [Saturn5]",
+            "btih": "101551cd6d885359ef3346061eae93c0d34f135b",
+            "resolution": "720",
+            "encoding": "264",
+            "bytes": 473193086.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 69308,
+            "seed": 1797
+        },
+        {
+            "id": 77,
+            "name": "Only.Murders.in.the.Building.S03E10.720p.WEB.x265-MiNX[TGx]",
+            "btih": "0475d1d0345c54220eb3f5cdc201c01b7e2d81eb",
+            "resolution": "720",
+            "encoding": "265",
+            "bytes": 226174482.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 63992,
+            "seed": 11014
+        },
+        {
+            "id": 43,
+            "name": "Only.Murders.in.the.Building.S03.COMPLETE.1080p.DSNP.WEB-DL.DDP5.1.H.264-NTb[TGx]",
+            "btih": "2faa0d1cc0a043fc2c52fc4af84d157e4df0a452",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": 17191463043.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 63551,
+            "seed": 14249
+        },
+        {
+            "id": 46,
+            "name": "Only.Murders.in.the.Building.S03.COMPLETE.720p.DSNP.WEBRip.x264[eztv.re]",
+            "btih": "cea26346c0477bb858727dc6184f77325ed6042d",
+            "resolution": "720",
+            "encoding": "264",
+            "bytes": 2251466572.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 62962,
+            "seed": 3698
+        },
+        {
+            "id": 54,
+            "name": "Only.Murders.in.the.Building.S03E10.1080p.HEVC.x265-MeGusta[eztv.re].mkv",
+            "btih": "cec10f219af3fea2fd89778e59d6de333bb3e971",
+            "resolution": "1080",
+            "encoding": "265",
+            "bytes": 378238516.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 61479,
+            "seed": 5821
+        },
+        {
+            "id": 1787,
+            "name": "multi-btih-2-2-x-Only Murders in the Building (2023) (S03E10) (720p)",
+            "btih": "af2bbf4206b42553029aac6154a6ba8f3d1380b3",
+            "resolution": "720",
+            "encoding": "none",
+            "bytes": 662693363.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 60922,
+            "seed": 4879
+        },
+        {
+            "id": 1,
+            "name": "Only Murders In The Building Season 3 Mp4 1080p",
+            "btih": "67117dcf4dafdc894ec6649b132aaba00b06f294",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": 11044759057.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 55797,
+            "seed": 5296
+        },
+        {
+            "id": 1801,
+            "name": "multi-btih-16-2-x-Only.Murders.in.the.Building.S03E10.WEBRip.x264-XEN0N [Saturn5]",
+            "btih": "dfc106d85b88629e969739d2cdc6a16b8710b0e5",
+            "resolution": "sd",
+            "encoding": "264",
+            "bytes": 254494109.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 55140,
+            "seed": 1663
+        },
+        {
+            "id": 88,
+            "name": "Only.Murders.in.the.Building.S03E10.DV.HDR.2160p.WEB.H265-SuccessfulCrab[TGx]",
+            "btih": "b97c106939b5a228f69626574234a5cf1f155020",
+            "resolution": "2160",
+            "encoding": "265",
+            "bytes": 4659564109.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 54866,
+            "seed": 4454
+        },
+        {
+            "id": 47,
+            "name": "Only.Murders.in.the.Building.S03.WEB-DLRip.LF",
+            "btih": "ba2af9cc01aa783981215e1bfc381d2568b56f42",
+            "resolution": "sd",
+            "encoding": "none",
+            "bytes": 4912422641.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 54699,
+            "seed": 1663
+        },
+        {
+            "id": 38,
+            "name": "Only.Murders.in.the.Building.S03.720p.WEB.h264-ETHEL",
+            "btih": "a0430cb80f579c4980dc0a3c25340449b5e393af",
+            "resolution": "720",
+            "encoding": "264",
+            "bytes": 5274070830.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 54529,
+            "seed": 1265
         },
         {
             "id": 21,
@@ -675,333 +892,21 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 15511,
-            "seed": 1461
+            "peer": 53287,
+            "seed": 2181
         },
         {
-            "id": 100,
-            "name": "Only.Murders.in.the.Building.S03E10.Opening.Night.720p.DSNP.WEB-DL.DDP5.1.H.264-NTb[TGx]",
-            "btih": "2228ff02bf392700c36d9fde51193de4f47259fa",
-            "resolution": "720",
-            "encoding": "264",
-            "bytes": 961905574.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 15436,
-            "seed": 1183
-        },
-        {
-            "id": 144,
-            "name": "【高清剧集网发布 www.DDHDTV.com】大楼里只有谋杀 第三季[全10集][简繁英字幕].Only.Murders.in.the.Building.S03.2160p.Hulu.WEB-DL.DDP.5.1.H.265-BlackTV",
-            "btih": "c036a10d47ac6ccbde7ca132373177760240e980",
-            "resolution": "2160",
-            "encoding": "265",
-            "bytes": 43784182986.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 15034,
-            "seed": 668
-        },
-        {
-            "id": 51,
-            "name": "Only.Murders.in.the.Building.S03E10.1080p.ColdFilm.mkv",
-            "btih": "2fe1bfcc15e49cac9cfd8248fb8c99cbdf0586b0",
+            "id": 1789,
+            "name": "multi-btih-4-2-x-Only.Murders.in.the.Building.S03.1080p.Kerob",
+            "btih": "4e0faed343714bdd877bfe97f3229fd558a83de2",
             "resolution": "1080",
             "encoding": "none",
-            "bytes": 1535551459.0,
+            "bytes": 14650748167.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 14841,
-            "seed": 410
-        },
-        {
-            "id": 86,
-            "name": "Only.Murders.in.the.Building.S03E10.720p.x265-T0PAZ[eztv.re].mkv",
-            "btih": "3a659ba05ee756011759ff7451ffbdd37a22ba57",
-            "resolution": "720",
-            "encoding": "265",
-            "bytes": 387979378.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 14499,
-            "seed": 899
-        },
-        {
-            "id": 131,
-            "name": "only.murders.in.the.building.s03e10.final.multi.1080p.web.h264-higgsboson.mkv",
-            "btih": "17b053ba64ffe13b0d39f7e8cd5d3dcaf4799e8f",
-            "resolution": "1080",
-            "encoding": "264",
-            "bytes": 1928241725.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 14462,
-            "seed": 777
-        },
-        {
-            "id": 122,
-            "name": "[BEST-TORRENTS.ORG] Only.Murders.in.the.Building.S03E10.MULTi.720p.DSNP.WEB-DL.H264.E-AC3-K83",
-            "btih": "fa4c669b7dee0d7218d00740c9c7810b96352791",
-            "resolution": "720",
-            "encoding": "264",
-            "bytes": 1034002713.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 14448,
-            "seed": 497
-        },
-        {
-            "id": 22,
-            "name": "Only.Murders.in.the.Building.S01E01.HDTV.1080i.x264.BGAUDiO-4PLAY.ts",
-            "btih": "6f6b46a01cf0a7e4259fb6898fff51ccd2fc19b5",
-            "resolution": "1080",
-            "encoding": "264",
-            "bytes": 1592211104.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 14324,
-            "seed": 334
-        },
-        {
-            "id": 20,
-            "name": "Only.Murders.in.The.Building.2023.S03.720p.DSNP.WEB-DL.DD+5.1.H.264-TheBiscuitMan",
-            "btih": "a4882da967668added83abb10134a76211054b4f",
-            "resolution": "720",
-            "encoding": "264",
-            "bytes": 8603355143.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 14193,
-            "seed": 545
-        },
-        {
-            "id": 118,
-            "name": "WWW.SCENETIME.COM   -    Only Murders in the Building S03E10 XviD-AFG",
-            "btih": "1c916b81847364133ed315e6c06144123746e1d3",
-            "resolution": "sd",
-            "encoding": "xvid",
-            "bytes": 387965975.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 13909,
-            "seed": 584
-        },
-        {
-            "id": 115,
-            "name": "Only.Murders.in.the.Building.s03.HD720p.WEBRip.Rus.RuDub.tv",
-            "btih": "2ed2b597a7bd7a42d70790a809767b0bc3e299e4",
-            "resolution": "720",
-            "encoding": "none",
-            "bytes": 12518561740.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 13389,
-            "seed": 626
-        },
-        {
-            "id": 17,
-            "name": "Only.Murders.in.The.Building.2023.S03.1080p.DSNP.WEB-DL.DD+5.1.H.264-TheBiscuitMan",
-            "btih": "dec8815a073c4ad65c5c32b004eec11441fe603a",
-            "resolution": "1080",
-            "encoding": "264",
-            "bytes": 17011628614.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 13341,
-            "seed": 873
-        },
-        {
-            "id": 73,
-            "name": "Only.Murders.in.the.Building.S03E10.720p.HEVC.x265-MeGusta[eztv.re].mkv",
-            "btih": "8a106eb15c8e25a450ef50773b1ed57436c7529f",
-            "resolution": "720",
-            "encoding": "265",
-            "bytes": 271431703.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 13264,
-            "seed": 1258
-        },
-        {
-            "id": 119,
-            "name": "[ Torrent911.io ] Only.Murders.in.the.Building.S03E10.FiNAL.FRENCH.WEBRip.x264.mp4",
-            "btih": "9c944f8f3f488136db394652389a1c972d361b00",
-            "resolution": "sd",
-            "encoding": "264",
-            "bytes": 289433715.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 13047,
-            "seed": 2200
-        },
-        {
-            "id": 124,
-            "name": "[BEST-TORRENTS.ORG] Only.Murders.in.the.Building.S03E10.PL.480p.DSNP.WEB-DL.H264.E-AC3-K83",
-            "btih": "87af87c0682512ad47281726ad2118564b2eb52c",
-            "resolution": "sd",
-            "encoding": "264",
-            "bytes": 574155320.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 12969,
-            "seed": 432
-        },
-        {
-            "id": 65,
-            "name": "Only.Murders.in.the.Building.S03E10.400p.ColdFilm.avi",
-            "btih": "11e1925a8fdd8c7b0ff0fabae408b9f363cc66c4",
-            "resolution": "sd",
-            "encoding": "none",
-            "bytes": 477064602.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 12812,
-            "seed": 501
-        },
-        {
-            "id": 132,
-            "name": "only.murders.in.the.building.s03e10.final.multi.1080p.web.h264-higgsboson[eztv.re].mkv",
-            "btih": "be2632979e4c488fdc9e05b9cf6027220721b9f5",
-            "resolution": "1080",
-            "encoding": "264",
-            "bytes": 1928241725.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 12575,
-            "seed": 867
-        },
-        {
-            "id": 143,
-            "name": "【高清剧集网发布 www.DDHDTV.com】大楼里只有谋杀 第三季[全10集][简繁英字幕].Only.Murders.in.the.Building.S03.2023.DSNP.WEB-DL.2160p.HEVC.HDR.DDP-Xiaomi",
-            "btih": "0d11e8ff2818c3707b35bd98083e002f38742448",
-            "resolution": "2160",
-            "encoding": "none",
-            "bytes": 40736057053.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 12434,
-            "seed": 600
-        },
-        {
-            "id": 116,
-            "name": "Only.Murders.in.the.Building.s03.WEBRip.XviD.Rus.RuDub.tv",
-            "btih": "2f1a8d175d81817b7411a7c958fe80544b7302e7",
-            "resolution": "sd",
-            "encoding": "xvid",
-            "bytes": 4813704594.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 12321,
-            "seed": 939
-        },
-        {
-            "id": 37,
-            "name": "Only.Murders.in.the.Building.S03.720p.Ultradox",
-            "btih": "6f03dee78de2f053e41b84582447943f6c2fd0f8",
-            "resolution": "720",
-            "encoding": "none",
-            "bytes": 8945633518.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 12257,
-            "seed": 963
-        },
-        {
-            "id": 49,
-            "name": "Only.Murders.in.the.Building.S03E09.720p.rus.LostFilm.TV.mp4",
-            "btih": "da7a4c348fe4441e62a0e54c770948cd2ef8eaca",
-            "resolution": "720",
-            "encoding": "none",
-            "bytes": 1256823523.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 12197,
-            "seed": 670
-        },
-        {
-            "id": 78,
-            "name": "Only.Murders.in.the.Building.S03E10.720p.rus.LostFilm.TV.mp4",
-            "btih": "c88c9b30d2ca6ebb951c85ac30b22bbaa480c1d0",
-            "resolution": "720",
-            "encoding": "none",
-            "bytes": 1250087007.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 11949,
-            "seed": 959
-        },
-        {
-            "id": 23,
-            "name": "Only.Murders.in.the.Building.S01E01.WEBRip.x264.AAC.BGAUDiO-SiSO.mkv",
-            "btih": "b51f38fc7821c65eae45e8c9a6fd29a259a71e4c",
-            "resolution": "sd",
-            "encoding": "264",
-            "bytes": 299791637.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 11782,
-            "seed": 622
-        },
-        {
-            "id": 2,
-            "name": "Only Murders In The Building.2021.S03.720P.H265-Zero00",
-            "btih": "1f8bdf285455b2d274d43b6b181ed3128b06bfa2",
-            "resolution": "720",
-            "encoding": "265",
-            "bytes": 1495660172.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 11650,
-            "seed": 897
-        },
-        {
-            "id": 63,
-            "name": "Only.Murders.in.the.Building.S03E10.1080p.x265-ELiTE[eztv.re].mkv",
-            "btih": "3732cbadbc4c8503533dd2e0b4c89c2fc19e0f31",
-            "resolution": "1080",
-            "encoding": "265",
-            "bytes": 632368374.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 11529,
-            "seed": 1431
-        },
-        {
-            "id": 18,
-            "name": "Only.Murders.in.The.Building.2023.S03.2160p.DSNP.WEB-DL.DD+5.1.DV-HDR.H.265-TheBiscuitMan",
-            "btih": "12b4f9b23a2597dbaee8911a3b3036ddb21287fa",
-            "resolution": "2160",
-            "encoding": "265",
-            "bytes": 43754263776.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 11528,
-            "seed": 1224
+            "peer": 52224,
+            "seed": 2848
         },
         {
             "id": 31,
@@ -1013,216 +918,86 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 11456,
-            "seed": 1000
+            "peer": 50828,
+            "seed": 2805
         },
         {
-            "id": 75,
-            "name": "Only.Murders.in.the.Building.S03E10.720p.WEB.h264-ETHEL[TGx]",
-            "btih": "3c6bbccd1e3192342b059caa2214af9a24d352eb",
+            "id": 129,
+            "name": "[rutor.is]Only.Murders.in.the.Building",
+            "btih": "590aa505466528c5d9a380f06979c08ad63371cf",
             "resolution": "720",
-            "encoding": "264",
-            "bytes": 684326459.0,
+            "encoding": "none",
+            "bytes": 12496646424.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 11318,
-            "seed": 1266
+            "peer": 50034,
+            "seed": 4087
         },
         {
-            "id": 11,
-            "name": "Only Murders in the Building S03E10 WEB-DL 1080p x264 DUAL 5.1",
-            "btih": "648e8d34e55303fbce858ad90ed295ac0f8bbcfd",
-            "resolution": "1080",
-            "encoding": "264",
-            "bytes": 1929231179.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 11179,
-            "seed": 504
-        },
-        {
-            "id": 15,
-            "name": "Only.Murders.In.The.Building.S03E01-10.DLMux.1080p.E-AC3-AC3.ITA.ENG.SUBS.HEVC",
-            "btih": "e440e6341856262043301055a565e93b8f057a24",
+            "id": 48,
+            "name": "Only.Murders.in.the.Building.S03.WEBDL.1080p.Ukr.Eng",
+            "btih": "082b72524f43a7f8dc544530ed727e1429a480a2",
             "resolution": "1080",
             "encoding": "none",
-            "bytes": 7060196096.0,
+            "bytes": 18670444358.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 10873,
-            "seed": 648
+            "peer": 47846,
+            "seed": 950
         },
         {
-            "id": 103,
-            "name": "Only.Murders.in.the.Building.S03E10.Si.va.in.scena.ITA.ENG.1080p.DSNP.WEB-DL.DDP5.1.H.264-MeM.GP.mkv",
-            "btih": "9ad63a0551db77a3a0d6da75942235fd8fb33721",
-            "resolution": "1080",
+            "id": 1788,
+            "name": "multi-btih-3-2-x-Only Murders in the Building Season 3 (Original Soundtrack Deluxe Edition) (2023) Mp3 320kbps [PMEDIA] ⭐️",
+            "btih": "6c365d0d8c835f58f3a2d41d97d793aa066768e1",
+            "resolution": "720",
+            "encoding": "none",
+            "bytes": 148819654.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 46901,
+            "seed": 689
+        },
+        {
+            "id": 144,
+            "name": "【高清剧集网发布 www.DDHDTV.com】大楼里只有谋杀 第三季[全10集][简繁英字幕].Only.Murders.in.the.Building.S03.2160p.Hulu.WEB-DL.DDP.5.1.H.265-BlackTV",
+            "btih": "c036a10d47ac6ccbde7ca132373177760240e980",
+            "resolution": "2160",
+            "encoding": "265",
+            "bytes": 43784182986.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 44756,
+            "seed": 1174
+        },
+        {
+            "id": 120,
+            "name": "[ Torrent911.io ] Only.Murders.in.the.Building.S03E10.FiNAL.VOSTFR.WEBRip.x264.mp4",
+            "btih": "983c622cb42ace592774033398f42f62b58e9172",
+            "resolution": "sd",
             "encoding": "264",
-            "bytes": 1928345853.0,
+            "bytes": 292198410.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 10606,
-            "seed": 1954
+            "peer": 44335,
+            "seed": 1409
         },
         {
-            "id": 145,
-            "name": "【高清剧集网发布 www.DDHDTV.com】大楼里只有谋杀 第三季[第09集][简繁英字幕].Only.Murders.in.the.Building.S03.2160p.Hulu.WEB-DL.DDP.5.1.H.265-BlackTV",
-            "btih": "4e0ead2e0a2868890dd363a905568e9ca6d0b89c",
-            "resolution": "2160",
-            "encoding": "265",
-            "bytes": 4543107068.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 10371,
-            "seed": 191
-        },
-        {
-            "id": 140,
-            "name": "【高清剧集网发布 www.DDHDTV.com】大楼里只有谋杀 第三季[HDR+杜比视界双版本][第08-09集][简繁英字幕].Only.Murders.in.the.Building.S03.2160p.Hulu.WEB-DL.DDP.5.1.DoVi.HDR10+.H.265-BlackTV",
-            "btih": "f6d7a3062850e4800b029766c14ab2ba90523110",
-            "resolution": "2160",
-            "encoding": "265",
-            "bytes": 9208024415.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 10361,
-            "seed": 239
-        },
-        {
-            "id": 139,
-            "name": "【高清剧集网发布 www.DDHDTV.com】大楼里只有谋杀 第三季[HDR+杜比视界双版本][全10集][简繁英字幕].Only.Murders.in.the.Building.S03.2160p.Hulu.WEB-DL.DDP.5.1.DoVi.HDR10+.H.265-BlackTV",
-            "btih": "f0820df0c68d1fb33730b47ea20e8b7edcb79c4f",
-            "resolution": "2160",
-            "encoding": "265",
-            "bytes": 43746460235.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 9762,
-            "seed": 548
-        },
-        {
-            "id": 55,
-            "name": "Only.Murders.in.the.Building.S03E10.1080p.WEB-DL.DUAL.5.1",
-            "btih": "493bee36a2395260cd8f1d1dbef15356a95f9293",
-            "resolution": "1080",
-            "encoding": "none",
-            "bytes": 1929271465.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 9741,
-            "seed": 1128
-        },
-        {
-            "id": 123,
-            "name": "[BEST-TORRENTS.ORG] Only.Murders.in.the.Building.S03E10.MULTi.HDR.2160p.DSNP.WEB-DL.DV.HEVC.E-AC3-K83",
-            "btih": "b7d34821ce4e02826a0393d285125f6d0f928d8e",
-            "resolution": "2160",
-            "encoding": "none",
-            "bytes": 4599814176.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 9726,
-            "seed": 424
-        },
-        {
-            "id": 146,
-            "name": "大楼里只有谋杀.Only.Murders.in.the.Building.S03E10",
-            "btih": "2f7321939c8097ca9121fec552c8b01b3457d5d0",
-            "resolution": "1080",
-            "encoding": "none",
-            "bytes": 819019019.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 9584,
-            "seed": 1204
-        },
-        {
-            "id": 39,
-            "name": "Only.Murders.in.the.Building.S03.720p.x264-FENiX",
-            "btih": "c9aa3e8aff97065edec0e9d515b8a3ec818d74b3",
+            "id": 82,
+            "name": "Only.Murders.in.the.Building.S03E10.720p.x264-FENiX[eztv.re].mkv",
+            "btih": "459ef864cac49b4cd3a357a683e96f00c9bf0f31",
             "resolution": "720",
             "encoding": "264",
-            "bytes": 4006126944.0,
+            "bytes": 469824868.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 9473,
-            "seed": 621
-        },
-        {
-            "id": 121,
-            "name": "[BEST-TORRENTS.ORG] Only.Murders.in.the.Building.S03E10.MULTi.1080p.DSNP.WEB-DL.H264.E-AC3-K83",
-            "btih": "6283f0d3a0b34451c301a5308e385980d753407b",
-            "resolution": "1080",
-            "encoding": "264",
-            "bytes": 1928509266.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 9239,
-            "seed": 386
-        },
-        {
-            "id": 70,
-            "name": "Only.Murders.in.the.Building.S03E10.720p.10bit.WEBRip.2CH.x265.HEVC-PSA.mkv",
-            "btih": "44673f295a61e0e5c4be2c892e13c21fc057ca13",
-            "resolution": "720",
-            "encoding": "265",
-            "bytes": 221759250.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 9219,
-            "seed": 716
-        },
-        {
-            "id": 141,
-            "name": "【高清剧集网发布 www.DDHDTV.com】大楼里只有谋杀 第三季[全10集][简繁英字幕].Only.Murders.in.the.Building.S03.1080p.Hulu.WEB-DL.DDP.5.1.H.264-BlackTV",
-            "btih": "48579783907687a5407a8f39fbd3d1b765ce3a43",
-            "resolution": "1080",
-            "encoding": "264",
-            "bytes": 13916331956.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 9216,
-            "seed": 707
-        },
-        {
-            "id": 64,
-            "name": "Only.Murders.in.the.Building.S03E10.2160p.WEB.H265-SuccessfulCrab[TGx]",
-            "btih": "37c379dca31aed60c5f811e40c747142496d2a1e",
-            "resolution": "2160",
-            "encoding": "265",
-            "bytes": 4647829460.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 9204,
-            "seed": 1148
-        },
-        {
-            "id": 40,
-            "name": "Only.Murders.in.the.Building.S03.720p.x264-FENiX[eztv.re]",
-            "btih": "4984ab1672fcc51114a6fe04d5c745a082367d80",
-            "resolution": "720",
-            "encoding": "264",
-            "bytes": 4006114657.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 9149,
-            "seed": 404
+            "peer": 43981,
+            "seed": 1594
         },
         {
             "id": 71,
@@ -1234,21 +1009,359 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 9018,
-            "seed": 449
+            "peer": 43774,
+            "seed": 906
         },
         {
-            "id": 27,
-            "name": "Only.Murders.in.the.Building.S03.1080p.Ultradox",
-            "btih": "3b2faf2ee2db20a7cf4b1d5a2e1a7d37a2dd6063",
+            "id": 131,
+            "name": "only.murders.in.the.building.s03e10.final.multi.1080p.web.h264-higgsboson.mkv",
+            "btih": "17b053ba64ffe13b0d39f7e8cd5d3dcaf4799e8f",
             "resolution": "1080",
-            "encoding": "none",
-            "bytes": 14540988033.0,
+            "encoding": "264",
+            "bytes": 1928241725.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 9009,
-            "seed": 408
+            "peer": 43191,
+            "seed": 1321
+        },
+        {
+            "id": 142,
+            "name": "【高清剧集网发布 www.DDHDTV.com】大楼里只有谋杀 第三季[全10集][简繁英字幕].Only.Murders.in.the.Building.S03.2023.DSNP.WEB-DL.1080p.H264.DDP-Xiaomi",
+            "btih": "e68db62f7a681bab632a50038abf4d624b8ac8b0",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": 17192895403.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 41942,
+            "seed": 1398
+        },
+        {
+            "id": 111,
+            "name": "Only.Murders.in.the.Building.S03E10.XviD-AFG[TGx]",
+            "btih": "31b8092e221b8c39f88a2c9c01343d8066adfbfa",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "bytes": 387341754.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 41929,
+            "seed": 1199
+        },
+        {
+            "id": 37,
+            "name": "Only.Murders.in.the.Building.S03.720p.Ultradox",
+            "btih": "6f03dee78de2f053e41b84582447943f6c2fd0f8",
+            "resolution": "720",
+            "encoding": "none",
+            "bytes": 8945633518.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 39681,
+            "seed": 1814
+        },
+        {
+            "id": 23,
+            "name": "Only.Murders.in.the.Building.S01E01.WEBRip.x264.AAC.BGAUDiO-SiSO.mkv",
+            "btih": "b51f38fc7821c65eae45e8c9a6fd29a259a71e4c",
+            "resolution": "sd",
+            "encoding": "264",
+            "bytes": 299791637.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 39619,
+            "seed": 1084
+        },
+        {
+            "id": 100,
+            "name": "Only.Murders.in.the.Building.S03E10.Opening.Night.720p.DSNP.WEB-DL.DDP5.1.H.264-NTb[TGx]",
+            "btih": "2228ff02bf392700c36d9fde51193de4f47259fa",
+            "resolution": "720",
+            "encoding": "264",
+            "bytes": 961905574.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 38923,
+            "seed": 1927
+        },
+        {
+            "id": 59,
+            "name": "Only.Murders.in.the.Building.S03E10.1080p.rus.LostFilm.TV.mkv",
+            "btih": "ed53c88c92a2d892a17a20c6cf6f1f3e93f65897",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": 2224580314.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 38855,
+            "seed": 2033
+        },
+        {
+            "id": 16,
+            "name": "Only.Murders.In.The.Building.S03E10.720p.HDTV.Subtitulado.Esp.SC.mp4",
+            "btih": "18b719ea648c916a40be3e11e92c33d24c24a287",
+            "resolution": "720",
+            "encoding": "none",
+            "bytes": 406981675.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 38802,
+            "seed": 1266
+        },
+        {
+            "id": 112,
+            "name": "Only.Murders.in.the.Building.S03E10.XviD-AFG[eztv.re].avi",
+            "btih": "c29575e20da0abf3edc2a4976d574322d73a14e8",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "bytes": 387339842.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 38796,
+            "seed": 1939
+        },
+        {
+            "id": 65,
+            "name": "Only.Murders.in.the.Building.S03E10.400p.ColdFilm.avi",
+            "btih": "11e1925a8fdd8c7b0ff0fabae408b9f363cc66c4",
+            "resolution": "sd",
+            "encoding": "none",
+            "bytes": 477064602.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 38291,
+            "seed": 959
+        },
+        {
+            "id": 19,
+            "name": "Only.Murders.in.The.Building.2023.S03.2160p.DSNP.WEB-DL.DD+5.1.H.265-TheBiscuitMan",
+            "btih": "23333d9a7d01b30d31494ad61c85903c1af3d918",
+            "resolution": "2160",
+            "encoding": "265",
+            "bytes": 43791986010.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 38171,
+            "seed": 1362
+        },
+        {
+            "id": 116,
+            "name": "Only.Murders.in.the.Building.s03.WEBRip.XviD.Rus.RuDub.tv",
+            "btih": "2f1a8d175d81817b7411a7c958fe80544b7302e7",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "bytes": 4813704594.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 37768,
+            "seed": 1564
+        },
+        {
+            "id": 122,
+            "name": "[BEST-TORRENTS.ORG] Only.Murders.in.the.Building.S03E10.MULTi.720p.DSNP.WEB-DL.H264.E-AC3-K83",
+            "btih": "fa4c669b7dee0d7218d00740c9c7810b96352791",
+            "resolution": "720",
+            "encoding": "264",
+            "bytes": 1034002713.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 37372,
+            "seed": 982
+        },
+        {
+            "id": 102,
+            "name": "Only.Murders.in.the.Building.S03E10.Opening.Night.720p.HULU.WEB-DL.DDP5.1.H.264-NTb[TGx]",
+            "btih": "6ee52f37300511bf76fb5d14c668942d0aed5a74",
+            "resolution": "720",
+            "encoding": "264",
+            "bytes": 662800146.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 36861,
+            "seed": 2369
+        },
+        {
+            "id": 91,
+            "name": "Only.Murders.in.the.Building.S03E10.Opening.Night.1080p.DSNP.WEB-DL.DDP5.1.H.264-NTb[TGx]",
+            "btih": "4e61078ab65596bcce8f08e9679038192f00b9fb",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": 1856409009.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 36829,
+            "seed": 3433
+        },
+        {
+            "id": 18,
+            "name": "Only.Murders.in.The.Building.2023.S03.2160p.DSNP.WEB-DL.DD+5.1.DV-HDR.H.265-TheBiscuitMan",
+            "btih": "12b4f9b23a2597dbaee8911a3b3036ddb21287fa",
+            "resolution": "2160",
+            "encoding": "265",
+            "bytes": 43754263776.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 36552,
+            "seed": 2248
+        },
+        {
+            "id": 146,
+            "name": "大楼里只有谋杀.Only.Murders.in.the.Building.S03E10",
+            "btih": "2f7321939c8097ca9121fec552c8b01b3457d5d0",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": 819019019.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 35726,
+            "seed": 2030
+        },
+        {
+            "id": 123,
+            "name": "[BEST-TORRENTS.ORG] Only.Murders.in.the.Building.S03E10.MULTi.HDR.2160p.DSNP.WEB-DL.DV.HEVC.E-AC3-K83",
+            "btih": "b7d34821ce4e02826a0393d285125f6d0f928d8e",
+            "resolution": "2160",
+            "encoding": "none",
+            "bytes": 4599814176.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 35672,
+            "seed": 918
+        },
+        {
+            "id": 92,
+            "name": "Only.Murders.in.the.Building.S03E10.Opening.Night.1080p.DSNP.WEB-DL.DDP5.1.H.264-NTb[eztv.re].mkv",
+            "btih": "4ebfb4df77b4238783e77999312f3d359c52b36d",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": 1856389001.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 35614,
+            "seed": 2214
+        },
+        {
+            "id": 51,
+            "name": "Only.Murders.in.the.Building.S03E10.1080p.ColdFilm.mkv",
+            "btih": "2fe1bfcc15e49cac9cfd8248fb8c99cbdf0586b0",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": 1535551459.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 35430,
+            "seed": 721
+        },
+        {
+            "id": 118,
+            "name": "WWW.SCENETIME.COM   -    Only Murders in the Building S03E10 XviD-AFG",
+            "btih": "1c916b81847364133ed315e6c06144123746e1d3",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "bytes": 387965975.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 35349,
+            "seed": 1149
+        },
+        {
+            "id": 86,
+            "name": "Only.Murders.in.the.Building.S03E10.720p.x265-T0PAZ[eztv.re].mkv",
+            "btih": "3a659ba05ee756011759ff7451ffbdd37a22ba57",
+            "resolution": "720",
+            "encoding": "265",
+            "bytes": 387979378.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 35030,
+            "seed": 1481
+        },
+        {
+            "id": 17,
+            "name": "Only.Murders.in.The.Building.2023.S03.1080p.DSNP.WEB-DL.DD+5.1.H.264-TheBiscuitMan",
+            "btih": "dec8815a073c4ad65c5c32b004eec11441fe603a",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": 17011628614.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 34725,
+            "seed": 1514
+        },
+        {
+            "id": 103,
+            "name": "Only.Murders.in.the.Building.S03E10.Si.va.in.scena.ITA.ENG.1080p.DSNP.WEB-DL.DDP5.1.H.264-MeM.GP.mkv",
+            "btih": "9ad63a0551db77a3a0d6da75942235fd8fb33721",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": 1928345853.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 34696,
+            "seed": 2962
+        },
+        {
+            "id": 40,
+            "name": "Only.Murders.in.the.Building.S03.720p.x264-FENiX[eztv.re]",
+            "btih": "4984ab1672fcc51114a6fe04d5c745a082367d80",
+            "resolution": "720",
+            "encoding": "264",
+            "bytes": 4006114657.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 34594,
+            "seed": 1396
+        },
+        {
+            "id": 70,
+            "name": "Only.Murders.in.the.Building.S03E10.720p.10bit.WEBRip.2CH.x265.HEVC-PSA.mkv",
+            "btih": "44673f295a61e0e5c4be2c892e13c21fc057ca13",
+            "resolution": "720",
+            "encoding": "265",
+            "bytes": 221759250.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 33907,
+            "seed": 1191
+        },
+        {
+            "id": 124,
+            "name": "[BEST-TORRENTS.ORG] Only.Murders.in.the.Building.S03E10.PL.480p.DSNP.WEB-DL.H264.E-AC3-K83",
+            "btih": "87af87c0682512ad47281726ad2118564b2eb52c",
+            "resolution": "sd",
+            "encoding": "264",
+            "bytes": 574155320.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 33623,
+            "seed": 764
         },
         {
             "id": 25,
@@ -1260,8 +1373,112 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 8949,
-            "seed": 707
+            "peer": 33491,
+            "seed": 1538
+        },
+        {
+            "id": 22,
+            "name": "Only.Murders.in.the.Building.S01E01.HDTV.1080i.x264.BGAUDiO-4PLAY.ts",
+            "btih": "6f6b46a01cf0a7e4259fb6898fff51ccd2fc19b5",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": 1592211104.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 33393,
+            "seed": 778
+        },
+        {
+            "id": 115,
+            "name": "Only.Murders.in.the.Building.s03.HD720p.WEBRip.Rus.RuDub.tv",
+            "btih": "2ed2b597a7bd7a42d70790a809767b0bc3e299e4",
+            "resolution": "720",
+            "encoding": "none",
+            "bytes": 12518561740.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 33083,
+            "seed": 1144
+        },
+        {
+            "id": 132,
+            "name": "only.murders.in.the.building.s03e10.final.multi.1080p.web.h264-higgsboson[eztv.re].mkv",
+            "btih": "be2632979e4c488fdc9e05b9cf6027220721b9f5",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": 1928241725.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 32689,
+            "seed": 1586
+        },
+        {
+            "id": 63,
+            "name": "Only.Murders.in.the.Building.S03E10.1080p.x265-ELiTE[eztv.re].mkv",
+            "btih": "3732cbadbc4c8503533dd2e0b4c89c2fc19e0f31",
+            "resolution": "1080",
+            "encoding": "265",
+            "bytes": 632368374.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 32447,
+            "seed": 2188
+        },
+        {
+            "id": 53,
+            "name": "Only.Murders.in.the.Building.S03E10.1080p.HEVC.x265-MeGusta[TGx]",
+            "btih": "298f5173beeff6c7fc037b80af49a020725adde2",
+            "resolution": "1080",
+            "encoding": "265",
+            "bytes": 378240475.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 32030,
+            "seed": 3563
+        },
+        {
+            "id": 20,
+            "name": "Only.Murders.in.The.Building.2023.S03.720p.DSNP.WEB-DL.DD+5.1.H.264-TheBiscuitMan",
+            "btih": "a4882da967668added83abb10134a76211054b4f",
+            "resolution": "720",
+            "encoding": "264",
+            "bytes": 8603355143.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 31861,
+            "seed": 1090
+        },
+        {
+            "id": 140,
+            "name": "【高清剧集网发布 www.DDHDTV.com】大楼里只有谋杀 第三季[HDR+杜比视界双版本][第08-09集][简繁英字幕].Only.Murders.in.the.Building.S03.2160p.Hulu.WEB-DL.DDP.5.1.DoVi.HDR10+.H.265-BlackTV",
+            "btih": "f6d7a3062850e4800b029766c14ab2ba90523110",
+            "resolution": "2160",
+            "encoding": "265",
+            "bytes": 9208024415.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 31623,
+            "seed": 310
+        },
+        {
+            "id": 29,
+            "name": "Only.Murders.in.the.Building.S03.1080p.WEBRip.x265-KONTRAST",
+            "btih": "8e0c1a1652b9b3880091d1e49db9ef8288028160",
+            "resolution": "1080",
+            "encoding": "265",
+            "bytes": 6913383150.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 31488,
+            "seed": 2614
         },
         {
             "id": 34,
@@ -1273,34 +1490,164 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 8798,
-            "seed": 471
+            "peer": 31428,
+            "seed": 907
         },
         {
-            "id": 14,
-            "name": "Only.Murders.In.The.Building.S03E01-08.DLMux.1080p.E-AC3-AC3.ITA.ENG.SUBS.HEVC",
-            "btih": "1305b1c5b0fa5088fec17ad7e8222d116211a9a3",
+            "id": 75,
+            "name": "Only.Murders.in.the.Building.S03E10.720p.WEB.h264-ETHEL[TGx]",
+            "btih": "3c6bbccd1e3192342b059caa2214af9a24d352eb",
+            "resolution": "720",
+            "encoding": "264",
+            "bytes": 684326459.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 31174,
+            "seed": 1845
+        },
+        {
+            "id": 121,
+            "name": "[BEST-TORRENTS.ORG] Only.Murders.in.the.Building.S03E10.MULTi.1080p.DSNP.WEB-DL.H264.E-AC3-K83",
+            "btih": "6283f0d3a0b34451c301a5308e385980d753407b",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": 1928509266.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 30990,
+            "seed": 711
+        },
+        {
+            "id": 55,
+            "name": "Only.Murders.in.the.Building.S03E10.1080p.WEB-DL.DUAL.5.1",
+            "btih": "493bee36a2395260cd8f1d1dbef15356a95f9293",
             "resolution": "1080",
             "encoding": "none",
-            "bytes": 5390756959.0,
+            "bytes": 1929271465.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 8199,
-            "seed": 405
+            "peer": 30662,
+            "seed": 1939
         },
         {
-            "id": 35,
-            "name": "Only.Murders.in.the.Building.S03.480p.x264-RUBiK",
-            "btih": "fbc6d74573bf08ebac93bc62ca1d53f66225c076",
-            "resolution": "sd",
+            "id": 141,
+            "name": "【高清剧集网发布 www.DDHDTV.com】大楼里只有谋杀 第三季[全10集][简繁英字幕].Only.Murders.in.the.Building.S03.1080p.Hulu.WEB-DL.DDP.5.1.H.264-BlackTV",
+            "btih": "48579783907687a5407a8f39fbd3d1b765ce3a43",
+            "resolution": "1080",
             "encoding": "264",
-            "bytes": 2662226893.0,
+            "bytes": 13916331956.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 8024,
-            "seed": 363
+            "peer": 30450,
+            "seed": 1193
+        },
+        {
+            "id": 39,
+            "name": "Only.Murders.in.the.Building.S03.720p.x264-FENiX",
+            "btih": "c9aa3e8aff97065edec0e9d515b8a3ec818d74b3",
+            "resolution": "720",
+            "encoding": "264",
+            "bytes": 4006126944.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 30148,
+            "seed": 1548
+        },
+        {
+            "id": 139,
+            "name": "【高清剧集网发布 www.DDHDTV.com】大楼里只有谋杀 第三季[HDR+杜比视界双版本][全10集][简繁英字幕].Only.Murders.in.the.Building.S03.2160p.Hulu.WEB-DL.DDP.5.1.DoVi.HDR10+.H.265-BlackTV",
+            "btih": "f0820df0c68d1fb33730b47ea20e8b7edcb79c4f",
+            "resolution": "2160",
+            "encoding": "265",
+            "bytes": 43746460235.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 29696,
+            "seed": 1065
+        },
+        {
+            "id": 15,
+            "name": "Only.Murders.In.The.Building.S03E01-10.DLMux.1080p.E-AC3-AC3.ITA.ENG.SUBS.HEVC",
+            "btih": "e440e6341856262043301055a565e93b8f057a24",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": 7060196096.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 29689,
+            "seed": 1180
+        },
+        {
+            "id": 78,
+            "name": "Only.Murders.in.the.Building.S03E10.720p.rus.LostFilm.TV.mp4",
+            "btih": "c88c9b30d2ca6ebb951c85ac30b22bbaa480c1d0",
+            "resolution": "720",
+            "encoding": "none",
+            "bytes": 1250087007.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 29500,
+            "seed": 1494
+        },
+        {
+            "id": 73,
+            "name": "Only.Murders.in.the.Building.S03E10.720p.HEVC.x265-MeGusta[eztv.re].mkv",
+            "btih": "8a106eb15c8e25a450ef50773b1ed57436c7529f",
+            "resolution": "720",
+            "encoding": "265",
+            "bytes": 271431703.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 29400,
+            "seed": 1973
+        },
+        {
+            "id": 119,
+            "name": "[ Torrent911.io ] Only.Murders.in.the.Building.S03E10.FiNAL.FRENCH.WEBRip.x264.mp4",
+            "btih": "9c944f8f3f488136db394652389a1c972d361b00",
+            "resolution": "sd",
+            "encoding": "264",
+            "bytes": 289433715.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 29233,
+            "seed": 3324
+        },
+        {
+            "id": 94,
+            "name": "Only.Murders.in.the.Building.S03E10.Opening.Night.1080p.HULU.WEB-DL.DDP5.1.H.264-NTb[TGx]",
+            "btih": "79cb6bf244b9ff465cfdf189bb0ad1cf57daed17",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": 2798494706.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 29054,
+            "seed": 2612
+        },
+        {
+            "id": 2,
+            "name": "Only Murders In The Building.2021.S03.720P.H265-Zero00",
+            "btih": "1f8bdf285455b2d274d43b6b181ed3128b06bfa2",
+            "resolution": "720",
+            "encoding": "265",
+            "bytes": 1495660172.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 28808,
+            "seed": 1376
         },
         {
             "id": 42,
@@ -1312,21 +1659,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 7759,
-            "seed": 461
-        },
-        {
-            "id": 9,
-            "name": "Only Murders in the Building S03E10 Apri e chiudi DLMux 1080p E-AC3+AC3 ITA ENG SUBS.mkv",
-            "btih": "ebc5f65de32bfbbb15d80de8bd4e75d5e8fe6315",
-            "resolution": "1080",
-            "encoding": "none",
-            "bytes": 2001157004.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 7700,
-            "seed": 555
+            "peer": 28800,
+            "seed": 1580
         },
         {
             "id": 50,
@@ -1338,34 +1672,21 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 7691,
-            "seed": 917
+            "peer": 28367,
+            "seed": 1555
         },
         {
-            "id": 52,
-            "name": "Only.Murders.in.the.Building.S03E10.1080p.HEVC.x265-MeGusta [IPT]",
-            "btih": "6a8c203e31e3c2b81e6571d2621473561cec6eea",
-            "resolution": "1080",
-            "encoding": "265",
-            "bytes": 397395467.0,
-            "ssl": false,
-            "private": true,
-            "i2p": false,
-            "peer": 7654,
-            "seed": 1777
-        },
-        {
-            "id": 10,
-            "name": "Only Murders in the Building S03E10 Apri e chiudi DLMux 2160p DV HDR10 E-AC3+AC3 ITA ENG SUBS.mkv",
-            "btih": "e1ce3df5a38fe37a35d0d2abd46720f19d05457b",
+            "id": 143,
+            "name": "【高清剧集网发布 www.DDHDTV.com】大楼里只有谋杀 第三季[全10集][简繁英字幕].Only.Murders.in.the.Building.S03.2023.DSNP.WEB-DL.2160p.HEVC.HDR.DDP-Xiaomi",
+            "btih": "0d11e8ff2818c3707b35bd98083e002f38742448",
             "resolution": "2160",
             "encoding": "none",
-            "bytes": 4672464246.0,
+            "bytes": 40736057053.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 7379,
-            "seed": 407
+            "peer": 27513,
+            "seed": 1124
         },
         {
             "id": 30,
@@ -1377,73 +1698,34 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 6965,
-            "seed": 945
+            "peer": 27047,
+            "seed": 2636
         },
         {
-            "id": 125,
-            "name": "[EX-TORRENTY.ORG] Only.Murders.in.the.Building.S03E10.MULTi.1080p.DSNP.WEB-DL.H264.DDP5.1-K83",
-            "btih": "85ec8cf46a43384ed7ada37932483384688c0e3a",
+            "id": 9,
+            "name": "Only Murders in the Building S03E10 Apri e chiudi DLMux 1080p E-AC3+AC3 ITA ENG SUBS.mkv",
+            "btih": "ebc5f65de32bfbbb15d80de8bd4e75d5e8fe6315",
             "resolution": "1080",
-            "encoding": "264",
-            "bytes": 1991331042.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 6389,
-            "seed": 496
-        },
-        {
-            "id": 117,
-            "name": "Solo asesinatos en el edificio S03 - Temporada 3 [HDTV-2160p][Castellano] Only Murders in the Building Season 3 - Spanish",
-            "btih": "8c92160204966dc91e9a515fecd515dc285744c9",
-            "resolution": "2160",
             "encoding": "none",
-            "bytes": 44303310425.0,
+            "bytes": 2001157004.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 6318,
-            "seed": 437
+            "peer": 26944,
+            "seed": 1036
         },
         {
-            "id": 930,
-            "name": "multi-btih-9-2-x-Only.Murders.in.the.Building.S03E10.1080p.WEB.H264-SuccessfulCrab [IPT]",
-            "btih": "7fb4f7dbb6616b24e56862c6cf2a2c7ee3d7e427",
-            "resolution": "1080",
-            "encoding": "264",
-            "bytes": 1399157993.0,
-            "ssl": false,
-            "private": true,
-            "i2p": false,
-            "peer": 5837,
-            "seed": 1906
-        },
-        {
-            "id": 36,
-            "name": "Only.Murders.in.the.Building.S03.480p.x264-RUBiK[eztv.re]",
-            "btih": "fac8d3db8b14c3e7f3815c7054ec14f0d7558a71",
-            "resolution": "sd",
-            "encoding": "264",
-            "bytes": 2662214606.0,
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 5243,
-            "seed": 506
-        },
-        {
-            "id": 8,
-            "name": "Only Murders in the Building 3 - LostFilm.TV",
-            "btih": "1e9259cdcb44ca8f02afe2bd179e2459253f266c",
+            "id": 49,
+            "name": "Only.Murders.in.the.Building.S03E09.720p.rus.LostFilm.TV.mp4",
+            "btih": "da7a4c348fe4441e62a0e54c770948cd2ef8eaca",
             "resolution": "720",
             "encoding": "none",
-            "bytes": 5491619840.0,
+            "bytes": 1256823523.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 4982,
-            "seed": 389
+            "peer": 25973,
+            "seed": 1259
         },
         {
             "id": 6,
@@ -1455,34 +1737,138 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 4684,
+            "peer": 25776,
+            "seed": 891
+        },
+        {
+            "id": 8,
+            "name": "Only Murders in the Building 3 - LostFilm.TV",
+            "btih": "1e9259cdcb44ca8f02afe2bd179e2459253f266c",
+            "resolution": "720",
+            "encoding": "none",
+            "bytes": 5491619840.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 25754,
+            "seed": 1303
+        },
+        {
+            "id": 10,
+            "name": "Only Murders in the Building S03E10 Apri e chiudi DLMux 2160p DV HDR10 E-AC3+AC3 ITA ENG SUBS.mkv",
+            "btih": "e1ce3df5a38fe37a35d0d2abd46720f19d05457b",
+            "resolution": "2160",
+            "encoding": "none",
+            "bytes": 4672464246.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 25374,
+            "seed": 916
+        },
+        {
+            "id": 14,
+            "name": "Only.Murders.In.The.Building.S03E01-08.DLMux.1080p.E-AC3-AC3.ITA.ENG.SUBS.HEVC",
+            "btih": "1305b1c5b0fa5088fec17ad7e8222d116211a9a3",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": 5390756959.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 24821,
+            "seed": 864
+        },
+        {
+            "id": 35,
+            "name": "Only.Murders.in.the.Building.S03.480p.x264-RUBiK",
+            "btih": "fbc6d74573bf08ebac93bc62ca1d53f66225c076",
+            "resolution": "sd",
+            "encoding": "264",
+            "bytes": 2662226893.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 24453,
+            "seed": 1061
+        },
+        {
+            "id": 11,
+            "name": "Only Murders in the Building S03E10 WEB-DL 1080p x264 DUAL 5.1",
+            "btih": "648e8d34e55303fbce858ad90ed295ac0f8bbcfd",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": 1929231179.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 23836,
+            "seed": 1043
+        },
+        {
+            "id": 145,
+            "name": "【高清剧集网发布 www.DDHDTV.com】大楼里只有谋杀 第三季[第09集][简繁英字幕].Only.Murders.in.the.Building.S03.2160p.Hulu.WEB-DL.DDP.5.1.H.265-BlackTV",
+            "btih": "4e0ead2e0a2868890dd363a905568e9ca6d0b89c",
+            "resolution": "2160",
+            "encoding": "265",
+            "bytes": 4543107068.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 23466,
             "seed": 238
         },
         {
-            "id": 106,
-            "name": "Only.Murders.in.the.Building.S03E10.WEBRip.1080p.ukr.5.1.HDREZKA.STUDIO.mkv",
-            "btih": "ca62758f10ee12aa60bd9cd4a0e71c9c7f5ae6c9",
+            "id": 125,
+            "name": "[EX-TORRENTY.ORG] Only.Murders.in.the.Building.S03E10.MULTi.1080p.DSNP.WEB-DL.H264.DDP5.1-K83",
+            "btih": "85ec8cf46a43384ed7ada37932483384688c0e3a",
             "resolution": "1080",
-            "encoding": "none",
-            "bytes": 2250368316.0,
+            "encoding": "264",
+            "bytes": 1991331042.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 3915,
-            "seed": 110
+            "peer": 23435,
+            "seed": 986
         },
         {
-            "id": 41,
-            "name": "Only.Murders.in.the.Building.S03.720p.x265-T0PAZ",
-            "btih": "a2ec119950e222e803c2d26de39ff686450b1c43",
-            "resolution": "720",
+            "id": 64,
+            "name": "Only.Murders.in.the.Building.S03E10.2160p.WEB.H265-SuccessfulCrab[TGx]",
+            "btih": "37c379dca31aed60c5f811e40c747142496d2a1e",
+            "resolution": "2160",
             "encoding": "265",
-            "bytes": 3273614412.0,
+            "bytes": 4647829460.0,
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 3221,
-            "seed": 432
+            "peer": 22348,
+            "seed": 1867
+        },
+        {
+            "id": 36,
+            "name": "Only.Murders.in.the.Building.S03.480p.x264-RUBiK[eztv.re]",
+            "btih": "fac8d3db8b14c3e7f3815c7054ec14f0d7558a71",
+            "resolution": "sd",
+            "encoding": "264",
+            "bytes": 2662214606.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 21697,
+            "seed": 1642
+        },
+        {
+            "id": 27,
+            "name": "Only.Murders.in.the.Building.S03.1080p.Ultradox",
+            "btih": "3b2faf2ee2db20a7cf4b1d5a2e1a7d37a2dd6063",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": 14540988033.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 21298,
+            "seed": 838
         },
         {
             "id": 7,
@@ -1494,8 +1880,73 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 2945,
-            "seed": 213
+            "peer": 20813,
+            "seed": 879
+        },
+        {
+            "id": 41,
+            "name": "Only.Murders.in.the.Building.S03.720p.x265-T0PAZ",
+            "btih": "a2ec119950e222e803c2d26de39ff686450b1c43",
+            "resolution": "720",
+            "encoding": "265",
+            "bytes": 3273614412.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 20723,
+            "seed": 1258
+        },
+        {
+            "id": 117,
+            "name": "Solo asesinatos en el edificio S03 - Temporada 3 [HDTV-2160p][Castellano] Only Murders in the Building Season 3 - Spanish",
+            "btih": "8c92160204966dc91e9a515fecd515dc285744c9",
+            "resolution": "2160",
+            "encoding": "none",
+            "bytes": 44303310425.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 16417,
+            "seed": 888
+        },
+        {
+            "id": 106,
+            "name": "Only.Murders.in.the.Building.S03E10.WEBRip.1080p.ukr.5.1.HDREZKA.STUDIO.mkv",
+            "btih": "ca62758f10ee12aa60bd9cd4a0e71c9c7f5ae6c9",
+            "resolution": "1080",
+            "encoding": "none",
+            "bytes": 2250368316.0,
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 14116,
+            "seed": 197
+        },
+        {
+            "id": 52,
+            "name": "Only.Murders.in.the.Building.S03E10.1080p.HEVC.x265-MeGusta [IPT]",
+            "btih": "6a8c203e31e3c2b81e6571d2621473561cec6eea",
+            "resolution": "1080",
+            "encoding": "265",
+            "bytes": 397395467.0,
+            "ssl": false,
+            "private": true,
+            "i2p": false,
+            "peer": 11514,
+            "seed": 2486
+        },
+        {
+            "id": 1794,
+            "name": "multi-btih-9-2-x-Only.Murders.in.the.Building.S03E10.1080p.WEB.H264-SuccessfulCrab [IPT]",
+            "btih": "7fb4f7dbb6616b24e56862c6cf2a2c7ee3d7e427",
+            "resolution": "1080",
+            "encoding": "264",
+            "bytes": 1399157993.0,
+            "ssl": false,
+            "private": true,
+            "i2p": false,
+            "peer": 7259,
+            "seed": 2538
         },
         {
             "id": 74,
@@ -1507,8 +1958,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 1797,
-            "seed": 442
+            "peer": 2599,
+            "seed": 544
         },
         {
             "id": 110,
@@ -1520,8 +1971,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 1433,
-            "seed": 274
+            "peer": 2098,
+            "seed": 421
         },
         {
             "id": 90,
@@ -1533,11 +1984,11 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 1366,
-            "seed": 479
+            "peer": 1753,
+            "seed": 619
         },
         {
-            "id": 935,
+            "id": 1799,
             "name": "multi-btih-14-2-x-Only.Murders.in.the.Building.S03E10.Opening.Night.2160p.DSNP.WEB-DL.DDP5.1.HDR.H.265-NTb [IPT]",
             "btih": "03071bb9330f5a70d35c8e96683dd6e0c96b37b5",
             "resolution": "2160",
@@ -1546,8 +1997,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 1335,
-            "seed": 269
+            "peer": 1581,
+            "seed": 414
         },
         {
             "id": 72,
@@ -1559,8 +2010,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 906,
-            "seed": 497
+            "peer": 1275,
+            "seed": 690
         },
         {
             "id": 89,
@@ -1572,8 +2023,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 742,
-            "seed": 98
+            "peer": 1235,
+            "seed": 172
         },
         {
             "id": 68,
@@ -1585,8 +2036,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 651,
-            "seed": 198
+            "peer": 1073,
+            "seed": 324
         },
         {
             "id": 60,
@@ -1598,8 +2049,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 569,
-            "seed": 130
+            "peer": 885,
+            "seed": 178
         },
         {
             "id": 93,
@@ -1611,21 +2062,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 475,
-            "seed": 287
-        },
-        {
-            "id": 87,
-            "name": "Only.Murders.in.the.Building.S03E10.AAC.MP4-Mobile [IPT]",
-            "btih": "9dba3b4421de12b3c06f704f10fca69c073186af",
-            "resolution": "sd",
-            "encoding": "none",
-            "bytes": 151866777.0,
-            "ssl": false,
-            "private": true,
-            "i2p": false,
-            "peer": 276,
-            "seed": 140
+            "peer": 609,
+            "seed": 379
         },
         {
             "id": 98,
@@ -1637,8 +2075,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 273,
-            "seed": 179
+            "peer": 485,
+            "seed": 267
         },
         {
             "id": 99,
@@ -1650,8 +2088,21 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 223,
-            "seed": 118
+            "peer": 340,
+            "seed": 159
+        },
+        {
+            "id": 87,
+            "name": "Only.Murders.in.the.Building.S03E10.AAC.MP4-Mobile [IPT]",
+            "btih": "9dba3b4421de12b3c06f704f10fca69c073186af",
+            "resolution": "sd",
+            "encoding": "none",
+            "bytes": 151866777.0,
+            "ssl": false,
+            "private": true,
+            "i2p": false,
+            "peer": 339,
+            "seed": 167
         },
         {
             "id": 101,
@@ -1663,8 +2114,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 170,
-            "seed": 98
+            "peer": 206,
+            "seed": 125
         },
         {
             "id": 95,
@@ -1676,8 +2127,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 121,
-            "seed": 91
+            "peer": 204,
+            "seed": 171
         },
         {
             "id": 79,
@@ -1689,8 +2140,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 84,
-            "seed": 63
+            "peer": 107,
+            "seed": 78
         },
         {
             "id": 107,
@@ -1702,8 +2153,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 57,
-            "seed": 49
+            "peer": 76,
+            "seed": 59
         },
         {
             "id": 83,
@@ -1715,8 +2166,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 49,
-            "seed": 39
+            "peer": 60,
+            "seed": 47
         },
         {
             "id": 24,
@@ -1728,8 +2179,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 49,
-            "seed": 37
+            "peer": 50,
+            "seed": 38
         }
     ]
 }
