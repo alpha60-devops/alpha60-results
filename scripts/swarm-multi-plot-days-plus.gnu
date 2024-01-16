@@ -10,7 +10,8 @@ set border 0
 
 # TERMINAL
 #set terminal svg size 2112,1632 fname 'Apercu'
-set terminal svg size 2160,1656 fname 'Apercu'
+#set terminal svg size 2160,1656 fname 'Apercu'
+set terminal svg size 7680,2160 fname 'Apercu'
 #set terminal svg size 2112,3264 fname 'Source Sans Pro' fsize 22
 #set terminal svg size 4224,1632 fname 'Source Sans Pro' fsize 22
 #set terminal svg size 4024,1632 fname 'Source Sans Pro' fsize 22
@@ -43,7 +44,7 @@ set style fill transparent solid 0.5 noborder
 
 # LABELS, FORMATTING, MARGINS
 set autoscale y
-set ylabel "UNIQUE PEERS" font "Apercu,24" offset -2,0
+set ylabel "UNIQUE SEEDS" font "Apercu,24" offset -2,0
 
 set decimal locale
 set format y "%'g"
@@ -61,10 +62,10 @@ TITLES = system("find . -type f -name '*.csv' | sort | sed -e 's/-days.csv//' -e
 #set key off
 set output 'multi-day.svg'
 
-set xtics 1 rotate by 90 right nomirror font "SourceCodePro-Light,9"
+#set xtics 1 rotate by 90 right nomirror font "Apercu Mono,6"
 set xlabel "DAYS" font "Apercu,24" offset 0,-12
 # Scale x range auto (*) or to a fixed number of days (below as 126)
-set xrange [0:*]
+set xrange [297:661]
 #set xrange [0:126]
 
 # Start Plotting...
@@ -81,7 +82,7 @@ unset ytics
 unset y2tics
 unset x2tics
 
-set xtics 1 rotate by 90 right nomirror font "SourceCodePro-Light,9" offset 0,0
+set xtics 1 rotate by 90 right nomirror font "Apercu Mon,7" offset 0,-2
 
 # Get dates from one of the *.csv files above (field 6) for label text
 # aka use the first one from word(FILES,0)
