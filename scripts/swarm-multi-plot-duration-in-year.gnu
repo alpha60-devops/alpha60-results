@@ -5,6 +5,9 @@
 
 # invoke:
 # gnuplot -c swarm-multi-plot-duration-in-year.gnu week 2024
+
+# NB: have to manually toggle day/week below
+
 duration=ARG1
 yearstamp=ARG2
 print "invoked as: ", ARG0, duration, yearstamp
@@ -14,11 +17,20 @@ set output OFILE
 print "outputfile: ", OFILE
 
 set datafile separator ','
+
 set border 0
+
+# Margins as 5% of screen size
 #set tmargin at screen 0.05
 #set bmargin at screen 0.05
 #set rmargin at screen 0.05
 #set lmargin at screen 0.05
+
+# Margins as 30 x times of one character
+set lmargin 30
+set rmargin 30
+set tmargin 30
+set bmargin 30
 
 # TERMINAL
 # width, height in pixels
@@ -69,34 +81,29 @@ set style fill transparent solid 0.5 noborder
 # LABELS, FORMATTING, MARGINS
 set autoscale y
 #set yrange [0:1500000]
-set ylabel "UNIQUE PEERS" font "Apercu,24" offset -2,0
+set ylabel "UNIQUE PEERS" font "Apercu,24" offset -10,0
 
 set decimal locale
 set format y "%'g"
 set format y "%'.0f"
 #set border 3
 
-set lmargin 20
-set rmargin 20
-set tmargin 20
-set bmargin 20
-
 FILES = system("find . -type f -name '*.csv' | sort")
-#TITLES = system("find . -type f -name '*.csv' | sort | sed -e 's/-days.csv//' -e 's|^\./||' ")
-TITLES = system("find . -type f -name '*.csv' | sort | sed -e 's/-weeks.csv//' -e 's|^\./||' ")
+TITLES = system("find . -type f -name '*.csv' | sort | sed -e 's/-days.csv//' -e 's|^\./||' ")
+#TITLES = system("find . -type f -name '*.csv' | sort | sed -e 's/-weeks.csv//' -e 's|^\./||' ")
 
 #set key off
 
 set xtics 1 rotate by 90 right nomirror font "SourceCodePro-Light,8"
 XLABELTXT=system("echo ''" . duration . "S IN " . yearstamp . " | tr '[a-z]' '[A-Z]'")
-set xlabel XLABELTXT font "Apercu,24" offset 0,-12
+set xlabel XLABELTXT font "Apercu,24" offset 0,-12, char 0 right
 
 # Scale x range auto (*) ...
 #set xrange [0:*]
 
 # Scale x range to a fixed number of days or weeks in a year.
-#set xrange [0:365]
-set xrange [0:52]
+set xrange [0:365]
+#set xrange [0:52]
 
 # Start Plotting...
 set multiplot
@@ -118,11 +125,8 @@ set xtics 1 rotate by 90 right nomirror font "SourceCodePro-Light,8" offset 0,0
 # Get dates from one of the *.csv files above (field 6) for label text
 # aka use the first one from word(FILES,0)
 FILET = system("find . -type f -name '*.csv' | sort | head -1")
-print "using file for dates: "
-print FILET
+print "using file for dates: ", FILET
 
-#plot 'r4k-days.csv' using 1:2:xticlabels(6)
-
-#plot FILET using 1:2:xticlabels(sprintf('%s  %6.3u', stringcolumn(6), column(1))) notitle
+plot FILET using 1:2:xticlabels(sprintf('%s  %6.3u', stringcolumn(6), column(1))) notitle
 
 unset multiplot
