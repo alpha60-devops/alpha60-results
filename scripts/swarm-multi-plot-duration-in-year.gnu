@@ -89,8 +89,8 @@ set format y "%'.0f"
 #set border 3
 
 FILES = system("find . -type f -name '*.csv' | sort")
-TITLES = system("find . -type f -name '*.csv' | sort | sed -e 's/-days.csv//' -e 's|^\./||' ")
-#TITLES = system("find . -type f -name '*.csv' | sort | sed -e 's/-weeks.csv//' -e 's|^\./||' ")
+#TITLES = system("find . -type f -name '*.csv' | sort | sed -e 's/-days.csv//' -e 's|^\./||' ")
+TITLES = system("find . -type f -name '*.csv' | sort | sed -e 's/-weeks.csv//' -e 's|^\./||' ")
 
 #set key off
 
@@ -102,8 +102,8 @@ set xlabel XLABELTXT font "Apercu,24" offset 0,-12, char 0 right
 #set xrange [0:*]
 
 # Scale x range to a fixed number of days or weeks in a year.
-set xrange [0:365]
-#set xrange [0:52]
+#set xrange [0:365]
+set xrange [0:52]
 
 # Start Plotting...
 set multiplot
