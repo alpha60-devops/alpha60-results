@@ -1,4 +1,4 @@
-# 2021-12-11, 26 bdekoz
+# 2024-05-13 bdekoz
 # expect directories hour/day/week with media-title-hours.csv, etc inside.
 
 set datafile separator ','
@@ -102,11 +102,8 @@ set xtics 1 rotate by 90 right nomirror font "SourceCodePro-Light,8" offset 0,0
 # Get dates from one of the *.csv files above (field 6) for label text
 # aka use the first one from word(FILES,0)
 FILET = system("find . -type f -name '*.csv' | sort | head -1")
-print "using file for dates: "
-print FILET
+print "using file for x-axsis label dates: ", FILET
 
-#plot 'r4k-days.csv' using 1:2:xticlabels(6)
-
-#plot FILET using 1:2:xticlabels(sprintf('%s  %6.3u', stringcolumn(6), column(1))) notitle
+plot FILET using 1:2:xticlabels(sprintf('%s  %6.3u', stringcolumn(6), column(1))) notitle
 
 unset multiplot
