@@ -79,8 +79,9 @@ set style line 9 linewidth 1 linecolor variable pointsize 2
 set style fill transparent solid 0.5 noborder
 
 # LABELS, FORMATTING, MARGINS
-set autoscale y
+#set autoscale y
 #set yrange [0:1500000]
+set yrange [0:650000]
 set ylabel "UNIQUE PEERS" font "Apercu,24" offset -10,0
 
 set decimal locale
