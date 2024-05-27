@@ -30,7 +30,7 @@ set border 0
 set lmargin 30
 set rmargin 30
 set tmargin 30
-set bmargin 30
+set bmargin 40
 
 # TERMINAL
 # width, height in pixels
@@ -56,7 +56,7 @@ set terminal svg size 3840,2160 fname 'Apercu'
 
 # LINE 1
 #set style line 1 lc rgb '#FFBBF1' lt 1 lw 2 pt 7 ps 1   # --- pink
-set style line 1 lc rgb '#888888' lt 1 lw 2 pt 7 ps 1   # --- pink
+set style line 1 lc rgb '#888888' lt 6 lw 8 pt 7 ps 1   # --- pink
 
 # LINE 2
 #set style line 2 lc rgb '#FFFF00' lt 1 lw 2 pt 7 ps 1   # --- yellow
@@ -77,16 +77,18 @@ set style line 9 linewidth 1 linecolor variable pointsize 2
 
 
 set style fill transparent solid 0.5 noborder
+set decimal locale
 
 # LABELS, FORMATTING, MARGINS
 #set autoscale y
 #set yrange [0:1500000]
 set yrange [0:650000]
-set ylabel "UNIQUE PEERS" font "Apercu,24" offset -10,0
+set ylabel "UNIQUE PEERS" font "Apercu,44" offset -12,0
 
-set decimal locale
 set format y "%'g"
 set format y "%'.0f"
+set ytics font "SourceCodePro-Light,20"
+
 #set border 3
 
 FILES = system("find . -type f -name '*.csv' | sort")
@@ -95,21 +97,21 @@ TITLES = system("find . -type f -name '*.csv' | sort | sed -e 's/-weeks.csv//' -
 
 #set key off
 
-set xtics 1 rotate by 90 right nomirror font "SourceCodePro-Light,8"
+set xtics 1 rotate by 90 right nomirror font "SourceCodePro-Light,20"
 XLABELTXT=system("echo ''" . duration . "S IN " . yearstamp . " | tr '[a-z]' '[A-Z]'")
-set xlabel XLABELTXT font "Apercu,24" offset 0,-12, char 0 right
+set xlabel XLABELTXT font "Apercu,44" offset 0,-24, char 0 right
 
 # Scale x range auto (*) ...
 #set xrange [0:*]
 
 # Scale x range to a fixed number of days or weeks in a year.
 #set xrange [0:365]
-set xrange [0:52]
+set xrange [0:53]
 
 # Start Plotting...
 set multiplot
 
-plot for [i=1:words(FILES)] word(FILES,i) u 1:2 with linespoints pointsize 0.75 title word(TITLES,i)
+plot for [i=1:words(FILES)] word(FILES,i) u 1:2 with linespoints pointsize 2 title word(TITLES,i)
 
 # multi plot with datestamp below duration.
 unset ylabel
@@ -121,7 +123,7 @@ unset y2tics
 unset x2tics
 
 # effective type size in points is 6
-set xtics 1 rotate by 90 right nomirror font "SourceCodePro-Light,8" offset 0,0
+set xtics 1 rotate by 90 right nomirror font "SourceCodePro-Light,20" offset 0,0
 
 # Get dates from one of the *.csv files above (field 6) for label text
 # aka use the first one from word(FILES,0)
