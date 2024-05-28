@@ -12,6 +12,7 @@ Original file is located at
 
 import pandas as pd
 import sys
+import os
 from pathlib import Path
 
 import matplotlib.pyplot as plt
@@ -37,7 +38,13 @@ kgb = 1024*1024*1024
 dfgb = df.div(kgb)
 
 # --- Create histogram, legend and title ---
-labels = ['Media Objects', 'GB']
+#labels = ['Media Objects', 'GB']
 plt.figure()
-dfgb.hist(label=labels)
+dfgb.hist(bins=100)
+
+titlename=os.path.basename(filename)
+plt.title(titlename)
+plt.xlabel('GB')
+plt.ylabel('Media Objects')
+
 plt.savefig(ofile, format="svg")
