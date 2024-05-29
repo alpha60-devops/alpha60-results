@@ -37,13 +37,18 @@ df = pd.read_csv(ifile, header=None)
 kgb = 1024*1024*1024
 dfgb = df.div(kgb)
 
+# results are series
+smin = dfgb.min();
+smax = dfgb.max();
+smedian = dfgb.median();
+titlex = f"{smedian[0]:.2f} [{smin[0]:.2f}, {smax[0]:.2f}]"
+
+
 # --- Create histogram, legend and title ---
-#labels = ['Media Objects', 'GB']
 plt.figure()
 dfgb.hist(bins=100)
 
-titlename=os.path.basename(filename)
-plt.title(titlename)
+plt.title(titlex)
 plt.xlabel('GB')
 plt.ylabel('Media Objects')
 
