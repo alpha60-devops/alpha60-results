@@ -58,4 +58,4 @@ plt.title(titlex)
 plt.xlabel('size in GB', labelpad=20)
 plt.ylabel('Media Objects',labelpad=20)
 
-plt.savefig(ofile, format="svg")
+plt.savefig(ofile, format="svg", bbox_inches="tight")
