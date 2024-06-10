@@ -51,10 +51,11 @@ titlex = f"{smedian[0]:.2f} [{smin[0]:.2f}, {smax[0]:.2f}]"
 
 # --- Create histogram, legend and title ---
 plt.figure()
-dfgb.hist(bins=100)
+dfgb.hist(bins=100, color="lightgrey")
 
+plt.grid(False)
 plt.title(titlex)
-plt.xlabel('GB')
-plt.ylabel('Media Objects')
+plt.xlabel('size in GB', labelpad=20)
+plt.ylabel('Media Objects',labelpad=20)
 
-plt.savefig(ofile, format="svg")
+plt.savefig(ofile, format="svg", bbox_inches="tight")
