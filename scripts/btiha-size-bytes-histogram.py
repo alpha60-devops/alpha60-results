@@ -18,6 +18,11 @@ from pathlib import Path
 import matplotlib.pyplot as plt
 plt.rcParams['svg.fonttype'] = 'none'
 
+from matplotlib import rc
+rc('font',**{'family':'sans-serif','sans-serif':['Apercu']})
+#rc('font',**{'family':'serif','serif':['Times']})
+#rc('text', usetex=True)
+
 #data_prefix='https://raw.githubusercontent.com/bdekoz/alpha60-results-x/main/data/csv/bytes/'
 #data_file='distributed-denial-of-secrets-cyberwar-rus-ukr-cumulative-detail.2024-btiha-itemized-by-bytes.csv?token=GHSAT0AAAAAACRUU4G6UKKPHLU2SJ6YRE64ZSVGI4A'
 #data_file='distributed-denial-of-secrets-cyberwar-rus-ukr-cumulative-detail.2024-btiha-itemized-by-bytes.csv'
