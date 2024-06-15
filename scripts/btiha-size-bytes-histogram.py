@@ -39,7 +39,8 @@ ofile = filename.with_suffix('.svg')
 df = pd.read_csv(ifile, header=None)
 
 # convert bytes to gigabytes
-kgb = 1024*1024*1024
+#kgb = 1024*1024*1024
+kgb = 1000*1000*1000
 dfgb = df.div(kgb)
 
 # results are series
