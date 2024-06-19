@@ -58,4 +58,7 @@ plt.title(titlex)
 plt.xlabel('size in GB', labelpad=20)
 plt.ylabel('Media Objects',labelpad=20)
 
+plt.gca().xaxis.set_major_locator(plt.MultipleLocator(100))
+plt.gca().xaxis.set_minor_locator(plt.MultipleLocator(10))
+
 plt.savefig(ofile, format="svg", bbox_inches="tight")
