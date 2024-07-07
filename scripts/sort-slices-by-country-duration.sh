@@ -26,7 +26,7 @@ mkdir $DURDIR;
 echo "making directory: $DURDIR"
 
 csvfile=${DURATION}s.csv
-countries=( bra can chn fra ita kor rus usa )
+countries=( bra can chn fra ita kor mex nld rus tur usa )
 for i in "${countries[@]}"
 do
     echo $i;

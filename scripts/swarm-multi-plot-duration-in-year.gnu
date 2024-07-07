@@ -81,8 +81,8 @@ set decimal locale
 
 # LABELS, FORMATTING, MARGINS
 #set autoscale y
-#set yrange [0:1500000]
-set yrange [0:650000]
+set yrange [0:125000]
+#set yrange [0:650000]
 set ylabel "UNIQUE PEERS" font "Apercu,44" offset -12,0
 
 set format y "%'g"
