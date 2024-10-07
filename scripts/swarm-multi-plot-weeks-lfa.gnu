@@ -19,7 +19,7 @@ set terminal svg size 2160,1656 fname 'Apercu'
 
 # gnuplot
 # linestyle
-# pointstyle : available point symbols 
+# pointstyle : available point symbols
 
 # pointstyle 2
 # outline/fill square, pt(4/5)
@@ -54,11 +54,11 @@ set style line 6 lc rgb '#FECD0F' lt 1 lw 2 pt 7 ps 1
 
 set style line 7 lc rgb '#E9700A' lt 1 lw 2 pt 3 ps 1
 
-set style line 8 lc rgb '#10B0FF' lt 1 lw 2 pt 13 dt '.' ps 1
-set style line 9 lc rgb '#10B0FF' lt 1 lw 2 pt 12 dt '-' ps 1
-set style line 10 lc rgb '#10B0FF' lt 1 lw 2 pt 13 ps 1
-set style line 11 lc rgb '#0BF0E9' lt 1 lw 2 pt 13 dt '.' ps 1
-set style line 12 lc rgb '#0BF0E9' lt 1 lw 2 pt 13 ps 1
+set style line 8 lc rgb '#10e1f8' lt 1 lw 2 pt 13 dt '.' ps 1
+set style line 9 lc rgb '#10e1f8' lt 1 lw 2 pt 12 dt '-' ps 1
+set style line 10 lc rgb '#10e1f8' lt 1 lw 2 pt 13 ps 1
+set style line 11 lc rgb '#10B0FF' lt 1 lw 2 pt 13 dt '.' ps 1
+set style line 12 lc rgb '#10B0FF' lt 1 lw 2 pt 13 ps 1
 set style line 13 lc rgb '#3957FF' lt 1 lw 2 pt 13 dt '.' ps 1
 set style line 14 lc rgb '#3957FF' lt 1 lw 2 pt 13 ps 1
 
