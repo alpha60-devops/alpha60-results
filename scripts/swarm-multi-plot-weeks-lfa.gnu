@@ -20,6 +20,7 @@ set terminal svg size 2160,1656 fname 'Apercu'
 # gnuplot
 # linestyle
 # pointstyle : available point symbols
+# https://livebook.manning.com/book/gnuplot-in-action-second-edition/chapter-9/160
 
 # pointstyle 2
 # outline/fill square, pt(4/5)
@@ -43,30 +44,48 @@ set terminal svg size 2160,1656 fname 'Apercu'
 # 7 boba fett 2
 # 8-14 mando
 # 15,16 obiwan 70,80
-set style line 1 lc rgb '#A71AFD' lt 1 lw 2 pt 9 dt '.' ps 1
-set style line 2 lc rgb '#A71AFD' lt 1 lw 2 pt 9 ps 1
 
-set style line 3 lc rgb '#FC12C9' lt 1 lw 2 pt 11 dt '.' ps 1
-set style line 4 lc rgb '#FC12C9' lt 1 lw 2 pt 11 ps 1
+# different point styles
+#set style line 1 lc rgb '#A71AFD' lt 1 lw 2 pt 9 dt '.' ps 1
+#set style line 2 lc rgb '#A71AFD' lt 1 lw 2 pt 9 ps 1
+#set style line 3 lc rgb '#FC12C9' lt 1 lw 2 pt 11 dt '.' ps 1
+#set style line 4 lc rgb '#FC12C9' lt 1 lw 2 pt 11 ps 1
+#set style line 5 lc rgb '#FECD0F' lt 1 lw 2 pt 7 dt '.' ps 1
+#set style line 6 lc rgb '#FECD0F' lt 1 lw 2 pt 7 ps 1
+#set style line 7 lc rgb '#7E2639' lt 1 lw 2 pt 3 ps 1
+#set style line 8 lc rgb '#10e1f8' lt 1 lw 2 pt 13 dt '.' ps 1
+#set style line 9 lc rgb '#10e1f8' lt 1 lw 2 pt 12 dt '-' ps 1
+#set style line 10 lc rgb '#10e1f8' lt 1 lw 2 pt 13 ps 1
+#set style line 11 lc rgb '#10B0FF' lt 1 lw 2 pt 13 dt '.' ps 1
+#set style line 12 lc rgb '#10B0FF' lt 1 lw 2 pt 13 ps 1
+#set style line 13 lc rgb '#3957FF' lt 1 lw 2 pt 13 dt '.' ps 1
+#set style line 14 lc rgb '#3957FF' lt 1 lw 2 pt 13 ps 1
+#set style line 15 lc rgb '#0AD811' lt 1 lw 2 pt 4 dt '.' ps 1
+#set style line 16 lc rgb '#0AD811' lt 1 lw 2 pt 5 ps 1
 
-set style line 5 lc rgb '#FECD0F' lt 1 lw 2 pt 7 dt '.' ps 1
-set style line 6 lc rgb '#FECD0F' lt 1 lw 2 pt 7 ps 1
-
-set style line 7 lc rgb '#E9700A' lt 1 lw 2 pt 3 ps 1
-
-set style line 8 lc rgb '#10e1f8' lt 1 lw 2 pt 13 dt '.' ps 1
-set style line 9 lc rgb '#10e1f8' lt 1 lw 2 pt 12 dt '-' ps 1
-set style line 10 lc rgb '#10e1f8' lt 1 lw 2 pt 13 ps 1
-set style line 11 lc rgb '#10B0FF' lt 1 lw 2 pt 13 dt '.' ps 1
-set style line 12 lc rgb '#10B0FF' lt 1 lw 2 pt 13 ps 1
-set style line 13 lc rgb '#3957FF' lt 1 lw 2 pt 13 dt '.' ps 1
-set style line 14 lc rgb '#3957FF' lt 1 lw 2 pt 13 ps 1
-
-set style line 15 lc rgb '#0AD811' lt 1 lw 2 pt 4 dt '.' ps 1
-set style line 16 lc rgb '#0AD811' lt 1 lw 2 pt 5 ps 1
-
+# no point styles
+set style line 1 lc rgb '#A71AFD' lt 1 lw 2 pt 0 dt '.' ps 1
+set style line 2 lc rgb '#A71AFD' lt 1 lw 2 pt 0 ps 1
+set style line 3 lc rgb '#FC12C9' lt 1 lw 2 pt 0 dt '.' ps 1
+set style line 4 lc rgb '#FC12C9' lt 1 lw 2 pt 0 ps 1
+set style line 5 lc rgb '#FECD0F' lt 1 lw 2 pt 0 dt '.' ps 1
+set style line 6 lc rgb '#FECD0F' lt 1 lw 2 pt 0 ps 1
+set style line 7 lc rgb '#7E2639' lt 1 lw 2 pt 0 ps 1
+set style line 8 lc rgb '#a6cee3' lt 1 lw 2 pt 0 dt '.' ps 1
+set style line 9 lc rgb '#a6cee3' lt 1 lw 2 pt 0 dt '-' ps 1
+set style line 10 lc rgb '#a6cee3' lt 1 lw 2 pt 0 ps 1
+set style line 11 lc rgb '#1C7EB2' lt 1 lw 2 pt 0 dt '.' ps 1
+set style line 12 lc rgb '#1C7EB2' lt 1 lw 2 pt 0 ps 1
+set style line 13 lc rgb '#1B4997' lt 1 lw 2 pt 0 dt '.' ps 1
+set style line 14 lc rgb '#1B4997' lt 1 lw 2 pt 0 ps 1
+set style line 15 lc rgb '#0AD811' lt 1 lw 2 pt 0 dt '.' ps 1
+set style line 16 lc rgb '#0AD811' lt 1 lw 2 pt 0 ps 1
 
 set style fill transparent solid 0.5 noborder
+
+# set key below
+set key vertical maxrows 1 width -5
+set key outside below
 
 # LABELS, FORMATTING, MARGINS
 set autoscale y
@@ -91,16 +110,5 @@ set xtics 1 rotate by 90 right
 set xlabel "WEEKS" font "Apercu,24" offset 0,-1
 set output 'multi-week.svg'
 
-#plot for [data in FILES] data u 1:2
-#plot for [data in FILES] data u 1:2 w p pt 1 lt rgb 'black' notitle
-
-#plot for [i=1:words(FILES)] word(FILES,i) u 1:2 w p pt 1 title word(TITLES,i)
-
-# pointsize 0.5, 0.75, 1
 plot for [i=1:words(FILES)] word(FILES,i) u 1:2 with linespoints ls i pointsize 0.75 title word(TITLES,i)
 
-#plot for [i=1:words(FILES)] word(FILES,i) using 1:2 with linespoints ls 9 title word(TITLES,i)
-
-
-
-#plot 'multi-weeks.csv' using 1:2 with linespoints ls 1
