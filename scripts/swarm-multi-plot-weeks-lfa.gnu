@@ -84,8 +84,8 @@ set style line 16 lc rgb '#0AD811' lt 1 lw 2 pt 0 ps 1
 set style fill transparent solid 0.5 noborder
 
 # set key below
-set key vertical maxrows 1 width -5
-set key outside below
+#set key vertical maxrows 1 width -5
+#set key outside below
 
 # LABELS, FORMATTING, MARGINS
 set autoscale y
@@ -100,15 +100,18 @@ set lmargin 25
 set rmargin 15
 set tmargin 20
 set bmargin 20
+set title "Star Wars Streaming Audience by Week (Normalized Start)" font "Apercu,48"
 
 FILES = system("find . -type f -name '*.csv' | sort")
 TITLES = system("find . -type f -name '*.csv' | sort | sed -e 's/-weeks.csv//' -e 's|^\./||' ")
 
-
-set xtics 1 rotate by 90 right
+set tics font ", 24"
+#set xtics 1 rotate by 90 right
+set xtics 1 
 
 set xlabel "WEEKS" font "Apercu,24" offset 0,-1
 set output 'multi-week.svg'
 
-plot for [i=1:words(FILES)] word(FILES,i) u 1:2 with linespoints ls i pointsize 0.75 title word(TITLES,i)
+
+plot for [i=1:words(FILES)] word(FILES,i) u 1:2 with linespoints ls i pointsize 0.75 title word(TITLES,i) 
 
