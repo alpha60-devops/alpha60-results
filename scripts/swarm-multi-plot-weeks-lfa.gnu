@@ -68,16 +68,16 @@ set style line 1 lc rgb '#A71AFD' lt 1 lw 2 pt 0 dt '.' ps 1
 set style line 2 lc rgb '#A71AFD' lt 1 lw 2 pt 0 ps 1
 set style line 3 lc rgb '#FC12C9' lt 1 lw 2 pt 0 dt '.' ps 1
 set style line 4 lc rgb '#FC12C9' lt 1 lw 2 pt 0 ps 1
-set style line 5 lc rgb '#FECD0F' lt 1 lw 2 pt 0 dt '.' ps 1
-set style line 6 lc rgb '#FECD0F' lt 1 lw 2 pt 0 ps 1
+set style line 5 lc rgb '#DE2D26' lt 1 lw 2 pt 0 dt '.' ps 1
+set style line 6 lc rgb '#DE2D26' lt 1 lw 2 pt 0 ps 1
 set style line 7 lc rgb '#7E2639' lt 1 lw 2 pt 0 ps 1
-set style line 8 lc rgb '#a6cee3' lt 1 lw 2 pt 0 dt '.' ps 1
-set style line 9 lc rgb '#a6cee3' lt 1 lw 2 pt 0 dt '-' ps 1
-set style line 10 lc rgb '#a6cee3' lt 1 lw 2 pt 0 ps 1
-set style line 11 lc rgb '#1C7EB2' lt 1 lw 2 pt 0 dt '.' ps 1
-set style line 12 lc rgb '#1C7EB2' lt 1 lw 2 pt 0 ps 1
-set style line 13 lc rgb '#1B4997' lt 1 lw 2 pt 0 dt '.' ps 1
-set style line 14 lc rgb '#1B4997' lt 1 lw 2 pt 0 ps 1
+set style line 8 lc rgb '#DEEBF7' lt 1 lw 2 pt 0 dt '.' ps 1
+set style line 9 lc rgb '#DEEBF7' lt 1 lw 2 pt 0 dt '-' ps 1
+set style line 10 lc rgb '#DEEBF7' lt 1 lw 2 pt 0 ps 1
+set style line 11 lc rgb '#9ECAE1' lt 1 lw 2 pt 0 dt '.' ps 1
+set style line 12 lc rgb '#9ECAE1' lt 1 lw 2 pt 0 ps 1
+set style line 13 lc rgb '#3182BD' lt 1 lw 2 pt 0 dt '.' ps 1
+set style line 14 lc rgb '#3182BD' lt 1 lw 2 pt 0 ps 1
 set style line 15 lc rgb '#0AD811' lt 1 lw 2 pt 0 dt '.' ps 1
 set style line 16 lc rgb '#0AD811' lt 1 lw 2 pt 0 ps 1
 
@@ -88,16 +88,22 @@ set style fill transparent solid 0.5 noborder
 #set key outside below
 
 # LABELS, FORMATTING, MARGINS
-set autoscale y
-set ylabel "DOWNLOADS" font "Apercu,24" offset -1,0
+scalebymillion(x) = x/1000000
+
+# Max y range is 3.5, get it over that.
+set yrange [0:3.6]
+set ytics ("0" 0, "0.5" 0.5, "1" 1.0, "1.5" 1.5, "2" 2.0, "2.5" 2.5, "3" 3.0, "3.5" 3.5)
+#set autoscale y
+
+set ylabel "DOWNLOADS (in Millions)" font "Apercu,28" offset -4,0
 
 set decimal locale
 set format y "%'g"
 set format y "%'.0f"
 #set border 3
 
-set lmargin 25
-set rmargin 15
+set lmargin 50
+set rmargin 50
 set tmargin 20
 set bmargin 20
 set title "Star Wars Streaming Audience by Week (Normalized Start)" font "Apercu,48"
@@ -107,11 +113,10 @@ TITLES = system("find . -type f -name '*.csv' | sort | sed -e 's/-weeks.csv//' -
 
 set tics font ", 24"
 #set xtics 1 rotate by 90 right
-set xtics 1 
+set xtics 1
 
-set xlabel "WEEKS" font "Apercu,24" offset 0,-1
+set xlabel "WEEKS" font "Apercu,28" offset 0,-2
 set output 'multi-week.svg'
 
 
-plot for [i=1:words(FILES)] word(FILES,i) u 1:2 with linespoints ls i pointsize 0.75 title word(TITLES,i) 
-
+plot for [i=1:words(FILES)] word(FILES,i) u 1:(scalebymillion($2)) with linespoints ls i pointsize 0.75 title word(TITLES,i)
