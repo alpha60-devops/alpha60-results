@@ -1,5 +1,5 @@
-# 2018-07-13 bdekoz
-# expect directories hour/day/week with media-title-hours.csv, etc inside.
+# 2024-10-15
+# custom template for star wars media objects
 
 set datafile separator ','
 set border 0
@@ -9,8 +9,9 @@ set border 0
 #set lmargin at screen 0.05
 
 # TERMINAL
+# use fc-list on linux to get names
 #set terminal svg size 2112,1632 fname 'Apercu'
-set terminal svg size 2160,1656 fname 'Apercu'
+set terminal svg size 2160,1656 fname 'Apercu Light'
 #set terminal svg size 2112,3264 fname 'Source Sans Pro' fsize 22
 #set terminal svg size 4224,1632 fname 'Source Sans Pro' fsize 22
 #set terminal svg size 4024,1632 fname 'Source Sans Pro' fsize 22
@@ -64,22 +65,22 @@ set terminal svg size 2160,1656 fname 'Apercu'
 #set style line 16 lc rgb '#0AD811' lt 1 lw 2 pt 5 ps 1
 
 # no point styles
-set style line 1 lc rgb '#A71AFD' lt 1 lw 2 pt 0 dt '.' ps 1
-set style line 2 lc rgb '#A71AFD' lt 1 lw 2 pt 0 ps 1
-set style line 3 lc rgb '#FC12C9' lt 1 lw 2 pt 0 dt '.' ps 1
-set style line 4 lc rgb '#FC12C9' lt 1 lw 2 pt 0 ps 1
-set style line 5 lc rgb '#DE2D26' lt 1 lw 2 pt 0 dt '.' ps 1
-set style line 6 lc rgb '#DE2D26' lt 1 lw 2 pt 0 ps 1
+set style line 1 lc rgb '#A71AFD' lt 1 lw 2 pt 0 ps 1
+set style line 2 lc rgb '#A71AFD' lt 1 lw 2 pt 0 dt '.' ps 1
+set style line 3 lc rgb '#FC12C9' lt 1 lw 2 pt 0 ps 1
+set style line 4 lc rgb '#FC12C9' lt 1 lw 2 pt 0 dt '.' ps 1
+set style line 5 lc rgb '#DE2D26' lt 1 lw 2 pt 0 ps 1
+set style line 6 lc rgb '#DE2D26' lt 1 lw 2 pt 0 dt '.' ps 1
 set style line 7 lc rgb '#7E2639' lt 1 lw 2 pt 0 ps 1
-set style line 8 lc rgb '#DEEBF7' lt 1 lw 2 pt 0 dt '.' ps 1
+set style line 8 lc rgb '#DEEBF7' lt 1 lw 2 pt 0 ps 1
 set style line 9 lc rgb '#DEEBF7' lt 1 lw 2 pt 0 dt '-' ps 1
-set style line 10 lc rgb '#DEEBF7' lt 1 lw 2 pt 0 ps 1
-set style line 11 lc rgb '#9ECAE1' lt 1 lw 2 pt 0 dt '.' ps 1
-set style line 12 lc rgb '#9ECAE1' lt 1 lw 2 pt 0 ps 1
-set style line 13 lc rgb '#3182BD' lt 1 lw 2 pt 0 dt '.' ps 1
-set style line 14 lc rgb '#3182BD' lt 1 lw 2 pt 0 ps 1
-set style line 15 lc rgb '#0AD811' lt 1 lw 2 pt 0 dt '.' ps 1
-set style line 16 lc rgb '#0AD811' lt 1 lw 2 pt 0 ps 1
+set style line 10 lc rgb '#DEEBF7' lt 1 lw 2 pt 0 dt '.' ps 1
+set style line 11 lc rgb '#9ECAE1' lt 1 lw 2 pt 0 ps 1
+set style line 12 lc rgb '#9ECAE1' lt 1 lw 2 pt 0 dt '.' ps 1
+set style line 13 lc rgb '#3182BD' lt 1 lw 2 pt 0 ps 1
+set style line 14 lc rgb '#3182BD' lt 1 lw 2 pt 0 dt '.' ps 1
+set style line 15 lc rgb '#0AD811' lt 1 lw 2 pt 0 ps 1
+set style line 16 lc rgb '#0AD811' lt 1 lw 2 pt 0 dt '.' ps 1
 
 set style fill transparent solid 0.5 noborder
 
@@ -92,10 +93,12 @@ scalebymillion(x) = x/1000000
 
 # Max y range is 3.5, get it over that.
 set yrange [0:3.6]
-set ytics ("0" 0, "0.5" 0.5, "1" 1.0, "1.5" 1.5, "2" 2.0, "2.5" 2.5, "3" 3.0, "3.5" 3.5)
-#set autoscale y
 
-set ylabel "DOWNLOADS (in Millions)" font "Apercu,28" offset -4,0
+# minor tics are 1, major ticks (default) 0
+#set ytics ("0" 0, "1" 1.0, "2" 2.0, "3" 3.0)
+set ytics ("0" 0, "0.5" 0.5 1, "1" 1.0, "1.5" 1.5 1, "2" 2.0, "2.5" 2.5 1, "3" 3.0, "3.5" 3.5 1)
+
+#set autoscale y
 
 set decimal locale
 set format y "%'g"
@@ -106,7 +109,7 @@ set lmargin 50
 set rmargin 50
 set tmargin 20
 set bmargin 20
-set title "Star Wars Streaming Audience by Week (Normalized Start)" font "Apercu,48"
+set title "Star Wars Streaming Audience by Week (Normalized Start)" font "Apercu Medium,54"
 
 FILES = system("find . -type f -name '*.csv' | sort")
 TITLES = system("find . -type f -name '*.csv' | sort | sed -e 's/-weeks.csv//' -e 's|^\./||' ")
@@ -115,7 +118,8 @@ set tics font ", 24"
 #set xtics 1 rotate by 90 right
 set xtics 1
 
-set xlabel "WEEKS" font "Apercu,28" offset 0,-2
+set ylabel "DOWNLOADS (in Millions)" font "Apercu,30" offset -10,0
+set xlabel "WEEKS" font "Apercu,30" offset 0,-5
 set output 'multi-week.svg'
 
 
