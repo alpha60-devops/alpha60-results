@@ -85,8 +85,9 @@ set style line 16 lc rgb '#3182BD' lt 1 lw 2 pt 0 dt '.' ps 1
 set style fill transparent solid 0.5 noborder
 
 # set key below
-#set key vertical maxrows 1 width -5
-#set key outside below
+#set key vertical maxrows 17 maxcols 1 width -5
+set key vertical maxrows 17 columns 1  Left reverse
+set key outside right bottom
 
 # LABELS, FORMATTING, MARGINS
 scalebymillion(x) = x/1000000
