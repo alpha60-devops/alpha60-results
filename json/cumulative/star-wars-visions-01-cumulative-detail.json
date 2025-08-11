@@ -1,451 +1,589 @@
 {
     "collection-name": "Star Wars Visions",
     "collection-id": "1",
+    "collection-notes": "",
+    "ip-geolocation-version": "3:1752998905",
+    "data-version": "2025-07-26",
+    "data-btiha-sort": 1,
     "sample-duration": "2021-09-22-to-2021-12-08",
     "sample-days": 78,
     "sample-year-start": 2021,
     "sample-year-end": 2021,
     "sample-day-year-start": 265,
     "sample-day-year-end": 342,
-    "collection-all-btiha-total": {
-        "btiha-size": 204,
-        "upeers-total": 2453110,
-        "useeds-total": 621174,
-        "anomaly-total": 85425,
-        "anomaly-percentage": "3.48"
+    "collection-cumulative": {
+        "btiha": {
+            "btiha-size": 204,
+            "upeers-total": 2453110,
+            "useeds-total": 621174,
+            "anomaly-total": 10880,
+            "anomaly-percentage": "0.44"
+        },
+        "unique-btiha": {
+            "btiha-size": 197,
+            "upeers-total": 2280230,
+            "useeds-total": 570430,
+            "anomaly-total": 10342,
+            "anomaly-percentage": "0.45"
+        }
     },
-    "collection-unique-btiha-total": {
-        "btiha-size": 197,
-        "upeers-total": 2280230,
-        "useeds-total": 570430,
-        "anomaly-total": 61581,
-        "anomaly-percentage": "2.70"
+    "collection-week": [
+        {
+            "number": "unique-btiha-week",
+            "btiha-size": 0,
+            "upeers-total": 0,
+            "useeds-total": 0
+        },
+        {
+            "number": "unique-btiha-week-00001",
+            "btiha-size": 151,
+            "upeers-total": 379596,
+            "useeds-total": 139650
+        },
+        {
+            "number": "unique-btiha-week-00002",
+            "btiha-size": 171,
+            "upeers-total": 630726,
+            "useeds-total": 218372
+        },
+        {
+            "number": "unique-btiha-week-00003",
+            "btiha-size": 185,
+            "upeers-total": 845130,
+            "useeds-total": 281078
+        },
+        {
+            "number": "unique-btiha-week-00004",
+            "btiha-size": 185,
+            "upeers-total": 1031277,
+            "useeds-total": 328910
+        },
+        {
+            "number": "unique-btiha-week-00005",
+            "btiha-size": 192,
+            "upeers-total": 1209496,
+            "useeds-total": 368870
+        },
+        {
+            "number": "unique-btiha-week-00006",
+            "btiha-size": 197,
+            "upeers-total": 1405875,
+            "useeds-total": 408148
+        },
+        {
+            "number": "unique-btiha-week-00007",
+            "btiha-size": 197,
+            "upeers-total": 1598819,
+            "useeds-total": 444697
+        },
+        {
+            "number": "unique-btiha-week-00008",
+            "btiha-size": 197,
+            "upeers-total": 1766138,
+            "useeds-total": 478662
+        },
+        {
+            "number": "unique-btiha-week-00009",
+            "btiha-size": 197,
+            "upeers-total": 1924200,
+            "useeds-total": 510424
+        },
+        {
+            "number": "unique-btiha-week-00010",
+            "btiha-size": 197,
+            "upeers-total": 2095921,
+            "useeds-total": 540646
+        },
+        {
+            "number": "unique-btiha-week-00011",
+            "btiha-size": 197,
+            "upeers-total": 2256663,
+            "useeds-total": 567088
+        },
+        {
+            "number": "unique-btiha-week-00012",
+            "btiha-size": 197,
+            "upeers-total": 2280230,
+            "useeds-total": 570430
+        }
+    ],
+    "data-transfer": {
+        "peer-transfer-units": "terabyte",
+        "peer-transfer-size": 6899.009682617545,
+        "peer-transfer-price-1-name": "CloudFront-1-year",
+        "peer-transfer-price-1-per-gigabyte-cost": 0.005,
+        "peer-transfer-price-1-USD": 202495.04841308774,
+        "seed-transfer-units": "terabyte",
+        "seed-transfer-size": 2309.759736813713,
+        "seed-transfer-price-1-name": "CloudFront-1-year",
+        "seed-transfer-price-1-per-gigabyte-cost": 0.005,
+        "seed-transfer-price-1-USD": 179548.79868406859
     },
-    "collection-unique-btiha-week-00001": {
-        "btiha-size": 151,
-        "upeers-total": 379596,
-        "useeds-total": 139650,
-        "anomaly-total": 13381,
-        "anomaly-percentage": "3.53"
-    },
-    "collection-unique-btiha-week-00002": {
-        "btiha-size": 171,
-        "upeers-total": 630726,
-        "useeds-total": 218372,
-        "anomaly-total": 23170,
-        "anomaly-percentage": "3.67"
-    },
-    "collection-unique-btiha-week-00003": {
-        "btiha-size": 185,
-        "upeers-total": 845130,
-        "useeds-total": 281078,
-        "anomaly-total": 29644,
-        "anomaly-percentage": "3.51"
-    },
-    "collection-unique-btiha-week-00004": {
-        "btiha-size": 185,
-        "upeers-total": 1031277,
-        "useeds-total": 328910,
-        "anomaly-total": 34539,
-        "anomaly-percentage": "3.35"
-    },
-    "collection-unique-btiha-week-00005": {
-        "btiha-size": 192,
-        "upeers-total": 1209496,
-        "useeds-total": 368870,
-        "anomaly-total": 38956,
-        "anomaly-percentage": "3.22"
-    },
-    "collection-unique-btiha-week-00006": {
-        "btiha-size": 197,
-        "upeers-total": 1405875,
-        "useeds-total": 408148,
-        "anomaly-total": 43225,
-        "anomaly-percentage": "3.07"
-    },
-    "collection-unique-btiha-week-00007": {
-        "btiha-size": 197,
-        "upeers-total": 1598819,
-        "useeds-total": 444697,
-        "anomaly-total": 47415,
-        "anomaly-percentage": "2.97"
-    },
-    "collection-unique-btiha-week-00008": {
-        "btiha-size": 197,
-        "upeers-total": 1766138,
-        "useeds-total": 478662,
-        "anomaly-total": 50924,
-        "anomaly-percentage": "2.88"
-    },
-    "collection-unique-btiha-week-00009": {
-        "btiha-size": 197,
-        "upeers-total": 1924200,
-        "useeds-total": 510424,
-        "anomaly-total": 54187,
-        "anomaly-percentage": "2.82"
-    },
-    "collection-unique-btiha-week-00010": {
-        "btiha-size": 197,
-        "upeers-total": 2095921,
-        "useeds-total": 540646,
-        "anomaly-total": 57734,
-        "anomaly-percentage": "2.75"
-    },
-    "collection-unique-btiha-week-00011": {
-        "btiha-size": 197,
-        "upeers-total": 2256663,
-        "useeds-total": 567088,
-        "anomaly-total": 61090,
-        "anomaly-percentage": "2.71"
-    },
-    "collection-unique-btiha-week-00012": {
-        "btiha-size": 197,
-        "upeers-total": 2280230,
-        "useeds-total": 570430,
-        "anomaly-total": 61581,
-        "anomaly-percentage": "2.70"
-    },
-    "transfer-units": "terabyte",
-    "transfer-size": 6899.009682617545,
-    "transfer-price-1-name": "CloudFront-1-year",
-    "transfer-price-1-per-gigabyte-cost": 0.005,
-    "transfer-price-1-USD": 202495.04841308774,
-    "resolution-partitions": [
+    "geo-whole-earth-resolution-partitions": [
         {
             "number": 1,
-            "name": "1080-all",
-            "total-percentage-upeers": "45.70",
-            "total-percentage-bytes": "66.90",
-            "upeers-total": 1042081
+            "name": "1080",
+            "upeers-total": 1106964,
+            "total-percentage-upeers": "48.55",
+            "total-percentage-bytes": "70.43"
         },
         {
             "number": 2,
-            "name": "720-all",
-            "total-percentage-upeers": "19.25",
-            "total-percentage-bytes": "6.18",
-            "upeers-total": 438865
+            "name": "sd",
+            "upeers-total": 598760,
+            "total-percentage-upeers": "26.26",
+            "total-percentage-bytes": "10.55"
         },
         {
             "number": 3,
-            "name": "sd-none",
-            "total-percentage-upeers": "15.56",
-            "total-percentage-bytes": "10.56",
-            "upeers-total": 354782
+            "name": "720",
+            "upeers-total": 532454,
+            "total-percentage-upeers": "23.35",
+            "total-percentage-bytes": "8.13"
         },
         {
             "number": 4,
-            "name": "sd-264",
-            "total-percentage-upeers": "13.39",
-            "total-percentage-bytes": "4.43",
-            "upeers-total": 305311
+            "name": "2160",
+            "upeers-total": 42052,
+            "total-percentage-upeers": "1.84",
+            "total-percentage-bytes": "10.88"
+        }
+    ],
+    "geo-slices-4-cahill-keyes-quadrant-peers": [
+        {
+            "number": 1,
+            "name": "Pacifica America",
+            "upeers-slice": 114862,
+            "slice-percentage-upeers": "5.04"
+        },
+        {
+            "number": 2,
+            "name": "Americas",
+            "upeers-slice": 430237,
+            "slice-percentage-upeers": "18.87"
+        },
+        {
+            "number": 3,
+            "name": "Afro Eur Asia",
+            "upeers-slice": 1188144,
+            "slice-percentage-upeers": "52.11"
+        },
+        {
+            "number": 4,
+            "name": "Asia Pacifica",
+            "upeers-slice": 546979,
+            "slice-percentage-upeers": "23.99"
+        }
+    ],
+    "geo-slices-continental-peers": [
+        {
+            "number": 1,
+            "name": "Europe",
+            "upeers-slice": 1102474,
+            "slice-percentage-upeers": "48.35"
+        },
+        {
+            "number": 2,
+            "name": "Americas",
+            "upeers-slice": 497624,
+            "slice-percentage-upeers": "21.82"
+        },
+        {
+            "number": 3,
+            "name": "Asia",
+            "upeers-slice": 441082,
+            "slice-percentage-upeers": "19.34"
+        },
+        {
+            "number": 4,
+            "name": "Africa",
+            "upeers-slice": 52616,
+            "slice-percentage-upeers": "2.31"
         },
         {
             "number": 5,
-            "name": "sd-xvid",
-            "total-percentage-upeers": "3.01",
-            "total-percentage-bytes": "0.58",
-            "upeers-total": 68696
+            "name": "Oceania",
+            "upeers-slice": 38347,
+            "slice-percentage-upeers": "1.68"
         },
         {
             "number": 6,
-            "name": "2160-all",
-            "total-percentage-upeers": "1.84",
-            "total-percentage-bytes": "10.88",
-            "upeers-total": 42052
+            "name": "",
+            "upeers-slice": 27413,
+            "slice-percentage-upeers": "1.20"
+        },
+        {
+            "number": 7,
+            "name": "Unknown or Legendary",
+            "upeers-slice": 211,
+            "slice-percentage-upeers": "0.01"
         }
     ],
-    "geo-country-top-10": [
+    "geo-country-top-10-peers": [
         {
             "number": 1,
             "country-code": "RUS",
             "country-name": "Russian Federation",
-            "total-percentage-upeers": "20.28",
-            "upeers-total": 462374
+            "total-percentage-upeers": "20.41",
+            "upeers-total": 465307
         },
         {
             "number": 2,
             "country-code": "USA",
             "country-name": "United States of America",
-            "total-percentage-upeers": "14.79",
-            "upeers-total": 337154
+            "total-percentage-upeers": "13.18",
+            "upeers-total": 300433
         },
         {
             "number": 3,
             "country-code": "CHN",
             "country-name": "China",
-            "total-percentage-upeers": "5.20",
-            "upeers-total": 118623
+            "total-percentage-upeers": "5.17",
+            "upeers-total": 117987
         },
         {
             "number": 4,
             "country-code": "KOR",
             "country-name": "Korea, Republic of",
-            "total-percentage-upeers": "3.69",
-            "upeers-total": 84051
+            "total-percentage-upeers": "3.76",
+            "upeers-total": 85773
         },
         {
             "number": 5,
             "country-code": "BRA",
             "country-name": "Brazil",
-            "total-percentage-upeers": "3.10",
-            "upeers-total": 70754
+            "total-percentage-upeers": "3.35",
+            "upeers-total": 76297
         },
         {
             "number": 6,
+            "country-code": "DEU",
+            "country-name": "Germany",
+            "total-percentage-upeers": "2.97",
+            "upeers-total": 67652
+        },
+        {
+            "number": 7,
             "country-code": "FRA",
             "country-name": "France",
-            "total-percentage-upeers": "2.68",
-            "upeers-total": 61061
+            "total-percentage-upeers": "2.96",
+            "upeers-total": 67558
+        },
+        {
+            "number": 8,
+            "country-code": "NLD",
+            "country-name": "Netherlands, Kingdom of the",
+            "total-percentage-upeers": "2.48",
+            "upeers-total": 56551
+        },
+        {
+            "number": 9,
+            "country-code": "GBR",
+            "country-name": "United Kingdom of Great Britain and Northern Ireland",
+            "total-percentage-upeers": "2.48",
+            "upeers-total": 56525
+        },
+        {
+            "number": 10,
+            "country-code": "ESP",
+            "country-name": "Spain",
+            "total-percentage-upeers": "2.33",
+            "upeers-total": 53167
+        }
+    ],
+    "geo-country-top-10-seeds": [
+        {
+            "number": 1,
+            "country-code": "USA",
+            "country-name": "United States of America",
+            "total-percentage-upeers": "23.55",
+            "upeers-total": 134340
+        },
+        {
+            "number": 2,
+            "country-code": "RUS",
+            "country-name": "Russian Federation",
+            "total-percentage-upeers": "7.46",
+            "upeers-total": 42572
+        },
+        {
+            "number": 3,
+            "country-code": "DEU",
+            "country-name": "Germany",
+            "total-percentage-upeers": "5.76",
+            "upeers-total": 32873
+        },
+        {
+            "number": 4,
+            "country-code": "CHN",
+            "country-name": "China",
+            "total-percentage-upeers": "4.83",
+            "upeers-total": 27537
+        },
+        {
+            "number": 5,
+            "country-code": "BRA",
+            "country-name": "Brazil",
+            "total-percentage-upeers": "4.10",
+            "upeers-total": 23402
+        },
+        {
+            "number": 6,
+            "country-code": "ESP",
+            "country-name": "Spain",
+            "total-percentage-upeers": "2.58",
+            "upeers-total": 14713
         },
         {
             "number": 7,
             "country-code": "GBR",
             "country-name": "United Kingdom of Great Britain and Northern Ireland",
-            "total-percentage-upeers": "2.57",
-            "upeers-total": 58563
+            "total-percentage-upeers": "2.43",
+            "upeers-total": 13854
         },
         {
             "number": 8,
-            "country-code": "UKR",
-            "country-name": "Ukraine",
-            "total-percentage-upeers": "2.39",
-            "upeers-total": 54582
+            "country-code": "CAN",
+            "country-name": "Canada",
+            "total-percentage-upeers": "2.23",
+            "upeers-total": 12721
         },
         {
             "number": 9,
-            "country-code": "ESP",
-            "country-name": "Spain",
-            "total-percentage-upeers": "2.04",
-            "upeers-total": 46549
+            "country-code": "AUS",
+            "country-name": "Australia",
+            "total-percentage-upeers": "2.02",
+            "upeers-total": 11519
         },
         {
             "number": 10,
-            "country-code": "NLD",
-            "country-name": "Netherlands",
-            "total-percentage-upeers": "1.91",
-            "upeers-total": 43467
+            "country-code": "PHL",
+            "country-name": "Philippines",
+            "total-percentage-upeers": "1.99",
+            "upeers-total": 11346
         }
     ],
-    "geo-country-region-city-top-30": [
+    "geo-country-region-city-top-30-peers": [
         {
             "number": 1,
             "country-code": "RUS",
-            "country-name": "Russian Federation, Moscow, 48",
-            "total-percentage-upeers": "3.20",
-            "upeers-total": 72945
+            "country-name": "Russian Federation, 524901, Moscow",
+            "total-percentage-upeers": "4.10",
+            "upeers-total": 93534
         },
         {
             "number": 2,
-            "country-code": "USA",
-            "country-name": "United States of America",
-            "total-percentage-upeers": "3.08",
-            "upeers-total": 70268
+            "country-code": "CHN",
+            "country-name": "China, 1796236, Shanghai",
+            "total-percentage-upeers": "3.26",
+            "upeers-total": 74401
         },
         {
             "number": 3,
             "country-code": "USA",
-            "country-name": "United States of America, Ashburn, VA",
-            "total-percentage-upeers": "2.54",
-            "upeers-total": 57909
+            "country-name": "United States of America, 4744870, Ashburn",
+            "total-percentage-upeers": "3.18",
+            "upeers-total": 72508
         },
         {
             "number": 4,
             "country-code": "USA",
-            "country-name": "United States of America, Boardman, OR",
-            "total-percentage-upeers": "1.63",
-            "upeers-total": 37184
+            "country-name": "United States of America, 5714964, Boardman",
+            "total-percentage-upeers": "1.72",
+            "upeers-total": 39188
         },
         {
             "number": 5,
-            "country-code": "RUS",
-            "country-name": "Russian Federation",
-            "total-percentage-upeers": "1.51",
-            "upeers-total": 34522
+            "country-code": "DEU",
+            "country-name": "Germany, 2925533, Frankfurt am Main",
+            "total-percentage-upeers": "1.71",
+            "upeers-total": 39089
         },
         {
             "number": 6,
             "country-code": "KOR",
-            "country-name": "Korea, Republic of, Seoul, 11",
-            "total-percentage-upeers": "1.50",
-            "upeers-total": 34116
+            "country-name": "Korea, Republic of, 1835848, Seoul",
+            "total-percentage-upeers": "1.59",
+            "upeers-total": 36273
         },
         {
             "number": 7,
-            "country-code": "NLD",
-            "country-name": "Netherlands",
-            "total-percentage-upeers": "1.22",
-            "upeers-total": 27743
+            "country-code": "RUS",
+            "country-name": "Russian Federation, 498817, Saint Petersburg",
+            "total-percentage-upeers": "1.39",
+            "upeers-total": 31789
         },
         {
             "number": 8,
-            "country-code": "RUS",
-            "country-name": "Russian Federation, Saint Petersburg, 66",
-            "total-percentage-upeers": "1.19",
-            "upeers-total": 27184
+            "country-code": "NLD",
+            "country-name": "Netherlands, Kingdom of the, 2759794, Amsterdam",
+            "total-percentage-upeers": "1.16",
+            "upeers-total": 26373
         },
         {
             "number": 9,
-            "country-code": "FRA",
-            "country-name": "France",
-            "total-percentage-upeers": "1.11",
-            "upeers-total": 25321
+            "country-code": "GBR",
+            "country-name": "United Kingdom of Great Britain and Northern Ireland, 2643743, London",
+            "total-percentage-upeers": "1.03",
+            "upeers-total": 23538
         },
         {
             "number": 10,
-            "country-code": "KOR",
-            "country-name": "Korea, Republic of",
-            "total-percentage-upeers": "0.60",
-            "upeers-total": 13756
+            "country-code": "HKG",
+            "country-name": "Hong Kong, 1819729, Hong Kong",
+            "total-percentage-upeers": "0.74",
+            "upeers-total": 16832
         },
         {
             "number": 11,
-            "country-code": "DEU",
-            "country-name": "Germany",
-            "total-percentage-upeers": "0.58",
-            "upeers-total": 13322
+            "country-code": "HUN",
+            "country-name": "Hungary, 3054643, Budapest",
+            "total-percentage-upeers": "0.71",
+            "upeers-total": 16093
         },
         {
             "number": 12,
-            "country-code": "RUS",
-            "country-name": "Russian Federation, Yekaterinburg, 71",
-            "total-percentage-upeers": "0.58",
-            "upeers-total": 13249
+            "country-code": "USA",
+            "country-name": "United States of America, 5128581, New York City",
+            "total-percentage-upeers": "0.68",
+            "upeers-total": 15582
         },
         {
             "number": 13,
-            "country-code": "GBR",
-            "country-name": "United Kingdom of Great Britain and Northern Ireland",
-            "total-percentage-upeers": "0.52",
-            "upeers-total": 11845
+            "country-code": "FRA",
+            "country-name": "France, 2988507, Paris",
+            "total-percentage-upeers": "0.65",
+            "upeers-total": 14748
         },
         {
             "number": 14,
-            "country-code": "DEU",
-            "country-name": "Germany, Frankfurt, 05",
-            "total-percentage-upeers": "0.51",
-            "upeers-total": 11626
+            "country-code": "RUS",
+            "country-name": "Russian Federation, 1496747, Novosibirsk",
+            "total-percentage-upeers": "0.63",
+            "upeers-total": 14312
         },
         {
             "number": 15,
-            "country-code": "CHN",
-            "country-name": "China",
-            "total-percentage-upeers": "0.50",
-            "upeers-total": 11482
+            "country-code": "RUS",
+            "country-name": "Russian Federation, 1486209, Yekaterinburg",
+            "total-percentage-upeers": "0.62",
+            "upeers-total": 14162
         },
         {
             "number": 16,
-            "country-code": "CHN",
-            "country-name": "China, Shanghai, 23",
-            "total-percentage-upeers": "0.49",
-            "upeers-total": 11193
+            "country-code": "BGR",
+            "country-name": "Bulgaria, 727011, Sofia",
+            "total-percentage-upeers": "0.59",
+            "upeers-total": 13477
         },
         {
             "number": 17,
-            "country-code": "ROU",
-            "country-name": "Romania",
-            "total-percentage-upeers": "0.48",
-            "upeers-total": 10935
+            "country-code": "CAN",
+            "country-name": "Canada, 6167865, Toronto",
+            "total-percentage-upeers": "0.52",
+            "upeers-total": 11897
         },
         {
             "number": 18,
-            "country-code": "RUS",
-            "country-name": "Russian Federation, Novosibirsk, 53",
-            "total-percentage-upeers": "0.46",
-            "upeers-total": 10575
+            "country-code": "ESP",
+            "country-name": "Spain, 3117735, Madrid",
+            "total-percentage-upeers": "0.52",
+            "upeers-total": 11895
         },
         {
             "number": 19,
-            "country-code": "CHN",
-            "country-name": "China, Guangzhou, 30",
-            "total-percentage-upeers": "0.46",
-            "upeers-total": 10554
+            "country-code": "BRA",
+            "country-name": "Brazil, 3448439, São Paulo",
+            "total-percentage-upeers": "0.47",
+            "upeers-total": 10823
         },
         {
             "number": 20,
-            "country-code": "TWN",
-            "country-name": "Taiwan, Province of China, Taipei, 03",
-            "total-percentage-upeers": "0.46",
-            "upeers-total": 10497
+            "country-code": "POL",
+            "country-name": "Poland, 756135, Warsaw",
+            "total-percentage-upeers": "0.47",
+            "upeers-total": 10663
         },
         {
             "number": 21,
-            "country-code": "BGR",
-            "country-name": "Bulgaria, Sofia, 42",
-            "total-percentage-upeers": "0.45",
-            "upeers-total": 10357
+            "country-code": "CHN",
+            "country-name": "China, 1816670, Beijing",
+            "total-percentage-upeers": "0.43",
+            "upeers-total": 9851
         },
         {
             "number": 22,
-            "country-code": "UKR",
-            "country-name": "Ukraine, Kiev, 12",
-            "total-percentage-upeers": "0.45",
-            "upeers-total": 10341
+            "country-code": "USA",
+            "country-name": "United States of America, 5368361, Los Angeles",
+            "total-percentage-upeers": "0.43",
+            "upeers-total": 9717
         },
         {
             "number": 23,
-            "country-code": "HUN",
-            "country-name": "Hungary, Budapest, 05",
-            "total-percentage-upeers": "0.44",
-            "upeers-total": 10032
+            "country-code": "USA",
+            "country-name": "United States of America, 4684888, Dallas",
+            "total-percentage-upeers": "0.42",
+            "upeers-total": 9574
         },
         {
             "number": 24,
-            "country-code": "CHN",
-            "country-name": "China, Beijing, 22",
-            "total-percentage-upeers": "0.44",
-            "upeers-total": 9931
+            "country-code": "AUS",
+            "country-name": "Australia, 2147714, Sydney",
+            "total-percentage-upeers": "0.41",
+            "upeers-total": 9436
         },
         {
             "number": 25,
-            "country-code": "HKG",
-            "country-name": "Hong Kong, Central District, 00",
-            "total-percentage-upeers": "0.38",
-            "upeers-total": 8740
+            "country-code": "UKR",
+            "country-name": "Ukraine, 703448, Kyiv",
+            "total-percentage-upeers": "0.41",
+            "upeers-total": 9295
         },
         {
             "number": 26,
-            "country-code": "ITA",
-            "country-name": "Italy",
-            "total-percentage-upeers": "0.38",
-            "upeers-total": 8728
+            "country-code": "RUS",
+            "country-name": "Russian Federation, 499099, Samara",
+            "total-percentage-upeers": "0.40",
+            "upeers-total": 9033
         },
         {
             "number": 27,
-            "country-code": "USA",
-            "country-name": "United States of America, Atlanta, GA",
-            "total-percentage-upeers": "0.35",
-            "upeers-total": 8080
+            "country-code": "CAN",
+            "country-name": "Canada, 6077243, Montréal",
+            "total-percentage-upeers": "0.39",
+            "upeers-total": 8971
         },
         {
             "number": 28,
-            "country-code": "UKR",
-            "country-name": "Ukraine",
-            "total-percentage-upeers": "0.35",
-            "upeers-total": 8058
+            "country-code": "RUS",
+            "country-name": "Russian Federation, 520555, Nizhniy Novgorod",
+            "total-percentage-upeers": "0.38",
+            "upeers-total": 8760
         },
         {
             "number": 29,
-            "country-code": "POL",
-            "country-name": "Poland",
-            "total-percentage-upeers": "0.35",
-            "upeers-total": 7962
+            "country-code": "AUS",
+            "country-name": "Australia, 2158177, Melbourne",
+            "total-percentage-upeers": "0.36",
+            "upeers-total": 8256
         },
         {
             "number": 30,
-            "country-code": "JPN",
-            "country-name": "Japan, Tokyo, 40",
-            "total-percentage-upeers": "0.34",
-            "upeers-total": 7820
+            "country-code": "SGP",
+            "country-name": "Singapore, 1880252, Singapore",
+            "total-percentage-upeers": "0.35",
+            "upeers-total": 8048
         }
     ],
     "collection-unique-btiha-detail": [
         {
-            "id": 25,
+            "id": 37,
             "name": "Star.Wars.Visions.S01.1080p.DSNP.WEBRip.DDP5.1.x264-TEPES[eztv.re]",
             "btih": "7917b3c9ff2e7d167baf05580efc1dccc3e0fa45",
             "resolution": "1080",
             "encoding": "264",
-            "bytes": -1817796594,
+            "gigabytes": 6.772137998,
+            "creation": "2021-09-22T07:59:28.000000000Z,EZTV,Visit us: https://eztv.re/",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -453,12 +591,13 @@
             "seed": 59875
         },
         {
-            "id": 845,
-            "name": "multi-btih-3-2x-Star.Wars.Visions.S01.JAPANESE.1080p.DSNP.WEBRip.DDP5.1.x264-AGLET[rartv]-[rarbg.to]",
+            "id": 215,
+            "name": "multi-btih-3-2-x-Star.Wars.Visions.S01.JAPANESE.1080p.DSNP.WEBRip.DDP5.1.x264-AGLET[rartv]-[rarbg.to]",
             "btih": "63765788e31e319b3e615941dde7167d3ef61e91",
             "resolution": "1080",
             "encoding": "264",
-            "bytes": -1542757094,
+            "gigabytes": 7.047177498,
+            "creation": "2021-09-22T07:56:12.000000000Z,mktorrent 1.0,Torrent downloaded from https://rarbg.to",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -466,12 +605,13 @@
             "seed": 41770
         },
         {
-            "id": 33,
+            "id": 45,
             "name": "Star.Wars.Visions.S01.COMPLETE.720p.DSNP.WEBRip.x264-GalaxyTV[TGx]",
             "btih": "a09da32e1fba22edf8686244cf462f6285626f94",
             "resolution": "720",
             "encoding": "264",
-            "bytes": 906277912,
+            "gigabytes": 0.906277912,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -479,12 +619,13 @@
             "seed": 43862
         },
         {
-            "id": 843,
-            "name": "multi-btih-1-2x-Star.Wars.Visions.S01.1080p.DSNP.WEBRip.DDP5.1.x264-TEPES[rartv]",
+            "id": 213,
+            "name": "multi-btih-1-2-x-Star.Wars.Visions.S01.1080p.DSNP.WEBRip.DDP5.1.x264-TEPES[rartv]",
             "btih": "ffa4a741173be873a6531214df2b030f285c04c5",
             "resolution": "1080",
             "encoding": "264",
-            "bytes": -1817796563,
+            "gigabytes": 6.772138029,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -492,12 +633,13 @@
             "seed": 26406
         },
         {
-            "id": 57,
+            "id": 73,
             "name": "Star.Wars.Visions.S01.WEBRip.x264-ION10[eztv.re]",
             "btih": "d20c1d29712710f2704e579282e5dcd13fc03d36",
             "resolution": "sd",
             "encoding": "264",
-            "bytes": 1450367077,
+            "gigabytes": 1.450367077,
+            "creation": "2021-09-22T07:48:02.000000000Z,EZTV,Visit us: https://eztv.re/",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -505,12 +647,13 @@
             "seed": 27203
         },
         {
-            "id": 846,
-            "name": "multi-btih-4-2x-Star.Wars.Visions.S01.JAPANESE.WEBRip.x264-ION10-[rarbg.to]",
+            "id": 216,
+            "name": "multi-btih-4-2-x-Star.Wars.Visions.S01.JAPANESE.WEBRip.x264-ION10-[rarbg.to]",
             "btih": "3dcb8a8636f6c1f1575f46cbba64b76e57bd5632",
             "resolution": "sd",
             "encoding": "264",
-            "bytes": 1450362636,
+            "gigabytes": 1.450362636,
+            "creation": "2021-09-22T08:19:13.000000000Z,mktorrent 1.0,Torrent downloaded from https://rarbg.to",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -518,12 +661,13 @@
             "seed": 15084
         },
         {
-            "id": 35,
+            "id": 47,
             "name": "Star.Wars.Visions.S01.COMPLETE.REPACK.1080p.DSNP.WEB-DL.DDP5.1.H.264-FLUX[TGx]",
             "btih": "9358614a95cd3ef656c99b45aff7f1bb1fd682b3",
             "resolution": "1080",
             "encoding": "264",
-            "bytes": -1539273836,
+            "gigabytes": 7.050660756,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -531,12 +675,13 @@
             "seed": 22778
         },
         {
-            "id": 844,
-            "name": "multi-btih-2-2x-Star.Wars.Visions.S01.DUBBED.WEBRip.x264-ION10-[rarbg.to]",
+            "id": 214,
+            "name": "multi-btih-2-2-x-Star.Wars.Visions.S01.DUBBED.WEBRip.x264-ION10-[rarbg.to]",
             "btih": "474f11f57556a40af165867c1cf5c8c02be8c9f0",
             "resolution": "sd",
             "encoding": "264",
-            "bytes": 1450367108,
+            "gigabytes": 1.450367108,
+            "creation": "2021-09-22T07:33:05.000000000Z,mktorrent 1.0,Torrent downloaded from https://rarbg.to",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -544,12 +689,13 @@
             "seed": 15997
         },
         {
-            "id": 51,
+            "id": 66,
             "name": "Star.Wars.Visions.S01.REPACK.1080p.DSNP.WEB-DL.DDP5.1.H.264-FLUX",
             "btih": "3d343857c36fed65b3bcbe33250ede9453622787",
             "resolution": "1080",
             "encoding": "264",
-            "bytes": -1539274554,
+            "gigabytes": 7.050660038,
+            "creation": "2021-09-22T11:09:59.000000000Z,NyaaV2,https://nyaa.si/view/1435848",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -557,12 +703,13 @@
             "seed": 17656
         },
         {
-            "id": 158,
+            "id": 9,
             "name": "[rutor.is]Star Wars Visions_(s01)_HDr_1080p(1)",
             "btih": "a78e11fa7eba1fa56cda130ff5a2f85b441095f0",
             "resolution": "1080",
             "encoding": "none",
-            "bytes": -1267688764,
+            "gigabytes": 7.322245828,
+            "creation": "2021-09-24T19:12:22.000000000Z,uTorrent/2040,http://rutor.is/torrent/835812",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -570,12 +717,13 @@
             "seed": 19930
         },
         {
-            "id": 847,
-            "name": "multi-btih-5-2x-Star.Wars.Visions.S01.RG.Paravozik",
+            "id": 218,
+            "name": "multi-btih-6-2-x-[rutor.is]Star.Wars.Visions.S01.RG.Paravozik",
             "btih": "c9820677e6c42f1e5ad7d2c6d1c451bbf4256de6",
-            "resolution": "sd",
+            "resolution": "720",
             "encoding": "none",
-            "bytes": -1035846878,
+            "gigabytes": 3.259120418,
+            "creation": "2021-09-24T15:31:20.000000000Z,Сидбоксы Megaseed.kz,http://rutor.is/torrent/836074",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -583,12 +731,13 @@
             "seed": 6080
         },
         {
-            "id": 59,
+            "id": 69,
             "name": "Star.Wars.Visions.S01",
             "btih": "6a935cb3e3bd6d76ad6a6e6aa9be9463e6caf733",
-            "resolution": "sd",
+            "resolution": "1080",
             "encoding": "none",
-            "bytes": -967155916,
+            "gigabytes": 3.32781138,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -596,12 +745,13 @@
             "seed": 8338
         },
         {
-            "id": 34,
+            "id": 46,
             "name": "Star.Wars.Visions.S01.COMPLETE.ENGLISH.1080p.DSNP.WEB-DL.DDP5.1.H.264-FLUX[TGx]",
             "btih": "04a222f103c44f3eb986ddbf755b19fcc3624108",
             "resolution": "1080",
             "encoding": "264",
-            "bytes": -1812896478,
+            "gigabytes": 6.777038114,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -609,12 +759,13 @@
             "seed": 6509
         },
         {
-            "id": 1,
+            "id": 13,
             "name": "Star Wars - Visions (2021) [10 bits x265]",
             "btih": "1878f5aa25220581f84e2dbaa0b921a95908e94a",
-            "resolution": "sd",
+            "resolution": "720",
             "encoding": "265",
-            "bytes": 1142827908,
+            "gigabytes": 1.142827908,
+            "creation": "2021-09-22T11:50:31.000000000Z,NyaaV2,https://nyaa.si/view/1435855",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -622,12 +773,13 @@
             "seed": 7219
         },
         {
-            "id": 27,
+            "id": 39,
             "name": "Star.Wars.Visions.S01.1080p.DUBBED.DSNP.WEBRip.DDP5.1.x264-TEPES",
             "btih": "eaaf0da4e37fb5c6791594c6c494ba2f84425d7d",
             "resolution": "1080",
             "encoding": "264",
-            "bytes": -1817796594,
+            "gigabytes": 6.772137998,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -635,12 +787,13 @@
             "seed": 7653
         },
         {
-            "id": 28,
+            "id": 40,
             "name": "Star.Wars.Visions.S01.1080p.WEB-DL.TRIAL.AUDIO",
             "btih": "1ed20cf51b442e02f90f01cfed5fe93577e6742d",
             "resolution": "1080",
             "encoding": "none",
-            "bytes": 226803753,
+            "gigabytes": 4.521771049,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -648,12 +801,13 @@
             "seed": 7756
         },
         {
-            "id": 2,
+            "id": 14,
             "name": "Star Wars - Visions (2021)",
             "btih": "760b9a9a4772607948d73634ab4617c220ecacff",
             "resolution": "sd",
             "encoding": "none",
-            "bytes": -2102401233,
+            "gigabytes": 2.192566063,
+            "creation": "2021-09-22T10:35:33.000000000Z,NyaaV2,https://nyaa.si/view/1435846",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -661,12 +815,13 @@
             "seed": 7598
         },
         {
-            "id": 63,
+            "id": 78,
             "name": "Star.Wars.Visions.S01E01.1080p.rus.LostFilm.TV.mkv",
             "btih": "d9c82d76a8123a7f8f5bff6dcb31f6f9b6d80737",
             "resolution": "1080",
             "encoding": "none",
-            "bytes": 728033328,
+            "gigabytes": 0.728033328,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -674,12 +829,13 @@
             "seed": 3137
         },
         {
-            "id": 18,
+            "id": 30,
             "name": "Star Wars Visions",
             "btih": "affcfdf51fda1dce689d4568dd7b99b0617ea536",
             "resolution": "sd",
             "encoding": "none",
-            "bytes": -955211669,
+            "gigabytes": 7.634722923,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -687,12 +843,13 @@
             "seed": 3091
         },
         {
-            "id": 50,
+            "id": 65,
             "name": "Star.Wars.Visions.S01.REPACK.1080p.DSNP.WEB-DL.DDP5.1.H.264-FLUX [IPT]",
             "btih": "a4229fc96f04a5544600cd24e8bc41243a832329",
             "resolution": "1080",
             "encoding": "264",
-            "bytes": -1539274554,
+            "gigabytes": 7.050660038,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": true,
             "i2p": false,
@@ -700,12 +857,13 @@
             "seed": 6355
         },
         {
-            "id": 48,
+            "id": 63,
             "name": "Star.Wars.Visions.S01.JAPANESE.WEBRip.x264-ION10[eztv.re]",
             "btih": "9ffb149a30fe76a10918c35ecee0f89f729931c8",
             "resolution": "sd",
             "encoding": "264",
-            "bytes": 1450362605,
+            "gigabytes": 1.450362605,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -718,7 +876,8 @@
             "btih": "f3f645d13f9f86621521b329d35aa36ea60f0132",
             "resolution": "sd",
             "encoding": "264",
-            "bytes": 49414091,
+            "gigabytes": 0.049414091,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -726,12 +885,13 @@
             "seed": 1812
         },
         {
-            "id": 45,
+            "id": 60,
             "name": "Star.Wars.Visions.S01.JAPANESE.2160p.WEB-DL.x265.10bit.HDR.DDP5.1-SWTYBLZ",
             "btih": "8dfbe7115a1f280e74ebaa82069b79c1733c859a",
             "resolution": "2160",
             "encoding": "265",
-            "bytes": 529898207,
+            "gigabytes": 17.709767391,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -742,9 +902,10 @@
             "id": 187,
             "name": "Звёздные войны Видения Star Wars Visions Сезон 1 Серии 9 из 9 (Чхве Ын-ён, Хироюки Имаиси, Кэндзи Камияма) [2021, Япония [rutracker-6115436]",
             "btih": "17f02e548812d8388c1d6efd4090a40250a53d8f",
-            "resolution": "sd",
+            "resolution": "1080",
             "encoding": "none",
-            "bytes": -1399329904,
+            "gigabytes": 7.190604688,
+            "creation": "2021-09-30T12:53:06.000000000Z,uTorrent/3.5.5,https://rutracker.org/forum/viewtopic.php?t=6115436",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -757,7 +918,8 @@
             "btih": "c50ce97a7353aef2bb2d2e514de82c60fb80517d",
             "resolution": "720",
             "encoding": "none",
-            "bytes": 174600959,
+            "gigabytes": 0.174600959,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -765,12 +927,13 @@
             "seed": 611
         },
         {
-            "id": 52,
+            "id": 67,
             "name": "Star.Wars.Visions.S01.REPACK.720p.DSNP.WEB-DL.DDP5.1.H.264-FLUX",
             "btih": "480f45952cb90e6bc25d554200ee2c3a4e61465e",
             "resolution": "720",
             "encoding": "264",
-            "bytes": -459078907,
+            "gigabytes": 3.835888389,
+            "creation": "2021-09-22T11:10:50.000000000Z,NyaaV2,https://nyaa.si/view/1435849",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -783,7 +946,8 @@
             "btih": "68ef69ce651718996b5b9da7c5fd0556d269de82",
             "resolution": "sd",
             "encoding": "none",
-            "bytes": -1170106503,
+            "gigabytes": 3.124860793,
+            "creation": "2021-09-24T13:02:19.000000000Z,uTorrent/3.5.5,https://rutracker.org/forum/viewtopic.php?t=6113654",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -791,12 +955,13 @@
             "seed": 1184
         },
         {
-            "id": 14,
+            "id": 26,
             "name": "Star Wars Visions RUS",
             "btih": "55d7177147eefe807e43a3efd62d21d8442bad02",
             "resolution": "sd",
             "encoding": "none",
-            "bytes": 664983524,
+            "gigabytes": 0.664983524,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -804,12 +969,13 @@
             "seed": 575
         },
         {
-            "id": 148,
+            "id": 75,
             "name": "Star.Wars.Visions.s01.WEBRip.XviD.Rus.BaibaKo.tv",
             "btih": "178d509284be0c8a4492a2e008be6365cab2701b",
             "resolution": "sd",
             "encoding": "xvid",
-            "bytes": 1862376226,
+            "gigabytes": 1.862376226,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -817,12 +983,13 @@
             "seed": 2537
         },
         {
-            "id": 75,
+            "id": 91,
             "name": "Star.Wars.Visions.S01E02.1080p.WEB.h264-KOGi[eztv.re].mkv",
             "btih": "a40bb4d4c138161f5a5ac56916e136c5f4725d99",
             "resolution": "1080",
             "encoding": "264",
-            "bytes": 600356057,
+            "gigabytes": 0.600356057,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -830,12 +997,13 @@
             "seed": 2443
         },
         {
-            "id": 93,
+            "id": 109,
             "name": "Star.Wars.Visions.S01E03.HDTV.Subtitulado.Esp.SC.mp4",
             "btih": "d353db002b09c099c8b89aa1a03066a40cf7f355",
             "resolution": "sd",
             "encoding": "none",
-            "bytes": 188019912,
+            "gigabytes": 0.188019912,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -843,12 +1011,13 @@
             "seed": 679
         },
         {
-            "id": 7,
+            "id": 19,
             "name": "Star Wars Visions - Temporada 1 [HDTV 720p][Cap.102_105][AC3 5.1 Castellano][www.maxitorrent.com]",
             "btih": "218828616d79c30a730b536ff519175d04973ea4",
             "resolution": "720",
             "encoding": "none",
-            "bytes": 2143208706,
+            "gigabytes": 2.143208706,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -856,12 +1025,13 @@
             "seed": 1132
         },
         {
-            "id": 848,
-            "name": "multi-btih-6-2x-Star.Wars.Visions.S01.WEB-DL.1080p-AGLET_RUTOR",
+            "id": 217,
+            "name": "multi-btih-5-2-x-[rutor.is]Star Wars Visions_(s01)_HDr_1080p",
             "btih": "25b3aff6eb4b714308a9264bb4b0b51404622876",
             "resolution": "1080",
             "encoding": "none",
-            "bytes": 832667900,
+            "gigabytes": 0.8326679,
+            "creation": "2021-09-23T04:53:14.000000000Z,uTorrent/1820,http://rutor.is/torrent/835812",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -869,12 +1039,13 @@
             "seed": 3996
         },
         {
-            "id": 157,
+            "id": 8,
             "name": "[LoliHouse] Star Wars Visions [WebRip 1080p HEVC-10bit EAC3 SRTx4]",
             "btih": "1967ad7fb3533654eee814e923cb3728721e39ab",
             "resolution": "1080",
             "encoding": "none",
-            "bytes": -453717973,
+            "gigabytes": 3.841249323,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -882,12 +1053,13 @@
             "seed": 4295
         },
         {
-            "id": 60,
+            "id": 76,
             "name": "Star.Wars.Visions.S01E01-09.iTA.ENG.1080p.DDP5.1.WEB.h264-DENiED",
             "btih": "b29c1fd009b7a96340f178cc842287e99b28aec9",
             "resolution": "1080",
             "encoding": "264",
-            "bytes": -1523839612,
+            "gigabytes": 7.06609498,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -895,12 +1067,13 @@
             "seed": 3117
         },
         {
-            "id": 147,
+            "id": 53,
             "name": "Star.Wars.Visions.s01.HD720p.WEBRip.Rus.BaibaKo.tv",
             "btih": "1cf87380c89eec565ebc97d73cdc69faa7d72029",
             "resolution": "720",
             "encoding": "none",
-            "bytes": -425424802,
+            "gigabytes": 3.869542494,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -908,12 +1081,13 @@
             "seed": 502
         },
         {
-            "id": 9,
+            "id": 21,
             "name": "Star Wars Visions - Temporada 1 [HDTV][Cap.101][Castellano][www.maxitorrent.com]",
             "btih": "6c743880987c73f5cf43bdf7288072da5b1779a8",
             "resolution": "sd",
             "encoding": "none",
-            "bytes": 159618406,
+            "gigabytes": 0.159618406,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -921,12 +1095,13 @@
             "seed": 2990
         },
         {
-            "id": 41,
+            "id": 56,
             "name": "Star.Wars.Visions.S01.JAPANESE.1080p.DSNP.WEBRip.DDP5.1.x264-AGLET[eztv.re]",
             "btih": "0d864bb90fe5c60f2e81477dd57e77d0ce3f4a68",
             "resolution": "1080",
             "encoding": "264",
-            "bytes": -1542757125,
+            "gigabytes": 7.047177467,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -939,7 +1114,8 @@
             "btih": "4d5cecf25f722f2653312250a27086ae728ecb2c",
             "resolution": "1080",
             "encoding": "265",
-            "bytes": 226051469,
+            "gigabytes": 0.226051469,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -952,7 +1128,8 @@
             "btih": "312ae21bc1122edc8cf7fd7e3bfb1b7023958cff",
             "resolution": "1080",
             "encoding": "265",
-            "bytes": 248298367,
+            "gigabytes": 0.248298367,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -960,12 +1137,13 @@
             "seed": 2176
         },
         {
-            "id": 24,
+            "id": 36,
             "name": "Star.Wars.Visions.S01.1080p.DSNP.WEB-DL.HDR.DDP5.1.H.265-aKraa",
             "btih": "a069060bbf7f59d219b665d00a58dab75acfa57c",
             "resolution": "1080",
             "encoding": "265",
-            "bytes": -954359307,
+            "gigabytes": 7.635575285,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -973,12 +1151,13 @@
             "seed": 3852
         },
         {
-            "id": 58,
+            "id": 55,
             "name": "Star.Wars.Visions.S01.iTALIAN.MULTI.1080p.DSNP.WEB-DL.DDP5.1.x264-MeM",
             "btih": "24026ee83561a93869a0cd0c6904fde7e88e007f",
             "resolution": "1080",
             "encoding": "264",
-            "bytes": -1544296820,
+            "gigabytes": 7.045637772,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -986,12 +1165,13 @@
             "seed": 4728
         },
         {
-            "id": 62,
+            "id": 79,
             "name": "Star.Wars.Visions.S01E01.1080p.WEB.h264-KOGi[eztv.re].mkv",
             "btih": "fa7759bfcf9db84a83fcba62acb818df03de810f",
             "resolution": "1080",
             "encoding": "264",
-            "bytes": 782909726,
+            "gigabytes": 0.782909726,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1004,7 +1184,8 @@
             "btih": "ef67b99cd4322a3fa440e215596e510ef1270775",
             "resolution": "sd",
             "encoding": "xvid",
-            "bytes": 125689997,
+            "gigabytes": 0.125689997,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1017,7 +1198,8 @@
             "btih": "f2787ce4823fc19c41720568aa57bdd34a1df70b",
             "resolution": "1080",
             "encoding": "265",
-            "bytes": 152131447,
+            "gigabytes": 0.152131447,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1025,12 +1207,13 @@
             "seed": 2136
         },
         {
-            "id": 86,
+            "id": 103,
             "name": "Star.Wars.Visions.S01E02.WEBRip.720p.rus.5.1.HDREZKA.STUDIO.mkv",
             "btih": "267809cfe1e76456da458c4f2e86d45f8ff6d57a",
             "resolution": "720",
             "encoding": "none",
-            "bytes": 390543383,
+            "gigabytes": 0.390543383,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1038,12 +1221,13 @@
             "seed": 359
         },
         {
-            "id": 5,
+            "id": 17,
             "name": "Star Wars Visions - AniLibria.TV [WEB-DL 1080p]",
             "btih": "0c71fbfb3c7916f2010f58c8ba24303d2f9a40a7",
             "resolution": "1080",
             "encoding": "none",
-            "bytes": 808052299,
+            "gigabytes": 0.808052299,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1051,12 +1235,13 @@
             "seed": 470
         },
         {
-            "id": 149,
+            "id": 74,
             "name": "Star.Wars.Visions.s01.WEBRip.x264.Rus.BaibaKo.tv",
             "btih": "767dbd38da28dd8bcbaab511ebc71a85480507dd",
             "resolution": "sd",
             "encoding": "264",
-            "bytes": 1827457786,
+            "gigabytes": 1.827457786,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1064,12 +1249,13 @@
             "seed": 372
         },
         {
-            "id": 3,
+            "id": 15,
             "name": "Star Wars - Visions S01 2021 WEB-DL 1080p TRIAL 5.1",
             "btih": "9e2138ed35e3912d4cb9b39d3ef8f5ed11306b8a",
             "resolution": "1080",
             "encoding": "none",
-            "bytes": -1248073298,
+            "gigabytes": 7.341861294,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1077,12 +1263,13 @@
             "seed": 2558
         },
         {
-            "id": 112,
+            "id": 129,
             "name": "Star.Wars.Visions.S01E05.The.Ninth.Jedi.DUAL-AUDIO.JPN-ENG.720p.10bit.WEBRip.2CH.x265.HEVC-PSA.mkv",
             "btih": "9e2b7f6532aa0ea54072408c7265c4e8d248333d",
             "resolution": "720",
             "encoding": "265",
-            "bytes": 77350308,
+            "gigabytes": 0.077350308,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1090,12 +1277,13 @@
             "seed": 742
         },
         {
-            "id": 11,
+            "id": 23,
             "name": "Star Wars Visions - Temporada 1 [WEB-DL 1080p][Cap.101][Dual DDP5.1 + Subs][www.maxitorrent.com]",
             "btih": "296d32afa2a2232a6ebd6662af1d8f90f54ace06",
             "resolution": "1080",
             "encoding": "none",
-            "bytes": 832667513,
+            "gigabytes": 0.832667513,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1103,12 +1291,13 @@
             "seed": 1362
         },
         {
-            "id": 19,
+            "id": 31,
             "name": "Star.Wars.Visions.(Season 01).1080p.Iron-Sound",
             "btih": "639b5566c555770d918aa85fed8caf1e7c338895",
             "resolution": "1080",
             "encoding": "none",
-            "bytes": -1399329904,
+            "gigabytes": 7.190604688,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1116,12 +1305,13 @@
             "seed": 667
         },
         {
-            "id": 94,
+            "id": 110,
             "name": "Star.Wars.Visions.S01E03.REPACK.1080p.WEB.h264-KOGi[eztv.re].mkv",
             "btih": "558c8c5c12e8b5ad91240dd9a38c5175a24b2bbc",
             "resolution": "1080",
             "encoding": "264",
-            "bytes": 885095489,
+            "gigabytes": 0.885095489,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1129,12 +1319,13 @@
             "seed": 2481
         },
         {
-            "id": 61,
+            "id": 77,
             "name": "Star.Wars.Visions.S01E01-09.iTA.ENG.HDR.2160p.DDP5.1.HEVC.WEB.h264-DENiED",
             "btih": "e2d7a5fb201606707a14343f54a19d80302d69ad",
             "resolution": "2160",
             "encoding": "264",
-            "bytes": 542518720,
+            "gigabytes": 17.722387904,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1147,7 +1338,8 @@
             "btih": "8380e448a743c6cfdd548f73e7b1f3e95793c2f6",
             "resolution": "1080",
             "encoding": "265",
-            "bytes": 341451915,
+            "gigabytes": 0.341451915,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1155,12 +1347,13 @@
             "seed": 2329
         },
         {
-            "id": 842,
-            "name": "multi-btih-0-2x-Star Wars Visions SAISON 01 Multi 1080P.X265 (1)",
+            "id": 212,
+            "name": "multi-btih-0-2-x-Star Wars Visions SAISON 01 Multi 1080P.X265 (1)",
             "btih": "dda7ab854e5299ae6b95a787f408acae16987a6f",
             "resolution": "1080",
             "encoding": "265",
-            "bytes": -1627604514,
+            "gigabytes": 2.667362782,
+            "creation": "2021-09-22T13:28:46.000000000Z,NyaaV2,https://nyaa.si/view/1435874",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1168,12 +1361,13 @@
             "seed": 2220
         },
         {
-            "id": 65,
+            "id": 81,
             "name": "Star.Wars.Visions.S01E01.720p.rus.LostFilm.TV.mp4",
             "btih": "e7ad2001375945e93d02e2b3006938f6e11da87a",
             "resolution": "720",
             "encoding": "none",
-            "bytes": 413102220,
+            "gigabytes": 0.41310222,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1181,12 +1375,13 @@
             "seed": 1757
         },
         {
-            "id": 161,
+            "id": 12,
             "name": "[rutor.is]Zvezdnye_voyny_Videnia_-_Sezon_1_-_VHSnik_torre",
             "btih": "26ecde99febc745313e76558e9572feb568bf6dc",
             "resolution": "sd",
             "encoding": "none",
-            "bytes": 813743226,
+            "gigabytes": 0.813743226,
+            "creation": "2021-09-23T08:59:05.000000000Z,uTorrent/3.5.5,http://rutor.is/torrent/835923",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1199,7 +1394,8 @@
             "btih": "c75ea867658a512923eadd775d2791c01d14277d",
             "resolution": "1080",
             "encoding": "265",
-            "bytes": 602600631,
+            "gigabytes": 0.602600631,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1207,12 +1403,13 @@
             "seed": 1235
         },
         {
-            "id": 68,
+            "id": 84,
             "name": "Star.Wars.Visions.S01E01.REPACK.1080p.WEB.h264-KOGi[eztv.re].mkv",
             "btih": "4b444a9f8f4e1117273b177154a084a6735c56a0",
             "resolution": "1080",
             "encoding": "264",
-            "bytes": 782909731,
+            "gigabytes": 0.782909731,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1220,12 +1417,13 @@
             "seed": 3272
         },
         {
-            "id": 156,
+            "id": 7,
             "name": "[DJB] Star Wars Visions - S01 VOSTFR [1080p]",
             "btih": "b7b4bb3ee201d484834e15695042c80ca703c3ca",
             "resolution": "1080",
             "encoding": "none",
-            "bytes": 935838276,
+            "gigabytes": 5.230805572,
+            "creation": "2021-09-22T11:48:41.000000000Z,NyaaV2,https://nyaa.si/view/1435854",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1233,12 +1431,13 @@
             "seed": 2947
         },
         {
-            "id": 88,
+            "id": 99,
             "name": "Star.Wars.Visions.S01E02.rus.LostFilm.TV.avi",
             "btih": "e101d39b447d714724b4e045f35bd130610b35cc",
-            "resolution": "sd",
+            "resolution": "720",
             "encoding": "none",
-            "bytes": 201592832,
+            "gigabytes": 0.201592832,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1246,12 +1445,13 @@
             "seed": 2388
         },
         {
-            "id": 31,
+            "id": 43,
             "name": "Star.Wars.Visions.S01.720p.ColdFilm",
             "btih": "061a065b62641a1eeab5f76459dae5ea220e7181",
             "resolution": "720",
             "encoding": "none",
-            "bytes": -766480596,
+            "gigabytes": 3.5284867,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1259,12 +1459,13 @@
             "seed": 525
         },
         {
-            "id": 101,
+            "id": 117,
             "name": "Star.Wars.Visions.S01E03.XviD-AFG[eztv.re].avi",
             "btih": "ad11d58c1320c7ba59349851f0b5f12492f6bc89",
             "resolution": "sd",
             "encoding": "xvid",
-            "bytes": 284555096,
+            "gigabytes": 0.284555096,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1272,12 +1473,13 @@
             "seed": 1384
         },
         {
-            "id": 84,
+            "id": 101,
             "name": "Star.Wars.Visions.S01E02.Tatooine.Rhapsody.DUAL-AUDIO.JPN-ENG.720p.10bit.WEBRip.2CH.x265.HEVC-PSA.mkv",
             "btih": "4e878ef28d8089a1ac04c1156f6a45b2df20b46f",
             "resolution": "720",
             "encoding": "265",
-            "bytes": 78435628,
+            "gigabytes": 0.078435628,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1285,12 +1487,13 @@
             "seed": 685
         },
         {
-            "id": 83,
+            "id": 100,
             "name": "Star.Wars.Visions.S01E02.Tatooine.Rhapsody.DUAL-AUDIO.JPN-ENG.1080p.10bit.WEBRip.6CH.x265.HEVC-PSA.mkv",
             "btih": "ae701bd2f909167035be2dca476706ca351f0127",
             "resolution": "1080",
             "encoding": "265",
-            "bytes": 171792117,
+            "gigabytes": 0.171792117,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1298,12 +1501,13 @@
             "seed": 1065
         },
         {
-            "id": 103,
+            "id": 119,
             "name": "Star.Wars.Visions.S01E04.The.Village.Bride.DUAL-AUDIO.JPN-ENG.1080p.10bit.WEBRip.6CH.x265.HEVC-PSA.mkv",
             "btih": "01589572f9c03fa6a5e50d20e2f1284af6edc039",
             "resolution": "1080",
             "encoding": "265",
-            "bytes": 126275685,
+            "gigabytes": 0.126275685,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1311,12 +1515,13 @@
             "seed": 1096
         },
         {
-            "id": 49,
+            "id": 64,
             "name": "Star.Wars.Visions.S01.MULTi.1080p.WEB.H264-NanDesuKa",
             "btih": "dc8533050e42c8591d8eddf0a3cd9daa8141ca5a",
             "resolution": "1080",
             "encoding": "264",
-            "bytes": -1539334265,
+            "gigabytes": 7.050600327,
+            "creation": "2021-09-22T07:31:04.000000000Z,NyaaV2,https://nyaa.si/view/1435813",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1324,12 +1529,13 @@
             "seed": 2085
         },
         {
-            "id": 113,
+            "id": 130,
             "name": "Star.Wars.Visions.S01E05.WEBRip.1080p.rus.5.1.HDREZKA.STUDIO.mkv",
             "btih": "5c467903e2c7a882469b3688f638097a865b0c37",
             "resolution": "1080",
             "encoding": "none",
-            "bytes": 600609011,
+            "gigabytes": 0.600609011,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1342,7 +1548,8 @@
             "btih": "74270c93bc8064324730a3858694bf7f62f228ba",
             "resolution": "sd",
             "encoding": "xvid",
-            "bytes": 142437138,
+            "gigabytes": 0.142437138,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1355,7 +1562,8 @@
             "btih": "59e04452d60ccfecf3ab686734a7c868d4d45850",
             "resolution": "720",
             "encoding": "none",
-            "bytes": 231595585,
+            "gigabytes": 0.231595585,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1363,12 +1571,13 @@
             "seed": 644
         },
         {
-            "id": 92,
+            "id": 108,
             "name": "Star.Wars.Visions.S01E03.720p.WEB.h264-KOGi[eztv.re].mkv",
             "btih": "9eac489c452334c44b5258e290f500884ec9813a",
             "resolution": "720",
             "encoding": "264",
-            "bytes": 466874101,
+            "gigabytes": 0.466874101,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1381,7 +1590,8 @@
             "btih": "4d2264bd08b2a572b2e3ad702a1d51aa9a3deeba",
             "resolution": "1080",
             "encoding": "265",
-            "bytes": 896022414,
+            "gigabytes": 0.896022414,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1389,12 +1599,13 @@
             "seed": 1709
         },
         {
-            "id": 78,
+            "id": 94,
             "name": "Star.Wars.Visions.S01E02.HDTV.Subtitulado.Esp.SC.mp4",
             "btih": "9978ba683afdf6b93e55f2113f5c6b6a7c97ec56",
             "resolution": "sd",
             "encoding": "none",
-            "bytes": 137580078,
+            "gigabytes": 0.137580078,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1402,12 +1613,13 @@
             "seed": 696
         },
         {
-            "id": 8,
+            "id": 20,
             "name": "Star Wars Visions - Temporada 1 [HDTV 720p][Cap.106_109][AC3 5.1 Castellano][www.maxitorrent.com]",
             "btih": "55d5c5eb21f40d256bf4ead759994533a1431513",
             "resolution": "720",
             "encoding": "none",
-            "bytes": 1906958662,
+            "gigabytes": 1.906958662,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1415,12 +1627,13 @@
             "seed": 2197
         },
         {
-            "id": 10,
+            "id": 22,
             "name": "Star Wars Visions - Temporada 1 [HDTV][Cap.106_109][Castellano][www.maxitorrent.com]",
             "btih": "27e699d6d162a2d5884f1aa546471c653b0335a2",
             "resolution": "sd",
             "encoding": "none",
-            "bytes": 1013784424,
+            "gigabytes": 1.013784424,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1428,12 +1641,13 @@
             "seed": 2439
         },
         {
-            "id": 32,
+            "id": 44,
             "name": "Star.Wars.Visions.S01.720p.Ultradox",
             "btih": "9d5b462d040462bea7e4d59b0b533efa606f6a30",
             "resolution": "720",
             "encoding": "none",
-            "bytes": -1039850561,
+            "gigabytes": 3.255116735,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1441,12 +1655,13 @@
             "seed": 324
         },
         {
-            "id": 89,
+            "id": 105,
             "name": "Star.Wars.Visions.S01E03.1080p.HEVC.x265-MeGusta[eztv.re].mkv",
             "btih": "04c8f61e4c53ecb657124d83bc5f50d9f83db925",
             "resolution": "1080",
             "encoding": "265",
-            "bytes": 268932316,
+            "gigabytes": 0.268932316,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1454,12 +1669,13 @@
             "seed": 2275
         },
         {
-            "id": 76,
+            "id": 93,
             "name": "Star.Wars.Visions.S01E02.720p.WEB.h264-KOGi[eztv.re].mkv",
             "btih": "2886b83ddfe7af258d8968b5bbd52a08a27413e9",
             "resolution": "720",
             "encoding": "264",
-            "bytes": 343713535,
+            "gigabytes": 0.343713535,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1467,12 +1683,13 @@
             "seed": 1808
         },
         {
-            "id": 23,
+            "id": 35,
             "name": "Star.Wars.Visions.S01.1080p.ColdFilm",
             "btih": "512ef77849797de0e68a77f487822a11f390e5a0",
             "resolution": "1080",
             "encoding": "none",
-            "bytes": 893701617,
+            "gigabytes": 5.188668913,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1483,9 +1700,10 @@
             "id": 163,
             "name": "www.SceneTime.com   -    Star Wars Visions S01E01 REPACK 480p x264-mSD",
             "btih": "cce0af1ce69e232ebc0e5503649759f911b26db2",
-            "resolution": "sd",
+            "resolution": "720",
             "encoding": "264",
-            "bytes": 91342277,
+            "gigabytes": 0.091342277,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1493,12 +1711,13 @@
             "seed": 1121
         },
         {
-            "id": 90,
+            "id": 106,
             "name": "Star.Wars.Visions.S01E03.1080p.WEB.h264-KOGi[eztv.re].mkv",
             "btih": "ab436cb26d8ba5f69dc9065cce08ee9372ee1fe4",
             "resolution": "1080",
             "encoding": "264",
-            "bytes": 885095486,
+            "gigabytes": 0.885095486,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1506,12 +1725,13 @@
             "seed": 2212
         },
         {
-            "id": 119,
+            "id": 136,
             "name": "Star.Wars.Visions.S01E06.T0-B1.DUAL-AUDIO.JPN-ENG.1080p.10bit.WEBRip.6CH.x265.HEVC-PSA.mkv",
             "btih": "2c356c9d09957009ad4856be77aae0309cd35c81",
             "resolution": "1080",
             "encoding": "265",
-            "bytes": 151719984,
+            "gigabytes": 0.151719984,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1519,12 +1739,13 @@
             "seed": 1025
         },
         {
-            "id": 120,
+            "id": 137,
             "name": "Star.Wars.Visions.S01E06.T0-B1.DUAL-AUDIO.JPN-ENG.720p.10bit.WEBRip.2CH.x265.HEVC-PSA.mkv",
             "btih": "827bee02ec614d3c7d4a0fe6ee51a0930d6b0098",
             "resolution": "720",
             "encoding": "265",
-            "bytes": 68385715,
+            "gigabytes": 0.068385715,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1532,12 +1753,13 @@
             "seed": 703
         },
         {
-            "id": 71,
+            "id": 87,
             "name": "Star.Wars.Visions.S01E01.The.Duel.DUAL-AUDIO.JPN-ENG.720p.10bit.WEBRip.2CH.x265.HEVC-PSA.mkv",
             "btih": "3a1db6235d745b2589ca3db23c41330c32709581",
             "resolution": "720",
             "encoding": "265",
-            "bytes": 157320141,
+            "gigabytes": 0.157320141,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1550,7 +1772,8 @@
             "btih": "00b982cd9e16afb1c56294209fc84362800b645b",
             "resolution": "720",
             "encoding": "264",
-            "bytes": 902589214,
+            "gigabytes": 0.902589214,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1558,12 +1781,13 @@
             "seed": 658
         },
         {
-            "id": 72,
+            "id": 88,
             "name": "Star.Wars.Visions.S01E01.WEBRip.1080p.rus.5.1.HDREZKA.STUDIO.mkv",
             "btih": "b3f8f3a99a87f435ae456c11b4be19cd337516ec",
             "resolution": "1080",
             "encoding": "none",
-            "bytes": 2060926587,
+            "gigabytes": 2.060926587,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1571,12 +1795,13 @@
             "seed": 612
         },
         {
-            "id": 105,
+            "id": 121,
             "name": "Star.Wars.Visions.S01E04.The.Village.Bride.REPACK.1080p.DSNP.WEB-DL.DDP5.1.H.264-FLUX.mkv",
             "btih": "82fcdaf877c70f52aa08644dfb6812f1f9e3bec2",
             "resolution": "1080",
             "encoding": "264",
-            "bytes": 748049341,
+            "gigabytes": 0.748049341,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1589,7 +1814,8 @@
             "btih": "a04efa7449b5577e6846cb27a999fa1e5bcfc7f7",
             "resolution": "sd",
             "encoding": "none",
-            "bytes": 383818056,
+            "gigabytes": 4.678785352,
+            "creation": "2021-10-01T11:39:04.000000000Z,uTorrent/3.5.5,https://rutracker.org/forum/viewtopic.php?t=6113654",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1602,7 +1828,8 @@
             "btih": "1c2a797c6537fe94408c2abdeb08542b93d6d61b",
             "resolution": "sd",
             "encoding": "264",
-            "bytes": 91342256,
+            "gigabytes": 0.091342256,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1615,7 +1842,8 @@
             "btih": "65af5b29ac1a38c2cd084a53146d10334e0cb23c",
             "resolution": "sd",
             "encoding": "xvid",
-            "bytes": 227336683,
+            "gigabytes": 0.227336683,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1628,7 +1856,8 @@
             "btih": "ce2ff6e2cb89cf1a28225cabeb14d06ca67157ce",
             "resolution": "720",
             "encoding": "none",
-            "bytes": 234588879,
+            "gigabytes": 0.234588879,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1641,7 +1870,8 @@
             "btih": "5d5ec593b74734cd8742cc69fcb66670c85a22af",
             "resolution": "720",
             "encoding": "none",
-            "bytes": 216847728,
+            "gigabytes": 0.216847728,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1649,12 +1879,13 @@
             "seed": 634
         },
         {
-            "id": 100,
+            "id": 116,
             "name": "Star.Wars.Visions.S01E03.WEBRip.1080p.rus.5.1.HDREZKA.STUDIO.mkv",
             "btih": "0326f79d3dfe5d5e7f5cf966250af6f9714c8f24",
             "resolution": "1080",
             "encoding": "none",
-            "bytes": 813129441,
+            "gigabytes": 0.813129441,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1662,12 +1893,13 @@
             "seed": 1321
         },
         {
-            "id": 70,
+            "id": 86,
             "name": "Star.Wars.Visions.S01E01.The.Duel.DUAL-AUDIO.JPN-ENG.1080p.10bit.WEBRip.6CH.x265.HEVC-PSA.mkv",
             "btih": "d5af7dcfac4dc084da103e2191a92b0d43a6ff42",
             "resolution": "1080",
             "encoding": "265",
-            "bytes": 440802900,
+            "gigabytes": 0.4408029,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1680,7 +1912,8 @@
             "btih": "761f3f4080be570446cd65960108799d4368edcf",
             "resolution": "720",
             "encoding": "none",
-            "bytes": 268872733,
+            "gigabytes": 0.268872733,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1688,12 +1921,13 @@
             "seed": 567
         },
         {
-            "id": 6,
+            "id": 18,
             "name": "Star Wars Visions - Temporada 1 [HDTV 720p][Cap.101][AC3 5.1 Castellano][www.maxitorrent.com]",
             "btih": "cf452fad1a469e02a628d0a7420ae276b522b382",
             "resolution": "720",
             "encoding": "none",
-            "bytes": 395863498,
+            "gigabytes": 0.395863498,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1701,12 +1935,13 @@
             "seed": 2184
         },
         {
-            "id": 87,
+            "id": 104,
             "name": "Star.Wars.Visions.S01E02.XviD-AFG[eztv.re].avi",
             "btih": "4b4ef4bdd8d2ffa4a64b7c2112b34158c3f17fd4",
             "resolution": "sd",
             "encoding": "xvid",
-            "bytes": 155766756,
+            "gigabytes": 0.155766756,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1719,7 +1954,8 @@
             "btih": "427abb968d70ccfeeeae935c1d57d83c90d76cc5",
             "resolution": "sd",
             "encoding": "none",
-            "bytes": 82402776,
+            "gigabytes": 0.082402776,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1727,12 +1963,13 @@
             "seed": 1347
         },
         {
-            "id": 91,
+            "id": 107,
             "name": "Star.Wars.Visions.S01E03.480p.x264-mSD[eztv.re].mkv",
             "btih": "f6eeb93300c02dcd88fb67614d44ef1c4d417142",
             "resolution": "sd",
             "encoding": "264",
-            "bytes": 104738319,
+            "gigabytes": 0.104738319,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1745,7 +1982,8 @@
             "btih": "dc86b98fc3f2c3576dda9242321302c040f7d660",
             "resolution": "720",
             "encoding": "none",
-            "bytes": 177869121,
+            "gigabytes": 0.177869121,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1753,12 +1991,13 @@
             "seed": 548
         },
         {
-            "id": 117,
+            "id": 133,
             "name": "Star.Wars.Visions.S01E06.1080p.rus.LostFilm.TV.mkv",
             "btih": "411e0e555e7f449d5bfa72d1f69475d9c562e8b3",
             "resolution": "1080",
             "encoding": "none",
-            "bytes": 741607056,
+            "gigabytes": 0.741607056,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1766,12 +2005,13 @@
             "seed": 1404
         },
         {
-            "id": 40,
+            "id": 54,
             "name": "Star.Wars.Visions.S01.HDR.2160p.WEB.DDP5.1.h265-KOGi",
             "btih": "9860f4fb0d6e7bd96e8d8627f83241250ed1405e",
             "resolution": "2160",
             "encoding": "265",
-            "bytes": 254832489,
+            "gigabytes": 17.434701673,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1779,12 +2019,13 @@
             "seed": 2560
         },
         {
-            "id": 104,
+            "id": 120,
             "name": "Star.Wars.Visions.S01E04.The.Village.Bride.DUAL-AUDIO.JPN-ENG.720p.10bit.WEBRip.2CH.x265.HEVC-PSA.mkv",
             "btih": "d2a6e43f7e76a195087e9349574b3c206f70850a",
             "resolution": "720",
             "encoding": "265",
-            "bytes": 55216351,
+            "gigabytes": 0.055216351,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1792,12 +2033,13 @@
             "seed": 695
         },
         {
-            "id": 129,
+            "id": 145,
             "name": "Star.Wars.Visions.S01E07.WEBRip.1080p.rus.5.1.HDREZKA.STUDIO.mkv",
             "btih": "ac38a5c39bda300c59dbc38cd751e9efa0845da1",
             "resolution": "1080",
             "encoding": "none",
-            "bytes": 439971616,
+            "gigabytes": 0.439971616,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1805,12 +2047,13 @@
             "seed": 489
         },
         {
-            "id": 154,
+            "id": 5,
             "name": "[Anistar.org] Star Wars- Visions - 07 [720p].mp4",
             "btih": "8d647ab00fc2f30bdc676daaa42dd56faa2bc615",
             "resolution": "720",
             "encoding": "none",
-            "bytes": 326687338,
+            "gigabytes": 0.326687338,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1818,12 +2061,13 @@
             "seed": 331
         },
         {
-            "id": 13,
+            "id": 25,
             "name": "Star Wars Visions - Temporada 1 [WEB-DL 1080p][Cap.106_109][Dual DDP5.1 + Subs][www.maxitorrent.com]",
             "btih": "d19adb22d962e25f27ecaf0b923d68ee6540c068",
             "resolution": "1080",
             "encoding": "none",
-            "bytes": -1130416278,
+            "gigabytes": 3.164551018,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1831,12 +2075,13 @@
             "seed": 1202
         },
         {
-            "id": 98,
+            "id": 114,
             "name": "Star.Wars.Visions.S01E03.The.Twins.DUAL-AUDIO.JPN-ENG.720p.10bit.WEBRip.2CH.x265.HEVC-PSA.mkv",
             "btih": "d1db2ddc4355621433b7602aef6cec695f4ec5fb",
             "resolution": "720",
             "encoding": "265",
-            "bytes": 126473363,
+            "gigabytes": 0.126473363,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1847,9 +2092,10 @@
             "id": 184,
             "name": "Звёздные войны Видения Star Wars Visions Сезон 1 Серии 2 из 9 (Чхве Ын-ён, Хироюки Имаиси, Кэндзи Камияма) [2021, Япония [rutracker-6115436]",
             "btih": "66b62560f1ad4205478496b6179a5fa9b6cbf5ff",
-            "resolution": "sd",
+            "resolution": "1080",
             "encoding": "none",
-            "bytes": 1581668512,
+            "gigabytes": 1.581668512,
+            "creation": "2021-09-26T18:39:56.000000000Z,uTorrent/3.5.5,https://rutracker.org/forum/viewtopic.php?t=6115436",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1857,12 +2103,13 @@
             "seed": 465
         },
         {
-            "id": 127,
+            "id": 143,
             "name": "Star.Wars.Visions.S01E07.The.Elder.DUAL-AUDIO.JPN-ENG.1080p.10bit.WEBRip.6CH.x265.HEVC-PSA.mkv",
             "btih": "ab5552ac896e1aaffd979bbd176056a58c61be9a",
             "resolution": "1080",
             "encoding": "265",
-            "bytes": 166080830,
+            "gigabytes": 0.16608083,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1875,7 +2122,8 @@
             "btih": "68549fe9555ec71dec854982a58976309ac1942f",
             "resolution": "sd",
             "encoding": "none",
-            "bytes": 50528657,
+            "gigabytes": 0.050528657,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1883,12 +2131,13 @@
             "seed": 1267
         },
         {
-            "id": 146,
+            "id": 52,
             "name": "Star.Wars.Visions.s01.HD1080p.WEBRip.Rus.BaibaKo.tv",
             "btih": "3cef0cacf0a26f6ac1d4165f0fe6d9c4af9d4321",
             "resolution": "1080",
             "encoding": "none",
-            "bytes": -936449943,
+            "gigabytes": 7.653484649,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1896,12 +2145,13 @@
             "seed": 356
         },
         {
-            "id": 66,
+            "id": 82,
             "name": "Star.Wars.Visions.S01E01.HDTV.Subtitulado.Esp.SC.mp4",
             "btih": "4ce859c9684be051497224cc57355bbcb10c0a66",
             "resolution": "sd",
             "encoding": "none",
-            "bytes": 138848935,
+            "gigabytes": 0.138848935,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1909,12 +2159,13 @@
             "seed": 611
         },
         {
-            "id": 152,
+            "id": 3,
             "name": "[Anistar.org] Star Wars- Visions - 02 [720p].mp4",
             "btih": "3788bb10a8a58862a32640b8a86db7b3ce0200b9",
             "resolution": "720",
             "encoding": "none",
-            "bytes": 289134361,
+            "gigabytes": 0.289134361,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1922,12 +2173,13 @@
             "seed": 402
         },
         {
-            "id": 73,
+            "id": 89,
             "name": "Star.Wars.Visions.S01E01.WEBRip.1080p.ukr.5.1.HDREZKA.STUDIO.mkv",
             "btih": "73a15e9fc4794ab3b79b244719e6652bab20acdb",
             "resolution": "1080",
             "encoding": "none",
-            "bytes": 789293842,
+            "gigabytes": 0.789293842,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1935,12 +2187,13 @@
             "seed": 347
         },
         {
-            "id": 102,
+            "id": 118,
             "name": "Star.Wars.Visions.S01E04.HDTV.Subtitulado.Esp.SC.mp4",
             "btih": "b595466b98cae5373e5b0299ac4d918ae2f4a83f",
             "resolution": "sd",
             "encoding": "none",
-            "bytes": 189648698,
+            "gigabytes": 0.189648698,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1948,12 +2201,13 @@
             "seed": 562
         },
         {
-            "id": 67,
+            "id": 83,
             "name": "Star.Wars.Visions.S01E01.JAPANESE.WEBRip.x264-ION10",
             "btih": "44cefd433226e831b141e2fa64f3b74fae6c649e",
             "resolution": "sd",
             "encoding": "264",
-            "bytes": 129790399,
+            "gigabytes": 0.129790399,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1961,12 +2215,13 @@
             "seed": 337
         },
         {
-            "id": 69,
+            "id": 85,
             "name": "Star.Wars.Visions.S01E01.REPACK.480p.x264-mSD[eztv.re].mkv",
             "btih": "34b7b6083c6e90a16722b2871e8399c3add7033f",
-            "resolution": "sd",
+            "resolution": "720",
             "encoding": "264",
-            "bytes": 91011720,
+            "gigabytes": 0.09101172,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1974,12 +2229,13 @@
             "seed": 1895
         },
         {
-            "id": 64,
+            "id": 80,
             "name": "Star.Wars.Visions.S01E01.720p.HEVC.x265-MeGusta[eztv.re].mkv",
             "btih": "8ceeffb460e5ab64768987479622801de8c0ced0",
             "resolution": "720",
             "encoding": "265",
-            "bytes": 162056904,
+            "gigabytes": 0.162056904,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -1992,7 +2248,8 @@
             "btih": "6eba9743bdf30e1e8f5bee64f03251335843ef82",
             "resolution": "720",
             "encoding": "none",
-            "bytes": 297670865,
+            "gigabytes": 0.297670865,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2003,9 +2260,10 @@
             "id": 169,
             "name": "www.SceneTime.com   -    Star Wars Visions S01E03 REPACK AAC MP4-Mobile",
             "btih": "cc29e046e4ddd8ea190274c8a84b07d881232c31",
-            "resolution": "sd",
+            "resolution": "1080",
             "encoding": "none",
-            "bytes": 90347898,
+            "gigabytes": 0.090347898,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2013,12 +2271,13 @@
             "seed": 1269
         },
         {
-            "id": 17,
+            "id": 29,
             "name": "Star Wars Visions Season 1 Complete [English-DD5.1] 720p HDRip ESubs - ExtraMovies",
             "btih": "035e399e9bb9c8687d8938e51600374d9773d1a3",
             "resolution": "720",
             "encoding": "none",
-            "bytes": 1277663148,
+            "gigabytes": 1.277663148,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2026,12 +2285,13 @@
             "seed": 422
         },
         {
-            "id": 99,
+            "id": 115,
             "name": "Star.Wars.Visions.S01E03.The.Twins.REPACK.1080p.DSNP.WEB-DL.DDP5.1.H.264-FLUX.mkv",
             "btih": "4ce4cab559f8310a736c71b68b61f6105cef462a",
             "resolution": "1080",
             "encoding": "264",
-            "bytes": 917468598,
+            "gigabytes": 0.917468598,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2039,12 +2299,13 @@
             "seed": 1809
         },
         {
-            "id": 77,
+            "id": 92,
             "name": "Star.Wars.Visions.S01E02.720p.rus.LostFilm.TV.mp4",
             "btih": "cd030c01087afa0890610154c6d03a5a9f02670c",
             "resolution": "720",
             "encoding": "none",
-            "bytes": 406155417,
+            "gigabytes": 0.406155417,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2052,12 +2313,13 @@
             "seed": 1245
         },
         {
-            "id": 143,
+            "id": 159,
             "name": "Star.Wars.Visions.S01E09.Akakiri.DUAL-AUDIO.JPN-ENG.720p.10bit.WEBRip.2CH.x265.HEVC-PSA.mkv",
             "btih": "8cf44581b628b777a8e4f6de69ed58a20e742cfb",
             "resolution": "720",
             "encoding": "265",
-            "bytes": 51636063,
+            "gigabytes": 0.051636063,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2065,12 +2327,13 @@
             "seed": 724
         },
         {
-            "id": 135,
+            "id": 151,
             "name": "Star.Wars.Visions.S01E08.Lop.and.Ocho.DUAL-AUDIO.JPN-ENG.1080p.10bit.WEBRip.6CH.x265.HEVC-PSA.mkv",
             "btih": "26c8abb856845f2904029619c36f92ceacec488a",
             "resolution": "1080",
             "encoding": "265",
-            "bytes": 340777923,
+            "gigabytes": 0.340777923,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2078,12 +2341,13 @@
             "seed": 1045
         },
         {
-            "id": 80,
+            "id": 96,
             "name": "Star.Wars.Visions.S01E02.REPACK.1080p.WEB.h264-KOGi[eztv.re].mkv",
             "btih": "3b461f90e4ab92ffe46b36ed7297acf4a44b90d9",
             "resolution": "1080",
             "encoding": "264",
-            "bytes": 600356060,
+            "gigabytes": 0.60035606,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2096,7 +2360,8 @@
             "btih": "f10c0e446d3b05e9bc3d6f463aaf08880f633d5b",
             "resolution": "sd",
             "encoding": "264",
-            "bytes": 62169710,
+            "gigabytes": 0.06216971,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2104,12 +2369,13 @@
             "seed": 1555
         },
         {
-            "id": 97,
+            "id": 113,
             "name": "Star.Wars.Visions.S01E03.The.Twins.DUAL-AUDIO.JPN-ENG.1080p.10bit.WEBRip.6CH.x265.HEVC-PSA.mkv",
             "btih": "47ddbfde18590a46ba82d109268112b79fb51d4c",
             "resolution": "1080",
             "encoding": "265",
-            "bytes": 240946588,
+            "gigabytes": 0.240946588,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2122,7 +2388,8 @@
             "btih": "c8915a6e184ba44ee773acdae4ba075998b2c3d7",
             "resolution": "sd",
             "encoding": "none",
-            "bytes": 73603646,
+            "gigabytes": 0.073603646,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2135,7 +2402,8 @@
             "btih": "53494372dda44616c04491c4cbdeb6b48aebf8d9",
             "resolution": "sd",
             "encoding": "none",
-            "bytes": 54381261,
+            "gigabytes": 0.054381261,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2143,12 +2411,13 @@
             "seed": 943
         },
         {
-            "id": 12,
+            "id": 24,
             "name": "Star Wars Visions - Temporada 1 [WEB-DL 1080p][Cap.102_105][Dual DDP5.1 + Subs][www.maxitorrent.com]",
             "btih": "c0ea63b71d1bc28da2a302ae256b319ce83f2fbb",
             "resolution": "1080",
             "encoding": "none",
-            "bytes": -969952834,
+            "gigabytes": 3.325014462,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2156,12 +2425,13 @@
             "seed": 1991
         },
         {
-            "id": 44,
+            "id": 59,
             "name": "Star.Wars.Visions.S01.JAPANESE.1080p.WEBRip.x265-RARBG",
             "btih": "41b070c9b47536f6a352c1863c9239b7b6d84438",
             "resolution": "1080",
             "encoding": "265",
-            "bytes": -1905326773,
+            "gigabytes": 2.389640523,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2169,12 +2439,13 @@
             "seed": 1947
         },
         {
-            "id": 144,
+            "id": 160,
             "name": "Star.Wars.Visions.S01E09.JAPANESE.WEBRip.x264-ION10",
             "btih": "048de4ac5ada1e9ee2896c830a9d654d0693b2c6",
             "resolution": "sd",
             "encoding": "264",
-            "bytes": 130000720,
+            "gigabytes": 0.13000072,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2182,12 +2453,13 @@
             "seed": 291
         },
         {
-            "id": 121,
+            "id": 138,
             "name": "Star.Wars.Visions.S01E06.WEBRip.720p.rus.5.1.HDREZKA.STUDIO.mkv",
             "btih": "60f5539a48483c03bada09085606c3220689e7d1",
             "resolution": "720",
             "encoding": "none",
-            "bytes": 324390245,
+            "gigabytes": 0.324390245,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2195,12 +2467,13 @@
             "seed": 356
         },
         {
-            "id": 110,
+            "id": 126,
             "name": "Star.Wars.Visions.S01E05.HDTV.Subtitulado.Esp.SC.mp4",
             "btih": "a8f3c778f674ba71a57918eca77ac53522f82161",
             "resolution": "sd",
             "encoding": "none",
-            "bytes": 233750435,
+            "gigabytes": 0.233750435,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2208,12 +2481,13 @@
             "seed": 563
         },
         {
-            "id": 136,
+            "id": 152,
             "name": "Star.Wars.Visions.S01E08.Lop.and.Ocho.DUAL-AUDIO.JPN-ENG.720p.10bit.WEBRip.2CH.x265.HEVC-PSA.mkv",
             "btih": "5b43aad29d5f02177ee49d242448d33edf083e9a",
             "resolution": "720",
             "encoding": "265",
-            "bytes": 119354237,
+            "gigabytes": 0.119354237,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2221,12 +2495,13 @@
             "seed": 631
         },
         {
-            "id": 153,
+            "id": 4,
             "name": "[Anistar.org] Star Wars- Visions - 04 [720p].mp4",
             "btih": "4075ac77de695cfa30ce1373c203f8af2a124d27",
             "resolution": "720",
             "encoding": "none",
-            "bytes": 373102185,
+            "gigabytes": 0.373102185,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2234,12 +2509,13 @@
             "seed": 340
         },
         {
-            "id": 74,
+            "id": 90,
             "name": "Star.Wars.Visions.S01E01.WEBRip.720p.rus.5.1.HDREZKA.STUDIO.mkv",
             "btih": "7294d3fdbfdad5d1d4e4b44526f03c2232f985e0",
             "resolution": "720",
             "encoding": "none",
-            "bytes": 1078368191,
+            "gigabytes": 1.078368191,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2247,12 +2523,13 @@
             "seed": 378
         },
         {
-            "id": 4,
+            "id": 16,
             "name": "Star Wars Visions - AniLibria.TV [WEB-DL 1080p HEVC]",
             "btih": "90b2c96cf90fde33b33e432229cc3a59064f70de",
             "resolution": "1080",
             "encoding": "none",
-            "bytes": 564780145,
+            "gigabytes": 0.564780145,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2265,7 +2542,8 @@
             "btih": "60aa096ca2ba32cc14d57509ffb3c94ee7659c6b",
             "resolution": "sd",
             "encoding": "264",
-            "bytes": 105083053,
+            "gigabytes": 0.105083053,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2273,12 +2551,13 @@
             "seed": 409
         },
         {
-            "id": 39,
+            "id": 51,
             "name": "Star.Wars.Visions.S01.DUBBED.WEBRip.x265-ION265[eztv.re]",
             "btih": "05a53148a938d01c8c6fcaeb6022b8101d79d2b2",
             "resolution": "sd",
             "encoding": "265",
-            "bytes": 1000894914,
+            "gigabytes": 1.000894914,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2286,12 +2565,13 @@
             "seed": 1712
         },
         {
-            "id": 29,
+            "id": 41,
             "name": "Star.Wars.Visions.S01.400p.ColdFilm",
             "btih": "218279d32ca6bbe477a29ef62b00aa4efe529ba3",
-            "resolution": "sd",
+            "resolution": "720",
             "encoding": "none",
-            "bytes": 1639074002,
+            "gigabytes": 1.639074002,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2299,12 +2579,13 @@
             "seed": 1008
         },
         {
-            "id": 21,
+            "id": 33,
             "name": "Star.Wars.Visions.2021.S01.720p",
             "btih": "3e84e386683012d55d5b42a20f0f40473ad58bfe",
             "resolution": "720",
             "encoding": "none",
-            "bytes": 27202576,
+            "gigabytes": 4.322169872,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2312,12 +2593,13 @@
             "seed": 321
         },
         {
-            "id": 115,
+            "id": 127,
             "name": "Star.Wars.Visions.S01E05.rus.LostFilm.TV.avi",
             "btih": "8af002014a2a87193e5e14d5ab9f2868d42facb7",
-            "resolution": "sd",
+            "resolution": "720",
             "encoding": "none",
-            "bytes": 337866752,
+            "gigabytes": 0.337866752,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2325,12 +2607,13 @@
             "seed": 1342
         },
         {
-            "id": 122,
+            "id": 135,
             "name": "Star.Wars.Visions.S01E06.rus.LostFilm.TV.avi",
             "btih": "4e51b036b81d449fc6447ac793ff0a89d14c4e86",
-            "resolution": "sd",
+            "resolution": "720",
             "encoding": "none",
-            "bytes": 209223680,
+            "gigabytes": 0.20922368,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2338,12 +2621,13 @@
             "seed": 1395
         },
         {
-            "id": 145,
+            "id": 161,
             "name": "Star.Wars.Visions.WEB-DL.(MVO.Iron-Sound)",
             "btih": "85026fd13d8a86a6fa947cf3af15e40f54de6196",
-            "resolution": "sd",
+            "resolution": "1080",
             "encoding": "none",
-            "bytes": -2075778858,
+            "gigabytes": 2.219188438,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2351,12 +2635,13 @@
             "seed": 457
         },
         {
-            "id": 114,
+            "id": 131,
             "name": "Star.Wars.Visions.S01E05.WEBRip.720p.rus.5.1.HDREZKA.STUDIO.mkv",
             "btih": "46e26b62676e401672e2a350a46ac1faaef59a9a",
             "resolution": "720",
             "encoding": "none",
-            "bytes": 353497479,
+            "gigabytes": 0.353497479,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2364,12 +2649,13 @@
             "seed": 347
         },
         {
-            "id": 22,
+            "id": 34,
             "name": "Star.Wars.Visions.2021.S01.WEB-DL.2160p.HDR.Bobropandavar",
             "btih": "24cd0a7643e1895782db698f68441cfc9b4b16ec",
             "resolution": "2160",
             "encoding": "none",
-            "bytes": 1993546439,
+            "gigabytes": 19.173415623,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2377,12 +2663,13 @@
             "seed": 1538
         },
         {
-            "id": 118,
+            "id": 134,
             "name": "Star.Wars.Visions.S01E06.HDTV.Subtitulado.Esp.SC.mp4",
             "btih": "22cf920d000387e832337df01f4a5b888bbfccb4",
             "resolution": "sd",
             "encoding": "none",
-            "bytes": 147008400,
+            "gigabytes": 0.1470084,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2390,12 +2677,13 @@
             "seed": 361
         },
         {
-            "id": 142,
+            "id": 158,
             "name": "Star.Wars.Visions.S01E09.Akakiri.DUAL-AUDIO.JPN-ENG.1080p.10bit.WEBRip.6CH.x265.HEVC-PSA.mkv",
             "btih": "b46ab308494a99e2eaa2950f15594397ff135485",
             "resolution": "1080",
             "encoding": "265",
-            "bytes": 122128659,
+            "gigabytes": 0.122128659,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2403,12 +2691,13 @@
             "seed": 1089
         },
         {
-            "id": 155,
+            "id": 6,
             "name": "[Anistar] Star Wars- Visions",
             "btih": "e6cd2662ee804a98b975723a1951d60ea9ded329",
             "resolution": "sd",
             "encoding": "none",
-            "bytes": 2143590732,
+            "gigabytes": 2.143590732,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2416,12 +2705,13 @@
             "seed": 628
         },
         {
-            "id": 106,
+            "id": 122,
             "name": "Star.Wars.Visions.S01E04.WEBRip.400p.rus.2.0.HDREZKA.STUDIO.avi",
             "btih": "d67953236cb51db0e4d1be9bf171e7972fd085fd",
             "resolution": "sd",
             "encoding": "none",
-            "bytes": 159967102,
+            "gigabytes": 0.159967102,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2429,12 +2719,13 @@
             "seed": 350
         },
         {
-            "id": 85,
+            "id": 102,
             "name": "Star.Wars.Visions.S01E02.Tatooine.Rhapsody.REPACK.1080p.DSNP.WEB-DL.DDP5.1.H.264-FLUX.mkv",
             "btih": "db8a411927696cd071e29c102786745a1d0a7799",
             "resolution": "1080",
             "encoding": "264",
-            "bytes": 624882928,
+            "gigabytes": 0.624882928,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2442,12 +2733,13 @@
             "seed": 1530
         },
         {
-            "id": 79,
+            "id": 95,
             "name": "Star.Wars.Visions.S01E02.JAPANESE.WEBRip.x264-ION10",
             "btih": "f0c6db447254b819f4471e1564946a7dde05c02d",
             "resolution": "sd",
             "encoding": "264",
-            "bytes": 128955387,
+            "gigabytes": 0.128955387,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2455,12 +2747,13 @@
             "seed": 310
         },
         {
-            "id": 138,
+            "id": 154,
             "name": "Star.Wars.Visions.S01E08.WEBRip.400p.rus.2.0.HDREZKA.STUDIO.avi",
             "btih": "fd0c1f8d34208c0268281d87186aea1e46457f2a",
             "resolution": "sd",
             "encoding": "none",
-            "bytes": 290466120,
+            "gigabytes": 0.29046612,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2473,7 +2766,8 @@
             "btih": "2829184768c7bac04a6cdd18842df3bf6e00adb6",
             "resolution": "1080",
             "encoding": "265",
-            "bytes": 193645198,
+            "gigabytes": 0.193645198,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2486,7 +2780,8 @@
             "btih": "b24784e56c81e4bf0b4f5d8808763dab16aff700",
             "resolution": "720",
             "encoding": "none",
-            "bytes": 178582709,
+            "gigabytes": 0.178582709,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2499,7 +2794,8 @@
             "btih": "9e374dd12ee4d58345fe31c87d232009fbe0b751",
             "resolution": "sd",
             "encoding": "264",
-            "bytes": 105083074,
+            "gigabytes": 0.105083074,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2507,12 +2803,13 @@
             "seed": 1327
         },
         {
-            "id": 20,
+            "id": 32,
             "name": "Star.Wars.Visions.2021.S01.1080p",
             "btih": "e14ea1c3bcb087fa3a32be5c16821c6999f82496",
             "resolution": "1080",
             "encoding": "none",
-            "bytes": -1590429856,
+            "gigabytes": 6.999504736,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2525,7 +2822,8 @@
             "btih": "2b90f402fae37298909500c88e039f5baf7d21f5",
             "resolution": "sd",
             "encoding": "264",
-            "bytes": 81939748,
+            "gigabytes": 0.081939748,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2538,7 +2836,8 @@
             "btih": "a83fdcacc5dc0ec3c11bf83997b642e750131c19",
             "resolution": "sd",
             "encoding": "none",
-            "bytes": 62934580,
+            "gigabytes": 0.06293458,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2546,12 +2845,13 @@
             "seed": 305
         },
         {
-            "id": 139,
+            "id": 155,
             "name": "Star.Wars.Visions.S01E08.WEBRip.720p.rus.5.1.HDREZKA.STUDIO.mkv",
             "btih": "78c3c5b2464e865364aecf5c7baa35fa08a26cdc",
             "resolution": "720",
             "encoding": "none",
-            "bytes": 1144587671,
+            "gigabytes": 1.144587671,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2564,7 +2864,8 @@
             "btih": "51c43aa32e9f71d42d3274574d3b162fe244189a",
             "resolution": "720",
             "encoding": "none",
-            "bytes": 182195392,
+            "gigabytes": 0.182195392,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2572,12 +2873,13 @@
             "seed": 475
         },
         {
-            "id": 151,
+            "id": 2,
             "name": "[Anistar.org] Star Wars- Visions - 01 [720p].mp4",
             "btih": "f75cc2accc557cc9abe0660693e52e354d593c11",
             "resolution": "720",
             "encoding": "none",
-            "bytes": 292355456,
+            "gigabytes": 0.292355456,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2585,12 +2887,13 @@
             "seed": 443
         },
         {
-            "id": 137,
+            "id": 153,
             "name": "Star.Wars.Visions.S01E08.WEBRip.1080p.rus.5.1.HDREZKA.STUDIO.mkv",
             "btih": "303ac8ff9857be39d93bb3f7bb7f89c1bfaeb9ba",
             "resolution": "1080",
             "encoding": "none",
-            "bytes": -2046775324,
+            "gigabytes": 2.248191972,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2598,12 +2901,13 @@
             "seed": 482
         },
         {
-            "id": 55,
+            "id": 71,
             "name": "Star.Wars.Visions.S01.WEB-DL.1080p",
             "btih": "5e66f04b9f128aa2a66cef8140d8c6aeb22d51b1",
             "resolution": "1080",
             "encoding": "none",
-            "bytes": 832667900,
+            "gigabytes": 0.8326679,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2611,12 +2915,13 @@
             "seed": 483
         },
         {
-            "id": 150,
+            "id": 1,
             "name": "[AniMaunt] Star Wars Visions",
             "btih": "188f4572044d2f26e4cae39687d74a9256e6c611",
             "resolution": "sd",
             "encoding": "none",
-            "bytes": 1783338862,
+            "gigabytes": 1.783338862,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2629,7 +2934,8 @@
             "btih": "fefc7482c4bc6a0e6db464eb71236a60a31c695f",
             "resolution": "sd",
             "encoding": "264",
-            "bytes": 67173789,
+            "gigabytes": 0.067173789,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2637,12 +2943,13 @@
             "seed": 240
         },
         {
-            "id": 130,
+            "id": 146,
             "name": "Star.Wars.Visions.S01E07.WEBRip.400p.rus.2.0.HDREZKA.STUDIO.avi",
             "btih": "2108d413d745470fb8fde481324081e28942fce5",
             "resolution": "sd",
             "encoding": "none",
-            "bytes": 170831326,
+            "gigabytes": 0.170831326,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2650,12 +2957,13 @@
             "seed": 379
         },
         {
-            "id": 111,
+            "id": 128,
             "name": "Star.Wars.Visions.S01E05.The.Ninth.Jedi.DUAL-AUDIO.JPN-ENG.1080p.10bit.WEBRip.6CH.x265.HEVC-PSA.mkv",
             "btih": "e027144aa732ece7b16adb597d4ed919bf9e2dc2",
             "resolution": "1080",
             "encoding": "265",
-            "bytes": 174480876,
+            "gigabytes": 0.174480876,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2668,7 +2976,8 @@
             "btih": "e68718db44b8aa7230c467ac2bffc3c751d6639f",
             "resolution": "1080",
             "encoding": "264",
-            "bytes": 440588783,
+            "gigabytes": 4.735556079,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2676,12 +2985,13 @@
             "seed": 1558
         },
         {
-            "id": 126,
+            "id": 142,
             "name": "Star.Wars.Visions.S01E07.JAPANESE.WEBRip.x264-ION10",
             "btih": "391bc710192028fdce5890d9f6e5ba96048bcbe0",
             "resolution": "sd",
             "encoding": "264",
-            "bytes": 164818627,
+            "gigabytes": 0.164818627,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2689,12 +2999,13 @@
             "seed": 274
         },
         {
-            "id": 37,
+            "id": 49,
             "name": "Star.Wars.Visions.S01.DUBBED.1080p.WEBRip.x265-RARBG[eztv.re]",
             "btih": "9cbfd1df0d4d0f63367118d4c866c1213f71bb99",
             "resolution": "1080",
             "encoding": "265",
-            "bytes": -1905328643,
+            "gigabytes": 2.389638653,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2702,12 +3013,13 @@
             "seed": 1111
         },
         {
-            "id": 107,
+            "id": 123,
             "name": "Star.Wars.Visions.S01E05.1080p.rus.LostFilm.TV.mkv",
             "btih": "844bf660b4002cd60eef9edefb78d058342bc109",
             "resolution": "1080",
             "encoding": "none",
-            "bytes": 1199566815,
+            "gigabytes": 1.199566815,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2715,12 +3027,13 @@
             "seed": 1359
         },
         {
-            "id": 30,
+            "id": 42,
             "name": "Star.Wars.Visions.S01.400p.Ultradox",
             "btih": "0f4f7c77d3c141f7aaa33399b5e9d8a3042e928b",
             "resolution": "sd",
             "encoding": "none",
-            "bytes": 1381998592,
+            "gigabytes": 1.381998592,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2733,7 +3046,8 @@
             "btih": "751cf8c3fc336c271aa1723ff5e8dccd54d073a0",
             "resolution": "sd",
             "encoding": "xvid",
-            "bytes": 220716508,
+            "gigabytes": 0.220716508,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2741,12 +3055,13 @@
             "seed": 798
         },
         {
-            "id": 128,
+            "id": 144,
             "name": "Star.Wars.Visions.S01E07.The.Elder.DUAL-AUDIO.JPN-ENG.720p.10bit.WEBRip.2CH.x265.HEVC-PSA.mkv",
             "btih": "441365b5a16a90a41315196f3f5d22cda951aa2c",
             "resolution": "720",
             "encoding": "265",
-            "bytes": 77156013,
+            "gigabytes": 0.077156013,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2759,7 +3074,8 @@
             "btih": "f4f3d4dbf24aaada36ba415fe6ba3313499b7a5b",
             "resolution": "sd",
             "encoding": "none",
-            "bytes": 44998058,
+            "gigabytes": 0.044998058,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2772,7 +3088,8 @@
             "btih": "3ffaee4163895a614eb18f13b382df4274133701",
             "resolution": "sd",
             "encoding": "none",
-            "bytes": -1267493488,
+            "gigabytes": 7.322441104,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2780,12 +3097,13 @@
             "seed": 232
         },
         {
-            "id": 134,
+            "id": 150,
             "name": "Star.Wars.Visions.S01E08.JAPANESE.WEBRip.x264-ION10",
             "btih": "28baa23e917020a833d5f741fdaca71f14527e7b",
             "resolution": "sd",
             "encoding": "264",
-            "bytes": 199778782,
+            "gigabytes": 0.199778782,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2798,7 +3116,8 @@
             "btih": "07f2da840ff294564bf77b423a143822bb965fdd",
             "resolution": "sd",
             "encoding": "264",
-            "bytes": 89347996,
+            "gigabytes": 0.089347996,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
@@ -2806,12 +3125,13 @@
             "seed": 532
         },
         {
-            "id": 123,
+            "id": 139,
             "name": "Star.Wars.Visions.S01E07.1080p.HEVC.x265-MeGusta [IPT]",
             "btih": "1286248e4abbb633bdc12fe3ec2c64b93c5a70d9",
             "resolution": "1080",
             "encoding": "265",
-            "bytes": 146952032,
+            "gigabytes": 0.146952032,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": true,
             "i2p": false,
@@ -2819,12 +3139,13 @@
             "seed": 923
         },
         {
-            "id": 140,
+            "id": 156,
             "name": "Star.Wars.Visions.S01E09.1080p.HEVC.x265-MeGusta [IPT]",
             "btih": "ec8c33d90afc9804b31baae7cd1e6c60988967e1",
             "resolution": "1080",
             "encoding": "265",
-            "bytes": 100778102,
+            "gigabytes": 0.100778102,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": true,
             "i2p": false,
@@ -2832,12 +3153,13 @@
             "seed": 858
         },
         {
-            "id": 131,
+            "id": 147,
             "name": "Star.Wars.Visions.S01E08.1080p.HEVC.x265-MeGusta [IPT]",
             "btih": "619acb2126ef942cc16d38242ed39fc583527b63",
             "resolution": "1080",
             "encoding": "265",
-            "bytes": 259587291,
+            "gigabytes": 0.259587291,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": true,
             "i2p": false,
@@ -2845,12 +3167,13 @@
             "seed": 876
         },
         {
-            "id": 116,
+            "id": 132,
             "name": "Star.Wars.Visions.S01E06.1080p.HEVC.x265-MeGusta [IPT]",
             "btih": "7c389d41b4f291016050dc1aeb65707ba6b46975",
             "resolution": "1080",
             "encoding": "265",
-            "bytes": 134277091,
+            "gigabytes": 0.134277091,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": true,
             "i2p": false,
@@ -2858,12 +3181,13 @@
             "seed": 881
         },
         {
-            "id": 132,
+            "id": 148,
             "name": "Star.Wars.Visions.S01E08.720p.HEVC.x265-MeGusta [IPT]",
             "btih": "232e84130ebe38ba83eb26894c5e6b7a76eab8b1",
             "resolution": "720",
             "encoding": "265",
-            "bytes": 167490372,
+            "gigabytes": 0.167490372,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": true,
             "i2p": false,
@@ -2871,12 +3195,13 @@
             "seed": 326
         },
         {
-            "id": 125,
+            "id": 141,
             "name": "Star.Wars.Visions.S01E07.720p.HEVC.x265-MeGusta [IPT]",
             "btih": "0a545d4bd6f10b708a2c5a8e2cd279c0c5d08881",
             "resolution": "720",
             "encoding": "265",
-            "bytes": 108687133,
+            "gigabytes": 0.108687133,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": true,
             "i2p": false,
@@ -2884,12 +3209,13 @@
             "seed": 294
         },
         {
-            "id": 108,
+            "id": 124,
             "name": "Star.Wars.Visions.S01E05.720p.HEVC.x265-MeGusta [IPT]",
             "btih": "0fabce04702a9e89786e06327caf2828efceb81d",
             "resolution": "720",
             "encoding": "265",
-            "bytes": 112255242,
+            "gigabytes": 0.112255242,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": true,
             "i2p": false,
@@ -2897,12 +3223,13 @@
             "seed": 286
         },
         {
-            "id": 81,
+            "id": 97,
             "name": "Star.Wars.Visions.S01E02.REPACK.720p.HEVC.x265-MeGusta [IPT]",
             "btih": "abe7dad313018d66882b8e97768e1552d617e52a",
             "resolution": "720",
             "encoding": "265",
-            "bytes": 117878301,
+            "gigabytes": 0.117878301,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": true,
             "i2p": false,
@@ -2910,12 +3237,13 @@
             "seed": 215
         },
         {
-            "id": 124,
+            "id": 140,
             "name": "Star.Wars.Visions.S01E07.480p.x264-mSD [IPT]",
             "btih": "d8bbf743681dea956601ec53b8f01046ebaff4f3",
             "resolution": "sd",
             "encoding": "264",
-            "bytes": 67173704,
+            "gigabytes": 0.067173704,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": true,
             "i2p": false,
@@ -2923,12 +3251,13 @@
             "seed": 218
         },
         {
-            "id": 95,
+            "id": 111,
             "name": "Star.Wars.Visions.S01E03.REPACK.720p.HEVC.x265-MeGusta [IPT]",
             "btih": "57cbcf0bfb581ed320dae64457073216563601ab",
             "resolution": "720",
             "encoding": "265",
-            "bytes": 207717756,
+            "gigabytes": 0.207717756,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": true,
             "i2p": false,
@@ -2936,12 +3265,13 @@
             "seed": 184
         },
         {
-            "id": 82,
+            "id": 98,
             "name": "Star.Wars.Visions.S01E02.REPACK.AAC.MP4-Mobile [IPT]",
             "btih": "7ac03df331ecefba41c7eb37dc13f328df50d346",
             "resolution": "sd",
             "encoding": "none",
-            "bytes": 54365227,
+            "gigabytes": 0.054365227,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": true,
             "i2p": false,
@@ -2949,12 +3279,13 @@
             "seed": 73
         },
         {
-            "id": 133,
+            "id": 149,
             "name": "Star.Wars.Visions.S01E08.AAC.MP4-Mobile [IPT]",
             "btih": "dc56c4344ccfd633e6f5c1e1bffe213f6dde8a3b",
             "resolution": "sd",
             "encoding": "none",
-            "bytes": 73603561,
+            "gigabytes": 0.073603561,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": true,
             "i2p": false,
@@ -2962,12 +3293,13 @@
             "seed": 52
         },
         {
-            "id": 96,
+            "id": 112,
             "name": "Star.Wars.Visions.S01E03.REPACK.AAC.MP4-Mobile [IPT]",
             "btih": "7748ca8269ed20b2006ffc835708e8f349a5b4cb",
-            "resolution": "sd",
+            "resolution": "1080",
             "encoding": "none",
-            "bytes": 90347813,
+            "gigabytes": 0.090347813,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": true,
             "i2p": false,
@@ -2975,12 +3307,13 @@
             "seed": 56
         },
         {
-            "id": 109,
+            "id": 125,
             "name": "Star.Wars.Visions.S01E05.AAC.MP4-Mobile [IPT]",
             "btih": "b9623eddb8f1c34807f3384c3a49d851e7ec9aa4",
             "resolution": "sd",
             "encoding": "none",
-            "bytes": 62934495,
+            "gigabytes": 0.062934495,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": true,
             "i2p": false,
@@ -2988,12 +3321,13 @@
             "seed": 61
         },
         {
-            "id": 141,
+            "id": 157,
             "name": "Star.Wars.Visions.S01E09.AAC.MP4-Mobile [IPT]",
             "btih": "f6dd51a4a14762361c05f88e441b53160cf8d7f3",
             "resolution": "sd",
             "encoding": "none",
-            "bytes": 38014676,
+            "gigabytes": 0.038014676,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": true,
             "i2p": false,
