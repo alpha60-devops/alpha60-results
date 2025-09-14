@@ -1,30 +1,29 @@
 {
     "collection-name": "Andor",
     "collection-id": "112",
-    "collection-key": "andor-112",
     "collection-notes": "",
-    "data-version": "2025-08-22",
+    "ip-geolocation-version": "3:1752998905",
+    "data-version": "2025-07-26",
     "data-btiha-sort": 1,
-    "ip-geolocation-version": "3:1756800417",
-    "sample-duration": "2025-04-23-to-2025-08-12",
-    "sample-days": 112,
+    "sample-duration": "2025-04-23-to-2025-08-05",
+    "sample-days": 105,
     "sample-year-start": 2025,
     "sample-year-end": 2025,
     "sample-day-year-start": 113,
-    "sample-day-year-end": 224,
+    "sample-day-year-end": 217,
     "collection-cumulative": {
         "btiha": {
             "btiha-size": 242,
-            "upeers-total": 24189001,
-            "useeds-total": 865212,
-            "anomaly-total": 61710,
-            "anomaly-percentage": "0.26"
+            "upeers-total": 22653492,
+            "useeds-total": 832829,
+            "anomaly-total": 57670,
+            "anomaly-percentage": "0.25"
         },
         "unique-btiha": {
             "btiha-size": 199,
-            "upeers-total": 22721062,
-            "useeds-total": 764733,
-            "anomaly-total": 56183,
+            "upeers-total": 21282679,
+            "useeds-total": 735797,
+            "anomaly-total": 52384,
             "anomaly-percentage": "0.25"
         }
     },
@@ -124,123 +123,117 @@
             "btiha-size": 199,
             "upeers-total": 21282679,
             "useeds-total": 735797
-        },
-        {
-            "number": "unique-btiha-week-00016",
-            "btiha-size": 199,
-            "upeers-total": 22721062,
-            "useeds-total": 764733
         }
     ],
     "data-transfer": {
         "peer-transfer-units": "terabyte",
-        "peer-transfer-size": 376263.17554854307,
+        "peer-transfer-size": 353879.1620525695,
         "peer-transfer-price-1-name": "CloudFront-1-year",
         "peer-transfer-price-1-per-gigabyte-cost": 0.005,
-        "peer-transfer-price-1-USD": 2049315.8777427152,
+        "peer-transfer-price-1-USD": 1937395.8102628478,
         "seed-transfer-units": "terabyte",
-        "seed-transfer-size": 12940.018985087192,
+        "seed-transfer-size": 12522.142986291617,
         "seed-transfer-price-1-name": "CloudFront-1-year",
         "seed-transfer-price-1-per-gigabyte-cost": 0.005,
-        "seed-transfer-price-1-USD": 232700.09492543597
+        "seed-transfer-price-1-USD": 230610.7149314581
     },
     "geo-whole-earth-resolution-partitions": [
         {
             "number": 1,
             "name": "1080",
-            "upeers-total": 7427964,
-            "total-percentage-upeers": "32.69",
-            "total-percentage-bytes": "28.27"
+            "upeers-total": 6953418,
+            "total-percentage-upeers": "32.67",
+            "total-percentage-bytes": "28.20"
         },
         {
             "number": 2,
             "name": "720",
-            "upeers-total": 5486275,
-            "total-percentage-upeers": "24.15",
-            "total-percentage-bytes": "10.43"
+            "upeers-total": 5150824,
+            "total-percentage-upeers": "24.20",
+            "total-percentage-bytes": "10.40"
         },
         {
             "number": 3,
             "name": "sd",
-            "upeers-total": 4821394,
-            "total-percentage-upeers": "21.22",
-            "total-percentage-bytes": "11.60"
+            "upeers-total": 4513321,
+            "total-percentage-upeers": "21.21",
+            "total-percentage-bytes": "11.67"
         },
         {
             "number": 4,
             "name": "2160",
-            "upeers-total": 4420897,
-            "total-percentage-upeers": "19.46",
-            "total-percentage-bytes": "49.03"
+            "upeers-total": 4139309,
+            "total-percentage-upeers": "19.45",
+            "total-percentage-bytes": "49.05"
         }
     ],
     "geo-slices-4-cahill-keyes-quadrant-peers": [
         {
             "number": 1,
             "name": "Pacifica America",
-            "upeers-slice": 506919,
+            "upeers-slice": 474485,
             "slice-percentage-upeers": "2.23"
         },
         {
             "number": 2,
             "name": "Americas",
-            "upeers-slice": 3048458,
-            "slice-percentage-upeers": "13.42"
+            "upeers-slice": 2864464,
+            "slice-percentage-upeers": "13.46"
         },
         {
             "number": 3,
             "name": "Afro Eur Asia",
-            "upeers-slice": 13064037,
-            "slice-percentage-upeers": "57.50"
+            "upeers-slice": 12265854,
+            "slice-percentage-upeers": "57.63"
         },
         {
             "number": 4,
             "name": "Asia Pacifica",
-            "upeers-slice": 6101568,
-            "slice-percentage-upeers": "26.85"
+            "upeers-slice": 5677801,
+            "slice-percentage-upeers": "26.68"
         }
     ],
     "geo-slices-continental-peers": [
         {
             "number": 1,
             "name": "Europe",
-            "upeers-slice": 11857367,
-            "slice-percentage-upeers": "52.19"
+            "upeers-slice": 11115072,
+            "slice-percentage-upeers": "52.23"
         },
         {
             "number": 2,
             "name": "Asia",
-            "upeers-slice": 6491664,
-            "slice-percentage-upeers": "28.57"
+            "upeers-slice": 6056000,
+            "slice-percentage-upeers": "28.46"
         },
         {
             "number": 3,
             "name": "Americas",
-            "upeers-slice": 3400272,
-            "slice-percentage-upeers": "14.97"
+            "upeers-slice": 3191366,
+            "slice-percentage-upeers": "15.00"
         },
         {
             "number": 4,
             "name": "Oceania",
-            "upeers-slice": 233899,
+            "upeers-slice": 218771,
             "slice-percentage-upeers": "1.03"
         },
         {
             "number": 5,
             "name": "Africa",
-            "upeers-slice": 229504,
-            "slice-percentage-upeers": "1.01"
+            "upeers-slice": 216024,
+            "slice-percentage-upeers": "1.02"
         },
         {
             "number": 6,
             "name": "",
-            "upeers-slice": 132813,
+            "upeers-slice": 123512,
             "slice-percentage-upeers": "0.58"
         },
         {
             "number": 7,
             "name": "Unknown or Legendary",
-            "upeers-slice": 3964,
+            "upeers-slice": 3248,
             "slice-percentage-upeers": "0.02"
         }
     ],
@@ -249,71 +242,71 @@
             "number": 1,
             "country-code": "RUS",
             "country-name": "Russian Federation",
-            "total-percentage-upeers": "26.03",
-            "upeers-total": 5915332
+            "total-percentage-upeers": "26.00",
+            "upeers-total": 5534464
         },
         {
             "number": 2,
             "country-code": "KOR",
             "country-name": "Korea, Republic of",
-            "total-percentage-upeers": "10.33",
-            "upeers-total": 2347223
+            "total-percentage-upeers": "10.23",
+            "upeers-total": 2177553
         },
         {
             "number": 3,
             "country-code": "CHN",
             "country-name": "China",
             "total-percentage-upeers": "6.75",
-            "upeers-total": 1532798
+            "upeers-total": 1436174
         },
         {
             "number": 4,
             "country-code": "TUR",
             "country-name": "Türkiye",
-            "total-percentage-upeers": "6.09",
-            "upeers-total": 1384056
+            "total-percentage-upeers": "6.10",
+            "upeers-total": 1298098
         },
         {
             "number": 5,
             "country-code": "USA",
             "country-name": "United States of America",
-            "total-percentage-upeers": "6.05",
-            "upeers-total": 1375436
+            "total-percentage-upeers": "6.06",
+            "upeers-total": 1290241
         },
         {
             "number": 6,
             "country-code": "BRA",
             "country-name": "Brazil",
-            "total-percentage-upeers": "3.14",
-            "upeers-total": 712446
+            "total-percentage-upeers": "3.15",
+            "upeers-total": 671405
         },
         {
             "number": 7,
             "country-code": "NLD",
             "country-name": "Netherlands, Kingdom of the",
-            "total-percentage-upeers": "3.03",
-            "upeers-total": 687741
+            "total-percentage-upeers": "3.08",
+            "upeers-total": 656267
         },
         {
             "number": 8,
             "country-code": "FRA",
             "country-name": "France",
-            "total-percentage-upeers": "2.98",
-            "upeers-total": 677004
+            "total-percentage-upeers": "3.01",
+            "upeers-total": 641015
         },
         {
             "number": 9,
             "country-code": "CAN",
             "country-name": "Canada",
             "total-percentage-upeers": "2.19",
-            "upeers-total": 498277
+            "upeers-total": 465175
         },
         {
             "number": 10,
             "country-code": "GBR",
             "country-name": "United Kingdom of Great Britain and Northern Ireland",
-            "total-percentage-upeers": "2.01",
-            "upeers-total": 457516
+            "total-percentage-upeers": "2.02",
+            "upeers-total": 429554
         }
     ],
     "geo-country-top-10-seeds": [
@@ -321,71 +314,71 @@
             "number": 1,
             "country-code": "RUS",
             "country-name": "Russian Federation",
-            "total-percentage-upeers": "17.00",
-            "upeers-total": 129973
+            "total-percentage-upeers": "17.08",
+            "upeers-total": 125691
         },
         {
             "number": 2,
             "country-code": "USA",
             "country-name": "United States of America",
-            "total-percentage-upeers": "13.51",
-            "upeers-total": 103297
+            "total-percentage-upeers": "13.43",
+            "upeers-total": 98796
         },
         {
             "number": 3,
             "country-code": "CHN",
             "country-name": "China",
-            "total-percentage-upeers": "4.65",
-            "upeers-total": 35534
+            "total-percentage-upeers": "4.66",
+            "upeers-total": 34273
         },
         {
             "number": 4,
             "country-code": "GBR",
             "country-name": "United Kingdom of Great Britain and Northern Ireland",
-            "total-percentage-upeers": "3.78",
-            "upeers-total": 28934
+            "total-percentage-upeers": "3.81",
+            "upeers-total": 28066
         },
         {
             "number": 5,
             "country-code": "CAN",
             "country-name": "Canada",
-            "total-percentage-upeers": "3.67",
-            "upeers-total": 28096
+            "total-percentage-upeers": "3.69",
+            "upeers-total": 27130
         },
         {
             "number": 6,
             "country-code": "NLD",
             "country-name": "Netherlands, Kingdom of the",
             "total-percentage-upeers": "3.29",
-            "upeers-total": 25137
+            "upeers-total": 24183
         },
         {
             "number": 7,
             "country-code": "ESP",
             "country-name": "Spain",
-            "total-percentage-upeers": "2.67",
-            "upeers-total": 20439
+            "total-percentage-upeers": "2.71",
+            "upeers-total": 19931
         },
         {
             "number": 8,
             "country-code": "AUS",
             "country-name": "Australia",
-            "total-percentage-upeers": "2.63",
-            "upeers-total": 20150
+            "total-percentage-upeers": "2.64",
+            "upeers-total": 19460
         },
         {
             "number": 9,
             "country-code": "KOR",
             "country-name": "Korea, Republic of",
-            "total-percentage-upeers": "2.42",
-            "upeers-total": 18523
+            "total-percentage-upeers": "2.45",
+            "upeers-total": 18061
         },
         {
             "number": 10,
             "country-code": "UKR",
             "country-name": "Ukraine",
-            "total-percentage-upeers": "1.90",
-            "upeers-total": 14539
+            "total-percentage-upeers": "1.89",
+            "upeers-total": 13933
         }
     ],
     "geo-country-region-city-top-30-peers": [
@@ -393,211 +386,211 @@
             "number": 1,
             "country-code": "RUS",
             "country-name": "Russian Federation, 524901, Moscow",
-            "total-percentage-upeers": "3.72",
-            "upeers-total": 844342
+            "total-percentage-upeers": "4.06",
+            "upeers-total": 864776
         },
         {
             "number": 2,
-            "country-code": "KOR",
-            "country-name": "Korea, Republic of, 1835848, Seoul",
-            "total-percentage-upeers": "3.71",
-            "upeers-total": 841945
+            "country-code": "CHN",
+            "country-name": "China, 1796236, Shanghai",
+            "total-percentage-upeers": "3.90",
+            "upeers-total": 830004
         },
         {
             "number": 3,
-            "country-code": "RUS",
-            "country-name": "Russian Federation, 498817, Saint Petersburg",
-            "total-percentage-upeers": "2.03",
-            "upeers-total": 462112
+            "country-code": "KOR",
+            "country-name": "Korea, Republic of, 1835848, Seoul",
+            "total-percentage-upeers": "3.83",
+            "upeers-total": 815750
         },
         {
             "number": 4,
-            "country-code": "CHN",
-            "country-name": "China, 1796236, Shanghai",
-            "total-percentage-upeers": "1.96",
-            "upeers-total": 445218
+            "country-code": "RUS",
+            "country-name": "Russian Federation, 498817, Saint Petersburg",
+            "total-percentage-upeers": "2.09",
+            "upeers-total": 445579
         },
         {
             "number": 5,
             "country-code": "TUR",
             "country-name": "Türkiye, 745044, Istanbul",
-            "total-percentage-upeers": "1.84",
-            "upeers-total": 416961
+            "total-percentage-upeers": "1.90",
+            "upeers-total": 403578
         },
         {
             "number": 6,
             "country-code": "NLD",
             "country-name": "Netherlands, Kingdom of the, 2759794, Amsterdam",
-            "total-percentage-upeers": "1.70",
-            "upeers-total": 387373
+            "total-percentage-upeers": "1.85",
+            "upeers-total": 393883
         },
         {
             "number": 7,
-            "country-code": "CHN",
-            "country-name": "China, 1799962, Nanjing",
-            "total-percentage-upeers": "1.10",
-            "upeers-total": 249137
+            "country-code": "RUS",
+            "country-name": "Russian Federation, 1486209, Yekaterinburg",
+            "total-percentage-upeers": "0.94",
+            "upeers-total": 199191
         },
         {
             "number": 8,
             "country-code": "RUS",
-            "country-name": "Russian Federation, 1486209, Yekaterinburg",
-            "total-percentage-upeers": "0.94",
-            "upeers-total": 213355
+            "country-name": "Russian Federation, 1496747, Novosibirsk",
+            "total-percentage-upeers": "0.84",
+            "upeers-total": 178042
         },
         {
             "number": 9,
             "country-code": "HUN",
             "country-name": "Hungary, 3054643, Budapest",
-            "total-percentage-upeers": "0.82",
-            "upeers-total": 186640
+            "total-percentage-upeers": "0.81",
+            "upeers-total": 173441
         },
         {
             "number": 10,
-            "country-code": "RUS",
-            "country-name": "Russian Federation, 1496747, Novosibirsk",
-            "total-percentage-upeers": "0.78",
-            "upeers-total": 177970
+            "country-code": "KOR",
+            "country-name": "Korea, Republic of, 1843564, Incheon",
+            "total-percentage-upeers": "0.71",
+            "upeers-total": 151038
         },
         {
             "number": 11,
             "country-code": "GBR",
             "country-name": "United Kingdom of Great Britain and Northern Ireland, 2643743, London",
-            "total-percentage-upeers": "0.76",
-            "upeers-total": 173694
+            "total-percentage-upeers": "0.71",
+            "upeers-total": 150841
         },
         {
             "number": 12,
-            "country-code": "KOR",
-            "country-name": "Korea, Republic of, 1843564, Incheon",
-            "total-percentage-upeers": "0.70",
-            "upeers-total": 159058
+            "country-code": "RUS",
+            "country-name": "Russian Federation, 520555, Nizhniy Novgorod",
+            "total-percentage-upeers": "0.66",
+            "upeers-total": 140086
         },
         {
             "number": 13,
-            "country-code": "FRA",
-            "country-name": "France, 2988507, Paris",
-            "total-percentage-upeers": "0.65",
-            "upeers-total": 146890
-        },
-        {
-            "number": 14,
             "country-code": "TUR",
             "country-name": "Türkiye, 323786, Ankara",
             "total-percentage-upeers": "0.64",
-            "upeers-total": 145176
+            "upeers-total": 136446
         },
         {
-            "number": 15,
-            "country-code": "RUS",
-            "country-name": "Russian Federation, 520555, Nizhniy Novgorod",
-            "total-percentage-upeers": "0.63",
-            "upeers-total": 142295
-        },
-        {
-            "number": 16,
-            "country-code": "CHN",
-            "country-name": "China, 1795565, Shenzhen",
-            "total-percentage-upeers": "0.62",
-            "upeers-total": 139756
-        },
-        {
-            "number": 17,
+            "number": 14,
             "country-code": "POL",
             "country-name": "Poland, 756135, Warsaw",
             "total-percentage-upeers": "0.61",
-            "upeers-total": 138227
+            "upeers-total": 129093
         },
         {
-            "number": 18,
-            "country-code": "RUS",
-            "country-name": "Russian Federation, 542420, Krasnodar",
-            "total-percentage-upeers": "0.58",
-            "upeers-total": 132286
-        },
-        {
-            "number": 19,
+            "number": 15,
             "country-code": "USA",
             "country-name": "United States of America, 4744870, Ashburn",
             "total-percentage-upeers": "0.56",
-            "upeers-total": 126342
+            "upeers-total": 118748
+        },
+        {
+            "number": 16,
+            "country-code": "RUS",
+            "country-name": "Russian Federation, 542420, Krasnodar",
+            "total-percentage-upeers": "0.55",
+            "upeers-total": 117933
+        },
+        {
+            "number": 17,
+            "country-code": "RUS",
+            "country-name": "Russian Federation, 499099, Samara",
+            "total-percentage-upeers": "0.54",
+            "upeers-total": 115336
+        },
+        {
+            "number": 18,
+            "country-code": "CAN",
+            "country-name": "Canada, 6167865, Toronto",
+            "total-percentage-upeers": "0.53",
+            "upeers-total": 112344
+        },
+        {
+            "number": 19,
+            "country-code": "BGR",
+            "country-name": "Bulgaria, 727011, Sofia",
+            "total-percentage-upeers": "0.48",
+            "upeers-total": 103099
         },
         {
             "number": 20,
-            "country-code": "RUS",
-            "country-name": "Russian Federation, 499099, Samara",
-            "total-percentage-upeers": "0.52",
-            "upeers-total": 119229
+            "country-code": "CHN",
+            "country-name": "China, 1795565, Shenzhen",
+            "total-percentage-upeers": "0.48",
+            "upeers-total": 102311
         },
         {
             "number": 21,
-            "country-code": "CAN",
-            "country-name": "Canada, 6167865, Toronto",
+            "country-code": "RUS",
+            "country-name": "Russian Federation, 1508291, Chelyabinsk",
             "total-percentage-upeers": "0.47",
-            "upeers-total": 107651
+            "upeers-total": 99165
         },
         {
             "number": 22,
-            "country-code": "BGR",
-            "country-name": "Bulgaria, 727011, Sofia",
-            "total-percentage-upeers": "0.47",
-            "upeers-total": 106849
+            "country-code": "KOR",
+            "country-name": "Korea, Republic of, 1838524, Busan",
+            "total-percentage-upeers": "0.45",
+            "upeers-total": 95247
         },
         {
             "number": 23,
-            "country-code": "MEX",
-            "country-name": "Mexico, 3530597, Mexico City",
-            "total-percentage-upeers": "0.46",
-            "upeers-total": 105517
+            "country-code": "CHN",
+            "country-name": "China, 1805953, Jiaxing",
+            "total-percentage-upeers": "0.44",
+            "upeers-total": 93958
         },
         {
             "number": 24,
-            "country-code": "ESP",
-            "country-name": "Spain, 3117735, Madrid",
-            "total-percentage-upeers": "0.46",
-            "upeers-total": 103521
+            "country-code": "RUS",
+            "country-name": "Russian Federation, 472045, Voronezh",
+            "total-percentage-upeers": "0.44",
+            "upeers-total": 93121
         },
         {
             "number": 25,
             "country-code": "RUS",
-            "country-name": "Russian Federation, 472045, Voronezh",
-            "total-percentage-upeers": "0.45",
-            "upeers-total": 102351
+            "country-name": "Russian Federation, 511196, Perm",
+            "total-percentage-upeers": "0.43",
+            "upeers-total": 90931
         },
         {
             "number": 26,
-            "country-code": "RUS",
-            "country-name": "Russian Federation, 511196, Perm",
-            "total-percentage-upeers": "0.44",
-            "upeers-total": 99567
+            "country-code": "ESP",
+            "country-name": "Spain, 3117735, Madrid",
+            "total-percentage-upeers": "0.43",
+            "upeers-total": 90916
         },
         {
             "number": 27,
-            "country-code": "KOR",
-            "country-name": "Korea, Republic of, 1838524, Busan",
-            "total-percentage-upeers": "0.43",
-            "upeers-total": 97861
+            "country-code": "RUS",
+            "country-name": "Russian Federation, 501175, Rostov-na-Donu",
+            "total-percentage-upeers": "0.42",
+            "upeers-total": 89749
         },
         {
             "number": 28,
-            "country-code": "RUS",
-            "country-name": "Russian Federation, 1508291, Chelyabinsk",
-            "total-percentage-upeers": "0.43",
-            "upeers-total": 97825
+            "country-code": "MEX",
+            "country-name": "Mexico, 3530597, Mexico City",
+            "total-percentage-upeers": "0.42",
+            "upeers-total": 89371
         },
         {
             "number": 29,
-            "country-code": "RUS",
-            "country-name": "Russian Federation, 501175, Rostov-na-Donu",
-            "total-percentage-upeers": "0.43",
-            "upeers-total": 96942
+            "country-code": "TUR",
+            "country-name": "Türkiye, 311046, İzmir",
+            "total-percentage-upeers": "0.39",
+            "upeers-total": 82541
         },
         {
             "number": 30,
             "country-code": "RUS",
-            "country-name": "Russian Federation, 479561, Ufa",
-            "total-percentage-upeers": "0.39",
-            "upeers-total": 88671
+            "country-name": "Russian Federation, 1502026, Krasnoyarsk",
+            "total-percentage-upeers": "0.38",
+            "upeers-total": 81781
         }
     ],
     "collection-unique-btiha-detail": [
@@ -612,8 +605,22 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 371586,
-            "seed": 82972
+            "peer": 358693,
+            "seed": 77727
+        },
+        {
+            "id": 4621,
+            "name": "multi-btih-22-3-x-[rutor.is]Andor",
+            "btih": "3a6ff84aebc30b7f15aebaf0e292dfc76b80f504",
+            "resolution": "sd",
+            "encoding": "none",
+            "gigabytes": 8.740411062,
+            "creation": "2022-11-27T05:32:06.000000000Z,uTorrent/2040,http://rutor.is/torrent/889568",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 333945,
+            "seed": 27290
         },
         {
             "id": 166,
@@ -626,22 +633,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 350200,
-            "seed": 23591
-        },
-        {
-            "id": 301,
-            "name": "multi-btih-22-3-x-[rutor.is]Andor",
-            "btih": "3a6ff84aebc30b7f15aebaf0e292dfc76b80f504",
-            "resolution": "sd",
-            "encoding": "none",
-            "gigabytes": 8.740411062,
-            "creation": "2022-11-27T05:32:06.000000000Z,uTorrent/2040,http://rutor.is/torrent/889568",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 348670,
-            "seed": 28309
+            "peer": 332769,
+            "seed": 22693
         },
         {
             "id": 83,
@@ -654,11 +647,11 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 311589,
-            "seed": 75768
+            "peer": 292880,
+            "seed": 73075
         },
         {
-            "id": 292,
+            "id": 4612,
             "name": "multi-btih-13-2-x-Andor.S01E12.2160p.DSNP.WEB-DL.DDP5.1.Atmos.DV.MKV.x265-NTb[rartv]-[rarbg.to]",
             "btih": "e53ed49ebf745cf214671905489b6001e37bdbab",
             "resolution": "2160",
@@ -668,11 +661,11 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 300705,
-            "seed": 1345
+            "peer": 276244,
+            "seed": 1291
         },
         {
-            "id": 294,
+            "id": 4614,
             "name": "multi-btih-15-2-x-Andor.S01E12.2160p.WEB-DL.x265.8bit.SDR.DDP5.1.Atmos-NTb[rartv]-[rarbg.to]",
             "btih": "07cd37a84ace9893ebc7aec11c7867c4b6682a95",
             "resolution": "2160",
@@ -682,25 +675,11 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 298882,
-            "seed": 980
+            "peer": 270964,
+            "seed": 959
         },
         {
-            "id": 291,
-            "name": "multi-btih-12-3-x-Andor.S01E12.1080p.WEB.H264-GGEZ[rarbg]",
-            "btih": "f6cc48e5f1852f8ca7286388412b49955302f547",
-            "resolution": "1080",
-            "encoding": "264",
-            "gigabytes": 2.767804967,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 282328,
-            "seed": 2460
-        },
-        {
-            "id": 283,
+            "id": 4603,
             "name": "multi-btih-4-2-x-Andor.S01.2160p.DSNP.WEB-DL.DDP5.1.Atmos.DV.MP4.x265-DVSUX[rartv]-[rarbg.to]",
             "btih": "ee7d9fcbc21cd2080e63c775a6094637f410b9a7",
             "resolution": "2160",
@@ -710,11 +689,25 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 281829,
-            "seed": 7594
+            "peer": 268150,
+            "seed": 7562
         },
         {
-            "id": 311,
+            "id": 4611,
+            "name": "multi-btih-12-3-x-Andor.S01E12.1080p.WEB.H264-GGEZ[rarbg]",
+            "btih": "f6cc48e5f1852f8ca7286388412b49955302f547",
+            "resolution": "1080",
+            "encoding": "264",
+            "gigabytes": 2.767804967,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 259259,
+            "seed": 2340
+        },
+        {
+            "id": 4631,
             "name": "multi-btih-32-3-x-[rutor.is]Andor.S01.WEB-DLRip.Dub.redheadsound",
             "btih": "5bf91b8d5b1f8fbb12a30ea90a91117e5ad54c3d",
             "resolution": "sd",
@@ -724,11 +717,11 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 270554,
-            "seed": 8420
+            "peer": 252535,
+            "seed": 8176
         },
         {
-            "id": 299,
+            "id": 4619,
             "name": "multi-btih-20-3-x-Andor.S01E12.WEBRip.x264-ION10-[rarbg.to]",
             "btih": "05f6e31ee9b7b5696b924cc9f5e77f9d3a77c7b2",
             "resolution": "sd",
@@ -738,25 +731,11 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 262409,
-            "seed": 1901
+            "peer": 238401,
+            "seed": 1873
         },
         {
-            "id": 296,
-            "name": "multi-btih-17-3-x-Andor.S01E12.720p.WEB.h264-KOGi[rarbg]",
-            "btih": "1da4e3b73d0a0cf608198ead03bea3b4914e1b0c",
-            "resolution": "720",
-            "encoding": "264",
-            "gigabytes": 1.517126763,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 256224,
-            "seed": 2321
-        },
-        {
-            "id": 304,
+            "id": 4624,
             "name": "multi-btih-25-2-x-[rutor.is]Andor.S01.1080p.WEBRip.DD5.1.le-production",
             "btih": "4e57564eaa3c40ed42f883662ee3c7f970a14264",
             "resolution": "1080",
@@ -766,39 +745,25 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 250656,
-            "seed": 1706
+            "peer": 238190,
+            "seed": 1663
         },
         {
-            "id": 298,
-            "name": "multi-btih-19-3-x-Andor.S01E12.HDR.2160p.WEB.H265-GGEZ[rarbg]",
-            "btih": "63c6bcde71b50fa1716670b85817bba6cf4a8fcc",
-            "resolution": "2160",
-            "encoding": "265",
-            "gigabytes": 5.418948196,
+            "id": 4616,
+            "name": "multi-btih-17-3-x-Andor.S01E12.720p.WEB.h264-KOGi[rarbg]",
+            "btih": "1da4e3b73d0a0cf608198ead03bea3b4914e1b0c",
+            "resolution": "720",
+            "encoding": "264",
+            "gigabytes": 1.517126763,
             "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 239549,
-            "seed": 1274
+            "peer": 234032,
+            "seed": 2275
         },
         {
-            "id": 287,
-            "name": "multi-btih-8-2-x-Andor.S01.WEB-DL.1080p.Rus.Eng",
-            "btih": "c714c47e4bfabe7620a599d7d385d4a366a36803",
-            "resolution": "1080",
-            "encoding": "none",
-            "gigabytes": 30.510927396,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 239011,
-            "seed": 17400
-        },
-        {
-            "id": 312,
+            "id": 4632,
             "name": "multi-btih-33-3-x-[rutor.is]Andor.S01.WEB-DLRip.hdrezka",
             "btih": "507685658131a8e95e979890bd5858f1963be960",
             "resolution": "720",
@@ -808,22 +773,22 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 237738,
-            "seed": 8956
+            "peer": 228064,
+            "seed": 8721
         },
         {
-            "id": 288,
-            "name": "multi-btih-9-2-x-Andor.S01.WEB-DL.720p.Rus.Eng",
-            "btih": "31710b7311914314e31394d503b78c9914e30306",
-            "resolution": "720",
-            "encoding": "none",
-            "gigabytes": 18.604044277,
+            "id": 4618,
+            "name": "multi-btih-19-3-x-Andor.S01E12.HDR.2160p.WEB.H265-GGEZ[rarbg]",
+            "btih": "63c6bcde71b50fa1716670b85817bba6cf4a8fcc",
+            "resolution": "2160",
+            "encoding": "265",
+            "gigabytes": 5.418948196,
             "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 236602,
-            "seed": 3645
+            "peer": 226981,
+            "seed": 1255
         },
         {
             "id": 61,
@@ -836,39 +801,39 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 233574,
-            "seed": 37915
+            "peer": 226153,
+            "seed": 36727
         },
         {
-            "id": 306,
-            "name": "multi-btih-27-2-x-[rutor.is]Andor.S01.400p.NewComers",
-            "btih": "eb97e2230af7de22d1f75523dc74fdca8f177434",
-            "resolution": "sd",
+            "id": 4608,
+            "name": "multi-btih-9-2-x-Andor.S01.WEB-DL.720p.Rus.Eng",
+            "btih": "31710b7311914314e31394d503b78c9914e30306",
+            "resolution": "720",
             "encoding": "none",
-            "gigabytes": 5.23445448,
-            "creation": "2022-11-23T20:02:18.000000000Z,Tixati v2.77,http://rutor.is/torrent/889169",
+            "gigabytes": 18.604044277,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 222784,
-            "seed": 1360
+            "peer": 223367,
+            "seed": 3494
         },
         {
-            "id": 310,
-            "name": "multi-btih-31-2-x-[rutor.is]Andor.S01.SDR.2160p.WEB-DL.x265.master5",
-            "btih": "4ace99544c7b07dba946b12215e9215dfa8c1236",
-            "resolution": "2160",
-            "encoding": "265",
-            "gigabytes": 85.964180725,
-            "creation": "2022-11-26T15:30:41.000000000Z,http://rutor.is/torrent/892394",
+            "id": 4607,
+            "name": "multi-btih-8-2-x-Andor.S01.WEB-DL.1080p.Rus.Eng",
+            "btih": "c714c47e4bfabe7620a599d7d385d4a366a36803",
+            "resolution": "1080",
+            "encoding": "none",
+            "gigabytes": 30.510927396,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 217595,
-            "seed": 2141
+            "peer": 221487,
+            "seed": 16863
         },
         {
-            "id": 314,
+            "id": 4634,
             "name": "multi-btih-35-2-x-[rutor.is]Star.Wars.Andor.S01.720p.WEB-DL.rhs",
             "btih": "d1572b07934618a5ceddd58627fba3c24efc38a8",
             "resolution": "720",
@@ -878,39 +843,39 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 217548,
-            "seed": 16209
+            "peer": 212755,
+            "seed": 15789
         },
         {
-            "id": 307,
-            "name": "multi-btih-28-2-x-[rutor.is]Andor.S01.720p.LakeFilms",
-            "btih": "8949c24aeda176dfe903a4eb0d056ec557c79f31",
-            "resolution": "720",
-            "encoding": "none",
-            "gigabytes": 9.401477817,
-            "creation": "2022-11-23T18:54:34.000000000Z,BitTorrent/7.11,http://rutor.is/torrent/897777",
+            "id": 4630,
+            "name": "multi-btih-31-2-x-[rutor.is]Andor.S01.SDR.2160p.WEB-DL.x265.master5",
+            "btih": "4ace99544c7b07dba946b12215e9215dfa8c1236",
+            "resolution": "2160",
+            "encoding": "265",
+            "gigabytes": 85.964180725,
+            "creation": "2022-11-26T15:30:41.000000000Z,http://rutor.is/torrent/892394",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 215128,
-            "seed": 1669
+            "peer": 209681,
+            "seed": 2102
         },
         {
-            "id": 302,
-            "name": "multi-btih-23-2-x-[rutor.is]Andor.S01.1080p.LakeFilms",
-            "btih": "c3f5b8b5765e169ee79b12d65623326989e6421f",
-            "resolution": "1080",
+            "id": 4626,
+            "name": "multi-btih-27-2-x-[rutor.is]Andor.S01.400p.NewComers",
+            "btih": "eb97e2230af7de22d1f75523dc74fdca8f177434",
+            "resolution": "sd",
             "encoding": "none",
-            "gigabytes": 17.626548532,
-            "creation": "2022-11-23T18:46:03.000000000Z,BitTorrent/7.11,http://rutor.is/torrent/897776",
+            "gigabytes": 5.23445448,
+            "creation": "2022-11-23T20:02:18.000000000Z,Tixati v2.77,http://rutor.is/torrent/889169",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 208694,
-            "seed": 1187
+            "peer": 204337,
+            "seed": 1321
         },
         {
-            "id": 279,
+            "id": 4599,
             "name": "multi-btih-0-2-x-(Score) Андор Andor Vol. 3 (Episodes 9-12) (Original Score) (by Nicholas Britell) - 2022, MP3 (tracks), 320 kbps [rutracker-6293685]",
             "btih": "82e5be883a98d6d52be06ae146828c1c1d05c0ba",
             "resolution": "1080",
@@ -920,11 +885,25 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 205886,
-            "seed": 788
+            "peer": 198625,
+            "seed": 757
         },
         {
-            "id": 289,
+            "id": 4622,
+            "name": "multi-btih-23-2-x-[rutor.is]Andor.S01.1080p.LakeFilms",
+            "btih": "c3f5b8b5765e169ee79b12d65623326989e6421f",
+            "resolution": "1080",
+            "encoding": "none",
+            "gigabytes": 17.626548532,
+            "creation": "2022-11-23T18:46:03.000000000Z,BitTorrent/7.11,http://rutor.is/torrent/897776",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 196383,
+            "seed": 1169
+        },
+        {
+            "id": 4609,
             "name": "multi-btih-10-2-x-Andor.S01.WEBDL.2160p.Hybrid.HDR",
             "btih": "c54451e4ca0d3671c662d04f916516e26a55680f",
             "resolution": "2160",
@@ -934,11 +913,25 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 200212,
-            "seed": 3235
+            "peer": 192640,
+            "seed": 3172
         },
         {
-            "id": 313,
+            "id": 4627,
+            "name": "multi-btih-28-2-x-[rutor.is]Andor.S01.720p.LakeFilms",
+            "btih": "8949c24aeda176dfe903a4eb0d056ec557c79f31",
+            "resolution": "720",
+            "encoding": "none",
+            "gigabytes": 9.401477817,
+            "creation": "2022-11-23T18:54:34.000000000Z,BitTorrent/7.11,http://rutor.is/torrent/897777",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 190580,
+            "seed": 1587
+        },
+        {
+            "id": 4633,
             "name": "multi-btih-34-2-x-[rutor.is]Andor_2022_legsik69",
             "btih": "e8c7b8885aa667cf4350547bc138d942ceef1862",
             "resolution": "sd",
@@ -948,36 +941,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 196326,
-            "seed": 4269
-        },
-        {
-            "id": 305,
-            "name": "multi-btih-26-2-x-[rutor.is]Andor.S01.2160p.DSNP.WEB-DL.DDP5.1.Atmos.DoVi.b",
-            "btih": "ef72105a2897fad33e1d775824210b20a37af3fa",
-            "resolution": "2160",
-            "encoding": "none",
-            "gigabytes": 71.544011246,
-            "creation": "2022-11-25T15:19:28.000000000Z,qBittorrent v4.3.4.1,http://rutor.is/torrent/889239",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 194299,
-            "seed": 2461
-        },
-        {
-            "id": 280,
-            "name": "multi-btih-1-2-x-Andor.S01.1080p.DSNP.WEBRip.DDP5.1.Atmos.x264-NTb[rartv]-[rarbg.to]",
-            "btih": "aa53b7ed3e1d8636fe7cd740eff3329adf593eac",
-            "resolution": "1080",
-            "encoding": "264",
-            "gigabytes": 26.325015204,
-            "creation": "2022-11-23T08:04:21.000000000Z,mktorrent 1.0,Torrent downloaded from https://rarbg.to",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 189830,
-            "seed": 3988
+            "peer": 186376,
+            "seed": 4103
         },
         {
             "id": 180,
@@ -990,25 +955,11 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 189659,
-            "seed": 43031
+            "peer": 180563,
+            "seed": 41906
         },
         {
-            "id": 303,
-            "name": "multi-btih-24-2-x-[rutor.is]Andor.S01.1080p.NewComers",
-            "btih": "ac1de81b043f9f4ba234edd42a2dff3e2b45e476",
-            "resolution": "1080",
-            "encoding": "none",
-            "gigabytes": 30.266893189,
-            "creation": "2022-11-23T20:01:36.000000000Z,Tixati v2.77,http://rutor.is/torrent/889168",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 187532,
-            "seed": 2975
-        },
-        {
-            "id": 282,
+            "id": 4602,
             "name": "multi-btih-3-2-x-Andor.S01.2160p.DSNP.WEB-DL.DDP5.1.Atmos.DV.MKV.x265-NTb[rartv]-[rarbg.to]",
             "btih": "74c9207df6d0c31ba2ef959321477c1abd620bab",
             "resolution": "2160",
@@ -1018,11 +969,53 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 185015,
-            "seed": 1644
+            "peer": 176788,
+            "seed": 1593
         },
         {
-            "id": 286,
+            "id": 4600,
+            "name": "multi-btih-1-2-x-Andor.S01.1080p.DSNP.WEBRip.DDP5.1.Atmos.x264-NTb[rartv]-[rarbg.to]",
+            "btih": "aa53b7ed3e1d8636fe7cd740eff3329adf593eac",
+            "resolution": "1080",
+            "encoding": "264",
+            "gigabytes": 26.325015204,
+            "creation": "2022-11-23T08:04:21.000000000Z,mktorrent 1.0,Torrent downloaded from https://rarbg.to",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 175617,
+            "seed": 3882
+        },
+        {
+            "id": 4623,
+            "name": "multi-btih-24-2-x-[rutor.is]Andor.S01.1080p.NewComers",
+            "btih": "ac1de81b043f9f4ba234edd42a2dff3e2b45e476",
+            "resolution": "1080",
+            "encoding": "none",
+            "gigabytes": 30.266893189,
+            "creation": "2022-11-23T20:01:36.000000000Z,Tixati v2.77,http://rutor.is/torrent/889168",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 175234,
+            "seed": 2916
+        },
+        {
+            "id": 4625,
+            "name": "multi-btih-26-2-x-[rutor.is]Andor.S01.2160p.DSNP.WEB-DL.DDP5.1.Atmos.DoVi.b",
+            "btih": "ef72105a2897fad33e1d775824210b20a37af3fa",
+            "resolution": "2160",
+            "encoding": "none",
+            "gigabytes": 71.544011246,
+            "creation": "2022-11-25T15:19:28.000000000Z,qBittorrent v4.3.4.1,http://rutor.is/torrent/889239",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 174319,
+            "seed": 2429
+        },
+        {
+            "id": 4606,
             "name": "multi-btih-7-2-x-Andor.S01.PROPER.WEBRip.x264-ION10-[rarbg.to]",
             "btih": "7585bd424a821bc0cd8061d2097675a24ed58267",
             "resolution": "4320",
@@ -1032,22 +1025,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 182336,
-            "seed": 1853
-        },
-        {
-            "id": 285,
-            "name": "multi-btih-6-2-x-Andor.S01.HDR.WEB-DL.2160p.H265.HEVC",
-            "btih": "e76839d6bb8aae5e26dda3e277027499c8be3756",
-            "resolution": "2160",
-            "encoding": "265",
-            "gigabytes": 60.120379496,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 177151,
-            "seed": 6263
+            "peer": 169990,
+            "seed": 1805
         },
         {
             "id": 179,
@@ -1060,36 +1039,22 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 173202,
-            "seed": 44804
+            "peer": 168287,
+            "seed": 43713
         },
         {
-            "id": 290,
-            "name": "multi-btih-11-2-x-Andor.S01.WEBRip.x265-ION265-[rarbg.to]",
-            "btih": "fe38ed192b8da43c216e720c38958091ae788b76",
-            "resolution": "4320",
+            "id": 4605,
+            "name": "multi-btih-6-2-x-Andor.S01.HDR.WEB-DL.2160p.H265.HEVC",
+            "btih": "e76839d6bb8aae5e26dda3e277027499c8be3756",
+            "resolution": "2160",
             "encoding": "265",
-            "gigabytes": 3.836508002,
-            "creation": "2022-11-23T09:54:47.000000000Z,RARBG,Torrent downloaded from https://rarbg.to",
+            "gigabytes": 60.120379496,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 172371,
-            "seed": 883
-        },
-        {
-            "id": 309,
-            "name": "multi-btih-30-2-x-[rutor.is]Andor.S01.SD.LakeFilms",
-            "btih": "c8540d66d0f4d675e798493915f2eeccbfce7397",
-            "resolution": "720",
-            "encoding": "none",
-            "gigabytes": 6.026815516,
-            "creation": "2022-11-23T18:58:16.000000000Z,BitTorrent/7.11,http://rutor.is/torrent/897778",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 166503,
-            "seed": 1893
+            "peer": 167501,
+            "seed": 6197
         },
         {
             "id": 4,
@@ -1102,36 +1067,36 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 166450,
-            "seed": 2575
+            "peer": 158939,
+            "seed": 2482
         },
         {
-            "id": 190,
-            "name": "Star.Wars.Andor.1x12.lati.mp4",
-            "btih": "bede212673fc4a8e53313d9cdeb11cfa2814a98c",
-            "resolution": "sd",
-            "encoding": "none",
-            "gigabytes": 0.427647158,
-            "creation": "1970-01-01T00:00:00.000000000Z",
+            "id": 4610,
+            "name": "multi-btih-11-2-x-Andor.S01.WEBRip.x265-ION265-[rarbg.to]",
+            "btih": "fe38ed192b8da43c216e720c38958091ae788b76",
+            "resolution": "4320",
+            "encoding": "265",
+            "gigabytes": 3.836508002,
+            "creation": "2022-11-23T09:54:47.000000000Z,RARBG,Torrent downloaded from https://rarbg.to",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 160276,
-            "seed": 2375
+            "peer": 158669,
+            "seed": 848
         },
         {
-            "id": 308,
-            "name": "multi-btih-29-2-x-[rutor.is]Andor.S01.HDR.2160p.NewComers",
-            "btih": "0fcf800bc0f85c1b345a76dbeb6f76df9bbd1c66",
-            "resolution": "2160",
+            "id": 4629,
+            "name": "multi-btih-30-2-x-[rutor.is]Andor.S01.SD.LakeFilms",
+            "btih": "c8540d66d0f4d675e798493915f2eeccbfce7397",
+            "resolution": "720",
             "encoding": "none",
-            "gigabytes": 53.028369583,
-            "creation": "2022-11-23T19:57:38.000000000Z,Tixati v2.77,http://rutor.is/torrent/889213",
+            "gigabytes": 6.026815516,
+            "creation": "2022-11-23T18:58:16.000000000Z,BitTorrent/7.11,http://rutor.is/torrent/897778",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 158738,
-            "seed": 3428
+            "peer": 156769,
+            "seed": 1802
         },
         {
             "id": 174,
@@ -1144,25 +1109,11 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 158102,
-            "seed": 746
+            "peer": 155008,
+            "seed": 714
         },
         {
-            "id": 191,
-            "name": "Star.Wars.Andor.2022.S01.PL.720p.DSNP.WEB-DL.H264.DDP5.1-r4u",
-            "btih": "86cca5106136ffc0ad80021dcacb4a66676f2c47",
-            "resolution": "720",
-            "encoding": "264",
-            "gigabytes": 12.372793113,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 158069,
-            "seed": 626
-        },
-        {
-            "id": 284,
+            "id": 4604,
             "name": "multi-btih-5-2-x-Andor.S01.2160p.WEB-DL.x265.8bit.SDR.DDP5.1.Atmos-NTb[rartv]-[rarbg.to]",
             "btih": "184e3618130b6bb142cead88b8eed0a53f5d765e",
             "resolution": "2160",
@@ -1172,8 +1123,22 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 157610,
-            "seed": 1956
+            "peer": 153610,
+            "seed": 1915
+        },
+        {
+            "id": 4628,
+            "name": "multi-btih-29-2-x-[rutor.is]Andor.S01.HDR.2160p.NewComers",
+            "btih": "0fcf800bc0f85c1b345a76dbeb6f76df9bbd1c66",
+            "resolution": "2160",
+            "encoding": "none",
+            "gigabytes": 53.028369583,
+            "creation": "2022-11-23T19:57:38.000000000Z,Tixati v2.77,http://rutor.is/torrent/889213",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 149496,
+            "seed": 3310
         },
         {
             "id": 18,
@@ -1186,8 +1151,36 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 156809,
-            "seed": 24093
+            "peer": 148771,
+            "seed": 23328
+        },
+        {
+            "id": 191,
+            "name": "Star.Wars.Andor.2022.S01.PL.720p.DSNP.WEB-DL.H264.DDP5.1-r4u",
+            "btih": "86cca5106136ffc0ad80021dcacb4a66676f2c47",
+            "resolution": "720",
+            "encoding": "264",
+            "gigabytes": 12.372793113,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 147109,
+            "seed": 602
+        },
+        {
+            "id": 190,
+            "name": "Star.Wars.Andor.1x12.lati.mp4",
+            "btih": "bede212673fc4a8e53313d9cdeb11cfa2814a98c",
+            "resolution": "sd",
+            "encoding": "none",
+            "gigabytes": 0.427647158,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 146824,
+            "seed": 2352
         },
         {
             "id": 152,
@@ -1200,8 +1193,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 156016,
-            "seed": 3477
+            "peer": 144732,
+            "seed": 3438
         },
         {
             "id": 129,
@@ -1214,8 +1207,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 148045,
-            "seed": 3046
+            "peer": 142607,
+            "seed": 2958
         },
         {
             "id": 51,
@@ -1228,22 +1221,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 146642,
-            "seed": 20018
-        },
-        {
-            "id": 214,
-            "name": "Star.Wars.Andor.S01E12.MULTi.2160p.DV.HDR.WEB.AC3.EAC3.ITA.ENG.G66.mkv",
-            "btih": "02d92a9c9561e318abf9445cf39a35b83878f9a5",
-            "resolution": "2160",
-            "encoding": "none",
-            "gigabytes": 5.798185604,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 142998,
-            "seed": 933
+            "peer": 137626,
+            "seed": 19619
         },
         {
             "id": 31,
@@ -1256,25 +1235,25 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 137350,
-            "seed": 8013
+            "peer": 132637,
+            "seed": 7782
         },
         {
-            "id": 173,
-            "name": "STAR WARS - Andor.2022.S01E12.FiNAL.DUBPL-ENG.1080p.WEBRip.H265.MKV.AC3-5.1",
-            "btih": "f26e145cda2bf52f0d89a8e97634fa072354d447",
-            "resolution": "1080",
-            "encoding": "265",
-            "gigabytes": 1.675466432,
+            "id": 214,
+            "name": "Star.Wars.Andor.S01E12.MULTi.2160p.DV.HDR.WEB.AC3.EAC3.ITA.ENG.G66.mkv",
+            "btih": "02d92a9c9561e318abf9445cf39a35b83878f9a5",
+            "resolution": "2160",
+            "encoding": "none",
+            "gigabytes": 5.798185604,
             "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 136239,
-            "seed": 3777
+            "peer": 131531,
+            "seed": 901
         },
         {
-            "id": 293,
+            "id": 4613,
             "name": "multi-btih-14-2-x-Andor.S01E12.2160p.DSNP.WEB-DL.DDP5.1.Atmos.DV.MP4.x265-DVSUX[rartv]-[rarbg.to]",
             "btih": "4b18493f9c8286730d2329f3f24abf08a3745cbb",
             "resolution": "2160",
@@ -1284,36 +1263,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 135494,
-            "seed": 817
-        },
-        {
-            "id": 154,
-            "name": "Andor.S01E12.Rix.Road.720p.DSNP.WEBRip.DDP5.1.x264-NTb[rartv]-[rarbg.to]",
-            "btih": "151cbec834acd908e7786963965323d8daaf9bfe",
-            "resolution": "720",
-            "encoding": "264",
-            "gigabytes": 1.517151261,
-            "creation": "2022-11-23T07:52:31.000000000Z,RARBG,Torrent downloaded from https://rarbg.to",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 134143,
-            "seed": 466
-        },
-        {
-            "id": 45,
-            "name": "Andor.(Season 01).LostFilm",
-            "btih": "47dbda4f5aa0d4db6ba56c97b6c9c1ffd51d2c60",
-            "resolution": "720",
-            "encoding": "none",
-            "gigabytes": 7.403755263,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 133010,
-            "seed": 1360
+            "peer": 127089,
+            "seed": 689
         },
         {
             "id": 222,
@@ -1326,50 +1277,50 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 132691,
-            "seed": 3962
+            "peer": 126320,
+            "seed": 3937
         },
         {
-            "id": 140,
-            "name": "Andor.S01E12.720p.x264-FENiX",
-            "btih": "694741796226d0f44bf5d28c0fff29318ebbaa5f",
-            "resolution": "720",
-            "encoding": "264",
-            "gigabytes": 0.484176824,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 129058,
-            "seed": 1603
-        },
-        {
-            "id": 221,
-            "name": "SW Andor - Temporada 1 [HDTV 720p][Cap.112][AC3 5.1 Castellano][www.AtomoHD.fi]",
-            "btih": "05e085adf56f5c1a8c53a014d299d48bb40fb620",
+            "id": 45,
+            "name": "Andor.(Season 01).LostFilm",
+            "btih": "47dbda4f5aa0d4db6ba56c97b6c9c1ffd51d2c60",
             "resolution": "720",
             "encoding": "none",
-            "gigabytes": 1.640256871,
+            "gigabytes": 7.403755263,
             "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 128793,
-            "seed": 6173
+            "peer": 126229,
+            "seed": 1272
         },
         {
-            "id": 211,
-            "name": "Star.Wars.Andor.S01E12.Lampi.di.ribellione.ITA.ENG.2160p.DSNP.WEB-DL.DDP5.1.HDR.H.265-MeM.GP.mkv",
-            "btih": "df63f03f47bd744c992c535767da26c21702afec",
-            "resolution": "2160",
+            "id": 154,
+            "name": "Andor.S01E12.Rix.Road.720p.DSNP.WEBRip.DDP5.1.x264-NTb[rartv]-[rarbg.to]",
+            "btih": "151cbec834acd908e7786963965323d8daaf9bfe",
+            "resolution": "720",
+            "encoding": "264",
+            "gigabytes": 1.517151261,
+            "creation": "2022-11-23T07:52:31.000000000Z,RARBG,Torrent downloaded from https://rarbg.to",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 125321,
+            "seed": 436
+        },
+        {
+            "id": 173,
+            "name": "STAR WARS - Andor.2022.S01E12.FiNAL.DUBPL-ENG.1080p.WEBRip.H265.MKV.AC3-5.1",
+            "btih": "f26e145cda2bf52f0d89a8e97634fa072354d447",
+            "resolution": "1080",
             "encoding": "265",
-            "gigabytes": 5.522370672,
+            "gigabytes": 1.675466432,
             "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 128285,
-            "seed": 2537
+            "peer": 125249,
+            "seed": 3741
         },
         {
             "id": 223,
@@ -1382,36 +1333,22 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 127114,
-            "seed": 3723
+            "peer": 122627,
+            "seed": 3625
         },
         {
-            "id": 167,
-            "name": "Gwiezdne Wojny_ Andor",
-            "btih": "e8b061db1b7f05df7a17588f8f74bcaa9d72cc00",
-            "resolution": "sd",
-            "encoding": "none",
-            "gigabytes": 5.853569206,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 126134,
-            "seed": 730
-        },
-        {
-            "id": 33,
-            "name": "Andor 1 - LostFilm.TV [MP4]",
-            "btih": "6787bdda1ac9e105a073fd70480cef43f5480f23",
+            "id": 140,
+            "name": "Andor.S01E12.720p.x264-FENiX",
+            "btih": "694741796226d0f44bf5d28c0fff29318ebbaa5f",
             "resolution": "720",
-            "encoding": "none",
-            "gigabytes": 16.568188819,
+            "encoding": "264",
+            "gigabytes": 0.484176824,
             "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 125245,
-            "seed": 2190
+            "peer": 122377,
+            "seed": 1522
         },
         {
             "id": 217,
@@ -1424,22 +1361,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 124834,
-            "seed": 433
-        },
-        {
-            "id": 242,
-            "name": "안도르 (Andor)",
-            "btih": "a19be6af6434f998a63231ef21aa8757d8a522e1",
-            "resolution": "1080",
-            "encoding": "none",
-            "gigabytes": 27.361901357,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 124748,
-            "seed": 1797
+            "peer": 121992,
+            "seed": 393
         },
         {
             "id": 193,
@@ -1452,22 +1375,36 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 124333,
-            "seed": 1760
+            "peer": 120774,
+            "seed": 1708
         },
         {
-            "id": 241,
-            "name": "安多.第一季.Andor.Season.1.S01E12.1080p.H265-NEW字幕组.mp4",
-            "btih": "54f7025ba73b845de87c7f7066e0d0b91766a3cd",
-            "resolution": "1080",
-            "encoding": "265",
-            "gigabytes": 0.51039927,
+            "id": 221,
+            "name": "SW Andor - Temporada 1 [HDTV 720p][Cap.112][AC3 5.1 Castellano][www.AtomoHD.fi]",
+            "btih": "05e085adf56f5c1a8c53a014d299d48bb40fb620",
+            "resolution": "720",
+            "encoding": "none",
+            "gigabytes": 1.640256871,
             "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 123410,
-            "seed": 4070
+            "peer": 120670,
+            "seed": 5980
+        },
+        {
+            "id": 211,
+            "name": "Star.Wars.Andor.S01E12.Lampi.di.ribellione.ITA.ENG.2160p.DSNP.WEB-DL.DDP5.1.HDR.H.265-MeM.GP.mkv",
+            "btih": "df63f03f47bd744c992c535767da26c21702afec",
+            "resolution": "2160",
+            "encoding": "265",
+            "gigabytes": 5.522370672,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 119694,
+            "seed": 2256
         },
         {
             "id": 60,
@@ -1480,22 +1417,22 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 122788,
-            "seed": 8834
+            "peer": 117502,
+            "seed": 8723
         },
         {
-            "id": 56,
-            "name": "Andor.S01.1080p.Ultradox",
-            "btih": "198509e9b36d3223def5a6764884cce60260c251",
-            "resolution": "1080",
+            "id": 167,
+            "name": "Gwiezdne Wojny_ Andor",
+            "btih": "e8b061db1b7f05df7a17588f8f74bcaa9d72cc00",
+            "resolution": "sd",
             "encoding": "none",
-            "gigabytes": 19.52331158,
+            "gigabytes": 5.853569206,
             "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 122292,
-            "seed": 2855
+            "peer": 116324,
+            "seed": 662
         },
         {
             "id": 125,
@@ -1508,22 +1445,22 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 121197,
-            "seed": 827
+            "peer": 114144,
+            "seed": 774
         },
         {
-            "id": 12,
-            "name": "[rutor.is]Andor.S01.HDR.2160p.WEB-DL.x265.10bit.master5",
-            "btih": "ea5fa7d7150070eae93360917ff6d4deb68b2279",
-            "resolution": "2160",
-            "encoding": "265",
-            "gigabytes": 62.549719866,
-            "creation": "2022-11-26T16:15:41.000000000Z,http://rutor.is/torrent/890390",
+            "id": 242,
+            "name": "안도르 (Andor)",
+            "btih": "a19be6af6434f998a63231ef21aa8757d8a522e1",
+            "resolution": "1080",
+            "encoding": "none",
+            "gigabytes": 27.361901357,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 120483,
-            "seed": 2666
+            "peer": 114136,
+            "seed": 1724
         },
         {
             "id": 44,
@@ -1536,64 +1473,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 120090,
-            "seed": 509
-        },
-        {
-            "id": 3,
-            "name": "[ Torrent911.tv ] Star.Wars.Andor.S01E12.FiNAL.FRENCH.WEBRip.H264-EXTREME.mkv",
-            "btih": "a7f3402c321569c88890ee4a1c42cc760f769fdc",
-            "resolution": "sd",
-            "encoding": "264",
-            "gigabytes": 0.832831672,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 118306,
-            "seed": 3806
-        },
-        {
-            "id": 171,
-            "name": "STAR WARS - Andor.2022.S01.Complete.DUBPL-ENG.1080p.WEBRip.H265.AC3-5.1",
-            "btih": "0a5edb362e4a59a2ad66a7c9d5c0a79f38b5997d",
-            "resolution": "1080",
-            "encoding": "265",
-            "gigabytes": 17.801795638,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 118161,
-            "seed": 1883
-        },
-        {
-            "id": 34,
-            "name": "Andor 1 - LostFilm.TV",
-            "btih": "f40a56cda1cd5a9c8d970864b81a917863dc926b",
-            "resolution": "720",
-            "encoding": "none",
-            "gigabytes": 8.010262528,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 117697,
-            "seed": 2599
-        },
-        {
-            "id": 163,
-            "name": "Andor.S01E12.WEBRip.x264-XEN0N",
-            "btih": "ab85835392757210810baec58a2b16b3bf0086a7",
-            "resolution": "sd",
-            "encoding": "264",
-            "gigabytes": 0.301444364,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 117673,
-            "seed": 1606
+            "peer": 113757,
+            "seed": 471
         },
         {
             "id": 240,
@@ -1606,78 +1487,64 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 117138,
-            "seed": 3106
+            "peer": 112374,
+            "seed": 3036
         },
         {
-            "id": 42,
-            "name": "Andor Season 1 (2022)",
-            "btih": "04a971166370aad87a1e044ebbd5b84c1869b87b",
-            "resolution": "sd",
+            "id": 33,
+            "name": "Andor 1 - LostFilm.TV [MP4]",
+            "btih": "6787bdda1ac9e105a073fd70480cef43f5480f23",
+            "resolution": "720",
             "encoding": "none",
-            "gigabytes": 19.684610625,
+            "gigabytes": 16.568188819,
             "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 113536,
-            "seed": 963
+            "peer": 111955,
+            "seed": 2136
         },
         {
-            "id": 142,
-            "name": "Andor.S01E12.CondorFilms.mkv",
-            "btih": "f1957d78105e344b5867482f983028797f57f4ef",
-            "resolution": "sd",
-            "encoding": "none",
-            "gigabytes": 2.696738218,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 113479,
-            "seed": 1274
-        },
-        {
-            "id": 187,
-            "name": "Star Wars Andor S01E12 Lampi di ribellione - Rix Road SD h264 Ac3 5.1 Ita Eng Sub Ita Eng-MIRCrew (1).mkv",
-            "btih": "c4904cd40ffe5240110ac2a79a037592307e20fa",
+            "id": 3,
+            "name": "[ Torrent911.tv ] Star.Wars.Andor.S01E12.FiNAL.FRENCH.WEBRip.H264-EXTREME.mkv",
+            "btih": "a7f3402c321569c88890ee4a1c42cc760f769fdc",
             "resolution": "sd",
             "encoding": "264",
-            "gigabytes": 0.82629503,
+            "gigabytes": 0.832831672,
             "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 113049,
-            "seed": 759
+            "peer": 110266,
+            "seed": 3680
         },
         {
-            "id": 226,
-            "name": "Андор Andor Сезон 1 Серии 0-11 из 12 (Бенджамин Карон, Тоби Хэйнс, Сюзанна Уайт) [2022, США, Фантастика, боевик, триллер, [rutracker-6261945]",
-            "btih": "9d68318e762efae0c3219a9c22e12980d6827985",
-            "resolution": "sd",
-            "encoding": "none",
-            "gigabytes": 7.887730013,
-            "creation": "2022-11-19T20:23:42.000000000Z,uTorrent/2040,https://rutracker.org/forum/viewtopic.php?t=6261945",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 112797,
-            "seed": 606
-        },
-        {
-            "id": 72,
-            "name": "Andor.S01.400p.ColdFilm",
-            "btih": "c6e23358bd8780ff8fec58a76d3c06534412428f",
-            "resolution": "sd",
-            "encoding": "none",
-            "gigabytes": 6.884355754,
+            "id": 241,
+            "name": "安多.第一季.Andor.Season.1.S01E12.1080p.H265-NEW字幕组.mp4",
+            "btih": "54f7025ba73b845de87c7f7066e0d0b91766a3cd",
+            "resolution": "1080",
+            "encoding": "265",
+            "gigabytes": 0.51039927,
             "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 112403,
-            "seed": 510
+            "peer": 110061,
+            "seed": 3890
+        },
+        {
+            "id": 56,
+            "name": "Andor.S01.1080p.Ultradox",
+            "btih": "198509e9b36d3223def5a6764884cce60260c251",
+            "resolution": "1080",
+            "encoding": "none",
+            "gigabytes": 19.52331158,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 109509,
+            "seed": 2792
         },
         {
             "id": 160,
@@ -1690,22 +1557,50 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 112276,
-            "seed": 3550
+            "peer": 109379,
+            "seed": 3391
         },
         {
-            "id": 110,
-            "name": "Andor.s01.WEBRip.XviD.Rus.RuDub.tv",
-            "btih": "8f54d07a3db4ecb9b489a71af169d522d7bd8675",
+            "id": 12,
+            "name": "[rutor.is]Andor.S01.HDR.2160p.WEB-DL.x265.10bit.master5",
+            "btih": "ea5fa7d7150070eae93360917ff6d4deb68b2279",
+            "resolution": "2160",
+            "encoding": "265",
+            "gigabytes": 62.549719866,
+            "creation": "2022-11-26T16:15:41.000000000Z,http://rutor.is/torrent/890390",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 109021,
+            "seed": 2588
+        },
+        {
+            "id": 187,
+            "name": "Star Wars Andor S01E12 Lampi di ribellione - Rix Road SD h264 Ac3 5.1 Ita Eng Sub Ita Eng-MIRCrew (1).mkv",
+            "btih": "c4904cd40ffe5240110ac2a79a037592307e20fa",
             "resolution": "sd",
-            "encoding": "xvid",
-            "gigabytes": 7.024860006,
+            "encoding": "264",
+            "gigabytes": 0.82629503,
             "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 111911,
-            "seed": 440
+            "peer": 107361,
+            "seed": 730
+        },
+        {
+            "id": 42,
+            "name": "Andor Season 1 (2022)",
+            "btih": "04a971166370aad87a1e044ebbd5b84c1869b87b",
+            "resolution": "sd",
+            "encoding": "none",
+            "gigabytes": 19.684610625,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 107048,
+            "seed": 937
         },
         {
             "id": 41,
@@ -1718,92 +1613,64 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 111059,
-            "seed": 1961
+            "peer": 106887,
+            "seed": 1871
         },
         {
-            "id": 88,
-            "name": "Andor.S01.HDR.2160p.WEB-DL.x265.10bit.Master5",
-            "btih": "986dba2406f07c478dda43d1c8d134efc9739373",
-            "resolution": "2160",
-            "encoding": "265",
-            "gigabytes": 56.361397234,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 110665,
-            "seed": 1507
-        },
-        {
-            "id": 181,
-            "name": "Star Wars Andor 1x12 La calle rix 1080p.DSNP WEB-DL DUAL DDP5.1 H.264.mkv",
-            "btih": "c9d59f104fe483283a4935b672a0f2d4156d0e65",
-            "resolution": "1080",
-            "encoding": "264",
-            "gigabytes": 2.871121615,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 110640,
-            "seed": 3867
-        },
-        {
-            "id": 210,
-            "name": "Star.Wars.Andor.S01E12.Lampi.di.ribellione.ITA.ENG.1080p.DSNP.WEB-DL.DDP5.1.H.264-MeM.GP.mkv",
-            "btih": "c606604065c075f85cc6c24d5284c1d25afd7355",
-            "resolution": "1080",
-            "encoding": "264",
-            "gigabytes": 2.871122111,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 110449,
-            "seed": 2551
-        },
-        {
-            "id": 235,
-            "name": "【高清剧集网 www.BTHDTV.com】安多 第一季[全12集][国英多音轨+简繁英字幕].Star.Wars.Andor.S01.1080p.DSNP.WEB-DL.DDP.5.1.Atmos.H.264-BlackTV",
-            "btih": "3cf63a03d56567e8751941c41e6d2dfc46f0d616",
-            "resolution": "1080",
-            "encoding": "264",
-            "gigabytes": 27.376620572,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 109772,
-            "seed": 1462
-        },
-        {
-            "id": 225,
-            "name": "SW Andor 1X12 HDTV XviD Castellano",
-            "btih": "9e149c9ad58bb25955168896461c326eb4967a45",
+            "id": 72,
+            "name": "Andor.S01.400p.ColdFilm",
+            "btih": "c6e23358bd8780ff8fec58a76d3c06534412428f",
             "resolution": "sd",
-            "encoding": "xvid",
-            "gigabytes": 0.66599452,
+            "encoding": "none",
+            "gigabytes": 6.884355754,
             "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 109033,
-            "seed": 779
+            "peer": 106533,
+            "seed": 485
         },
         {
-            "id": 128,
-            "name": "Andor.S01E12.720p.10bit.WEBRip.2CH.x265.HEVC-PSA.mkv",
-            "btih": "f6ac29210a5d25d0f1c499563d2907c4eb1d3cfa",
+            "id": 34,
+            "name": "Andor 1 - LostFilm.TV",
+            "btih": "f40a56cda1cd5a9c8d970864b81a917863dc926b",
             "resolution": "720",
-            "encoding": "265",
-            "gigabytes": 0.30230574,
+            "encoding": "none",
+            "gigabytes": 8.010262528,
             "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 107808,
-            "seed": 315
+            "peer": 106520,
+            "seed": 2482
+        },
+        {
+            "id": 171,
+            "name": "STAR WARS - Andor.2022.S01.Complete.DUBPL-ENG.1080p.WEBRip.H265.AC3-5.1",
+            "btih": "0a5edb362e4a59a2ad66a7c9d5c0a79f38b5997d",
+            "resolution": "1080",
+            "encoding": "265",
+            "gigabytes": 17.801795638,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 106299,
+            "seed": 1821
+        },
+        {
+            "id": 142,
+            "name": "Andor.S01E12.CondorFilms.mkv",
+            "btih": "f1957d78105e344b5867482f983028797f57f4ef",
+            "resolution": "sd",
+            "encoding": "none",
+            "gigabytes": 2.696738218,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 105656,
+            "seed": 1216
         },
         {
             "id": 78,
@@ -1816,50 +1683,120 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 107634,
-            "seed": 857
+            "peer": 104362,
+            "seed": 843
         },
         {
-            "id": 23,
-            "name": "Andor (2022) HEVC 1080p",
-            "btih": "dc07282483599cbc0f4cec06f0a7d7a9d050b68d",
-            "resolution": "1080",
+            "id": 226,
+            "name": "Андор Andor Сезон 1 Серии 0-11 из 12 (Бенджамин Карон, Тоби Хэйнс, Сюзанна Уайт) [2022, США, Фантастика, боевик, триллер, [rutracker-6261945]",
+            "btih": "9d68318e762efae0c3219a9c22e12980d6827985",
+            "resolution": "sd",
             "encoding": "none",
-            "gigabytes": 30.653122216,
-            "creation": "1970-01-01T00:00:00.000000000Z",
+            "gigabytes": 7.887730013,
+            "creation": "2022-11-19T20:23:42.000000000Z,uTorrent/2040,https://rutracker.org/forum/viewtopic.php?t=6261945",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 105938,
-            "seed": 1225
+            "peer": 104103,
+            "seed": 555
         },
         {
-            "id": 95,
-            "name": "Andor.S01.PROPER.WEBRip.x264-ION10[eztv.re]",
-            "btih": "ae6d14b0365942854b75999ade39ca9cf46e7113",
-            "resolution": "4320",
+            "id": 163,
+            "name": "Andor.S01E12.WEBRip.x264-XEN0N",
+            "btih": "ab85835392757210810baec58a2b16b3bf0086a7",
+            "resolution": "sd",
             "encoding": "264",
-            "gigabytes": 5.253745142,
+            "gigabytes": 0.301444364,
             "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 105918,
-            "seed": 3973
+            "peer": 104039,
+            "seed": 1491
         },
         {
-            "id": 236,
-            "name": "【高清剧集网 www.BTHDTV.com】安多 第一季[全12集][国英多音轨+简繁英字幕].Star.Wars.Andor.S01.2022.DSNP.WEB-DL.1080p.H264.DDP-Xiaomi",
-            "btih": "fd9459442ab3a75e862b693167835ababe806911",
+            "id": 128,
+            "name": "Andor.S01E12.720p.10bit.WEBRip.2CH.x265.HEVC-PSA.mkv",
+            "btih": "f6ac29210a5d25d0f1c499563d2907c4eb1d3cfa",
+            "resolution": "720",
+            "encoding": "265",
+            "gigabytes": 0.30230574,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 104013,
+            "seed": 306
+        },
+        {
+            "id": 210,
+            "name": "Star.Wars.Andor.S01E12.Lampi.di.ribellione.ITA.ENG.1080p.DSNP.WEB-DL.DDP5.1.H.264-MeM.GP.mkv",
+            "btih": "c606604065c075f85cc6c24d5284c1d25afd7355",
             "resolution": "1080",
             "encoding": "264",
-            "gigabytes": 27.376568099,
+            "gigabytes": 2.871122111,
             "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 105812,
-            "seed": 1650
+            "peer": 103320,
+            "seed": 2439
+        },
+        {
+            "id": 235,
+            "name": "【高清剧集网 www.BTHDTV.com】安多 第一季[全12集][国英多音轨+简繁英字幕].Star.Wars.Andor.S01.1080p.DSNP.WEB-DL.DDP.5.1.Atmos.H.264-BlackTV",
+            "btih": "3cf63a03d56567e8751941c41e6d2dfc46f0d616",
+            "resolution": "1080",
+            "encoding": "264",
+            "gigabytes": 27.376620572,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 103267,
+            "seed": 1403
+        },
+        {
+            "id": 110,
+            "name": "Andor.s01.WEBRip.XviD.Rus.RuDub.tv",
+            "btih": "8f54d07a3db4ecb9b489a71af169d522d7bd8675",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "gigabytes": 7.024860006,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 102099,
+            "seed": 395
+        },
+        {
+            "id": 88,
+            "name": "Andor.S01.HDR.2160p.WEB-DL.x265.10bit.Master5",
+            "btih": "986dba2406f07c478dda43d1c8d134efc9739373",
+            "resolution": "2160",
+            "encoding": "265",
+            "gigabytes": 56.361397234,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 101235,
+            "seed": 1441
+        },
+        {
+            "id": 225,
+            "name": "SW Andor 1X12 HDTV XviD Castellano",
+            "btih": "9e149c9ad58bb25955168896461c326eb4967a45",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "gigabytes": 0.66599452,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 100807,
+            "seed": 761
         },
         {
             "id": 48,
@@ -1872,78 +1809,36 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 105663,
-            "seed": 760
+            "peer": 100712,
+            "seed": 725
         },
         {
-            "id": 24,
-            "name": "Andor (2022) S01 (1080p WEB-DL AV1 10bit Opus 5.1 KaNNa)",
-            "btih": "d6a31f186885a3be511195631ad2b303519d0851",
+            "id": 23,
+            "name": "Andor (2022) HEVC 1080p",
+            "btih": "dc07282483599cbc0f4cec06f0a7d7a9d050b68d",
             "resolution": "1080",
             "encoding": "none",
-            "gigabytes": 5.695032295,
+            "gigabytes": 30.653122216,
             "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 105355,
-            "seed": 2018
+            "peer": 100653,
+            "seed": 1179
         },
         {
-            "id": 185,
-            "name": "Star Wars Andor S01E12 (2022) WEB-DL [Dublado Portugues] MOSTBET",
-            "btih": "eb1a9d2e8045708490ea24886674550fd9c60137",
-            "resolution": "720",
-            "encoding": "none",
-            "gigabytes": 0.642792306,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 104766,
-            "seed": 872
-        },
-        {
-            "id": 281,
-            "name": "multi-btih-2-2-x-Andor.S01.1080p.WEBRip.x265-RARBG-[rarbg.to]",
-            "btih": "7cf730f7c88b283574e2b322a0407187deb3eaee",
-            "resolution": "1080",
-            "encoding": "265",
-            "gigabytes": 9.153375972,
-            "creation": "2022-11-23T11:51:29.000000000Z,RARBG,Torrent downloaded from https://rarbg.to",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 104612,
-            "seed": 4156
-        },
-        {
-            "id": 50,
-            "name": "Andor.2022.S01E12.MULTi.2160p.DSNP.WEB-DL.HDR.HEVC.DDP5.1-K83.mkv",
-            "btih": "ce3ae569c2252a13771f3933353bae837c7222ca",
-            "resolution": "2160",
-            "encoding": "none",
-            "gigabytes": 5.522285022,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 104507,
-            "seed": 693
-        },
-        {
-            "id": 109,
-            "name": "Andor.S01.WEBRip.x265-ION265[eztv.re]",
-            "btih": "79ec99e8f5d8bd8487d4d3e8e088ae7ec4b295ec",
+            "id": 95,
+            "name": "Andor.S01.PROPER.WEBRip.x264-ION10[eztv.re]",
+            "btih": "ae6d14b0365942854b75999ade39ca9cf46e7113",
             "resolution": "4320",
-            "encoding": "265",
-            "gigabytes": 3.836507972,
-            "creation": "2022-11-23T13:51:22.000000000Z,EZTV,Visit us: https://eztv.re/",
+            "encoding": "264",
+            "gigabytes": 5.253745142,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 103907,
-            "seed": 5096
+            "peer": 100524,
+            "seed": 3842
         },
         {
             "id": 19,
@@ -1956,106 +1851,22 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 103655,
-            "seed": 6068
+            "peer": 100441,
+            "seed": 5993
         },
         {
-            "id": 77,
-            "name": "Andor.S01.720p.DSNP.WEBRip.DDP5.1.Atmos.x264-NTb[eztv.re]",
-            "btih": "d89bd380a8b869059f76f4f906f6279936a118c7",
-            "resolution": "720",
-            "encoding": "264",
-            "gigabytes": 14.418234161,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 103638,
-            "seed": 3246
-        },
-        {
-            "id": 80,
-            "name": "Andor.S01.720p.Ultradox",
-            "btih": "fc7c10c5748691bfdd21b7dfb465a194f7cd671d",
-            "resolution": "720",
-            "encoding": "none",
-            "gigabytes": 12.438400415,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 103390,
-            "seed": 985
-        },
-        {
-            "id": 188,
-            "name": "Star Wars Andor Season 1 Dual Audio [Hindi-DD5.1] 720p HDRip ESubs - ExtraMovies",
-            "btih": "97b7d312d2e36acf8d9dc9945c403e56d20d6aa2",
-            "resolution": "720",
-            "encoding": "none",
-            "gigabytes": 5.418355868,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 103131,
-            "seed": 1650
-        },
-        {
-            "id": 151,
-            "name": "Andor.S01E12.Rix.Road.1080p.DSNP.WEBRip.DDP5.1.H.264-NTb[TGx]",
-            "btih": "50636377a6e44579d001eccecb582259bdbbb58a",
+            "id": 181,
+            "name": "Star Wars Andor 1x12 La calle rix 1080p.DSNP WEB-DL DUAL DDP5.1 H.264.mkv",
+            "btih": "c9d59f104fe483283a4935b672a0f2d4156d0e65",
             "resolution": "1080",
             "encoding": "264",
-            "gigabytes": 2.767785505,
+            "gigabytes": 2.871121615,
             "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 103118,
-            "seed": 6202
-        },
-        {
-            "id": 116,
-            "name": "Andor.S01E12.1080p.WEB.H264-GGEZ[TGx]",
-            "btih": "a2a85d3fdeda5de0a972d0f1911b7e921eabb943",
-            "resolution": "1080",
-            "encoding": "264",
-            "gigabytes": 2.767805556,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 103036,
-            "seed": 3346
-        },
-        {
-            "id": 237,
-            "name": "【高清剧集网 www.BTHDTV.com】安多 第一季[全12集][国英多音轨+简繁英字幕].Star.Wars.Andor.S01.2022.DSNP.WEB-DL.2160p.HEVC.HDR.DDP-Xiaomi",
-            "btih": "7c965a3485034c74f47abf05e84b7f236f9e993b",
-            "resolution": "2160",
-            "encoding": "none",
-            "gigabytes": 82.736173363,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 102952,
-            "seed": 1645
-        },
-        {
-            "id": 75,
-            "name": "Andor.S01.480p.x264-ZMNT",
-            "btih": "93efec33a8181be83876adbaf04b53be3fd372a7",
-            "resolution": "sd",
-            "encoding": "264",
-            "gigabytes": 2.211827737,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 102834,
-            "seed": 1225
+            "peer": 99407,
+            "seed": 3823
         },
         {
             "id": 170,
@@ -2068,22 +1879,134 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 102321,
-            "seed": 2498
+            "peer": 99150,
+            "seed": 2454
         },
         {
-            "id": 206,
-            "name": "Star.Wars.Andor.S01E12.Episodio.Dodici.1080p.DSNP.WEBRip.HEVC.ITA.ENG.DD5.1.x265-BlackBit.mkv",
-            "btih": "9a2c18e7507a8e4c015cdb4cac6a4c5b08f45833",
+            "id": 236,
+            "name": "【高清剧集网 www.BTHDTV.com】安多 第一季[全12集][国英多音轨+简繁英字幕].Star.Wars.Andor.S01.2022.DSNP.WEB-DL.1080p.H264.DDP-Xiaomi",
+            "btih": "fd9459442ab3a75e862b693167835ababe806911",
             "resolution": "1080",
-            "encoding": "265",
-            "gigabytes": 1.641368623,
+            "encoding": "264",
+            "gigabytes": 27.376568099,
             "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 102320,
-            "seed": 1014
+            "peer": 99088,
+            "seed": 1607
+        },
+        {
+            "id": 4601,
+            "name": "multi-btih-2-2-x-Andor.S01.1080p.WEBRip.x265-RARBG-[rarbg.to]",
+            "btih": "7cf730f7c88b283574e2b322a0407187deb3eaee",
+            "resolution": "1080",
+            "encoding": "265",
+            "gigabytes": 9.153375972,
+            "creation": "2022-11-23T11:51:29.000000000Z,RARBG,Torrent downloaded from https://rarbg.to",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 98931,
+            "seed": 4037
+        },
+        {
+            "id": 188,
+            "name": "Star Wars Andor Season 1 Dual Audio [Hindi-DD5.1] 720p HDRip ESubs - ExtraMovies",
+            "btih": "97b7d312d2e36acf8d9dc9945c403e56d20d6aa2",
+            "resolution": "720",
+            "encoding": "none",
+            "gigabytes": 5.418355868,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 98621,
+            "seed": 1525
+        },
+        {
+            "id": 50,
+            "name": "Andor.2022.S01E12.MULTi.2160p.DSNP.WEB-DL.HDR.HEVC.DDP5.1-K83.mkv",
+            "btih": "ce3ae569c2252a13771f3933353bae837c7222ca",
+            "resolution": "2160",
+            "encoding": "none",
+            "gigabytes": 5.522285022,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 98436,
+            "seed": 646
+        },
+        {
+            "id": 151,
+            "name": "Andor.S01E12.Rix.Road.1080p.DSNP.WEBRip.DDP5.1.H.264-NTb[TGx]",
+            "btih": "50636377a6e44579d001eccecb582259bdbbb58a",
+            "resolution": "1080",
+            "encoding": "264",
+            "gigabytes": 2.767785505,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 98210,
+            "seed": 5963
+        },
+        {
+            "id": 185,
+            "name": "Star Wars Andor S01E12 (2022) WEB-DL [Dublado Portugues] MOSTBET",
+            "btih": "eb1a9d2e8045708490ea24886674550fd9c60137",
+            "resolution": "720",
+            "encoding": "none",
+            "gigabytes": 0.642792306,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 97839,
+            "seed": 802
+        },
+        {
+            "id": 24,
+            "name": "Andor (2022) S01 (1080p WEB-DL AV1 10bit Opus 5.1 KaNNa)",
+            "btih": "d6a31f186885a3be511195631ad2b303519d0851",
+            "resolution": "1080",
+            "encoding": "none",
+            "gigabytes": 5.695032295,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 97456,
+            "seed": 1956
+        },
+        {
+            "id": 237,
+            "name": "【高清剧集网 www.BTHDTV.com】安多 第一季[全12集][国英多音轨+简繁英字幕].Star.Wars.Andor.S01.2022.DSNP.WEB-DL.2160p.HEVC.HDR.DDP-Xiaomi",
+            "btih": "7c965a3485034c74f47abf05e84b7f236f9e993b",
+            "resolution": "2160",
+            "encoding": "none",
+            "gigabytes": 82.736173363,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 97379,
+            "seed": 1410
+        },
+        {
+            "id": 75,
+            "name": "Andor.S01.480p.x264-ZMNT",
+            "btih": "93efec33a8181be83876adbaf04b53be3fd372a7",
+            "resolution": "sd",
+            "encoding": "264",
+            "gigabytes": 2.211827737,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 97042,
+            "seed": 1152
         },
         {
             "id": 30,
@@ -2096,36 +2019,36 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 101021,
-            "seed": 812
+            "peer": 96851,
+            "seed": 723
         },
         {
-            "id": 201,
-            "name": "Star.Wars.Andor.S01.SweSub-EngSub.1080p.x264-Justiso",
-            "btih": "f86e27068e50fff92e704a89cfcbf73677054540",
-            "resolution": "1080",
-            "encoding": "264",
-            "gigabytes": 10.691108245,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 100807,
-            "seed": 920
-        },
-        {
-            "id": 63,
-            "name": "Andor.S01.1080p.x265-ZMNT",
-            "btih": "c514cf326d455d9735f745a962fda8a77fcf13b2",
-            "resolution": "1080",
+            "id": 109,
+            "name": "Andor.S01.WEBRip.x265-ION265[eztv.re]",
+            "btih": "79ec99e8f5d8bd8487d4d3e8e088ae7ec4b295ec",
+            "resolution": "4320",
             "encoding": "265",
-            "gigabytes": 7.726025432,
+            "gigabytes": 3.836507972,
+            "creation": "2022-11-23T13:51:22.000000000Z,EZTV,Visit us: https://eztv.re/",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 96624,
+            "seed": 4925
+        },
+        {
+            "id": 80,
+            "name": "Andor.S01.720p.Ultradox",
+            "btih": "fc7c10c5748691bfdd21b7dfb465a194f7cd671d",
+            "resolution": "720",
+            "encoding": "none",
+            "gigabytes": 12.438400415,
             "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 100747,
-            "seed": 4041
+            "peer": 96580,
+            "seed": 923
         },
         {
             "id": 2,
@@ -2138,8 +2061,50 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 100286,
-            "seed": 1134
+            "peer": 96504,
+            "seed": 1112
+        },
+        {
+            "id": 116,
+            "name": "Andor.S01E12.1080p.WEB.H264-GGEZ[TGx]",
+            "btih": "a2a85d3fdeda5de0a972d0f1911b7e921eabb943",
+            "resolution": "1080",
+            "encoding": "264",
+            "gigabytes": 2.767805556,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 96231,
+            "seed": 3198
+        },
+        {
+            "id": 206,
+            "name": "Star.Wars.Andor.S01E12.Episodio.Dodici.1080p.DSNP.WEBRip.HEVC.ITA.ENG.DD5.1.x265-BlackBit.mkv",
+            "btih": "9a2c18e7507a8e4c015cdb4cac6a4c5b08f45833",
+            "resolution": "1080",
+            "encoding": "265",
+            "gigabytes": 1.641368623,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 95888,
+            "seed": 986
+        },
+        {
+            "id": 77,
+            "name": "Andor.S01.720p.DSNP.WEBRip.DDP5.1.Atmos.x264-NTb[eztv.re]",
+            "btih": "d89bd380a8b869059f76f4f906f6279936a118c7",
+            "resolution": "720",
+            "encoding": "264",
+            "gigabytes": 14.418234161,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 94598,
+            "seed": 3180
         },
         {
             "id": 111,
@@ -2152,22 +2117,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 99576,
-            "seed": 467
-        },
-        {
-            "id": 91,
-            "name": "Andor.S01.ITA.ENG.DSNP.WEBRip.XviD-Pir8",
-            "btih": "5e5ac591931a267bdb699edf734958b3bc80d042",
-            "resolution": "sd",
-            "encoding": "xvid",
-            "gigabytes": 5.639377952,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 99381,
-            "seed": 2290
+            "peer": 93562,
+            "seed": 450
         },
         {
             "id": 89,
@@ -2180,92 +2131,22 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 97826,
-            "seed": 1034
+            "peer": 92684,
+            "seed": 1004
         },
         {
-            "id": 157,
-            "name": "Andor.S01E12.WEB-DLRip.1080p.ukr.5.1.HDREZKA.STUDIO.mkv",
-            "btih": "df85c11c2c6fa1c173a8796c4350cc0e228dcb78",
-            "resolution": "1080",
-            "encoding": "none",
-            "gigabytes": 2.788761345,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 97057,
-            "seed": 2165
-        },
-        {
-            "id": 74,
-            "name": "Andor.S01.400p.Ultradox",
-            "btih": "f98b419c1f92ab34d8d81c5eeb4c5c985dc298a5",
+            "id": 91,
+            "name": "Andor.S01.ITA.ENG.DSNP.WEBRip.XviD-Pir8",
+            "btih": "5e5ac591931a267bdb699edf734958b3bc80d042",
             "resolution": "sd",
-            "encoding": "none",
-            "gigabytes": 7.698384896,
+            "encoding": "xvid",
+            "gigabytes": 5.639377952,
             "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 97019,
-            "seed": 1291
-        },
-        {
-            "id": 149,
-            "name": "Andor.S01E12.Rix.Road.1080p.CZ.SK.EN.DSNP.WEB-DL.DDP5.1.H.264-NTb.mkv",
-            "btih": "5a658becddaf09e14b682a4f685fd5212d810df3",
-            "resolution": "1080",
-            "encoding": "264",
-            "gigabytes": 2.975280985,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 96120,
-            "seed": 819
-        },
-        {
-            "id": 39,
-            "name": "Andor S01e01-12 (1080p Ita Eng Spa h265 SubS) byMe7alh",
-            "btih": "c58693cc69aec0778f7f1846bf00ba176f06d18b",
-            "resolution": "1080",
-            "encoding": "265",
-            "gigabytes": 8.792561667,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 96001,
-            "seed": 5248
-        },
-        {
-            "id": 26,
-            "name": "Andor (Season 1) (2022) WEBRip-AVC [3xUKR_ENG] [Hurtom]",
-            "btih": "8271830d33d63cb093dd6a12cc6234e0c7df1a6d",
-            "resolution": "sd",
-            "encoding": "none",
-            "gigabytes": 11.055668207,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 95814,
-            "seed": 1379
-        },
-        {
-            "id": 238,
-            "name": "【高清剧集网 www.BTHDTV.com】安多 第一季[全12集][国英多音轨+简繁英字幕].Star.Wars.Andor.S01.2160p.DSNP.WEB-DL.DDP.5.1.Atmos.HDR10.H.265-BlackTV",
-            "btih": "2e0d9d058a9aab251fb2ef94f43a38b841ef9f15",
-            "resolution": "2160",
-            "encoding": "265",
-            "gigabytes": 75.723553063,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 95236,
-            "seed": 1414
+            "peer": 91781,
+            "seed": 2273
         },
         {
             "id": 49,
@@ -2278,8 +2159,36 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 94903,
-            "seed": 484
+            "peer": 91021,
+            "seed": 426
+        },
+        {
+            "id": 201,
+            "name": "Star.Wars.Andor.S01.SweSub-EngSub.1080p.x264-Justiso",
+            "btih": "f86e27068e50fff92e704a89cfcbf73677054540",
+            "resolution": "1080",
+            "encoding": "264",
+            "gigabytes": 10.691108245,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 89708,
+            "seed": 886
+        },
+        {
+            "id": 149,
+            "name": "Andor.S01E12.Rix.Road.1080p.CZ.SK.EN.DSNP.WEB-DL.DDP5.1.H.264-NTb.mkv",
+            "btih": "5a658becddaf09e14b682a4f685fd5212d810df3",
+            "resolution": "1080",
+            "encoding": "264",
+            "gigabytes": 2.975280985,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 89694,
+            "seed": 801
         },
         {
             "id": 35,
@@ -2292,22 +2201,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 94524,
-            "seed": 1265
-        },
-        {
-            "id": 127,
-            "name": "Andor.S01E12.480p.x264-RUBiK",
-            "btih": "aeac0d7603761efe59e69adf6e8a297a9c74d858",
-            "resolution": "sd",
-            "encoding": "264",
-            "gigabytes": 0.362254586,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 94505,
-            "seed": 706
+            "peer": 89658,
+            "seed": 1097
         },
         {
             "id": 47,
@@ -2320,106 +2215,50 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 93882,
-            "seed": 754
+            "peer": 89426,
+            "seed": 715
         },
         {
-            "id": 183,
-            "name": "Star Wars Andor S01E12 (2022) 1080p WEB-DL [Dublado Portugues] MOSTBET",
-            "btih": "a879fb2731cfa4bebbd43bbdd638add90be11d36",
-            "resolution": "1080",
-            "encoding": "none",
-            "gigabytes": 2.410953397,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 93453,
-            "seed": 1205
-        },
-        {
-            "id": 36,
-            "name": "Andor 4K",
-            "btih": "ba6bfaa813b01df7ffbd28d6921c03f9cd28d5eb",
+            "id": 26,
+            "name": "Andor (Season 1) (2022) WEBRip-AVC [3xUKR_ENG] [Hurtom]",
+            "btih": "8271830d33d63cb093dd6a12cc6234e0c7df1a6d",
             "resolution": "sd",
             "encoding": "none",
-            "gigabytes": 11.027245808,
+            "gigabytes": 11.055668207,
             "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 93056,
-            "seed": 658
+            "peer": 89155,
+            "seed": 1346
         },
         {
-            "id": 219,
-            "name": "Star.Wars.Andor.The.TV.Film.Cuts-s01.x265.1080p-NumeralJ",
-            "btih": "94a614b2c5f62ebc5a0d138e6c2be3244607ec17",
-            "resolution": "1080",
-            "encoding": "265",
-            "gigabytes": 26.173573974,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 92780,
-            "seed": 1382
-        },
-        {
-            "id": 158,
-            "name": "Andor.S01E12.WEB-DLRip.400p.ukr.2.0.HDREZKA.STUDIO.avi",
-            "btih": "58ab31e50b07e07919235dda381dfb75039524d0",
-            "resolution": "sd",
-            "encoding": "none",
-            "gigabytes": 0.771641344,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 92607,
-            "seed": 1489
-        },
-        {
-            "id": 138,
-            "name": "Andor.S01E12.720p.WEB.h264-KOGi[TGx]",
-            "btih": "7d28352a55472dc49454f2b2e6b14803bb50b2c6",
-            "resolution": "720",
-            "encoding": "264",
-            "gigabytes": 1.517127352,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 91997,
-            "seed": 2033
-        },
-        {
-            "id": 218,
-            "name": "Star.Wars.Andor.S01E12.WEBRip.720p.rus.5.1.HDREZKA.STUDIO.mkv",
-            "btih": "7812065047b3e5f94bd9c2621898c1c0e609b6f1",
-            "resolution": "720",
-            "encoding": "none",
-            "gigabytes": 1.243472887,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 91742,
-            "seed": 1395
-        },
-        {
-            "id": 231,
-            "name": "Андор Andor Сезон 1 Серии 1-12 из 12 (Бенджамин Карон) [2022, США, фантастика, боевик, триллер, драма, приключения, HEVC, [rutracker-6270661]",
-            "btih": "3e62d000ea83106b26ac0b9c08e2f4b8df39d737",
+            "id": 238,
+            "name": "【高清剧集网 www.BTHDTV.com】安多 第一季[全12集][国英多音轨+简繁英字幕].Star.Wars.Andor.S01.2160p.DSNP.WEB-DL.DDP.5.1.Atmos.HDR10.H.265-BlackTV",
+            "btih": "2e0d9d058a9aab251fb2ef94f43a38b841ef9f15",
             "resolution": "2160",
-            "encoding": "none",
-            "gigabytes": 67.352106654,
-            "creation": "2022-11-26T14:55:27.000000000Z,uTorrent/3.5.5,https://rutracker.org/forum/viewtopic.php?t=6270661",
+            "encoding": "265",
+            "gigabytes": 75.723553063,
+            "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 91348,
-            "seed": 1306
+            "peer": 88546,
+            "seed": 1339
+        },
+        {
+            "id": 157,
+            "name": "Andor.S01E12.WEB-DLRip.1080p.ukr.5.1.HDREZKA.STUDIO.mkv",
+            "btih": "df85c11c2c6fa1c173a8796c4350cc0e228dcb78",
+            "resolution": "1080",
+            "encoding": "none",
+            "gigabytes": 2.788761345,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 88401,
+            "seed": 563
         },
         {
             "id": 118,
@@ -2432,8 +2271,106 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 90548,
-            "seed": 2076
+            "peer": 88274,
+            "seed": 2045
+        },
+        {
+            "id": 158,
+            "name": "Andor.S01E12.WEB-DLRip.400p.ukr.2.0.HDREZKA.STUDIO.avi",
+            "btih": "58ab31e50b07e07919235dda381dfb75039524d0",
+            "resolution": "sd",
+            "encoding": "none",
+            "gigabytes": 0.771641344,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 87776,
+            "seed": 1451
+        },
+        {
+            "id": 36,
+            "name": "Andor 4K",
+            "btih": "ba6bfaa813b01df7ffbd28d6921c03f9cd28d5eb",
+            "resolution": "sd",
+            "encoding": "none",
+            "gigabytes": 11.027245808,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 87128,
+            "seed": 643
+        },
+        {
+            "id": 74,
+            "name": "Andor.S01.400p.Ultradox",
+            "btih": "f98b419c1f92ab34d8d81c5eeb4c5c985dc298a5",
+            "resolution": "sd",
+            "encoding": "none",
+            "gigabytes": 7.698384896,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 87063,
+            "seed": 1214
+        },
+        {
+            "id": 127,
+            "name": "Andor.S01E12.480p.x264-RUBiK",
+            "btih": "aeac0d7603761efe59e69adf6e8a297a9c74d858",
+            "resolution": "sd",
+            "encoding": "264",
+            "gigabytes": 0.362254586,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 86967,
+            "seed": 684
+        },
+        {
+            "id": 219,
+            "name": "Star.Wars.Andor.The.TV.Film.Cuts-s01.x265.1080p-NumeralJ",
+            "btih": "94a614b2c5f62ebc5a0d138e6c2be3244607ec17",
+            "resolution": "1080",
+            "encoding": "265",
+            "gigabytes": 26.173573974,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 86890,
+            "seed": 1276
+        },
+        {
+            "id": 39,
+            "name": "Andor S01e01-12 (1080p Ita Eng Spa h265 SubS) byMe7alh",
+            "btih": "c58693cc69aec0778f7f1846bf00ba176f06d18b",
+            "resolution": "1080",
+            "encoding": "265",
+            "gigabytes": 8.792561667,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 86557,
+            "seed": 5084
+        },
+        {
+            "id": 63,
+            "name": "Andor.S01.1080p.x265-ZMNT",
+            "btih": "c514cf326d455d9735f745a962fda8a77fcf13b2",
+            "resolution": "1080",
+            "encoding": "265",
+            "gigabytes": 7.726025432,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 86471,
+            "seed": 3868
         },
         {
             "id": 239,
@@ -2446,8 +2383,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 90420,
-            "seed": 848
+            "peer": 85677,
+            "seed": 798
         },
         {
             "id": 150,
@@ -2460,106 +2397,36 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 90320,
-            "seed": 2447
+            "peer": 85304,
+            "seed": 2332
         },
         {
-            "id": 28,
-            "name": "Andor - S01E12 - Rix Road.mkv",
-            "btih": "72b57e61a566ad9fe31e207a6e7fe15b805846bb",
-            "resolution": "sd",
-            "encoding": "none",
-            "gigabytes": 0.451574431,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 90062,
-            "seed": 604
-        },
-        {
-            "id": 207,
-            "name": "Star.Wars.Andor.S01E12.Episodio.Dodici.1080p.DSNP.WEBRip.ITA.ENG.DD5.1.x264-BlackBit.mkv",
-            "btih": "86bb697b022bba35f70241d1bca38f78a45bad6c",
-            "resolution": "1080",
-            "encoding": "264",
-            "gigabytes": 2.949980489,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 89453,
-            "seed": 568
-        },
-        {
-            "id": 220,
-            "name": "Star.Wars.Andor.The.TV.Film.Cuts-s01.x265.HDR.2160p-NumeralJ",
-            "btih": "a2f33daefbdd0259d0c0768a1d5db8bc2753ffeb",
-            "resolution": "2160",
-            "encoding": "265",
-            "gigabytes": 54.947907642,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 89039,
-            "seed": 3634
-        },
-        {
-            "id": 69,
-            "name": "Andor.S01.2160p.DSNP.WEB-DL.x265.10bit.HDR.DDP5.1.Atmos-NTb[rartv]-[rarbg.to]",
-            "btih": "ca021d2d1e57cab4312ad4b03da6793e5f6e0d6b",
-            "resolution": "2160",
-            "encoding": "265",
-            "gigabytes": 55.934493644,
-            "creation": "2022-11-23T08:40:11.000000000Z,mktorrent 1.0,Torrent downloaded from https://rarbg.to",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 88961,
-            "seed": 7790
-        },
-        {
-            "id": 139,
-            "name": "Andor.S01E12.720p.WEB.x265-MiNX[TGx]",
-            "btih": "e8a3c90a9678614ed6bc55ec020edf47e718ddcd",
+            "id": 138,
+            "name": "Andor.S01E12.720p.WEB.h264-KOGi[TGx]",
+            "btih": "7d28352a55472dc49454f2b2e6b14803bb50b2c6",
             "resolution": "720",
-            "encoding": "265",
-            "gigabytes": 0.232598827,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 88130,
-            "seed": 1426
-        },
-        {
-            "id": 106,
-            "name": "Andor.s01.WEBRip.x264.Ukr.Eng.BaibaKo.tv",
-            "btih": "f14e58daecf532aa73f9864c8872c58058a780d2",
-            "resolution": "sd",
             "encoding": "264",
-            "gigabytes": 6.484562356,
+            "gigabytes": 1.517127352,
             "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 87319,
-            "seed": 639
+            "peer": 84852,
+            "seed": 1956
         },
         {
-            "id": 205,
-            "name": "Star.Wars.Andor.S01E12.2160p.DSNP.WEB-DL.DDPA5.1.HDR.HEVC-NTb",
-            "btih": "8f6ec04c8cf9e370f39fe2dbd4311cf9895ba974",
+            "id": 231,
+            "name": "Андор Andor Сезон 1 Серии 1-12 из 12 (Бенджамин Карон) [2022, США, фантастика, боевик, триллер, драма, приключения, HEVC, [rutracker-6270661]",
+            "btih": "3e62d000ea83106b26ac0b9c08e2f4b8df39d737",
             "resolution": "2160",
             "encoding": "none",
-            "gigabytes": 5.419029895,
-            "creation": "1970-01-01T00:00:00.000000000Z",
+            "gigabytes": 67.352106654,
+            "creation": "2022-11-26T14:55:27.000000000Z,uTorrent/3.5.5,https://rutracker.org/forum/viewtopic.php?t=6270661",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 87088,
-            "seed": 725
+            "peer": 84259,
+            "seed": 1263
         },
         {
             "id": 204,
@@ -2572,22 +2439,36 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 87086,
-            "seed": 4473
+            "peer": 83800,
+            "seed": 4321
         },
         {
-            "id": 86,
-            "name": "Andor.s01.HD720p.WEBRip.Ukr.Eng.BaibaKo.tv",
-            "btih": "a56af50a80939b5a5b02d9ae4411a0a75b54e65b",
-            "resolution": "720",
-            "encoding": "none",
-            "gigabytes": 20.113645407,
+            "id": 220,
+            "name": "Star.Wars.Andor.The.TV.Film.Cuts-s01.x265.HDR.2160p-NumeralJ",
+            "btih": "a2f33daefbdd0259d0c0768a1d5db8bc2753ffeb",
+            "resolution": "2160",
+            "encoding": "265",
+            "gigabytes": 54.947907642,
             "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 86983,
-            "seed": 1160
+            "peer": 83268,
+            "seed": 3599
+        },
+        {
+            "id": 28,
+            "name": "Andor - S01E12 - Rix Road.mkv",
+            "btih": "72b57e61a566ad9fe31e207a6e7fe15b805846bb",
+            "resolution": "sd",
+            "encoding": "none",
+            "gigabytes": 0.451574431,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 83115,
+            "seed": 582
         },
         {
             "id": 113,
@@ -2600,22 +2481,22 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 86912,
-            "seed": 420
+            "peer": 83037,
+            "seed": 409
         },
         {
-            "id": 133,
-            "name": "Andor.S01E12.720p.rus.LostFilm.TV.mp4",
-            "btih": "ed727702660ba9d0028d41aac636afed93e56b2d",
-            "resolution": "720",
+            "id": 183,
+            "name": "Star Wars Andor S01E12 (2022) 1080p WEB-DL [Dublado Portugues] MOSTBET",
+            "btih": "a879fb2731cfa4bebbd43bbdd638add90be11d36",
+            "resolution": "1080",
             "encoding": "none",
-            "gigabytes": 1.635263892,
+            "gigabytes": 2.410953397,
             "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 86562,
-            "seed": 333
+            "peer": 82819,
+            "seed": 1192
         },
         {
             "id": 117,
@@ -2628,22 +2509,36 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 86520,
-            "seed": 3278
+            "peer": 82651,
+            "seed": 3150
         },
         {
-            "id": 32,
-            "name": "Andor 1 - LostFilm.TV [1080p]",
-            "btih": "1ebf73f2a5a81f3b98c7341e6bcd6385dc95e53d",
-            "resolution": "1080",
+            "id": 218,
+            "name": "Star.Wars.Andor.S01E12.WEBRip.720p.rus.5.1.HDREZKA.STUDIO.mkv",
+            "btih": "7812065047b3e5f94bd9c2621898c1c0e609b6f1",
+            "resolution": "720",
             "encoding": "none",
-            "gigabytes": 29.395076213,
+            "gigabytes": 1.243472887,
             "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 86449,
-            "seed": 6016
+            "peer": 82650,
+            "seed": 869
+        },
+        {
+            "id": 207,
+            "name": "Star.Wars.Andor.S01E12.Episodio.Dodici.1080p.DSNP.WEBRip.ITA.ENG.DD5.1.x264-BlackBit.mkv",
+            "btih": "86bb697b022bba35f70241d1bca38f78a45bad6c",
+            "resolution": "1080",
+            "encoding": "264",
+            "gigabytes": 2.949980489,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 82318,
+            "seed": 552
         },
         {
             "id": 196,
@@ -2656,22 +2551,36 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 86362,
-            "seed": 950
+            "peer": 81855,
+            "seed": 902
         },
         {
-            "id": 40,
-            "name": "Andor S01e01-12 (720p Ita Eng Spa SubS) byMe7alh",
-            "btih": "12d5697b5cd69386aba42db2e3b85e0a110246ea",
+            "id": 139,
+            "name": "Andor.S01E12.720p.WEB.x265-MiNX[TGx]",
+            "btih": "e8a3c90a9678614ed6bc55ec020edf47e718ddcd",
             "resolution": "720",
-            "encoding": "none",
-            "gigabytes": 15.594639145,
+            "encoding": "265",
+            "gigabytes": 0.232598827,
             "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 86187,
-            "seed": 3264
+            "peer": 81716,
+            "seed": 1383
+        },
+        {
+            "id": 86,
+            "name": "Andor.s01.HD720p.WEBRip.Ukr.Eng.BaibaKo.tv",
+            "btih": "a56af50a80939b5a5b02d9ae4411a0a75b54e65b",
+            "resolution": "720",
+            "encoding": "none",
+            "gigabytes": 20.113645407,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 81709,
+            "seed": 1127
         },
         {
             "id": 43,
@@ -2684,22 +2593,36 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 85444,
-            "seed": 336
+            "peer": 81300,
+            "seed": 319
         },
         {
-            "id": 215,
-            "name": "Star.Wars.Andor.S01E12.Rix.Road.1080p.DSNP.WEB-DL.DDP5.1.H.264-GNom.mkv",
-            "btih": "598c12703c243d30c07a957723cc2d969673502b",
-            "resolution": "1080",
-            "encoding": "264",
-            "gigabytes": 2.871037658,
+            "id": 133,
+            "name": "Andor.S01E12.720p.rus.LostFilm.TV.mp4",
+            "btih": "ed727702660ba9d0028d41aac636afed93e56b2d",
+            "resolution": "720",
+            "encoding": "none",
+            "gigabytes": 1.635263892,
             "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 85228,
-            "seed": 1927
+            "peer": 80397,
+            "seed": 314
+        },
+        {
+            "id": 205,
+            "name": "Star.Wars.Andor.S01E12.2160p.DSNP.WEB-DL.DDPA5.1.HDR.HEVC-NTb",
+            "btih": "8f6ec04c8cf9e370f39fe2dbd4311cf9895ba974",
+            "resolution": "2160",
+            "encoding": "none",
+            "gigabytes": 5.419029895,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 80108,
+            "seed": 649
         },
         {
             "id": 156,
@@ -2712,22 +2635,36 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 84035,
-            "seed": 515
+            "peer": 79466,
+            "seed": 504
         },
         {
-            "id": 153,
-            "name": "Andor.S01E12.Rix.Road.2160p.HDR.H265.CZ.SK.EN.DSNP.WEB-DL.DDP5.1.H.264-ggez.mkv",
-            "btih": "b034847f270d3aec824bc0581aa7c15e5175522f",
-            "resolution": "2160",
-            "encoding": "265",
-            "gigabytes": 5.626534146,
+            "id": 106,
+            "name": "Andor.s01.WEBRip.x264.Ukr.Eng.BaibaKo.tv",
+            "btih": "f14e58daecf532aa73f9864c8872c58058a780d2",
+            "resolution": "sd",
+            "encoding": "264",
+            "gigabytes": 6.484562356,
             "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 82933,
-            "seed": 893
+            "peer": 78977,
+            "seed": 615
+        },
+        {
+            "id": 40,
+            "name": "Andor S01e01-12 (720p Ita Eng Spa SubS) byMe7alh",
+            "btih": "12d5697b5cd69386aba42db2e3b85e0a110246ea",
+            "resolution": "720",
+            "encoding": "none",
+            "gigabytes": 15.594639145,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 78776,
+            "seed": 3228
         },
         {
             "id": 46,
@@ -2740,64 +2677,64 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 82702,
-            "seed": 1733
+            "peer": 78648,
+            "seed": 1532
         },
         {
-            "id": 135,
-            "name": "Andor.S01E12.720p.WEB.h264-KOGi.mkv",
-            "btih": "e119658215ad412d7870d9628d8b8012fdaae750",
-            "resolution": "720",
+            "id": 215,
+            "name": "Star.Wars.Andor.S01E12.Rix.Road.1080p.DSNP.WEB-DL.DDP5.1.H.264-GNom.mkv",
+            "btih": "598c12703c243d30c07a957723cc2d969673502b",
+            "resolution": "1080",
             "encoding": "264",
-            "gigabytes": 1.517122959,
+            "gigabytes": 2.871037658,
             "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 82303,
-            "seed": 895
+            "peer": 78300,
+            "seed": 1841
         },
         {
-            "id": 29,
-            "name": "Andor - Season 1 (2022) WEBRip 1080p [Ukr.Eng] [Цікава Ідея]",
-            "btih": "b46ed4ca918a08535fde0d7f989e4ffad3c5e9cb",
+            "id": 32,
+            "name": "Andor 1 - LostFilm.TV [1080p]",
+            "btih": "1ebf73f2a5a81f3b98c7341e6bcd6385dc95e53d",
             "resolution": "1080",
             "encoding": "none",
-            "gigabytes": 25.496718823,
+            "gigabytes": 29.395076213,
             "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 81273,
-            "seed": 1324
+            "peer": 78263,
+            "seed": 5889
         },
         {
-            "id": 82,
-            "name": "Andor.S01.720p.x265-ZMNT",
-            "btih": "5603d51ed28bac563689e66f7fcd138b26141ffd",
-            "resolution": "720",
+            "id": 69,
+            "name": "Andor.S01.2160p.DSNP.WEB-DL.x265.10bit.HDR.DDP5.1.Atmos-NTb[rartv]-[rarbg.to]",
+            "btih": "ca021d2d1e57cab4312ad4b03da6793e5f6e0d6b",
+            "resolution": "2160",
             "encoding": "265",
-            "gigabytes": 4.858079558,
-            "creation": "1970-01-01T00:00:00.000000000Z",
+            "gigabytes": 55.934493644,
+            "creation": "2022-11-23T08:40:11.000000000Z,mktorrent 1.0,Torrent downloaded from https://rarbg.to",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 80248,
-            "seed": 1886
+            "peer": 77604,
+            "seed": 7673
         },
         {
-            "id": 101,
-            "name": "Andor.S01.WEB-DL.720p.sbor",
-            "btih": "baa51259516c7db41e04cb720ef04d84311c1a4a",
-            "resolution": "720",
-            "encoding": "none",
-            "gigabytes": 19.71596256,
+            "id": 153,
+            "name": "Andor.S01E12.Rix.Road.2160p.HDR.H265.CZ.SK.EN.DSNP.WEB-DL.DDP5.1.H.264-ggez.mkv",
+            "btih": "b034847f270d3aec824bc0581aa7c15e5175522f",
+            "resolution": "2160",
+            "encoding": "265",
+            "gigabytes": 5.626534146,
             "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 80052,
-            "seed": 688
+            "peer": 77270,
+            "seed": 836
         },
         {
             "id": 99,
@@ -2810,22 +2747,36 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 79439,
-            "seed": 4593
+            "peer": 76469,
+            "seed": 4574
         },
         {
-            "id": 155,
-            "name": "Andor.S01E12.Rix.Road.720p.DSNP.WEBRip.DDP5.1.x264-NTb[TGx]",
-            "btih": "7a57ca558d195f002a0079c92f3951b4c7aa08c7",
+            "id": 101,
+            "name": "Andor.S01.WEB-DL.720p.sbor",
+            "btih": "baa51259516c7db41e04cb720ef04d84311c1a4a",
             "resolution": "720",
-            "encoding": "264",
-            "gigabytes": 1.51715185,
+            "encoding": "none",
+            "gigabytes": 19.71596256,
             "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 79233,
-            "seed": 880
+            "peer": 76307,
+            "seed": 634
+        },
+        {
+            "id": 135,
+            "name": "Andor.S01E12.720p.WEB.h264-KOGi.mkv",
+            "btih": "e119658215ad412d7870d9628d8b8012fdaae750",
+            "resolution": "720",
+            "encoding": "264",
+            "gigabytes": 1.517122959,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 76239,
+            "seed": 830
         },
         {
             "id": 76,
@@ -2838,36 +2789,36 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 78379,
-            "seed": 1213
+            "peer": 74238,
+            "seed": 1199
         },
         {
-            "id": 85,
-            "name": "Andor.s01.HD1080p.WEBRip.Ukr.Eng.BaibaKo.tv",
-            "btih": "9bf7fe286a799cbe17398d65800200129189f243",
-            "resolution": "1080",
-            "encoding": "none",
-            "gigabytes": 30.966115965,
+            "id": 155,
+            "name": "Andor.S01E12.Rix.Road.720p.DSNP.WEBRip.DDP5.1.x264-NTb[TGx]",
+            "btih": "7a57ca558d195f002a0079c92f3951b4c7aa08c7",
+            "resolution": "720",
+            "encoding": "264",
+            "gigabytes": 1.51715185,
             "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 77104,
-            "seed": 831
+            "peer": 74111,
+            "seed": 781
         },
         {
-            "id": 169,
-            "name": "Star Wars - Andor (2022) S01 (1080p DSNP Webrip x265 10bit EAC3 5.1 Atmos - Goki)[TAoE]",
-            "btih": "ba8afcc1f85734a9c09696afe0fd1e32f6ec357a",
-            "resolution": "1080",
+            "id": 82,
+            "name": "Andor.S01.720p.x265-ZMNT",
+            "btih": "5603d51ed28bac563689e66f7fcd138b26141ffd",
+            "resolution": "720",
             "encoding": "265",
-            "gigabytes": 11.892986969,
+            "gigabytes": 4.858079558,
             "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 76548,
-            "seed": 733
+            "peer": 73323,
+            "seed": 1844
         },
         {
             "id": 184,
@@ -2880,8 +2831,36 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 75804,
-            "seed": 506
+            "peer": 72973,
+            "seed": 490
+        },
+        {
+            "id": 29,
+            "name": "Andor - Season 1 (2022) WEBRip 1080p [Ukr.Eng] [Цікава Ідея]",
+            "btih": "b46ed4ca918a08535fde0d7f989e4ffad3c5e9cb",
+            "resolution": "1080",
+            "encoding": "none",
+            "gigabytes": 25.496718823,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 72865,
+            "seed": 1261
+        },
+        {
+            "id": 85,
+            "name": "Andor.s01.HD1080p.WEBRip.Ukr.Eng.BaibaKo.tv",
+            "btih": "9bf7fe286a799cbe17398d65800200129189f243",
+            "resolution": "1080",
+            "encoding": "none",
+            "gigabytes": 30.966115965,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 70660,
+            "seed": 812
         },
         {
             "id": 192,
@@ -2894,8 +2873,22 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 72630,
-            "seed": 929
+            "peer": 70393,
+            "seed": 877
+        },
+        {
+            "id": 169,
+            "name": "Star Wars - Andor (2022) S01 (1080p DSNP Webrip x265 10bit EAC3 5.1 Atmos - Goki)[TAoE]",
+            "btih": "ba8afcc1f85734a9c09696afe0fd1e32f6ec357a",
+            "resolution": "1080",
+            "encoding": "265",
+            "gigabytes": 11.892986969,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 69844,
+            "seed": 648
         },
         {
             "id": 208,
@@ -2908,8 +2901,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 72133,
-            "seed": 1995
+            "peer": 65846,
+            "seed": 1969
         },
         {
             "id": 25,
@@ -2922,22 +2915,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 71681,
-            "seed": 935
-        },
-        {
-            "id": 209,
-            "name": "Star.Wars.Andor.S01E12.Episodio.Dodici.DSNP.WEBRip.ITA.ENG.x264-BlackBit.mkv",
-            "btih": "616799d9f8501dbf22178f707b58c3bb5d0624b6",
-            "resolution": "sd",
-            "encoding": "264",
-            "gigabytes": 0.415566173,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 70374,
-            "seed": 630
+            "peer": 65297,
+            "seed": 898
         },
         {
             "id": 159,
@@ -2950,8 +2929,22 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 67034,
-            "seed": 740
+            "peer": 64696,
+            "seed": 724
+        },
+        {
+            "id": 209,
+            "name": "Star.Wars.Andor.S01E12.Episodio.Dodici.DSNP.WEBRip.ITA.ENG.x264-BlackBit.mkv",
+            "btih": "616799d9f8501dbf22178f707b58c3bb5d0624b6",
+            "resolution": "sd",
+            "encoding": "264",
+            "gigabytes": 0.415566173,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 63701,
+            "seed": 581
         },
         {
             "id": 38,
@@ -2964,8 +2957,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 66348,
-            "seed": 1830
+            "peer": 62278,
+            "seed": 1756
         },
         {
             "id": 172,
@@ -2978,22 +2971,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 61034,
-            "seed": 581
-        },
-        {
-            "id": 130,
-            "name": "Andor.S01E12.720p.HDTV.Subtitulado.Esp.SC.mp4",
-            "btih": "dad23ffad3570ec5526b4a76b0dd8c2a3de0a0be",
-            "resolution": "720",
-            "encoding": "none",
-            "gigabytes": 0.578655407,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "peer": 60260,
-            "seed": 581
+            "peer": 55884,
+            "seed": 561
         },
         {
             "id": 112,
@@ -3006,22 +2985,22 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 59786,
-            "seed": 415
+            "peer": 55269,
+            "seed": 393
         },
         {
-            "id": 224,
-            "name": "SW Andor - Temporada 1 [WEB-DL 1080p][Cap.112][Dual DDP5.1 + Subs][www.atomoHD.fi]",
-            "btih": "2e2cc35e7c9bef250abe8986d0d0542ddd95a800",
-            "resolution": "1080",
+            "id": 130,
+            "name": "Andor.S01E12.720p.HDTV.Subtitulado.Esp.SC.mp4",
+            "btih": "dad23ffad3570ec5526b4a76b0dd8c2a3de0a0be",
+            "resolution": "720",
             "encoding": "none",
-            "gigabytes": 2.871122842,
+            "gigabytes": 0.578655407,
             "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 55981,
-            "seed": 893
+            "peer": 54207,
+            "seed": 557
         },
         {
             "id": 200,
@@ -3034,8 +3013,22 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "peer": 55614,
-            "seed": 1156
+            "peer": 50170,
+            "seed": 1109
+        },
+        {
+            "id": 224,
+            "name": "SW Andor - Temporada 1 [WEB-DL 1080p][Cap.112][Dual DDP5.1 + Subs][www.atomoHD.fi]",
+            "btih": "2e2cc35e7c9bef250abe8986d0d0542ddd95a800",
+            "resolution": "1080",
+            "encoding": "none",
+            "gigabytes": 2.871122842,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "peer": 48893,
+            "seed": 859
         },
         {
             "id": 62,
@@ -3048,11 +3041,11 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 8909,
-            "seed": 2961
+            "peer": 8543,
+            "seed": 2836
         },
         {
-            "id": 295,
+            "id": 4615,
             "name": "multi-btih-16-2-x-Andor.S01E12.720p.HEVC.x265-MeGusta [IPT]",
             "btih": "04dddf4d1902d69e58326fc26a2ed8cea0645087",
             "resolution": "720",
@@ -3062,8 +3055,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 2786,
-            "seed": 980
+            "peer": 2672,
+            "seed": 950
         },
         {
             "id": 134,
@@ -3076,22 +3069,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 1473,
-            "seed": 270
-        },
-        {
-            "id": 297,
-            "name": "multi-btih-18-2-x-Andor.S01E12.HDR.2160p.WEB.H265-GGEZ [IPT]",
-            "btih": "b3a79199383d76e2dd28d98421deffd9fa82ea10",
-            "resolution": "2160",
-            "encoding": "265",
-            "gigabytes": 5.552179294,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": true,
-            "i2p": false,
-            "peer": 1016,
-            "seed": 251
+            "peer": 1325,
+            "seed": 259
         },
         {
             "id": 143,
@@ -3104,8 +3083,22 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 999,
-            "seed": 479
+            "peer": 971,
+            "seed": 463
+        },
+        {
+            "id": 4617,
+            "name": "multi-btih-18-2-x-Andor.S01E12.HDR.2160p.WEB.H265-GGEZ [IPT]",
+            "btih": "b3a79199383d76e2dd28d98421deffd9fa82ea10",
+            "resolution": "2160",
+            "encoding": "265",
+            "gigabytes": 5.552179294,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": true,
+            "i2p": false,
+            "peer": 921,
+            "seed": 240
         },
         {
             "id": 84,
@@ -3118,11 +3111,11 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 694,
-            "seed": 519
+            "peer": 681,
+            "seed": 508
         },
         {
-            "id": 300,
+            "id": 4620,
             "name": "multi-btih-21-2-x-Andor.S01E12.XviD-AFG [IPT]",
             "btih": "4a6e276953c3b84d9e83481da41942287d06feb0",
             "resolution": "sd",
@@ -3132,8 +3125,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 568,
-            "seed": 442
+            "peer": 531,
+            "seed": 412
         },
         {
             "id": 141,
@@ -3146,8 +3139,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 194,
-            "seed": 169
+            "peer": 189,
+            "seed": 164
         },
         {
             "id": 37,
@@ -3160,22 +3153,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 117,
+            "peer": 116,
             "seed": 50
-        },
-        {
-            "id": 199,
-            "name": "Star.Wars.Andor.S01.MULTi.1080p.DSNP.WEB-DL.DDP5.1.Atmos.H.264.PACK-PSiG",
-            "btih": "06a396e9cd7253ca42db074e1f7092faef777277",
-            "resolution": "1080",
-            "encoding": "264",
-            "gigabytes": 27.381074343,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": true,
-            "i2p": false,
-            "peer": 105,
-            "seed": 22
         },
         {
             "id": 194,
@@ -3192,6 +3171,20 @@
             "seed": 90
         },
         {
+            "id": 199,
+            "name": "Star.Wars.Andor.S01.MULTi.1080p.DSNP.WEB-DL.DDP5.1.Atmos.H.264.PACK-PSiG",
+            "btih": "06a396e9cd7253ca42db074e1f7092faef777277",
+            "resolution": "1080",
+            "encoding": "264",
+            "gigabytes": 27.381074343,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": true,
+            "i2p": false,
+            "peer": 100,
+            "seed": 22
+        },
+        {
             "id": 198,
             "name": "Star.Wars.Andor.S01.E10.DSNP.WEB-DL.1080p.x264.AC3.DUAL.TR-ENG.TORK.mkv",
             "btih": "76b48ea91936dbd1c39da7d6587928ef2d0d982e",
@@ -3202,8 +3195,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 99,
-            "seed": 85
+            "peer": 97,
+            "seed": 84
         },
         {
             "id": 126,
@@ -3216,8 +3209,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 89,
-            "seed": 62
+            "peer": 87,
+            "seed": 60
         },
         {
             "id": 182,
@@ -3230,7 +3223,7 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 88,
+            "peer": 84,
             "seed": 10
         },
         {
@@ -3244,7 +3237,7 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 55,
+            "peer": 52,
             "seed": 41
         },
         {
@@ -3258,22 +3251,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 9,
+            "peer": 8,
             "seed": 6
-        },
-        {
-            "id": 186,
-            "name": "Star Wars Andor S01E12 720p DSNP WEB-DL [TR-EN-DE] DDP5.1 H264-TURG.mkv",
-            "btih": "314dfb23046bdd41422381575d667118000cb19b",
-            "resolution": "720",
-            "encoding": "264",
-            "gigabytes": 1.724644591,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": true,
-            "i2p": false,
-            "peer": 9,
-            "seed": 1
         },
         {
             "id": 195,
@@ -3290,17 +3269,17 @@
             "seed": 2
         },
         {
-            "id": 92,
-            "name": "Andor.S01.MULTi.720p.DSNP.WEB-DL.DDP5.1.Atmos.H264-TV4TG",
-            "btih": "44551fd5633e4a0057706978119c6fa5a38f6727",
+            "id": 186,
+            "name": "Star Wars Andor S01E12 720p DSNP WEB-DL [TR-EN-DE] DDP5.1 H264-TURG.mkv",
+            "btih": "314dfb23046bdd41422381575d667118000cb19b",
             "resolution": "720",
             "encoding": "264",
-            "gigabytes": 15.455676402,
+            "gigabytes": 1.724644591,
             "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 6,
+            "peer": 7,
             "seed": 1
         },
         {
@@ -3314,36 +3293,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 5,
-            "seed": 2
-        },
-        {
-            "id": 104,
-            "name": "Andor.S01.WEBDL.1080p.2xUkr.Rus.Eng",
-            "btih": "d89564a53be4e990527eb46866b7c80624da508b",
-            "resolution": "1080",
-            "encoding": "none",
-            "gigabytes": 28.305157043,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": true,
-            "i2p": false,
-            "peer": 5,
-            "seed": 1
-        },
-        {
-            "id": 216,
-            "name": "Star.Wars.Andor.S01E12.Rix.Road.1080p.DSNP.WEB-DL.DDP5.1.H.264-NTb-Retail.NLSub.mkv",
-            "btih": "4e36f00d236c80306dcc56a27b211f2a8e5695e4",
-            "resolution": "1080",
-            "encoding": "264",
-            "gigabytes": 2.766873707,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": true,
-            "i2p": false,
             "peer": 4,
-            "seed": 1
+            "seed": 2
         },
         {
             "id": 203,
@@ -3374,6 +3325,48 @@
             "seed": 0
         },
         {
+            "id": 92,
+            "name": "Andor.S01.MULTi.720p.DSNP.WEB-DL.DDP5.1.Atmos.H264-TV4TG",
+            "btih": "44551fd5633e4a0057706978119c6fa5a38f6727",
+            "resolution": "720",
+            "encoding": "264",
+            "gigabytes": 15.455676402,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": true,
+            "i2p": false,
+            "peer": 3,
+            "seed": 1
+        },
+        {
+            "id": 104,
+            "name": "Andor.S01.WEBDL.1080p.2xUkr.Rus.Eng",
+            "btih": "d89564a53be4e990527eb46866b7c80624da508b",
+            "resolution": "1080",
+            "encoding": "none",
+            "gigabytes": 28.305157043,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": true,
+            "i2p": false,
+            "peer": 2,
+            "seed": 0
+        },
+        {
+            "id": 216,
+            "name": "Star.Wars.Andor.S01E12.Rix.Road.1080p.DSNP.WEB-DL.DDP5.1.H.264-NTb-Retail.NLSub.mkv",
+            "btih": "4e36f00d236c80306dcc56a27b211f2a8e5695e4",
+            "resolution": "1080",
+            "encoding": "264",
+            "gigabytes": 2.766873707,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": true,
+            "i2p": false,
+            "peer": 1,
+            "seed": 0
+        },
+        {
             "id": 212,
             "name": "Star.Wars.Andor.s01e12.m4v",
             "btih": "0d9ec4441664511fb1fabcabcd418b38d833f0a6",
@@ -3384,7 +3377,7 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "peer": 3,
+            "peer": 1,
             "seed": 0
         }
     ]
