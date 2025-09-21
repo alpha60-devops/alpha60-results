@@ -35,6 +35,9 @@
   
 ## week duration data
 - south-park-2701-week.json
+  - collection-week
+    - 0-n
+
 - south-park-2701-week-00001-btiha-itemized.json
 - south-park-2701-week-00002-btiha-itemized.json
 - south-park-2701-week-00003-btiha-itemized.json
@@ -42,8 +45,10 @@
 - south-park-2701-week-00005-btiha-itemized.json
 - south-park-2701-week-00006-btiha-itemized.json
 - south-park-2701-week-00007-btiha-itemized.json
-
-
+  - collection-week-7
+  - collection-week-7-itemized
+    - [ 0 - btiha.size() ]
+      - name, btih, creation, peer, seed
 
 
 ```
@@ -59,15 +64,6 @@
 
 // Media object season or episode number
     "collection-id": "2",
-
-// Metadata tags for genre, production, and distribution details. Used for sorting say, Netflix.
-    "collection-tag-genre": ["horror", “scifi”, “teen”, “romance”, “period”],
-    "collection-tag-production": ["netflix","usa”],
-    "collection-tag-distribution": ["netflix"],
-
-// Summary of BTIHA, even if some of the individual BTIH have duplicates.
-// (Ie, t002 and t134 have the same BTIH.
-    "collection-all-btiha": {
 
 // Number of BTIH in BTIHA
         "btiha-size": 274,
@@ -108,73 +104,6 @@
 
 // Given transfer-size above, price cost of bandwidth on AWS
     "transfer-cost": "",
-
-// For the UBTIHA above ie collection-unique-btiha, split the unique peers into groupings based on
-// the resolution of the media media files.
-// Ordered array of different resolution and/or encoding grouping for the media files.
-// Sorted as descending by percentage of upeers. 
-// Groups: 
-// standard definition resolution (sd), encoded with MPEG4/AVC, aka H264
-// standard definition resolution (sd), encoded with XviD
-// ultra high definition resolution (uhd) of 2160p, encoded with any variant
-// high definition resolution (hd) of 1080p, encoded with any variant
-// high definition resolution (hd) of 720p, encoded with any variant
-    "resolution-partitions": [
-        {
-
-// In this case, it is standard definition (sd) video  encoded with H264, with 39% of peers
-            "number": 1,
-            "name": "sd-264",
-            "total-percentage-upeers": "39.71",
-            "total-percentage-bytes": "9.28",
-            "upeers-total": 8161820
-        },
-
-// In this case, it is high definition (hd) video  with the resolution of 720p, with 36% of peers
-        {
-            "number": 2,
-            "name": "720",
-            "total-percentage-upeers": "36.74",
-            "total-percentage-bytes": "28.26",
-            "upeers-total": 7551087
-        },
-
-// In this case, it is high definition (hd) video  with the resolution of 1080p, with 15% of peers
-        {
-            "number": 3,
-            "name": "1080",
-            "total-percentage-upeers": "15.11",
-            "total-percentage-bytes": "42.65",
-            "upeers-total": 3106228
-        },
-
-// In this case, it is standard definition (sd) video  encoded with xViD, with 6% of peers
-        {
-            "number": 4,
-            "name": "sd-xvid",
-            "total-percentage-upeers": "6.17",
-            "total-percentage-bytes": "11.92",
-            "upeers-total": 1268477
-        },
-
-// In this case, it is standard definition (sd) video  with unknown encoding, with 2% of peers
-        {
-            "number": 5,
-            "name": "sd-other",
-            "total-percentage-upeers": "2.27",
-            "total-percentage-bytes": "7.89",
-            "upeers-total": 467511
-        },
-
-// In this case, it is ultra high definition (uhd) video  with 4k resolution, with 0% of peers
-        {
-            "number": 6,
-            "name": "2160",
-            "total-percentage-upeers": "0.00",
-            "total-percentage-bytes": "0.00",
-            "upeers-total": 0
-        }
-    ],
 
 // Ordered array of different geographic groups, descending by percentage of upeers. 
 // Groups are three longitude regions (aka “slices”):
