@@ -293,15 +293,15 @@ def main(argv=None):
     }
 
     write_geojson(
-        f"{args.prefix}-disappeared.geojson",
+        f"{args.prefix}-disappeared-{args.field}.geojson",
         make_feature_collection(disappeared_feats, meta),
     )
     write_geojson(
-        f"{args.prefix}-emergent.geojson",
+        f"{args.prefix}-emergent-{args.field}.geojson",
         make_feature_collection(emergent_feats, meta),
     )
     write_geojson(
-        f"{args.prefix}-intersection.geojson",
+        f"{args.prefix}-intersection-change-{args.field}.geojson",
         make_feature_collection(intersection_feats, meta),
     )
 
