@@ -292,16 +292,17 @@ def main(argv=None):
         "file_b":   str(args.file_b),
     }
 
+    fsuffix=f"{args.geopivot}-{args.field}"
     write_geojson(
-        f"{args.prefix}-disappeared-{args.field}.geojson",
+        f"{args.prefix}-disappeared-{fsuffix}.geojson",
         make_feature_collection(disappeared_feats, meta),
     )
     write_geojson(
-        f"{args.prefix}-emergent-{args.field}.geojson",
+        f"{args.prefix}-emergent-{fsuffix}.geojson",
         make_feature_collection(emergent_feats, meta),
     )
     write_geojson(
-        f"{args.prefix}-intersection-change-{args.field}.geojson",
+        f"{args.prefix}-intersection-change-{fsuffix}.geojson",
         make_feature_collection(intersection_feats, meta),
     )
 
