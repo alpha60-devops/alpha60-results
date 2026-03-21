@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-
 """
 compare_geojson.py – Compare two GeoJSON Point files by a pivot property.
 
@@ -24,9 +23,8 @@ import json
 import sys
 from pathlib import Path
 
-# 20260320
+# 20260320 v4
 # ported gemini initial chat simplified to claude sonnet 4.6
-
 
 # ---------------------------------------------------------------------------
 # Helpers
@@ -157,35 +155,36 @@ def build_intersection(shared_ids: set, index_a: dict, index_b: dict,
         blob_a = parse_swarm_blob(props_a.get(swarm, "{}"))
         blob_b = parse_swarm_blob(props_b.get(swarm, "{}"))
 
-        delta_all = compute_delta(blob_a, blob_b)
-
         # Scalar convenience value for the requested --field
         va = blob_a.get(field)
         vb = blob_b.get(field)
         if va is not None and vb is not None and \
                 isinstance(va, (int, float)) and isinstance(vb, (int, float)):
             field_delta = vb - va
+            field_pchange = ((vb - va) / va * 100) if va != 0 else None
         else:
             field_delta = None
+            field_pchange = None
 
         new_props = {
             pivot:          pid,
             "city":         props_b.get("city") or props_a.get("city"),
             "country_code": props_b.get("country_code") or props_a.get("country_code"),
-            # Full per-subfield deltas for both swarm classes
-            "downloaders_delta": compute_delta(
+            # Delta dicts for both swarm classes (named as downloaders/uploaders
+            # so viewers expecting those keys continue to work)
+            "downloaders": compute_delta(
                 parse_swarm_blob(props_a.get("downloaders", "{}")),
                 parse_swarm_blob(props_b.get("downloaders", "{}")),
             ),
-            "uploaders_delta": compute_delta(
+            "uploaders": compute_delta(
                 parse_swarm_blob(props_a.get("uploaders", "{}")),
                 parse_swarm_blob(props_b.get("uploaders", "{}")),
             ),
-            # Convenience: delta for the requested --swarm / --field combo
-            f"{swarm}_{field}_delta": field_delta,
-            # Raw values for reference
-            f"{swarm}_{field}_a": va,
-            f"{swarm}_{field}_b": vb,
+            # Convenience scalars for the requested --swarm / --field combo
+            f"{swarm}_{field}_delta":   field_delta,
+            f"{swarm}_{field}_a":       va,
+            f"{swarm}_{field}_b":       vb,
+            f"{swarm}_{field}_pchange": field_pchange,
         }
 
         # Use file_b geometry (more recent); fall back to file_a
@@ -292,7 +291,7 @@ def main(argv=None):
         "file_b":   str(args.file_b),
     }
 
-    fsuffix=f"{args.geopivot}-{args.field}"
+    fsuffix = f"{args.geopivot}-{args.field}"
     write_geojson(
         f"{args.prefix}-disappeared-{fsuffix}.geojson",
         make_feature_collection(disappeared_feats, meta),
