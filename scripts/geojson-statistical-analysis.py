@@ -23,7 +23,7 @@ import json
 import sys
 from pathlib import Path
 
-# 20260320 v4
+# 20260323 v4.3
 # ported gemini initial chat simplified to claude sonnet 4.6
 
 # ---------------------------------------------------------------------------
@@ -126,14 +126,29 @@ def write_geojson(path: str, fc: dict) -> None:
 # Core logic
 # ---------------------------------------------------------------------------
 
+def parse_swarm_props(feature: dict) -> dict:
+    """
+    Return a copy of the feature with downloaders and uploaders parsed from
+    raw JSON strings into plain dicts, so all three output files have a
+    consistent property type for those fields.
+    """
+    import copy
+    feat = copy.deepcopy(feature)
+    for key in ("downloaders", "uploaders"):
+        raw = feat["properties"].get(key)
+        if raw is not None:
+            feat["properties"][key] = parse_swarm_blob(raw)
+    return feat
+
+
 def build_disappeared(only_in_a: list) -> list:
-    """Features that exist only in file_a – pass through unchanged."""
-    return list(only_in_a)
+    """Features only in file_a – passed through with swarm props parsed to dicts."""
+    return [parse_swarm_props(f) for f in only_in_a]
 
 
 def build_emergent(only_in_b: list) -> list:
-    """Features that exist only in file_b – pass through unchanged."""
-    return list(only_in_b)
+    """Features only in file_b – passed through with swarm props parsed to dicts."""
+    return [parse_swarm_props(f) for f in only_in_b]
 
 
 def build_intersection(shared_ids: set, index_a: dict, index_b: dict,
