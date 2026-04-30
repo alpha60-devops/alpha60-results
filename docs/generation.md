@@ -1,3 +1,13 @@
+# Information Genesis
+
+Workflow for creating a GitHub Pages site from a empty git repository.
+
+## Define Partition
+
+## Create Repository
+
+## Notebook-based analysis and data table generation
+
 Step one is opening up the collab, setting it to the right repo and generating files.
 
 1. Open "Alpha60 2026 H1 data analysis" notebook
@@ -22,21 +32,22 @@ aapi-led-geo-slices-africa.tbody.html
 aapi-led-geo-slices-asia.tbody.html
 aapi-led-geo-slices-usa-weeks-1-5-10-20.tbody.html
 
-7. Update binaries
+## WASM-based graph and table generation
+1. Update binaries
 a60-meta-collection.exe
 a60-meta-collection.wasm
 
-8. Run generation script while in bin
+2. Run generation script while in bin
 ../scripts/generate-graphs.sh
 
-9. Move generated output files into _includes/
+3. Move generated output files into _includes/
 mv *.html *.svg ../_includes/
 
-10. Renenerate list of media objects
+4. Renenerate list of media objects
 	../scripts/listify-collection-key-in-cumulative-json.sh
 	
 	then edit into
 	
 	../_include/aapi-media-objects-list.html
 
-10. Update links, if needed, in doc/*.md files
+5. Update links, if needed, in doc/*.md files
