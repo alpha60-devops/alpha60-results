@@ -6,6 +6,20 @@ Workflow for creating a GitHub Pages site from a empty git repository.
 
 ## Create Repository
 
+1. [alpha60-devops](https://github.com/alpha60-devops)
+2. use "alpha60-results-" prefix for naming
+3. Set to "public" visibility and use GitHub Pages
+   a. built from GitHub Actions
+   b. Jekyll
+   c. should have .github/workflows when done
+4. Copy in configure files from KGR (Known Good Repository).
+   a. _config.yml
+   b. cp -r _layouts
+   c. mkdir _includes resources
+   d. cp index.md, adjust text for slice name
+   e. mkdir docs, cp in slice.md
+   f. mkdir data, cp in data files
+
 ## Notebook-based analysis and data table generation
 
 Step one is opening up the collab, setting it to the right repo and generating files.
@@ -45,9 +59,9 @@ mv *.html *.svg ../_includes/
 
 4. Renenerate list of media objects
 	../scripts/listify-collection-key-in-cumulative-json.sh
-	
+
 	then edit into
-	
+
 	../_include/aapi-media-objects-list.html
 
 5. Update links, if needed, in doc/*.md files
