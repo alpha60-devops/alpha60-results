@@ -11,4 +11,4 @@ The alpha60 project publishes results in two data interchange formats:
 These data files are released under the Creative Commons
 Attribution-NonCommercial-ShareAlike license (CC BY-NC-SA). Please contact us if you want to analyze these results in your own research; we'd like to help you.
 
-In addition, some years have media objects graphed [2025](/docs/open-sample-downloads-by-week-normalized-start-2025.svg), [2026](/docs/open-sample-downloads-by-week-normalized-start-2026.svg).
+In addition, some years have media objects graphed [2025](open-sample-downloads-by-week-normalized-start-2025.svg), [2026](open-sample-downloads-by-week-normalized-start-2026.svg).
