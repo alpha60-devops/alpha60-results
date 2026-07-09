@@ -7,9 +7,9 @@ Workflow for creating a GitHub Pages site from a empty git repository.
 Pick a group of media objects for analysis from items that alpha60 has
 previously sampled. The list of media objects sampled can be found in
 the [alpha60-data](https://github.com/alpha60-devops/alpha60-data)
-repository (in the directory 'torrents') or the [alpha60-btiha]
-repository (https://github.com/alpha60-devops/alpha60-btiha) (in
-archived form inside the directory 'data.lfs').
+repository (in the directory 'torrents') or the
+[alpha60-btiha](https://github.com/alpha60-devops/alpha60-btiha)
+repository (in archived form inside the directory 'data.lfs').
 
 Slices, partitions, meta-collections, groups: these things all mean the same thing, a group of media objects.
 
@@ -103,7 +103,7 @@ mv *.html *.svg ../_includes/
 5. Update links, if needed, in doc/*.md files
 
 
-## Write content pages.
+## Write content pages
 
 Copy skeleton to pagename.md
 Add Question and commentary specific to group
