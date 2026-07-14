@@ -1,4 +1,3 @@
-20250828 alpha60 data discovery intro
 
 Alpha60 is a long-term study of media on the distributed internet, focusing on streaming film and television, but also including examples of other media including 3d gun files and hacks/leaks from the transparency collective Distributed Denial of Secrets.
 

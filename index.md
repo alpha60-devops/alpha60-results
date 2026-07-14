@@ -21,11 +21,16 @@ These are results from sampling peer swarms associated with *media objects* bein
 
 <div style="height: 50px;"></div>
 
-
-## Results, Commentary
+## Background
 - [intro](docs/intro.md)
 - [logistics](docs/logistics.md)
-- [projects](docs/projects.md)
+- [current and open projects](docs/projects.md)
+- [publishing details](docs/generation.md)
+
+<div style="height: 50px;"></div>
+
+
+## Results, Commentary
 - Results
   - [aapi-led](https://github.com/alpha60-devops/alpha60-results-aapi-led)
   - [black-led](https://github.com/alpha60-devops/alpha60-results-black-led)
