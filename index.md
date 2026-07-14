@@ -1,14 +1,64 @@
-<!--
-<img src="image/identity/a60-logo-outline.svg?sanitize=true" height="287" width="301">
--->
+---
+layout: default
+title: "Swarm Results"
+author: "Benjamin De Kosnik <bkoz@gnu.org>"
+description: "Analysis of peer-to-peer distribution"
+---
 
-The alpha60 project publishes results in two data interchange formats:
 
-* <a href="https://github.com/bdekoz/alpha60-results/tree/main/csv">csv</a> files, which contain <a href="data-csv.html">details</a> of per-duration (day, week hour) swarm phenomena
-* <a href="https://github.com/bdekoz/alpha60-results/tree/main/json/cumulative">json</a> files, which contain <a href="data-json.html">details</a> of cumulative swarm phenomena (total unique peers, top 10 geographic locations, resolution characteristics, transfer size)
-* [2025 json API](data-json.2025.md)
+{::nomarkdown}
+<img src="resources/a60-logo-block-gray.simple.svg?sanitize=true" height="50" width="100">
 
-These data files are released under the Creative Commons
-Attribution-NonCommercial-ShareAlike license (CC BY-NC-SA). Please contact us if you want to analyze these results in your own research; we'd like to help you.
+<div style="height: 50px;">
+</div>
+{:/}
 
-In addition, some years have media objects graphed [2025](open-sample-downloads-by-week-normalized-start-2025.svg), [2026](open-sample-downloads-by-week-normalized-start-2026.svg).
+
+## About
+
+These are results from sampling peer swarms associated with *media objects* being *shared* on the internet. In this case *media objects* means any instances of media (film, television, books, streaming video, podcast, any video really) that that represent a specific film, television series or episode, or recorded event as a file or archive. And *sharing* means any peer-to-peer file sharing protocol used on the internet, namely BitTorrent. This is part of a long-term project called [Alpha60](https://alpha60.co/).
+
+
+<div style="height: 50px;"></div>
+
+
+## Results, Commentary
+- [intro](docs/intro.md)
+- [logistics](docs/logistics.md)
+- [projects](docs/projects.md)
+- Results
+  - [aapi-led](https://github.com/alpha60-devops/alpha60-results-aapi-led)
+  - [black-led](https://github.com/alpha60-devops/alpha60-results-black-led)  
+  - [anime/animation](https://github.com/alpha60-devops/alpha60-results-animation)
+  - [star wars universe](https://github.com/alpha60-devops/alpha60-results-star-wars-universe)  
+  - [dragons](https://github.com/alpha60-devops/alpha60-results-dragons)    
+  
+  - [leaks](https://github.com/alpha60-devops/alpha60-results-leaks)      
+
+  - Sports
+    - [Olympics 2026](/docs/olympics.md)
+    - [World Cup 2026](/docs/world-cup.md)
+<div style="height: 50px;"></div>
+
+
+## Data
+
+### Forms
+- Cumulative
+  - (title-cumulative.json)
+  - (title-cumulative-btiha-media-objects.json)
+  - (title-cumulative-ip-swarm.json)
+- Weekly (title-week.json)
+- GeoJSON (title-cumulative.geojson)
+- [Media Object Metadata](https://github.com/alpha60-devops/alpha60-btiha/tree/main/metadata) (title.json)
+- [2026 JSON API](docs/data-json.2026.md)
+
+### [Source](https://github.com/alpha60-devops/alpha60-results/tree/main/data)
+
+<!-- - [analysis notebook](/notebooks/analysis_2026h1.ipynb) -->
+
+{::nomarkdown}
+<svg width="100" height=100>
+	<circle cx="20" cy="50" r="10" fill="black"/>
+</svg>
+{:/}
