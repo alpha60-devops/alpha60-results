@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% seo %}
+
+    <!-- 1. Fetch the file as fast as humanly possible -->
+    <link rel="preload" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" as="style">
+
+    <!-- 2. Apply it normally (blocks rendering, which we want for main styles) -->
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+
+    <!-- Preload the regular weight of Noto Sans -->
+    <link rel="preload" href="../resources/fonts/noto-sans-v42-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Preload the italic weight of Noto Sans -->
+    <link rel="preload" href="../resources/fonts/noto-sans-v42-latin-italic.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Preload the bold weight (only if it's used immediately "above the fold") -->
+    <link rel="preload" href="../resources/fonts/noto-sans-v42-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+    <style>
+/* noto-sans-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../resources/fonts/noto-sans-v42-latin-regular.woff2') format('woff2');
+}
+
+/* noto-sans-italic - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Noto Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../resources/fonts/noto-sans-v42-latin-italic.woff2') format('woff2');
+}
+
+/* noto-sans-700 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../resources/fonts/noto-sans-v42-latin-700.woff2') format('woff2');
+}
+
+/* don't render below the fold: 80% on the images and svgs is rougly 480px*/
+.defer-render {
+  content-visibility: auto;
+  contain-intrinsic-size: 500px;
+}
+
+/* Style the summary to look like a clickable block */
+summary {
+  cursor: pointer;
+  padding: 0.5rem;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+}
+
+/* li fix Minimal theme weird nested list spacing */
+      li * {
+    margin-top: 0;
+    margin-bottom: 0;
+      }
+
+/* Ensure the heading sits inline with the native disclosure triangle */
+summary h3 {
+  display: inline;
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+/* link text as WCAG22 compliant and match table style */
+a {
+    color: #0066cc;
+    text-decoration: underline;
+}
+
+
+/* link (optional but good for usability: make it react when hovered) */
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+    </style>
+
+</head>
+<body>
+
+  <!-- The landmark wraps where the markdown content gets injected -->
+  <main>
+  {{ content }}
+  </main>
+
+  <!-- optional floating footer
+  <footer>
+    <p><a href="https://alpha60.co">a60</a></p>
+  </footer>
+  -->
+
+</body>
+</html>

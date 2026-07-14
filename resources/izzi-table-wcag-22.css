@@ -1,0 +1,151 @@
+/* izzi-table-wcag-22.1.css - WCAG 2.2 compliant table styles */
+/* 20260514 deepseek x gemini wcag 2.2 audit | v2.4 table caption */
+
+/* Screen reader only class - visually hidden but accessible */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+/* Remove background and border from details container */
+summary {
+    background: none;
+    border: none;
+    outline: none;
+}
+
+/* There are two table types, one with a hide button or not. */
+/* Revert these properties for matching h3 styles in both */
+details summary h3,
+table caption h3 {
+    text-align: left;
+    color:revert-layer;
+    font: revert-layer;
+    font-size: revert-layer;
+    font-weight: revert-layer;
+    font-family: revert-layer;
+    font-style: revert-layer;
+    line-height: revert-layer;
+}
+
+/* Accessibility improvements for Tables */
+.table-cell {
+    padding: 8px 12px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.table-link {
+    display: inline-block;
+    padding: 8px 12px;
+    color: #0066cc;
+    text-decoration: underline;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+/* Focus indicator for keyboard navigation */
+.table-cell:focus,
+.table-link:focus {
+    outline: 3px solid #0066cc;
+    outline-offset: 3px;
+    background-color: #f0f7ff;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+/* Hover state for mouse users */
+.table-cell:hover,
+.table-link:hover {
+    color: #004499;
+    background-color: #f0f7ff;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+/* Ensure sufficient color contrast (WCAG AA: 4.5:1) */
+.table-cell:visited,
+.table-link:visited {
+    color: #6b4c9b;
+}
+
+/* table body striping */
+/* Add class="tbody-zebra" to <tbody> for alternating row colors */
+.tbody-zebra tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+/* Optional: Darker hover on zebra rows for better interaction */
+.tbody-zebra tr:hover {
+    background-color: #e9ecef;
+}
+
+/* Ensure table has proper spacing */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 6px;
+    text-align: left;
+    border: 1px solid #dee2e6;
+}
+
+th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+}
+
+/* Ensure table is responsive for mobile */
+@media (max-width: 768px) {
+    /* Break the caption out of the strict table layout so that titles are not squashed on mobile */
+    table caption {
+	display: block;
+	width: 100%;
+	caption-side: top; /* Ensures it stays above the table */
+	box-sizing: border-box;
+    }
+
+    .table-cell {
+	display: block;
+	text-align: center;
+	margin: 5px 0;
+    }
+
+    .table-link {
+	display: block;
+	text-align: center;
+	margin: 5px 0;
+    }
+
+    table, thead, tbody, th, td, tr {
+	display: block;
+    }
+
+    .sr-only {
+	display: none;
+    }
+
+    tr {
+	margin-bottom: 20px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	padding: 10px;
+    }
+
+    td, th {
+	display: block;
+	text-align: center;
+	width: 100% !important;
+	padding: 8px !important;
+    }
+}
