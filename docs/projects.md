@@ -5,6 +5,8 @@
 
   collection-id: episodes in SEE format (one digit season, two digit episodes)
   andor 211, 212, 213
+  
+  parallelize/cache io version for UCB cluster
 
 - Potential Analysis
 
