@@ -38,6 +38,11 @@ These are results from sampling peer swarms associated with *media objects* bein
   - Sports
     - [Olympics 2026](/docs/olympics.md)
     - [World Cup 2026](/docs/world-cup.md)
+
+  - Year
+    - [2026](/docs/year-2026.md)
+
+
 <div style="height: 50px;"></div>
 
 
