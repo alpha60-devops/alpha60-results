@@ -31,20 +31,21 @@ These are results from sampling peer swarms associated with *media objects* bein
 
 
 ## Results, Commentary
-- Results
-  - [aapi-led](https://github.com/alpha60-devops/alpha60-results-aapi-led)
-  - [black-led](https://github.com/alpha60-devops/alpha60-results-black-led)
-  - [anime/animation](https://github.com/alpha60-devops/alpha60-results-animation)
-  - [star wars universe](https://github.com/alpha60-devops/alpha60-results-star-wars-universe)
-  - [dragons](https://github.com/alpha60-devops/alpha60-results-dragons)
+- Media Collections
+  - [aapi-led](https://alpha60-devops.github.io/alpha60-results-aapi-led)
+  - [black-led](https://alpha60-devops.github.io/alpha60-results-black-led)
+  - [whiteness](https://alpha60-devops.github.io/alpha60-results-whiteness)  
+  - [anime/animation](https://alpha60-devops.github.io/alpha60-results-animation)
+  - [star wars universe](https://alpha60-devops.github.io/alpha60-results-star-wars-universe)
+  - [dragons](https://alpha60-devops.github.io/alpha60-results-dragons)
 
-  - [leaks](https://alpha60-devops.github.io/alpha60-results-leaks)
+- [leaks](https://alpha60-devops.github.io/alpha60-results-leaks)
 
-  - [sports](https://alpha60-devops.github.io/alpha60-results-sports)
-	- [Olympics 2026](https://alpha60-devops.github.io/alpha60-results-sports/docs/olympics.md)
-	- [World Cup 2026](https://alpha60-devops.github.io/alpha60-results-sports/docs/world-cup.md)
+- [sports](https://alpha60-devops.github.io/alpha60-results-sports)
+	- [Olympics 2026](https://alpha60-devops.github.io/alpha60-results-sports/docs/olympics.html)
+	- [World Cup 2026](https://alpha60-devops.github.io/alpha60-results-sports/docs/world-cup.html)
 
-  - Year
+- Year
 	- [2026](/docs/year-2026.md)
 	- [2025](/docs/year-2025.md)
 
