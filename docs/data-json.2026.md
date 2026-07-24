@@ -101,7 +101,8 @@
 ## shared data fields GeoJSON
 
 In FeatureCollection objects
-- datestamp: ISO 8601 formatted begin date "-to-" end date
+- id: Equivalent to 'collection_key' in JSON, unique media object identifier
+- datestamp: ISO 8601 formatted begin date "-to-" end date, same as 'sample_duration' in JSON
 - data_version: Data API version as compressed ISO datestamp.
 - btiha_size: Number of elements in media collection, each elment has one BTIH
 - swarm_geo_partition_by: "hexagon" means bin swarms into unique H3 Hexagons
