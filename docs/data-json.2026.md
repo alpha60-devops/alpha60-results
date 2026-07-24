@@ -97,6 +97,8 @@
 
 ## duration GeoJSON files
 
+These files may be large. If so, they may compressed with either .zip or .xz compression.
+
 ### "*-cumulative.geojson"
 - filename: (collection_key)-cumulative.geojson
   - FeatureCollection
