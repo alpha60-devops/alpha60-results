@@ -9,18 +9,21 @@
 - "btiha" : an array of all btiha in a collection, including duplicates
 - "unique btiha" : an array of unique info hashes, with duplicates merged
 
-## shared data fields in JSON files
+## shared data fields JSON
 
 - collection_key : "andor-201", unique human readable tag that works
   as a filesystem-level identifier for media collection. All
   lowercase, full seasons are 2 digits (01 is first season), and
   episodes are three digits (102 is Season 1 Episode 02). For multiple
   episodes, use the first episode sampled.
-- data_version : "2025-09-22", date of data API
-- geolocation_version : "3:1756800417", geolocation library (0 none, 1
-  maxmind, 2 ipinfo): db version, which is vendor-defined.
+- data_version : "2026-06-18", date of data API
+- geolocation_version : "6:1777968300", geolocation library major : db version,
+						library major is 0:none, 1:maxmind, 2-6:ipinfo geo, privacy, mobile, satellite
+						version is vendor-defined.
 - udownloaders_total: number of unique ip addresses downloading the media
 - uuploaders_total: number of unique ip addresses uploading the media to others
+
+- sample_duration: ISO 8601 formatted begin date "-to-" end date.
 
 ## duration JSON files
 
@@ -95,6 +98,27 @@
 	- [0][14] week 1 udownloaders for country UKR
 	- [0][15] week 1 udownloaders for country USA
 
+## shared data fields GeoJSON
+
+In FeatureCollection objects
+- datestamp: ISO 8601 formatted begin date "-to-" end date
+- data_version: Data API version as compressed ISO datestamp.
+- btiha_size: Number of elements in media collection, each elment has one BTIH
+- swarm_geo_partition_by: "hexagon" means bin swarms into unique H3 Hexagons
+						  "map" means bin swarms by COUNTRY-GEOID-CITY
+- swarm_hexagon_resolution: H3 Hexagon resolution for data in file
+- swarm_features_size: The number of feature elements in the FeatureCollection
+
+In Feature.properties objects
+- h3_hexagon: the corresponding unique H3 Hexagon ID at swarm_hexagon_resolution
+- geoname_id: the unique numeric identifier from GeoNames.org
+- country_code: the ISO 3 country code
+- city: the city or region designation
+- downloaders: swarm unique downloader counts and network characteristic counts
+  (size,mobile,satellite,tor,tor_exit_nodes,vpn,relay,proxy,hosting,service)
+- uploaders: swarm unique uploader counts and network characteristic counts
+  (size,mobile,satellite,tor,tor_exit_nodes,vpn,relay,proxy,hosting,service)
+
 ## duration GeoJSON files
 
 These files may be large. If so, they may compressed with either .zip or .xz compression.
@@ -102,26 +126,21 @@ These files may be large. If so, they may compressed with either .zip or .xz com
 ### "*-cumulative.geojson"
 - filename: (collection_key)-cumulative.geojson
   - FeatureCollection
-	- [0] feature of swarm
-	  - properties object of COUNTRY-GEOID-CITY by largest swarm size
-		- country_code
-		- city
-		- geoname_id
-		- downloaders (size,mobile,satellite,tor,tor_exit_nodes,vpn,relay,proxy,hosting,service)
-		- uploaders (size,mobile,satellite,tor,tor_exit_nodes,vpn,relay,proxy,hosting,service)
+	- features[0]
+	  - properties object
 	  - geometry Point
 
 ### "*-week-000[0-5][0-9].geojson"
-- filename: (collection_key)-week-000??.geojson
   - FeatureCollection
-	- [0] feature of swarm
-	  - properties object of COUNTRY-GEOID-CITY by largest swarm size
-		- country_code
-		- city
-		- geoname_id
-		- downloaders (size,mobile,satellite,tor,tor_exit_nodes,vpn,relay,proxy,hosting,service)
-		- uploaders (size,mobile,satellite,tor,tor_exit_nodes,vpn,relay,proxy,hosting,service)
+	- features[0]
+	  - properties object
 	  - geometry Point
+	- collection_week_by_btiha[0 to btiha_size]
+		- FeatureCollection itemized for just this BTIH
+			- features[0]
+				- properties object
+				- geometry Point
+
 
 ## metadata
 - filename: (collection_key).json
@@ -152,15 +171,20 @@ These files may be large. If so, they may compressed with either .zip or .xz com
 ## example with annotation
 ```
 {
-// Version number for data migration and feature checks
-	"data_version": "20191004",
-
-
-// Media object name
-	"collection_name": "Stranger Things",
-
-// Media object season or episode number
-	"collection_id": "2",
+  "collection_name": "Zero Day",
+  "collection_id": "1",
+  "collection_key": "zero-day-01",
+  "collection_notes": "",
+  "data_version": "2026-06-18",
+  "data_btiha_sort": 1,
+  "ip_geolocation_version": "6:1777968300",
+  "sample_duration": "2025-02-20-to-2025-06-04",
+  "sample_days": 105,
+  "sample_year_start": 2025,
+  "sample_year_end": 2025,
+  "sample_day_year_start": 51,
+  "sample_day_year_end": 155,
+  "collection_week": [
 
 ```
 
