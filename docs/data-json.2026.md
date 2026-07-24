@@ -1,6 +1,6 @@
 # alpha60 data documentation
 
-*Last 2026-07-05*
+*Last 2026-07-24*
 
 ## definitions
 - "media object" : an instance of a film, series, book, etc.
@@ -11,10 +11,11 @@
 
 ## shared data fields in JSON files
 
-- collection_key : "andor-201", unique human readable tag for media
-  collection, all lowercase, full seasons are 2 digits (01 is first
-  season), and episodes are three digits (102 is Season 1 Episode
-  02). For multiple episodes, use the first episode sampled.
+- collection_key : "andor-201", unique human readable tag that works
+  as a filesystem-level identifier for media collection. All
+  lowercase, full seasons are 2 digits (01 is first season), and
+  episodes are three digits (102 is Season 1 Episode 02). For multiple
+  episodes, use the first episode sampled.
 - data_version : "2025-09-22", date of data API
 - geolocation_version : "3:1756800417", geolocation library (0 none, 1
   maxmind, 2 ipinfo): db version, which is vendor-defined.
@@ -23,7 +24,7 @@
 
 ## duration JSON files
 
-### cumulative duration data
+### "*-cumulative*".json
 - filename: (collection_key)-cumulative.json
   - collection_cumulative : total results
 	- btiha
@@ -66,7 +67,7 @@
 	- [0] cumulative udownloaders first btih in btiha
 	- [n] cumulative udownloaders last btih in btiha
 
-### week duration data
+### "*-week".json
 - filename: (collection_key)-week.json
   - collection_week
 	- [0] week 1 udownloaders_total, uuploaders_total
@@ -96,8 +97,20 @@
 
 ## duration GeoJSON files
 
-### cumulative geolocation data
+### "*-cumulative.geojson"
 - filename: (collection_key)-cumulative.geojson
+  - FeatureCollection
+	- [0] feature of swarm
+	  - properties object of COUNTRY-GEOID-CITY by largest swarm size
+		- country_code
+		- city
+		- geoname_id
+		- downloaders (size,mobile,satellite,tor,tor_exit_nodes,vpn,relay,proxy,hosting,service)
+		- uploaders (size,mobile,satellite,tor,tor_exit_nodes,vpn,relay,proxy,hosting,service)
+	  - geometry Point
+
+### "*-week-000[0-5][0-9].geojson"
+- filename: (collection_key)-week-000??.geojson
   - FeatureCollection
 	- [0] feature of swarm
 	  - properties object of COUNTRY-GEOID-CITY by largest swarm size
