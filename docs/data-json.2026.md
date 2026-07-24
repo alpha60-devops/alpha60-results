@@ -131,15 +131,16 @@ These files may be large. If so, they may compressed with either .zip or .xz com
 	  - geometry Point
 
 ### "*-week-000[0-5][0-9].geojson"
+- filename: (collection_key)-week-000[0-5][0-9].geojson
   - FeatureCollection
-	- features[0]
-	  - properties object
-	  - geometry Point
-	- collection_week_by_btiha[0 to btiha_size]
-		- FeatureCollection itemized for just this BTIH
+	  - features[0]
+		- properties object
+		- geometry Point
+	  - collection_week_by_btiha[0 to btiha_size]
+		  - FeatureCollection itemized for just this BTIH
 			- features[0]
-				- properties object
-				- geometry Point
+			  - properties object
+			  - geometry Point
 
 
 ## metadata
