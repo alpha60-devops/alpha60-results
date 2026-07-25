@@ -27,7 +27,7 @@
 
 ## duration JSON files
 
-### "*-cumulative*".json
+### '*-cumulative*'.json
 - filename: (collection_key)-cumulative.json
   - collection_cumulative : total results
 	- btiha
