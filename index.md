@@ -48,6 +48,7 @@ These are results from sampling peer swarms associated with *media objects* bein
 - Year
 	- [2026](/docs/year-2026.md)
 	- [2025](/docs/year-2025.md)
+	- [2024 laid-01 sample cache audit](/docs/year-2024/laid-01-sample-cache-audit.md)
 
 
 <div style="height: 50px;"></div>
