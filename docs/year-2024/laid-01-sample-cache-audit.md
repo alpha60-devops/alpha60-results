@@ -46,11 +46,11 @@ before treating the aggregate outputs as complete.
 
 ### Downloads by week cumulative (normalized start)
 
-![Laid downloads by week](figures/laid01-sample-cache-audit-downloads-by-week-normalized-start.svg)
+![Laid downloads by week](figures/laid-downloads-by-week-laid-01-week.svg)
 
 ### Downloads by day, Saturday and Sunday in gray
 
-![Laid downloads by day](figures/laid-downloads-by-day-variation-1-day.svg)
+![Laid downloads by day](figures/laid-downloads-by-day-day.svg)
 
 ## 4. Visualization pass — maps
 
