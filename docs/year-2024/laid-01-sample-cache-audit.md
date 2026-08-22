@@ -63,12 +63,16 @@ before treating the aggregate outputs as complete.
 
 ### Downloads by day, Saturday and Sunday in gray
 
-![Laid downloads by day](figures/laid-downloads-by-day-variation-2-day.svg)
+![Laid downloads by day](figures/laid-downloads-by-day-variation-1-day.svg)
 
 ## 4. Visualization pass — maps
 
-![laid-cumulative-grid-1x8-laid-01-cumulative](figures/laid-cumulative-grid-1x8-laid-01-cumulative.svg)
+### Cumulative geographic map
 
-![laid-cumulative-grid-1x8-laid-01-cumulative-ip-swarm](figures/laid-cumulative-grid-1x8-laid-01-cumulative-ip-swarm.svg)
+![Laid cumulative map](figures/laid-01-carto.png)
 
-![laid-cumulative-grid-1x8-laid-01-cumulative-btiha-media-objects](figures/laid-cumulative-grid-1x8-laid-01-cumulative-btiha-media-objects.svg)
+### Cumulative data maps
+
+![laid-01-cumulative-aggregate-geo-grid-laid-01-cumulative-aggregate](figures/laid-01-cumulative-aggregate-geo-grid-laid-01-cumulative-aggregate.svg)
+
+![laid-01-cumulative-btiha-geo-grid-laid-01-cumulative-btiha](figures/laid-01-cumulative-btiha-geo-grid-laid-01-cumulative-btiha.svg)
