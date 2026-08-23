@@ -1,11 +1,11 @@
 ---
 layout: default
-title: "Laid Sample Cache Audit"
+title: "laid-01 Sample Cache Audit"
 author: "Benjamin De Kosnik <bkoz@gnu.org>"
 description: "Cache coverage and visualization audit for one media object."
 ---
 
-# Laid sample cache audit
+# laid-01 sample cache audit
 
 ## 1. Media object
 
