@@ -36,25 +36,19 @@ description: "Cache coverage and visualization audit for one media object."
 
 - hourly gap: last `2025-03-30 01:06`, resumed `2025-03-30 03:06` — missing 1 hour(s)
 
-### Review
-
-Confirm the sampler state and disk capacity on the sampling
-hosts for every zero-length file and discontinuity above
-before treating the aggregate outputs as complete.
-
 ## 3. Visualization pass — graphs
 
 ### Downloads by week cumulative (normalized start)
 
-![Laid downloads by week](figures/laid-downloads-by-week-laid-01-week.svg)
+![laid-01 downloads by week](figures/laid-01-downloads-by-week-laid-01-week.svg)
 
 ### Downloads by day, Saturday and Sunday in gray
 
-![Laid downloads by day](figures/laid-downloads-by-day-day.svg)
+![laid-01 downloads by day](figures/laid-01-downloads-by-day-day.svg)
 
 ## 4. Visualization pass — maps
 
-### Cumulative geographic map
+### Cumulative network infrastructure
 
 [![Laid cumulative map](figures/laid-01-carto.png)](figures/laid-01-carto-4k.webp){:target="_blank" rel="noopener"}
 
