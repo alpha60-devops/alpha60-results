@@ -60,8 +60,8 @@ before treating the aggregate outputs as complete.
 
 ### Cumulative data maps
 
-![laid-01-data-cumulative](figures/laid-01-data-cumulative.png)
+![laid-01-data-cumulative](figures/laid-01-data-cumulative.webp)
 
-![laid-01-data-hd](figures/laid-01-data-hd.png)
+![laid-01-data-hd](figures/laid-01-data-hd.webp)
 
-![laid-01-data-sd](figures/laid-01-data-sd.png)
+![laid-01-data-sd](figures/laid-01-data-sd.webp)
