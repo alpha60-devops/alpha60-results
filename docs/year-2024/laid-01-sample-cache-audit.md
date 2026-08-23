@@ -60,6 +60,8 @@ before treating the aggregate outputs as complete.
 
 ### Cumulative data maps
 
-![laid-01-cumulative-aggregate-geo-grid-laid-01-cumulative-aggregate](figures/laid-01-cumulative-aggregate-geo-grid-laid-01-cumulative-aggregate.svg)
+![laid-01-data-cumulative](figures/laid-01-data-cumulative.png)
 
-![laid-01-cumulative-btiha-geo-grid-laid-01-cumulative-btiha](figures/laid-01-cumulative-btiha-geo-grid-laid-01-cumulative-btiha.svg)
+![laid-01-data-hd](figures/laid-01-data-hd.png)
+
+![laid-01-data-sd](figures/laid-01-data-sd.png)
