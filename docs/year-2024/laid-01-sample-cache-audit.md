@@ -56,12 +56,12 @@ description: "Cache coverage and visualization audit for one media object."
 
 **Cumulative All Resolution**
 
-![Cumulative All Resolution](figures/laid-01-data-cumulative-all-resolution.webp)
+[![Cumulative All Resolution](figures/laid-01-data-cumulative-all-resolution.webp)](figures/laid-01-data-cumulative-all-resolution-4k.webp){:target="_blank" rel="noopener"}
 
 **Cumulative HD**
 
-![Cumulative HD](figures/laid-01-data-hd.webp)
+[![Cumulative HD](figures/laid-01-data-hd.webp)](figures/laid-01-data-hd-4k.webp){:target="_blank" rel="noopener"}
 
 **Cumulative SD**
 
-![Cumulative SD](figures/laid-01-data-sd.webp)
+[![Cumulative SD](figures/laid-01-data-sd.webp)](figures/laid-01-data-sd-4k.webp){:target="_blank" rel="noopener"}
