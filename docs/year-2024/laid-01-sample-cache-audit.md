@@ -56,7 +56,7 @@ before treating the aggregate outputs as complete.
 
 ### Cumulative geographic map
 
-![Laid cumulative map](figures/laid-01-carto.png)
+[![Laid cumulative map](figures/laid-01-carto.png)](figures/laid-01-carto-4k.webp){:target="_blank" rel="noopener"}
 
 ### Cumulative data maps
 
