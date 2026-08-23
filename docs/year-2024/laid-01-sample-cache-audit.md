@@ -54,8 +54,14 @@ description: "Cache coverage and visualization audit for one media object."
 
 ### Cumulative data maps
 
-![laid-01-data-cumulative](figures/laid-01-data-cumulative.webp)
+**Cumulative All Resolution**
 
-![laid-01-data-hd](figures/laid-01-data-hd.webp)
+![Cumulative All Resolution](figures/laid-01-data-cumulative-all-resolution.webp)
 
-![laid-01-data-sd](figures/laid-01-data-sd.webp)
+**Cumulative HD**
+
+![Cumulative HD](figures/laid-01-data-hd.webp)
+
+**Cumulative SD**
+
+![Cumulative SD](figures/laid-01-data-sd.webp)
