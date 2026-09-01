@@ -34,7 +34,7 @@ These are results from sampling peer swarms associated with *media objects* bein
 - Media Collections
   - [aapi-led](https://alpha60-devops.github.io/alpha60-results-aapi-led)
   - [black-led](https://alpha60-devops.github.io/alpha60-results-black-led)
-  - [whiteness](https://alpha60-devops.github.io/alpha60-results-whiteness)  
+  - [whiteness](https://alpha60-devops.github.io/alpha60-results-whiteness)
   - [anime/animation](https://alpha60-devops.github.io/alpha60-results-animation)
   - [star wars universe](https://alpha60-devops.github.io/alpha60-results-star-wars-universe)
   - [dragons](https://alpha60-devops.github.io/alpha60-results-dragons)
@@ -48,6 +48,7 @@ These are results from sampling peer swarms associated with *media objects* bein
 - Year
 	- [2026](/docs/year-2026.md)
 	- [2025](/docs/year-2025.md)
+	- [2024 laid-01 sample cache audit](/docs/year-2024/laid-01-sample-cache-audit.md)
 
 
 <div style="height: 50px;"></div>
@@ -63,7 +64,7 @@ These are results from sampling peer swarms associated with *media objects* bein
 - Weekly (title-week.json)
 - GeoJSON (title-cumulative.geojson)
 - [Media Object Metadata](https://github.com/alpha60-devops/alpha60-btiha/tree/main/metadata) (title.json)
-- [2026 JSON API](docs/data-json.2026.md)
+- [Data API](docs/data-api.2026.md)
 
 ### [Source](https://github.com/alpha60-devops/alpha60-results/tree/main/data)
 
