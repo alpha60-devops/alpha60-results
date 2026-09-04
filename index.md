@@ -47,8 +47,13 @@ These are results from sampling peer swarms associated with *media objects* bein
 
 - Year
 	- [2026](/docs/year-2026.md)
-	- [2025](/docs/year-2025.md)
-	- [2024 laid-01 sample cache audit](/docs/year-2024/laid-01-sample-cache-audit.md)
+	- [2025](https://alpha60-devops.github.io/alpha60-results-2025/)
+	- [2024](https://alpha60-devops.github.io/alpha60-results-2024/)
+	- [2023](https://alpha60-devops.github.io/alpha60-results-2023/)
+	- [2022](https://alpha60-devops.github.io/alpha60-results-2022/)
+	- [2021](https://alpha60-devops.github.io/alpha60-results-2021/)
+	- [2020](https://alpha60-devops.github.io/alpha60-results-2020/)
+
 
 
 <div style="height: 50px;"></div>
