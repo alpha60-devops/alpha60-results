@@ -53,6 +53,9 @@ These are results from sampling peer swarms associated with *media objects* bein
 	- [2022](https://alpha60-devops.github.io/alpha60-results-2022/)
 	- [2021](https://alpha60-devops.github.io/alpha60-results-2021/)
 	- [2020](https://alpha60-devops.github.io/alpha60-results-2020/)
+	- [2019](https://alpha60-devops.github.io/alpha60-results-2019/)
+	- [2018](https://alpha60-devops.github.io/alpha60-results-2018/)
+	- [2017](https://alpha60-devops.github.io/alpha60-results-2017/)
 
 
 
