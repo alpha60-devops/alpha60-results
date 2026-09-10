@@ -34,8 +34,8 @@ These are results from sampling peer swarms associated with *media objects* bein
 - Media Collections
   - [aapi-led](https://alpha60-devops.github.io/alpha60-results-aapi-led)
   - [black-led](https://alpha60-devops.github.io/alpha60-results-black-led)
-  - [whiteness](https://alpha60-devops.github.io/alpha60-results-whiteness)
-  - [anime/animation](https://alpha60-devops.github.io/alpha60-results-animation)
+  - [white-led](https://alpha60-devops.github.io/alpha60-results-whiteness)
+  - [animation-meta](https://alpha60-devops.github.io/alpha60-results-animation)
   - [star wars universe](https://alpha60-devops.github.io/alpha60-results-star-wars-universe)
   - [dragons](https://alpha60-devops.github.io/alpha60-results-dragons)
 
