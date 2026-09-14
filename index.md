@@ -23,9 +23,6 @@ These are results from sampling peer swarms associated with *media objects* bein
 
 ## Background
 - [intro](docs/intro.md)
-- [logistics](docs/logistics.md)
-- [current and open projects](docs/projects.md)
-- [publishing details](docs/generation.md)
 
 <div style="height: 50px;"></div>
 
@@ -46,7 +43,7 @@ These are results from sampling peer swarms associated with *media objects* bein
 	- [World Cup 2026](https://alpha60-devops.github.io/alpha60-results-sports/docs/world-cup.html)
 
 - Year
-	- [2026](/docs/year-2026.md)
+	- [2026](https://alpha60-devops.github.io/alpha60-results-2026/)
 	- [2025](https://alpha60-devops.github.io/alpha60-results-2025/)
 	- [2024](https://alpha60-devops.github.io/alpha60-results-2024/)
 	- [2023](https://alpha60-devops.github.io/alpha60-results-2023/)
@@ -57,6 +54,11 @@ These are results from sampling peer swarms associated with *media objects* bein
 	- [2018](https://alpha60-devops.github.io/alpha60-results-2018/)
 	- [2017](https://alpha60-devops.github.io/alpha60-results-2017/)
 
+
+## Contributing
+- [logistics](docs/logistics.md)
+- [current and open projects](docs/projects.md)
+- [publishing details](docs/generation.md)
 
 
 <div style="height: 50px;"></div>
