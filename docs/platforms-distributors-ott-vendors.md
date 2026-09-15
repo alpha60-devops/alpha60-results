@@ -95,7 +95,7 @@ subscription product.
 
 Disney's [Disney+ overview](https://en.wikipedia.org/wiki/Disney%2B) identifies
 dedicated hubs for Disney, Pixar, Marvel, Star Wars, National Geographic,
-ESPN, and Hulu, alongside Disney+ originals and exclusives. For section 5,
+ESPN, and Hulu, alongside Disney+ originals and exclusives. For section 4,
 the Disney+ candidate slice therefore supplements the unchanged section 2.1
 direct-platform crosswalk with the following exact canonical evidence:
 
@@ -124,7 +124,7 @@ FXX, or FXM evidence value occurs in the reviewed cohort.
 
 ### 2.3 HBO network-brand expansion
 
-For section 5, exact `distribution_tags: hbo` is accepted as a candidate signal
+For section 4, exact `distribution_tags: hbo` is accepted as a candidate signal
 for HBO Max in addition to the unchanged section 2.1 direct-platform values
 `hbo max` and `max`. Wikipedia identifies
 [Westworld](https://en.wikipedia.org/wiki/Westworld_(TV_series)) as an HBO
@@ -138,6 +138,8 @@ The same source records that *Westworld* was removed from HBO Max in December
 outside this report's membership semantics.
 
 ## 3. Coverage and assignment counts
+
+### 3.1 Media-object-by-year matrix
 
 | Year | Cohort objects | Objects with ≥1 vendor | Vendor assignments | Multi-vendor objects | No matched candidate signal | Missing metadata | Object match rate |
 | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
@@ -158,7 +160,7 @@ The distinct summary deduplicates the two cross-year identities:
 Disney+ through the approved `disney` content-hub alias, so the Disney+
 distinct total is two lower than the sum of its annual cohort rows.
 
-### 3.1 Vendor-by-year matrix
+### 3.2 Vendor-by-year matrix
 
 Counts are non-exclusive candidate assignments. Vendors with no assignments
 in any cohort year are omitted; zeroes within retained vendor rows remain
@@ -178,12 +180,10 @@ explicit.
 | Viu | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 1 |
 | YouTube | 0 | 0 | 2 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 4 |
 
-## 4. Accessible bar chart — Alpha60 OTT assignments by vendor
+### 3.3 Cumulative vendor media objects
 
 Zero-count vendors are omitted from both the matrix and the bar chart. The
 chart sums to the 576 distinct object-vendor assignments in section 3.
-
-### 4.1 All vendor assignments
 
 ![Horizontal bar chart of 576 OTT assignments by vendor, sorted from Netflix at 147 to Crunchyroll and Viu at 1; exact values are labeled directly on the bars.](20260915_metadata_v7.3_ott_vendors-assignments.svg)
 
@@ -202,14 +202,14 @@ alternatives, information and relationships, use of color, and contrast. They
 are design controls, not a blanket conformance claim for every Markdown
 renderer.
 
-## 5. Per-vendor candidate slices
+## 4. Per-vendor candidate slices
 
 Only vendors with at least one assignment are expanded below. Collection keys
 are shown at annual cohort grain; the same key can appear under two vendors by
 design. Vendor totals are distinct-key counts across the full period.
 
 <details>
-<summary><strong>Amazon Prime Video — 79 candidate objects</strong></summary>
+<summary><strong>Amazon Prime Video — 79</strong></summary>
 
 - **2017 (11):** `americans-501`, `americans-513`, `expanse-201`, `expanse-203`, `expanse-204`, `expanse-210`, `expanse-213`, `i-love-dick`, `star-trek-discovery-101`, `star-trek-discovery-104`, `star-trek-discovery-109`
 
@@ -234,7 +234,7 @@ design. Vendor totals are distinct-key counts across the full period.
 </details>
 
 <details>
-<summary><strong>Apple TV — 42 candidate objects</strong></summary>
+<summary><strong>Apple TV — 42</strong></summary>
 
 - **2021 (6):** `for-all-mankind-201`, `for-all-mankind-210`, `foundation-101`, `invasion-101`, `me-you-cant-see-01`, `ted-lasso-201`
 
@@ -251,14 +251,14 @@ design. Vendor totals are distinct-key counts across the full period.
 </details>
 
 <details>
-<summary><strong>Crunchyroll — 1 candidate objects</strong></summary>
+<summary><strong>Crunchyroll — 1</strong></summary>
 
 - **2021 (1):** `blade-runner-black-lotus-101`
 
 </details>
 
 <details>
-<summary><strong>Disney+ — 142 candidate objects / 144 cohort rows</strong></summary>
+<summary><strong>Disney+ — 142 / 144 cohort rows</strong></summary>
 
 - **2017 (10):** `americans-501`, `americans-513`, `feud-101`, `feud-102`, `feud-108`, `handmaids-tale-101`, `handmaids-tale-105`, `star-wars-last-jedi`, `twin-peaks-310`, `twin-peaks-317`
 
@@ -283,7 +283,7 @@ design. Vendor totals are distinct-key counts across the full period.
 </details>
 
 <details>
-<summary><strong>HBO Max — 77 candidate objects</strong></summary>
+<summary><strong>HBO Max — 77</strong></summary>
 
 - **2017 (6):** `game-of-thrones-701`, `game-of-thrones-702`, `game-of-thrones-703`, `game-of-thrones-705`, `game-of-thrones-706`, `game-of-thrones-707`
 
@@ -308,7 +308,7 @@ design. Vendor totals are distinct-key counts across the full period.
 </details>
 
 <details>
-<summary><strong>Hulu — 57 candidate objects</strong></summary>
+<summary><strong>Hulu — 57</strong></summary>
 
 - **2017 (4):** `handmaids-tale-101`, `handmaids-tale-105`, `twin-peaks-310`, `twin-peaks-317`
 
@@ -333,7 +333,7 @@ design. Vendor totals are distinct-key counts across the full period.
 </details>
 
 <details>
-<summary><strong>Netflix — 147 candidate objects</strong></summary>
+<summary><strong>Netflix — 147</strong></summary>
 
 - **2017 (14):** `el-chapo-02`, `house-of-cards-05`, `into-the-badlands-203`, `narcos-03`, `sense8-02.1`, `stranger-things-02`, `twin-peaks-310`, `twin-peaks-317`, `walking-dead-709`, `walking-dead-710`, `walking-dead-713`, `walking-dead-716`, `walking-dead-801`, `walking-dead-807`
 
@@ -358,7 +358,7 @@ design. Vendor totals are distinct-key counts across the full period.
 </details>
 
 <details>
-<summary><strong>Paramount+ — 22 candidate objects</strong></summary>
+<summary><strong>Paramount+ — 22</strong></summary>
 
 - **2017 (7):** `good-fight-101`, `good-fight-105`, `good-fight-108`, `good-fight-110`, `star-trek-discovery-101`, `star-trek-discovery-104`, `star-trek-discovery-109`
 
@@ -371,7 +371,7 @@ design. Vendor totals are distinct-key counts across the full period.
 </details>
 
 <details>
-<summary><strong>Peacock — 4 candidate objects</strong></summary>
+<summary><strong>Peacock — 4</strong></summary>
 
 - **2023 (1):** `twisted-metal-01`
 
@@ -380,14 +380,14 @@ design. Vendor totals are distinct-key counts across the full period.
 </details>
 
 <details>
-<summary><strong>Viu — 1 candidate objects</strong></summary>
+<summary><strong>Viu — 1</strong></summary>
 
 - **2026 (1):** `season-2026-01`
 
 </details>
 
 <details>
-<summary><strong>YouTube — 4 candidate objects</strong></summary>
+<summary><strong>YouTube — 4</strong></summary>
 
 - **2019 (2):** `cobra-kai-02`, `kurulus-osman-01`
 
@@ -397,7 +397,9 @@ design. Vendor totals are distinct-key counts across the full period.
 
 </details>
 
-## 6. Multi-vendor overlaps
+<br>
+
+## 5. Multi-vendor overlaps
 
 These 73 objects create the difference between 499 matched objects and 576
 object-vendor assignments. Sixty-nine have two candidate vendors and four have
@@ -480,7 +482,7 @@ are expected under the approved Disney+ content-hub rule.
 | `twin-peaks-317` | Disney+, Hulu, Netflix |
 | `y-the-last-man-101` | Disney+, Hulu |
 
-## 7. Unmatched and blocked rows
+## 6. Unmatched and blocked rows
 
 The 144 unmatched distinct objects are not asserted to lack streaming
 availability. They lack a direct section 2.1 platform match or an approved
@@ -494,7 +496,7 @@ matched OTT tag. They therefore do not form a partition of the 144 unmatched
 objects.
 
 <details>
-<summary><strong><code>motion pictures</code> — 10 distinct objects</strong></summary>
+<summary><strong><code>motion pictures</code> — 10</strong></summary>
 
 Reason not auto-mapped: generic distributor label, not a platform or
 brand-specific signal. Every current item below independently enters the
@@ -515,7 +517,7 @@ Disney+ candidate slice through approved production-brand evidence.
 </details>
 
 <details>
-<summary><strong><code>20th television</code> — 9 distinct objects</strong></summary>
+<summary><strong><code>20th television</code> — 9</strong></summary>
 
 Reason not auto-mapped: production/distribution company label, not a platform
 or an independently approved brand-family signal. Every current item below
@@ -531,7 +533,7 @@ evidence.
 </details>
 
 <details>
-<summary><strong><code>warner bros television distribution</code> — 26 distinct objects</strong></summary>
+<summary><strong><code>warner bros television distribution</code> — 26</strong></summary>
 
 Reason not auto-mapped: television distributor, not an OTT service.
 
@@ -548,7 +550,7 @@ Reason not auto-mapped: television distributor, not an OTT service.
 </details>
 
 <details>
-<summary><strong><code>amc</code> — 19 distinct objects</strong></summary>
+<summary><strong><code>amc</code> — 19</strong></summary>
 
 Reason not auto-mapped: linear network; not direct evidence of AMC+ availability.
 
@@ -569,7 +571,7 @@ Reason not auto-mapped: linear network; not direct evidence of AMC+ availability
 </details>
 
 <details>
-<summary><strong><code>warner bros pictures</code> — 19 distinct objects</strong></summary>
+<summary><strong><code>warner bros pictures</code> — 19</strong></summary>
 
 Reason not auto-mapped: theatrical distributor, not an OTT service.
 
@@ -590,7 +592,7 @@ Reason not auto-mapped: theatrical distributor, not an OTT service.
 </details>
 
 <details>
-<summary><strong><code>cbs</code> — 15 distinct objects</strong></summary>
+<summary><strong><code>cbs</code> — 15</strong></summary>
 
 Reason not auto-mapped: linear network; distinct from the `cbs all access` service.
 
@@ -607,7 +609,7 @@ Reason not auto-mapped: linear network; distinct from the `cbs all access` servi
 </details>
 
 <details>
-<summary><strong><code>paramount</code> — 15 distinct objects</strong></summary>
+<summary><strong><code>paramount</code> — 15</strong></summary>
 
 Reason not auto-mapped: company/studio label; not direct evidence of Paramount+ availability.
 
@@ -630,7 +632,7 @@ Reason not auto-mapped: company/studio label; not direct evidence of Paramount+ 
 </details>
 
 <details>
-<summary><strong><code>syfy</code> — 12 distinct objects</strong></summary>
+<summary><strong><code>syfy</code> — 12</strong></summary>
 
 Reason not auto-mapped: linear network, not a listed OTT service.
 
@@ -649,7 +651,7 @@ Reason not auto-mapped: linear network, not a listed OTT service.
 </details>
 
 <details>
-<summary><strong><code>legendary television distribution</code> — 10 distinct objects</strong></summary>
+<summary><strong><code>legendary television distribution</code> — 10</strong></summary>
 
 Reason not auto-mapped: television distributor, not an OTT service.
 
@@ -666,7 +668,7 @@ Reason not auto-mapped: television distributor, not an OTT service.
 </details>
 
 <details>
-<summary><strong><code>showtime</code> — 8 distinct objects</strong></summary>
+<summary><strong><code>showtime</code> — 8</strong></summary>
 
 Reason not auto-mapped: premium linear network, not a listed OTT service or an
 approved Paramount+ brand-history alias.
@@ -689,7 +691,7 @@ approved Paramount+ brand-history alias.
 in canonical metadata revision `075745a3d7`. It is excluded from all vendor
 counts pending the metadata/factory contract required by stage 4.3.
 
-## 8. Review status and remaining gates
+## 7. Review status and remaining gates
 
 Approved by human review on 2026-09-13:
 
@@ -712,7 +714,7 @@ Remaining gates:
    evidence-bearing review dispositions in `alpha60-swarm-metadata`; this
    candidate report does not authorize or perform that promotion.
 
-## 9. References
+## 8. References
 
 - Wikipedia, [Over-the-top media service — Streaming platforms](https://en.wikipedia.org/wiki/Over-the-top_media_service#Streaming_platforms), retrieved 2026-09-12.
 - Wikipedia, [Disney+](https://en.wikipedia.org/wiki/Disney%2B), retrieved 2026-09-13; source for the Disney, Pixar, Marvel, Star Wars, National Geographic, ESPN, and Hulu content-hub taxonomy and the regional ESPN qualification.
