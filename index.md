@@ -23,6 +23,7 @@ These are results from sampling peer swarms associated with *media objects* bein
 
 ## Background
 - [intro](docs/intro.md)
+- [platforms, distributors, and OTT vendors](docs/platforms-distributors-ott-vendors.md)
 
 <div style="height: 50px;"></div>
 
