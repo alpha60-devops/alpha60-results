@@ -185,28 +185,17 @@ chart sums to the 576 distinct object-vendor assignments in section 3.
 
 ### 4.1 All vendor assignments
 
-![Horizontal bar chart of 576 OTT assignments by vendor, sorted from Netflix at 147 to Crunchyroll and Viu at 1; exact values follow in a table.](20260915_metadata_v7.3_ott_vendors-assignments.svg)
+![Horizontal bar chart of 576 OTT assignments by vendor, sorted from Netflix at 147 to Crunchyroll and Viu at 1; exact values are labeled directly on the bars.](20260915_metadata_v7.3_ott_vendors-assignments.svg)
 
-| Vendor | Distinct assignments |
-| --- | ---: |
-| Netflix | 147 |
-| Disney+ | 142 |
-| Amazon Prime Video | 79 |
-| HBO Max | 77 |
-| Hulu | 57 |
-| Apple TV | 42 |
-| Paramount+ | 22 |
-| Peacock | 4 |
-| YouTube | 4 |
-| Crunchyroll | 1 |
-| Viu | 1 |
-| **Total** | **576** |
-
-The chart is generated with Izzi through `izzi-svg-graphs-bar.h`. It uses one
+The chart is generated from
+`20260915_metadata_v7.3_ott_vendors-assignments.bar-graph.json` with Izzi's
+`bar-graph` renderer in `izzi-svg-graphs-bar.h`. It uses one
 high-contrast bar color (`#005A9C` on white, 7.14:1), bar length, direct text
 labels, and exact numeric values, so category or magnitude is not conveyed by
-color alone. The SVG has a programmatic title and full-text description; the
-adjacent table is the renderer-independent data alternative. These choices
+color alone. Its axis typography follows Izzi's line-graph convention:
+Atkinson Hyperlegible, uppercase 18-point medium-weight axis titles, and
+14-point normal-weight tick labels. The SVG's full-text description provides
+the renderer-independent data alternative. These choices
 address relevant [WCAG 2.2](https://www.w3.org/TR/WCAG22/) criteria for text
 alternatives, information and relationships, use of color, and contrast. They
 are design controls, not a blanket conformance claim for every Markdown
