@@ -1,6 +1,6 @@
-# Metadata v6.2 candidate review — round 3: OTT vendor slices
+# Metadata v7.3 — OTT vendor slices
 
-*Prepared: 2026-09-12*
+*Prepared: 2026-09-15*
 
 *Parent plan: `20260911_metadata_v6.2.md`*
 
@@ -160,71 +160,32 @@ distinct total is two lower than the sum of its annual cohort rows.
 
 ### 3.1 Vendor-by-year matrix
 
-Counts are non-exclusive candidate assignments. Zeroes are shown explicitly.
+Counts are non-exclusive candidate assignments. Vendors with no assignments
+in any cohort year are omitted; zeroes within retained vendor rows remain
+explicit.
 
 | Vendor | 2017 | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 | 2024 | 2025 | 2026 | Distinct total |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| Acorn TV | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Amazon Prime Video | 11 | 8 | 6 | 8 | 3 | 10 | 11 | 7 | 8 | 7 | 79 |
-| AMC+ | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Apple TV | 0 | 0 | 0 | 0 | 6 | 3 | 8 | 7 | 10 | 8 | 42 |
-| BBC iPlayer | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Binge | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| BritBox | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Chorki | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Coupang Play | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Crave | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Crunchyroll | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
-| Curiosity Stream | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Discovery+ | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Disney+ | 10 | 8 | 7 | 12 | 18 | 19 | 20 | 17 | 18 | 15 | 142 |
-| Dropout | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| ESPN | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Fox One | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| FuboTV | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Fuji TV On Demand | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Hayu | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | HBO Max | 6 | 7 | 10 | 8 | 4 | 11 | 8 | 7 | 9 | 7 | 77 |
 | Hulu | 4 | 4 | 4 | 4 | 5 | 5 | 7 | 8 | 8 | 8 | 57 |
-| Iflix | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| iQIYI | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| JioHotstar | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Kocowa | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| MGM+ | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Mubi | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Netflix | 14 | 18 | 14 | 17 | 20 | 15 | 9 | 12 | 15 | 13 | 147 |
-| NFL+ | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Paramount+ | 7 | 6 | 5 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 22 |
 | Peacock | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 3 | 0 | 0 | 4 |
-| Philo | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Plex | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Pluto TV | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| The Roku Channel | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Showmax | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Shudder | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Sling TV | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| SonyLIV | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Stan. | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Starz | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Tubi | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| TVING | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| TVNZ+ | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| U-Next | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Vidio | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Viki | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Viu | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 1 |
 | YouTube | 0 | 0 | 2 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 4 |
-| ZEE5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## 4. Accessible bar chart — Alpha60 OTT assignments by vendor
 
-Zero-count vendors are omitted from the bar chart but remain visible in the
-matrix. The chart sums to the 576 distinct object-vendor assignments in
-section 3.
+Zero-count vendors are omitted from both the matrix and the bar chart. The
+chart sums to the 576 distinct object-vendor assignments in section 3.
 
 ### 4.1 All vendor assignments
 
-![Horizontal bar chart of 576 OTT assignments by vendor, sorted from Netflix at 147 to Crunchyroll and Viu at 1; exact values follow in a table.](20260912_metadata_v6.2.candidates-3-ott-vendor-assignments.svg)
+![Horizontal bar chart of 576 OTT assignments by vendor, sorted from Netflix at 147 to Crunchyroll and Viu at 1; exact values follow in a table.](20260915_metadata_v7.3_ott_vendors-assignments.svg)
 
 | Vendor | Distinct assignments |
 | --- | ---: |
@@ -241,14 +202,15 @@ section 3.
 | Viu | 1 |
 | **Total** | **576** |
 
-The chart uses one high-contrast bar color (`#005A9C` on white, 7.14:1), bar
-length, direct text labels, and exact numeric values, so category or magnitude
-is not conveyed by color alone. The SVG has a programmatic title and full-text
-description; the adjacent table is the renderer-independent data alternative.
-These choices address relevant [WCAG 2.2](https://www.w3.org/TR/WCAG22/)
-criteria for text alternatives, information and relationships, use of color,
-and contrast. They are design controls, not a blanket conformance claim for
-every Markdown renderer.
+The chart is generated with Izzi through `izzi-svg-graphs-bar.h`. It uses one
+high-contrast bar color (`#005A9C` on white, 7.14:1), bar length, direct text
+labels, and exact numeric values, so category or magnitude is not conveyed by
+color alone. The SVG has a programmatic title and full-text description; the
+adjacent table is the renderer-independent data alternative. These choices
+address relevant [WCAG 2.2](https://www.w3.org/TR/WCAG22/) criteria for text
+alternatives, information and relationships, use of color, and contrast. They
+are design controls, not a blanket conformance claim for every Markdown
+renderer.
 
 ## 5. Per-vendor candidate slices
 
