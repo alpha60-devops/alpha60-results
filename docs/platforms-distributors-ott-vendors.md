@@ -193,7 +193,8 @@ The chart is generated from
 high-contrast bar color (`#005A9C` on white, 7.14:1), bar length, direct text
 labels, and exact numeric values, so category or magnitude is not conveyed by
 color alone. Its axis typography follows Izzi's line-graph convention:
-Atkinson Hyperlegible, uppercase 18-point medium-weight axis titles, and
+Atkinson Hyperlegible embedded directly in the SVG, uppercase 18-point
+medium-weight axis titles, and
 14-point normal-weight tick labels. The SVG's full-text description provides
 the renderer-independent data alternative. These choices
 address relevant [WCAG 2.2](https://www.w3.org/TR/WCAG22/) criteria for text
