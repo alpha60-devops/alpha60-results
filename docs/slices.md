@@ -6,46 +6,15 @@ This remains a candidate-only review artifact: candidate discovery does not
 approve slice membership. The Actors and Creators columns are complete within
 the cited, source-bounded review; legacy signals never count by themselves.
 
-## 1. Reproducibility receipt
-
-| Field | Value |
-| --- | --- |
-| Canonical input revision | `545032d5+all-component-evidence-audit` |
-| Metadata records | 680 |
-| Metadata digest | `479a9ceda90cef1afeef6bc69fde21f62a0da9bed8122217b24936b95ac5b461` |
-| Frozen annual rows | 646 |
-| Frozen annual unique keys | 644 |
-| Annual inventory digest | `79bb5ddff9187f0d51f5d1a1a4a3d64010aa0e3a5af27b046b4f87b526080858` |
-| Candidate digest | `e1b8c3227c35710f869aa2b4a495c2a8a0709808c0f56d8e338ab54056332fed` |
-| Resolved person records | 3710 |
-| Person-record digest | `d8dbc91cbbf58f7f66da035773a9e7e7780f19297b40e701375b5f5e8b56cd4b` |
-| Unit-scoped representation reviews | 644 |
-| Representation-review digest | `2604660e7ae86c72a6b4ca8c6f9271287dacc18426f1e651a22ca802f4d3b3cd` |
-| Person-resolution receipt | `reports/candidates/h15-v7-person-resolution.json` |
-| Person-resolution receipt digest | `fedc794723212597fd0084a7db7ac06bb782cda7afaa1e2b440b1bef0f331521` |
-
-### Creator metadata coverage
-
-| Measure | Result |
-| --- | ---: |
-| Creator-credit discovery | 623 / 644 (96.7%) |
-| Creator person linkage | 3807 / 4990 (76.3%) |
-| Creator identity review | 1308 / 1308 (100.0%) |
-| Unresolved named creator credits | 1183 |
-
-Discovery, person linkage, identity review, and qualifying Creator counts
-are separate measures. A source-terminal result closes a review path but does
-not count as a discovered or person-linked credit.
-
 ## 2. Slice summary
 
-| Slice | Definition | Candidates | Excluded | Candidates with confirmed counts |
-| --- | --- | ---: | ---: | ---: |
-| `asian-led-global` | `asian-led-global-v1` | 167 | 477 | 166 |
-| `black-led-global` | `black-led-global-v1` | 280 | 364 | 279 |
-| `latinx-led-global` | `latinx-led-global-v1` | 124 | 520 | 124 |
-| `white-led-global` | `white-led-global-v1` | 373 | 271 | 373 |
-| `multi-led-global` | `multi-led-global-v1` | 125 | 519 | 125 |
+| Slice | Definition | Candidates | Excluded | Confirmed | Confirmed USA |
+| --- | --- | ---: | ---: | ---: | ---: |
+| `asian-led-global` | `asian-led-global-v1` | 167 | 477 | 166 | 122 |
+| `black-led-global` | `black-led-global-v1` | 280 | 364 | 279 | 231 |
+| `latinx-led-global` | `latinx-led-global-v1` | 124 | 520 | 124 | 113 |
+| `white-led-global` | `white-led-global-v1` | 373 | 271 | 373 | 341 |
+| `multi-led-global` | `multi-led-global-v1` | 125 | 519 | 125 | 105 |
 
 Actor and creator coverage is complete for every candidate row, so both
 columns always contain a number. Zero means no qualifying person was found
@@ -6599,3 +6568,34 @@ Actor and creator counts are source-bounded and complete. Candidate membership
 still requires review. Character and storyline review is intentionally deferred
 and those columns are omitted from this focused report. Generation does not
 itself approve candidate membership or publication.
+
+## 1. Reproducibility receipt
+
+| Field | Value |
+| --- | --- |
+| Canonical input revision | `545032d5+all-component-evidence-audit` |
+| Metadata records | 680 |
+| Metadata digest | `479a9ceda90cef1afeef6bc69fde21f62a0da9bed8122217b24936b95ac5b461` |
+| Frozen annual rows | 646 |
+| Frozen annual unique keys | 644 |
+| Annual inventory digest | `79bb5ddff9187f0d51f5d1a1a4a3d64010aa0e3a5af27b046b4f87b526080858` |
+| Candidate digest | `1fa9354940b72e98586a1efd068839121dd3d79f1142f5285cd75bacb5245205` |
+| Resolved person records | 3710 |
+| Person-record digest | `d8dbc91cbbf58f7f66da035773a9e7e7780f19297b40e701375b5f5e8b56cd4b` |
+| Unit-scoped representation reviews | 644 |
+| Representation-review digest | `2604660e7ae86c72a6b4ca8c6f9271287dacc18426f1e651a22ca802f4d3b3cd` |
+| Person-resolution receipt | `reports/candidates/h15-v7-person-resolution.json` |
+| Person-resolution receipt digest | `fedc794723212597fd0084a7db7ac06bb782cda7afaa1e2b440b1bef0f331521` |
+
+### Creator metadata coverage
+
+| Measure | Result |
+| --- | ---: |
+| Creator-credit discovery | 623 / 644 (96.7%) |
+| Creator person linkage | 3807 / 4990 (76.3%) |
+| Creator identity review | 1308 / 1308 (100.0%) |
+| Unresolved named creator credits | 1183 |
+
+Discovery, person linkage, identity review, and qualifying Creator counts
+are separate measures. A source-terminal result closes a review path but does
+not count as a discovered or person-linked credit.
