@@ -1,3 +1,3 @@
-# alpha60-results in csv and json
+# alpha60-results
 
-See <a href="https://alpha60-devops.github.io/alpha60-results/">interchange format</a> details.
+This is the entry point for data analysis for the Alpha60 project. 
