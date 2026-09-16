@@ -13,14 +13,21 @@ There are three parts to alpha60 compute infrastructure:
 
 Our scope:
 
-Year	a60 download	netflix subscribers  
-2018 	63M 		139M  
-2019 	154M 		167M  
-2020 	206M 		204M  
-2021 	594M 		222M  
-2022 	353M 		231M  
-2023 	743M 		260M   
-2024 	1.99B
+| Year | Media objects | Unique downloaders | Stored size |
+| ---: | ---: | ---: | ---: |
+| 2017 | 44 | 162,390,376 | 413,562,817 bytes · 0.39 GiB |
+| 2018 | 49 | 134,551,186 | 688,364,398 bytes · 0.64 GiB |
+| 2019 | 53 | 329,056,508 | 1,415,407,066 bytes · 1.32 GiB |
+| 2020 | 52 | 306,079,270 | 1,527,364,317 bytes · 1.42 GiB |
+| 2021 | 83 | 704,026,717 | 3,244,839,058 bytes · 3.02 GiB |
+| 2022 | 69 | 455,167,094 | 2,214,179,218 bytes · 2.06 GiB |
+| 2023 | 71 | 841,827,625 | 4,251,206,797 bytes · 3.96 GiB |
+| 2024 | 69 | 2,085,683,951 | 9,202,049,078 bytes · 8.57 GiB |
+| 2025 | 85 | 3,001,625,776 | 12,628,552,792 bytes · 11.76 GiB |
+| 2026 | 71 | 2,036,327,665 | 8,472,659,939 bytes · 7.89 GiB |
+| **Total** | **646** | **10,056,736,168** | **44,058,185,480 bytes · 41.03 GiB** |
+
+
 
 We are going to be developing new techniques for data analysis of this information. This is new territory, and we will be trying to correlate to existing media metrics from film (box office) and streaming tv (Nielsen, and look at some of the other metrics on a per-platform basis.) We will be trying to estimate the growth of piracy vis-a-vis growth of the internet and growth of commercial streaming platforms Disney+, Amazon Prime, Netflix, Apple TV+
 
