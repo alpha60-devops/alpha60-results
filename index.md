@@ -28,7 +28,6 @@ These are results from sampling peer swarms associated with *media objects* bein
 
 <div style="height: 50px;"></div>
 
-
 ## Results, Commentary
 - Media Collections
   - [aapi-led](https://alpha60-devops.github.io/alpha60-results-aapi-led)
@@ -57,6 +56,8 @@ These are results from sampling peer swarms associated with *media objects* bein
 	- [2017](https://alpha60-devops.github.io/alpha60-results-2017/)
 
 
+<div style="height: 50px;"></div>
+
 ## Contributing
 - [logistics](docs/logistics.md)
 - [current and open projects](docs/projects.md)
@@ -64,7 +65,6 @@ These are results from sampling peer swarms associated with *media objects* bein
 
 
 <div style="height: 50px;"></div>
-
 
 ## Data
 
