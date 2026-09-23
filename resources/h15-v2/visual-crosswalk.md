@@ -1,6 +1,6 @@
 # Round 2 visual crosswalk
 
-Canonical artifact: `aaa9d90fff2d852df3f127b5f409f001172e8ebb503416cbc61745007a7e6f2c`.
+Canonical artifact: `b359d89c2060c08b5da6c65495cd529e49bcda69a7791f7ac9ad574ef59ed39b`.
 
 [Contact sheet](h15-v2-contact-sheet.png) · [Twelve-page review PDF](h15-v2-plates.pdf)
 
