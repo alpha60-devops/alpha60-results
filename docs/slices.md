@@ -769,6 +769,40 @@ No identity inference from name, appearance, citizenship, production country, or
 
 Reference set `africa-60` (60 entries): Angola (AGO); French Southern Territories (ATF); Burundi (BDI); Benin (BEN); Burkina Faso (BFA); Botswana (BWA); Central African Republic (CAF); Côte d'Ivoire (CIV); Cameroon (CMR); Democratic Republic of the Congo (COD); Republic of the Congo (COG); Comoros (COM); Cabo Verde (CPV); Djibouti (DJI); Algeria (DZA); Egypt (EGY); Eritrea (ERI); Western Sahara (ESH); Ethiopia (ETH); Gabon (GAB); Ghana (GHA); Guinea (GIN); Gambia (GMB); Guinea-Bissau (GNB); Equatorial Guinea (GNQ); British Indian Ocean Territory (IOT); Kenya (KEN); Liberia (LBR); Libya (LBY); Lesotho (LSO); Morocco (MAR); Madagascar (MDG); Mali (MLI); Mozambique (MOZ); Mauritania (MRT); Mauritius (MUS); Malawi (MWI); Mayotte (MYT); Namibia (NAM); Niger (NER); Nigeria (NGA); Réunion (REU); Rwanda (RWA); Sudan (SDN); Senegal (SEN); Saint Helena, Ascension and Tristan da Cunha (SHN); Sierra Leone (SLE); Somalia (SOM); South Sudan (SSD); Sao Tome and Principe (STP); Eswatini (SWZ); Seychelles (SYC); Chad (TCD); Togo (TGO); Tunisia (TUN); Tanzania (TZA); Uganda (UGA); South Africa (ZAF); Zambia (ZMB); Zimbabwe (ZWE).
 
+### Africa60 country-set rationale
+
+**Africa60 = 54 sovereign countries + six separately coded areas.** The reference boundary follows the countries and areas grouped under Africa (002) in the [UN M49 geographic classification](https://unstats.un.org/unsd/methodology/m49/#geo-regions). The six additional codes preserve the geographic distinctions used in Alpha60 country data and sourced origin/descent evidence.
+
+The additional areas are Western Sahara (`ESH`), Mayotte (`MYT`), Réunion (`REU`), Saint Helena, Ascension and Tristan da Cunha (`SHN`), British Indian Ocean Territory (`IOT`) and French Southern Territories (`ATF`). M49 places `ESH` in Northern Africa, `SHN` in Western Africa, and the other four in Eastern Africa. This is a statistical geographic grouping; the codes include territories and other areas with differing political status.
+
+The exact ISO-3 breakdown is:
+
+```python
+# Africa 54: sovereign-country subset of the UN M49 Africa grouping.
+africa_54_iso = [
+    "AGO", "BDI", "BEN", "BFA", "BWA", "CAF", "CIV", "CMR", "COD", "COG",
+    "COM", "CPV", "DJI", "DZA", "EGY", "ERI", "ETH", "GAB", "GHA", "GIN",
+    "GMB", "GNB", "GNQ", "KEN", "LBR", "LBY", "LSO", "MAR", "MDG", "MLI",
+    "MOZ", "MRT", "MUS", "MWI", "NAM", "NER", "NGA", "RWA", "SDN", "SEN",
+    "SLE", "SOM", "SSD", "STP", "SWZ", "SYC", "TCD", "TGO", "TUN", "TZA",
+    "UGA", "ZAF", "ZMB", "ZWE",
+]
+
+# Six additional separately coded areas.
+africa_6_iso = [
+    "ESH",  # Western Sahara
+    "MYT",  # Mayotte
+    "REU",  # Réunion
+    "SHN",  # Saint Helena, Ascension and Tristan da Cunha
+    "IOT",  # British Indian Ocean Territory
+    "ATF",  # French Southern Territories
+]
+
+africa_60 = africa_54_iso + africa_6_iso
+```
+
+For `african-led-global`, this boundary is applied to confirmed African identity or named African origin/descent evidence for actors and primary creators. Qualifying works can be produced anywhere. The 54 + 6 breakdown documents the existing `africa-60` set used by this slice.
+
 References: [geography](#reference-geography), [black](#reference-black), [round3](#reference-round3).
 
 <label>Find a work <input class="slice-search" type="search" aria-label="Find a work in african-led-global"></label>
@@ -3285,7 +3319,7 @@ Canonical repository: [alpha60-swarm-metadata](https://github.com/alpha60-devops
 
 Corpus: 644 media objects; 3712 person records. Unresolved credit rows: 1733 (795 actor/primary-creator rows).
 
-Artifact digest: `2889dae91538c550e048db3c45977dc8f9182bb13c420a479069fe32bbff6c3c`.
+Artifact digest: `b2eebcd1118149e5be1704bcd6a19c92bb61023db731989ff578f7573f6c174d`.
 
 [Machine-readable report](../resources/h15-v3/h15-v3.generated.json) · [Coverage and change report](https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/main/reports/candidates/h15-v3-impact.json) · [Person qualifications](https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/main/data/h15-v3-person-qualifications.json)
 
@@ -3301,7 +3335,7 @@ Source hashes:
 - schema_sha256: `99bb7958099557a03c0e01acd174f98dd8188f717a8e4a0b2677cdae8264411b`
 - h15_round3.py_sha256: `3770c86724b367f308bd9af449ac8c546f58e6e6e668fe6f8830333df14ab1d8`
 - h15_round3_enrichment.py_sha256: `aaecf3d0598981bd20961a049db48c13c4bc0cbfd5aa9a6fdaafbb6461aa69e1`
-- h15_round3_render.py_sha256: `c83e7742a45873fc5e272f5a16650ac2d87598e8d401d92d18161f5b1b8025ce`
+- h15_round3_render.py_sha256: `b0f95750e8eb5857ebd1cfcdb36f8565eab4460604d479d5d8898048a2e3fff3`
 - source_snapshots_sha256: `7bcc1786530d683e8cca4547ca26a9531be614ffd38d6cf07af7c1a63e22ec2a`
 
 <div class="slice-section-break" style="height: 50px" aria-hidden="true"></div>
