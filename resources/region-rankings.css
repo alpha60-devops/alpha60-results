@@ -1,0 +1,12 @@
+/* Regional tables keep the main site's Izzi typography. */
+.region-rankings { overflow-wrap: anywhere; }
+.region-table-scroll { overflow-x: auto; max-width: 100%; margin: 1.5rem 0; }
+.region-table-scroll:focus-visible { outline: 3px solid #175b8c; outline-offset: 3px; }
+.region-table-scroll table { display: table; min-width: 850px; width: 100%; margin: 0; }
+.region-table-scroll thead { display: table-header-group; }
+.region-table-scroll tbody { display: table-row-group; }
+.region-table-scroll tr { display: table-row; }
+/* Override the shared stylesheet's mobile width: 100% !important. */
+.region-table-scroll th, .region-table-scroll td { display: table-cell; width: auto !important; }
+.region-table-scroll td::before { display: none; }
+.region-table-scroll code { white-space: normal; overflow-wrap: anywhere; }

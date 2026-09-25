@@ -44,6 +44,8 @@ These are results from sampling peer swarms associated with *media objects* bein
 	- [Olympics 2026](https://alpha60-devops.github.io/alpha60-results-sports/docs/olympics.html)
 	- [World Cup 2026](https://alpha60-devops.github.io/alpha60-results-sports/docs/world-cup.html)
 
+- [Region Top {{ site.data.region_rankings.top_n }}](docs/region-top.html)
+
 - Year
 	- [2026](https://alpha60-devops.github.io/alpha60-results-2026/)
 	- [2025](https://alpha60-devops.github.io/alpha60-results-2025/)
