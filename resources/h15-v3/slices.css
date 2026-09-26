@@ -2,6 +2,8 @@
 /* The site's Minimal theme floats generic sections into a 500px sidebar. */
 .h15-slice { float: none; width: 100%; padding: 0; margin: 0; border: 0; }
 .h15-slice label { display: inline-block; margin: .5rem 1rem .5rem 0; }
+.h15-slice .slice-filter { display: inline-block; margin-right: 1rem; white-space: nowrap; }
+.h15-slice .slice-filter label { margin-right: .25rem; }
 .h15-slice input, .h15-slice select { font: inherit; max-width: 100%; }
 .slice-table { overflow-x: auto; max-width: 100%; }
 .slice-table table { width: 100%; min-width: 64rem; border-collapse: collapse; }
@@ -14,4 +16,7 @@
 .slice-basis-chip { display: inline-block; border: 1px solid #777; padding: .1rem .3rem; margin: .1rem; font-size: .85em; }
 .slice-graphic { width: 100%; height: auto; display: block; margin: 1rem 0; }
 .slice-section-break { height: 50px; }
-@media (max-width: 640px) { .h15-slice label { display: block; } }
+@media (max-width: 640px) {
+  .h15-slice label, .h15-slice .slice-filter { display: block; }
+  .h15-slice .slice-filter label { display: inline-block; }
+}
