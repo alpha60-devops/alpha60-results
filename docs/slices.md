@@ -3357,7 +3357,7 @@ Canonical repository: [alpha60-swarm-metadata](https://github.com/alpha60-devops
 
 Corpus: 644 media objects; 3712 person records. Unresolved credit rows: 1733 (795 actor/primary-creator rows).
 
-Artifact digest: `edf0afc451e422f76d2689dcdd1c72a7812cd660ea78827e510400446be4ecac`.
+Artifact digest: `7803ccc84d6005a3a429e2c7189c5aed219c070fa1f6db103c5c91f7f04c8661`.
 
 [Machine-readable report](../resources/h15-v3/h15-v3.generated.json) · [Coverage and change report](https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/main/reports/candidates/h15-v3-impact.json) · [Person qualifications](https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/main/data/h15-v3-person-qualifications.json)
 
@@ -3377,7 +3377,7 @@ Source hashes:
 - h15_round3_boundary.py_sha256: `774920ba65109839af25b2d2c9a21c760b191b98998d1ee3039ea6b51e5ee22a`
 - h15_round2.py_sha256: `4d9b1bad7371a7355a72e547e0ae340e316a6fca4416ebfb020f6002899b64b3`
 - h15_round3_enrichment.py_sha256: `aaecf3d0598981bd20961a049db48c13c4bc0cbfd5aa9a6fdaafbb6461aa69e1`
-- h15_round3_render.py_sha256: `51b7e0e3627b8dd6d292788f6b651ecd1f862ca84a154f3403bf9ffdbc873c7f`
+- h15_round3_render.py_sha256: `afa52ef70282824f9432d8d5142865d33b6397b4ecb424b073a5ce8535adf0f9`
 - source_snapshots_sha256: `7bcc1786530d683e8cca4547ca26a9531be614ffd38d6cf07af7c1a63e22ec2a`
 
 <div class="slice-section-break" style="height: 50px" aria-hidden="true"></div>
