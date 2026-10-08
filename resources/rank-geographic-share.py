@@ -254,7 +254,10 @@ def render_region(data, key, output, ledger, site_mode=True):
               f'The top {count} sample windows span **{min(r["sample_days"] for r in top)}–{max(r["sample_days"] for r in top)} days**. '
               'Weights describe repeated observed swarm participation, not unique people or completed views.', '']
     lines += table_start(title)
-    lines += [f'| Rank | Media object | Sample window | Days | {label} % | {label} downloader weight | Worldwide downloader weight |',
+    window_heading, region_heading, world_heading = (
+        ('duration', 'asia-28 downloaders', 'world downloaders') if key == 'asia-28'
+        else ('Sample window', f'{label} downloader weight', 'Worldwide downloader weight'))
+    lines += [f'| Rank | Media object | {window_heading} | Days | {label} % | {region_heading} | {world_heading} |',
               '| ---: | --- | --- | ---: | ---: | ---: | ---: |']
     for rank, row in enumerate(top, 1):
         name = row['name'] + (' · ' + str(row['collection_id']) if row['collection_id'] else '')

@@ -25,7 +25,7 @@ Ranked **644 distinct media objects** from the 2017–2026 annual repositories b
 
 <div class="region-table-scroll" role="region" aria-label="Top 50 media objects by Asia-28 share" tabindex="0" markdown="1">
 
-| Rank | Media object | Sample window | Days | Asia-28 % | Asia-28 downloader weight | Worldwide downloader weight |
+| Rank | Media object | duration | Days | Asia-28 % | asia-28 downloaders | world downloaders |
 | ---: | --- | --- | ---: | ---: | ---: | ---: |
 | 1 | [Jamtara: Sabka Number Ayega · 1](https://alpha60-devops.github.io/alpha60-results-2020/docs/itemized/jamtara-sabka-number-ayega-sample-cache-audit.html)<br>`jamtara-sabka-number-ayega` | 2020-01-10 to 2020-03-12 | 63 | **58.63%** | 532,781 | 908,658 |
 | 2 | [Space Sweepers](https://alpha60-devops.github.io/alpha60-results-2021/docs/itemized/space-sweepers-sample-cache-audit.html)<br>`space-sweepers` | 2021-02-05 to 2021-04-15 | 70 | **47.04%** | 2,530,434 | 5,378,986 |
