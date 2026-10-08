@@ -2,7 +2,7 @@
 
 Measure change: Round 2 raw actor nationality occurrences become Round 3 distinct actor-country associations per cast entry/work. Added citizenship, nationality, and descent evidence and duplicate removal are reconciled in the impact report.
 
-Canonical artifact: `0d9d571f472fa7d5e63581c34b46b874aa85a3262f963e8321d31ba6ebac2b1c`.
+Canonical artifact: `c197552070342ccd8dcb40a9956b757455fdb70e99a619b7129f322d14a3bd99`.
 
 [Contact sheet](h15-v3-contact-sheet.png) · [Twelve-page review PDF](h15-v3-plates.pdf)
 

@@ -199,11 +199,10 @@ entity and its title-specific production responsibility remain unresolved in
 the evidence above. Crew Girl's final USA-production disposition must record
 the evidence and relationship used.
 
-The AAM roster correction is in progress. This clarification does not report a
-recomputed roster or update the September 2026 OTT counts below. AAM continues
-to use the expanded AAPI identity boundary, Threshold 2, Asia-28 reference, and
-no U.S. citizenship minimum; those identity and credit requirements are
-evaluated separately from company relationships.
+The [stage 2 AAM rebuild](https://alpha60-devops.github.io/alpha60-asian-american-media/docs/aam.html)
+contains 190 eligible, measured media objects. Crew Girl's representation and
+principal-credit review is repaired; its exact U.S. producer relationship
+remains unresolved and is visible in the downloadable review-status audit.
 
 
 ## 3. Coverage and assignment counts
