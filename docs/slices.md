@@ -1,11 +1,11 @@
 # Actor and creator slices — Round 3
 
-Reviewed 2026-09-24. Definition `h15-round3-20260924-v4`.
+Reviewed 2026-10-08. Definition `h15-round3-20261008-v5`.
 
 Membership is non-exclusive and provisional within the reviewed sources. A positive count is supported evidence; zero means no qualifying evidence was found in the bounded review. Unresolved credits remain visible.
 
-<link rel="stylesheet" href="../resources/h15-v3/slices.css?v=20260925-filters">
-<script src="../resources/h15-v3/slices.js?v=20260925-filters" defer></script>
+<link rel="stylesheet" href="../resources/h15-v3/slices.css?v=20261008-toolbar">
+<script src="../resources/h15-v3/slices.js?v=20261008-toolbar" defer></script>
 
 ## Slice summary
 
@@ -15,8 +15,8 @@ Membership is non-exclusive and provisional within the reviewed sources. A posit
 | [aapi-led](#aapi-led) | 313 | 313 |
 | [african-led-global](#african-led-global) | 216 | 343 |
 | [black-led](#black-led) | 382 | 382 |
-| [latinx-led-global](#latinx-led-global) | 246 | 268 |
-| [latinx-led](#latinx-led) | 259 | 259 |
+| [latine-led-global](#latine-led-global) | 246 | 268 |
+| [latine-led](#latine-led) | 259 | 259 |
 | [white-led-global](#white-led-global) | 536 | 541 |
 | [mixed-led-global](#mixed-led-global) | 460 | 465 |
 
@@ -64,11 +64,12 @@ For `asian-led-global`, confirmed sourced Taiwanese identity, named origin or de
 
 References: [geography](#reference-geography), [aapi](#reference-aapi), [round3](#reference-round3).
 
+<div class="slice-toolbar">
 <label>Find a work <input class="slice-search" type="search" aria-label="Find a work in asian-led-global"></label>
-<label>Evidence <select class="slice-basis"><option value="">All bases</option><option value="global_origin">Global origin boundary</option><option value="diaspora_relationship">Descent / diaspora</option><option value="pacific_islander">Pacific Islander</option><option value="legacy_manual">Legacy / needs evidence</option><option value="named_origin">Named origin</option><option value="identity">Identity</option></select></label>
 <span class="slice-filter"><label><input class="slice-threshold-enabled" type="checkbox"> Threshold</label> <select class="slice-threshold" aria-label="Minimum actors plus creators in asian-led-global"><option value="1">1</option><option value="2">2</option><option value="3">3</option></select></span>
 <label><input class="slice-production" type="checkbox"> USA production</label>
 <span class="slice-filter"><label><input class="slice-citizens-enabled" type="checkbox"> U.S. citizens</label> <select class="slice-citizens" aria-label="Minimum confirmed U.S. citizens in asian-led-global"><option value="1">1</option><option value="2">2</option></select></span>
+</div>
 <p class="slice-visible" role="status" aria-live="polite"></p>
 <div class="slice-table"><table><thead><tr><th>Candidate / work</th><th>Actors</th><th>Creators</th><th>USA production</th><th>USA citizens</th><th>Credit linkage</th><th>Evidence / status</th></tr></thead><tbody>
 <tr data-basis="diaspora_relationship global_origin named_origin" data-us="true"><td id="ASIAN-001">ASIAN-001<br><code>3-body-problem-01</code><br>broader_than_media_object</td><td>6</td><td>3</td><td>true</td><td>3</td><td>23/23 linked<br><small>12 linked people without slice evidence</small></td><td><span class="slice-basis-chip">diaspora_relationship</span> <span class="slice-basis-chip">global_origin</span> <span class="slice-basis-chip">named_origin</span><details><summary>detail</summary><ul><li><a href="https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/main/people/Q111128030.json">Saamer Usmani</a> (actor; Non-U.S. citizen (reviewed citizenship-list rule); documented citizenship: GBR, PAK; category counting context: GBR; descent: PAK; nationality: GBR)</li><li><a href="https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/main/people/Q122794900.json">Jess Hong</a> (actor; Non-U.S. citizen (reviewed citizenship-list rule); documented citizenship: NZL; category counting context: NZL; descent: CHN; nationality: NZL)</li><li><a href="https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/main/people/Q124311479.json">Zine Tseng</a> (actor; U.S. citizenship unknown; documented citizenship: not documented; nationality: TWN)</li><li><a href="https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/main/people/Q1321598.json">Derek Tsang</a> (director; Non-U.S. citizen (reviewed citizenship-list rule); documented citizenship: CHN; nationality: CHN, HKG)</li><li><a href="https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/main/people/Q253578.json">Rosalind Chao</a> (actor; U.S. citizen; documented citizenship: USA; category counting context: USA; descent: CHN; nationality: USA)</li><li><a href="https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/main/people/Q3329808.json">Benedict Wong</a> (actor; Non-U.S. citizen (reviewed citizenship-list rule); documented citizenship: GBR; category counting context: GBR; descent: CHN, HKG; nationality: GBR)</li><li><a href="https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/main/people/Q3610809.json">Alexander Woo</a> (creator, writer; U.S. citizen; documented citizenship: USA; )</li><li><a href="https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/main/people/Q77172017.json">Sea Shimooka</a> (actor; U.S. citizen; documented citizenship: USA; descent: FRA, GBR, JPN)</li></ul></details></td></tr>
@@ -443,11 +444,12 @@ Reference set `pacific-reference-v1` (22 entries): American Samoa (ASM); Cook Is
 
 References: [geography](#reference-geography), [aapi](#reference-aapi), [round3](#reference-round3).
 
+<div class="slice-toolbar">
 <label>Find a work <input class="slice-search" type="search" aria-label="Find a work in aapi-led"></label>
-<label>Evidence <select class="slice-basis"><option value="">All bases</option><option value="global_origin">Global origin boundary</option><option value="diaspora_relationship">Descent / diaspora</option><option value="pacific_islander">Pacific Islander</option><option value="legacy_manual">Legacy / needs evidence</option><option value="named_origin">Named origin</option><option value="identity">Identity</option></select></label>
 <span class="slice-filter"><label><input class="slice-threshold-enabled" type="checkbox"> Threshold</label> <select class="slice-threshold" aria-label="Minimum actors plus creators in aapi-led"><option value="1">1</option><option value="2">2</option><option value="3">3</option></select></span>
 <label><input class="slice-production" type="checkbox"> USA production</label>
 <span class="slice-filter"><label><input class="slice-citizens-enabled" type="checkbox"> U.S. citizens</label> <select class="slice-citizens" aria-label="Minimum confirmed U.S. citizens in aapi-led"><option value="1">1</option><option value="2">2</option></select></span>
+</div>
 <p class="slice-visible" role="status" aria-live="polite"></p>
 <div class="slice-table"><table><thead><tr><th>Candidate / work</th><th>Actors</th><th>Creators</th><th>USA production</th><th>USA citizens</th><th>Credit linkage</th><th>Evidence / status</th></tr></thead><tbody>
 <tr data-basis="diaspora_relationship named_origin pacific_islander" data-us="true"><td id="AAPI-001">AAPI-001<br><code>3-body-problem-01</code><br>broader_than_media_object</td><td>6</td><td>3</td><td>true</td><td>3</td><td>23/23 linked<br><small>12 linked people without slice evidence</small></td><td><span class="slice-basis-chip">diaspora_relationship</span> <span class="slice-basis-chip">named_origin</span> <span class="slice-basis-chip">pacific_islander</span><details><summary>detail</summary><ul><li><a href="https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/main/people/Q111128030.json">Saamer Usmani</a> (actor; Non-U.S. citizen (reviewed citizenship-list rule); documented citizenship: GBR, PAK; category counting context: GBR; descent: PAK; nationality: GBR)</li><li><a href="https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/main/people/Q122794900.json">Jess Hong</a> (actor; Non-U.S. citizen (reviewed citizenship-list rule); documented citizenship: NZL; category counting context: NZL; descent: CHN; nationality: NZL)</li><li><a href="https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/main/people/Q124311479.json">Zine Tseng</a> (actor; U.S. citizenship unknown; documented citizenship: not documented; nationality: TWN)</li><li><a href="https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/main/people/Q1321598.json">Derek Tsang</a> (director; Non-U.S. citizen (reviewed citizenship-list rule); documented citizenship: CHN; nationality: CHN, HKG)</li><li><a href="https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/main/people/Q253578.json">Rosalind Chao</a> (actor; U.S. citizen; documented citizenship: USA; category counting context: USA; descent: CHN; nationality: USA)</li><li><a href="https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/main/people/Q3329808.json">Benedict Wong</a> (actor; Non-U.S. citizen (reviewed citizenship-list rule); documented citizenship: GBR; category counting context: GBR; descent: CHN, HKG; nationality: GBR)</li><li><a href="https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/main/people/Q3610809.json">Alexander Woo</a> (creator, writer; U.S. citizen; documented citizenship: USA; )</li><li><a href="https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/main/people/Q77172017.json">Sea Shimooka</a> (actor; U.S. citizen; documented citizenship: USA; descent: FRA, GBR, JPN)</li></ul></details></td></tr>
@@ -783,6 +785,8 @@ Excluded unrecognized/non-country legacy values (retained for review): `ALDERAAN
 
 <div class="slice-section-break" style="height: 50px" aria-hidden="true"></div>
 
+<span id="black-led-global"></span>
+
 <section class="h15-slice" id="african-led-global" markdown="1">
 
 ## Slice AFRICAN — `african-led-global`
@@ -831,11 +835,12 @@ For `african-led-global`, this boundary is applied to confirmed African identity
 
 References: [geography](#reference-geography), [black](#reference-black), [round3](#reference-round3).
 
+<div class="slice-toolbar">
 <label>Find a work <input class="slice-search" type="search" aria-label="Find a work in african-led-global"></label>
-<label>Evidence <select class="slice-basis"><option value="">All bases</option><option value="global_origin">Global origin boundary</option><option value="diaspora_relationship">Descent / diaspora</option><option value="pacific_islander">Pacific Islander</option><option value="legacy_manual">Legacy / needs evidence</option><option value="named_origin">Named origin</option><option value="identity">Identity</option></select></label>
 <span class="slice-filter"><label><input class="slice-threshold-enabled" type="checkbox"> Threshold</label> <select class="slice-threshold" aria-label="Minimum actors plus creators in african-led-global"><option value="1">1</option><option value="2">2</option><option value="3">3</option></select></span>
 <label><input class="slice-production" type="checkbox"> USA production</label>
 <span class="slice-filter"><label><input class="slice-citizens-enabled" type="checkbox"> U.S. citizens</label> <select class="slice-citizens" aria-label="Minimum confirmed U.S. citizens in african-led-global"><option value="1">1</option><option value="2">2</option></select></span>
+</div>
 <p class="slice-visible" role="status" aria-live="polite"></p>
 <div class="slice-table"><table><thead><tr><th>Candidate / work</th><th>Actors</th><th>Creators</th><th>USA production</th><th>USA citizens</th><th>Credit linkage</th><th>Evidence / status</th></tr></thead><tbody>
 <tr data-basis="legacy_manual" data-us="false"><td id="BLACK-001">BLACK-001<br><code>3-percent-02</code><br>broader_than_media_object</td><td>0</td><td>0</td><td>false</td><td>0</td><td>11/32 linked<br>21 unresolved credits<br><small>11 linked people without slice evidence</small></td><td><span class="slice-basis-chip">legacy_manual</span><details><summary>detail</summary><ul></ul></details><small>needs_evidence</small></td></tr>
@@ -1213,11 +1218,12 @@ No identity inference from name, appearance, citizenship, production country, or
 
 References: [geography](#reference-geography), [black](#reference-black), [round3](#reference-round3).
 
+<div class="slice-toolbar">
 <label>Find a work <input class="slice-search" type="search" aria-label="Find a work in black-led"></label>
-<label>Evidence <select class="slice-basis"><option value="">All bases</option><option value="global_origin">Global origin boundary</option><option value="diaspora_relationship">Descent / diaspora</option><option value="pacific_islander">Pacific Islander</option><option value="legacy_manual">Legacy / needs evidence</option><option value="named_origin">Named origin</option><option value="identity">Identity</option></select></label>
 <span class="slice-filter"><label><input class="slice-threshold-enabled" type="checkbox"> Threshold</label> <select class="slice-threshold" aria-label="Minimum actors plus creators in black-led"><option value="1">1</option><option value="2">2</option><option value="3">3</option></select></span>
 <label><input class="slice-production" type="checkbox"> USA production</label>
 <span class="slice-filter"><label><input class="slice-citizens-enabled" type="checkbox"> U.S. citizens</label> <select class="slice-citizens" aria-label="Minimum confirmed U.S. citizens in black-led"><option value="1">1</option><option value="2">2</option></select></span>
+</div>
 <p class="slice-visible" role="status" aria-live="polite"></p>
 <div class="slice-table"><table><thead><tr><th>Candidate / work</th><th>Actors</th><th>Creators</th><th>USA production</th><th>USA citizens</th><th>Credit linkage</th><th>Evidence / status</th></tr></thead><tbody>
 <tr data-basis="diaspora_relationship identity" data-us="false"><td id="BLACK-D-001">BLACK-D-001<br><code>3-body-problem-01</code><br>broader_than_media_object</td><td>1</td><td>0</td><td>true</td><td>1</td><td>23/23 linked<br><small>19 linked people without slice evidence</small></td><td><span class="slice-basis-chip">diaspora_relationship</span> <span class="slice-basis-chip">identity</span><details><summary>detail</summary><ul><li><a href="https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/main/people/Q27063733.json">Jovan Adepo</a> (actor; U.S. citizen; documented citizenship: GBR, USA; category counting context: GBR; descent: NGA; nationality: GBR)</li></ul></details></td></tr>
@@ -1622,13 +1628,15 @@ Excluded unrecognized/non-country legacy values (retained for review): `ALDERAAN
 
 <div class="slice-section-break" style="height: 50px" aria-hidden="true"></div>
 
-<section class="h15-slice" id="latinx-led-global" markdown="1">
+<span id="latinx-led-global"></span>
 
-## Slice LATINX — `latinx-led-global`
+<section class="h15-slice" id="latine-led-global" markdown="1">
 
-Definition: `latinx-led-global-v2`. Coverage: partial: bounded public-source review; unresolved credits and identity evidence remain.
+## Slice LATINE — `latine-led-global`
 
-Confirmed named Latin American identity/origin/descent tied to the 20-place project boundary. Broad Hispanic/Latino labels without a named origin are represented in latinx-led.
+Definition: `latine-led-global-v2`. Coverage: partial: bounded public-source review; unresolved credits and identity evidence remain.
+
+Confirmed named Latin American identity/origin/descent tied to the 20-place project boundary. Broad Hispanic/Latino labels without a named origin are represented in latine-led.
 
 No identity inference from name, appearance, citizenship, production country, or character. Only confirmed sourced actor/primary-creator evidence counts. Unknown is not a negative identity claim.
 
@@ -1636,11 +1644,12 @@ Reference set `latinx-20` (20 entries): Argentina (ARG); Bolivia (BOL); Brazil (
 
 References: [geography](#reference-geography), [latinx](#reference-latinx), [round3](#reference-round3).
 
-<label>Find a work <input class="slice-search" type="search" aria-label="Find a work in latinx-led-global"></label>
-<label>Evidence <select class="slice-basis"><option value="">All bases</option><option value="global_origin">Global origin boundary</option><option value="diaspora_relationship">Descent / diaspora</option><option value="pacific_islander">Pacific Islander</option><option value="legacy_manual">Legacy / needs evidence</option><option value="named_origin">Named origin</option><option value="identity">Identity</option></select></label>
-<span class="slice-filter"><label><input class="slice-threshold-enabled" type="checkbox"> Threshold</label> <select class="slice-threshold" aria-label="Minimum actors plus creators in latinx-led-global"><option value="1">1</option><option value="2">2</option><option value="3">3</option></select></span>
+<div class="slice-toolbar">
+<label>Find a work <input class="slice-search" type="search" aria-label="Find a work in latine-led-global"></label>
+<span class="slice-filter"><label><input class="slice-threshold-enabled" type="checkbox"> Threshold</label> <select class="slice-threshold" aria-label="Minimum actors plus creators in latine-led-global"><option value="1">1</option><option value="2">2</option><option value="3">3</option></select></span>
 <label><input class="slice-production" type="checkbox"> USA production</label>
-<span class="slice-filter"><label><input class="slice-citizens-enabled" type="checkbox"> U.S. citizens</label> <select class="slice-citizens" aria-label="Minimum confirmed U.S. citizens in latinx-led-global"><option value="1">1</option><option value="2">2</option></select></span>
+<span class="slice-filter"><label><input class="slice-citizens-enabled" type="checkbox"> U.S. citizens</label> <select class="slice-citizens" aria-label="Minimum confirmed U.S. citizens in latine-led-global"><option value="1">1</option><option value="2">2</option></select></span>
+</div>
 <p class="slice-visible" role="status" aria-live="polite"></p>
 <div class="slice-table"><table><thead><tr><th>Candidate / work</th><th>Actors</th><th>Creators</th><th>USA production</th><th>USA citizens</th><th>Credit linkage</th><th>Evidence / status</th></tr></thead><tbody>
 <tr data-basis="global_origin identity named_origin" data-us="false"><td id="LATINX-001">LATINX-001<br><code>3-percent-02</code><br>broader_than_media_object</td><td>5</td><td>2</td><td>false</td><td>0</td><td>11/32 linked<br>21 unresolved credits<br><small>4 linked people without slice evidence</small></td><td><span class="slice-basis-chip">global_origin</span> <span class="slice-basis-chip">identity</span> <span class="slice-basis-chip">named_origin</span><details><summary>detail</summary><ul><li><a href="https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/main/people/Q10363715.json">Rodolfo Valente</a> (actor; Non-U.S. citizen (reviewed citizenship-list rule); documented citizenship: BRA; )</li><li><a href="https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/main/people/Q10392204.json">Viviane Porto</a> (actor; Non-U.S. citizen (reviewed citizenship-list rule); documented citizenship: BRA; nationality: BRA)</li><li><a href="https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/main/people/Q1150683.json">César Charlone</a> (director; Non-U.S. citizen (reviewed citizenship-list rule); documented citizenship: URY; nationality: BRA, URY)</li><li><a href="https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/main/people/Q16336987.json">Bruno Fagundes</a> (actor; Non-U.S. citizen (reviewed citizenship-list rule); documented citizenship: BRA; nationality: BRA)</li><li><a href="https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/main/people/Q18280611.json">Juliana Rojas</a> (writer; Non-U.S. citizen (reviewed citizenship-list rule); documented citizenship: BRA; nationality: BRA)</li><li><a href="https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/main/people/Q52455804.json">Cynthia Senek</a> (actor; Non-U.S. citizen (reviewed citizenship-list rule); documented citizenship: BRA; nationality: BRA)</li><li><a href="https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/main/people/Q99638104.json">Amanda Magalhães</a> (actor; Non-U.S. citizen (reviewed citizenship-list rule); documented citizenship: BRA; nationality: BRA)</li></ul></details></td></tr>
@@ -1921,7 +1930,7 @@ Qualifying person-work citizenship dispositions: confirmed: 327; conflicting: 5;
 
 Coverage: 86 of 246 confirmed works have reviewed actor country associations. Missing annotations are not zeros. This is a descriptive chart of the selected works, separate from the evidence used to qualify their people.
 
-<a href="../resources/h15-v3/radial-kusama-swarm-latinx-countries.svg"><img class="slice-graphic" src="../resources/h15-v3/radial-kusama-swarm-latinx-countries.png" alt="latinx-led-global actor country-association occurrences; observed countries in the configured view"></a>
+<a href="../resources/h15-v3/radial-kusama-swarm-latinx-countries.svg"><img class="slice-graphic" src="../resources/h15-v3/radial-kusama-swarm-latinx-countries.png" alt="latine-led-global actor country-association occurrences; observed countries in the configured view"></a>
 
 Plate `izzi-3b78dead916b`. [Plate manifest](../resources/h15-v3/plates.json) · [Contact sheet](../resources/h15-v3/h15-v3-contact-sheet.png) · [Review PDF](../resources/h15-v3/h15-v3-plates.pdf).
 
@@ -1931,23 +1940,28 @@ Excluded unrecognized/non-country legacy values (retained for review): `ALDERAAN
 
 <div class="slice-section-break" style="height: 50px" aria-hidden="true"></div>
 
-<section class="h15-slice" id="latinx-led" markdown="1">
+<span id="latinix-led"></span>
 
-## Slice LATINX — `latinx-led`
+<span id="latinx-led"></span>
 
-Definition: `latinx-led-v2`. Coverage: partial: bounded public-source review; unresolved credits and identity evidence remain.
+<section class="h15-slice" id="latine-led" markdown="1">
 
-Union of latinx-led-global and reviewed Hispanic or Latino American identity/descent, regardless of race. Hispanic, Latin American, and Latino are recorded distinctly.
+## Slice LATINE — `latine-led`
+
+Definition: `latine-led-v2`. Coverage: partial: bounded public-source review; unresolved credits and identity evidence remain.
+
+Union of latine-led-global and reviewed Hispanic or Latino American identity/descent, regardless of race. Hispanic, Latin American, and Latino are recorded distinctly.
 
 No identity inference from name, appearance, citizenship, production country, or character. Only confirmed sourced actor/primary-creator evidence counts. Unknown is not a negative identity claim.
 
 References: [geography](#reference-geography), [latinx](#reference-latinx), [round3](#reference-round3).
 
-<label>Find a work <input class="slice-search" type="search" aria-label="Find a work in latinx-led"></label>
-<label>Evidence <select class="slice-basis"><option value="">All bases</option><option value="global_origin">Global origin boundary</option><option value="diaspora_relationship">Descent / diaspora</option><option value="pacific_islander">Pacific Islander</option><option value="legacy_manual">Legacy / needs evidence</option><option value="named_origin">Named origin</option><option value="identity">Identity</option></select></label>
-<span class="slice-filter"><label><input class="slice-threshold-enabled" type="checkbox"> Threshold</label> <select class="slice-threshold" aria-label="Minimum actors plus creators in latinx-led"><option value="1">1</option><option value="2">2</option><option value="3">3</option></select></span>
+<div class="slice-toolbar">
+<label>Find a work <input class="slice-search" type="search" aria-label="Find a work in latine-led"></label>
+<span class="slice-filter"><label><input class="slice-threshold-enabled" type="checkbox"> Threshold</label> <select class="slice-threshold" aria-label="Minimum actors plus creators in latine-led"><option value="1">1</option><option value="2">2</option><option value="3">3</option></select></span>
 <label><input class="slice-production" type="checkbox"> USA production</label>
-<span class="slice-filter"><label><input class="slice-citizens-enabled" type="checkbox"> U.S. citizens</label> <select class="slice-citizens" aria-label="Minimum confirmed U.S. citizens in latinx-led"><option value="1">1</option><option value="2">2</option></select></span>
+<span class="slice-filter"><label><input class="slice-citizens-enabled" type="checkbox"> U.S. citizens</label> <select class="slice-citizens" aria-label="Minimum confirmed U.S. citizens in latine-led"><option value="1">1</option><option value="2">2</option></select></span>
+</div>
 <p class="slice-visible" role="status" aria-live="polite"></p>
 <div class="slice-table"><table><thead><tr><th>Candidate / work</th><th>Actors</th><th>Creators</th><th>USA production</th><th>USA citizens</th><th>Credit linkage</th><th>Evidence / status</th></tr></thead><tbody>
 <tr data-basis="named_origin" data-us="false"><td id="LATINX-D-001">LATINX-D-001<br><code>3-body-problem-01</code><br>broader_than_media_object</td><td>1</td><td>0</td><td>true</td><td>0</td><td>23/23 linked<br><small>19 linked people without slice evidence</small></td><td><span class="slice-basis-chip">named_origin</span><details><summary>detail</summary><ul><li><a href="https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/main/people/Q572761.json">Eiza Gonzalez</a> (actor; Non-U.S. citizen (reviewed citizenship-list rule); documented citizenship: MEX; nationality: MEX)</li></ul></details></td></tr>
@@ -2219,7 +2233,7 @@ Qualifying person-work citizenship dispositions: confirmed: 346; conflicting: 5;
 
 Coverage: 86 of 259 confirmed works have reviewed actor country associations. Missing annotations are not zeros. This is a descriptive chart of the selected works, separate from the evidence used to qualify their people.
 
-<a href="../resources/h15-v3/radial-kusama-swarm-latinx-led-countries.svg"><img class="slice-graphic" src="../resources/h15-v3/radial-kusama-swarm-latinx-led-countries.png" alt="latinx-led actor country-association occurrences; observed countries in the configured view"></a>
+<a href="../resources/h15-v3/radial-kusama-swarm-latinx-led-countries.svg"><img class="slice-graphic" src="../resources/h15-v3/radial-kusama-swarm-latinx-led-countries.png" alt="latine-led actor country-association occurrences; observed countries in the configured view"></a>
 
 Plate `izzi-0265ac569e64`. [Plate manifest](../resources/h15-v3/plates.json) · [Contact sheet](../resources/h15-v3/h15-v3-contact-sheet.png) · [Review PDF](../resources/h15-v3/h15-v3-plates.pdf).
 
@@ -2241,11 +2255,12 @@ No identity inference from name, appearance, citizenship, production country, or
 
 References: [geography](#reference-geography), [race](#reference-race), [round3](#reference-round3).
 
+<div class="slice-toolbar">
 <label>Find a work <input class="slice-search" type="search" aria-label="Find a work in white-led-global"></label>
-<label>Evidence <select class="slice-basis"><option value="">All bases</option><option value="global_origin">Global origin boundary</option><option value="diaspora_relationship">Descent / diaspora</option><option value="pacific_islander">Pacific Islander</option><option value="legacy_manual">Legacy / needs evidence</option><option value="named_origin">Named origin</option><option value="identity">Identity</option></select></label>
 <span class="slice-filter"><label><input class="slice-threshold-enabled" type="checkbox"> Threshold</label> <select class="slice-threshold" aria-label="Minimum actors plus creators in white-led-global"><option value="1">1</option><option value="2">2</option><option value="3">3</option></select></span>
 <label><input class="slice-production" type="checkbox"> USA production</label>
 <span class="slice-filter"><label><input class="slice-citizens-enabled" type="checkbox"> U.S. citizens</label> <select class="slice-citizens" aria-label="Minimum confirmed U.S. citizens in white-led-global"><option value="1">1</option><option value="2">2</option></select></span>
+</div>
 <p class="slice-visible" role="status" aria-live="polite"></p>
 <div class="slice-table"><table><thead><tr><th>Candidate / work</th><th>Actors</th><th>Creators</th><th>USA production</th><th>USA citizens</th><th>Credit linkage</th><th>Evidence / status</th></tr></thead><tbody>
 <tr data-basis="diaspora_relationship global_origin identity named_origin" data-us="true"><td id="WHITE-001">WHITE-001<br><code>3-body-problem-01</code><br>broader_than_media_object</td><td>7</td><td>7</td><td>true</td><td>5</td><td>23/23 linked<br><small>8 linked people without slice evidence</small></td><td><span class="slice-basis-chip">diaspora_relationship</span> <span class="slice-basis-chip">global_origin</span> <span class="slice-basis-chip">identity</span> <span class="slice-basis-chip">named_origin</span><details><summary>detail</summary><ul><li><a href="https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/main/people/Q110989914.json">Minkie Spiro</a> (director; U.S. citizenship unknown; documented citizenship: not documented; nationality: GBR)</li><li><a href="https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/main/people/Q111128030.json">Saamer Usmani</a> (actor; Non-U.S. citizen (reviewed citizenship-list rule); documented citizenship: GBR, PAK; category counting context: GBR; descent: PAK; nationality: GBR)</li><li><a href="https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/main/people/Q1151388.json">D. B. Weiss</a> (creator, writer; U.S. citizen; documented citizenship: USA; category counting context: USA; descent: DEU; nationality: USA)</li><li><a href="https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/main/people/Q1275443.json">Jeremy Podeswa</a> (director; Non-U.S. citizen (reviewed citizenship-list rule); documented citizenship: CAN; category counting context: CAN; descent: POL; nationality: CAN)</li><li><a href="https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/main/people/Q20685513.json">Alex Sharp</a> (actor; Non-U.S. citizen (reviewed citizenship-list rule); documented citizenship: GBR; nationality: GBR)</li><li><a href="https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/main/people/Q27063733.json">Jovan Adepo</a> (actor; U.S. citizen; documented citizenship: GBR, USA; category counting context: GBR; descent: NGA; nationality: GBR)</li><li><a href="https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/main/people/Q328723.json">Andrew Stanton</a> (director; U.S. citizen; documented citizenship: USA; category counting context: USA; descent: IRL; nationality: USA)</li><li><a href="https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/main/people/Q3329808.json">Benedict Wong</a> (actor; Non-U.S. citizen (reviewed citizenship-list rule); documented citizenship: GBR; category counting context: GBR; descent: CHN, HKG; nationality: GBR)</li><li><a href="https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/main/people/Q460572.json">Liam Cunningham</a> (actor; Non-U.S. citizen (reviewed citizenship-list rule); documented citizenship: IRL; nationality: IRL)</li><li><a href="https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/main/people/Q503997.json">David Benioff</a> (creator, writer; U.S. citizen; documented citizenship: USA; category counting context: USA; descent: AUT, POL, ROU, RUS; nationality: USA)</li><li><a href="https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/main/people/Q549101.json">John Bradley</a> (actor; Non-U.S. citizen (reviewed citizenship-list rule); documented citizenship: GBR; nationality: GBR)</li><li><a href="https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/main/people/Q77172017.json">Sea Shimooka</a> (actor; U.S. citizen; documented citizenship: USA; descent: FRA, GBR, JPN)</li></ul></details></td></tr>
@@ -2817,6 +2832,8 @@ Excluded unrecognized/non-country legacy values (retained for review): `ALDERAAN
 
 <div class="slice-section-break" style="height: 50px" aria-hidden="true"></div>
 
+<span id="multi-led-global"></span>
+
 <section class="h15-slice" id="mixed-led-global" markdown="1">
 
 ## Slice MIXED — `mixed-led-global`
@@ -2829,11 +2846,12 @@ No identity inference from name, appearance, citizenship, production country, or
 
 References: [geography](#reference-geography), [race](#reference-race), [round3](#reference-round3).
 
+<div class="slice-toolbar">
 <label>Find a work <input class="slice-search" type="search" aria-label="Find a work in mixed-led-global"></label>
-<label>Evidence <select class="slice-basis"><option value="">All bases</option><option value="global_origin">Global origin boundary</option><option value="diaspora_relationship">Descent / diaspora</option><option value="pacific_islander">Pacific Islander</option><option value="legacy_manual">Legacy / needs evidence</option><option value="named_origin">Named origin</option><option value="identity">Identity</option></select></label>
 <span class="slice-filter"><label><input class="slice-threshold-enabled" type="checkbox"> Threshold</label> <select class="slice-threshold" aria-label="Minimum actors plus creators in mixed-led-global"><option value="1">1</option><option value="2">2</option><option value="3">3</option></select></span>
 <label><input class="slice-production" type="checkbox"> USA production</label>
 <span class="slice-filter"><label><input class="slice-citizens-enabled" type="checkbox"> U.S. citizens</label> <select class="slice-citizens" aria-label="Minimum confirmed U.S. citizens in mixed-led-global"><option value="1">1</option><option value="2">2</option></select></span>
+</div>
 <p class="slice-visible" role="status" aria-live="polite"></p>
 <div class="slice-table"><table><thead><tr><th>Candidate / work</th><th>Actors</th><th>Creators</th><th>USA production</th><th>USA citizens</th><th>Credit linkage</th><th>Evidence / status</th></tr></thead><tbody>
 <tr data-basis="diaspora_relationship global_origin identity named_origin" data-us="false"><td id="MULTI-001">MULTI-001<br><code>3-percent-02</code><br>broader_than_media_object</td><td>6</td><td>2</td><td>false</td><td>0</td><td>11/32 linked<br>21 unresolved credits<br><small>3 linked people without slice evidence</small></td><td><span class="slice-basis-chip">diaspora_relationship</span> <span class="slice-basis-chip">global_origin</span> <span class="slice-basis-chip">identity</span> <span class="slice-basis-chip">named_origin</span><details><summary>detail</summary><ul><li><a href="https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/main/people/Q10363715.json">Rodolfo Valente</a> (actor; Non-U.S. citizen (reviewed citizenship-list rule); documented citizenship: BRA; )</li><li><a href="https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/main/people/Q10392204.json">Viviane Porto</a> (actor; Non-U.S. citizen (reviewed citizenship-list rule); documented citizenship: BRA; nationality: BRA)</li><li><a href="https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/main/people/Q1150683.json">César Charlone</a> (director; Non-U.S. citizen (reviewed citizenship-list rule); documented citizenship: URY; nationality: BRA, URY)</li><li><a href="https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/main/people/Q16336987.json">Bruno Fagundes</a> (actor; Non-U.S. citizen (reviewed citizenship-list rule); documented citizenship: BRA; nationality: BRA)</li><li><a href="https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/main/people/Q18280611.json">Juliana Rojas</a> (writer; Non-U.S. citizen (reviewed citizenship-list rule); documented citizenship: BRA; nationality: BRA)</li><li><a href="https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/main/people/Q52455804.json">Cynthia Senek</a> (actor; Non-U.S. citizen (reviewed citizenship-list rule); documented citizenship: BRA; nationality: BRA)</li><li><a href="https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/main/people/Q6298260.json">João Miguel Serrano Leonelli</a> (actor; Non-U.S. citizen (reviewed citizenship-list rule); documented citizenship: BRA; category counting context: BRA; descent: ITA; nationality: BRA)</li><li><a href="https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/main/people/Q99638104.json">Amanda Magalhães</a> (actor; Non-U.S. citizen (reviewed citizenship-list rule); documented citizenship: BRA; nationality: BRA)</li></ul></details></td></tr>
@@ -3357,7 +3375,7 @@ Canonical repository: [alpha60-swarm-metadata](https://github.com/alpha60-devops
 
 Corpus: 644 media objects; 3712 person records. Unresolved credit rows: 1733 (795 actor/primary-creator rows).
 
-Artifact digest: `7803ccc84d6005a3a429e2c7189c5aed219c070fa1f6db103c5c91f7f04c8661`.
+Artifact digest: `0d9d571f472fa7d5e63581c34b46b874aa85a3262f963e8321d31ba6ebac2b1c`.
 
 [Machine-readable report](../resources/h15-v3/h15-v3.generated.json) · [Coverage and change report](https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/main/reports/candidates/h15-v3-impact.json) · [Person qualifications](https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/main/data/h15-v3-person-qualifications.json)
 
@@ -3366,18 +3384,19 @@ Source hashes:
 - baseline_report_sha256: `e27eefb6061cc3e615c5a01d7a788dacb15fedb042605161139e8bf78acb909b`
 - baseline_people_sha256: `00b2268ce1e3c38d84e5bfeeb6d9cce1d7d1117d931c5632ba83016b85777405`
 - people_sha256: `72e23085af73ec4a2eec63f426c374d16fc21ca52df949253a8871cdb542ffe3`
-- metadata_sha256: `f919bebe506b1e0fc21e2d33d0ff8bf1862255e447bd709e87a0427aaf591a76`
+- metadata_sha256: `52545c31a744aea3c2718e4e67b8cdf3ee76b379eee35bbbb70b496d7844fc40`
 - representation_reviews_sha256: `34254a1f8cf3934254d878d189a1b114397bb81193ad16e02a0ce50bbdcbaede`
 - inventory_sha256: `34817493dc99362c9144b0a208c1ba36768faf68403bed5e0f3bdc13fbe392bc`
-- definitions_sha256: `2dbf7fc60d25133dec6a0497e8a106367a4c413f0de9a5a2e73a3a94f91e6bcc`
+- definitions_sha256: `7a6aeee74789aa49c7aac74243bfb166f56a64f143df54628a6d2245f514f656`
 - country_mapping_sha256: `41eb94d549562d4fb7ddcf110b53d38223e02ff4d9402e4d01b92482da0d09aa`
-- registry_sha256: `9c4642baabe1ecc4f425d0e4db82247fc4ab02e1b75410c6d08d8b860d25d82f`
-- schema_sha256: `9de01dfdc990ff67c7d874f481aa9ce39986fc8f73ac53fe81fdaa115e61b1db`
-- h15_round3.py_sha256: `e5fe91f4be7f4e395b862638bcde475537435b1413ae33a10ecee2cf2a307b7c`
+- registry_sha256: `703cb3de1e6e760a3465af7b2b5e9d50fe912865aa40d4d8d74cd4f7016c538d`
+- schema_sha256: `4e7256ddfdf04ee69e47b7c58aec326a0a4f7d6e295d5859080f2d9ac4e91e48`
+- h15_round3.py_sha256: `33e3ca777d1293cda7a3f90a2c4bda21c701638c5f27fa8634364dcddfb635ab`
 - h15_round3_boundary.py_sha256: `774920ba65109839af25b2d2c9a21c760b191b98998d1ee3039ea6b51e5ee22a`
 - h15_round2.py_sha256: `4d9b1bad7371a7355a72e547e0ae340e316a6fca4416ebfb020f6002899b64b3`
 - h15_round3_enrichment.py_sha256: `aaecf3d0598981bd20961a049db48c13c4bc0cbfd5aa9a6fdaafbb6461aa69e1`
-- h15_round3_render.py_sha256: `afa52ef70282824f9432d8d5142865d33b6397b4ecb424b073a5ce8535adf0f9`
+- h15_round3_render.py_sha256: `672a353489a663e06c8bd1b3ea35734653654a22f4592df35fb786b3a8f2876b`
+- h15_round3_names.py_sha256: `4c5f610e2d3a136f6a25fdc3552cb74daa9cab1f74b72df76eff4c02d56454ea`
 - source_snapshots_sha256: `7bcc1786530d683e8cca4547ca26a9531be614ffd38d6cf07af7c1a63e22ec2a`
 
 <div class="slice-section-break" style="height: 50px" aria-hidden="true"></div>

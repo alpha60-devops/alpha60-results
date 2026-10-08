@@ -20,3 +20,10 @@
   .h15-slice label, .h15-slice .slice-filter { display: block; }
   .h15-slice .slice-filter label { display: inline-block; }
 }
+
+/* One toolbar per table; retain usable controls on narrow screens. */
+.slice-toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem 1rem; }
+.h15-slice .slice-toolbar label, .h15-slice .slice-toolbar .slice-filter { margin: .25rem 0; }
+.slice-toolbar > label, .slice-toolbar > .slice-filter { white-space: nowrap; }
+.slice-toolbar input[type="search"] { width: 12rem; }
+@media (min-width: 1000px) { .slice-toolbar { flex-wrap: nowrap; } }
