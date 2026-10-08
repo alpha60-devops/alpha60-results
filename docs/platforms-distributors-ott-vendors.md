@@ -2,6 +2,10 @@
 
 *Prepared: 2026-09-15*
 
+*Updated: 2026-10-08 — see [USA Production Company criteria and the Crew Girl
+crosswalk](#24-what-counts-as-a-usa-production-company). The vendor counts and
+inventories in this report remain the September 2026 snapshot.*
+
 *Parent plan: `20260911_metadata_v6.2.md`*
 
 *Canonical metadata source: `/home/bkoz/src/alpha60-swarm-metadata` at
@@ -136,6 +140,71 @@ This is a network-origin candidate rule, not a current-availability claim.
 The same source records that *Westworld* was removed from HBO Max in December
 2022, illustrating why availability window and current catalog status remain
 outside this report's membership semantics.
+
+### 2.4 What counts as a USA Production Company?
+
+*Clarification added 2026-10-08 for the Asian American Media roster correction.*
+
+**Netflix Studios, LLC is a USA production company.** Netflix's 2025 annual
+report, Exhibit 21.1, identifies it as a United States subsidiary wholly owned
+by Netflix, Inc. The same filing lists subsidiaries in other jurisdictions, so
+the Netflix brand alone does not identify a particular legal entity.
+[Netflix annual report, Exhibit 21.1, PDF page 117](https://d18rn0p25nwr6d.cloudfront.net/CIK-0001065280/99482238-46b2-4d0d-b292-40e6781bdf03.pdf#page=117)
+
+For this analysis, a **USA Production Company** is a production company with
+sourced U.S. domicile. Applying that company classification to a media object
+also requires a sourced production or co-production relationship with the
+specific title and, where relevant, season. A company can produce a work filmed
+abroad or certified as Canadian content; a single country-of-origin field does
+not describe every participating company.
+
+The corrected USA-production review checks these relationships alongside the
+work's recorded production countries:
+
+| Evidence | How it is used |
+| --- | --- |
+| Title-specific production or co-production credit, plus the company's U.S. domicile | Supports a USA production-company relationship for that work. |
+| A production subsidiary's documented parent ownership | Record the subsidiary's own domicile, the controlling parent, and the dates separately. A U.S. parent supports a U.S. ownership relationship; it does not change a foreign subsidiary's domicile. Identify when a selection uses this ownership basis. |
+| A commissioning or development contract | Record the commissioning/development role and named entity. Resolve any production responsibility from the title-specific evidence. |
+| Distribution, streaming availability, or a platform label | Records the distributor or platform; does not by itself establish a production credit. |
+| Filming location, country-of-origin metadata, or content certification | Records a separate geographic fact about the work; does not settle every company's domicile or role. |
+| Camera, post-production, or other service vendor | Records the supplied service; does not by itself establish a production-company relationship. |
+
+Keep a source, role, entity name, date or applicable period, and review status
+for each relationship. Distinguish missing evidence from a reviewed negative.
+Ownership and brand changes must be dated so a later acquisition does not
+silently rewrite the production history.
+
+#### Crew Girl: production, ownership, commissioning, and vendor crosswalk
+
+The following crosswalk explains why Crew Girl requires a company-level review.
+It covers the relationships identified so far; a complete end-credit vendor
+inventory has not been verified.
+
+| Company or credited party | Relationship to Crew Girl | Evidence and classification |
+| --- | --- | --- |
+| GPM-CGL Productions Inc. | Named title production entity | The June 9, 2025 [production application](https://northsaanich.ca/wp-content/uploads/2025-06-19-10555-West-Saanich-Rd-TUP-2025-01-ADA.pdf#page=3) names GPM-CGL and Great Pacific Media and describes a Canadian-content production commissioned by Netflix. The application does not establish every entity's legal domicile or ownership. |
+| Great Pacific Media | Original production company/brand | The [originating producer's account](https://dominionofdrama.com/crew-girl-hits-the-water/) identifies Great Pacific as the producer, subsequently presented as Blue Ant Studios. Preserve the original credit. |
+| Thunderbird Entertainment | Great Pacific's original parent group | Blue Ant's [acquisition announcement](https://blueantmedia.com/2026/01/blue-ant-media-completes-acquisition-of-thunderbird-entertainment/) records the acquisition of Thunderbird on January 28, 2026. This is a dated ownership relationship, not another title production credit. |
+| Blue Ant Studios / Blue Ant Media | Current studio presentation and parent group | The [February 4, 2026 reorganization](https://blueantmedia.com/2026/02/blue-ant-media-repositions-blue-ant-studios-unveils-genre-led-structure-and-expanded-rights-capabilities/) retired the Great Pacific brand. Blue Ant's [July 7 title announcement](https://blueantmedia.com/2026/07/netflix-sets-september-10-premiere-date-for-blue-ant-studios-crew-girl/) presents Crew Girl as a Blue Ant Studios production. |
+| Netflix | Commissioner, development contracting party, and streaming platform | Commissioning is documented in the [production application](https://northsaanich.ca/wp-content/uploads/2025-06-19-10555-West-Saanich-Rd-TUP-2025-01-ADA.pdf#page=3). [Dominion of Drama](https://dominionofdrama.com/crew-girl-hits-the-water/) describes Netflix contracting Jeff Norton to develop the format and the global Netflix release. These sources identify the brand, not the contracting subsidiary. |
+| Netflix Studios, LLC | Confirmed U.S. company; exact title relationship unresolved | [Exhibit 21.1](https://d18rn0p25nwr6d.cloudfront.net/CIK-0001065280/99482238-46b2-4d0d-b292-40e6781bdf03.pdf#page=117) verifies United States jurisdiction and 100% Netflix ownership. The sources above do not name this entity as Crew Girl's producer or contracting party. |
+| Dominion of Drama / Jeff Norton | Originating development and executive producer | The [company's account](https://dominionofdrama.com/crew-girl-hits-the-water/) describes Norton's originating role; [Blue Ant's credits](https://blueantmedia.com/2026/07/netflix-sets-september-10-premiere-date-for-blue-ant-studios-crew-girl/) list him as an executive producer. Preserve the individual credit without inferring a corporate co-production credit. |
+| Keslow Camera | Reported camera-equipment vendor; confirmation pending | The earlier crosswalk recorded an [IMDb company-credit listing](https://www.imdb.com/title/tt38218082/companycredits/). Primary credit confirmation remains outstanding; this entry supplies no USA-production eligibility evidence. |
+
+**Effect on the AAM correction:** retain Netflix Studios' verified U.S. company
+classification and review Crew Girl's production chain without rejecting it
+solely because its country-of-origin field says Canada. The exact Netflix legal
+entity and its title-specific production responsibility remain unresolved in
+the evidence above. Crew Girl's final USA-production disposition must record
+the evidence and relationship used.
+
+The AAM roster correction is in progress. This clarification does not report a
+recomputed roster or update the September 2026 OTT counts below. AAM continues
+to use the expanded AAPI identity boundary, Threshold 2, Asia-28 reference, and
+no U.S. citizenship minimum; those identity and credit requirements are
+evaluated separately from company relationships.
+
 
 ## 3. Coverage and assignment counts
 
