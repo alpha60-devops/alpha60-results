@@ -1,5 +1,10 @@
 # Metadata v7.3 — OTT vendor slices
 
+<style>
+main table { display: block; max-width: 100%; overflow-x: auto; }
+main code { overflow-wrap: anywhere; }
+</style>
+
 *Prepared: 2026-09-15*
 
 *Updated: 2026-10-08 — see [USA Production Company criteria and the Crew Girl
@@ -143,7 +148,7 @@ outside this report's membership semantics.
 
 ### 2.4 What counts as a USA Production Company?
 
-*Clarification added 2026-10-08 for the Asian American Media roster correction.*
+*Revised 2026-10-08: owner-approved production-company OR commissioner OR platform rule.*
 
 **Netflix Studios, LLC is a USA production company.** Netflix's 2025 annual
 report, Exhibit 21.1, identifies it as a United States subsidiary wholly owned
@@ -151,29 +156,36 @@ by Netflix, Inc. The same filing lists subsidiaries in other jurisdictions, so
 the Netflix brand alone does not identify a particular legal entity.
 [Netflix annual report, Exhibit 21.1, PDF page 117](https://d18rn0p25nwr6d.cloudfront.net/CIK-0001065280/99482238-46b2-4d0d-b292-40e6781bdf03.pdf#page=117)
 
-For this analysis, a **USA Production Company** is a production company with
-sourced U.S. domicile. Applying that company classification to a media object
-also requires a sourced production or co-production relationship with the
-specific title and, where relevant, season. A company can produce a work filmed
-abroad or certified as Canadian content; a single country-of-origin field does
-not describe every participating company.
+For this analysis, **USA Production is true if a confirmed production company,
+commissioner, OR platform is U.S.** Existing confirmed U.S. production-country
+evidence also qualifies. This is the project's selection convention; a work
+qualifying through its commissioner or platform is not thereby credited to a
+U.S. production company.
 
-The corrected USA-production review checks these relationships alongside the
-work's recorded production countries:
+A **USA Production Company** still means a production company with sourced U.S.
+domicile and a confirmed title-specific production relationship. The additional
+commissioner/platform branches use sourced U.S. provider classification and a
+confirmed title relationship or an exact reviewed network/platform tag with
+source provenance. Provider country is separate from the viewer's territory,
+filming location, and the work's recorded country of origin. Service-brand
+classification does not identify the title's contracting subsidiary.
 
 | Evidence | How it is used |
 | --- | --- |
-| Title-specific production or co-production credit, plus the company's U.S. domicile | Supports a USA production-company relationship for that work. |
-| A production subsidiary's documented parent ownership | Record the subsidiary's own domicile, the controlling parent, and the dates separately. A U.S. parent supports a U.S. ownership relationship; it does not change a foreign subsidiary's domicile. Identify when a selection uses this ownership basis. |
-| A commissioning or development contract | Record the commissioning/development role and named entity. Resolve any production responsibility from the title-specific evidence. |
-| Distribution, streaming availability, or a platform label | Records the distributor or platform; does not by itself establish a production credit. |
-| Filming location, country-of-origin metadata, or content certification | Records a separate geographic fact about the work; does not settle every company's domicile or role. |
-| Camera, post-production, or other service vendor | Records the supplied service; does not by itself establish a production-company relationship. |
+| Confirmed title production/co-production credit and U.S. company domicile | USA Production is true through the producer branch. |
+| Confirmed title commissioner and sourced U.S. company/provider classification | USA Production is true through the commissioner branch. |
+| Confirmed U.S. platform relationship or exact sourced platform/network tag | USA Production is true through the platform branch, independently of producer domicile. |
+| Documented parent ownership | Keep dated ownership and subsidiary domicile separate; ownership alone does not invent a title credit. |
+| U.S. distribution territory, filming location, or a generic distributor/studio tag | Not sufficient by itself to establish a U.S. producer, commissioner, or platform. |
+| Development-only, executive-producer, or equipment/service-vendor credit | Keep the actual role; it does not automatically establish a qualifying branch. |
 
-Keep a source, role, entity name, date or applicable period, and review status
-for each relationship. Distinguish missing evidence from a reviewed negative.
-Ownership and brand changes must be dated so a later acquisition does not
-silently rewrite the production history.
+Each assessment retains its original country evidence, rule version, qualifying
+role/provider, and sources. Unknown or disputed relationships remain explicit.
+The exact-tag provider country map is versioned as `config/usa-production-v2.json`
+in the metadata repository. It includes reviewed streaming and network
+platforms; a network-platform classification does not assign its titles to an
+OTT catalog. The section 2.1 vendor aliases and candidate-only service rules
+remain distinct from this broader USA Production predicate.
 
 #### Crew Girl: production, ownership, commissioning, and vendor crosswalk
 
@@ -188,21 +200,30 @@ inventory has not been verified.
 | Thunderbird Entertainment | Great Pacific's original parent group | Blue Ant's [acquisition announcement](https://blueantmedia.com/2026/01/blue-ant-media-completes-acquisition-of-thunderbird-entertainment/) records the acquisition of Thunderbird on January 28, 2026. This is a dated ownership relationship, not another title production credit. |
 | Blue Ant Studios / Blue Ant Media | Current studio presentation and parent group | The [February 4, 2026 reorganization](https://blueantmedia.com/2026/02/blue-ant-media-repositions-blue-ant-studios-unveils-genre-led-structure-and-expanded-rights-capabilities/) retired the Great Pacific brand. Blue Ant's [July 7 title announcement](https://blueantmedia.com/2026/07/netflix-sets-september-10-premiere-date-for-blue-ant-studios-crew-girl/) presents Crew Girl as a Blue Ant Studios production. |
 | Netflix | Commissioner, development contracting party, and streaming platform | Commissioning is documented in the [production application](https://northsaanich.ca/wp-content/uploads/2025-06-19-10555-West-Saanich-Rd-TUP-2025-01-ADA.pdf#page=3). [Dominion of Drama](https://dominionofdrama.com/crew-girl-hits-the-water/) describes Netflix contracting Jeff Norton to develop the format and the global Netflix release. These sources identify the brand, not the contracting subsidiary. |
-| Netflix Studios, LLC | Confirmed U.S. company; exact title relationship unresolved | [Exhibit 21.1](https://d18rn0p25nwr6d.cloudfront.net/CIK-0001065280/99482238-46b2-4d0d-b292-40e6781bdf03.pdf#page=117) verifies United States jurisdiction and 100% Netflix ownership. The sources above do not name this entity as Crew Girl's producer or contracting party. |
+| Netflix Studios, LLC | Confirmed U.S. company; exact title relationship unresolved | [Exhibit 21.1](https://d18rn0p25nwr6d.cloudfront.net/CIK-0001065280/99482238-46b2-4d0d-b292-40e6781bdf03.pdf#page=117) verifies United States jurisdiction and 100% Netflix ownership. The sources above do not name this entity as Crew Girl's producer or contracting party; that open credit question no longer blocks the commissioner/platform branches. |
 | Dominion of Drama / Jeff Norton | Originating development and executive producer | The [company's account](https://dominionofdrama.com/crew-girl-hits-the-water/) describes Norton's originating role; [Blue Ant's credits](https://blueantmedia.com/2026/07/netflix-sets-september-10-premiere-date-for-blue-ant-studios-crew-girl/) list him as an executive producer. Preserve the individual credit without inferring a corporate co-production credit. |
 | Keslow Camera | Reported camera-equipment vendor; confirmation pending | The earlier crosswalk recorded an [IMDb company-credit listing](https://www.imdb.com/title/tt38218082/companycredits/). Primary credit confirmation remains outstanding; this entry supplies no USA-production eligibility evidence. |
 
-**Effect on the AAM correction:** retain Netflix Studios' verified U.S. company
-classification and review Crew Girl's production chain without rejecting it
-solely because its country-of-origin field says Canada. The exact Netflix legal
-entity and its title-specific production responsibility remain unresolved in
-the evidence above. Crew Girl's final USA-production disposition must record
-the evidence and relationship used.
+**Crew Girl is USA Production = true under the revised rule.** Its Netflix
+commissioning and platform relationships are confirmed in the production
+application and title announcement above. Netflix's
+[corporate information](https://help.netflix.com/en/node/134094) and
+[U.S. company filing](https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/0001065280-26-000034-index.htm)
+support the provider's U.S. classification. Crew Girl therefore qualifies
+through Netflix as commissioner/platform, even though its recorded origin is
+Canada.
 
-The [stage 2 AAM rebuild](https://alpha60-devops.github.io/alpha60-asian-american-media/docs/aam.html)
-contains 190 eligible, measured media objects. Crew Girl's representation and
-principal-credit review is repaired; its exact U.S. producer relationship
-remains unresolved and is visible in the downloadable review-status audit.
+The earlier unresolved issue was narrower: Netflix Studios, LLC is confirmed
+as a U.S. company, but its specific producer credit on Crew Girl was not
+established. That credit remains unconfirmed. The owner's revised OR rule
+resolves Crew Girl's USA Production eligibility without asserting that credit.
+
+The [AAM analysis](https://alpha60-devops.github.io/alpha60-asian-american-media/docs/aam.html)
+records the run's selection rule and coverage. The original 190-work stage 2
+run used the narrower predicate and remains a historical comparison. The
+revised run contains **197 eligible, measured works**, including Crew Girl: seven
+additions and no removals. It retains expanded AAPI, Threshold 2, and no
+citizenship minimum, with the broader USA Production condition.
 
 
 ## 3. Coverage and assignment counts
@@ -792,3 +813,7 @@ Remaining gates:
 - Paramount, [ViacomCBS Unveils Brand for Upcoming Global Streaming Service: Paramount+](https://ir.paramount.com/news-releases/news-release-details/viacomcbs-unveils-brand-upcoming-global-streaming-service), 2020.
 - Warner Bros. Discovery, [Warner Bros. Discovery Announces Max to Become HBO Max This Summer](https://press.wbd.com/us/media-release/warner-bros-discovery-announces-max-become-hbo-max-summer), 2025.
 - YouTube, [Introducing YouTube Premium](https://blog.youtube/news-and-events/introducing-youtube-premium/), 2018.
+
+- [HBO's own update — Company update FAQ](https://help.hbomax.com/me-en/Answer/Detail/000002825), retrieved 2026-10-08; Skydance ownership update retains HBO Max and Paramount+ names and describes no immediate service changes.
+- [Netflix corporate information](https://help.netflix.com/en/node/134094), retrieved 2026-10-08.
+- [Netflix 2025 annual filing — company jurisdiction and address](https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/0001065280-26-000034-index.htm), retrieved 2026-10-08.
