@@ -31,7 +31,7 @@ These are results from sampling peer swarms associated with *media objects* bein
 ## Results, Commentary
 - Media Collections
   - [animation](https://alpha60-devops.github.io/alpha60-results-animation)
-  - [asian american media](https://alpha60-devops.github.io/alpha60-results-aapi-led)
+  - [asian american media](https://alpha60-devops.github.io/alpha60-asian-american-media)
   - [black-led](https://alpha60-devops.github.io/alpha60-results-black-led)
   - [white-led](https://alpha60-devops.github.io/alpha60-results-whiteness)
 
