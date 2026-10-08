@@ -25,7 +25,7 @@ Ranked **644 distinct media objects** from the 2017–2026 annual repositories b
 
 <div class="region-table-scroll" role="region" aria-label="Top 50 media objects by EUR-27 share" tabindex="0" markdown="1">
 
-| Rank | Media object | Sample window | Days | EUR-27 % | EUR-27 downloader weight | Worldwide downloader weight |
+| Rank | Media object | duration | Days | EUR-27 % | eur-27 downloaders | world downloaders |
 | ---: | --- | --- | ---: | ---: | ---: | ---: |
 | 1 | [Twin Peaks · 310](https://alpha60-devops.github.io/alpha60-results-2017/docs/itemized/twin-peaks-310-sample-cache-audit.html)<br>`twin-peaks-310` | 2017-07-16 to 2017-07-30 | 15 | **43.24%** | 61,804 | 142,922 |
 | 2 | [Twin Peaks · 317](https://alpha60-devops.github.io/alpha60-results-2017/docs/itemized/twin-peaks-317-sample-cache-audit.html)<br>`twin-peaks-317` | 2017-09-03 to 2017-09-18 | 16 | **42.27%** | 182,641 | 432,068 |

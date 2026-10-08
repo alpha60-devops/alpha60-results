@@ -25,7 +25,7 @@ Ranked **644 distinct media objects** from the 2017–2026 annual repositories b
 
 <div class="region-table-scroll" role="region" aria-label="Top 50 media objects by USA + CAN share" tabindex="0" markdown="1">
 
-| Rank | Media object | Sample window | Days | USA + CAN % | USA + CAN downloader weight | Worldwide downloader weight |
+| Rank | Media object | duration | Days | USA + CAN % | usa + can downloaders | world downloaders |
 | ---: | --- | --- | ---: | ---: | ---: | ---: |
 | 1 | [Japan Sinks · 1](https://alpha60-devops.github.io/alpha60-results-2020/docs/itemized/japan-sinks-sample-cache-audit.html)<br>`japan-sinks` | 2020-07-09 to 2020-09-23 | 77 | **49.06%** | 440,999 | 898,982 |
 | 2 | [Queer Eye 2018 · 5](https://alpha60-devops.github.io/alpha60-results-2020/docs/itemized/queer-eye-2018-05-sample-cache-audit.html)<br>`queer-eye-2018-05` | 2020-06-05 to 2020-08-13 | 70 | **48.08%** | 533,162 | 1,108,963 |

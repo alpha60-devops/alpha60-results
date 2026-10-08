@@ -25,7 +25,7 @@ Ranked **644 distinct media objects** from the 2017–2026 annual repositories b
 
 <div class="region-table-scroll" role="region" aria-label="Top 50 media objects by Africa-60 share" tabindex="0" markdown="1">
 
-| Rank | Media object | Sample window | Days | Africa-60 % | Africa-60 downloader weight | Worldwide downloader weight |
+| Rank | Media object | duration | Days | Africa-60 % | africa-60 downloaders | world downloaders |
 | ---: | --- | --- | ---: | ---: | ---: | ---: |
 | 1 | [The Lovebirds](https://alpha60-devops.github.io/alpha60-results-2020/docs/itemized/lovebirds-sample-cache-audit.html)<br>`lovebirds` | 2020-05-22 to 2020-07-30 | 70 | **29.44%** | 689,610 | 2,342,340 |
 | 2 | [Coming 2 America](https://alpha60-devops.github.io/alpha60-results-2021/docs/itemized/coming-2-america-sample-cache-audit.html)<br>`coming-2-america` | 2021-03-05 to 2021-03-27 | 23 | **24.77%** | 1,190,312 | 4,806,387 |
