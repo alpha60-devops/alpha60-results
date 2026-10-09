@@ -29,21 +29,6 @@ These are results from sampling peer swarms associated with *media objects* bein
 <div style="height: 50px;"></div>
 
 ## Results, Commentary
-- Media Collections
-  - [animation](https://alpha60-devops.github.io/alpha60-results-animation)
-  - [asian american media](https://alpha60-devops.github.io/alpha60-asian-american-media)
-  - [black-led](https://alpha60-devops.github.io/alpha60-results-black-led)
-  - [white-led](https://alpha60-devops.github.io/alpha60-results-whiteness)
-
-  - [star wars universe](https://alpha60-devops.github.io/alpha60-results-star-wars-universe)
-  - [dragons](https://alpha60-devops.github.io/alpha60-results-dragons)
-
-- [leaks](https://alpha60-devops.github.io/alpha60-results-leaks)
-
-- [sports](https://alpha60-devops.github.io/alpha60-results-sports)
-	- [Olympics 2026](https://alpha60-devops.github.io/alpha60-results-sports/docs/olympics.html)
-	- [World Cup 2026](https://alpha60-devops.github.io/alpha60-results-sports/docs/world-cup.html)
-
 - [Region Top {{ site.data.region_rankings.top_n }}](docs/region-top.html)
 
 - Year
@@ -57,6 +42,21 @@ These are results from sampling peer swarms associated with *media objects* bein
 	- [2019](https://alpha60-devops.github.io/alpha60-results-2019/)
 	- [2018](https://alpha60-devops.github.io/alpha60-results-2018/)
 	- [2017](https://alpha60-devops.github.io/alpha60-results-2017/)
+
+- Media Collections
+  - [animation](https://alpha60-devops.github.io/alpha60-results-animation)
+  - [asian american media](https://alpha60-devops.github.io/alpha60-asian-american-media)
+  - [african american media](https://alpha60-devops.github.io/alpha60-results-black-led)
+  - [white-led](https://alpha60-devops.github.io/alpha60-results-whiteness)
+  - [star wars universe](https://alpha60-devops.github.io/alpha60-results-star-wars-universe)
+  - [dragons](https://alpha60-devops.github.io/alpha60-results-dragons)
+
+- [leaks](https://alpha60-devops.github.io/alpha60-results-leaks)
+
+- [sports](https://alpha60-devops.github.io/alpha60-results-sports)
+	- [Olympics 2026](https://alpha60-devops.github.io/alpha60-results-sports/docs/olympics.html)
+	- [World Cup 2026](https://alpha60-devops.github.io/alpha60-results-sports/docs/world-cup.html)
+
 
 
 <div style="height: 50px;"></div>
