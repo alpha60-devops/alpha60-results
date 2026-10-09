@@ -130,7 +130,7 @@ platforms; a network-platform classification does not assign its titles to an
 OTT catalog. The section 2.1 vendor aliases and candidate-only service rules
 remain distinct from this broader USA Production predicate.
 
-#### Crew Girl: production, ownership, commissioning, and vendor crosswalk
+### 2.5 Example: Crew Girl
 
 The following crosswalk explains why Crew Girl requires a company-level review.
 It covers the relationships identified so far; a complete end-credit vendor
