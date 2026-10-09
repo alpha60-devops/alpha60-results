@@ -15,7 +15,9 @@ Historical service names remain **HBO**, **HBO Max**, **Max**, **Paramount+**, a
 
 ## 1. Introduction and Scope
 
-A **streaming platform** lets you watch films, television and other video over the internet. **OTT** stands for **over-the-top**, a broadcasting term for delivering video through the public internet beyond traditional broadcast, cable and satellite channels. [IAB Tech Lab explains the term’s origins](https://iabtechlab.com/ott-vs-ctv-whats-in-a-name/). Here, an **OTT vendor** is a named streaming service or service family, such as Netflix, Disney+, HBO Max or Paramount+. This report groups Alpha60 media objects by their recorded distribution evidence; the [crosswalk below](#21-normalization-crosswalk) lists the twelve reviewed vendors.
+**Media and entertainment** is the umbrella term for films, television and streaming video, along with the companies that produce, distribute and deliver them. **Production companies** make works; **distributors** arrange releases and licensing; **streaming platforms** deliver video over the internet. A company can fill several roles.
+
+**OTT** means **over-the-top**, a broadcasting term for internet delivery beyond traditional broadcast, cable and satellite channels. [IAB Tech Lab explains its origins](https://iabtechlab.com/ott-vs-ctv-whats-in-a-name/). Here, an **OTT vendor** is a streaming service or service family, such as Netflix, Disney+, HBO Max or Paramount+. This report groups Alpha60 media objects by recorded distribution evidence; the [crosswalk below](#21-normalization-crosswalk) lists the twelve reviewed vendors.
 
 The ten annual inventories contain **652 annual rows** and **650 distinct collection keys**. **500 objects** match at least one approved candidate rule, producing **577 non-exclusive object-vendor assignments** across **11 vendors**. **150 objects** have no approved signal; **0 keys** lack canonical metadata. **73 objects** have multiple candidate vendors.
 
