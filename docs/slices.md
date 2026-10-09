@@ -3413,7 +3413,7 @@ Canonical repository: [alpha60-swarm-metadata](https://github.com/alpha60-devops
 
 Corpus: 685 media objects; 3802 person records. Unresolved credit rows: 2294 (1265 actor/primary-creator rows).
 
-Artifact digest: `793df5373bc2d8edbf649a0225ed35c312ec874016750715c0025fcf07ca2ff1`.
+Artifact digest: `41946d9d326c8f17f8c71b484ccd21e49056190cf2dadd48f34757f5cc7f187f`.
 
 [Machine-readable report](../resources/h15-v3/h15-v3.generated.json) · [Coverage and change report](https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/main/reports/candidates/h15-v3-impact.json) · [Person qualifications](https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/main/data/h15-v3-person-qualifications.json)
 
@@ -3427,7 +3427,7 @@ Source hashes:
 - inventory_sha256: `2d2709c7736e239d3cbd482132d2056f43faa0eae6d3e96017a84d861ba649e4`
 - inventory_path: `config/h15-v3-review-corpus.json`
 - taxonomy_sha256: `e4e750d7dc38627c99b78c9ca0c84a7c15579bad5da24936ae9d4a44e5d563a3`
-- organization_registry_sha256: `0cce4a8211dc67a802bf6c6bca160c26f9ec12c6134df47b3386c1fc762297b6`
+- organization_registry_sha256: `df5ea3d330302500c38395bd30b53cc546f6296db07a337c417f73e1bc9f1947`
 - usa_production_rule_sha256: `3d3b849f51834abdfcc88eefe39309d642d8c463071600e5584fb565755ec2a6`
 - definitions_sha256: `fe483090e8d1001b4cefc3dbea94340a11be0e67aa0b5666f4eb7b2dd1380f08`
 - country_mapping_sha256: `41eb94d549562d4fb7ddcf110b53d38223e02ff4d9402e4d01b92482da0d09aa`

@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "checks": [
+    "independent exact-rule evaluation",
+    "September counts reproduced",
+    "cohort/key reconciliation",
+    "all object evidence and dispositions",
+    "annual and vendor tables",
+    "overlaps and CSV",
+    "dated affiliation union deduplication",
+    "unrelated TBS excluded",
+    "DANG metadata resolution",
+    "chart JSON and SVG labels",
+    "report inventory and links",
+    "all generated output hashes"
+  ],
+  "summary": {
+    "annual_rows": 652,
+    "distinct_objects": 650,
+    "matched_objects": 500,
+    "assignments": 577,
+    "unmatched_objects": 150,
+    "missing_metadata": 0,
+    "multi_vendor_objects": 73,
+    "vendor_counts": {
+      "Netflix": 148,
+      "Disney+": 142,
+      "Hulu": 57,
+      "Amazon Prime Video": 79,
+      "HBO Max": 77,
+      "Apple TV": 42,
+      "Crunchyroll": 1,
+      "YouTube": 4,
+      "Paramount+": 22,
+      "Peacock": 4,
+      "Viu": 1
+    }
+  },
+  "checker_sha256": "c3050e05e09520a1e6e586e937b76be75eeb5f3f05193e98f6e0cf92e18ffb9d"
+}

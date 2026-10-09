@@ -1,104 +1,56 @@
-# Metadata v7.3 — OTT vendor slices
+# Mellon 7.8 — OTT vendor slices
 
 <style>
-main table { display: block; max-width: 100%; overflow-x: auto; }
-main code { overflow-wrap: anywhere; }
+.vendor-table, .vendor-chart { max-width:100%; overflow-x:auto; margin:1em 0; }
+.vendor-table:focus, .vendor-chart:focus { outline:2px solid #555; }
+.vendor-table table { display:table; width:100%; min-width:720px; margin-bottom:0; }
+.vendor-table code { white-space:nowrap; }
+main code { overflow-wrap:anywhere; }
+.vendor-chart img { width:100%; min-width:1280px; max-width:none; height:auto; }
 </style>
 
-*Prepared: 2026-09-15*
+*Computed: 2026-10-08. Candidate service evidence and corporate affiliation are separate.*
 
-*Updated: 2026-10-08 — see [USA Production Company criteria and the Crew Girl
-crosswalk](#24-what-counts-as-a-usa-production-company). The vendor counts and
-inventories in this report remain the September 2026 snapshot.*
-
-*Parent plan: `20260911_metadata_v6.2.md`*
-
-*Canonical metadata source: `/home/bkoz/src/alpha60-swarm-metadata` at
-`075745a3d7592856fdf26dfb755583ee2ffd4cd0`*
-
-*Annual cohort sources: 2017–2025 inventories from this repository at
-`834229542925cd7ca99fcdafea1a3fec4a7d3d9e`; finalized 2026 inventory from
-this repository at `33a2ef6df4fa5b2988776f4bcb37328f53def264`*
-
-*Status: the Wikipedia `Streaming platforms` list, the section 2.1
-normalization crosswalk, the section 2.2 Disney+ content-hub expansion
-including the FX Networks family, and the section 2.3 HBO network-brand
-expansion were approved by human review on 2026-09-13; platform membership
-remains candidate-only, and no canonical metadata is changed by this document*
+Historical service names remain **HBO**, **HBO Max**, **Max**, **Paramount+**, and **CBS All Access**. [September report](20260915_metadata_v7.3_ott_vendors.html) and [the report before this update](20261008_ott_vendors_pre_stage3.html) are preserved.
 
 ## 1. Result
 
-The ten annual Alpha60 cohorts contain **646 cohort rows** and **644 distinct
-collection keys**. A candidate match against the 51 platform labels in
-Wikipedia's [Streaming platforms](https://en.wikipedia.org/wiki/Over-the-top_media_service#Streaming_platforms)
-list, supplemented by the approved Disney+ content-hub rule in section 2.2,
-found **499 distinct Alpha60 objects** with at least one listed OTT vendor,
-yielding **576 non-exclusive object-vendor assignments** across 11 vendors.
-**144 distinct objects** have no matched platform or approved brand-family
-signal, and one 2026 cohort key has no canonical metadata record.
+The ten annual inventories contain **652 annual rows** and **650 distinct collection keys**. **500 objects** match at least one approved candidate rule, producing **577 non-exclusive object-vendor assignments** across **11 vendors**. **150 objects** have no approved signal; **0 keys** lack canonical metadata. **73 objects** have multiple candidate vendors.
 
-The chart therefore uses **object-vendor assignments**, not objects, as its
-part-to-whole denominator. Seventy-three objects have multiple matched vendors:
-69 have two and four have three. They appear in every corresponding candidate
-slice. Counting each object once would require an unsupported primary-platform
-choice.
+DANG!'s resolved metadata gate now yields a **Netflix candidate**. Its missing Wikipedia URL remains a field-level gap. Its [canonical record](https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/cb0a34076827ae64b0d68a8f17761ba5303ac374/metadata/dang-01.json) records the sourced platform evidence.
 
 ## 2. Scope and method
 
-- Population: the exact checked-in `year-YYYY-cohort.txt` inventories for
-  2017–2025 plus the finalized 71-key `year-2026-cohort.txt` inventory recorded
-  in `20260912_year_media_object_cache_audit_v6_stage_4.3.md`, preserving
-  annual campaign grain. This is not a `release.year` filter.
-- Frozen 2026 verification: 71 sorted canonical keys reproduce SHA-256
-  `c43ed8309af2cca46e57f4b873377efb087b3f6b62701bd220483b81f26e9ea9`.
-- Join key: `collection_key` into the 679 canonical JSON records in
-  `alpha60-swarm-metadata/metadata`.
-- Base evidence field: top-level `distribution_tags`, whose canonical
-  provenance identifies the Wikipedia `network/distributor` source field.
-  The approved Disney+ content-hub supplement also uses exact top-level
-  `production_tags` values as specified in section 2.2.
-- Taxonomy: the platform labels in the cited Wikipedia article, retrieved
-  2026-09-12 and approved by human review on 2026-09-13 as the taxonomy for
-  this candidate slicing. This approval does not itself promote candidate
-  memberships into canonical Alpha60 metadata.
-- Match rule: exact lower-case tag or an explicit brand-history alias only.
-  Studio, rights-holder, theatrical distributor, and linear-network names are
-  not promoted to OTT availability except for the explicit, candidate-only
-  Disney+ content-hub rule in section 2.2.
-- Membership semantics: candidate-only and non-exclusive. A platform tag does
-  not establish territory, availability window, exclusivity, or current
-  availability.
+Population: pinned 2017–2026 annual measurement inventories, joined by collection key to **685 canonical records**. Cohort years describe sampling, not release years. Each vendor counts each key once across the period; annual rows retain repeat observations. [Inputs and source hashes](../data/mellon-7.8/ott-vendors/runs/20261008-ott-vendors-v1/build-receipt.json) make the freeze reproducible.
+
+Exact canonical distribution tags provide direct platform evidence. The approved Disney content-hub and HBO network-origin supplements retain separate evidence types. All assignments are candidates: they establish neither current availability nor territory, window or exclusivity. Corporate ownership never creates a service assignment.
 
 ### 2.1 Normalization crosswalk
 
-*Approved unchanged by human review on 2026-09-13.*
+The twelve approved direct rows are unchanged. The dated ownership column is additional information. “Not reviewed here” describes the scope of this ownership audit.
 
-| Wikipedia vendor label | Accepted canonical `distribution_tags` values |
-| --- | --- |
-| Amazon Prime Video | `amazon mgm studios via prime video worldwide`, `amazon prime`, `amazon prime video`, `prime video` |
-| Apple TV | `apple tv`, `apple+` |
-| Crunchyroll | `crunchyroll streaming` |
-| Discovery+ | `discovery+` |
-| Disney+ | `disney+` |
-| HBO Max | `hbo max`, `max` |
-| Hulu | `fx on hulu`, `hulu`, `hulu united states`, `hulu us` |
-| Netflix | `netflix`, `netflix international`, `netflix united states` |
-| Paramount+ | `cbs all access`, `paramount+` |
-| Peacock | `peacock` |
-| Viu | `viu as me za` |
-| YouTube | `youtube premium`, `youtube red`, `youtube tv` |
+<div class="vendor-table" role="region" aria-label="Normalization crosswalk" tabindex="0" markdown="1">
 
-`cbs all access` is grouped under Paramount+ because Paramount's official
-[2020 announcement](https://ir.paramount.com/news-releases/news-release-details/viacomcbs-unveils-brand-upcoming-global-streaming-service)
-states that CBS All Access would be rebranded Paramount+. `max` is grouped
-under HBO Max because Warner Bros. Discovery's official
-[2025 announcement](https://press.wbd.com/us/media-release/warner-bros-discovery-announces-max-become-hbo-max-summer)
-states that Max would be rebranded HBO Max. `youtube red` and
-`youtube premium` share the YouTube vendor group because YouTube's official
-[2018 announcement](https://blog.youtube/news-and-events/introducing-youtube-premium/)
-states that YouTube Red became YouTube Premium. `youtube tv` is retained in
-the same vendor-level group because this review slices by vendor, not by
-subscription product.
+| Vendor label | Exact distribution tags | Dated parent affiliation |
+| --- | --- | --- |
+| Amazon Prime Video | `amazon mgm studios via prime video worldwide`, `amazon prime`, `amazon prime video`, `prime video` | Not reviewed here |
+| Apple TV | `apple tv`, `apple+` | Not reviewed here |
+| Crunchyroll | `crunchyroll streaming` | Not reviewed here |
+| Discovery+ | `discovery+` | Skydance Corporation via WBD, from 2026-10-06 |
+| Disney+ | `disney+` | Not reviewed here |
+| HBO Max | `hbo max`, `max` | Skydance Corporation via WBD, from 2026-10-06; HBO brand retained |
+| Hulu | `fx on hulu`, `hulu`, `hulu united states`, `hulu us` | Not reviewed here |
+| Netflix | `netflix`, `netflix international`, `netflix united states` | Not reviewed here |
+| Paramount+ | `cbs all access`, `paramount+` | Skydance Corporation (formerly Paramount Skydance Corporation); parent relationship from 2025-08-07, name from 2026-10-06 |
+| Peacock | `peacock` | Not reviewed here |
+| Viu | `viu as me za` | Not reviewed here |
+| YouTube | `youtube premium`, `youtube red`, `youtube tv` | Not reviewed here |
+
+</div>
+
+[The SEC closing filing](https://www.sec.gov/Archives/edgar/data/2041610/000110465926113913/tm2626659d7_ex99-2.htm) establishes WBD’s acquisition and the parent’s legal-name continuity. [HBO’s own update](https://help.hbomax.com/me-en/Answer/Detail/000002825) keeps HBO Max and Paramount+ separate and reports no immediate changes to their apps or subscriptions. The FAQ is the Montenegro English edition.
+
+`cbs all access` remains the historical Paramount+ alias; `max` remains an HBO Max alias. Pluto TV has a separate service registry record and no added candidate rule. Generic studio/network tags such as `paramount`, `cbs`, `showtime` and Warner Bros. stay outside the direct service crosswalk.
 
 ### 2.2 Disney+ content-hub expansion
 
@@ -107,6 +59,8 @@ dedicated hubs for Disney, Pixar, Marvel, Star Wars, National Geographic,
 ESPN, and Hulu, alongside Disney+ originals and exclusives. For section 4,
 the Disney+ candidate slice therefore supplements the unchanged section 2.1
 direct-platform crosswalk with the following exact canonical evidence:
+
+<div class="vendor-table" role="region" aria-label="Disney candidate supplements" tabindex="0" markdown="1">
 
 | Disney+ hub/group | Accepted canonical evidence |
 | --- | --- |
@@ -120,31 +74,15 @@ direct-platform crosswalk with the following exact canonical evidence:
 | FX Networks | `distribution_tags`: `fx`, `fx networks`, `fx movie channel`, `fxm`, `fxx`, `fx on hulu`; `production_tags`: `fx`, `fx networks`, `fx productions`, `fxm`, `fxp`, `fxx` |
 | Disney+ originals and exclusives | direct `distribution_tags` value `disney+` from section 2.1 |
 
-These are non-exclusive content-hub candidates, not claims of current
-availability, exclusivity, territory, or window. In particular, a Hulu alias
-creates both a Hulu assignment and a Disney+ assignment; it does not move the
-object out of Hulu. The [FX Networks](https://en.wikipedia.org/wiki/FX_Networks)
-family is likewise candidate-only: FX programming is carried through Hulu in
-the United States and through the Hulu content hub on Disney+ internationally,
-with some pre-existing third-party arrangements. The reviewed cohort contains
-43 distinct objects with at least one FX-family evidence value; 22 enter the
-Disney+ slice only because of this expansion. No National Geographic, ESPN,
-FXX, or FXM evidence value occurs in the reviewed cohort.
+</div>
+
+
+
+These remain non-exclusive hub candidates. Hulu creates both Hulu and Disney+ assignments. Lucasfilm requires an explicitly reviewed Star Wars identity; ESPN requires a verified applicable territory. Unverified conditions withhold the conditional candidate and appear in the evidence ledger.
 
 ### 2.3 HBO network-brand expansion
 
-For section 4, exact `distribution_tags: hbo` is accepted as a candidate signal
-for HBO Max in addition to the unchanged section 2.1 direct-platform values
-`hbo max` and `max`. Wikipedia identifies
-[Westworld](https://en.wikipedia.org/wiki/Westworld_(TV_series)) as an HBO
-network series, providing a concrete check on the canonical `hbo` tag. This
-adds 55 HBO-tagged objects to the 22 direct HBO Max matches, producing 77
-distinct HBO Max candidates.
-
-This is a network-origin candidate rule, not a current-availability claim.
-The same source records that *Westworld* was removed from HBO Max in December
-2022, illustrating why availability window and current catalog status remain
-outside this report's membership semantics.
+Exact `distribution_tags: hbo` retains the network-origin candidate supplement. It adds **55 objects** beyond **22 direct HBO Max matches**, giving **77 distinct candidates**. The `hbo us` tag alone does not pass this exact rule. Network origin and current catalog availability remain separate; the historical Westworld example in the September report illustrates that distinction.
 
 ### 2.4 What counts as a USA Production Company?
 
@@ -170,6 +108,8 @@ source provenance. Provider country is separate from the viewer's territory,
 filming location, and the work's recorded country of origin. Service-brand
 classification does not identify the title's contracting subsidiary.
 
+<div class="vendor-table" role="region" aria-label="USA Production evidence" tabindex="0" markdown="1">
+
 | Evidence | How it is used |
 | --- | --- |
 | Confirmed title production/co-production credit and U.S. company domicile | USA Production is true through the producer branch. |
@@ -178,6 +118,9 @@ classification does not identify the title's contracting subsidiary.
 | Documented parent ownership | Keep dated ownership and subsidiary domicile separate; ownership alone does not invent a title credit. |
 | U.S. distribution territory, filming location, or a generic distributor/studio tag | Not sufficient by itself to establish a U.S. producer, commissioner, or platform. |
 | Development-only, executive-producer, or equipment/service-vendor credit | Keep the actual role; it does not automatically establish a qualifying branch. |
+
+</div>
+
 
 Each assessment retains its original country evidence, rule version, qualifying
 role/provider, and sources. Unknown or disputed relationships remain explicit.
@@ -193,6 +136,8 @@ The following crosswalk explains why Crew Girl requires a company-level review.
 It covers the relationships identified so far; a complete end-credit vendor
 inventory has not been verified.
 
+<div class="vendor-table" role="region" aria-label="USA Production evidence" tabindex="0" markdown="1">
+
 | Company or credited party | Relationship to Crew Girl | Evidence and classification |
 | --- | --- | --- |
 | GPM-CGL Productions Inc. | Named title production entity | The June 9, 2025 [production application](https://northsaanich.ca/wp-content/uploads/2025-06-19-10555-West-Saanich-Rd-TUP-2025-01-ADA.pdf#page=3) names GPM-CGL and Great Pacific Media and describes a Canadian-content production commissioned by Netflix. The application does not establish every entity's legal domicile or ownership. |
@@ -203,6 +148,9 @@ inventory has not been verified.
 | Netflix Studios, LLC | Confirmed U.S. company; exact title relationship unresolved | [Exhibit 21.1](https://d18rn0p25nwr6d.cloudfront.net/CIK-0001065280/99482238-46b2-4d0d-b292-40e6781bdf03.pdf#page=117) verifies United States jurisdiction and 100% Netflix ownership. The sources above do not name this entity as Crew Girl's producer or contracting party; that open credit question no longer blocks the commissioner/platform branches. |
 | Dominion of Drama / Jeff Norton | Originating development and executive producer | The [company's account](https://dominionofdrama.com/crew-girl-hits-the-water/) describes Norton's originating role; [Blue Ant's credits](https://blueantmedia.com/2026/07/netflix-sets-september-10-premiere-date-for-blue-ant-studios-crew-girl/) list him as an executive producer. Preserve the individual credit without inferring a corporate co-production credit. |
 | Keslow Camera | Reported camera-equipment vendor; confirmation pending | The earlier crosswalk recorded an [IMDb company-credit listing](https://www.imdb.com/title/tt38218082/companycredits/). Primary credit confirmation remains outstanding; this entry supplies no USA-production eligibility evidence. |
+
+</div>
+
 
 **Crew Girl is USA Production = true under the revised rule.** Its Netflix
 commissioning and platform relationships are confirmed in the production
@@ -226,12 +174,17 @@ additions and no removals. It retains expanded AAPI, Threshold 2, and no
 citizenship minimum, with the broader USA Production condition.
 
 
+Current-parent annotations follow the same separation of roles. HBO and Paramount+ share Skydance affiliation as of October 6, 2026; that relationship adds neither a title producer credit nor an OTT assignment. This ownership update leaves the 197-work AAM selection unchanged.
+
+
 ## 3. Coverage and assignment counts
 
 ### 3.1 Media-object-by-year matrix
 
-| Year | Cohort objects | Objects with ≥1 vendor | Vendor assignments | Multi-vendor objects | No matched candidate signal | Missing metadata | Object match rate |
-| ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+<div class="vendor-table" role="region" aria-label="Annual coverage" tabindex="0" markdown="1">
+
+| Year | Cohort objects | Objects with a vendor | Assignments | Multi-vendor | Unmatched | Missing metadata | Match rate |
+| --- | --- | --- | --- | --- | --- | --- | --- |
 | 2017 | 44 | 41 | 52 | 9 | 3 | 0 | 93.2% |
 | 2018 | 49 | 42 | 51 | 9 | 7 | 0 | 85.7% |
 | 2019 | 53 | 41 | 48 | 7 | 12 | 0 | 77.4% |
@@ -241,64 +194,58 @@ citizenship minimum, with the broader USA Production condition.
 | 2023 | 71 | 57 | 64 | 7 | 14 | 0 | 80.3% |
 | 2024 | 69 | 53 | 61 | 8 | 16 | 0 | 76.8% |
 | 2025 | 85 | 61 | 69 | 8 | 24 | 0 | 71.8% |
-| 2026 | 71 | 50 | 59 | 8 | 20 | 1 | 70.4% |
-| **Distinct 2017–2026** | **644** | **499** | **576** | **73** | **144** | **1** | **77.5%** |
+| 2026 | 77 | 51 | 60 | 8 | 26 | 0 | 66.2% |
+| Distinct | 650 | 500 | 577 | 73 | 150 | 0 | 76.9% |
 
-The distinct summary deduplicates the two cross-year identities:
-`andor-112` (2022 and 2025) and `acolyte-107` (2024 and 2026). Both now match
-Disney+ through the approved `disney` content-hub alias, so the Disney+
-distinct total is two lower than the sum of its annual cohort rows.
+</div>
 
 ### 3.2 Vendor-by-year matrix
 
-Counts are non-exclusive candidate assignments. Vendors with no assignments
-in any cohort year are omitted; zeroes within retained vendor rows remain
-explicit.
+<div class="vendor-table" role="region" aria-label="Vendor by year" tabindex="0" markdown="1">
 
 | Vendor | 2017 | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 | 2024 | 2025 | 2026 | Distinct total |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Amazon Prime Video | 11 | 8 | 6 | 8 | 3 | 10 | 11 | 7 | 8 | 7 | 79 |
 | Apple TV | 0 | 0 | 0 | 0 | 6 | 3 | 8 | 7 | 10 | 8 | 42 |
 | Crunchyroll | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | Disney+ | 10 | 8 | 7 | 12 | 18 | 19 | 20 | 17 | 18 | 15 | 142 |
 | HBO Max | 6 | 7 | 10 | 8 | 4 | 11 | 8 | 7 | 9 | 7 | 77 |
 | Hulu | 4 | 4 | 4 | 4 | 5 | 5 | 7 | 8 | 8 | 8 | 57 |
-| Netflix | 14 | 18 | 14 | 17 | 20 | 15 | 9 | 12 | 15 | 13 | 147 |
+| Netflix | 14 | 18 | 14 | 17 | 20 | 15 | 9 | 12 | 15 | 14 | 148 |
 | Paramount+ | 7 | 6 | 5 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 22 |
 | Peacock | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 3 | 0 | 0 | 4 |
 | Viu | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 1 |
 | YouTube | 0 | 0 | 2 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 4 |
 
+</div>
+
 ### 3.3 Cumulative vendor media objects
 
-Zero-count vendors are omitted from both the matrix and the bar chart. The
-chart sums to the 576 distinct object-vendor assignments in section 3.
+<div class="vendor-chart" role="region" aria-label="OTT assignments bar chart, scroll horizontally on small screens" tabindex="0" markdown="1">
 
-![Horizontal bar chart of 576 OTT assignments by vendor, sorted from Netflix at 147 to Crunchyroll and Viu at 1; exact values are labeled directly on the bars.](20260915_metadata_v7.3_ott_vendors-assignments.svg)
+![577 non-exclusive object-vendor assignments. Netflix: 148; Disney+: 142; Amazon Prime Video: 79; HBO Max: 77; Hulu: 57; Apple TV: 42; Paramount+: 22; Peacock: 4; YouTube: 4; Crunchyroll: 1; Viu: 1](20261008_ott_vendors-assignments.svg)
 
-The chart is generated from
-`20260915_metadata_v7.3_ott_vendors-assignments.bar-graph.json` with Izzi's
-`bar-graph` renderer in `izzi-svg-graphs-bar.h`. It uses one
-high-contrast bar color (`#005A9C` on white, 7.14:1), bar length, direct text
-labels, and exact numeric values, so category or magnitude is not conveyed by
-color alone. Its axis typography follows Izzi's line-graph convention:
-Atkinson Hyperlegible embedded directly in the SVG, uppercase 18-point
-medium-weight axis titles, and
-14-point normal-weight tick labels. The SVG's full-text description provides
-the renderer-independent data alternative. These choices
-address relevant [WCAG 2.2](https://www.w3.org/TR/WCAG22/) criteria for text
-alternatives, information and relationships, use of color, and contrast. They
-are design controls, not a blanket conformance claim for every Markdown
-renderer.
+</div>
+
+Native Izzi horizontal bars use object-vendor assignments. [Chart values](20261008_ott_vendors-assignments.bar-graph.json) and the table above provide the exact counts.
+
+### 3.4 Changes since September
+
+<div class="vendor-table" role="region" aria-label="Change attribution" tabindex="0" markdown="1">
+
+| Computation | Objects | Matched | Assignments | Missing |
+| --- | --- | --- | --- | --- |
+| September frozen baseline | 644 | 499 | 576 | 1 |
+| Current metadata on September inventories | 644 | 500 | 577 | 0 |
+| Current metadata and inventories | 650 | 500 | 577 | 0 |
+
+</div>
+
+The same rules reproduce September’s 499 matches and 576 assignments exactly. [Every changed object](../data/mellon-7.8/ott-vendors/runs/20261008-ott-vendors-v1/differences.json) records its cause. Rule changes and ownership-only membership changes are both **zero**. Metadata changes are evaluated first, then inventory changes, so their effects are not counted twice.
 
 ## 4. Per-vendor candidate slices
 
-Only vendors with at least one assignment are expanded below. Collection keys
-are shown at annual cohort grain; the same key can appear under two vendors by
-design. Vendor totals are distinct-key counts across the full period.
-
-<details>
-<summary><strong>Amazon Prime Video — 79</strong></summary>
+<details markdown="1"><summary><strong>Amazon Prime Video — 79</strong></summary>
 
 - **2017 (11):** `americans-501`, `americans-513`, `expanse-201`, `expanse-203`, `expanse-204`, `expanse-210`, `expanse-213`, `i-love-dick`, `star-trek-discovery-101`, `star-trek-discovery-104`, `star-trek-discovery-109`
 
@@ -322,8 +269,15 @@ design. Vendor totals are distinct-key counts across the full period.
 
 </details>
 
-<details>
-<summary><strong>Apple TV — 42</strong></summary>
+<details markdown="1"><summary><strong>Apple TV — 42</strong></summary>
+
+- **2017 (0):** None
+
+- **2018 (0):** None
+
+- **2019 (0):** None
+
+- **2020 (0):** None
 
 - **2021 (6):** `for-all-mankind-201`, `for-all-mankind-210`, `foundation-101`, `invasion-101`, `me-you-cant-see-01`, `ted-lasso-201`
 
@@ -339,15 +293,31 @@ design. Vendor totals are distinct-key counts across the full period.
 
 </details>
 
-<details>
-<summary><strong>Crunchyroll — 1</strong></summary>
+<details markdown="1"><summary><strong>Crunchyroll — 1</strong></summary>
+
+- **2017 (0):** None
+
+- **2018 (0):** None
+
+- **2019 (0):** None
+
+- **2020 (0):** None
 
 - **2021 (1):** `blade-runner-black-lotus-101`
 
+- **2022 (0):** None
+
+- **2023 (0):** None
+
+- **2024 (0):** None
+
+- **2025 (0):** None
+
+- **2026 (0):** None
+
 </details>
 
-<details>
-<summary><strong>Disney+ — 142 / 144 cohort rows</strong></summary>
+<details markdown="1"><summary><strong>Disney+ — 142</strong></summary>
 
 - **2017 (10):** `americans-501`, `americans-513`, `feud-101`, `feud-102`, `feud-108`, `handmaids-tale-101`, `handmaids-tale-105`, `star-wars-last-jedi`, `twin-peaks-310`, `twin-peaks-317`
 
@@ -371,8 +341,7 @@ design. Vendor totals are distinct-key counts across the full period.
 
 </details>
 
-<details>
-<summary><strong>HBO Max — 77</strong></summary>
+<details markdown="1"><summary><strong>HBO Max — 77</strong></summary>
 
 - **2017 (6):** `game-of-thrones-701`, `game-of-thrones-702`, `game-of-thrones-703`, `game-of-thrones-705`, `game-of-thrones-706`, `game-of-thrones-707`
 
@@ -396,8 +365,7 @@ design. Vendor totals are distinct-key counts across the full period.
 
 </details>
 
-<details>
-<summary><strong>Hulu — 57</strong></summary>
+<details markdown="1"><summary><strong>Hulu — 57</strong></summary>
 
 - **2017 (4):** `handmaids-tale-101`, `handmaids-tale-105`, `twin-peaks-310`, `twin-peaks-317`
 
@@ -421,8 +389,7 @@ design. Vendor totals are distinct-key counts across the full period.
 
 </details>
 
-<details>
-<summary><strong>Netflix — 147</strong></summary>
+<details markdown="1"><summary><strong>Netflix — 148</strong></summary>
 
 - **2017 (14):** `el-chapo-02`, `house-of-cards-05`, `into-the-badlands-203`, `narcos-03`, `sense8-02.1`, `stranger-things-02`, `twin-peaks-310`, `twin-peaks-317`, `walking-dead-709`, `walking-dead-710`, `walking-dead-713`, `walking-dead-716`, `walking-dead-801`, `walking-dead-807`
 
@@ -442,12 +409,11 @@ design. Vendor totals are distinct-key counts across the full period.
 
 - **2025 (15):** `american-primeval`, `death-by-lightning`, `frankenstein-2025`, `long-story-short-01`, `love-death-robots-04`, `night-agent-02`, `nouvelle-vague`, `sean-combs-the-reckoning`, `squid-game-03`, `stranger-things-05.1`, `stranger-things-05.2`, `wednesday-02.1`, `wednesday-02.2`, `witcher-04`, `zero-day-01`
 
-- **2026 (13):** `avatar-the-last-airbender-2024-02`, `beef-02`, `bridgerton-04.1`, `bridgerton-04.2`, `dinosaurs-01`, `enola-holmes-3`, `his-and-hers-2026-01`, `mating-season-01`, `my-brilliant-career-2026-01`, `night-agent-03`, `one-piece-2023-02`, `stranger-things-05.3`, `stranger-things-tales-from-85-01`
+- **2026 (14):** `avatar-the-last-airbender-2024-02`, `beef-02`, `bridgerton-04.1`, `bridgerton-04.2`, `dang-01`, `dinosaurs-01`, `enola-holmes-3`, `his-and-hers-2026-01`, `mating-season-01`, `my-brilliant-career-2026-01`, `night-agent-03`, `one-piece-2023-02`, `stranger-things-05.3`, `stranger-things-tales-from-85-01`
 
 </details>
 
-<details>
-<summary><strong>Paramount+ — 22</strong></summary>
+<details markdown="1"><summary><strong>Paramount+ — 22</strong></summary>
 
 - **2017 (7):** `good-fight-101`, `good-fight-105`, `good-fight-108`, `good-fight-110`, `star-trek-discovery-101`, `star-trek-discovery-104`, `star-trek-discovery-109`
 
@@ -457,45 +423,99 @@ design. Vendor totals are distinct-key counts across the full period.
 
 - **2020 (4):** `good-fight-407`, `star-trek-discovery-305`, `star-trek-lower-decks-101`, `star-trek-picard-110`
 
+- **2021 (0):** None
+
+- **2022 (0):** None
+
+- **2023 (0):** None
+
+- **2024 (0):** None
+
+- **2025 (0):** None
+
+- **2026 (0):** None
+
 </details>
 
-<details>
-<summary><strong>Peacock — 4</strong></summary>
+<details markdown="1"><summary><strong>Peacock — 4</strong></summary>
+
+- **2017 (0):** None
+
+- **2018 (0):** None
+
+- **2019 (0):** None
+
+- **2020 (0):** None
+
+- **2021 (0):** None
+
+- **2022 (0):** None
 
 - **2023 (1):** `twisted-metal-01`
 
 - **2024 (3):** `killer-2024`, `laid-01`, `stormy`
 
+- **2025 (0):** None
+
+- **2026 (0):** None
+
 </details>
 
-<details>
-<summary><strong>Viu — 1</strong></summary>
+<details markdown="1"><summary><strong>Viu — 1</strong></summary>
+
+- **2017 (0):** None
+
+- **2018 (0):** None
+
+- **2019 (0):** None
+
+- **2020 (0):** None
+
+- **2021 (0):** None
+
+- **2022 (0):** None
+
+- **2023 (0):** None
+
+- **2024 (0):** None
+
+- **2025 (0):** None
 
 - **2026 (1):** `season-2026-01`
 
 </details>
 
-<details>
-<summary><strong>YouTube — 4</strong></summary>
+<details markdown="1"><summary><strong>YouTube — 4</strong></summary>
+
+- **2017 (0):** None
+
+- **2018 (0):** None
 
 - **2019 (2):** `cobra-kai-02`, `kurulus-osman-01`
 
+- **2020 (0):** None
+
 - **2021 (1):** `cobra-kai-03`
+
+- **2022 (0):** None
+
+- **2023 (0):** None
+
+- **2024 (0):** None
 
 - **2025 (1):** `cobra-kai-06.3`
 
-</details>
+- **2026 (0):** None
 
-<br>
+</details>
 
 ## 5. Multi-vendor overlaps
 
-These 73 objects create the difference between 499 matched objects and 576
-object-vendor assignments. Sixty-nine have two candidate vendors and four have
-three. Overlaps are retained; they are not errors. The Disney+/Hulu overlaps
-are expected under the approved Disney+ content-hub rule.
+These are retained non-exclusive matches. The same key contributes once to each vendor and once to the matched-object union.
 
-| collection_key | Candidate vendors |
+<div class="vendor-table" role="region" aria-label="Multi-vendor objects" tabindex="0" markdown="1">
+
+| Collection key | Candidate vendors |
 | --- | --- |
 | `alien-earth-101` | Disney+, Hulu |
 | `alien-earth-106` | Disney+, Hulu |
@@ -571,257 +591,236 @@ are expected under the approved Disney+ content-hub rule.
 | `twin-peaks-317` | Disney+, Hulu, Netflix |
 | `y-the-last-man-101` | Disney+, Hulu |
 
+</div>
+
 ## 6. Unmatched and blocked rows
 
-The 144 unmatched distinct objects are not asserted to lack streaming
-availability. They lack a direct section 2.1 platform match or an approved
-section 2.2 Disney+ or section 2.3 HBO Max brand-family signal in the current
-canonical metadata.
-
-The following ten selected high-frequency excluded-tag queues are itemized at annual
-cohort grain. They are non-exclusive review aids: a collection key can occur
-under more than one excluded tag, and an excluded tag can coexist with a
-matched OTT tag. They therefore do not form a partition of the 144 unmatched
-objects.
-
-<details>
-<summary><strong><code>motion pictures</code> — 10</strong></summary>
-
-Reason not auto-mapped: generic distributor label, not a platform or
-brand-specific signal. Every current item below independently enters the
-Disney+ candidate slice through approved production-brand evidence.
-
-- **2018 (1):** `black-panther`
-
-- **2021 (1):** `shang-chi-and-the-legend-of-the-ten-rings`
-
-- **2022 (2):** `eternals`, `turning-red`
-
-- **2024 (1):** `inside-out-2`
-
-- **2025 (2):** `moana-2`, `tron-ares`
-
-- **2026 (3):** `hoppers`, `toy-story-5`, `zootopia-2`
-
-</details>
-
-<details>
-<summary><strong><code>20th television</code> — 9</strong></summary>
-
-Reason not auto-mapped: production/distribution company label, not a platform
-or an independently approved brand-family signal. Every current item below
-independently enters the Disney+ candidate slice through approved FX Networks
-evidence.
-
-- **2017 (5):** `americans-501`, `americans-513`, `feud-101`, `feud-102`, `feud-108`
-
-- **2018 (2):** `american-crime-story-201`, `american-crime-story-205`
-
-- **2020 (2):** `devs-108`, `what-we-do-in-the-shadows-210`
-
-</details>
-
-<details>
-<summary><strong><code>warner bros television distribution</code> — 26</strong></summary>
-
-Reason not auto-mapped: television distributor, not an OTT service.
-
-- **2017 (6):** `game-of-thrones-701`, `game-of-thrones-702`, `game-of-thrones-703`, `game-of-thrones-705`, `game-of-thrones-706`, `game-of-thrones-707`
-
-- **2018 (5):** `westworld-201`, `westworld-203`, `westworld-205`, `westworld-207`, `westworld-210`
-
-- **2019 (7):** `big-little-lies-201`, `big-little-lies-207`, `game-of-thrones-801`, `game-of-thrones-803`, `game-of-thrones-806`, `true-detective-301`, `true-detective-308`
-
-- **2020 (6):** `alienist-201`, `doom-patrol-201`, `lovecraft-country-101`, `lovecraft-country-110`, `westworld-301`, `westworld-308`
-
-- **2021 (2):** `doom-patrol-301`, `kung-fu-101`
-
-</details>
-
-<details>
-<summary><strong><code>amc</code> — 19</strong></summary>
-
-Reason not auto-mapped: linear network; not direct evidence of AMC+ availability.
-
-- **2017 (7):** `into-the-badlands-203`, `walking-dead-709`, `walking-dead-710`, `walking-dead-713`, `walking-dead-716`, `walking-dead-801`, `walking-dead-807`
-
-- **2018 (5):** `better-call-saul-406`, `into-the-badlands-308`, `walking-dead-811`, `walking-dead-816`, `walking-dead-908`
-
-- **2019 (2):** `walking-dead-1008`, `walking-dead-916`
-
-- **2022 (2):** `pantheon-108`, `walking-dead-1124`
-
-- **2024 (1):** `monsieur-spade-01`
-
-- **2025 (1):** `dark-winds-301`
-
-- **2026 (1):** `dark-winds-401`
-
-</details>
-
-<details>
-<summary><strong><code>warner bros pictures</code> — 19</strong></summary>
-
-Reason not auto-mapped: theatrical distributor, not an OTT service.
-
-- **2020 (2):** `tenet`, `wonder-woman-1984`
-
-- **2021 (5):** `detective-chinatown-3`, `dune-2021`, `matrix-resurrections`, `no-sudden-move`, `suicide-squad-2021`
-
-- **2022 (1):** `kimi`
-
-- **2023 (2):** `barbie`, `magic-mikes-last-dance`
-
-- **2024 (1):** `dune-2024`
-
-- **2025 (7):** `companion-2025`, `mickey-17`, `minecraft-movie-2025`, `one-battle-after-another`, `sinners-2025`, `superman-2025`, `weapons-2025`
-
-- **2026 (1):** `all-you-need-is-kill`
-
-</details>
-
-<details>
-<summary><strong><code>cbs</code> — 15</strong></summary>
-
-Reason not auto-mapped: linear network; distinct from the `cbs all access` service.
-
-- **2017 (7):** `good-fight-101`, `good-fight-105`, `good-fight-108`, `good-fight-110`, `star-trek-discovery-101`, `star-trek-discovery-104`, `star-trek-discovery-109`
-
-- **2018 (2):** `star-trek-discovery-110`, `star-trek-discovery-115`
-
-- **2019 (4):** `big-bang-theory-1223`, `star-trek-discovery-201`, `star-trek-discovery-206`, `star-trek-discovery-214`
-
-- **2020 (1):** `star-trek-discovery-305`
-
-- **2021 (1):** `oprah-meghan-harry`
-
-</details>
-
-<details>
-<summary><strong><code>paramount</code> — 15</strong></summary>
-
-Reason not auto-mapped: company/studio label; not direct evidence of Paramount+ availability.
-
-- **2017 (4):** `good-fight-101`, `good-fight-105`, `good-fight-108`, `good-fight-110`
-
-- **2018 (4):** `good-fight-202`, `good-fight-205`, `good-fight-210`, `good-fight-213`
-
-- **2019 (2):** `good-fight-301`, `good-fight-310`
-
-- **2020 (1):** `good-fight-407`
-
-- **2021 (1):** `good-fight-510`
-
-- **2024 (1):** `special-ops-lioness-201`
-
-- **2025 (1):** `south-park-27`
-
-- **2026 (1):** `legend-of-aang-the-last-airbender`
-
-</details>
-
-<details>
-<summary><strong><code>syfy</code> — 12</strong></summary>
-
-Reason not auto-mapped: linear network, not a listed OTT service.
-
-- **2017 (5):** `expanse-201`, `expanse-203`, `expanse-204`, `expanse-210`, `expanse-213`
-
-- **2018 (2):** `expanse-301`, `expanse-313`
-
-- **2019 (1):** `expanse-04`
-
-- **2020 (1):** `expanse-501`
-
-- **2021 (2):** `expanse-510`, `expanse-601`
-
-- **2022 (1):** `expanse-606`
-
-</details>
-
-<details>
-<summary><strong><code>legendary television distribution</code> — 10</strong></summary>
-
-Reason not auto-mapped: television distributor, not an OTT service.
-
-- **2017 (5):** `expanse-201`, `expanse-203`, `expanse-204`, `expanse-210`, `expanse-213`
-
-- **2018 (2):** `expanse-301`, `expanse-313`
-
-- **2019 (1):** `expanse-04`
-
-- **2020 (1):** `expanse-501`
-
-- **2021 (1):** `expanse-510`
-
-</details>
-
-<details>
-<summary><strong><code>showtime</code> — 8</strong></summary>
-
-Reason not auto-mapped: premium linear network, not a listed OTT service or an
-approved Paramount+ brand-history alias.
-
-- **2017 (2):** `twin-peaks-310`, `twin-peaks-317`
-
-- **2019 (2):** `black-monday-106`, `black-monday-110`
-
-- **2021 (1):** `black-monday-310`
-
-- **2022 (1):** `yellowjackets-110`
-
-- **2023 (1):** `curse-01`
-
-- **2025 (1):** `yellowjackets-201`
-
-</details>
-
-In the September snapshot, `dang-01` had no JSON record under the same key
-in canonical metadata revision `075745a3d7`, so that snapshot excluded it from
-vendor counts. **Resolved 2026-10-08:** canonical metadata and a sourced
-representation review now exist for DANG!, and it is included in the current
-197-work [Asian American Media analysis](https://alpha60-devops.github.io/alpha60-asian-american-media/docs/aam.html).
-See the [canonical record](https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/cb0a34076827ae64b0d68a8f17761ba5303ac374/metadata/dang-01.json)
-and [review](https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/cb0a34076827ae64b0d68a8f17761ba5303ac374/reviews/representation/dang-01.json).
-The September vendor totals above remain a dated snapshot, not current corpus
-coverage. DANG!'s Wikipedia URL remains unrecorded; that separate identifier
-gap does not mean its metadata or official Netflix evidence is absent.
+No corporate-family tag is promoted to OTT availability. The complete unmatched ledger follows; conditional failures and their evidence are also downloadable. Missing metadata and absence of a candidate signal are separate dispositions.
+
+**Legacy-tag coverage gap:** 16 cohort objects lack both production and distribution tags. They remain in the population and the [coverage-gap ledger](../data/mellon-7.8/ott-vendors/runs/20261008-ott-vendors-v1/tag-coverage-gaps.json). Crew Girl has confirmed Netflix commissioner/platform relationships in structured metadata, but this report’s frozen exact-tag rules do not read those relationships. Its unmatched row therefore does not deny Netflix availability or undo its USA Production/AAM qualification. Extending this report to structured relationships requires a separately versioned membership rule.
+
+<div class="vendor-table" role="region" aria-label="Unmatched objects" tabindex="0" markdown="1">
+
+| Collection key | Disposition | Distribution tags |
+| --- | --- | --- |
+| `abbott-elementary-113` | no-approved-signal | abc |
+| `alienist-201` | no-approved-signal | tnt, warner bros television distribution |
+| `all-the-old-knives` | no-approved-signal | amazon studios |
+| `all-you-need-is-kill` | no-approved-signal | warner bros pictures |
+| `american-fiction` | no-approved-signal | orion pictures, through, amazon mgm studios |
+| `american-revolution-2025` | no-approved-signal | pbs |
+| `anora` | no-approved-signal | neon united states and canada, focus features international |
+| `apprentice-2024` | no-approved-signal | mongrel media canada, studiocanal ireland, nordisk film denmark, rich spirit, briarcliff entertainment united states |
+| `avatar-the-way-of-water` | no-approved-signal | 20th century studios |
+| `bachelors-23-and-01` | no-approved-signal | abc |
+| `backrooms-2026` | no-approved-signal | a24 |
+| `barbie` | no-approved-signal | warner bros pictures |
+| `beacon-23-101` | no-approved-signal | mgm |
+| `beacon-23-108` | no-approved-signal | mgm |
+| `beastars-03.2` | no-approved-signal; missing legacy tags | None |
+| `beatles-anthology` | no-approved-signal | abc, united states |
+| `big-bang-theory-1223` | no-approved-signal | cbs |
+| `black-bag-2025` | no-approved-signal | focus features united states, universal pictures international |
+| `black-mirror-06` | no-approved-signal | channel 4 |
+| `black-monday-106` | no-approved-signal | showtime |
+| `black-monday-110` | no-approved-signal | showtime |
+| `black-monday-310` | no-approved-signal | showtime |
+| `blade-runner-2049` | no-approved-signal | warner bros pictures united states and canada, sony pictures releasing international international |
+| `blink-twice` | no-approved-signal | amazon mgm studios united states, warner bros pictures international |
+| `bliss` | no-approved-signal | amazon studios |
+| `borats-american-lockdown` | no-approved-signal; missing legacy tags | None |
+| `boy-and-the-heron` | no-approved-signal | toho |
+| `brothers-01` | no-approved-signal; missing legacy tags | None |
+| `cinderella-2021` | no-approved-signal | amazon studios |
+| `cocaine-cowboys-the-kings-of-miami` | no-approved-signal | None |
+| `coming-2-america` | no-approved-signal | amazon studios |
+| `common-side-effects-01` | no-approved-signal | adult swim |
+| `companion-2025` | no-approved-signal | warner bros pictures |
+| `coyote-vs-acme` | no-approved-signal; missing legacy tags | None |
+| `crew-girl-01` | no-approved-signal; missing legacy tags | None |
+| `curse-01` | no-approved-signal | showtime |
+| `dan-da-dan-210` | no-approved-signal | mbs, tbs |
+| `dark-winds-301` | no-approved-signal | amc |
+| `dark-winds-401` | no-approved-signal | amc |
+| `debris-113` | no-approved-signal | nbcuniversal television distribution, nbc |
+| `demon-slayer-kimetsu-no-yaiba-the-movie-infinity-castle` | no-approved-signal | aniplex toho japan, crunchyroll through sony pictures releasing worldwide |
+| `demon-slayer-kimetsu-no-yaiba-the-movie-mugen-train` | no-approved-signal | aniplex, toho |
+| `detective-chinatown-3` | no-approved-signal | wanda pictures, warner bros pictures |
+| `doctor-who-1101` | no-approved-signal | bbc studios, bbc one |
+| `doctor-who-1105` | no-approved-signal | bbc studios, bbc one |
+| `doctor-who-1200` | no-approved-signal | bbc studios, bbc one |
+| `doors` | no-approved-signal | bloody disgusting |
+| `drama-2026` | no-approved-signal | a24 |
+| `dune-2021` | no-approved-signal | warner bros pictures |
+| `dune-2024` | no-approved-signal | warner bros pictures |
+| `dungeons-and-dragons-honor-among-thieves` | no-approved-signal | paramount pictures select territories, entertainment one united kingdom, sam film iceland |
+| `emilia-perez` | no-approved-signal | pathe distribution |
+| `everything-everywhere-all-at-once` | no-approved-signal | a24 |
+| `expanse-601` | no-approved-signal | syfy |
+| `expanse-606` | no-approved-signal | syfy |
+| `ferhat-ile-sirin` | no-approved-signal; missing legacy tags | None |
+| `furious-2025` | no-approved-signal | edko films hong kong, lionsgate films international |
+| `ghost-in-the-shell-2026-01` | no-approved-signal | fns, kansai tv, fuji tv, channel neco, kry, animax |
+| `goat-2026` | no-approved-signal | sony pictures releasing |
+| `godzilla-minus-one` | no-approved-signal | toho |
+| `godzilla-vs-kong` | no-approved-signal | warner bros pictures worldwide, toho towa japan |
+| `godzilla-x-kong-the-new-empire` | no-approved-signal | warner bros pictures worldwide, toho japan |
+| `good-fight-510` | no-approved-signal | paramount |
+| `harley-quinn-301` | no-approved-signal | dc universe |
+| `highest-2-lowest` | no-approved-signal | a24, apple original films |
+| `human-flow` | no-approved-signal | nfp marketing distribution germany, lionsgate, international |
+| `i-am-the-night-103` | no-approved-signal | tnt |
+| `i-am-the-night-106` | no-approved-signal | tnt |
+| `industry-401` | no-approved-signal | bbc uk, hbo us |
+| `intergalactic-01` | no-approved-signal | sky one |
+| `invite-2026` | no-approved-signal | a24 |
+| `kimi` | no-approved-signal | warner bros pictures |
+| `king-of-the-hill-14` | no-approved-signal | fox |
+| `kingdom-of-the-planet-of-the-apes` | no-approved-signal | 20th century studios |
+| `kung-fu-113` | no-approved-signal | the cw |
+| `lazarus-101` | no-approved-signal | tv tokyo jp, adult swim us |
+| `lazarus-108` | no-approved-signal | tv tokyo jp, adult swim us |
+| `lazarus-111` | no-approved-signal | tv tokyo jp, adult swim us |
+| `legend-of-aang-the-last-airbender` | no-approved-signal | paramount |
+| `legend-of-galactic-heroes-die-neue-these` | no-approved-signal | family gekijo, tokyo mx, mbs, bs11 |
+| `lego-star-wars-the-mandalorian-2026` | no-approved-signal; missing legacy tags | None |
+| `magic-mikes-last-dance` | no-approved-signal | warner bros pictures |
+| `matrix-resurrections` | no-approved-signal | warner bros pictures |
+| `mickey-17` | no-approved-signal | warner bros pictures |
+| `minecraft-movie-2025` | no-approved-signal | warner bros pictures |
+| `money-heist-05.1` | no-approved-signal | antena 3 |
+| `money-heist-05.2` | no-approved-signal | antena 3 |
+| `monsieur-spade-01` | no-approved-signal | amc, us, canal, france |
+| `neagley-01` | no-approved-signal; missing legacy tags | None |
+| `no-more-bets` | no-approved-signal | None |
+| `no-sudden-move` | no-approved-signal | warner bros pictures |
+| `no-time-to-die` | no-approved-signal | united artists releasing united states, universal pictures international |
+| `obsession-2025` | no-approved-signal | focus features united states, universal pictures international |
+| `olympics-2026` | no-approved-signal; missing legacy tags | None |
+| `one-battle-after-another` | no-approved-signal | warner bros pictures |
+| `one-night-in-miami` | no-approved-signal | amazon studios |
+| `one-piece-95x` | no-approved-signal | fuji television |
+| `one-piece-98x` | no-approved-signal | fuji television |
+| `oppenheimer` | no-approved-signal | universal pictures |
+| `oprah-meghan-harry` | no-approved-signal | cbs |
+| `pacific-rim-the-black` | no-approved-signal; missing legacy tags | None |
+| `pantheon-108` | no-approved-signal | amc |
+| `permanent-record` | no-approved-signal; missing legacy tags | None |
+| `polite-society` | no-approved-signal | universal pictures |
+| `predator-badlands` | no-approved-signal | 20th century studios |
+| `president-curtis-01` | no-approved-signal | adult swim |
+| `prisoners-of-the-ghostland` | no-approved-signal | elysian film group, rlje films |
+| `project-hail-mary` | no-approved-signal | amazon mgm studios united states and canada, sony pictures releasing international international |
+| `queen-of-the-south-301` | no-approved-signal | usa network |
+| `queen-of-the-south-311` | no-approved-signal | usa network |
+| `queen-of-the-south-313` | no-approved-signal | usa network |
+| `queen-of-the-south-407` | no-approved-signal | usa network |
+| `queen-of-the-south-413` | no-approved-signal | usa network |
+| `queen-of-the-south-510` | no-approved-signal | usa network |
+| `renaissance` | no-approved-signal | pathe distribution |
+| `rick-and-morty-901` | no-approved-signal | adult swim |
+| `road-house-2024` | no-approved-signal | amazon mgm studios |
+| `screeners` | no-approved-signal; missing legacy tags | None |
+| `send-help` | no-approved-signal | 20th century studios |
+| `sinners-2025` | no-approved-signal | warner bros pictures |
+| `slow-horses-601` | no-approved-signal; missing legacy tags | None |
+| `snowpiercer-209` | no-approved-signal | tnt |
+| `snowpiercer-401` | no-approved-signal | tnt |
+| `songbird` | no-approved-signal | stxfilms |
+| `south-park-27` | no-approved-signal | comedy central, paramount |
+| `special-ops-lioness-201` | no-approved-signal | paramount |
+| `spider-noir-01` | no-approved-signal | mgm |
+| `stormy-daniels-2017` | no-approved-signal; missing legacy tags | None |
+| `suicide-squad-2021` | no-approved-signal | warner bros pictures |
+| `super-mario-brothers-movie` | no-approved-signal | universal pictures |
+| `super-mario-galaxy-movie` | no-approved-signal | universal pictures |
+| `superman-2025` | no-approved-signal | warner bros pictures |
+| `tenet` | no-approved-signal | warner bros pictures |
+| `tomorrow-war` | no-approved-signal | amazon studios |
+| `ultra-city-smiths-106` | no-approved-signal; missing legacy tags | None |
+| `vanguard` | no-approved-signal | golden screen cinemas |
+| `walking-dead-1124` | no-approved-signal | amc |
+| `warrior-310` | no-approved-signal | cinemax |
+| `we-are-lady-parts-02` | no-approved-signal | channel 4 |
+| `weapons-2025` | no-approved-signal | warner bros pictures |
+| `wicked-2024` | no-approved-signal | universal pictures |
+| `wicked-for-good-2025` | no-approved-signal | universal pictures |
+| `wild-robot` | no-approved-signal | universal pictures |
+| `wonder-woman-1984` | no-approved-signal | warner bros pictures |
+| `world-cup-2026` | no-approved-signal; missing legacy tags | None |
+| `yellowjackets-110` | no-approved-signal | showtime |
+| `yellowjackets-201` | no-approved-signal | showtime |
+| `yellowstone-210` | no-approved-signal | paramount network |
+| `yellowstone-505` | no-approved-signal | paramount network |
+| `you-04.2` | no-approved-signal | lifetime |
+
+</div>
 
 ## 7. Review status and remaining gates
 
-Approved by human review on 2026-09-13:
+*Updated: 2026-10-08 — see [USA Production Company criteria and the Crew Girl crosswalk](#24-what-counts-as-a-usa-production-company). Vendor counts and inventories now reflect the October 8, 2026 computation. The [September 2026 snapshot](20260915_metadata_v7.3_ott_vendors.html) remains available for comparison.*
 
-- the Wikipedia `Streaming platforms` list as the taxonomy for this candidate
-  slicing;
-- the exact section 2.1 normalization crosswalk and definition, unchanged;
-  and
-- the section 2.2 Disney+ content-hub expansion covering Disney, Pixar,
-  Marvel/MarvelTV, Star Wars/StarWars, National Geographic, region-qualified
-  ESPN, Hulu, FX Networks/FX/FXX/FXM/FXP, and Disney+ originals/exclusives; and
-- the section 2.3 HBO network-brand expansion for HBO Max candidate slicing.
+*Status: the Wikipedia [Streaming platforms](https://en.wikipedia.org/wiki/Over-the-top_media_service#Streaming_platforms) list, the section 2.1 normalization crosswalk, the section 2.2 Disney+ content-hub expansion including the FX Networks family, and the section 2.3 HBO network-brand expansion were approved by human review on 2026-09-13; platform membership remains candidate-only, and no canonical metadata is changed by this document.*
 
-Remaining gates:
+### 7.1 Ownership review and remaining evidence gaps
 
-1. Confirm that non-exclusive object-vendor membership is intended; otherwise
-   define a sourced primary-platform rule before using object-share charts.
-2. The `dang-01` missing-record gate was resolved on 2026-10-08, as documented
-   above. A future vendor recount must use a new pinned revision and retain
-   these September totals as its historical baseline.
-3. If these slices are to become canonical, add versioned definitions and
-   evidence-bearing review dispositions in `alpha60-swarm-metadata`; this
-   candidate report does not authorize or perform that promotion.
+The expanded asset review covers **67 exact field/tag pairs** across **190 canonical objects**, including objects outside the annual cohorts. Every candidate has an explicit disposition in the [tag review](../data/mellon-7.8/ott-vendors/runs/20261008-ott-vendors-v1/affiliation-tags.json) and [object audit](../data/mellon-7.8/ott-vendors/runs/20261008-ott-vendors-v1/affiliation-audit.json). Generic tags identify brand families where supported; this is not a complete legal-operator register. Unknown historical periods remain unknown.
 
-## 8. References
+<div class="vendor-table" role="region" aria-label="Separate corporate affiliation measures" tabindex="0" markdown="1">
 
-- Wikipedia, [Over-the-top media service — Streaming platforms](https://en.wikipedia.org/wiki/Over-the-top_media_service#Streaming_platforms), retrieved 2026-09-12.
-- Wikipedia, [Disney+](https://en.wikipedia.org/wiki/Disney%2B), retrieved 2026-09-13; source for the Disney, Pixar, Marvel, Star Wars, National Geographic, ESPN, and Hulu content-hub taxonomy and the regional ESPN qualification.
-- Wikipedia, [FX Networks](https://en.wikipedia.org/wiki/FX_Networks), retrieved 2026-09-13; source for the FX, FXX, FXM, FXP, Hulu, and international Disney+ relationship.
-- Wikipedia, [Westworld](https://en.wikipedia.org/wiki/Westworld_(TV_series)), retrieved 2026-09-13; source for the HBO network example and its historical HBO Max removal caveat.
-- W3C, [Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/), W3C Recommendation.
-- Paramount, [ViacomCBS Unveils Brand for Upcoming Global Streaming Service: Paramount+](https://ir.paramount.com/news-releases/news-release-details/viacomcbs-unveils-brand-upcoming-global-streaming-service), 2020.
-- Warner Bros. Discovery, [Warner Bros. Discovery Announces Max to Become HBO Max This Summer](https://press.wbd.com/us/media-release/warner-bros-discovery-announces-max-become-hbo-max-summer), 2025.
-- YouTube, [Introducing YouTube Premium](https://blog.youtube/news-and-events/introducing-youtube-premium/), 2018.
+| Current Skydance affiliation measure | Distinct cohort objects |
+| --- | --- |
+| service backed | 44 |
+| studio or network backed | 169 |
+| partial interest | 1 |
+| nonpartial union | 181 |
 
-- [HBO's own update — Company update FAQ](https://help.hbomax.com/me-en/Answer/Detail/000002825), retrieved 2026-10-08; Skydance ownership update retains HBO Max and Paramount+ names and describes no immediate service changes.
-- [Netflix corporate information](https://help.netflix.com/en/node/134094), retrieved 2026-10-08.
-- [Netflix 2025 annual filing — company jurisdiction and address](https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/0001065280-26-000034-index.htm), retrieved 2026-10-08.
+</div>
+
+The nonpartial union deduplicates service-backed and studio/network-backed evidence. It is a corporate-affiliation measure, not a streaming slice or a full-control claim. Partial interests are reported separately. Miramax retains Paramount’s 49% interest and beIN’s 51%; SkyShowtime remains a joint venture with Comcast, with its share unspecified by the cited current source.
+
+The Japanese `tbs` tag on DAN DA DAN is excluded from U.S. TBS affiliation. Regional or discontinued entities, ambiguous tags, and incomplete subsidiary histories remain unresolved below. They neither gain a parent annotation nor a streaming assignment.
+
+All3Media International is excluded following the [May 16, 2024 divestiture](https://www.globenewswire.com/news-release/2024/05/16/2883615/0/en/RedBird-IMI-Completes-Acquisition-of-Global-Production-Company-All3Media.html). The CW requires current minority-interest evidence: [Nexstar reports 81.1% as of June 30, 2026](https://www.sec.gov/Archives/edgar/data/1142417/000119312526339827/R10.htm), so historical WBD/Paramount percentages are not carried forward.
+
+<div class="vendor-table" role="region" aria-label="Unresolved and excluded affiliation tags" tabindex="0" markdown="1">
+
+| Field | Exact tag | Disposition |
+| --- | --- | --- |
+| distribution_tags | `cinemax` | unresolved-specific-entity-history |
+| distribution_tags | `dc universe` | unresolved-specific-entity-history |
+| distribution_tags | `tbs` | excluded-unrelated-entity |
+| distribution_tags | `the cw` | unresolved-current-minority-interests |
+| distribution_tags | `warnermedia direct` | unresolved-specific-entity-history |
+| production_tags | `all3media international` | excluded-divested-family |
+| production_tags | `alloy entertainment` | unresolved-specific-entity-history |
+| production_tags | `avatar studios` | unresolved-specific-entity-history |
+| production_tags | `comedy partners` | unresolved-specific-entity-history |
+| production_tags | `paramount television` | unresolved-specific-entity-history |
+| production_tags | `paramount television studios` | unresolved-specific-entity-history |
+| production_tags | `south park studios` | unresolved-specific-entity-history |
+| production_tags | `spelling television` | unresolved-specific-entity-history |
+| production_tags | `studio t` | unresolved-specific-entity-history |
+| production_tags | `warner bros japan` | unresolved-specific-entity-history |
+| production_tags | `warner horizon television seasons 12` | unresolved-specific-entity-history |
+| production_tags | `williams street` | unresolved-specific-entity-history |
+
+</div>
+
+The affiliation audit provides two queries for each affected object: its actual sample-start date when recorded, and 2026-10-08. Missing sample dates are explicit. Ownership periods are start-inclusive and end-exclusive; an evidence-start date is not a claim that the entity was acquired on that date. Original production/distribution tags are unchanged.
+
+## 8. Data and references
+
+[Objects CSV](../data/mellon-7.8/ott-vendors/runs/20261008-ott-vendors-v1/objects.csv), [objects and rule evidence JSON](../data/mellon-7.8/ott-vendors/runs/20261008-ott-vendors-v1/objects.json), [overlaps](../data/mellon-7.8/ott-vendors/runs/20261008-ott-vendors-v1/overlaps.json), [unmatched](../data/mellon-7.8/ott-vendors/runs/20261008-ott-vendors-v1/unmatched.json), [tables](../data/mellon-7.8/ott-vendors/runs/20261008-ott-vendors-v1/tables.json), [executable crosswalk](../data/mellon-7.8/ott-vendors/runs/20261008-ott-vendors-v1/crosswalk.json), [dated organization registry](../data/mellon-7.8/ott-vendors/runs/20261008-ott-vendors-v1/organizations.json), [parent unions](../data/mellon-7.8/ott-vendors/runs/20261008-ott-vendors-v1/parent-unions.json), [build receipt](../data/mellon-7.8/ott-vendors/runs/20261008-ott-vendors-v1/build-receipt.json), and [validation receipt](../data/mellon-7.8/ott-vendors/runs/20261008-ott-vendors-v1/validation.json).
+
+- [Official October 6 closing announcement](https://ir.paramount.com/news-releases/news-release-details/paramount-completes-acquisition-warner-bros-discovery-creating).
+
+- [HBO’s own update](https://help.hbomax.com/me-en/Answer/Detail/000002825).
+
+- [SEC closing and corporate continuity](https://www.sec.gov/Archives/edgar/data/2041610/000110465926113913/tm2626659d7_ex99-2.htm).
+
+- [2025 Paramount combination](https://ir.paramount.com/node/71726/pdf), [2022 WBD closing](https://www.wbd.com/discovery-and-att-close-warnermedia-transaction/), [2026 WBD portfolio](https://ir.wbd.com/news-and-events/financial-news/financial-news-details/2026/Warner-Bros--Discovery-Reports-Second-Quarter-2026-Results/default.aspx).
+
+- [Miramax interests](https://ir.paramount.com/news-releases/news-release-details/viacomcbs-and-bein-media-group-complete-miramax-transaction/) and [SkyShowtime’s own description](https://corporate.skyshowtime.com/en/about/).
+
+- [Skydance overview](https://en.wikipedia.org/wiki/Skydance_Corporation), [acquisition chronology](https://en.wikipedia.org/wiki/Acquisition_of_Warner_Bros._Discovery_by_Paramount_Skydance), and [asset list](https://en.wikipedia.org/wiki/List_of_assets_owned_by_Skydance_Corporation). The asset list supplied discovery candidates; its speculative-content notice prevents treating every listed relationship as verified.

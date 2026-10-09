@@ -1,0 +1,383 @@
+{
+  "as_of": "2026-10-08",
+  "conditions": {
+    "reviewed-espn-territory": {
+      "accepted_territories": [
+        "United States",
+        "Latin America",
+        "Caribbean",
+        "Australia",
+        "New Zealand",
+        "South Africa"
+      ],
+      "unknown_action": "withhold conditional candidate; record review gate",
+      "verified_collection_territories": {}
+    },
+    "reviewed-star-wars-identity": {
+      "collection_keys": [
+        "acolyte-101",
+        "acolyte-107",
+        "ahsoka-101",
+        "ahsoka-108",
+        "andor-101",
+        "andor-112",
+        "andor-201",
+        "andor-210",
+        "book-of-boba-fett-107",
+        "lego-star-wars-holiday-special-2020",
+        "mandalorian-101",
+        "mandalorian-102",
+        "mandalorian-108",
+        "mandalorian-201",
+        "mandalorian-208",
+        "mandalorian-301",
+        "mandalorian-308",
+        "mandalorian-and-grogu",
+        "maul-shadow-lord-101",
+        "obi-wan-kenobi-101",
+        "obi-wan-kenobi-106",
+        "star-wars-last-jedi",
+        "star-wars-visions-01",
+        "star-wars-visions-03",
+        "star-wars-visions-the-ninth-jedi-01",
+        "tales-of-the-jedi-01"
+      ],
+      "sources": {
+        "acolyte-101": "https://en.wikipedia.org/wiki/Star_Wars:_The_Acolyte",
+        "acolyte-107": "https://en.wikipedia.org/wiki/Star_Wars:_The_Acolyte",
+        "ahsoka-101": "https://en.wikipedia.org/wiki/Star_Wars:_Ahsoka",
+        "ahsoka-108": "https://en.wikipedia.org/wiki/Star_Wars:_Ahsoka",
+        "andor-101": "https://en.wikipedia.org/wiki/Andor",
+        "andor-112": "https://en.wikipedia.org/wiki/Andor",
+        "andor-201": "https://en.wikipedia.org/wiki/Andor",
+        "andor-210": "https://en.wikipedia.org/wiki/Andor",
+        "book-of-boba-fett-107": "https://en.wikipedia.org/wiki/The_Book_of_Boba_Fett",
+        "lego-star-wars-holiday-special-2020": "https://en.wikipedia.org/wiki/The_Lego_Star_Wars_Holiday_Special",
+        "mandalorian-101": "https://en.wikipedia.org/wiki/The_Mandalorian",
+        "mandalorian-102": "https://en.wikipedia.org/wiki/The_Mandalorian",
+        "mandalorian-108": "https://en.wikipedia.org/wiki/The_Mandalorian",
+        "mandalorian-201": "https://en.wikipedia.org/wiki/The_Mandalorian",
+        "mandalorian-208": "https://en.wikipedia.org/wiki/The_Mandalorian",
+        "mandalorian-301": "https://en.wikipedia.org/wiki/The_Mandalorian",
+        "mandalorian-308": "https://en.wikipedia.org/wiki/The_Mandalorian",
+        "mandalorian-and-grogu": "https://en.wikipedia.org/wiki/The_Mandalorian_and_Grogu",
+        "maul-shadow-lord-101": "https://en.wikipedia.org/wiki/Star_Wars:_Maul_%E2%80%93_Shadow_Lord",
+        "obi-wan-kenobi-101": "https://en.wikipedia.org/wiki/Obi-Wan_Kenobi_(miniseries)",
+        "obi-wan-kenobi-106": "https://en.wikipedia.org/wiki/Obi-Wan_Kenobi_(miniseries)",
+        "star-wars-last-jedi": "https://en.wikipedia.org/wiki/Star_Wars:_The_Last_Jedi",
+        "star-wars-visions-01": "https://en.wikipedia.org/wiki/Star_Wars:_Visions",
+        "star-wars-visions-03": "https://en.wikipedia.org/wiki/Star_Wars:_Visions",
+        "star-wars-visions-the-ninth-jedi-01": "https://en.wikipedia.org/wiki/Star_Wars:_Visions_Presents#The_Ninth_Jedi_(2026)",
+        "tales-of-the-jedi-01": "https://en.wikipedia.org/wiki/Star_Wars_Tales_(TV_anthology)"
+      }
+    }
+  },
+  "definition_id": "ott-vendors-20261008-v1",
+  "membership_semantics": "non-exclusive candidates; no assertion of current territory, window or catalog availability",
+  "normalization": "exact canonical tag equality; no substring or case rewriting",
+  "ownership_does_not_assign_services": true,
+  "rules": [
+    {
+      "condition": null,
+      "evidence_type": "direct-platform",
+      "fields": {
+        "distribution_tags": [
+          "amazon mgm studios via prime video worldwide",
+          "amazon prime",
+          "amazon prime video",
+          "prime video"
+        ]
+      },
+      "provider_id": "amazon-prime-video",
+      "rule_id": "direct-amazon-prime-video",
+      "vendor": "Amazon Prime Video"
+    },
+    {
+      "condition": null,
+      "evidence_type": "direct-platform",
+      "fields": {
+        "distribution_tags": [
+          "apple tv",
+          "apple+"
+        ]
+      },
+      "provider_id": "apple-tv",
+      "rule_id": "direct-apple-tv",
+      "vendor": "Apple TV"
+    },
+    {
+      "condition": null,
+      "evidence_type": "direct-platform",
+      "fields": {
+        "distribution_tags": [
+          "crunchyroll streaming"
+        ]
+      },
+      "provider_id": "crunchyroll",
+      "rule_id": "direct-crunchyroll",
+      "vendor": "Crunchyroll"
+    },
+    {
+      "condition": null,
+      "evidence_type": "direct-platform",
+      "fields": {
+        "distribution_tags": [
+          "discovery+"
+        ]
+      },
+      "provider_id": "discovery-plus",
+      "rule_id": "direct-discovery-plus",
+      "vendor": "Discovery+"
+    },
+    {
+      "condition": null,
+      "evidence_type": "direct-platform",
+      "fields": {
+        "distribution_tags": [
+          "disney+"
+        ]
+      },
+      "provider_id": "disney-plus",
+      "rule_id": "direct-disney-plus",
+      "vendor": "Disney+"
+    },
+    {
+      "condition": null,
+      "evidence_type": "direct-platform",
+      "fields": {
+        "distribution_tags": [
+          "hbo max",
+          "max"
+        ]
+      },
+      "provider_id": "hbo-max",
+      "rule_id": "direct-hbo-max",
+      "vendor": "HBO Max"
+    },
+    {
+      "condition": null,
+      "evidence_type": "direct-platform",
+      "fields": {
+        "distribution_tags": [
+          "fx on hulu",
+          "hulu",
+          "hulu united states",
+          "hulu us"
+        ]
+      },
+      "provider_id": "hulu",
+      "rule_id": "direct-hulu",
+      "vendor": "Hulu"
+    },
+    {
+      "condition": null,
+      "evidence_type": "direct-platform",
+      "fields": {
+        "distribution_tags": [
+          "netflix",
+          "netflix international",
+          "netflix united states"
+        ]
+      },
+      "provider_id": "netflix",
+      "rule_id": "direct-netflix",
+      "vendor": "Netflix"
+    },
+    {
+      "condition": null,
+      "evidence_type": "direct-platform",
+      "fields": {
+        "distribution_tags": [
+          "cbs all access",
+          "paramount+"
+        ]
+      },
+      "provider_id": "paramount-plus",
+      "rule_id": "direct-paramount-plus",
+      "vendor": "Paramount+"
+    },
+    {
+      "condition": null,
+      "evidence_type": "direct-platform",
+      "fields": {
+        "distribution_tags": [
+          "peacock"
+        ]
+      },
+      "provider_id": "peacock",
+      "rule_id": "direct-peacock",
+      "vendor": "Peacock"
+    },
+    {
+      "condition": null,
+      "evidence_type": "direct-platform",
+      "fields": {
+        "distribution_tags": [
+          "viu as me za"
+        ]
+      },
+      "provider_id": "viu",
+      "rule_id": "direct-viu",
+      "vendor": "Viu"
+    },
+    {
+      "condition": null,
+      "evidence_type": "direct-platform",
+      "fields": {
+        "distribution_tags": [
+          "youtube premium",
+          "youtube red",
+          "youtube tv"
+        ]
+      },
+      "provider_id": "youtube",
+      "rule_id": "direct-youtube",
+      "vendor": "YouTube"
+    },
+    {
+      "condition": null,
+      "evidence_type": "content-hub",
+      "fields": {
+        "distribution_tags": [
+          "disney"
+        ],
+        "production_tags": [
+          "walt disney animation studios",
+          "walt disney pictures",
+          "walt disney studios"
+        ]
+      },
+      "provider_id": "disney-plus",
+      "rule_id": "disney-brand",
+      "vendor": "Disney+"
+    },
+    {
+      "condition": null,
+      "evidence_type": "content-hub",
+      "fields": {
+        "production_tags": [
+          "pixar animation studios"
+        ]
+      },
+      "provider_id": "disney-plus",
+      "rule_id": "disney-pixar",
+      "vendor": "Disney+"
+    },
+    {
+      "condition": null,
+      "evidence_type": "content-hub",
+      "fields": {
+        "production_tags": [
+          "marvel entertainment",
+          "marvel studios",
+          "marvel studios animation",
+          "marvel television",
+          "marvel television season 1"
+        ]
+      },
+      "provider_id": "disney-plus",
+      "rule_id": "disney-marvel",
+      "vendor": "Disney+"
+    },
+    {
+      "condition": "reviewed-star-wars-identity",
+      "evidence_type": "content-hub",
+      "fields": {
+        "production_tags": [
+          "lucasfilm",
+          "lucasfilm animation",
+          "lucasfilm ltd"
+        ]
+      },
+      "provider_id": "disney-plus",
+      "rule_id": "disney-star-wars",
+      "vendor": "Disney+"
+    },
+    {
+      "condition": null,
+      "evidence_type": "content-hub",
+      "fields": {
+        "distribution_tags": [
+          "national geographic"
+        ],
+        "production_tags": [
+          "national geographic"
+        ]
+      },
+      "provider_id": "disney-plus",
+      "rule_id": "disney-national-geographic",
+      "vendor": "Disney+"
+    },
+    {
+      "condition": "reviewed-espn-territory",
+      "evidence_type": "content-hub",
+      "fields": {
+        "distribution_tags": [
+          "espn"
+        ],
+        "production_tags": [
+          "espn"
+        ]
+      },
+      "provider_id": "disney-plus",
+      "rule_id": "disney-espn",
+      "vendor": "Disney+"
+    },
+    {
+      "condition": null,
+      "evidence_type": "content-hub",
+      "fields": {
+        "distribution_tags": [
+          "fx on hulu",
+          "hulu",
+          "hulu united states",
+          "hulu us"
+        ]
+      },
+      "provider_id": "disney-plus",
+      "rule_id": "disney-hulu",
+      "vendor": "Disney+"
+    },
+    {
+      "condition": null,
+      "evidence_type": "content-hub",
+      "fields": {
+        "distribution_tags": [
+          "fx",
+          "fx networks",
+          "fx movie channel",
+          "fxm",
+          "fxx",
+          "fx on hulu"
+        ],
+        "production_tags": [
+          "fx",
+          "fx networks",
+          "fx productions",
+          "fxm",
+          "fxp",
+          "fxx"
+        ]
+      },
+      "provider_id": "disney-plus",
+      "rule_id": "disney-fx",
+      "vendor": "Disney+"
+    },
+    {
+      "condition": null,
+      "evidence_type": "network-origin",
+      "fields": {
+        "distribution_tags": [
+          "hbo"
+        ]
+      },
+      "provider_id": "hbo-max",
+      "rule_id": "hbo-network",
+      "vendor": "HBO Max"
+    }
+  ],
+  "schema_version": "1.0.0",
+  "sources": [
+    "https://alpha60-devops.github.io/alpha60-results/docs/20260915_metadata_v7.3_ott_vendors.html"
+  ]
+}
