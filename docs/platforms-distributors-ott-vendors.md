@@ -1,4 +1,4 @@
-# Mellon 7.8 — OTT vendor slices
+# Distribution, Platforms, Vendors
 
 <style>
 .vendor-table, .vendor-chart { max-width:100%; overflow-x:auto; margin:1em 0; }
