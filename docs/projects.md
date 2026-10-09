@@ -17,7 +17,10 @@
   - Synthesizing full-series from first 1,2 and last 7,8
 
   - Synthesizing gaps and or missing from existing data. For instance,
-    Andor 201 is missing 5 days. If a week is missing 5 days, then
+    the original Andor 201 planning example assumed five missing days.
+    That is a historical example, not a current coverage assertion; consult
+    the [published sample audit](https://alpha60-devops.github.io/alpha60-results-2025/docs/itemized/andor-201-sample-cache-audit.html).
+    If a week is missing five days, then
     there are only two days of sample results. Can the other five be
     estimated given the previous week and next week? What's the
     methodology, linear fit?

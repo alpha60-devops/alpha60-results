@@ -776,9 +776,16 @@ approved Paramount+ brand-history alias.
 
 </details>
 
-`dang-01` is in the frozen 2026 cohort but has no JSON record under the same key
-in canonical metadata revision `075745a3d7`. It is excluded from all vendor
-counts pending the metadata/factory contract required by stage 4.3.
+In the September snapshot, `dang-01` had no JSON record under the same key
+in canonical metadata revision `075745a3d7`, so that snapshot excluded it from
+vendor counts. **Resolved 2026-10-08:** canonical metadata and a sourced
+representation review now exist for DANG!, and it is included in the current
+197-work [Asian American Media analysis](https://alpha60-devops.github.io/alpha60-asian-american-media/docs/aam.html).
+See the [canonical record](https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/cb0a34076827ae64b0d68a8f17761ba5303ac374/metadata/dang-01.json)
+and [review](https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/cb0a34076827ae64b0d68a8f17761ba5303ac374/reviews/representation/dang-01.json).
+The September vendor totals above remain a dated snapshot, not current corpus
+coverage. DANG!'s Wikipedia URL remains unrecorded; that separate identifier
+gap does not mean its metadata or official Netflix evidence is absent.
 
 ## 7. Review status and remaining gates
 
@@ -797,8 +804,9 @@ Remaining gates:
 
 1. Confirm that non-exclusive object-vendor membership is intended; otherwise
    define a sourced primary-platform rule before using object-share charts.
-2. Add and review the required `dang-01` canonical metadata/factory contract,
-   then regenerate this candidate report from the new pinned revision.
+2. The `dang-01` missing-record gate was resolved on 2026-10-08, as documented
+   above. A future vendor recount must use a new pinned revision and retain
+   these September totals as its historical baseline.
 3. If these slices are to become canonical, add versioned definitions and
    evidence-bearing review dispositions in `alpha60-swarm-metadata`; this
    candidate report does not authorize or perform that promotion.
