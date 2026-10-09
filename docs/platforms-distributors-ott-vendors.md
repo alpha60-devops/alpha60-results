@@ -11,8 +11,6 @@ main code { overflow-wrap:anywhere; }
 
 *Computed: 2026-10-08. Candidate service evidence and corporate affiliation are separate.*
 
-Historical service names remain **HBO**, **HBO Max**, **Max**, **Paramount+**, and **CBS All Access**. [September report](20260915_metadata_v7.3_ott_vendors.html) and [the report before this update](20261008_ott_vendors_pre_stage3.html) are preserved.
-
 ## 1. Introduction and Scope
 
 **Media and entertainment** is the umbrella term for films, television and streaming video, along with the companies that produce, distribute and deliver them. **Production companies** make works; **distributors** arrange releases and licensing; **streaming platforms** deliver video over the internet. A company can fill several roles.
@@ -20,8 +18,6 @@ Historical service names remain **HBO**, **HBO Max**, **Max**, **Paramount+**, a
 **OTT** means **over-the-top**, a broadcasting term for internet delivery beyond traditional broadcast, cable and satellite channels. [IAB Tech Lab explains its origins](https://iabtechlab.com/ott-vs-ctv-whats-in-a-name/). Here, an **OTT vendor** is a streaming service or service family, such as Netflix, Disney+, HBO Max or Paramount+. This report groups Alpha60 media objects by recorded distribution evidence; the [crosswalk below](#21-normalization-crosswalk) lists the twelve reviewed vendors.
 
 The ten annual inventories contain **652 annual rows** and **650 distinct collection keys**. **500 objects** match at least one approved candidate rule, producing **577 non-exclusive object-vendor assignments** across **11 vendors**. **150 objects** have no approved signal; **0 keys** lack canonical metadata. **73 objects** have multiple candidate vendors.
-
-DANG!'s resolved metadata gate now yields a **Netflix candidate**. Its missing Wikipedia URL remains a field-level gap. Its [canonical record](https://github.com/alpha60-devops/alpha60-swarm-metadata/blob/cb0a34076827ae64b0d68a8f17761ba5303ac374/metadata/dang-01.json) records the sourced platform evidence.
 
 ## 2. Scope and method
 
