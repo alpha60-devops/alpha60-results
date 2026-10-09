@@ -177,6 +177,35 @@ citizenship minimum, with the broader USA Production condition.
 Current-parent annotations follow the same separation of roles. HBO and Paramount+ share Skydance affiliation as of October 6, 2026; that relationship adds neither a title producer credit nor an OTT assignment. This ownership update leaves the 197-work AAM selection unchanged.
 
 
+### 2.6 Example: Bridgerton
+
+`bridgerton-04.2` is the 2026 media object for *Bridgerton* Season 4, Part 2,
+which [Netflix released on February 26](https://www.netflix.com/tudum/videos/bridgerton-season-4-trailer-part-2).
+The current metadata has `shondaland` and `cvd productions` production tags
+and a `netflix` distribution tag. The crosswalk below evaluates those tags
+under the section 2.4 rule; a series-wide tag is not automatically a verified
+Part 2 company credit.
+
+<div class="vendor-table" role="region" aria-label="Bridgerton USA Production evidence" tabindex="0" markdown="1">
+
+| Company or credited party | Relationship to Bridgerton 04.2 | Evidence and classification |
+| --- | --- | --- |
+| Shondaland | Series producer; U.S. company-location evidence | [Shondaland identifies *Bridgerton* as a production in its Netflix partnership](https://www.shondalandmedia.com/about-us/), and [Netflix identifies the series as from Shondaland in its Season 4 renewal](https://about.netflix.com/en/news/bridgerton-renewed-for-seasons-3-and-4). Shondaland [lists a Los Angeles address](https://www.shondalandmedia.com/contact-us/); its [privacy policy identifies Shondaland, Inc. in California](https://www.shondaland.com/privacy-policy). These sources support the U.S. producer relationship at the series level, but do not identify the exact Season 4 Part 2 contracting entity. |
+| CVD Productions / Chris Van Dusen | Series-level production tag and original creator credit | The current input retains `cvd productions`, while [Netflix's renewal names Van Dusen as an executive producer](https://about.netflix.com/en/news/bridgerton-renewed-for-seasons-3-and-4). Neither source establishes a distinct CVD Productions credit or its domicile for Part 2. Do not count this tag as a separately confirmed U.S. producer. |
+| Netflix | Season 4 pickup and Part 2 streaming platform | [Netflix announced its Season 4 pickup](https://about.netflix.com/en/news/bridgerton-renewed-for-seasons-3-and-4) and [the Part 2 release on Netflix](https://www.netflix.com/tudum/videos/bridgerton-season-4-trailer-part-2). The reviewed [U.S. provider classification](https://help.netflix.com/en/node/134094) makes the commissioner and platform branches qualify. This identifies the provider brand, not a contracting subsidiary. |
+| Netflix Studios, LLC | U.S. subsidiary; Part 2 production credit unverified | [Netflix's Exhibit 21.1](https://d18rn0p25nwr6d.cloudfront.net/CIK-0001065280/99482238-46b2-4d0d-b292-40e6781bdf03.pdf#page=117) establishes its U.S. status. The sources above do not name it as a Part 2 producer; ownership alone does not create that credit. |
+
+</div>
+
+**Bridgerton 04.2 is USA Production = true under the revised rule.** Netflix's
+confirmed Season 4 pickup and Part 2 platform relationship each provide a
+qualifying U.S. branch. Shondaland adds series-level U.S. production evidence;
+the precise Part 2 legal-entity credit and the CVD Productions tag remain open
+at the more specific company-credit level. The [OTT vendor run](../data/mellon-7.8/ott-vendors/runs/20261008-ott-vendors-v1/objects.csv)
+separately lists this object as a direct Netflix candidate. That catalog
+candidate is not the basis for inventing a Netflix Studios production credit.
+
+
 ## 3. Coverage and assignment counts
 
 ### 3.1 Media-object-by-year matrix
