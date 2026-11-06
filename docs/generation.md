@@ -133,3 +133,25 @@ hash; year-specific pages remain separate when a collection key repeats.
 Check the generated links and search behavior before publishing the main site.
 For local audit staging, `generate-staged-results-in-github.py --offline` skips
 network synchronization, committing, and pushing.
+
+## Keep annual audit pages consistent
+
+`generate-staged-results-in-github.py` normalizes each publication copy with
+the shared `alpha60/scripts/results_page_format.py` formatter. The destination
+year determines its cumulative-map URL, and staging requires both the matching
+aggregate data and the v7.8 map loader. The original generated audit is retained.
+
+Staging also installs the exact formatter at
+`.github/scripts/results_page_format.py` in the annual repository. Include
+`.github` in the Pages workflow's sparse checkout and run this check before
+the Jekyll build, using that repository's year:
+
+```bash
+python3 .github/scripts/results_page_format.py --results-root . --year 2026
+```
+
+This check rejects obsolete headings, missing map controls, and links for the
+wrong collection or year without downloading the large data pack. When the
+shared format changes, update the source formatter, migrate existing pages,
+and stage the same validator bytes together. Retain the full baseline and
+data/figure checks before publication; the sparse format check complements them.
