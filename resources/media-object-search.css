@@ -1,0 +1,15 @@
+.media-search { float: none; width: auto; max-width: 58rem; margin: 1.5rem 0; padding: 0; border: 0; }
+.media-search [hidden] { display: none !important; }
+.media-search label { display: block; font-weight: 700; margin-bottom: 0.4rem; }
+.media-search-controls { display: flex; gap: 0.6rem; }
+.media-search input { flex: 1; min-width: 0; }
+.media-search input, .media-search button {
+  font: inherit; padding: 0.65rem 0.8rem; border: 1px solid #777; border-radius: 4px;
+}
+.media-search button { color: #111; background: #f4f4f4; cursor: pointer; }
+.media-search :focus-visible { outline: 3px solid #0066cc; outline-offset: 3px; }
+.media-search-results { padding-left: 1.4rem; }
+.media-search-results li { padding: 0.55rem 0; overflow-wrap: anywhere; }
+.media-search-detail { display: block; color: #555; font-size: 0.9em; margin-top: 0.2rem; }
+.media-search details ul { overflow-wrap: anywhere; }
+@media (max-width: 420px) { .media-search-controls { flex-wrap: wrap; } }

@@ -12,24 +12,27 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 
     <!-- Preload the regular weight of Noto Sans -->
-    <link rel="preload" href="../resources/fonts/noto-sans-v42-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="{{ '/resources/fonts/noto-sans-v42-latin-regular.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
 
     <!-- Preload the italic weight of Noto Sans -->
-    <link rel="preload" href="../resources/fonts/noto-sans-v42-latin-italic.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="{{ '/resources/fonts/noto-sans-v42-latin-italic.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
 
     <!-- Preload the bold weight (only if it's used immediately "above the fold") -->
-    <link rel="preload" href="../resources/fonts/noto-sans-v42-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="{{ '/resources/fonts/noto-sans-v42-latin-700.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
 
     <link rel="shortcut icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}">
 
     <style>
+/* Keep source hashes and paths readable on narrow screens. */
+main code { overflow-wrap: anywhere; }
+main table { display: block; max-width: 100%; overflow-x: auto; }
 /* noto-sans-regular - latin */
 @font-face {
   font-display: swap;
   font-family: 'Noto Sans';
   font-style: normal;
   font-weight: 400;
-  src: url('../resources/fonts/noto-sans-v42-latin-regular.woff2') format('woff2');
+  src: url('{{ '/resources/fonts/noto-sans-v42-latin-regular.woff2' | relative_url }}') format('woff2');
 }
 
 /* noto-sans-italic - latin */
@@ -38,7 +41,7 @@
   font-family: 'Noto Sans';
   font-style: italic;
   font-weight: 400;
-  src: url('../resources/fonts/noto-sans-v42-latin-italic.woff2') format('woff2');
+  src: url('{{ '/resources/fonts/noto-sans-v42-latin-italic.woff2' | relative_url }}') format('woff2');
 }
 
 /* noto-sans-700 - latin */
@@ -47,7 +50,7 @@
   font-family: 'Noto Sans';
   font-style: normal;
   font-weight: 700;
-  src: url('../resources/fonts/noto-sans-v42-latin-700.woff2') format('woff2');
+  src: url('{{ '/resources/fonts/noto-sans-v42-latin-700.woff2' | relative_url }}') format('woff2');
 }
 
 /* don't render below the fold: 80% on the images and svgs is rougly 480px*/

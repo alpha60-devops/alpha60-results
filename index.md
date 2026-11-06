@@ -29,6 +29,8 @@ These are results from sampling peer swarms associated with *media objects* bein
 <div style="height: 50px;"></div>
 
 ## Results, Commentary
+- [Search media objects](docs/media-object-search.html)
+
 - [Region Top {{ site.data.region_rankings.top_n }}](docs/region-top.html)
 
 - Year

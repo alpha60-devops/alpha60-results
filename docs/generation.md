@@ -109,3 +109,27 @@ Copy skeleton to pagename.md
 Add Question and commentary specific to group
 Write up H3 points in markdown or copy in from elsewhere
 Generate data for commentary from the data files in the repository
+
+
+## Refresh media-object search
+
+The main results site searches committed sample cache audits from the annual
+results repositories. Publish the changed annual site first, then regenerate
+the catalog from the annual `main` revisions in an isolated main-site checkout:
+
+```bash
+python3 /path/to/alpha60/scripts/build-results-search.py \
+  --source-root /path/to/annual-checkouts \
+  --year-site 2026=/path/to/alpha60-results-2026 \
+  --site /path/to/alpha60-results
+```
+
+Use `--year-site YEAR=PATH` for any annual repository outside the source root.
+The generator writes the search page, its browsable fallback, JavaScript, CSS,
+and `resources/media-object-search.json`, and places the search link first under
+Results, Commentary. The catalog records each annual revision and audit-content
+hash; year-specific pages remain separate when a collection key repeats.
+
+Check the generated links and search behavior before publishing the main site.
+For local audit staging, `generate-staged-results-in-github.py --offline` skips
+network synchronization, committing, and pushing.
